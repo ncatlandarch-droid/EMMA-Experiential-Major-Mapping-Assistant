@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- EMMA — Experiential Major Mapping Assistant -->
+  <!-- EMMA â€” Experiential Major Mapping Assistant -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="EMMA — Experiential Major Mapping Assistant. Curriculum-to-Credentials engine for NC A&T State University. Maps every experiential milestone in a student's journey." />
-  <meta name="author" content="Think! Design and Planning, LLC — W. Chris Harrison" />
-  <title>EMMA — Experiential Major Mapping Assistant | NC A&T</title>
+  <meta name="description" content="EMMA â€” Experiential Major Mapping Assistant. Curriculum-to-Credentials engine for NC A&T State University. Maps every experiential milestone in a student's journey." />
+  <meta name="author" content="Think! Design and Planning, LLC â€” W. Chris Harrison" />
+  <title>EMMA â€” Experiential Major Mapping Assistant | NC A&T</title>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,22 +21,22 @@
 </head>
 <body class="role-student">
 
-  <!-- ══════════════════════════════════════════
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
        CONFETTI CANVAS
-       ══════════════════════════════════════════ -->
+       â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
   <canvas id="confetti-canvas"></canvas>
 
-  <!-- ══════════════════════════════════════════
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
        TOAST CONTAINER
-       ══════════════════════════════════════════ -->
+       â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
   <div id="toast-container" class="toast-container"></div>
 
-  <!-- ══════════════════════════════════════════
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
        APP SHELL
-       ══════════════════════════════════════════ -->
+       â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
   <div class="app-shell">
 
-    <!-- ── APP HEADER ── -->
+    <!-- â”€â”€ APP HEADER â”€â”€ -->
     <header class="app-header" id="app-header">
       <div class="header-top-row">
         <div class="header-left">
@@ -56,40 +56,40 @@
         <div class="header-right">
           <!-- College Badge -->
           <div class="college-badge">
-            <span id="college-badge-icon" class="college-badge-icon">🎓</span>
+            <span id="college-badge-icon" class="college-badge-icon">ðŸŽ“</span>
             <span id="college-badge-label" class="college-badge-label">CAES</span>
           </div>
 
           <!-- Program Selector -->
           <button class="header-control-btn" id="program-selector-btn" title="Change Program">
-            <span class="control-icon" id="canvas-selector-icon">🎓</span>
+            <span class="control-icon" id="canvas-selector-icon">ðŸŽ“</span>
             <span class="control-label" id="program-selector-label">Program</span>
           </button>
 
           <!-- Role Switcher -->
           <div class="header-control-btn">
             <select id="role-select" class="header-role-select" style="background:transparent; border:none; color:white; font-size:10px; cursor:pointer;">
-              <option value="student">👩‍🎓 Student</option>
-              <option value="advisor">👨‍🏫 Advisor</option>
-              <option value="admin">🔧 Admin</option>
+              <option value="student">ðŸ‘©â€ðŸŽ“ Student</option>
+              <option value="advisor">ðŸ‘¨â€ðŸ« Advisor</option>
+              <option value="admin">ðŸ”§ Admin</option>
             </select>
           </div>
 
           <!-- Export Word Form (admin only) -->
           <button class="header-control-btn admin-only" id="btn-export-word-form-header" title="Export Journey Map Form">
-            <span class="control-icon">📝</span>
+            <span class="control-icon">ðŸ“</span>
             <span class="control-label">Form</span>
           </button>
 
           <!-- Settings -->
           <button class="header-control-btn" id="btn-settings" title="Settings">
-            <span class="control-icon">⚙️</span>
+            <span class="control-icon">âš™ï¸</span>
             <span class="control-label">Settings</span>
           </button>
 
           <!-- Intro Video -->
           <button class="header-control-btn" id="btn-intro-video" title="Watch Intro">
-            <span class="control-icon">🎬</span>
+            <span class="control-icon">ðŸŽ¬</span>
             <span class="control-label">Intro</span>
           </button>
 
@@ -99,32 +99,32 @@
       </div>
     </header>
 
-    <!-- ── CAREER OUTLOOK STRIP ── -->
+    <!-- â”€â”€ CAREER OUTLOOK STRIP â”€â”€ -->
     <div class="career-outlook-strip" id="career-outlook-strip" style="display:none;">
       <div class="career-stat">
         <span class="career-stat-label">Median Salary</span>
-        <span class="career-stat-value" id="outlook-salary">—</span>
+        <span class="career-stat-value" id="outlook-salary">â€”</span>
       </div>
       <div class="career-stat">
         <span class="career-stat-label">Job Growth</span>
-        <span class="career-stat-value" id="outlook-growth">—</span>
+        <span class="career-stat-value" id="outlook-growth">â€”</span>
       </div>
       <div class="career-stat">
         <span class="career-stat-label">Employment</span>
-        <span class="career-stat-value" id="outlook-employment">—</span>
+        <span class="career-stat-value" id="outlook-employment">â€”</span>
       </div>
       <div class="career-stat">
         <span class="career-stat-label">Field</span>
-        <span class="career-stat-value" id="outlook-field">—</span>
+        <span class="career-stat-value" id="outlook-field">â€”</span>
       </div>
     </div>
 
-    <!-- ══════════════════════════════════════════
+    <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
          3-PANEL BODY
-         ══════════════════════════════════════════ -->
+         â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
     <div class="app-body">
 
-      <!-- ── LEFT: Utility Panel ── -->
+      <!-- â”€â”€ LEFT: Utility Panel â”€â”€ -->
       <aside class="utility-panel" id="utility-panel">
 
         <!-- Emma Avatar (pinned top, never scrolls) -->
@@ -135,11 +135,11 @@
           </div>
           <div class="emma-says-box" id="emma-says-box">
             <div class="emma-says-header">
-              <span class="emma-says-avatar">🤖</span>
+              <span class="emma-says-avatar">ðŸ¤–</span>
               <span class="emma-says-name">EMMA</span>
               <span class="emma-says-badge">AI Coach</span>
             </div>
-            <p class="emma-says-text" id="emma-ticker-text">Hello! I'm EMMA — your Experiential Major Mapping Assistant. Click a milestone to begin.</p>
+            <p class="emma-says-text" id="emma-ticker-text">Hello! I'm EMMA â€” your Experiential Major Mapping Assistant. Click a milestone to begin.</p>
           </div>
           <span class="emma-voice-status" id="emma-voice-status"></span>
         </div>
@@ -171,7 +171,7 @@
         </div>
       </aside>
 
-      <!-- ── CENTER: 4-Year Timeline Canvas ── -->
+      <!-- â”€â”€ CENTER: 4-Year Timeline Canvas â”€â”€ -->
       <section class="center-canvas" id="center-canvas">
         <!-- Canvas Top Bar: progress + program label -->
         <div class="canvas-top-bar">
@@ -188,9 +188,9 @@
         <div class="canvas-title-row">
           <div>
             <h2 class="canvas-title" id="canvas-title">4-Year Experiential Map</h2>
-            <p class="canvas-subtitle" id="canvas-subtitle">Loading program…</p>
+            <p class="canvas-subtitle" id="canvas-subtitle">Loading programâ€¦</p>
           </div>
-          <button class="btn btn-outline admin-only" id="btn-export-pdf" style="display:none;">📄 Export PDF</button>
+          <button class="btn btn-outline admin-only" id="btn-export-pdf" style="display:none;">ðŸ“„ Export PDF</button>
         </div>
 
         <!-- Phase Grid (rendered by matrix-renderer.js) -->
@@ -199,7 +199,7 @@
         </div>
       </section>
 
-      <!-- ── RIGHT: Validation Bridge (ISLA) ── -->
+      <!-- â”€â”€ RIGHT: Validation Bridge (ISLA) â”€â”€ -->
       <aside class="validation-bridge" id="validation-bridge">
         <div class="validation-header">
           <div class="isla-brand-header">
@@ -225,10 +225,10 @@
         <!-- Export Summary -->
         <div id="validation-summary" style="margin-top:auto; padding-top:var(--space-md); border-top:1px solid rgba(0,0,0,0.06);">
           <button class="btn btn-primary" id="btn-export-audit" style="width:100%;">
-            📋 Export Progress Audit
+            ðŸ“‹ Export Progress Audit
           </button>
           <button class="btn btn-primary admin-only" id="btn-export-word-form" style="width:100%; margin-top:var(--space-sm); display:none;" title="Download the Experiential Journey Map intake form as a Word document">
-            📝 Export Major Map Form (.docx)
+            ðŸ“ Export Major Map Form (.docx)
           </button>
         </div>
       </aside>
@@ -237,53 +237,53 @@
 
   </div><!-- end .app-shell -->
 
-  <!-- ══════════════════════════════════════════
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
        MOBILE TAB BAR
-       ══════════════════════════════════════════ -->
+       â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
   <nav class="mobile-tab-bar">
     <button class="mobile-tab-btn active" data-tab="canvas">
-      <span class="mobile-tab-icon">📋</span>
+      <span class="mobile-tab-icon">ðŸ“‹</span>
       <span class="mobile-tab-label">Map</span>
     </button>
     <button class="mobile-tab-btn" data-tab="validation">
-      <span class="mobile-tab-icon">🐾</span>
+      <span class="mobile-tab-icon">ðŸ¾</span>
       <span class="mobile-tab-label">ISLA</span>
     </button>
     <button class="mobile-tab-btn" data-tab="utility">
-      <span class="mobile-tab-icon">📚</span>
+      <span class="mobile-tab-icon">ðŸ“š</span>
       <span class="mobile-tab-label">Resources</span>
     </button>
   </nav>
 
-  <!-- ══════════════════════════════════════════
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
        CHAT PANEL
-       ══════════════════════════════════════════ -->
+       â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
   <div class="chat-panel">
     <div class="chat-messages" id="chat-messages"></div>
     <div class="chat-input-wrap">
-      <input type="text" id="chat-input" class="chat-input" placeholder="Ask EMMA anything…" autocomplete="off" />
+      <input type="text" id="chat-input" class="chat-input" placeholder="Ask EMMA anythingâ€¦" autocomplete="off" />
       <button id="chat-send-btn" class="chat-send-btn" title="Send">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2L15 22L11 13L2 9L22 2Z"/></svg>
       </button>
     </div>
   </div>
 
-  <!-- ══════════════════════════════════════════
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
        MODALS
-       ══════════════════════════════════════════ -->
+       â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
 
   <!-- Milestone Detail Modal -->
   <div class="modal-overlay" id="milestone-detail-modal">
-    <div class="modal-card modal-card--detail">
-      <button class="modal-close" id="detail-modal-close">✕</button>
+    <div class="modal-content modal-content--detail">
+      <button class="modal-close" id="detail-modal-close">âœ•</button>
       <div class="modal-body" id="detail-modal-body"></div>
     </div>
   </div>
 
   <!-- Admin Edit Modal -->
   <div class="modal-overlay" id="admin-edit-modal">
-    <div class="modal-card modal-card--admin">
-      <button class="modal-close" id="admin-edit-close">✕</button>
+    <div class="modal-content modal-content--admin">
+      <button class="modal-close" id="admin-edit-close">âœ•</button>
       <h3 class="modal-title" id="detail-modal-title">Edit Milestone</h3>
       <div class="admin-form">
         <div class="admin-field">
@@ -323,7 +323,7 @@
           <input type="text" id="admin-skills" class="admin-input" />
         </div>
         <div class="admin-actions">
-          <button class="btn btn-primary" id="admin-save-btn">💾 Save Changes</button>
+          <button class="btn btn-primary" id="admin-save-btn">ðŸ’¾ Save Changes</button>
           <button class="btn btn-outline" id="admin-cancel-btn">Cancel</button>
         </div>
       </div>
@@ -332,35 +332,35 @@
 
   <!-- Program Selector Modal -->
   <div class="modal-overlay" id="program-modal">
-    <div class="modal-card modal-card--program">
-      <button class="modal-close" id="program-modal-close">✕</button>
-      <h3 class="modal-title">🎓 Choose Your Program</h3>
+    <div class="modal-content modal-content--program">
+      <button class="modal-close" id="program-modal-close">âœ•</button>
+      <h3 class="modal-title">ðŸŽ“ Choose Your Program</h3>
       <div id="program-list" class="program-list"></div>
     </div>
   </div>
 
   <!-- Settings Modal -->
   <div class="modal-overlay" id="settings-modal">
-    <div class="modal-card modal-card--settings">
-      <button class="modal-close" id="settings-modal-close">✕</button>
-      <h3 class="modal-title">⚙️ Settings</h3>
+    <div class="modal-content modal-content--settings">
+      <button class="modal-close" id="settings-modal-close">âœ•</button>
+      <h3 class="modal-title">âš™ï¸ Settings</h3>
       <div class="settings-form">
         <div class="admin-field">
           <label class="admin-label">Gemini API Key</label>
           <input type="password" id="settings-gemini-key" class="admin-input" placeholder="Enter your Gemini API key" />
           <p class="settings-hint">Enables EMMA's AI voice coaching and chat. Your key is stored locally in your browser.</p>
         </div>
-        <button class="btn btn-primary" id="settings-save-btn" style="width:100%; margin-top:var(--space-md);">💾 Save Settings</button>
+        <button class="btn btn-primary" id="settings-save-btn" style="width:100%; margin-top:var(--space-md);">ðŸ’¾ Save Settings</button>
       </div>
     </div>
   </div>
 
   <!-- Intro Modal -->
   <div class="modal-overlay" id="intro-modal">
-    <div class="modal-card modal-card--intro">
-      <button class="modal-close" id="intro-modal-close">✕</button>
-      <h3 class="modal-title">🎬 Welcome to EMMA</h3>
-      <p class="intro-text">EMMA is your Experiential Major Mapping Assistant — she tracks every milestone in your academic journey and maps them to professional competencies.</p>
+    <div class="modal-content modal-content--intro">
+      <button class="modal-close" id="intro-modal-close">âœ•</button>
+      <h3 class="modal-title">ðŸŽ¬ Welcome to EMMA</h3>
+      <p class="intro-text">EMMA is your Experiential Major Mapping Assistant â€” she tracks every milestone in your academic journey and maps them to professional competencies.</p>
       <video id="intro-video" class="intro-video" controls preload="none">
         <source src="assets/video/emma-intro.mp4" type="video/mp4" />
       </video>
@@ -368,14 +368,14 @@
         <label class="intro-checkbox-label">
           <input type="checkbox" id="intro-dont-show" /> Don't show again
         </label>
-        <button class="btn btn-accent" id="intro-get-started">Get Started →</button>
+        <button class="btn btn-accent" id="intro-get-started">Get Started â†’</button>
       </div>
     </div>
   </div>
 
-  <!-- ══════════════════════════════════════════
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
        SCRIPTS
-       ══════════════════════════════════════════ -->
+       â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
   <!-- Firebase -->
   <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
@@ -402,3 +402,4 @@
   <script src="js/app.js"></script>
 </body>
 </html>
+
