@@ -1,0 +1,7 @@
+# Netlify build artifacts
+.netlify/plugins/
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
