@@ -1,0 +1,58 @@
+{
+  "validationTracks": [
+    {
+      "id": "proserv",
+      "name": "Professional Service Competencies",
+      "description": "Competencies for agricultural professional service careers in extension, USDA, and agricultural organizations",
+      "sections": [
+        {
+          "id": "ps-ext",
+          "name": "Extension & Outreach Knowledge",
+          "description": "Extension education, adult learning, and community program management",
+          "requiredMilestoneIds": [
+            "y1-aged101",
+            "y2-aged301",
+            "y3-aged304",
+            "y3-aged350"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "ps-comm",
+          "name": "Agricultural Communication",
+          "description": "Writing, public speaking, and media skills for agricultural outreach",
+          "requiredMilestoneIds": [
+            "y1-engl100",
+            "y1-spch250",
+            "y2-aged201",
+            "y3-aged360"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "ps-prog",
+          "name": "Program Development",
+          "description": "Needs assessment, program planning, and evaluation",
+          "requiredMilestoneIds": [
+            "y2-soci200",
+            "y3-aged350",
+            "y4-aged480",
+            "y4-aged450"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "ps-place",
+          "name": "Professional Placement",
+          "description": "Internship, capstone, and career readiness",
+          "requiredMilestoneIds": [
+            "y3-intern",
+            "y4-aged480",
+            "y4-career"
+          ],
+          "totalRequired": 3
+        }
+      ]
+    }
+  ]
+}

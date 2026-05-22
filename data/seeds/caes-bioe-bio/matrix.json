@@ -1,0 +1,12 @@
+{
+  "validationTracks": [
+    { "id": "abet", "name": "ABET Accreditation + FE Exam", "description": "ABET student outcomes and FE exam readiness — NC A&T is the first HBCU with ABET-accredited Biological Engineering",
+      "sections": [
+        { "id": "abet-math", "name": "Mathematics & Basic Science", "description": "Calculus, physics, chemistry, and biology foundations required by ABET Criterion 5", "requiredMilestoneIds": ["y1-math131", "y1-chem106", "y2-math132", "y2-phys241", "y2-biol101"], "totalRequired": 5 },
+        { "id": "abet-core", "name": "Engineering Core", "description": "Engineering graphics, transport phenomena, and design communication", "requiredMilestoneIds": ["y1-geen100", "y2-geen111", "y3-bioe400"], "totalRequired": 3 },
+        { "id": "abet-spec", "name": "Bioprocess Specialization", "description": "Bioreactor design, biomass conversion, biochemical engineering, and bioprocess fundamentals", "requiredMilestoneIds": ["y1-bioe121", "y3-bioe301", "y3-bioe350", "y3-bioe410"], "totalRequired": 4 },
+        { "id": "abet-cap", "name": "FE Exam Readiness & Capstone", "description": "Two-semester industry-sponsored design project and FE exam preparation", "requiredMilestoneIds": ["y4-bioe495", "y4-bioe496", "y4-fe", "y4-intern"], "totalRequired": 4 }
+      ]
+    }
+  ]
+}

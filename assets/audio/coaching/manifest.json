@@ -1,0 +1,178 @@
+[
+  {
+    "id": "welcome-0pct",
+    "text": "Welcome to Bachelor of Science in Landscape Architecture! I am Emma, your career mapping assistant."
+  },
+  {
+    "id": "progress-0pct",
+    "text": "You are at zero percent. Click any milestone to start."
+  },
+  {
+    "id": "y1-ldar103",
+    "label": "Complete professional lexicon framing",
+    "category": "Purpose",
+    "phase": "year-1"
+  },
+  {
+    "id": "y1-ldar147",
+    "label": "Develop foundational design process",
+    "category": "Purpose",
+    "phase": "year-1"
+  },
+  {
+    "id": "y1-ldar170",
+    "label": "Master analog and digital representation",
+    "category": "Identity",
+    "phase": "year-1"
+  },
+  {
+    "id": "y1-ldar104",
+    "label": "Map the global history of designed landscapes",
+    "category": "LocalGlobal",
+    "phase": "year-1"
+  },
+  {
+    "id": "y1-ldar148",
+    "label": "Apply site analysis fundamentals",
+    "category": "Purpose",
+    "phase": "year-1"
+  },
+  {
+    "id": "y1-ldar171",
+    "label": "Advance digital visualization pipeline",
+    "category": "Identity",
+    "phase": "year-1"
+  },
+  {
+    "id": "y1-ldar181",
+    "label": "Understand landscape materials and construction methods",
+    "category": "Identity",
+    "phase": "year-1"
+  },
+  {
+    "id": "y2-ldar204",
+    "label": "Build regional plant identification fluency",
+    "category": "Communities",
+    "phase": "year-2"
+  },
+  {
+    "id": "y2-ldar247",
+    "label": "Lead participatory co-design with community stakeholders",
+    "category": "Communities",
+    "phase": "year-2"
+  },
+  {
+    "id": "y2-ldar244",
+    "label": "Design with plants as spatial and ecological systems",
+    "category": "Communities",
+    "phase": "year-2"
+  },
+  {
+    "id": "y2-ldar248",
+    "label": "Analyze and design within ecological systems",
+    "category": "LocalGlobal",
+    "phase": "year-2"
+  },
+  {
+    "id": "y2-ldar249",
+    "label": "Produce professional construction documents — 'Billable on Day One'",
+    "category": "Identity",
+    "phase": "year-2"
+  },
+  {
+    "id": "y2-ldar255",
+    "label": "Articulate a personal design philosophy",
+    "category": "Purpose",
+    "phase": "year-2"
+  },
+  {
+    "id": "y3-ldar345",
+    "label": "Master site engineering and grading",
+    "category": "Identity",
+    "phase": "year-3"
+  },
+  {
+    "id": "y3-ldar347",
+    "label": "Design integrated stormwater management systems",
+    "category": "Identity",
+    "phase": "year-3"
+  },
+  {
+    "id": "y3-ldar399",
+    "label": "Build licensure-ready portfolio and CLARB pathway plan",
+    "category": "Identity",
+    "phase": "year-3"
+  },
+  {
+    "id": "y3-ldar349",
+    "label": "Apply geospatial analysis to landscape planning",
+    "category": "LocalGlobal",
+    "phase": "year-3"
+  },
+  {
+    "id": "y3-ldar348",
+    "label": "Conduct field-based master planning research",
+    "category": "LocalGlobal",
+    "phase": "year-3"
+  },
+  {
+    "id": "y3-internship",
+    "label": "Complete professional internship (300+ hours)",
+    "category": "Identity",
+    "phase": "year-3"
+  },
+  {
+    "id": "y4-ldar440",
+    "label": "Write competitive design proposals and grants",
+    "category": "Purpose",
+    "phase": "year-4"
+  },
+  {
+    "id": "y4-ldar447",
+    "label": "Collaborate across disciplines in integrated project delivery",
+    "category": "Communities",
+    "phase": "year-4"
+  },
+  {
+    "id": "y4-ldar455",
+    "label": "Critically analyze contemporary landscape issues",
+    "category": "LocalGlobal",
+    "phase": "year-4"
+  },
+  {
+    "id": "y4-ldar442",
+    "label": "Prepare for professional practice and LARE examination",
+    "category": "Identity",
+    "phase": "year-4"
+  },
+  {
+    "id": "y4-ldar448",
+    "label": "Execute capstone design-research project",
+    "category": "Identity",
+    "phase": "year-4"
+  },
+  {
+    "id": "y4-isla-sec1",
+    "label": "ISLA: Pass LARE Section 1 — Project & Construction Management",
+    "category": "Identity",
+    "phase": "year-4"
+  },
+  {
+    "id": "y4-isla-sec2",
+    "label": "ISLA: Pass LARE Section 2 — Inventory & Analysis",
+    "category": "Purpose",
+    "phase": "year-4"
+  },
+  {
+    "id": "y4-isla-sec3",
+    "label": "ISLA: Pass LARE Section 3 — Design",
+    "category": "Purpose",
+    "phase": "year-4"
+  },
+  {
+    "id": "y4-isla-sec4",
+    "label": "ISLA: Pass LARE Section 4 — Grading, Drainage & Construction",
+    "category": "Identity",
+    "phase": "year-4"
+  }
+]

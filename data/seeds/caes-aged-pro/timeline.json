@@ -1,0 +1,260 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Introduction to agricultural education and professional service career pathways in extension and USDA agencies.",
+      "milestones": [
+        {
+          "id": "y1-aged101",
+          "label": "Explore ag education & extension careers",
+          "courseRef": "AGED 101 — Intro to Agricultural Education",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Projected curriculum — subject to faculty verification. Survey of agricultural education with emphasis on non-teaching professional service careers in Cooperative Extension, USDA, and agricultural communications.",
+          "skills": [
+            "Career exploration",
+            "Extension awareness",
+            "Agricultural education"
+          ]
+        },
+        {
+          "id": "y1-engl100",
+          "label": "Develop professional writing skills",
+          "courseRef": "ENGL 100 — English Composition I",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Academic and professional writing foundations for agricultural communications, grant writing, and extension publications.",
+          "skills": [
+            "Professional writing",
+            "Communication",
+            "Critical thinking"
+          ]
+        },
+        {
+          "id": "y1-biol100",
+          "label": "Build agricultural science foundations",
+          "courseRef": "BIOL 100 — General Biology",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Biological science foundations supporting agricultural content knowledge for extension education and outreach.",
+          "skills": [
+            "Biology",
+            "Agricultural science",
+            "Content knowledge"
+          ]
+        },
+        {
+          "id": "y1-spch250",
+          "label": "Master public communication",
+          "courseRef": "SPCH 250 — Public Speaking",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Projected curriculum — subject to faculty verification. Public speaking and presentation skills for community outreach, stakeholder engagement, and agricultural communications.",
+          "skills": [
+            "Public speaking",
+            "Outreach communication",
+            "Stakeholder engagement"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Agricultural communication, program development, and community engagement build professional service competencies.",
+      "milestones": [
+        {
+          "id": "y2-aged201",
+          "label": "Study agricultural communications",
+          "courseRef": "AGED 201 — Agricultural Communications",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Projected curriculum — subject to faculty verification. Media production, digital communication, and public information strategies for agricultural agencies and extension services.",
+          "skills": [
+            "Agricultural communications",
+            "Media production",
+            "Digital outreach"
+          ]
+        },
+        {
+          "id": "y2-aged301",
+          "label": "Master youth & community program design",
+          "courseRef": "AGED 301 — Youth Program Management",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "4-H program management, community needs assessment, and youth leadership development. Students design agricultural outreach programs for diverse community audiences.",
+          "skills": [
+            "4-H management",
+            "Needs assessment",
+            "Youth development"
+          ]
+        },
+        {
+          "id": "y2-soci200",
+          "label": "Understand rural communities",
+          "courseRef": "SOCI 200 — Introduction to Sociology",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Social structures, rural sociology, and community dynamics that inform extension programming and agricultural policy development.",
+          "skills": [
+            "Sociology",
+            "Rural communities",
+            "Community dynamics"
+          ]
+        },
+        {
+          "id": "y2-abm130",
+          "label": "Build agribusiness knowledge",
+          "courseRef": "ABM 130 — Intro to Agribusiness",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Agribusiness fundamentals providing economic context for extension education and USDA service programs.",
+          "skills": [
+            "Agribusiness",
+            "Economic literacy",
+            "Agricultural markets"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Advanced extension methods, adult education, and grant writing develop professional service expertise.",
+      "milestones": [
+        {
+          "id": "y3-aged304",
+          "label": "Master adult education methods",
+          "courseRef": "AGED 304 — Adult Education in Agriculture",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Adult learning theory, facilitation skills, and program delivery methods for Cooperative Extension and USDA outreach programs.",
+          "skills": [
+            "Adult education",
+            "Facilitation",
+            "Extension delivery"
+          ]
+        },
+        {
+          "id": "y3-aged350",
+          "label": "Study extension program planning",
+          "courseRef": "AGED 350 — Extension Program Development",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Projected curriculum — subject to faculty verification. Cooperative Extension program planning, needs assessment, logic model development, and program evaluation methods.",
+          "skills": [
+            "Program planning",
+            "Logic models",
+            "Program evaluation"
+          ]
+        },
+        {
+          "id": "y3-aged360",
+          "label": "Develop grant writing skills",
+          "courseRef": "AGED 360 — Grant Writing for Agriculture",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Projected curriculum — subject to faculty verification. Federal and state grant writing for agricultural programs including USDA-NIFA, Extension, and community development funding.",
+          "skills": [
+            "Grant writing",
+            "Federal funding",
+            "Proposal development"
+          ]
+        },
+        {
+          "id": "y3-intern",
+          "label": "Complete extension internship",
+          "courseRef": "AGED 387 — Professional Service Internship",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Projected curriculum — subject to faculty verification. Supervised internship at a Cooperative Extension office, USDA service center, agricultural nonprofit, or government agency.",
+          "skills": [
+            "Extension experience",
+            "Professional practice",
+            "Community outreach"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Capstone project, leadership development, and professional placement finalize career readiness.",
+      "milestones": [
+        {
+          "id": "y4-aged480",
+          "label": "Complete professional service capstone",
+          "courseRef": "AGED 480 — Capstone in Agricultural Professional Service",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Projected curriculum — subject to faculty verification. Integrative capstone project addressing a real extension or agricultural service challenge. Students develop comprehensive program proposals evaluated by faculty and agency professionals.",
+          "skills": [
+            "Capstone research",
+            "Program design",
+            "Professional presentation"
+          ]
+        },
+        {
+          "id": "y4-aged450",
+          "label": "Study agricultural leadership",
+          "courseRef": "AGED 450 — Agricultural Leadership",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Projected curriculum — subject to faculty verification. Leadership theory, organizational change, and stakeholder management in agricultural organizations and government agencies.",
+          "skills": [
+            "Leadership",
+            "Organizational change",
+            "Stakeholder management"
+          ]
+        },
+        {
+          "id": "y4-aged470",
+          "label": "Explore global agricultural development",
+          "courseRef": "AGED 470 — International Agricultural Development",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Projected curriculum — subject to faculty verification. Global food security, international agricultural development, and cross-cultural extension education. Connections to USAID and international agricultural organizations.",
+          "skills": [
+            "Global agriculture",
+            "Food security",
+            "International development"
+          ]
+        },
+        {
+          "id": "y4-career",
+          "label": "Finalize professional placement",
+          "courseRef": "AGED 499 — Professional Development",
+          "credits": 1,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Career preparation including USDA application processes, Cooperative Extension hiring timelines, and professional networking at agricultural conferences.",
+          "skills": [
+            "Career readiness",
+            "USDA applications",
+            "Professional networking"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "validationTracks": [
+    {
+      "id": "ift",
+      "name": "IFT Competency Standards",
+      "description": "Institute of Food Technologists — approved curriculum competency areas for food science professionals",
+      "sections": [
+        { "id": "ift-chem", "name": "Food Chemistry & Safety", "description": "Chemical properties of foods, food safety systems, HACCP, and regulatory compliance", "requiredMilestoneIds": ["y1-fcs245", "y1-chem106", "y2-fcs345", "y2-fcs346"], "totalRequired": 4 },
+        { "id": "ift-proc", "name": "Food Processing & Engineering", "description": "Unit operations, thermal processing, and food manufacturing technology", "requiredMilestoneIds": ["y2-fcs347", "y3-fcs440", "y3-fcs447"], "totalRequired": 3 },
+        { "id": "ift-dev", "name": "Sensory & Product Development", "description": "Sensory evaluation methods, product development cycle, and consumer research", "requiredMilestoneIds": ["y3-fcs441", "y3-fcs442", "y4-fcs480"], "totalRequired": 3 },
+        { "id": "ift-prof", "name": "Quality Assurance & Professional Practice", "description": "QC laboratory management, industry internship, and IFT professional standards", "requiredMilestoneIds": ["y3-fcs447", "y4-fcs487", "y4-fcs480"], "totalRequired": 3 }
+      ]
+    }
+  ]
+}

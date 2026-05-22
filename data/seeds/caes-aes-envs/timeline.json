@@ -1,0 +1,244 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Projected curriculum. Foundation in environmental science.",
+      "milestones": [
+        {
+          "id": "y1-envs201",
+          "label": "Explore environmental science",
+          "courseRef": "ENVS 201 — Intro to Environmental Science",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Projected curriculum. Survey of ecology, pollution, climate change, and natural resources.",
+          "skills": [
+            "Environmental science",
+            "Career exploration"
+          ]
+        },
+        {
+          "id": "y1-biol100",
+          "label": "Build biology foundations",
+          "courseRef": "BIOL 100 — General Biology",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Cell biology, ecology, and organisms.",
+          "skills": [
+            "Biology",
+            "Ecology"
+          ]
+        },
+        {
+          "id": "y1-chem106",
+          "label": "Complete chemistry",
+          "courseRef": "CHEM 106 — General Chemistry",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Chemistry for water quality and soil science.",
+          "skills": [
+            "Chemistry",
+            "Environmental chemistry"
+          ]
+        },
+        {
+          "id": "y1-math111",
+          "label": "Build quantitative skills",
+          "courseRef": "MATH 111 — College Algebra",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Mathematical foundations for data modeling.",
+          "skills": [
+            "Mathematics",
+            "Data analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Projected curriculum. Ecology, soil science, and policy.",
+      "milestones": [
+        {
+          "id": "y2-envs210",
+          "label": "Study ecology",
+          "courseRef": "ENVS 210 — Ecology",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Projected curriculum. Population and ecosystem ecology with field labs.",
+          "skills": [
+            "Ecology",
+            "Field methods"
+          ]
+        },
+        {
+          "id": "y2-nars225",
+          "label": "Study soil science",
+          "courseRef": "NARS 225 — Soil Science",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Projected curriculum. Soil formation, classification, and properties.",
+          "skills": [
+            "Soil science",
+            "Classification"
+          ]
+        },
+        {
+          "id": "y2-envs220",
+          "label": "Analyze environmental policy",
+          "courseRef": "ENVS 220 — Environmental Policy",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Projected curriculum. NEPA, Clean Air/Water Acts, and ESA analysis.",
+          "skills": [
+            "Environmental policy",
+            "NEPA"
+          ]
+        },
+        {
+          "id": "y2-math224",
+          "label": "Master statistics",
+          "courseRef": "MATH 224 — Statistics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Statistics for environmental data analysis.",
+          "skills": [
+            "Statistics",
+            "Research design"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Projected curriculum. GIS, waste management, and assessment.",
+      "milestones": [
+        {
+          "id": "y3-envs410",
+          "label": "Master GIS",
+          "courseRef": "ENVS 410 — GIS",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Projected curriculum. Spatial analysis and remote sensing for environmental assessment.",
+          "skills": [
+            "GIS",
+            "Remote sensing"
+          ]
+        },
+        {
+          "id": "y3-wmi333",
+          "label": "Study waste management",
+          "courseRef": "WMI 333 — Waste Management",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "description": "Projected curriculum. Solid, hazardous, and wastewater systems.",
+          "skills": [
+            "Waste management",
+            "Regulatory compliance"
+          ]
+        },
+        {
+          "id": "y3-envs420",
+          "label": "Conduct environmental assessment",
+          "courseRef": "ENVS 420 — Environmental Assessment",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Projected curriculum. EIS preparation and risk assessment.",
+          "skills": [
+            "EIS",
+            "Risk assessment"
+          ]
+        },
+        {
+          "id": "y3-envs422",
+          "label": "Study water resources",
+          "courseRef": "ENVS 422 — Water Resources",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Projected curriculum. Watershed management and stormwater BMPs.",
+          "skills": [
+            "Watershed management",
+            "Water quality"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Projected curriculum. Capstone and professional placement.",
+      "milestones": [
+        {
+          "id": "y4-envs444",
+          "label": "Complete capstone project",
+          "courseRef": "ENVS 444 — Capstone",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Projected curriculum. Independent environmental research project.",
+          "skills": [
+            "Capstone",
+            "Environmental analysis"
+          ]
+        },
+        {
+          "id": "y4-envs487",
+          "label": "Complete internship",
+          "courseRef": "ENVS 487 — Internship",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Projected curriculum. Placement at environmental agency or firm.",
+          "skills": [
+            "Industry placement",
+            "Applied science"
+          ]
+        },
+        {
+          "id": "y4-envs450",
+          "label": "Study sustainability",
+          "courseRef": "ENVS 450 — Sustainability Science",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "description": "Projected curriculum. Climate science and green infrastructure.",
+          "skills": [
+            "Sustainability",
+            "Climate science"
+          ]
+        },
+        {
+          "id": "y4-career",
+          "label": "Finalize career placement",
+          "courseRef": "ENVS 499 — Professional Development",
+          "credits": 1,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Career preparation for environmental consulting, EPA, nonprofits.",
+          "skills": [
+            "Career readiness",
+            "Professional networking"
+          ]
+        }
+      ]
+    }
+  ]
+}

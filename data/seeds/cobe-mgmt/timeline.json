@@ -1,0 +1,236 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Self-Discovery & Business Foundations — Identify personal strengths, explore management career pathways, and build foundational business communication skills.",
+      "milestones": [
+        {
+          "id": "y1-purpose-01",
+          "label": "Complete CliftonStrengths assessment and reflection",
+          "courseRef": "MGMT 110 — Introduction to Management",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Complete the Gallup CliftonStrengths assessment to identify top five signature themes and develop a personal strengths narrative. Students connect their natural talents to management career pathways through structured self-reflection, peer discussion, and a written strengths integration plan. Establishes the foundation for purposeful career exploration throughout the program.",
+          "skills": ["Self-assessment", "Strengths identification", "Reflective writing", "Career exploration"]
+        },
+        {
+          "id": "y1-purpose-02",
+          "label": "Participate in first-year business seminar series",
+          "courseRef": "BUAD 100 — Introduction to Business",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Attend a curated series of industry speaker panels, alumni fireside chats, and corporate site visits designed to expose first-year students to the breadth of management career pathways. Students submit reflection journals connecting each experience to their emerging professional interests and CliftonStrengths profile.",
+          "skills": ["Active listening", "Professional reflection", "Industry awareness", "Networking fundamentals"]
+        },
+        {
+          "id": "y1-identity-01",
+          "label": "Complete career services orientation and workshop",
+          "courseRef": "UNIV 100 — University Seminar",
+          "credits": 1,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Complete the CoBE Career Services onboarding sequence including Handshake profile creation, professional headshot session, LinkedIn profile workshop, and an introduction to the COBE Closet professional attire program. Students leave with a polished digital presence and awareness of all career support resources available throughout their undergraduate journey.",
+          "skills": ["Digital presence", "LinkedIn optimization", "Professional image", "Resource navigation"]
+        },
+        {
+          "id": "y1-communities-01",
+          "label": "Join a business student organization",
+          "courseRef": "Co-Curricular Requirement",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Research and join at least one CoBE-affiliated student organization such as the National Society for Leadership and Success, SHRM student chapter, Enactus, or the Management Club. Students attend a minimum of three meetings per semester, document participation, and reflect on how organizational involvement contributes to their leadership development.",
+          "skills": ["Organizational engagement", "Peer networking", "Leadership exposure", "Community building"]
+        },
+        {
+          "id": "y1-localglobal-01",
+          "label": "Complete global business awareness module",
+          "courseRef": "ECON 100 — Principles of Economics",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Analyze global economic forces shaping business environments through case studies on international trade, emerging markets, and cross-cultural management challenges. Students complete a comparative analysis project examining how management practices differ across cultural contexts, building foundational global business literacy.",
+          "skills": ["Global awareness", "Economic analysis", "Cross-cultural literacy", "Comparative research"]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Professional Networking & Applied Learning — Build industry connections through informational interviews, develop teamwork skills through case competition, and deepen business acumen.",
+      "milestones": [
+        {
+          "id": "y2-communities-01",
+          "label": "Conduct three informational interviews with industry professionals",
+          "courseRef": "MGMT 301 — Organizational Behavior",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Identify, contact, and interview three management professionals across different industries to explore career trajectories, organizational cultures, and leadership philosophies. Students develop professional outreach scripts, conduct structured interviews, and synthesize findings into a comparative analysis report. This milestone builds the relational skills and industry network essential for internship and job placement.",
+          "skills": ["Professional outreach", "Interviewing skills", "Industry research", "Comparative analysis"]
+        },
+        {
+          "id": "y2-identity-01",
+          "label": "Attend CoBE networking mixer and career fair",
+          "courseRef": "MGMT 301 — Organizational Behavior",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Participate in at least two CoBE-sponsored professional networking events including the fall career fair and an industry mixer. Students practice elevator pitches, business card exchange protocols, and follow-up email etiquette. Post-event reflection assignments connect networking experiences to organizational behavior concepts of social capital, impression management, and professional identity construction.",
+          "skills": ["Elevator pitch", "Networking etiquette", "Social capital building", "Follow-up communication"]
+        },
+        {
+          "id": "y2-purpose-01",
+          "label": "Complete team-based case study competition",
+          "courseRef": "MGMT 310 — Human Resource Management",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Collaborate in a cross-functional student team to analyze and present solutions for a real-world HR management case. Teams conduct research, develop strategic recommendations, and deliver a professional presentation to a panel of faculty and industry judges. Students reflect on team dynamics, conflict resolution, and their own leadership style within collaborative settings.",
+          "skills": ["Case analysis", "Team collaboration", "Strategic thinking", "Presentation skills"]
+        },
+        {
+          "id": "y2-localglobal-01",
+          "label": "Analyze local business ecosystem through field study",
+          "courseRef": "MKTG 301 — Principles of Marketing",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Conduct a field-based analysis of the Greensboro-Triad business ecosystem, visiting local enterprises, interviewing small business owners, and mapping community economic assets. Students apply marketing frameworks to assess how local businesses compete in regional and global markets, producing a community business profile that connects classroom theory to place-based economic realities.",
+          "skills": ["Field research", "Community asset mapping", "Market analysis", "Place-based learning"]
+        },
+        {
+          "id": "y2-communities-02",
+          "label": "Deliver community service-learning project",
+          "courseRef": "MGMT 320 — Operations Management",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Partner with a local nonprofit organization to address an operational challenge through a structured service-learning project. Students apply operations management tools including process mapping, efficiency analysis, and quality improvement frameworks to deliver actionable recommendations. Emphasizes reciprocal community engagement and the social responsibility dimensions of management practice.",
+          "skills": ["Service-learning", "Process improvement", "Nonprofit consulting", "Community engagement"]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Personal Brand & Leadership — Craft a distinctive professional identity, secure industry mentorship, and lead a significant organizational project.",
+      "milestones": [
+        {
+          "id": "y3-identity-01",
+          "label": "Craft personal brand statement and digital portfolio",
+          "courseRef": "MGMT 410 — Strategic Management",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Develop a cohesive personal brand encompassing a professional value proposition statement, polished LinkedIn profile, digital portfolio of academic and professional work, and a 90-second video introduction. Students test their personal brand through peer review sessions and informational interview feedback, iterating based on market response. Connects personal branding to strategic positioning concepts covered in the course.",
+          "skills": ["Personal branding", "Value proposition", "Digital portfolio", "Video communication"]
+        },
+        {
+          "id": "y3-communities-01",
+          "label": "Secure and engage with an industry mentor",
+          "courseRef": "MGMT 410 — Strategic Management",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Identify and establish a formal mentorship relationship with a management professional through the CoBE Alumni Mentor Network or industry partner program. Students meet with their mentor monthly, develop a mentorship agreement with goals and expectations, and document insights from each meeting in a structured mentorship journal. The relationship provides career guidance, industry perspective, and professional sponsorship.",
+          "skills": ["Mentorship cultivation", "Relationship management", "Professional development", "Career strategy"]
+        },
+        {
+          "id": "y3-localglobal-01",
+          "label": "Complete cross-cultural management simulation",
+          "courseRef": "MGMT 430 — International Management",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Participate in an immersive cross-cultural management simulation involving negotiation, team leadership, and strategic decision-making across culturally diverse virtual teams. Students analyze how national culture dimensions (Hofstede, GLOBE) influence management effectiveness, communication styles, and organizational design. Culminates in a reflection paper connecting simulation experiences to global career readiness.",
+          "skills": ["Cross-cultural negotiation", "Global team leadership", "Cultural intelligence", "Simulation-based learning"]
+        },
+        {
+          "id": "y3-purpose-01",
+          "label": "Lead a significant organizational improvement project",
+          "courseRef": "MGMT 425 — Leadership and Change Management",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Design and lead an organizational improvement initiative within a campus organization, community partner, or internship site. Students apply change management frameworks (Kotter, Lewin, ADKAR) to diagnose organizational challenges, build stakeholder coalitions, implement interventions, and measure outcomes. The project serves as evidence of leadership impact and is documented for portfolio inclusion.",
+          "skills": ["Change management", "Stakeholder coalitions", "Project leadership", "Impact measurement"]
+        },
+        {
+          "id": "y3-identity-02",
+          "label": "Complete summer internship or co-op experience",
+          "courseRef": "MGMT 395 — Management Internship",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Secure and complete a structured internship or cooperative education experience with an approved employer. Students apply management theory in a professional setting, receive supervisor evaluations, and submit a comprehensive internship reflection report analyzing their performance against CoBE learning outcomes. Career Services provides placement support, and students who do not secure external placements complete faculty-supervised applied projects.",
+          "skills": ["Professional work experience", "Applied management", "Supervisor feedback", "Performance reflection"]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Career Placement & Capstone — Finalize professional readiness through negotiation training, capstone integration, and career launch activation.",
+      "milestones": [
+        {
+          "id": "y4-identity-01",
+          "label": "Complete salary negotiation and offer evaluation training",
+          "courseRef": "MGMT 490 — Senior Seminar in Management",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Participate in intensive negotiation workshops covering salary negotiation, benefits evaluation, offer comparison frameworks, and counter-offer strategies. Students engage in role-play exercises with industry HR professionals, analyze compensation data using Glassdoor and Bureau of Labor Statistics resources, and develop a personal compensation strategy document for their target industry and geography.",
+          "skills": ["Salary negotiation", "Compensation analysis", "Offer evaluation", "Professional assertiveness"]
+        },
+        {
+          "id": "y4-purpose-01",
+          "label": "Execute capstone strategic consulting project",
+          "courseRef": "MGMT 495 — Capstone in Management",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Collaborate with a real client organization to diagnose a strategic challenge, conduct primary and secondary research, develop data-driven recommendations, and deliver a professional consulting presentation. The capstone integrates all functional business knowledge areas and demonstrates readiness for professional management practice. Projects are evaluated by a panel of faculty and industry professionals.",
+          "skills": ["Strategic consulting", "Client management", "Data-driven recommendations", "Executive presentation"]
+        },
+        {
+          "id": "y4-communities-01",
+          "label": "Serve as peer mentor for underclassmen",
+          "courseRef": "MGMT 490 — Senior Seminar in Management",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Serve as a peer mentor for first- or second-year CoBE students, facilitating study groups, sharing career development strategies, and modeling professional behavior. Senior mentors complete mentor training, meet with mentees biweekly, and submit a mentorship impact reflection documenting how the experience deepened their own leadership identity and commitment to community development.",
+          "skills": ["Peer mentorship", "Knowledge transfer", "Leadership modeling", "Community stewardship"]
+        },
+        {
+          "id": "y4-localglobal-01",
+          "label": "Develop industry-specific placement portfolio",
+          "courseRef": "MGMT 490 — Senior Seminar in Management",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Assemble a comprehensive career launch package targeting a specific industry sector including a tailored resume, cover letter templates, case interview preparation materials, and a documented network map of industry contacts. Students conduct company-specific research, practice behavioral and case interviews with Career Services coaches, and participate in mock assessment center exercises. This milestone directly supports the 62% full-time placement benchmark.",
+          "skills": ["Career launch preparation", "Industry targeting", "Interview preparation", "Assessment center readiness"]
+        },
+        {
+          "id": "y4-identity-02",
+          "label": "Complete exit competency assessment and career activation",
+          "courseRef": "MGMT 495 — Capstone in Management",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Complete the CoBE Management Exit Assessment measuring competency across all program learning outcomes including strategic thinking, ethical leadership, quantitative reasoning, and communication effectiveness. Students also finalize their career activation status — documenting job offers accepted, graduate school admissions, or alternative post-graduation plans. Results feed into program-level assessment and accreditation reporting.",
+          "skills": ["Competency demonstration", "Self-assessment", "Career activation", "Program outcome alignment"]
+        }
+      ]
+    }
+  ]
+}

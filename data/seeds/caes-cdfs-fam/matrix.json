@@ -1,0 +1,55 @@
+{
+  "validationTracks": [
+    {
+      "id": "cfle",
+      "name": "CFLE Certification — NCFR",
+      "description": "Certified Family Life Educator competencies across 10 NCFR content areas",
+      "sections": [
+        {
+          "id": "cfle-dev",
+          "name": "Human Development",
+          "description": "Child development, lifespan development, and developmental theory",
+          "requiredMilestoneIds": [
+            "y1-psyc101",
+            "y2-fcs260",
+            "y4-fcs450"
+          ],
+          "totalRequired": 3
+        },
+        {
+          "id": "cfle-fam",
+          "name": "Family Dynamics",
+          "description": "Family systems, relationships, diversity, and sexuality education",
+          "requiredMilestoneIds": [
+            "y2-fcs321",
+            "y2-fcs334",
+            "y3-fcs440"
+          ],
+          "totalRequired": 3
+        },
+        {
+          "id": "cfle-comm",
+          "name": "Community Engagement",
+          "description": "Family life education methods, practicum, and community service",
+          "requiredMilestoneIds": [
+            "y3-fcs430",
+            "y3-fcs460",
+            "y4-fcs487"
+          ],
+          "totalRequired": 3
+        },
+        {
+          "id": "cfle-cert",
+          "name": "Ethics & CFLE Eligibility",
+          "description": "Professional ethics, resource management, capstone, and exam readiness",
+          "requiredMilestoneIds": [
+            "y3-fcs420",
+            "y4-fcs461",
+            "y4-cfle"
+          ],
+          "totalRequired": 3
+        }
+      ]
+    }
+  ]
+}

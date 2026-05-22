@@ -1,0 +1,263 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Introduction to agribusiness foundations and career pathways in agriculture, food systems, and supply chain management.",
+      "milestones": [
+        {
+          "id": "y1-abm130",
+          "label": "Explore agribusiness career pathways",
+          "courseRef": "ABM 130 — Intro to Agribusiness",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Survey of agribusiness sectors including food industry management, agricultural finance, supply chain logistics, and international trade. Students explore career options through industry guest speakers and field visits.",
+          "skills": [
+            "Agribusiness foundations",
+            "Career exploration",
+            "Industry awareness"
+          ]
+        },
+        {
+          "id": "y1-econ200",
+          "label": "Master microeconomic principles",
+          "courseRef": "ECON 200 — Principles of Microeconomics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Supply and demand, market structures, and pricing theory applied to agricultural markets and food systems economics.",
+          "skills": [
+            "Microeconomics",
+            "Market analysis",
+            "Pricing theory"
+          ]
+        },
+        {
+          "id": "y1-math111",
+          "label": "Build quantitative foundations",
+          "courseRef": "MATH 111 — College Algebra",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Mathematical foundations for business analytics, financial calculations, and statistical modeling in agribusiness.",
+          "skills": [
+            "Algebra",
+            "Quantitative reasoning",
+            "Business math"
+          ]
+        },
+        {
+          "id": "y1-biol100",
+          "label": "Study biological science foundations",
+          "courseRef": "BIOL 100 — General Biology",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Biological principles underlying agricultural production, food safety, and environmental sustainability.",
+          "skills": [
+            "Biology",
+            "Agricultural science",
+            "Environmental awareness"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Business technology, supply chain management, and economic analysis build professional competencies.",
+      "milestones": [
+        {
+          "id": "y2-abm240",
+          "label": "Master agribusiness information technology",
+          "courseRef": "ABM 240 — Information Technology in Agribusiness",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Database management, spreadsheet modeling, and precision agriculture technology applications. Students develop data-driven decision-making skills for modern agribusiness operations.",
+          "skills": [
+            "Database management",
+            "Precision ag",
+            "Data analytics"
+          ]
+        },
+        {
+          "id": "y2-mgmt110",
+          "label": "Study management principles",
+          "courseRef": "MGMT 110 — Principles of Management",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Organizational behavior, leadership, and management theory applied to agricultural enterprises and food industry organizations.",
+          "skills": [
+            "Management",
+            "Leadership",
+            "Organizational behavior"
+          ]
+        },
+        {
+          "id": "y2-scmg240",
+          "label": "Analyze agricultural supply chains",
+          "courseRef": "SCMG 240 — Supply Chain Management",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Supply chain design, logistics, inventory management, and procurement for agricultural commodities and food products. Global supply chain analysis and risk management.",
+          "skills": [
+            "Supply chain",
+            "Logistics",
+            "Global trade",
+            "Risk management"
+          ]
+        },
+        {
+          "id": "y2-acct201",
+          "label": "Master financial accounting",
+          "courseRef": "ACCT 201 — Principles of Accounting",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Financial accounting principles, balance sheets, income statements, and cash flow analysis for agricultural enterprises.",
+          "skills": [
+            "Accounting",
+            "Financial statements",
+            "Business analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Applied economics, agricultural accounting, and concentration coursework develop specialized expertise.",
+      "milestones": [
+        {
+          "id": "y3-abm330",
+          "label": "Apply agricultural economics analysis",
+          "courseRef": "ABM 330 — Applied Agricultural Economics",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Economic analysis methods applied to agricultural policy, commodity markets, and farm management decisions. Students analyze real USDA data and develop economic impact assessments.",
+          "skills": [
+            "Applied economics",
+            "Policy analysis",
+            "USDA data",
+            "Impact assessment"
+          ]
+        },
+        {
+          "id": "y3-abm432",
+          "label": "Master agricultural accounting",
+          "courseRef": "ABM 432 — Agricultural Accounting",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Cost accounting, budgeting, and financial management specific to agricultural operations, cooperatives, and food industry firms.",
+          "skills": [
+            "Agricultural accounting",
+            "Budgeting",
+            "Cost analysis"
+          ]
+        },
+        {
+          "id": "y3-abm434",
+          "label": "Develop agricultural marketing strategies",
+          "courseRef": "ABM 434 — Agricultural Marketing",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Marketing principles for agricultural commodities, food products, and agribusiness services. Students develop marketing plans analyzing both domestic and international market opportunities.",
+          "skills": [
+            "Agricultural marketing",
+            "Market strategy",
+            "International trade"
+          ]
+        },
+        {
+          "id": "y3-intern",
+          "label": "Complete summer internship",
+          "courseRef": "ABM 387 — Internship",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Supervised internship at an agribusiness firm, USDA agency, agricultural cooperative, or food industry company. Students apply classroom knowledge in professional settings.",
+          "skills": [
+            "Industry experience",
+            "Professional networking",
+            "Applied skills"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Quantitative analysis, capstone, and professional preparation finalize career readiness.",
+      "milestones": [
+        {
+          "id": "y4-abm406",
+          "label": "Master quantitative analysis methods",
+          "courseRef": "ABM 406 — Quantitative Analysis in Agribusiness",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Statistical methods, linear programming, and decision analysis applied to agribusiness management. Students use SAS, Excel, and specialized software for data-driven agricultural decision-making.",
+          "skills": [
+            "Quantitative analysis",
+            "Statistics",
+            "Decision modeling",
+            "SAS"
+          ]
+        },
+        {
+          "id": "y4-abm480",
+          "label": "Complete agribusiness capstone",
+          "courseRef": "ABM 480 — Agribusiness Capstone",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Integrative capstone project addressing a real agribusiness challenge. Student teams work with industry partners to develop business plans, market analyses, or operational improvement proposals.",
+          "skills": [
+            "Capstone research",
+            "Business planning",
+            "Industry collaboration",
+            "Professional presentation"
+          ]
+        },
+        {
+          "id": "y4-conc",
+          "label": "Complete concentration coursework",
+          "courseRef": "ABM 4XX — Concentration Elective",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "description": "Advanced coursework in chosen concentration: Food Industry Management, International Agribusiness, or Agricultural Finance.",
+          "skills": [
+            "Specialization",
+            "Advanced knowledge"
+          ]
+        },
+        {
+          "id": "y4-career",
+          "label": "Finalize career placement preparation",
+          "courseRef": "ABM 499 — Professional Development",
+          "credits": 1,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Resume workshops, mock interviews, career fair preparation, and professional portfolio development. Students leverage CAES career services and alumni networks.",
+          "skills": [
+            "Career readiness",
+            "Professional portfolio",
+            "Networking"
+          ]
+        }
+      ]
+    }
+  ]
+}

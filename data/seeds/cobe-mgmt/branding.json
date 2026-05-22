@@ -1,0 +1,50 @@
+{
+  "institutionName": "North Carolina Agricultural and Technical State University",
+  "abbreviation": "NC A&T",
+  "collegeName": "Willie A. Deese College of Business and Economics (CoBE)",
+  "departmentName": "Department of Management",
+  "programName": "Bachelor of Science in Management",
+  "degreeType": "BSBA",
+  "programSlug": "cobe-mgmt",
+  "tagline": "Leading People, Shaping Organizations, Driving Impact",
+  "brandingColors": {
+    "primaryHex": "#1B365D",
+    "primaryRgb": "27, 54, 93",
+    "secondaryHex": "#C8102E",
+    "secondaryRgb": "200, 16, 46",
+    "backgroundHex": "#F4F5F7",
+    "surfaceHex": "#FFFFFF",
+    "textPrimaryHex": "#1A1A2E",
+    "textSecondaryHex": "#555770"
+  },
+  "categoryColors": {
+    "Purpose": {
+      "hex": "#2563EB",
+      "rgb": "37, 99, 235",
+      "emoji": "🔍",
+      "label": "Purpose & Self-Discovery"
+    },
+    "Communities": {
+      "hex": "#059669",
+      "rgb": "5, 150, 105",
+      "emoji": "🤝",
+      "label": "Communities & Service"
+    },
+    "LocalGlobal": {
+      "hex": "#D97706",
+      "rgb": "217, 119, 6",
+      "emoji": "🌍",
+      "label": "Local & Global Engagement"
+    },
+    "Identity": {
+      "hex": "#7C3AED",
+      "rgb": "124, 58, 237",
+      "emoji": "💼",
+      "label": "Professional Identity"
+    }
+  },
+  "validationType": "placement",
+  "validationLabel": "Corporate Leadership Readiness",
+  "accreditationBody": "AACSB (Association to Advance Collegiate Schools of Business)",
+  "licensureExam": null
+}

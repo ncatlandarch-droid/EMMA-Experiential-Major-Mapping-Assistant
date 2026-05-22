@@ -1,0 +1,59 @@
+{
+  "validationTracks": [
+    {
+      "id": "ncdpi",
+      "name": "NC Teaching License — Agricultural Education",
+      "description": "NC DPI teacher licensure requirements and CAEP accreditation standards",
+      "sections": [
+        {
+          "id": "ncdpi-ped",
+          "name": "Pedagogical Knowledge",
+          "description": "Teaching methods, culturally responsive pedagogy, and educational technology",
+          "requiredMilestoneIds": [
+            "y1-edpr102",
+            "y2-edpr210",
+            "y2-sped250",
+            "y3-aged303",
+            "y3-aged302"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "ncdpi-cont",
+          "name": "Agricultural Content Mastery",
+          "description": "Subject-matter knowledge in agricultural sciences",
+          "requiredMilestoneIds": [
+            "y1-aged101",
+            "y1-biol100",
+            "y2-ansc163",
+            "y2-aged301",
+            "y3-aged304"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "ncdpi-clin",
+          "name": "Clinical Practice",
+          "description": "Field experiences and student teaching",
+          "requiredMilestoneIds": [
+            "y3-edpr410",
+            "y4-aged405",
+            "y4-edpr498"
+          ],
+          "totalRequired": 3
+        },
+        {
+          "id": "ncdpi-prax",
+          "name": "Praxis & Licensure Readiness",
+          "description": "Program planning, environmental education, and exam preparation",
+          "requiredMilestoneIds": [
+            "y4-aged406",
+            "y4-aged407",
+            "y4-edpr498"
+          ],
+          "totalRequired": 3
+        }
+      ]
+    }
+  ]
+}

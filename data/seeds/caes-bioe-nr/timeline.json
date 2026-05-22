@@ -1,0 +1,252 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Mathematics, chemistry, and engineering fundamentals with environmental orientation.",
+      "milestones": [
+        {
+          "id": "y1-geen100",
+          "label": "Explore engineering pathways",
+          "courseRef": "GEEN 100 — Intro to Engineering",
+          "credits": 2,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Introduction to engineering disciplines with focus on natural resources and environmental engineering career pathways.",
+          "skills": [
+            "Engineering orientation",
+            "Career exploration"
+          ]
+        },
+        {
+          "id": "y1-math131",
+          "label": "Master calculus foundations",
+          "courseRef": "MATH 131 — Calculus I",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Derivatives and integrals with applications to environmental flow modeling and resource analysis.",
+          "skills": [
+            "Calculus",
+            "Mathematical modeling"
+          ]
+        },
+        {
+          "id": "y1-bioe121",
+          "label": "Introduction to biological engineering",
+          "courseRef": "BIOE 121 — Intro to Biological Engineering",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Survey of biological engineering with emphasis on natural resource applications.",
+          "skills": [
+            "Bioengineering",
+            "Environmental systems"
+          ]
+        },
+        {
+          "id": "y1-chem106",
+          "label": "Complete general chemistry",
+          "courseRef": "CHEM 106/116 — General Chemistry with Lab",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Chemistry foundations for soil science, water chemistry, and environmental analysis.",
+          "skills": [
+            "Chemistry",
+            "Environmental chemistry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Advanced math, physics, and biology build the scientific foundation for environmental engineering.",
+      "milestones": [
+        {
+          "id": "y2-math132",
+          "label": "Complete calculus II",
+          "courseRef": "MATH 132 — Calculus II",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Advanced integration and differential equations for hydrological modeling.",
+          "skills": [
+            "Calculus II",
+            "Differential equations"
+          ]
+        },
+        {
+          "id": "y2-phys241",
+          "label": "Master engineering physics",
+          "courseRef": "PHYS 241 — University Physics I",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Mechanics, thermodynamics, and fluid properties for environmental systems.",
+          "skills": [
+            "Physics",
+            "Fluid mechanics"
+          ]
+        },
+        {
+          "id": "y2-biol101",
+          "label": "Study ecology & biology",
+          "courseRef": "BIOL 101 — General Biology",
+          "credits": 4,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Ecology, organism biology, and ecosystem science foundations for ecological engineering.",
+          "skills": [
+            "Ecology",
+            "Ecosystem science"
+          ]
+        },
+        {
+          "id": "y2-geen111",
+          "label": "Master CAD & technical drawing",
+          "courseRef": "GEEN 111 — Engineering Graphics",
+          "credits": 2,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Technical drawing and CAD for watershed maps, site plans, and engineering designs.",
+          "skills": [
+            "CAD",
+            "Technical drawing",
+            "Site planning"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Specialized coursework in soil & water engineering, water resources, and ecological design.",
+      "milestones": [
+        {
+          "id": "y3-bioe400",
+          "label": "Master soil & water conservation engineering",
+          "courseRef": "BIOE 400 — Soil & Water Conservation",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "description": "Engineering design for soil erosion control, watershed management, and conservation practices. Students analyze USDA NRCS design standards for agricultural best management practices.",
+          "skills": [
+            "Soil conservation",
+            "Watershed management",
+            "NRCS standards"
+          ]
+        },
+        {
+          "id": "y3-bioe424",
+          "label": "Study water resources engineering",
+          "courseRef": "BIOE 424 — Water Resources Engineering",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Hydrology, hydraulics, and water resources planning. Students design stormwater management systems and analyze water quality using engineering models.",
+          "skills": [
+            "Hydrology",
+            "Stormwater design",
+            "Water quality"
+          ]
+        },
+        {
+          "id": "y3-bioe434",
+          "label": "Design ecological engineering systems",
+          "courseRef": "BIOE 434 — Ecological Engineering",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Integration of ecological principles with engineering design for constructed wetlands, green infrastructure, and ecosystem restoration. Students develop designs for real sites in the NC Piedmont region.",
+          "skills": [
+            "Ecological engineering",
+            "Green infrastructure",
+            "Wetland design"
+          ]
+        },
+        {
+          "id": "y3-bioe301",
+          "label": "Complete transport phenomena",
+          "courseRef": "BIOE 301 — Transport in Biological Systems",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Heat and mass transfer applied to environmental systems, groundwater flow, and contaminant transport modeling.",
+          "skills": [
+            "Transport phenomena",
+            "Groundwater",
+            "Contaminant modeling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Industry-sponsored capstone, FE exam prep, and professional placement complete ABET requirements.",
+      "milestones": [
+        {
+          "id": "y4-bioe495",
+          "label": "Begin capstone design project",
+          "courseRef": "BIOE 495 — Senior Design I",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "First semester of industry-sponsored capstone. Teams address natural resources engineering challenges like watershed restoration or green infrastructure design.",
+          "skills": [
+            "Project management",
+            "Design criteria",
+            "Team collaboration"
+          ]
+        },
+        {
+          "id": "y4-bioe496",
+          "label": "Complete capstone & present to industry",
+          "courseRef": "BIOE 496 — Senior Design II",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Final capstone delivery with complete engineering designs, cost analysis, and environmental impact assessment. Professional presentation to industry sponsors.",
+          "skills": [
+            "Engineering design",
+            "Cost analysis",
+            "Professional presentation"
+          ]
+        },
+        {
+          "id": "y4-fe",
+          "label": "Prepare for FE exam",
+          "courseRef": "BIOE 490 — FE Exam Preparation",
+          "credits": 1,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Structured FE exam preparation covering environmental engineering, hydrology, and biological engineering topics.",
+          "skills": [
+            "FE exam prep",
+            "Engineering licensure"
+          ]
+        },
+        {
+          "id": "y4-intern",
+          "label": "Complete engineering internship",
+          "courseRef": "BIOE 488 — Internship",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Supervised placement at environmental engineering firm, USDA NRCS, EPA, or water utility. Students apply ABET competencies in professional settings.",
+          "skills": [
+            "Industry experience",
+            "Professional engineering",
+            "Career readiness"
+          ]
+        }
+      ]
+    }
+  ]
+}

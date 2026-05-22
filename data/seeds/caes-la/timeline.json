@@ -1,0 +1,952 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Foundation & Digital Competency — Build professional vocabulary, visual communication skills, and foundational design literacy through immersive studio culture and hands-on material exploration.",
+      "milestones": [
+        {
+          "id": "y1-ldar103",
+          "label": "Complete professional lexicon framing",
+          "courseRef": "LDAR 103 — Landscape Architecture Discovery",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "instructor": "Anna",
+          "description": "This course introduces students to the field of landscape architecture through historical and contemporary lenses. Topics include ethics, environmental and social responsibility, career pathways, professional organizations, key terminology, and critical issues shaping the built and natural environment. Students will engage in precedent studies, reflective journaling, visual presentations, and interactive discussions to begin forming their identity as future landscape architects.",
+          "laabStandards": [
+            "3.A",
+            "3.B.1"
+          ],
+          "skills": [
+            "Professional ethics",
+            "Design thinking",
+            "Career exploration",
+            "Interdisciplinary awareness"
+          ],
+          "learningObjectives": [
+            {
+              "area": "Communication",
+              "text": "Present foundational knowledge of the landscape architecture profession using oral, written, and visual methods."
+            },
+            {
+              "area": "Critical Thinking",
+              "text": "Compare various subfields and roles within landscape architecture, including environmental design, community development, urban design, and ecological planning."
+            },
+            {
+              "area": "Disciplinary Expertise",
+              "text": "Recognize core terms, responsibilities, ethical standards, and the scope of professional practice."
+            },
+            {
+              "area": "Research & Creativity",
+              "text": "Investigate modern and historical examples of landscape architecture to understand its evolution and relevance in contemporary society."
+            }
+          ]
+        },
+        {
+          "id": "y1-ldar147",
+          "label": "Develop foundational design process",
+          "courseRef": "LDAR 147 — Design Foundations Studio",
+          "credits": 4,
+          "category": "Purpose",
+          "semester": "fall",
+          "instructor": "New Hire",
+          "description": "This course introduces students to the foundational elements of the planning and design process in landscape architecture. Students explore 2D and 3D design principles such as form, balance, rhythm, and scale while generating compositions inspired by nature, art, memory, and cultural expression. Through sketching, abstraction, and structured iteration, students develop spatial literacy and a conceptual foundation for diagramming, composition, and early digital workflows that support later design development and planning analysis.",
+          "laabStandards": [
+            "3.B.2",
+            "3.B.3"
+          ],
+          "skills": [
+            "Spatial reasoning",
+            "Compositional design",
+            "Iterative process",
+            "Visual hierarchy"
+          ],
+          "learningObjectives": [
+            {
+              "area": "Communication",
+              "text": "Produce clear 2D/3D compositions and articulate conceptual intentions through visual and verbal means."
+            },
+            {
+              "area": "Critical Thinking",
+              "text": "Apply and refine fundamental design principles—balance, rhythm, proportion, scale, and hierarchy—within spatial compositions."
+            },
+            {
+              "area": "Disciplinary Expertise",
+              "text": "Apply foundational components of the planning and design process, including iteration, abstraction, and visual logic."
+            },
+            {
+              "area": "Research & Creativity",
+              "text": "Respond to inspiration prompts through observational analysis and creative exploration of space and structure."
+            }
+          ]
+        },
+        {
+          "id": "y1-ldar170",
+          "label": "Master analog and digital representation",
+          "courseRef": "LDAR 170 — Landscape Architecture Graphics I",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "instructor": "New Hire",
+          "description": "This course introduces foundational graphic communication techniques used throughout the planning and design process in landscape architecture. Students learn hand-drafting, orthographic projection, lineweight conventions, lettering, and basic digital drafting. Emphasis is placed on precision, clarity, and visual hierarchy in plan and section drawings, preparing students to visually represent spatial ideas at each stage of the design process.",
+          "laabStandards": [
+            "3.B.4"
+          ],
+          "skills": [
+            "Freehand sketching",
+            "Orthographic drawing",
+            "Digital drafting",
+            "Visual communication"
+          ],
+          "learningObjectives": [
+            {
+              "area": "Communication",
+              "text": "Demonstrate the ability to clearly represent landscape spaces using plan, section, and elevation graphics."
+            },
+            {
+              "area": "Critical Thinking",
+              "text": "Translate 3D spatial relationships into scaled 2D representations with accuracy and intention."
+            },
+            {
+              "area": "Disciplinary Expertise",
+              "text": "Understand drafting standards and graphic conventions essential for communicating in the planning and design process."
+            },
+            {
+              "area": "Research & Creativity",
+              "text": "Reference historical and contemporary drawing examples to improve graphic decision-making."
+            }
+          ]
+        },
+        {
+          "id": "y1-ldar104",
+          "label": "Map the global history of designed landscapes",
+          "courseRef": "LDAR 104 — Landscape Architecture History",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "instructor": "New Hire",
+          "description": "This course surveys the historical evolution of landscape architecture and its influence on the contemporary planning and design process. Through global case studies, students explore how cultural, philosophical, ecological, and technological contexts have shaped the development of outdoor spaces over time. Emphasis is placed on identifying historical typologies, spatial structures, and site-planning patterns that inform precedent analysis, conceptual development, and design literacy in later studios.",
+          "laabStandards": [
+            "3.A",
+            "3.B.1"
+          ],
+          "skills": [
+            "Historical analysis",
+            "Cultural context",
+            "Critical theory",
+            "Global awareness"
+          ],
+          "learningObjectives": [
+            {
+              "area": "Communication",
+              "text": "Articulate historical design concepts and their influence on modern practice using oral, written, and visual formats."
+            },
+            {
+              "area": "Critical Thinking",
+              "text": "Compare landscape traditions across cultures and time periods to evaluate how they inform present-day design challenges."
+            },
+            {
+              "area": "Disciplinary Expertise",
+              "text": "Recognize how historic precedents influence spatial organization, programming, and form within the planning and design process."
+            },
+            {
+              "area": "Research & Creativity",
+              "text": "Investigate historical designers and projects to understand foundational planning strategies and their application to contemporary design."
+            }
+          ]
+        },
+        {
+          "id": "y1-ldar148",
+          "label": "Apply site analysis fundamentals",
+          "courseRef": "LDAR 148 — Landscape Architecture Fundamentals",
+          "credits": 4,
+          "category": "Purpose",
+          "semester": "spring",
+          "instructor": "New Hire",
+          "description": "This course introduces students to the fundamentals of the planning and design process in landscape architecture. Students build upon design foundations by learning how to conduct site inventory and analysis, generate conceptual diagrams, and develop spatial strategies that respond to user experience, grading, sustainability, and narrative. Emphasis is placed on integrating historical and cultural context into iterative design proposals. Students work through multiple design phases using digital design tools.",
+          "laabStandards": [
+            "3.B.2",
+            "3.B.5",
+            "3.B.6"
+          ],
+          "skills": [
+            "Site inventory",
+            "Environmental analysis",
+            "Soils assessment",
+            "Hydrological reading"
+          ],
+          "learningObjectives": [
+            {
+              "area": "Communication",
+              "text": "Produce conceptual site designs using hand and digital workflows."
+            },
+            {
+              "area": "Critical Thinking",
+              "text": "Apply analysis of site conditions, user needs, and conceptual drivers to iterative design development."
+            },
+            {
+              "area": "Disciplinary Expertise",
+              "text": "Understand and apply core stages of the planning and design process, including inventory, analysis, concept generation, and schematic design."
+            },
+            {
+              "area": "Research & Creativity",
+              "text": "Explore cultural, artistic, and natural precedents to inform site planning."
+            }
+          ]
+        },
+        {
+          "id": "y1-ldar171",
+          "label": "Advance digital visualization pipeline",
+          "courseRef": "LDAR 171 — Landscape Architecture Graphics II",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "instructor": "New Hire",
+          "description": "This course builds on foundational drafting skills to introduce advanced visual communication methods used throughout the planning and design process. Students develop hybrid workflows that integrate hand drawing, digital rendering, and layout design to produce compelling visual narratives. Emphasis is placed on representation as a design tool—used not just for presentation, but to support analysis, iteration, and conceptual development across project phases.",
+          "laabStandards": [
+            "3.B.4"
+          ],
+          "skills": [
+            "CAD drafting",
+            "Adobe Creative Suite",
+            "3D modeling",
+            "Graphic narrative"
+          ],
+          "learningObjectives": [
+            {
+              "area": "Communication",
+              "text": "Produce polished presentation boards that integrate multiple graphic types, including plans, sections, perspectives, and diagrams."
+            },
+            {
+              "area": "Critical Thinking",
+              "text": "Select appropriate rendering and representation strategies for different design phases and audiences."
+            },
+            {
+              "area": "Disciplinary Expertise",
+              "text": "Apply advanced graphic conventions and digital workflows that enhance visual clarity and decision-making throughout the planning and design process."
+            },
+            {
+              "area": "Research & Creativity",
+              "text": "Analyze professional portfolios and graphic techniques to inform personal style and layout decisions."
+            }
+          ]
+        },
+        {
+          "id": "y1-ldar149",
+          "label": "Understand site materials and construction methods",
+          "courseRef": "LDAR 149 — Site Materials and Construction Methods",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "instructor": "Dallas",
+          "description": "This course introduces students to construction materials and basic assembly systems used in landscape architecture. Through lectures, drawing exercises, and visual analysis, students study how materials shape site experience, support sustainability, and influence construction feasibility. The course connects material knowledge to the planning and design process by showing how technical decisions inform design development, spatial definition, and project implementation.",
+          "laabStandards": [
+            "3.B.7",
+            "3.B.8"
+          ],
+          "skills": [
+            "Material properties",
+            "Construction detailing",
+            "Specification writing",
+            "Sustainable materials"
+          ],
+          "learningObjectives": [
+            {
+              "area": "Communication",
+              "text": "Document basic construction logic and material use through technical drawings and visual diagrams."
+            },
+            {
+              "area": "Critical Thinking",
+              "text": "Evaluate material choices for function, durability, climate compatibility, and environmental impact."
+            },
+            {
+              "area": "Disciplinary Expertise",
+              "text": "Understand how common landscape materials—paving, walls, edging, planting infrastructure are used within the design and construction process."
+            },
+            {
+              "area": "Research & Creativity",
+              "text": "Analyze case studies and product data to inform real-world construction logic and creative detailing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Community Engagement & Ecological Literacy — Immerse in participatory co-design, stakeholder engagement, planting design, and ecological systems thinking through intensive studio sequences.",
+      "milestones": [
+        {
+          "id": "y2-ldar204",
+          "label": "Build regional plant identification fluency",
+          "courseRef": "LDAR 204 — Plant Materials",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "instructor": "Dallas",
+          "description": "This course introduces students to the identification, classification, and functional use of plant materials in landscape architecture. Students learn the aesthetic, ecological, and maintenance characteristics of a wide range of plant species and understand how those qualities inform planting design and site programming. Emphasis is placed on how plant knowledge supports the planning and design process through informed species selection based on site conditions, environmental performance, and design intent.",
+          "laabStandards": [
+            "3.B.5",
+            "3.B.6"
+          ],
+          "skills": [
+            "Plant identification",
+            "Ecological horticulture",
+            "Native species knowledge",
+            "Phenological awareness"
+          ],
+          "learningObjectives": [
+            {
+              "area": "Communication",
+              "text": "Accurately label, diagram, and describe plant materials in written, visual, and spoken formats."
+            },
+            {
+              "area": "Critical Thinking",
+              "text": "Match plant species to site conditions and user needs while considering sustainability, maintenance, and function."
+            },
+            {
+              "area": "Disciplinary Expertise",
+              "text": "Identify plant families and species commonly used in landscape architecture and understand their application in the planning and design process."
+            },
+            {
+              "area": "Research & Creativity",
+              "text": "Create site-specific plant palettes based on site analysis, precedent research, and seasonal performance."
+            }
+          ]
+        },
+        {
+          "id": "y2-ldar247",
+          "label": "Lead participatory co-design with community stakeholders",
+          "courseRef": "LDAR 247 — Social Systems Studio",
+          "credits": 4,
+          "category": "Communities",
+          "semester": "fall",
+          "instructor": "Dallas",
+          "description": "This studio introduces students to the planning and design process through a focus on social systems, user needs, and community contexts. Students engage in site inventory and analysis, stakeholder interviews, and precedent studies to inform conceptual design strategies. Projects explore how spatial programming and iterative design development respond to patterns of behavior, demographics, and social equity. Emphasis is placed on integrating cultural narratives and access into site planning while developing representational skills to communicate evolving design ideas.",
+          "laabStandards": [
+            "3.A",
+            "3.B.2",
+            "3.B.3",
+            "3.B.9"
+          ],
+          "skills": [
+            "Participatory design",
+            "Stakeholder engagement",
+            "Design charrettes",
+            "Environmental justice",
+            "Cultural competency"
+          ],
+          "learningObjectives": [
+            {
+              "area": "Communication",
+              "text": "Develop and present design proposals that communicate community values and project narratives using graphic and verbal methods."
+            },
+            {
+              "area": "Critical Thinking",
+              "text": "Synthesize stakeholder input, demographic data, and spatial analysis to inform iterative design processes."
+            },
+            {
+              "area": "Disciplinary Expertise",
+              "text": "Apply each phase of the planning and design process—including site analysis, programming, schematic design, and refinement—within a socially focused framework."
+            },
+            {
+              "area": "Research & Creativity",
+              "text": "Examine relevant precedents, conduct user-centered site observations, and develop programming diagrams that prioritize human experience."
+            }
+          ]
+        },
+        {
+          "id": "y2-ldar244",
+          "label": "Design with plants as spatial and ecological systems",
+          "courseRef": "LDAR 244 — Designing with Plants",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "instructor": "Dallas",
+          "description": "This course builds upon foundational plant knowledge by introducing the compositional, ecological, and experiential aspects of planting design. Students learn to develop layered planting schemes that address function, aesthetics, biodiversity, and seasonal change. Emphasis is placed on applying planting strategies within the planning and design process through spatial composition, programmatic alignment, and environmental performance. Deliverables include planting plans, section perspectives, and design narratives that communicate intent across schematic and design development phases.",
+          "laabStandards": [
+            "3.B.5",
+            "3.B.6"
+          ],
+          "skills": [
+            "Planting design",
+            "Ecological composition",
+            "Seasonal sequencing",
+            "Maintenance planning"
+          ],
+          "learningObjectives": [
+            {
+              "area": "Communication",
+              "text": "Develop labeled and well-composed planting plans with clear graphic representation and seasonal documentation."
+            },
+            {
+              "area": "Critical Thinking",
+              "text": "Balance beauty, function, site conditions, and sustainability in the creation of planting schemes."
+            },
+            {
+              "area": "Disciplinary Expertise",
+              "text": "Apply species selection, plant layering, and compositional strategies within the planning and design process."
+            },
+            {
+              "area": "Research & Creativity",
+              "text": "Select plants based on bloom sequence, maintenance requirements, habitat value, and site compatibility."
+            }
+          ]
+        },
+        {
+          "id": "y2-ldar248",
+          "label": "Analyze and design within ecological systems",
+          "courseRef": "LDAR 248 — Ecological Systems Studio",
+          "credits": 4,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "instructor": "Dallas",
+          "description": "This studio focuses on integrating ecological knowledge into the planning and design process. Students conduct detailed site analysis across topography, hydrology, vegetation, habitat corridors, and microclimates to guide ecologically informed design strategies. Emphasis is placed on performance-based site planning that supports stormwater management, biodiversity, and resilience. Students progress through inventory and analysis through schematic design and construction detailing—using iterative methods and layered environmental data to produce responsive and measurable outcomes.",
+          "laabStandards": [
+            "3.B.2",
+            "3.B.5",
+            "3.B.6",
+            "3.B.10"
+          ],
+          "skills": [
+            "Ecological analysis",
+            "Watershed management",
+            "Green infrastructure",
+            "Landscape performance metrics"
+          ],
+          "learningObjectives": [
+            {
+              "area": "Communication",
+              "text": "Deliver clear presentations of ecological design solutions through layered diagrams, plans, and models."
+            },
+            {
+              "area": "Critical Thinking",
+              "text": "Analyze site conditions including hydrology, topography, soil, vegetation, and wildlife habitat to drive design decisions."
+            },
+            {
+              "area": "Disciplinary Expertise",
+              "text": "Apply the full planning and design process—including ecological inventory, analysis, programming, and phased design development—with emphasis on ecosystem services and environmental resilience."
+            },
+            {
+              "area": "Research & Creativity",
+              "text": "Investigate ecological precedents, best practices, and regional systems to inform context-specific design solutions."
+            }
+          ]
+        },
+        {
+          "id": "y2-ldar249",
+          "label": "Produce professional construction documents — 'Billable on Day One'",
+          "courseRef": "LDAR 249 — Construction Documents",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "instructor": "Jeff",
+          "description": "This course introduces the documentation and detailing phase of the planning and design process, with an emphasis on translating design intent into buildable solutions. Students develop construction document sets including layout plans, grading diagrams, planting plans, and material details. Emphasis is placed on lineweight control, annotation standards, sheet organization, and digital workflows. Students learn how technical accuracy and clarity support the implementation and communication of landscape designs.",
+          "laabStandards": [
+            "3.B.7",
+            "3.B.8"
+          ],
+          "skills": [
+            "Construction documents",
+            "Technical drawing",
+            "Specification writing",
+            "Industry standards compliance"
+          ],
+          "learningObjectives": [
+            {
+              "area": "Communication",
+              "text": "Produce detailed and legible construction drawings including layout, grading, planting, and detail sheets."
+            },
+            {
+              "area": "Critical Thinking",
+              "text": "Translate conceptual designs into technical construction documents that meet real-world implementation standards."
+            },
+            {
+              "area": "Disciplinary Expertise",
+              "text": "Understand the documentation phase of the planning and design process, including computer aided drafting standards, sheet organization, and technical precision."
+            },
+            {
+              "area": "Research & Creativity",
+              "text": "Analyze construction case studies and technical references to develop appropriate detailing strategies."
+            }
+          ]
+        },
+        {
+          "id": "y2-ldar255",
+          "label": "Articulate a personal design philosophy",
+          "courseRef": "LDAR 255 — Design Theory",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "instructor": "Preston",
+          "description": "This seminar examines the philosophical, cultural, and ethical frameworks that shape the planning and design process in landscape architecture. Students will explore how theories of design inform and impact what gets designed and built. Through readings, discussion, and visual synthesis, students learn to evaluate how theory influences program development, form-making, and decision-making within the design process.",
+          "laabStandards": [
+            "3.A",
+            "3.B.1"
+          ],
+          "skills": [
+            "Critical theory",
+            "Design philosophy",
+            "Academic writing",
+            "Theoretical frameworks"
+          ],
+          "learningObjectives": [
+            {
+              "area": "Communication",
+              "text": "Express theoretical positions clearly in presentations, discussions, and short essays."
+            },
+            {
+              "area": "Critical Thinking",
+              "text": "Evaluate major design theories and their relevance to different phases of the planning and design process."
+            },
+            {
+              "area": "Disciplinary Expertise",
+              "text": "Understand the role of ideology, culture, and ethics in shaping spatial form and function."
+            },
+            {
+              "area": "Research & Creativity",
+              "text": "Analyze case studies and scholarly texts to connect theoretical perspectives to real-world planning and design strategies."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Technical Mastery & Research Methods — Achieve advanced competency in site engineering, geospatial technology, field research, and master planning through intensive studio and lecture sequences.",
+      "milestones": [
+        {
+          "id": "y3-ldar345",
+          "label": "Master site engineering and grading",
+          "courseRef": "LDAR 345 — Site Systems",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "instructor": "Chris",
+          "description": "This course introduces students to the environmental and engineering systems that support technical decision-making within the planning and design process. Topics include soils, hydrology, grading, and stormwater management. Students analyze physical site conditions and apply basic site engineering methods to develop accessible, functional, and resilient site designs. Through lecture and lab work, students learn how technical systems shape feasibility, safety, and performance in the development phase of landscape architecture projects.",
+          "laabStandards": [
+            "3.B.7",
+            "3.B.8",
+            "3.B.10"
+          ],
+          "skills": [
+            "Site engineering",
+            "Cut-and-fill calculation",
+            "ADA compliance",
+            "Utility coordination"
+          ],
+          "learningObjectives": [
+            {
+              "area": "Communication",
+              "text": "Produce grading and drainage plans using standard conventions and accurate notation."
+            },
+            {
+              "area": "Critical Thinking",
+              "text": "Analyze topographic data and assess site challenges including water movement, soil stability, and slope compliance."
+            },
+            {
+              "area": "Disciplinary Expertise",
+              "text": "Apply environmental systems knowledge to support the technical phases of the planning and design process."
+            },
+            {
+              "area": "Research & Creativity",
+              "text": "Investigate low-impact development strategies and natural systems to inform sustainable site design."
+            }
+          ]
+        },
+        {
+          "id": "y3-ldar347",
+          "label": "Design integrated stormwater management systems",
+          "courseRef": "LDAR 347 — Landform & Stormwater Studio",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "instructor": "Christin",
+          "description": "This advanced studio challenges students to apply grading, stormwater, and landform strategies as integrated components of the planning and design process. Students analyze terrain, hydrologic flows, soil systems, and access requirements to develop site proposals that balance technical feasibility, spatial experience, and environmental performance. Emphasis is placed on iterative modeling, cut-fill logic, and stormwater best management practices (BMPs) to create buildable and ecologically responsive land-based designs.",
+          "laabStandards": [
+            "3.B.2",
+            "3.B.7",
+            "3.B.8",
+            "3.B.10"
+          ],
+          "skills": [
+            "Stormwater design",
+            "Bioretention systems",
+            "Landform manipulation",
+            "Regulatory compliance"
+          ],
+          "learningObjectives": [
+            {
+              "area": "Communication",
+              "text": "Produce annotated grading plans, landform models, and stormwater sections that explain technical strategies clearly."
+            },
+            {
+              "area": "Critical Thinking",
+              "text": "Solve complex terrain challenges through a design process that balances hydrology, access, soil performance, and aesthetics."
+            },
+            {
+              "area": "Disciplinary Expertise",
+              "text": "Apply contour design, cut-fill logic, and stormwater BMPs within landscape proposals."
+            },
+            {
+              "area": "Research & Creativity",
+              "text": "Investigate successful case studies of landform-based design and implement similar strategies in new contexts."
+            }
+          ]
+        },
+        {
+          "id": "y3-ldar349",
+          "label": "Apply geospatial analysis to landscape planning",
+          "courseRef": "LDAR 349 — GIS Applications in Environmental Design",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "instructor": "Chris",
+          "description": "This course introduces students to Geographic Information Systems (GIS) as a critical tool for site inventory, spatial analysis, and data-driven decision-making within the planning and design process. Students learn to collect, manage, and visualize geospatial data to identify patterns, constraints, and opportunities across ecological, cultural, and infrastructural layers. Emphasis is placed on how spatial data informs programming, suitability analysis, and site planning.",
+          "laabStandards": [
+            "3.B.4",
+            "3.B.6",
+            "3.B.10"
+          ],
+          "skills": [
+            "GIS analysis",
+            "Suitability modeling",
+            "LIDAR processing",
+            "Geospatial data management"
+          ],
+          "learningObjectives": [
+            {
+              "area": "Communication",
+              "text": "Create clear thematic maps using spatial data and cartographic principles."
+            },
+            {
+              "area": "Critical Thinking",
+              "text": "Interpret geospatial layers to uncover relationships between land use, ecology, and culture."
+            },
+            {
+              "area": "Disciplinary Expertise",
+              "text": "Apply GIS workflows—including georeferencing, attribute queries, and overlay analysis—to support early stages of the planning and design process."
+            },
+            {
+              "area": "Research & Creativity",
+              "text": "Use public data and satellite imagery to explore site constraints and design potential."
+            }
+          ]
+        },
+        {
+          "id": "y3-ldar348",
+          "label": "Conduct field-based master planning research",
+          "courseRef": "LDAR 348 — Master Planning / Field Study Studio",
+          "credits": 4,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "instructor": "Chris + Christin",
+          "description": "This studio introduces students to the planning and design process at the scale of large sites and multi-phase development. Students conduct field-based research, stakeholder observation, and environmental inventory as the foundation for developing context-sensitive master plans. Through structured site visits and fieldwork supported by a lab fee, students document conditions, collect spatial data, and observe precedent projects firsthand. Emphasis is placed on ecological performance, land use, programming, and systems integration. Final deliverables include phased master plans, regional analysis, and conceptual visualizations grounded in both data and field experience.",
+          "laabStandards": [
+            "3.B.2",
+            "3.B.3",
+            "3.B.9",
+            "3.B.10"
+          ],
+          "skills": [
+            "Master planning",
+            "Field research",
+            "Multi-scale analysis",
+            "Stakeholder interviewing"
+          ],
+          "learningObjectives": [
+            {
+              "area": "Communication",
+              "text": "Produce comprehensive site plans, phasing diagrams, and illustrative perspectives that communicate long-term vision and feasibility."
+            },
+            {
+              "area": "Critical Thinking",
+              "text": "Integrate complex site systems—natural, social, and regulatory—into strategic, multi-phase master planning."
+            },
+            {
+              "area": "Disciplinary Expertise",
+              "text": "Execute the complete planning and design process at the master plan scale, including analysis, programming, schematic layout, and conceptual visualization."
+            },
+            {
+              "area": "Research & Creativity",
+              "text": "Incorporate field data, stakeholder interviews, and precedents into design logic and narrative."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Professional Integration & Capstone — Demonstrate advanced competency through collaborative practice, capstone research, internship experience, and preparation for licensure examination and career launch.",
+      "milestones": [
+        {
+          "id": "y4-ldar399",
+          "label": "Build licensure-ready portfolio and CLARB pathway plan",
+          "courseRef": "LDAR 399 — Resume/Portfolio Seminar",
+          "credits": 1,
+          "category": "Identity",
+          "semester": "fall",
+          "instructor": "Preston",
+          "description": "This professional development course focuses on portfolio creation, resume design, interview preparation, and job search strategy in the landscape architecture field. Students will curate their academic work into cohesive portfolios while identifying personal strengths and goals. Emphasis is placed on visual storytelling, career exploration, and Council of Landscape Architecture Registration Board (CLARB) licensure pathways.",
+          "laabStandards": [
+            "3.A",
+            "3.B.4"
+          ],
+          "skills": [
+            "Portfolio design",
+            "Resume development",
+            "CLARB pathway planning",
+            "Professional presentation"
+          ],
+          "learningObjectives": [
+            {
+              "area": "Communication",
+              "text": "Organize and present studio work in a clear, professional portfolio format, for future use."
+            },
+            {
+              "area": "Critical Thinking",
+              "text": "Reflect on personal strengths, areas for growth, and career goals through self-assessment and review."
+            },
+            {
+              "area": "Disciplinary Expertise",
+              "text": "Understand professional workflows, portfolio standards, and licensure expectations."
+            },
+            {
+              "area": "Research & Creativity",
+              "text": "Investigate firms, internships, graduate programs, and emerging career paths within landscape architecture."
+            }
+          ]
+        },
+        {
+          "id": "y4-ldar400",
+          "label": "Complete professional internship",
+          "courseRef": "LDAR 400 — Internship Independent Study",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "summer",
+          "instructor": "Chris",
+          "flexible": true,
+          "flexibleNote": "Can be taken any summer — not restricted to a specific year",
+          "description": "LDAR 400 is the credit-bearing independent study vehicle for professional internships. Students may register any summer they secure an internship position at a landscape architecture firm, public agency, or allied design practice. Under faculty and professional mentorship, students gain hands-on experience in project delivery, client interaction, field observation, construction administration, and office culture. Internship supervisors provide a formal evaluation mapped to LAAB standards. Required for LARE exam eligibility pathway and CLARB experience documentation.",
+          "laabStandards": [
+            "3.A",
+            "3.B.9"
+          ],
+          "skills": [
+            "Professional practice",
+            "Client communication",
+            "Project delivery",
+            "Mentored experience",
+            "Industry networking"
+          ]
+        },
+        {
+          "id": "y4-ldar440",
+          "label": "Write competitive design proposals and grants",
+          "courseRef": "LDAR 440 — Design Proposal Writing",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "instructor": "Jeff",
+          "description": "This course prepares students for the capstone studio by guiding them through the early stages of the planning and design process: site selection, research, programming, precedent analysis, and project scoping. Students formalize a design question and develop a structured proposal that defines their methodology, deliverables, and schedule. Emphasis is placed on aligning design intent with site conditions, user needs, environmental goals, and academic rigor.",
+          "laabStandards": [
+            "3.A",
+            "3.B.9"
+          ],
+          "skills": [
+            "Proposal writing",
+            "Grant applications",
+            "RFQ/RFP responses",
+            "Persuasive communication"
+          ],
+          "learningObjectives": [
+            {
+              "area": "Communication",
+              "text": "Develop a well-organized design proposal document and presentation outlining scope, goals, and timeline."
+            },
+            {
+              "area": "Critical Thinking",
+              "text": "Define a problem of interest, outline constraints and opportunities, and articulate a strategy for resolution."
+            },
+            {
+              "area": "Disciplinary Expertise",
+              "text": "Demonstrate knowledge of the planning and design process through the development of a research-based project framework."
+            },
+            {
+              "area": "Research & Creativity",
+              "text": "Conduct site analysis, user/stakeholder studies, and precedent reviews to support the proposed intervention."
+            }
+          ]
+        },
+        {
+          "id": "y4-ldar447",
+          "label": "Collaborate across disciplines in integrated project delivery",
+          "courseRef": "LDAR 447 — The Collaborative Studio",
+          "credits": 4,
+          "category": "Communities",
+          "semester": "fall",
+          "instructor": "Jeff",
+          "description": "This advanced studio emphasizes collaborative, interdisciplinary approaches to the planning and design process. Students work in teams and engage with community stakeholders, allied professionals, or public agencies to develop context-sensitive landscape solutions. The studio reinforces iterative design development—from site analysis and programming to concept refinement and presentation—through collective decision-making and shared spatial visioning. Deliverables include site plans, section-perspectives, community-facing visuals, and outreach materials.",
+          "laabStandards": [
+            "3.A",
+            "3.B.2",
+            "3.B.3",
+            "3.B.9"
+          ],
+          "skills": [
+            "Interdisciplinary collaboration",
+            "Integrated project delivery",
+            "Team leadership",
+            "Conflict resolution"
+          ],
+          "learningObjectives": [
+            {
+              "area": "Communication",
+              "text": "Co-author design presentations and documents that clearly articulate shared vision, goals, and design strategies."
+            },
+            {
+              "area": "Critical Thinking",
+              "text": "Integrate diverse stakeholder feedback, community input, and site realities into holistic design responses."
+            },
+            {
+              "area": "Disciplinary Expertise",
+              "text": "Apply the full planning and design process in a collaborative setting, including inventory, analysis, programming, schematic design, and detailing."
+            },
+            {
+              "area": "Research & Creativity",
+              "text": "Use interviews, community forums, mapping, and narrative design tools to translate shared values into space."
+            }
+          ]
+        },
+        {
+          "id": "y4-ldar455",
+          "label": "Critically analyze contemporary landscape issues",
+          "courseRef": "LDAR 455 — Current Issues and Topics in Landscape Architecture",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "instructor": "Jeff",
+          "description": "This seminar explores emerging topics that influence the planning and design process in contemporary landscape architecture. Themes may include climate adaptation, environmental justice, digital tools, regenerative design, urban resilience, and evolving theories of practice. Students engage with real-world case studies, design ethics, and professional discourse to understand how social, technological, and ecological forces shape landscape systems and design outcomes. The course fosters critical reflection and strategic thinking relevant to current and future practice.",
+          "laabStandards": [
+            "3.A",
+            "3.B.1",
+            "3.B.10"
+          ],
+          "skills": [
+            "Critical analysis",
+            "Climate adaptation",
+            "Policy advocacy",
+            "Research writing"
+          ],
+          "learningObjectives": [
+            {
+              "area": "Communication",
+              "text": "Express well-reasoned arguments about key issues in landscape architecture through oral presentations and written work."
+            },
+            {
+              "area": "Critical Thinking",
+              "text": "Evaluate the ethical, environmental, and cultural implications of emerging challenges and innovations in the planning and design process."
+            },
+            {
+              "area": "Disciplinary Expertise",
+              "text": "Understand contemporary trends, tools, and theoretical shifts in practice."
+            },
+            {
+              "area": "Research & Creativity",
+              "text": "Investigate pressing global topics and propose creative, critical responses in the form of concept proposals, narratives, or design provocations."
+            }
+          ]
+        },
+        {
+          "id": "y4-ldar442",
+          "label": "Prepare for professional practice and LARE examination",
+          "courseRef": "LDAR 442 — Design in Practice",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "instructor": "Jeff",
+          "description": "This course introduces students to the professional, legal, and ethical dimensions of landscape architecture practice. Topics include office structure, project management, contracts, fee proposals, business development, professional ethics, and licensure pathways. Students explore the roles of public and private sector practice, professional liability, marketing strategies, and the Landscape Architect Registration Examination (LARE). The course prepares students to enter the profession with a clear understanding of how landscape architecture projects are proposed, managed, and delivered within various organizational and regulatory contexts.",
+          "laabStandards": [
+            "3.A",
+            "3.B.8",
+            "3.B.9"
+          ],
+          "skills": [
+            "Practice management",
+            "LARE exam preparation",
+            "Contract law",
+            "Professional liability"
+          ],
+          "learningObjectives": [
+            {
+              "area": "Communication",
+              "text": "Produce professional written materials such as fee proposals, resumes, and scopes of work; engage in simulated interviews and verbal presentations."
+            },
+            {
+              "area": "Critical Thinking",
+              "text": "Evaluate ethical scenarios and legal obligations in professional practice, including liability, conflicts of interest, and public accountability."
+            },
+            {
+              "area": "Disciplinary Expertise",
+              "text": "Demonstrate understanding of landscape architecture business operations, project phases, billing structures, and regulatory frameworks."
+            },
+            {
+              "area": "Research & Career Preparedness",
+              "text": "Investigate licensure requirements (including the LARE), state boards, and professional organizations (ASLA, CLARB) to develop a personal licensure pathway and career plan."
+            }
+          ]
+        },
+        {
+          "id": "y4-ldar448",
+          "label": "Execute capstone design-research project",
+          "courseRef": "LDAR 448 — Capstone Project Studio",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "spring",
+          "instructor": "Jeff",
+          "description": "This culminating studio challenges students to demonstrate mastery of the full planning and design process through the execution of a comprehensive, self-directed project. Students build on previously developed proposals to carry a project from site analysis and conceptual development through schematic design, technical documentation, and final presentation. Emphasis is placed on integrating research, stakeholder engagement, environmental performance, and professional standards. Students are expected to produce a visually compelling and technically sound documentation package that reflects real-world readiness.",
+          "laabStandards": [
+            "3.A",
+            "3.B.2",
+            "3.B.3",
+            "3.B.4",
+            "3.B.9",
+            "3.B.10"
+          ],
+          "skills": [
+            "Independent research",
+            "Design synthesis",
+            "Public presentation",
+            "Professional exhibition",
+            "Self-directed inquiry"
+          ],
+          "learningObjectives": [
+            {
+              "area": "Communication",
+              "text": "Develop and present a complete, cohesive studio package, including plans, diagrams, perspectives, and a design narrative."
+            },
+            {
+              "area": "Critical Thinking",
+              "text": "Solve complex design problems with innovative, research-informed strategies across multiple scales."
+            },
+            {
+              "area": "Disciplinary Expertise",
+              "text": "Apply all phases of the planning and design process: inventory, analysis, programming, design development, and documentation within a comprehensive, site-specific project."
+            },
+            {
+              "area": "Research & Creativity",
+              "text": "Integrate evidence-based research, stakeholder feedback, and creative vision to deliver a project of professional caliber."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "validationTracks": [
+    {
+      "id": "agbm",
+      "name": "Agribusiness Competency Standards",
+      "description": "Core competencies for agribusiness professionals across management, economics, and technology",
+      "sections": [
+        {
+          "id": "agbm-fund",
+          "name": "Agribusiness Fundamentals",
+          "description": "Economics, management, and agricultural science foundations",
+          "requiredMilestoneIds": [
+            "y1-abm130",
+            "y1-econ200",
+            "y1-biol100",
+            "y2-mgmt110"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "agbm-tech",
+          "name": "Supply Chain & Technology",
+          "description": "Information technology, supply chain management, and data analytics",
+          "requiredMilestoneIds": [
+            "y2-abm240",
+            "y2-scmg240",
+            "y4-abm406"
+          ],
+          "totalRequired": 3
+        },
+        {
+          "id": "agbm-fin",
+          "name": "Financial Analysis",
+          "description": "Accounting, marketing, and applied economics",
+          "requiredMilestoneIds": [
+            "y2-acct201",
+            "y3-abm330",
+            "y3-abm432",
+            "y3-abm434"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "agbm-cap",
+          "name": "Capstone & Placement",
+          "description": "Capstone project, internship, and career preparation",
+          "requiredMilestoneIds": [
+            "y3-intern",
+            "y4-abm480",
+            "y4-career"
+          ],
+          "totalRequired": 3
+        }
+      ]
+    }
+  ]
+}

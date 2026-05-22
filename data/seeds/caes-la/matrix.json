@@ -1,0 +1,286 @@
+{
+  "validationTracks": [
+    {
+      "id": "lare",
+      "name": "LARE Exam Readiness",
+      "description": "Landscape Architect Registration Examination — 4 sections required for professional licensure in all 50 states, administered by CLARB (Council of Landscape Architectural Registration Boards)",
+      "sections": [
+        {
+          "id": "lare-1",
+          "name": "Project & Construction Management",
+          "description": "Contract administration, project delivery methods, professional practice regulations, codes, and construction observation procedures",
+          "requiredMilestoneIds": [
+            "y2-ldar249",
+            "y3-ldar345",
+            "y4-ldar442",
+            "y4-ldar447"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "lare-2",
+          "name": "Inventory & Analysis",
+          "description": "Site assessment, environmental analysis, data collection, contextual evaluation, and suitability determination",
+          "requiredMilestoneIds": [
+            "y1-ldar103",
+            "y1-ldar148",
+            "y2-ldar248",
+            "y3-ldar349",
+            "y3-ldar348"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "lare-3",
+          "name": "Design",
+          "description": "Design development, master planning, planting design, spatial composition, and design communication",
+          "requiredMilestoneIds": [
+            "y1-ldar147",
+            "y2-ldar247",
+            "y2-ldar244",
+            "y3-ldar348",
+            "y4-ldar447",
+            "y4-ldar448"
+          ],
+          "totalRequired": 6
+        },
+        {
+          "id": "lare-4",
+          "name": "Grading, Drainage & Construction Documentation",
+          "description": "Site grading, stormwater management, construction documents, materials specifications, and technical detailing",
+          "requiredMilestoneIds": [
+            "y1-ldar149",
+            "y2-ldar249",
+            "y3-ldar345",
+            "y3-ldar347"
+          ],
+          "totalRequired": 4
+        }
+      ]
+    },
+    {
+      "id": "laab",
+      "name": "LAAB Accreditation Standards",
+      "description": "Landscape Architectural Accreditation Board — 14 student learning outcome areas tracked for program accreditation compliance under LAAB Standard 3",
+      "sections": [
+        {
+          "id": "laab-3A",
+          "name": "3.A — Professional Values & Ethics",
+          "description": "Knowledge of professional ethics, social responsibility, HBCU mission integration, and stewardship of natural and cultural resources",
+          "requiredMilestoneIds": [
+            "y1-ldar103",
+            "y1-ldar104",
+            "y2-ldar247",
+            "y2-ldar255",
+            "y4-ldar399",
+            "y4-ldar440",
+            "y4-ldar442",
+            "y4-ldar447",
+            "y4-ldar448"
+          ],
+          "totalRequired": 9
+        },
+        {
+          "id": "laab-3B1",
+          "name": "3.B.1 — History, Theory & Criticism",
+          "description": "Understanding of the history of landscape architecture, allied professions, and relevant theoretical frameworks",
+          "requiredMilestoneIds": [
+            "y1-ldar103",
+            "y1-ldar104",
+            "y2-ldar255",
+            "y4-ldar455"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "laab-3B2",
+          "name": "3.B.2 — Design Process",
+          "description": "Ability to apply design process from problem definition through schematic design and design development",
+          "requiredMilestoneIds": [
+            "y1-ldar147",
+            "y1-ldar148",
+            "y2-ldar247",
+            "y2-ldar248",
+            "y3-ldar347",
+            "y3-ldar348",
+            "y4-ldar447",
+            "y4-ldar448"
+          ],
+          "totalRequired": 8
+        },
+        {
+          "id": "laab-3B3",
+          "name": "3.B.3 — Site Design & Implementation",
+          "description": "Ability to develop detailed site designs integrating program, context, and technical requirements",
+          "requiredMilestoneIds": [
+            "y1-ldar147",
+            "y2-ldar247",
+            "y3-ldar348",
+            "y4-ldar447",
+            "y4-ldar448"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "laab-3B4",
+          "name": "3.B.4 — Communication & Visualization",
+          "description": "Proficiency in graphic, written, verbal, and digital communication of design ideas",
+          "requiredMilestoneIds": [
+            "y1-ldar170",
+            "y1-ldar171",
+            "y4-ldar399",
+            "y3-ldar349",
+            "y4-ldar448"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "laab-3B5",
+          "name": "3.B.5 — Natural Systems",
+          "description": "Understanding of natural systems including ecology, hydrology, soils, vegetation, and climate",
+          "requiredMilestoneIds": [
+            "y1-ldar148",
+            "y2-ldar204",
+            "y2-ldar244",
+            "y2-ldar248"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "laab-3B6",
+          "name": "3.B.6 — Plants & Ecosystems",
+          "description": "Knowledge of plants and ecosystems including identification, ecological function, and design application",
+          "requiredMilestoneIds": [
+            "y1-ldar148",
+            "y2-ldar204",
+            "y2-ldar244",
+            "y2-ldar248",
+            "y3-ldar349"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "laab-3B7",
+          "name": "3.B.7 — Materials & Construction",
+          "description": "Knowledge of landscape materials, construction methods, structural principles, and assemblies",
+          "requiredMilestoneIds": [
+            "y1-ldar149",
+            "y2-ldar249",
+            "y3-ldar345",
+            "y3-ldar347"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "laab-3B8",
+          "name": "3.B.8 — Construction Documentation",
+          "description": "Ability to produce construction documents including plans, sections, details, and specifications",
+          "requiredMilestoneIds": [
+            "y1-ldar149",
+            "y2-ldar249",
+            "y3-ldar345",
+            "y3-ldar347",
+            "y4-ldar442"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "laab-3B9",
+          "name": "3.B.9 — Professional Practice",
+          "description": "Understanding of professional practice including project management, ethics, legal responsibilities, and office operations",
+          "requiredMilestoneIds": [
+            "y2-ldar247",
+            "y3-ldar348",
+            "y4-ldar440",
+            "y4-ldar442",
+            "y4-ldar447",
+            "y4-ldar448"
+          ],
+          "totalRequired": 6
+        },
+        {
+          "id": "laab-3B10",
+          "name": "3.B.10 — Research & Analysis",
+          "description": "Ability to conduct research and apply analytical methods to inform design and planning decisions",
+          "requiredMilestoneIds": [
+            "y2-ldar248",
+            "y3-ldar345",
+            "y3-ldar347",
+            "y3-ldar349",
+            "y3-ldar348",
+            "y4-ldar455",
+            "y4-ldar448"
+          ],
+          "totalRequired": 7
+        }
+      ]
+    },
+    {
+      "id": "isla",
+      "name": "ISLA · Licensure Readiness",
+      "description": "Interactive Study & Licensure Assistant — Track your LARE exam section readiness and professional internship completion. ISLA maps curriculum courses to LARE exam domains and tracks internship credit.",
+      "sections": [
+        {
+          "id": "isla-lare-1",
+          "name": "LARE §1 — Project & Construction Mgmt",
+          "description": "Courses preparing you for LARE Section 1: project management, construction administration, contract documents, and professional ethics.",
+          "requiredMilestoneIds": [
+            "y2-ldar249",
+            "y3-ldar345",
+            "y4-ldar442",
+            "y4-ldar447"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "isla-lare-2",
+          "name": "LARE §2 — Inventory & Analysis",
+          "description": "Courses preparing you for LARE Section 2: site inventory, environmental analysis, ecological assessment, and data synthesis.",
+          "requiredMilestoneIds": [
+            "y1-ldar103",
+            "y1-ldar148",
+            "y2-ldar248",
+            "y3-ldar349",
+            "y3-ldar348"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "isla-lare-3",
+          "name": "LARE §3 — Design",
+          "description": "Courses preparing you for LARE Section 3: design methodology, spatial organization, planting design, and aesthetic judgment.",
+          "requiredMilestoneIds": [
+            "y1-ldar147",
+            "y2-ldar247",
+            "y2-ldar244",
+            "y3-ldar348",
+            "y4-ldar447",
+            "y4-ldar448"
+          ],
+          "totalRequired": 6
+        },
+        {
+          "id": "isla-lare-4",
+          "name": "LARE §4 — Grading, Drainage & Construction",
+          "description": "Courses preparing you for LARE Section 4: site grading, stormwater management, construction documentation, and materials.",
+          "requiredMilestoneIds": [
+            "y1-ldar149",
+            "y2-ldar249",
+            "y3-ldar345",
+            "y3-ldar347"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "isla-internship",
+          "name": "Professional Internship (IDP)",
+          "description": "Complete the required professional internship (LDAR 400). Required for LARE exam eligibility and CLARB Intern Development Program documentation.",
+          "requiredMilestoneIds": [
+            "y4-ldar400"
+          ],
+          "totalRequired": 1
+        }
+      ]
+    }
+  ]
+}

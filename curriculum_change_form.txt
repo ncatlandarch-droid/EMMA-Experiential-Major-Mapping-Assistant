@@ -1,0 +1,4524 @@
+﻿April 14, 2025
+
+
+Dear Dr. Arnab and Members of the Curriculum Review Committee,
+
+
+I am writing to submit proposed revisions to the Bachelor of Science in Landscape Architecture (BSLA) curriculum at North Carolina A&T State University, with the goal of implementing the changes beginning in Fall 2026. These revisions are the result of a comprehensive self-study and feedback from the most recent Landscape Architectural Accreditation Board (LAAB) review. The updates are designed to strengthen compliance with current accreditation standards, clarify course sequencing, reinforce program learning outcomes, and better prepare students for the planning and design responsibilities expected in professional practice. Key highlights of the proposal include:
+
+
+1. Revised course descriptions and student learning outcomes for all LDAR-prefix courses to clearly reference the planning and design process, where applicable.
+2. Improved prerequisite structure to reflect a more intentional progression of knowledge and skills across design studios, graphics, theory, and technical coursework.
+3. Adjustments to course titles, notes, and catalog language for clarity, consistency, and alignment with LAAB expectations.
+4. Continued adherence to the 120-credit hour graduation requirement for the BSLA degree, with no increase in credit hours or resource impact.
+
+
+I appreciate your consideration of these revisions and welcome any questions or feedback as the committee reviews the proposed changes.
+
+
+
+
+
+
+Warm regards,
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+W. Chris Harrison, MLA, ASLA
+Assistant Professor/Coordinator, Landscape Architecture Program
+Department of Natural Resources and Environmental Design
+College of Agriculture and Environmental Sciences
+North Carolina Agricultural and Technical State University
+224-B Carver Hall | Greensboro NC 27411
+(e) wcharris@ncat.edu | (p) 336 285 4848
+SUMMARY OF PROPOSED CURRICULUM CHANGES
+
+
+Date:
+	4/14/25
+	Requested By (Department):
+	Natural Resources and Environmental Design
+	Department Code:
+	103
+	
+
+
+
+	Agriculture and Environmental Sciences
+	Signature of Chairperson
+	School/College
+	
+
+******************************************************************************************************************************************
+Directions: 
+         Enter the appropriate entry number from the proposal packet and page number, i.e. page number from the current NCA&TSU bulletin for each course revision requested. If a new course, type “NEW” under the column titled number and enter the new prefix and course number under the column titled new. If the change is to delete a course, type “DEL” under the column titled number and enter the prefix and course number under the column titled old. Place an “X” under Proposed Changes for all other requested course revisions.
+---------------------------------------------------------------------------------------------------------------------------------------------------
+                         Course                        *************************PROPOSED CHANGES*****************************
+                        Numbers
+Entry #
+	Page #
+	Old
+	New
+	Prefix
+	Number
+	Title
+	Prerequisite
+	Credit Hours[a]
+	Description
+	1
+	4
+	LDAR 103
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	X
+	2
+	6
+	LDAR 104
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	X
+	3
+	8
+	LDAR 147
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	X
+	4
+	11
+	LDAR 148
+	
+
+	
+
+	
+
+	
+
+	X
+	
+
+	X
+	5
+	13
+	LDAR 170
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	X
+	6
+	16
+	LDAR 171
+	
+
+	
+
+	
+
+	
+
+	X
+	
+
+	X
+	7
+	18
+	LDAR 204
+	
+
+	
+
+	
+
+	
+
+	X
+	
+
+	X
+	8
+	21
+	LDAR 244
+	
+
+	
+
+	
+
+	
+
+	X
+	
+
+	X
+	9
+	23
+	LDAR 247
+	
+
+	
+
+	
+
+	
+
+	X
+	
+
+	X
+	10
+	26
+	LDAR 248
+	
+
+	
+
+	
+
+	
+
+	X
+	
+
+	X
+	11
+	28
+	LDAR 249
+	
+
+	
+
+	X
+	
+
+	X
+	
+
+	X
+	12
+	31
+	LDAR 255
+	
+
+	
+
+	
+
+	
+
+	X
+	
+
+	X
+	13
+	33
+	LDAR 299
+	
+
+	
+
+	X
+	
+
+	X
+	
+
+	X
+	14
+	36
+	LDAR 345
+	
+
+	
+
+	
+
+	
+
+	X
+	
+
+	X
+	15
+	38
+	LDAR 349
+	
+
+	
+
+	X
+	
+
+	X
+	
+
+	X
+	16
+	41
+	LDAR 380[b]
+	
+
+	
+
+	X
+	
+
+	X
+	
+
+	X
+	17
+	43
+	LDAR 381
+	
+
+	
+
+	X
+	X
+	X
+	X
+	X
+	18
+	46
+	LDAR 304
+	
+
+	
+
+	X
+	X
+	X
+	X
+	X
+	19
+	49
+	LDAR 440
+	
+
+	
+
+	
+
+	
+
+	X
+	
+
+	X
+	20
+	51
+	LDAR 442
+	
+
+	
+
+	
+
+	
+
+	X
+	
+
+	X
+	21
+	53
+	LDAR 447
+	
+
+	
+
+	
+
+	
+
+	X
+	
+
+	X
+	22
+	56
+	LDAR 448
+	
+
+	
+
+	
+
+	
+
+	X
+	
+
+	X
+	23
+	58
+	LDAR 455
+	
+
+	
+
+	
+
+	
+
+	X
+	
+
+	X
+	________________
+
+
+CURRICULUM CHANGE FORM
+Entry 1-LDAR 103
+1. General Information (Must be completed by all)
+	a. Originating / Contact Person 
+	b. Contact Person’s Email
+	c. Contact Person’s Phone
+	d. Date
+	William Harrison     
+	wcharris@ncat.edu
+	 336-285-4840    
+	4/13/25     
+	Originating / Contact Person’s Signature:
+	  
+
+	f. Department / Program
+	f. College (Select from dropdown list)
+	Landscape Architecture     
+	CAES
+	g. Type of Course Change (Select all that apply)
+☐ Prefix Change        ☐ Credit Hour Change
+☐ Title Change        ☐ Instructional Method Change 
+☐ Description Change        ☐ Semesters Offered Change 
+☐ Prerequisite Change        ☐ Cross Listing – Offer for credit in two or more departments.
+☐ Grading Change        ☐ Deletion – Take the course completely out of the system, never to be used again.
+☐ Change to Restrictions        ☐ Change to Repeatability
+	h. Degree Audit Adjustment Necessary? ☐ Yes ☐ No
+	If yes, describe:             
+	i. Explanation (i.e., type of change, special issues, General Education Course, etc.) 
+Course description and learning objective changes based upon recent re-accreditation visit feedback     
+	
+
+2. Course Changes or Deletions (Current course information)
+	a. Current Prefix (e.g., BIOL)
+	b. Current Number
+	c. Current Title (30 or fewer characters/spaces)
+	LDAR     
+	103 
+	           Landscape Architecture Discovery  
+	d. Type of Action
+	e. Effective Semester (Use for deletions only)
+	        ☐ Change        ☐ Delete
+	             
+	f. Current Course Description (Old catalog entry. Use for changes only)
+	This course will explore the broad field of landscape architecture. Students will be introduced to the planning and design process. The ecological and social factors of design, planning, management, and research of landscapes will be introduced with emphasis on sustainability. Also, the development of the landscape architecture lexicon will be emphasized.     
+	g. Credit Hour
+	h. Instructional Method (Select all that apply)
+	     3 (3-0)
+	☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+3. New Course Information (Complete only applicable fields for course changes.  Complete all fields for new courses.)
+	a. New Prefix (e.g., BIOL)
+	b. New Number
+	c. New Title (30 or fewer characters/spaces)
+	     
+	     
+	             
+	d. Effective Semester
+	e. Course level (Select from dropdown list) 
+	f. Schedule Type (Select from dropdown list)
+	Fall 2026     
+	Undergraduate
+	Lecture
+	g. Instructional Method (Select all that apply)
+☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+h. Proposed Course Description (Catalog entry)
+	This course introduces students to the field of landscape architecture through historical and contemporary lenses. Topics include ethics, environmental and social responsibility, career pathways, professional organizations, key terminology, and critical issues shaping the built and natural environment. Students will engage in precedent studies, reflective journaling, visual presentations, and interactive discussions to begin forming their identity as future landscape architects.
+     
+	i. Credit Hours  
+	j. Anticipated Enrollment per Semester:  
+	k. Repeatable for additional credit?   ☐Yes  ☐No 
+   If yes, how many additional times,     or ☐Unlimited
+   Retake / Replace (UG Only)?          ☐Yes  ☐ No
+	     
+	    
+	
+
+4. Course Restrictions (Select type and enforcement from the dropdown list.  Use additional sheet if necessary)
+	Type of Restriction 
+	Enter Details
+	Enforced by
+	No Restrictions in Banner
+	             
+	        N/A
+	Type of Restriction 
+	Details
+	Enforced by 
+	
+
+	             
+	        
+	Type of Restriction
+	Details
+	Enforced by
+	
+
+	
+
+	
+
+	l. Special Grading:  ☐ Yes  ☐ No  Explain:      
+	m.  Is the content of this course duplicated in other degree programs outside your department?  ☐ Yes  ☐ No
+	n.  Does this change affect any other degree program?  
+☐ Yes  ☐ No
+	If you answer yes to either “m” or “n,” include a signature below from the other department chair.
+	Other department chair signature:
+	
+
+	
+
+5. Justification (You must include, but you are not limited to, statements about the need for course changes or new course.)
+	This course has been revised in response to recommendations from the most recent LAAB re-accreditation visit. Updates include changes to the course description and learning objectives to more explicitly align with LAAB accreditation standards, particularly regarding the planning and design process, professional competencies, and clarity of curricular intent.
+
+
+Revisions to prerequisites and course sequencing have been made intentionally to ensure students follow a structured and progressive path through design studios, technical coursework, and professional preparation.
+ 
+	
+
+6. Resources (You must include, but you are not limited to, the availability of faculty / physical resources.)
+	Faculty and physical resources are available. 
+	
+
+7. Course Grading Scale (Select from dropdown list)
+	Standard Letter Grade
+	
+
+8. Course Learning Objectives (Undergraduate Courses Only: For Dual-Listed or Grad Courses, attach syllabus)
+	At the end of this course the student will be able to:
+1. Communication: Present foundational knowledge of the landscape architecture profession using oral, written, and visual methods.
+2. Critical Thinking: Compare various subfields and roles within landscape architecture, including environmental design, community development, urban design, and ecological planning.
+3. Disciplinary Expertise: Recognize core terms, responsibilities, ethical standards, and the scope of professional practice.
+4. Research & Creativity: Investigate modern and historical examples of landscape architecture to understand its evolution and relevance in contemporary society.     
+	
+
+For Provost Office Use Only
+	Date Received:       
+	Date Added to Banner:       
+	Date Copies Sent to Registrar’ Office:       
+	Date Catalog Changed:       
+	Date Added to Curriculum Report:       
+	CIP Code:       
+	VPUGAA:       
+	Date Registrar’s Office Received:       
+	
+
+	
+
+
+
+
+
+Entry 2-LDAR 104
+1. General Information (Must be completed by all)
+	a. Originating / Contact Person 
+	b. Contact Person’s Email
+	c. Contact Person’s Phone
+	d. Date
+	William Harrison     
+	wcharris@ncat.edu
+	 336-285-4840    
+	4/13/25     
+	Originating / Contact Person’s Signature:
+	  
+
+	f. Department / Program
+	f. College (Select from dropdown list)
+	Landscape Architecture     
+	CAES
+	g. Type of Course Change (Select all that apply)
+☐ Prefix Change        ☐ Credit Hour Change
+☐ Title Change        ☐ Instructional Method Change 
+☐ Description Change        ☐ Semesters Offered Change 
+☐ Prerequisite Change        ☐ Cross Listing – Offer for credit in two or more departments.
+☐ Grading Change        ☐ Deletion – Take the course completely out of the system, never to be used again.
+☐ Change to Restrictions        ☐ Change to Repeatability
+	h. Degree Audit Adjustment Necessary? ☐ Yes ☐ No
+	If yes, describe:             
+	i. Explanation (i.e., type of change, special issues, General Education Course, etc.) 
+Course description and learning objective changes based upon recent re-accreditation visit feedback     
+	
+
+2. Course Changes or Deletions (Current course information)
+	a. Current Prefix (e.g., BIOL)
+	b. Current Number
+	c. Current Title (30 or fewer characters/spaces)
+	    LDAR  
+	104
+	             
+	d. Type of Action
+	e. Effective Semester (Use for deletions only)
+	        ☐ Change        ☐ Delete
+	        Landscape Architecture History     
+	f. Current Course Description (Old catalog entry. Use for changes only)
+	This history course is a study of the development of landscape architecture from antiquity to modern times, with emphasis on its relationships to allied arts and professions of designed landscapes.     
+	g. Credit Hour
+	h. Instructional Method (Select all that apply)
+	   3 (3-0)  
+	☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+3. New Course Information (Complete only applicable fields for course changes.  Complete all fields for new courses.)
+	a. New Prefix (e.g., BIOL)
+	b. New Number
+	c. New Title (30 or fewer characters/spaces)
+	     
+	     
+	             
+	d. Effective Semester
+	e. Course level (Select from dropdown list) 
+	f. Schedule Type (Select from dropdown list)
+	Fall 2026     
+	Undergraduate
+	Lecture
+	g. Instructional Method (Select all that apply)
+☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+h. Proposed Course Description (Catalog entry)
+	This course surveys the historical evolution of landscape architecture and its influence on the contemporary planning and design process. Through global case studies, students explore how cultural, philosophical, ecological, and technological contexts have shaped the development of outdoor spaces over time. Emphasis is placed on identifying historical typologies, spatial structures, and site-planning patterns that inform precedent analysis, conceptual development, and design literacy in later studios.
+     
+	i. Credit Hours  
+	j. Anticipated Enrollment per Semester:  
+	k. Repeatable for additional credit?   ☐Yes  ☐No 
+   If yes, how many additional times,     or ☐Unlimited
+   Retake / Replace (UG Only)?          ☐Yes  ☐ No
+	     
+	    
+	
+
+4. Course Restrictions (Select type and enforcement from the dropdown list.  Use additional sheet if necessary)
+	Type of Restriction 
+	Enter Details
+	Enforced by
+	No Restriction in Banner
+	             
+	        N/A
+	Type of Restriction 
+	Details
+	Enforced by 
+	
+
+	             
+	        
+	Type of Restriction
+	Details
+	Enforced by
+	
+
+	             
+	        
+	l. Special Grading:  ☐ Yes  ☐ No  Explain:      
+	m.  Is the content of this course duplicated in other degree programs outside your department?  ☐ Yes  ☐ No
+	n.  Does this change affect any other degree program?  
+☐ Yes  ☐ No
+	If you answer yes to either “m” or “n,” include a signature below from the other department chair.
+	Other department chair signature:
+	
+
+	
+
+5. Justification (You must include, but you are not limited to, statements about the need for course changes or new course.)
+	This course has been revised in response to recommendations from the most recent LAAB re-accreditation visit. Updates include changes to the course description and learning objectives to more explicitly align with LAAB accreditation standards, particularly regarding the planning and design process, professional competencies, and clarity of curricular intent.
+
+
+Revisions to prerequisites and course sequencing have been made intentionally to ensure students follow a structured and progressive path through design studios, technical coursework, and professional preparation.
+
+
+	
+
+6. Resources (You must include, but you are not limited to, the availability of faculty / physical resources.)
+	Faculty and physical resources are available. 
+	
+
+7. Course Grading Scale (Select from dropdown list)
+	Standard Letter Grade
+	
+
+8. Course Learning Objectives (Undergraduate Courses Only: For Dual-Listed or Grad Courses, attach syllabus)
+	At the end of this course the student will be able to:
+1. Communication: Articulate historical design concepts and their influence on modern practice using oral, written, and visual formats.
+2. Critical Thinking: Compare landscape traditions across cultures and time periods to evaluate how they inform present-day design challenges.
+3. Disciplinary Expertise: Recognize how historic precedents influence spatial organization, programming, and form within the planning and design process.
+4. Research & Creativity: Investigate historical designers and projects to understand foundational planning strategies and their application to contemporary design.     
+	
+
+For Provost Office Use Only
+	Date Received:       
+	Date Added to Banner:       
+	Date Copies Sent to Registrar’ Office:       
+	Date Catalog Changed:       
+	Date Added to Curriculum Report:       
+	CIP Code:       
+	VPUGAA:       
+	Date Registrar’s Office Received:       
+	
+
+	
+
+
+
+
+
+Entry 3-LDAR 147
+1. General Information (Must be completed by all)
+	a. Originating / Contact Person 
+	b. Contact Person’s Email
+	c. Contact Person’s Phone
+	d. Date
+	William Harrison     
+	wcharris@ncat.edu
+	 336-285-4840    
+	4/13/25     
+	Originating / Contact Person’s Signature:
+	  
+
+	f. Department / Program
+	f. College (Select from dropdown list)
+	Landscape Architecture     
+	CAES
+	g. Type of Course Change (Select all that apply)
+☐ Prefix Change        ☐ Credit Hour Change
+☐ Title Change        ☐ Instructional Method Change 
+☐ Description Change        ☐ Semesters Offered Change 
+☐ Prerequisite Change        ☐ Cross Listing – Offer for credit in two or more departments.
+☐ Grading Change        ☐ Deletion – Take the course completely out of the system, never to be used again.
+☐ Change to Restrictions        ☐ Change to Repeatability
+	h. Degree Audit Adjustment Necessary? ☐ Yes ☐ No
+	If yes, describe:             
+	i. Explanation (i.e., type of change, special issues, General Education Course, etc.) 
+Course description and learning objective changes based upon recent re-accreditation visit feedback     
+	
+
+2. Course Changes or Deletions (Current course information)
+	a. Current Prefix (e.g., BIOL)
+	b. Current Number
+	c. Current Title (30 or fewer characters/spaces)
+	LDAR     
+	147
+	Landscape Architecture Graphics I             
+	d. Type of Action
+	e. Effective Semester (Use for deletions only)
+	        ☐ Change        ☐ Delete
+	             
+	f. Current Course Description (Old catalog entry. Use for changes only)
+	This studio course will explore issues of basic design and design theory such as the principles and elements of visual design. Two and three dimensional aspects of form and space creation will be explored along with the development of familiarity with methods and materials.     
+	g. Credit Hour
+	h. Instructional Method (Select all that apply)
+	     3 (0-6)
+	☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+3. New Course Information (Complete only applicable fields for course changes.  Complete all fields for new courses.)
+	a. New Prefix (e.g., BIOL)
+	b. New Number
+	c. New Title (30 or fewer characters/spaces)
+	     
+	     
+	             
+	d. Effective Semester
+	e. Course level (Select from dropdown list) 
+	f. Schedule Type (Select from dropdown list)
+	Fall 2026     
+	Undergraduate
+	Studio
+	g. Instructional Method (Select all that apply)
+☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+h. Proposed Course Description (Catalog entry)
+	This course introduces students to the foundational elements of the planning and design process in landscape architecture. Students explore 2D and 3D design principles such as form, balance, rhythm, and scale while generating compositions inspired by nature, art, memory, and cultural expression. Through sketching, abstraction, and structured iteration, students develop spatial literacy and a conceptual foundation for diagramming, composition, and early digital workflows that support later design development and planning analysis.    
+	i. Credit Hours  
+	j. Anticipated Enrollment per Semester:  
+	k. Repeatable for additional credit?   ☐Yes  ☐No 
+   If yes, how many additional times,     or ☐Unlimited
+   Retake / Replace (UG Only)?          ☐Yes  ☐ No
+	3 (0-6)     
+	    
+	
+
+4. Course Restrictions (Select type and enforcement from the dropdown list.  Use additional sheet if necessary)
+	Type of Restriction 
+	Enter Details
+	Enforced by
+	No Restriction in Banner
+	             
+	        N/A
+	Type of Restriction 
+	Details
+	Enforced by 
+	
+
+	             
+	
+
+	Type of Restriction
+	Details
+	Enforced by
+	
+
+	             
+	
+
+	l. Special Grading:  ☐ Yes  ☐ No  Explain:      
+	m.  Is the content of this course duplicated in other degree programs outside your department?  ☐ Yes  ☐ No
+	n.  Does this change affect any other degree program?  
+☐ Yes  ☐ No
+	If you answer yes to either “m” or “n,” include a signature below from the other department chair.
+	Other department chair signature:
+	
+
+	
+
+5. Justification (You must include, but you are not limited to, statements about the need for course changes or new course.)
+	This course has been revised in response to recommendations from the most recent LAAB re-accreditation visit. Updates include changes to the course description and learning objectives to more explicitly align with LAAB accreditation standards, particularly regarding the planning and design process, professional competencies, and clarity of curricular intent.
+
+
+Revisions to prerequisites and course sequencing have been made intentionally to ensure students follow a structured and progressive path through design studios, technical coursework, and professional preparation.
+
+
+	
+
+6. Resources (You must include, but you are not limited to, the availability of faculty / physical resources.)
+	Faculty and physical resources are available. 
+	
+
+7. Course Grading Scale (Select from dropdown list)
+	Standard Letter Grade
+	
+
+8. Course Learning Objectives (Undergraduate Courses Only: For Dual-Listed or Grad Courses, attach syllabus)
+	At the end of this course the student will be able to:
+1. Communication: Produce clear 2D/3D compositions and articulate conceptual intentions through visual and verbal means.
+2. Critical Thinking: Apply and refine fundamental design principles—balance, rhythm, proportion, scale, and hierarchy—within spatial compositions.
+3. Disciplinary Expertise: Apply foundational components of the planning and design process, including iteration, abstraction, and visual logic.
+4. Research and Creativity: Respond to inspiration prompts through observational analysis and creative exploration of space and structure.   
+	
+
+For Provost Office Use Only
+	Date Received:       
+	Date Added to Banner:       
+	Date Copies Sent to Registrar’ Office:       
+	Date Catalog Changed:       
+	Date Added to Curriculum Report:       
+	CIP Code:       
+	VPUGAA:       
+	Date Registrar’s Office Received:       
+	
+
+	
+
+
+
+
+
+Entry 4-LDAR 148
+1. General Information (Must be completed by all)
+	a. Originating / Contact Person 
+	b. Contact Person’s Email
+	c. Contact Person’s Phone
+	d. Date
+	William Harrison     
+	wcharris@ncat.edu
+	 336-285-4840    
+	4/13/25     
+	Originating / Contact Person’s Signature:
+	  
+
+	f. Department / Program
+	f. College (Select from dropdown list)
+	Landscape Architecture     
+	CAES
+	g. Type of Course Change (Select all that apply)
+☐ Prefix Change        ☐ Credit Hour Change
+☐ Title Change        ☐ Instructional Method Change 
+☐ Description Change        ☐ Semesters Offered Change 
+☐ Prerequisite Change        ☐ Cross Listing – Offer for credit in two or more departments.
+☐ Grading Change        ☐ Deletion – Take the course completely out of the system, never to be used again.
+☐ Change to Restrictions        ☐ Change to Repeatability
+	h. Degree Audit Adjustment Necessary? ☐ Yes ☐ No
+	If yes, describe:             
+	i. Explanation (i.e., type of change, special issues, General Education Course, etc.) 
+Course description and learning objective changes based upon recent re-accreditation visit feedback     
+	
+
+2. Course Changes or Deletions (Current course information)
+	a. Current Prefix (e.g., BIOL)
+	b. Current Number
+	c. Current Title (30 or fewer characters/spaces)
+	LDAR      
+	148
+	Landscape Architecture Fundamentals             
+	d. Type of Action
+	e. Effective Semester (Use for deletions only)
+	        ☐ Change        ☐ Delete
+	             
+	f. Current Course Description (Old catalog entry. Use for changes only)
+	Students in this studio course will explore basic principles and elements of design, specifically as they relate to the landscape. The course will give students a greater understanding of space through analysis of forms, proportions, and scale, and students will be introduced to the basics of sustainability and resiliency.  
+	g. Credit Hour
+	h. Instructional Method (Select all that apply)
+	   3 (0-6)  
+	☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+3. New Course Information (Complete only applicable fields for course changes.  Complete all fields for new courses.)
+	a. New Prefix (e.g., BIOL)
+	b. New Number
+	c. New Title (30 or fewer characters/spaces)
+	     
+	     
+	             
+	d. Effective Semester
+	e. Course level (Select from dropdown list) 
+	f. Schedule Type (Select from dropdown list)
+	Fall 2026     
+	Undergraduate
+	Studio
+	g. Instructional Method (Select all that apply)
+☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+h. Proposed Course Description (Catalog entry)
+	This course introduces students to the fundamentals of the planning and design process in landscape architecture. Students build upon design foundations by learning how to conduct site inventory and analysis, generate conceptual diagrams, and develop spatial strategies that respond to user experience, grading, sustainability, and narrative. Emphasis is placed on integrating historical and cultural context into iterative design proposals. Students work through multiple design phases using digital design tools.
+     
+	i. Credit Hours  
+	j. Anticipated Enrollment per Semester:  
+	k. Repeatable for additional credit?   ☐Yes  ☐No 
+   If yes, how many additional times,     or ☐Unlimited
+   Retake / Replace (UG Only)?          ☐Yes  ☐ No
+	3 (0-6)    
+	    
+	
+
+4. Course Restrictions (Select type and enforcement from the dropdown list.  Use additional sheet if necessary)
+	Type of Restriction 
+	Enter Details
+	Enforced by
+	Prerequisite
+	LDAR 147 Design Foundations             
+	Banner        
+	Type of Restriction 
+	Details
+	Enforced by 
+	
+
+	             
+	        
+	Type of Restriction
+	Details
+	Enforced by
+	
+
+	             
+	        
+	l. Special Grading:  ☐ Yes  ☐ No  Explain:      
+	m.  Is the content of this course duplicated in other degree programs outside your department?  ☐ Yes  ☐ No
+	n.  Does this change affect any other degree program?  
+☐ Yes  ☐ No
+	If you answer yes to either “m” or “n,” include a signature below from the other department chair.
+	Other department chair signature:
+	
+
+	
+
+5. Justification (You must include, but you are not limited to, statements about the need for course changes or new course.)
+	This course has been revised in response to recommendations from the most recent LAAB re-accreditation visit. Updates include changes to the course description and learning objectives to more explicitly align with LAAB accreditation standards, particularly regarding the planning and design process, professional competencies, and clarity of curricular intent.
+
+
+Revisions to prerequisites and course sequencing have been made intentionally to ensure students follow a structured and progressive path through design studios, technical coursework, and professional preparation.
+
+
+	
+
+6. Resources (You must include, but you are not limited to, the availability of faculty / physical resources.)
+	Faculty and physical resources are available. 
+	
+
+7. Course Grading Scale (Select from dropdown list)
+	Standard Letter Grade
+	
+
+8. Course Learning Objectives (Undergraduate Courses Only: For Dual-Listed or Grad Courses, attach syllabus)
+	At the end of this course the student will be able to:
+1. Communication: Produce conceptual site designs using hand and digital workflows.
+2. Critical Thinking: Apply analysis of site conditions, user needs, and conceptual drivers to iterative design development.
+3. Disciplinary Expertise: Understand and apply core stages of the planning and design process, including inventory, analysis, concept generation, and schematic design.
+4. Research & Creativity: Explore cultural, artistic, and natural precedents to inform site planning.    
+	
+
+For Provost Office Use Only
+	Date Received:       
+	Date Added to Banner:       
+	Date Copies Sent to Registrar’ Office:       
+	Date Catalog Changed:       
+	Date Added to Curriculum Report:       
+	CIP Code:       
+	VPUGAA:       
+	Date Registrar’s Office Received:       
+	
+
+	
+
+
+
+
+
+Entry 5-LDAR 170
+1. General Information (Must be completed by all)
+	a. Originating / Contact Person 
+	b. Contact Person’s Email
+	c. Contact Person’s Phone
+	d. Date
+	William Harrison     
+	wcharris@ncat.edu
+	 336-285-4840    
+	4/13/25     
+	Originating / Contact Person’s Signature:
+	  
+
+	f. Department / Program
+	f. College (Select from dropdown list)
+	Landscape Architecture     
+	CAES
+	g. Type of Course Change (Select all that apply)
+☐ Prefix Change        ☐ Credit Hour Change
+☐ Title Change        ☐ Instructional Method Change 
+☐ Description Change        ☐ Semesters Offered Change 
+☐ Prerequisite Change        ☐ Cross Listing – Offer for credit in two or more departments.
+☐ Grading Change        ☐ Deletion – Take the course completely out of the system, never to be used again.
+☐ Change to Restrictions        ☐ Change to Repeatability
+	h. Degree Audit Adjustment Necessary? ☐ Yes ☐ No
+	If yes, describe:             
+	i. Explanation (i.e., type of change, special issues, General Education Course, etc.) 
+Course description and learning objective changes based upon recent re-accreditation visit feedback     
+	
+
+2. Course Changes or Deletions (Current course information)
+	a. Current Prefix (e.g., BIOL)
+	b. Current Number
+	c. Current Title (30 or fewer characters/spaces)
+	LDAR      
+	170
+	Landscape Architecture Graphics I             
+	d. Type of Action
+	e. Effective Semester (Use for deletions only)
+	        ☐ Change        ☐ Delete
+	             
+	f. Current Course Description (Old catalog entry. Use for changes only)
+	Students enrolled in this studio course will explore the field of landscape architecture through the various visual communication techniques. Students will be exposed to traditional and digital visual graphic techniques necessary for the communication of ideas. Students will also develop three dimensional models.     
+	g. Credit Hour
+	h. Instructional Method (Select all that apply)
+	    3 (0-6) 
+	☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+3. New Course Information (Complete only applicable fields for course changes.  Complete all fields for new courses.)
+	a. New Prefix (e.g., BIOL)
+	b. New Number
+	c. New Title (30 or fewer characters/spaces)
+	     
+	     
+	             
+	d. Effective Semester
+	e. Course level (Select from dropdown list) 
+	f. Schedule Type (Select from dropdown list)
+	Fall 2026     
+	Undergraduate
+	Laboratory
+	g. Instructional Method (Select all that apply)
+☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+h. Proposed Course Description (Catalog entry)
+	This course introduces foundational graphic communication techniques used throughout the planning and design process in landscape architecture. Students learn hand-drafting, orthographic projection, lineweight conventions, lettering, and basic digital drafting. Emphasis is placed on precision, clarity, and visual hierarchy in plan and section drawings, preparing students to visually represent spatial ideas at each stage of the design process.     
+	i. Credit Hours  
+	j. Anticipated Enrollment per Semester:  
+	k. Repeatable for additional credit?   ☐Yes  ☐No 
+   If yes, how many additional times,     or ☐Unlimited
+   Retake / Replace (UG Only)?          ☐Yes  ☐ No
+	     
+	    
+	
+
+4. Course Restrictions (Select type and enforcement from the dropdown list.  Use additional sheet if necessary)
+	Type of Restriction 
+	Enter Details
+	Enforced by
+	No Restriction in Banner
+	             
+	N/A
+	Type of Restriction 
+	Details
+	Enforced by 
+	
+
+	             
+	        
+	Type of Restriction
+	Details
+	Enforced by
+	
+
+	             
+	        
+	l. Special Grading:  ☐ Yes  ☐ No  Explain:      
+	m.  Is the content of this course duplicated in other degree programs outside your department?  ☐ Yes  ☐ No
+	n.  Does this change affect any other degree program?  
+☐ Yes  ☐ No
+	If you answer yes to either “m” or “n,” include a signature below from the other department chair.
+	Other department chair signature:
+	
+
+	
+
+5. Justification (You must include, but you are not limited to, statements about the need for course changes or new course.)
+	This course has been revised in response to recommendations from the most recent LAAB re-accreditation visit. Updates include changes to the course description and learning objectives to more explicitly align with LAAB accreditation standards, particularly regarding the planning and design process, professional competencies, and clarity of curricular intent.
+
+
+Revisions to prerequisites and course sequencing have been made intentionally to ensure students follow a structured and progressive path through design studios, technical coursework, and professional preparation. 
+	
+
+6. Resources (You must include, but you are not limited to, the availability of faculty / physical resources.)
+	Faculty and physical resources are available. 
+	
+
+7. Course Grading Scale (Select from dropdown list)
+	Standard Letter Grade
+	
+
+8. Course Learning Objectives (Undergraduate Courses Only: For Dual-Listed or Grad Courses, attach syllabus)
+	At the end of this course the student will be able to:
+1. Communication: Demonstrate the ability to clearly represent landscape spaces using plan, section, and elevation graphics.
+2. Critical Thinking: Translate 3D spatial relationships into scaled 2D representations with accuracy and intention.
+3. Disciplinary Expertise: Understand drafting standards and graphic conventions essential for communicating in the planning and design process.
+4. Research & Creativity: Reference historical and contemporary drawing examples to improve graphic decision-making.     
+	
+
+For Provost Office Use Only
+	Date Received:       
+	Date Added to Banner:       
+	Date Copies Sent to Registrar’ Office:       
+	Date Catalog Changed:       
+	Date Added to Curriculum Report:       
+	CIP Code:       
+	VPUGAA:       
+	Date Registrar’s Office Received:       
+	
+
+	
+
+
+
+Entry 6-LDAR 171
+1. General Information (Must be completed by all)
+	a. Originating / Contact Person 
+	b. Contact Person’s Email
+	c. Contact Person’s Phone
+	d. Date
+	William Harrison     
+	wcharris@ncat.edu
+	 336-285-4840    
+	4/13/25     
+	Originating / Contact Person’s Signature:
+	  
+
+	f. Department / Program
+	f. College (Select from dropdown list)
+	Landscape Architecture     
+	CAES
+	g. Type of Course Change (Select all that apply)
+☐ Prefix Change        ☐ Credit Hour Change
+☐ Title Change        ☐ Instructional Method Change 
+☐ Description Change        ☐ Semesters Offered Change 
+☐ Prerequisite Change        ☐ Cross Listing – Offer for credit in two or more departments.
+☐ Grading Change        ☐ Deletion – Take the course completely out of the system, never to be used again.
+☐ Change to Restrictions        ☐ Change to Repeatability
+	h. Degree Audit Adjustment Necessary? ☐ Yes ☐ No
+	If yes, describe:             
+	i. Explanation (i.e., type of change, special issues, General Education Course, etc.) 
+Course description and learning objective changes based upon recent re-accreditation visit feedback     
+	
+
+2. Course Changes or Deletions (Current course information)
+	a. Current Prefix (e.g., BIOL)
+	b. Current Number
+	c. Current Title (30 or fewer characters/spaces)
+	LDAR     
+	171
+	Landscape Architecture Graphics II             
+	d. Type of Action
+	e. Effective Semester (Use for deletions only)
+	        ☐ Change        ☐ Delete
+	             
+	f. Current Course Description (Old catalog entry. Use for changes only)
+	This studio course is designed to explore further issues of visual communication. Both traditional and digital visual media will be used to investigate more technical aspects of communication. Students will also develop more complex to three dimensional models.
+    
+	g. Credit Hour
+	h. Instructional Method (Select all that apply)
+	     3 (0-6)
+	☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+3. New Course Information (Complete only applicable fields for course changes.  Complete all fields for new courses.)
+	a. New Prefix (e.g., BIOL)
+	b. New Number
+	c. New Title (30 or fewer characters/spaces)
+	     
+	     
+	             
+	d. Effective Semester
+	e. Course level (Select from dropdown list) 
+	f. Schedule Type (Select from dropdown list)
+	Fall 2026     
+	Undergraduate
+	Laboratory
+	g. Instructional Method (Select all that apply)
+☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+h. Proposed Course Description (Catalog entry)
+	This course builds on foundational drafting skills to introduce advanced visual communication methods used throughout the planning and design process. Students develop hybrid workflows that integrate hand drawing, digital rendering, and layout design to produce compelling visual narratives. Emphasis is placed on representation as a design tool—used not just for presentation, but to support analysis, iteration, and conceptual development across project phases.
+     
+	i. Credit Hours  
+	j. Anticipated Enrollment per Semester:  
+	k. Repeatable for additional credit?   ☐Yes  ☐No 
+   If yes, how many additional times,     or ☐Unlimited
+   Retake / Replace (UG Only)?          ☐Yes  ☐ No
+	     
+	    
+	
+
+4. Course Restrictions (Select type and enforcement from the dropdown list.  Use additional sheet if necessary)
+	Type of Restriction 
+	Enter Details
+	Enforced by
+	Prerequisite
+	LDAR 170 Landscape Architecture Graphics I
+	Banner        
+	Type of Restriction 
+	Details
+	Enforced by 
+	
+
+	             
+	        
+	Type of Restriction
+	Details
+	Enforced by
+	
+
+	             
+	        
+	l. Special Grading:  ☐ Yes  ☐ No  Explain:      
+	m.  Is the content of this course duplicated in other degree programs outside your department?  ☐ Yes  ☐ No
+	n.  Does this change affect any other degree program?  
+☐ Yes  ☐ No
+	If you answer yes to either “m” or “n,” include a signature below from the other department chair.
+	Other department chair signature:
+	
+
+	
+
+5. Justification (You must include, but you are not limited to, statements about the need for course changes or new course.)
+	This course has been revised in response to recommendations from the most recent LAAB re-accreditation visit. Updates include changes to the course description and learning objectives to more explicitly align with LAAB accreditation standards, particularly regarding the planning and design process, professional competencies, and clarity of curricular intent.
+
+
+Revisions to prerequisites and course sequencing have been made intentionally to ensure students follow a structured and progressive path through design studios, technical coursework, and professional preparation.
+  
+	
+
+6. Resources (You must include, but you are not limited to, the availability of faculty / physical resources.)
+	Faculty and physical resources are available. 
+	
+
+7. Course Grading Scale (Select from dropdown list)
+	Standard Letter Grade
+	
+
+8. Course Learning Objectives (Undergraduate Courses Only: For Dual-Listed or Grad Courses, attach syllabus)
+	At the end of this course the student will be able to:
+1. Communication: Produce polished presentation boards that integrate multiple graphic types, including plans, sections, perspectives, and diagrams.
+2. Critical Thinking: Select appropriate rendering and representation strategies for different design phases and audiences.
+3. Disciplinary Expertise: Apply advanced graphic conventions and digital workflows that enhance visual clarity and decision-making throughout the planning and design process.
+4. Research & Creativity: Analyze professional portfolios and graphic techniques to inform personal style and layout decisions.     
+	
+
+For Provost Office Use Only
+	Date Received:       
+	Date Added to Banner:       
+	Date Copies Sent to Registrar’ Office:       
+	Date Catalog Changed:       
+	Date Added to Curriculum Report:       
+	CIP Code:       
+	VPUGAA:       
+	Date Registrar’s Office Received:       
+	
+
+	
+
+
+
+
+
+Entry 7-LDAR 204
+1. General Information (Must be completed by all)
+	a. Originating / Contact Person 
+	b. Contact Person’s Email
+	c. Contact Person’s Phone
+	d. Date
+	William Harrison     
+	wcharris@ncat.edu
+	 336-285-4840    
+	4/13/25     
+	Originating / Contact Person’s Signature:
+	  
+
+	f. Department / Program
+	f. College (Select from dropdown list)
+	Landscape Architecture     
+	CAES
+	g. Type of Course Change (Select all that apply)
+☐ Prefix Change        ☐ Credit Hour Change
+☐ Title Change        ☐ Instructional Method Change 
+☐ Description Change        ☐ Semesters Offered Change 
+☐ Prerequisite Change        ☐ Cross Listing – Offer for credit in two or more departments.
+☐ Grading Change        ☐ Deletion – Take the course completely out of the system, never to be used again.
+☐ Change to Restrictions        ☐ Change to Repeatability
+	h. Degree Audit Adjustment Necessary? ☐ Yes ☐ No
+	If yes, describe:             
+	i. Explanation (i.e., type of change, special issues, General Education Course, etc.) 
+Course description and learning objective changes based upon recent re-accreditation visit feedback     
+	
+
+2. Course Changes or Deletions (Current course information)
+	a. Current Prefix (e.g., BIOL)
+	b. Current Number
+	c. Current Title (30 or fewer characters/spaces)
+	LDAR      
+	204
+	Plant Materials             
+	d. Type of Action
+	e. Effective Semester (Use for deletions only)
+	        ☐ Change        ☐ Delete
+	             
+	f. Current Course Description (Old catalog entry. Use for changes only)
+	This course will concentrate on the study of plant materials as used in landscape design. Emphasis is placed on major categories of herbaceous plants and woody plants as they pertain to landscape usage. Identification techniques will be introduced and used.     
+	g. Credit Hour
+	h. Instructional Method (Select all that apply)
+	 3 (1-4)    
+	☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+3. New Course Information (Complete only applicable fields for course changes.  Complete all fields for new courses.)
+	a. New Prefix (e.g., BIOL)
+	b. New Number
+	c. New Title (30 or fewer characters/spaces)
+	     
+	     
+	             
+	d. Effective Semester
+	e. Course level (Select from dropdown list) 
+	f. Schedule Type (Select from dropdown list)
+	Fall 2026     
+	Undergraduate
+	Combined Lecture and Lab
+	g. Instructional Method (Select all that apply)
+☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+h. Proposed Course Description (Catalog entry)
+	This course introduces students to the identification, classification, and functional use of plant materials in landscape architecture. Students learn the aesthetic, ecological, and maintenance characteristics of a wide range of plant species and understand how those qualities inform planting design and site programming. Emphasis is placed on how plant knowledge supports the planning and design process through informed species selection based on site conditions, environmental performance, and design intent.
+     
+	i. Credit Hours  
+	j. Anticipated Enrollment per Semester:  
+	k. Repeatable for additional credit?   ☐Yes  ☐No 
+   If yes, how many additional times,     or ☐Unlimited
+   Retake / Replace (UG Only)?          ☐Yes  ☐ No
+	     
+	    
+	
+
+4. Course Restrictions (Select type and enforcement from the dropdown list.  Use additional sheet if necessary)
+	Type of Restriction 
+	Enter Details
+	Enforced by
+	Prerequisite
+	        LDAR 148 Landscape Architecture Fundamentals     
+	        Banner
+	Type of Restriction 
+	Details
+	Enforced by 
+	
+
+	             
+	        
+	Type of Restriction
+	Details
+	Enforced by
+	
+
+	             
+	        
+	l. Special Grading:  ☐ Yes  ☐ No  Explain:      
+	m.  Is the content of this course duplicated in other degree programs outside your department?  ☐ Yes  ☐ No
+	n.  Does this change affect any other degree program?  
+☐ Yes  ☐ No
+	If you answer yes to either “m” or “n,” include a signature below from the other department chair.
+	Other department chair signature:
+	
+
+	
+
+5. Justification (You must include, but you are not limited to, statements about the need for course changes or new course.)
+	This course has been revised in response to recommendations from the most recent LAAB re-accreditation visit. Updates include changes to the course description and learning objectives to more explicitly align with LAAB accreditation standards, particularly regarding the planning and design process, professional competencies, and clarity of curricular intent.
+
+
+Revisions to prerequisites and course sequencing have been made intentionally to ensure students follow a structured and progressive path through design studios, technical coursework, and professional preparation.
+  
+	
+
+6. Resources (You must include, but you are not limited to, the availability of faculty / physical resources.)
+	Faculty and physical resources are available. 
+	
+
+7. Course Grading Scale (Select from dropdown list)
+	Standard Letter Grade
+	
+
+8. Course Learning Objectives (Undergraduate Courses Only: For Dual-Listed or Grad Courses, attach syllabus)
+	At the end of this course the student will be able to:
+1. Communication: Accurately label, diagram, and describe plant materials in written, visual, and spoken formats.
+2. Critical Thinking: Match plant species to site conditions and user needs while considering sustainability, maintenance, and function.
+3. Disciplinary Expertise: Identify plant families and species commonly used in landscape architecture and understand their application in the planning and design process..
+4. Research & Creativity: Create site-specific plant palettes based on site analysis, precedent research, and seasonal performance.     
+	
+
+For Provost Office Use Only
+	Date Received:       
+	Date Added to Banner:       
+	Date Copies Sent to Registrar’ Office:       
+	Date Catalog Changed:       
+	Date Added to Curriculum Report:       
+	CIP Code:       
+	VPUGAA:       
+	Date Registrar’s Office Received:       
+	
+
+	
+
+
+
+
+
+Entry 8-LDAR 244
+1. General Information (Must be completed by all)
+	a. Originating / Contact Person 
+	b. Contact Person’s Email
+	c. Contact Person’s Phone
+	d. Date
+	William Harrison     
+	wcharris@ncat.edu
+	 336-285-4840    
+	4/13/25     
+	Originating / Contact Person’s Signature:
+	  
+
+	f. Department / Program
+	f. College (Select from dropdown list)
+	Landscape Architecture     
+	CAES
+	g. Type of Course Change (Select all that apply)
+☐ Prefix Change        ☐ Credit Hour Change
+☐ Title Change        ☐ Instructional Method Change 
+☐ Description Change        ☐ Semesters Offered Change 
+☐ Prerequisite Change        ☐ Cross Listing – Offer for credit in two or more departments.
+☐ Grading Change        ☐ Deletion – Take the course completely out of the system, never to be used again.
+☐ Change to Restrictions        ☐ Change to Repeatability
+	h. Degree Audit Adjustment Necessary? ☐ Yes ☐ No
+	If yes, describe:             
+	i. Explanation (i.e., type of change, special issues, General Education Course, etc.) 
+Course description and learning objective changes based upon recent re-accreditation visit feedback     
+	
+
+2. Course Changes or Deletions (Current course information)
+	a. Current Prefix (e.g., BIOL)
+	b. Current Number
+	c. Current Title (30 or fewer characters/spaces)
+	LDAR     
+	  244   
+	        Designing with Plants    
+	d. Type of Action
+	e. Effective Semester (Use for deletions only)
+	        ☐ Change        ☐ Delete
+	             
+	f. Current Course Description (Old catalog entry. Use for changes only)
+	This course will concentrate on the fundamentals of design as applied to aesthetic and functional arrangements of native and ornamental plant material. Activities will include preparation of planting plans, cost estimates and technical specifications.     
+	g. Credit Hour
+	h. Instructional Method (Select all that apply)
+	    3 (0-6) 
+	☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+3. New Course Information (Complete only applicable fields for course changes.  Complete all fields for new courses.)
+	a. New Prefix (e.g., BIOL)
+	b. New Number
+	c. New Title (30 or fewer characters/spaces)
+	     
+	     
+	             
+	d. Effective Semester
+	e. Course level (Select from dropdown list) 
+	f. Schedule Type (Select from dropdown list)
+	Fall 2026     
+	Undergraduate
+	Laboratory
+	g. Instructional Method (Select all that apply)
+☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+h. Proposed Course Description (Catalog entry)
+	This course builds upon foundational plant knowledge by introducing the compositional, ecological, and experiential aspects of planting design. Students learn to develop layered planting schemes that address function, aesthetics, biodiversity, and seasonal change. Emphasis is placed on applying planting strategies within the planning and design process through spatial composition, programmatic alignment, and environmental performance. Deliverables include planting plans, section perspectives, and design narratives that communicate intent across schematic and design development phases.
+     
+	i. Credit Hours  
+	j. Anticipated Enrollment per Semester:  
+	k. Repeatable for additional credit?   ☐Yes  ☐No 
+   If yes, how many additional times,     or ☐Unlimited
+   Retake / Replace (UG Only)?          ☐Yes  ☐ No
+	    
+	    
+	
+
+4. Course Restrictions (Select type and enforcement from the dropdown list.  Use additional sheet if necessary)
+	Type of Restriction 
+	Enter Details
+	Enforced by
+	Prerequisite
+	          LDAR 204 Plant Materials   
+	Banner        
+	Type of Restriction 
+	Details
+	Enforced by 
+	
+
+	             
+	        
+	Type of Restriction
+	Details
+	Enforced by
+	
+
+	             
+	        
+	l. Special Grading:  ☐ Yes  ☐ No  Explain:      
+	m.  Is the content of this course duplicated in other degree programs outside your department?  ☐ Yes  ☐ No
+	n.  Does this change affect any other degree program?  
+☐ Yes  ☐ No
+	If you answer yes to either “m” or “n,” include a signature below from the other department chair.
+	Other department chair signature:
+	
+
+	
+
+5. Justification (You must include, but you are not limited to, statements about the need for course changes or new course.)
+	This course has been revised in response to recommendations from the most recent LAAB re-accreditation visit. Updates include changes to the course description and learning objectives to more explicitly align with LAAB accreditation standards, particularly regarding the planning and design process, professional competencies, and clarity of curricular intent.
+
+
+Revisions to prerequisites and course sequencing have been made intentionally to ensure students follow a structured and progressive path through design studios, technical coursework, and professional preparation.
+ 
+	
+
+6. Resources (You must include, but you are not limited to, the availability of faculty / physical resources.)
+	Faculty and physical resources are available. 
+	
+
+7. Course Grading Scale (Select from dropdown list)
+	Standard Letter Grade
+	
+
+8. Course Learning Objectives (Undergraduate Courses Only: For Dual-Listed or Grad Courses, attach syllabus)
+	At the end of this course the student will be able to:
+1. Communication: Develop labeled and well-composed planting plans with clear graphic representation and seasonal documentation.
+2. Critical Thinking: Balance beauty, function, site conditions, and sustainability in the creation of planting schemes.
+3. Disciplinary Expertise: Apply species selection, plant layering, and compositional strategies within the planning and design process
+4. Research & Creativity: Select plants based on bloom sequence, maintenance requirements, habitat value, and site compatibility.     
+	
+
+For Provost Office Use Only
+	Date Received:       
+	Date Added to Banner:       
+	Date Copies Sent to Registrar’ Office:       
+	Date Catalog Changed:       
+	Date Added to Curriculum Report:       
+	CIP Code:       
+	VPUGAA:       
+	Date Registrar’s Office Received:       
+	
+
+	
+
+
+
+
+
+Entry 9-LDAR 247
+1. General Information (Must be completed by all)
+	a. Originating / Contact Person 
+	b. Contact Person’s Email
+	c. Contact Person’s Phone
+	d. Date
+	William Harrison     
+	wcharris@ncat.edu
+	 336-285-4840    
+	4/13/25     
+	Originating / Contact Person’s Signature:
+	  
+
+	f. Department / Program
+	f. College (Select from dropdown list)
+	Landscape Architecture     
+	CAES
+	g. Type of Course Change (Select all that apply)
+☐ Prefix Change        ☐ Credit Hour Change
+☐ Title Change        ☐ Instructional Method Change 
+☐ Description Change        ☐ Semesters Offered Change 
+☐ Prerequisite Change        ☐ Cross Listing – Offer for credit in two or more departments.
+☐ Grading Change        ☐ Deletion – Take the course completely out of the system, never to be used again.
+☐ Change to Restrictions        ☐ Change to Repeatability
+	h. Degree Audit Adjustment Necessary? ☐ Yes ☐ No
+	If yes, describe:             
+	i. Explanation (i.e., type of change, special issues, General Education Course, etc.) 
+Course description and learning objective changes based upon recent re-accreditation visit feedback     
+	
+
+2. Course Changes or Deletions (Current course information)
+	a. Current Prefix (e.g., BIOL)
+	b. Current Number
+	c. Current Title (30 or fewer characters/spaces)
+	LDAR     
+	   247  
+	Social Systems Studio             
+	d. Type of Action
+	e. Effective Semester (Use for deletions only)
+	        ☐ Change        ☐ Delete
+	             
+	f. Current Course Description (Old catalog entry. Use for changes only)
+	This studio course will explore further issues of design with emphasis on the social aspects of land use and development. Course material will emphasize analysis of cultural opportunities and constraints (i.e. zoning regulations, economic, social, political conditions, etc.).     
+	g. Credit Hour
+	h. Instructional Method (Select all that apply)
+	  6 (0-9)   
+	☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+3. New Course Information (Complete only applicable fields for course changes.  Complete all fields for new courses.)
+	a. New Prefix (e.g., BIOL)
+	b. New Number
+	c. New Title (30 or fewer characters/spaces)
+	     
+	     
+	             
+	d. Effective Semester
+	e. Course level (Select from dropdown list) 
+	f. Schedule Type (Select from dropdown list)
+	Fall 2026     
+	Undergraduate
+	Laboratory
+	g. Instructional Method (Select all that apply)
+☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+h. Proposed Course Description (Catalog entry)
+	This studio introduces students to the planning and design process through a focus on social systems, user needs, and community contexts. Students engage in site inventory and analysis, stakeholder interviews, and precedent studies to inform conceptual design strategies. Projects explore how spatial programming and iterative design development respond to patterns of behavior, demographics, and social equity. Emphasis is placed on integrating cultural narratives and access into site planning while developing representational skills to communicate evolving design ideas.
+     
+	i. Credit Hours  
+	j. Anticipated Enrollment per Semester:  
+	k. Repeatable for additional credit?   ☐Yes  ☐No 
+   If yes, how many additional times,     or ☐Unlimited
+   Retake / Replace (UG Only)?          ☐Yes  ☐ No
+	 6 (0-12)    
+	    
+	
+
+4. Course Restrictions (Select type and enforcement from the dropdown list.  Use additional sheet if necessary)
+	Type of Restriction 
+	Enter Details
+	Enforced by
+	Prerequisite
+	LDAR 148 Landscape Architecture Fundamentals
+	Banner
+	Type of Restriction 
+	Details
+	Enforced by 
+	
+
+	             
+	        
+	Type of Restriction
+	Details
+	Enforced by
+	
+
+	             
+	        
+	l. Special Grading:  ☐ Yes  ☐ No  Explain:      
+	m.  Is the content of this course duplicated in other degree programs outside your department?  ☐ Yes  ☐ No
+	n.  Does this change affect any other degree program?  
+☐ Yes  ☐ No
+	If you answer yes to either “m” or “n,” include a signature below from the other department chair.
+	Other department chair signature:
+	
+
+	
+
+5. Justification (You must include, but you are not limited to, statements about the need for course changes or new course.)
+	This course has been revised in response to recommendations from the most recent LAAB re-accreditation visit. Updates include changes to the course description and learning objectives to more explicitly align with LAAB accreditation standards, particularly regarding the planning and design process, professional competencies, and clarity of curricular intent.
+
+
+Revisions to prerequisites and course sequencing have been made intentionally to ensure students follow a structured and progressive path through design studios, technical coursework, and professional preparation.
+
+
+	
+
+6. Resources (You must include, but you are not limited to, the availability of faculty / physical resources.)
+	Faculty and physical resources are available. 
+	
+
+7. Course Grading Scale (Select from dropdown list)
+	Standard Letter Grade
+	
+
+8. Course Learning Objectives (Undergraduate Courses Only: For Dual-Listed or Grad Courses, attach syllabus)
+	At the end of this course the student will be able to:
+1. Communication: Develop and present design proposals that communicate community values and project narratives using graphic and verbal methods.
+2. Critical Thinking: Synthesize stakeholder input, demographic data, and spatial analysis to inform iterative design processes.
+3. Disciplinary Expertise: Apply each phase of the planning and design process—including site analysis, programming, schematic design, and refinement—within a socially focused framework.
+4. Research & Creativity: Examine relevant precedents, conduct user-centered site observations, and develop programming diagrams that prioritize human experience.     
+	
+
+For Provost Office Use Only
+	Date Received:       
+	Date Added to Banner:       
+	Date Copies Sent to Registrar’ Office:       
+	Date Catalog Changed:       
+	Date Added to Curriculum Report:       
+	CIP Code:       
+	VPUGAA:       
+	Date Registrar’s Office Received:       
+	
+
+	
+
+
+
+
+
+Entry 10-LDAR 248
+1. General Information (Must be completed by all)
+	a. Originating / Contact Person 
+	b. Contact Person’s Email
+	c. Contact Person’s Phone
+	d. Date
+	William Harrison     
+	wcharris@ncat.edu
+	 336-285-4840    
+	4/13/25     
+	Originating / Contact Person’s Signature:
+	  
+
+	f. Department / Program
+	f. College (Select from dropdown list)
+	Landscape Architecture     
+	CAES
+	g. Type of Course Change (Select all that apply)
+☐ Prefix Change        ☐ Credit Hour Change
+☐ Title Change        ☐ Instructional Method Change 
+☐ Description Change        ☐ Semesters Offered Change 
+☐ Prerequisite Change        ☐ Cross Listing – Offer for credit in two or more departments.
+☐ Grading Change        ☐ Deletion – Take the course completely out of the system, never to be used again.
+☐ Change to Restrictions        ☐ Change to Repeatability
+	h. Degree Audit Adjustment Necessary? ☐ Yes ☐ No
+	If yes, describe:             
+	i. Explanation (i.e., type of change, special issues, General Education Course, etc.) 
+Course description and learning objective changes based upon recent re-accreditation visit feedback     
+	
+
+2. Course Changes or Deletions (Current course information)
+	a. Current Prefix (e.g., BIOL)
+	b. Current Number
+	c. Current Title (30 or fewer characters/spaces)
+	LDAR      
+	248
+	        Ecologic Systems Studio     
+	d. Type of Action
+	e. Effective Semester (Use for deletions only)
+	        ☐ Change        ☐ Delete
+	             
+	f. Current Course Description (Old catalog entry. Use for changes only)
+	This studio course will concentrate on natural systems and emphasize the creation of sustainable landscapes. Course material will emphasize analysis of physical opportunities and constraints (ie soils, slopes, hydrology, plant materials, etc).   
+	g. Credit Hour
+	h. Instructional Method (Select all that apply)
+	    6 (0-9) 
+	☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+3. New Course Information (Complete only applicable fields for course changes.  Complete all fields for new courses.)
+	a. New Prefix (e.g., BIOL)
+	b. New Number
+	c. New Title (30 or fewer characters/spaces)
+	     
+	     
+	             
+	d. Effective Semester
+	e. Course level (Select from dropdown list) 
+	f. Schedule Type (Select from dropdown list)
+	Fall 2026     
+	Undergraduate
+	Laboratory
+	g. Instructional Method (Select all that apply)
+☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+h. Proposed Course Description (Catalog entry)
+	This studio focuses on integrating ecological knowledge into the planning and design process. Students conduct detailed site analysis across topography, hydrology, vegetation, habitat corridors, and microclimates to guide ecologically informed design strategies. Emphasis is placed on performance-based site planning that supports stormwater management, biodiversity, and resilience. Students progress through inventory and analysis through schematic design and construction detailing —using iterative methods and layered environmental data to produce responsive and measurable outcomes.
+     
+	i. Credit Hours  
+	j. Anticipated Enrollment per Semester:  
+	k. Repeatable for additional credit?   ☐Yes  ☐No 
+   If yes, how many additional times,     or ☐Unlimited
+   Retake / Replace (UG Only)?          ☐Yes  ☐ No
+	6 (0-12)      
+	    
+	
+
+4. Course Restrictions (Select type and enforcement from the dropdown list.  Use additional sheet if necessary)
+	Type of Restriction 
+	Enter Details
+	Enforced by
+	Prerequisite
+	LDAR 247 Social Systems Studio              
+	Banner        
+	Type of Restriction 
+	Details
+	Enforced by 
+	
+
+	             
+	        
+	Type of Restriction
+	Details
+	Enforced by
+	
+
+	             
+	        
+	l. Special Grading:  ☐ Yes  ☐ No  Explain:      
+	m.  Is the content of this course duplicated in other degree programs outside your department?  ☐ Yes  ☐ No
+	n.  Does this change affect any other degree program?  
+☐ Yes  ☐ No
+	If you answer yes to either “m” or “n,” include a signature below from the other department chair.
+	Other department chair signature:
+	
+
+	
+
+5. Justification (You must include, but you are not limited to, statements about the need for course changes or new course.)
+	This course has been revised in response to recommendations from the most recent LAAB re-accreditation visit. Updates include changes to the course description and learning objectives to more explicitly align with LAAB accreditation standards, particularly regarding the planning and design process, professional competencies, and clarity of curricular intent.
+
+
+Revisions to prerequisites and course sequencing have been made intentionally to ensure students follow a structured and progressive path through design studios, technical coursework, and professional preparation.
+
+
+	
+
+6. Resources (You must include, but you are not limited to, the availability of faculty / physical resources.)
+	Faculty and physical resources are available. 
+	
+
+7. Course Grading Scale (Select from dropdown list)
+	Standard Letter Grade
+	
+
+8. Course Learning Objectives (Undergraduate Courses Only: For Dual-Listed or Grad Courses, attach syllabus)
+	At the end of this course the student will be able to:
+1. Communication: Deliver clear presentations of ecological design solutions through layered diagrams, plans, and models.
+2. Critical Thinking: Analyze site conditions including hydrology, topography, soil, vegetation, and wildlife habitat to drive design decisions.
+3. Disciplinary Expertise: Apply the full planning and design process—including ecological inventory, analysis, programming, and phased design development—with emphasis on ecosystem services and environmental resilience.
+4. Research & Creativity: Investigate ecological precedents, best practices, and regional systems to inform context-specific design solutions.    
+	
+
+For Provost Office Use Only
+	Date Received:       
+	Date Added to Banner:       
+	Date Copies Sent to Registrar’ Office:       
+	Date Catalog Changed:       
+	Date Added to Curriculum Report:       
+	CIP Code:       
+	VPUGAA:       
+	Date Registrar’s Office Received:       
+	
+
+	
+
+
+
+
+
+Entry 11-LDAR 249
+1. General Information (Must be completed by all)
+	a. Originating / Contact Person 
+	b. Contact Person’s Email
+	c. Contact Person’s Phone
+	d. Date
+	William Harrison     
+	wcharris@ncat.edu
+	 336-285-4840    
+	4/13/25     
+	Originating / Contact Person’s Signature:
+	  
+
+	f. Department / Program
+	f. College (Select from dropdown list)
+	Landscape Architecture     
+	CAES
+	g. Type of Course Change (Select all that apply)
+☐ Prefix Change        ☐ Credit Hour Change
+☐ Title Change        ☐ Instructional Method Change 
+☐ Description Change        ☐ Semesters Offered Change 
+☐ Prerequisite Change        ☐ Cross Listing – Offer for credit in two or more departments.
+☐ Grading Change        ☐ Deletion – Take the course completely out of the system, never to be used again.
+☐ Change to Restrictions        ☐ Change to Repeatability
+	h. Degree Audit Adjustment Necessary? ☐ Yes ☐ No
+	If yes, describe:             
+	i. Explanation (i.e., type of change, special issues, General Education Course, etc.) 
+Course description and learning objective changes based upon recent re-accreditation visit feedback     
+	
+
+2. Course Changes or Deletions (Current course information)
+	a. Current Prefix (e.g., BIOL)
+	b. Current Number
+	c. Current Title (30 or fewer characters/spaces)
+	LDAR 
+	 249    
+	GIS Applications in Environmental Design             
+	d. Type of Action
+	e. Effective Semester (Use for deletions only)
+	        ☐ Change        ☐ Delete
+	             
+	f. Current Course Description (Old catalog entry. Use for changes only)
+	This course will address the fundamentals of geographic information systems (GIS), especially as they relate to applications by environmental planners and designers (including architects, landscape architects, urban designers, and related professionals). The course will focus on using geographic information systems (GIS) as tools. In this component, we will explore the techniques and procedures for acquiring, displaying, editing, analyzing, and modeling spatial information. 
+	g. Credit Hour
+	h. Instructional Method (Select all that apply)
+	     3 (3-0)
+	☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+3. New Course Information (Complete only applicable fields for course changes.  Complete all fields for new courses.)
+	a. New Prefix (e.g., BIOL)
+	b. New Number
+	c. New Title (30 or fewer characters/spaces)
+	     
+	 349    
+	             
+	d. Effective Semester
+	e. Course level (Select from dropdown list) 
+	f. Schedule Type (Select from dropdown list)
+	Fall 2026     
+	Undergraduate
+	Lecture
+	g. Instructional Method (Select all that apply)
+☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+h. Proposed Course Description (Catalog entry)
+	This course introduces students to Geographic Information Systems (GIS) as a critical tool for site inventory, spatial analysis, and data-driven decision-making within the planning and design process. Students learn to collect, manage, and visualize geospatial data to identify patterns, constraints, and opportunities across ecological, cultural, and infrastructural layers. Emphasis is placed on how spatial data informs programming, suitability analysis, and site planning.     
+	i. Credit Hours  
+	j. Anticipated Enrollment per Semester:  
+	k. Repeatable for additional credit?   ☐Yes  ☐No 
+   If yes, how many additional times,     or ☐Unlimited
+   Retake / Replace (UG Only)?          ☐Yes  ☐ No
+	 3 (0-6)     
+	    
+	
+
+4. Course Restrictions (Select type and enforcement from the dropdown list.  Use additional sheet if necessary)
+	Type of Restriction 
+	Enter Details
+	Enforced by
+	Prerequisite
+	LDAR 347 Land Form and Stormwater Studio
+	Banner
+	Type of Restriction 
+	Details
+	Enforced by 
+	
+
+	             
+	        
+	Type of Restriction
+	Details
+	Enforced by
+	
+
+	             
+	        
+	l. Special Grading:  ☐ Yes  ☐ No  Explain:      
+	m.  Is the content of this course duplicated in other degree programs outside your department?  ☐ Yes  ☐ No
+	n.  Does this change affect any other degree program?  
+☐ Yes  ☐ No
+	If you answer yes to either “m” or “n,” include a signature below from the other department chair.
+	Other department chair signature:
+	
+
+	
+
+5. Justification (You must include, but you are not limited to, statements about the need for course changes or new course.)
+	This course has been revised in response to recommendations from the most recent LAAB re-accreditation visit. Updates include changes to the course description and learning objectives to more explicitly align with LAAB accreditation standards, particularly regarding the planning and design process, professional competencies, and clarity of curricular intent.
+
+
+Revisions to prerequisites and course sequencing have been made intentionally to ensure students follow a structured and progressive path through design studios, technical coursework, and professional preparation.
+
+
+	
+
+6. Resources (You must include, but you are not limited to, the availability of faculty / physical resources.)
+	Faculty and physical resources are available. 
+	
+
+7. Course Grading Scale (Select from dropdown list)
+	Standard Letter Grade
+	
+
+8. Course Learning Objectives (Undergraduate Courses Only: For Dual-Listed or Grad Courses, attach syllabus)
+	At the end of this course the student will be able to:
+1. Communication: Create clear thematic maps using spatial data and cartographic principles.
+2. Critical Thinking: Interpret geospatial layers to uncover relationships between land use, ecology, and culture.
+3. Disciplinary Expertise: Apply GIS workflows—including georeferencing, attribute queries, and overlay analysis—to support early stages of the planning and design process.
+4. Research & Creativity: Use public data and satellite imagery to explore site constraints and design potential.   
+	
+
+For Provost Office Use Only
+	Date Received:       
+	Date Added to Banner:       
+	Date Copies Sent to Registrar’ Office:       
+	Date Catalog Changed:       
+	Date Added to Curriculum Report:       
+	CIP Code:       
+	VPUGAA:       
+	Date Registrar’s Office Received:       
+	
+
+	
+
+
+
+
+
+Entry 12-LDAR 255
+1. General Information (Must be completed by all)
+	a. Originating / Contact Person 
+	b. Contact Person’s Email
+	c. Contact Person’s Phone
+	d. Date
+	William Harrison     
+	wcharris@ncat.edu
+	 336-285-4840    
+	4/13/25     
+	Originating / Contact Person’s Signature:
+	  
+
+	f. Department / Program
+	f. College (Select from dropdown list)
+	Landscape Architecture     
+	CAES
+	g. Type of Course Change (Select all that apply)
+☐ Prefix Change        ☐ Credit Hour Change
+☐ Title Change        ☐ Instructional Method Change 
+☐ Description Change        ☐ Semesters Offered Change 
+☐ Prerequisite Change        ☐ Cross Listing – Offer for credit in two or more departments.
+☐ Grading Change        ☐ Deletion – Take the course completely out of the system, never to be used again.
+☐ Change to Restrictions        ☐ Change to Repeatability
+	h. Degree Audit Adjustment Necessary? ☐ Yes ☐ No
+	If yes, describe:             
+	i. Explanation (i.e., type of change, special issues, General Education Course, etc.) 
+Course description and learning objective changes based upon recent re-accreditation visit feedback     
+	
+
+2. Course Changes or Deletions (Current course information)
+	a. Current Prefix (e.g., BIOL)
+	b. Current Number
+	c. Current Title (30 or fewer characters/spaces)
+	LDAR 
+	255
+	Design Theory     
+	d. Type of Action
+	e. Effective Semester (Use for deletions only)
+	        ☐ Change        ☐ Delete
+	             
+	f. Current Course Description (Old catalog entry. Use for changes only)
+	Discussion of historic and contemporary issues relating to the theory and practice of landscape architecture are the focus of this seminar. Research will be conducted individually and in groups.
+	g. Credit Hour
+	h. Instructional Method (Select all that apply)
+	     3 (3-0)
+	☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+3. New Course Information (Complete only applicable fields for course changes.  Complete all fields for new courses.)
+	a. New Prefix (e.g., BIOL)
+	b. New Number
+	c. New Title (30 or fewer characters/spaces)
+	     
+	    
+	             
+	d. Effective Semester
+	e. Course level (Select from dropdown list) 
+	f. Schedule Type (Select from dropdown list)
+	Fall 2026     
+	Undergraduate
+	Lecture
+	g. Instructional Method (Select all that apply)
+☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+h. Proposed Course Description (Catalog entry)
+	This seminar examines the philosophical, cultural, and ethical frameworks that shape the planning and design process in landscape architecture. Students will explore how theories of design inform and impact what gets designed and built. Through readings, discussion, and visual synthesis, students learn to evaluate how theory influences program development, form-making, and decision-making within the design process.
+
+
+     
+	i. Credit Hours  
+	j. Anticipated Enrollment per Semester:  
+	k. Repeatable for additional credit?   ☐Yes  ☐No 
+   If yes, how many additional times,     or ☐Unlimited
+   Retake / Replace (UG Only)?          ☐Yes  ☐ No
+	 3 (3-0)     
+	    
+	
+
+4. Course Restrictions (Select type and enforcement from the dropdown list.  Use additional sheet if necessary)
+	Type of Restriction 
+	Enter Details
+	Enforced by
+	Prerequisite
+	LDAR 247 Social Systems Studio
+	Banner
+	Type of Restriction 
+	Details
+	Enforced by 
+	
+
+	             
+	        
+	Type of Restriction
+	Details
+	Enforced by
+	
+
+	             
+	        
+	l. Special Grading:  ☐ Yes  ☐ No  Explain:      
+	m.  Is the content of this course duplicated in other degree programs outside your department?  ☐ Yes  ☐ No
+	n.  Does this change affect any other degree program?  
+☐ Yes  ☐ No
+	If you answer yes to either “m” or “n,” include a signature below from the other department chair.
+	Other department chair signature:
+	
+
+	
+
+5. Justification (You must include, but you are not limited to, statements about the need for course changes or new course.)
+	This course has been revised in response to recommendations from the most recent LAAB re-accreditation visit. Updates include changes to the course description and learning objectives to more explicitly align with LAAB accreditation standards, particularly regarding the planning and design process, professional competencies, and clarity of curricular intent.
+
+
+Revisions to prerequisites and course sequencing have been made intentionally to ensure students follow a structured and progressive path through design studios, technical coursework, and professional preparation.
+	
+
+6. Resources (You must include, but you are not limited to, the availability of faculty / physical resources.)
+	Faculty and physical resources are available. 
+	
+
+7. Course Grading Scale (Select from dropdown list)
+	Standard Letter Grade
+	
+
+8. Course Learning Objectives (Undergraduate Courses Only: For Dual-Listed or Grad Courses, attach syllabus)
+	At the end of this course the student will be able to:
+1. Communication: Express theoretical positions clearly in presentations, discussions, and short essays.
+2. Critical Thinking: Evaluate major design theories and their relevance to different phases of the planning and design process.
+3. Disciplinary Expertise: Understand the role of ideology, culture, and ethics in shaping spatial form and function.
+4. Research & Creativity: Analyze case studies and scholarly texts to connect theoretical perspectives to real-world planning and design strategies.   
+	
+
+For Provost Office Use Only
+	Date Received:       
+	Date Added to Banner:       
+	Date Copies Sent to Registrar’ Office:       
+	Date Catalog Changed:       
+	Date Added to Curriculum Report:       
+	CIP Code:       
+	VPUGAA:       
+	Date Registrar’s Office Received:       
+	
+
+	
+
+
+
+Entry 13-LDAR 299
+1. General Information (Must be completed by all)
+	a. Originating / Contact Person 
+	b. Contact Person’s Email
+	c. Contact Person’s Phone
+	d. Date
+	William Harrison     
+	wcharris@ncat.edu
+	 336-285-4840    
+	4/13/25     
+	Originating / Contact Person’s Signature:
+	  
+
+	f. Department / Program
+	f. College (Select from dropdown list)
+	Landscape Architecture     
+	CAES
+	g. Type of Course Change (Select all that apply)
+☐ Prefix Change        ☐ Credit Hour Change
+☐ Title Change        ☐ Instructional Method Change 
+☐ Description Change        ☐ Semesters Offered Change 
+☐ Prerequisite Change        ☐ Cross Listing – Offer for credit in two or more departments.
+☐ Grading Change        ☐ Deletion – Take the course completely out of the system, never to be used again.
+☐ Change to Restrictions        ☐ Change to Repeatability
+	h. Degree Audit Adjustment Necessary? ☐ Yes ☐ No
+	If yes, describe:             
+	i. Explanation (i.e., type of change, special issues, General Education Course, etc.) 
+Course description and learning objective changes based upon recent re-accreditation visit feedback     
+	
+
+2. Course Changes or Deletions (Current course information)
+	a. Current Prefix (e.g., BIOL)
+	b. Current Number
+	c. Current Title (30 or fewer characters/spaces)
+	LDAR 
+	299
+	 Resume/Portfolio Seminar  
+	d. Type of Action
+	e. Effective Semester (Use for deletions only)
+	        ☐ Change        ☐ Delete
+	             
+	f. Current Course Description (Old catalog entry. Use for changes only)
+	Landscape architecture students will create professional-level self-promotional materials.
+	g. Credit Hour
+	h. Instructional Method (Select all that apply)
+	    1 (0-2) 
+	☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+3. New Course Information (Complete only applicable fields for course changes.  Complete all fields for new courses.)
+	a. New Prefix (e.g., BIOL)
+	b. New Number
+	c. New Title (30 or fewer characters/spaces)
+	     
+	 399   
+	             
+	d. Effective Semester
+	e. Course level (Select from dropdown list) 
+	f. Schedule Type (Select from dropdown list)
+	Fall 2026     
+	Undergraduate
+	Laboratory
+	g. Instructional Method (Select all that apply)
+☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+h. Proposed Course Description (Catalog entry)
+	This professional development course focuses on portfolio creation, resume design, interview preparation, and job search strategy in the landscape architecture field. Students will curate their academic work into cohesive portfolios while identifying personal strengths and goals. Emphasis is placed on visual storytelling, career exploration, and Council of Landscape Architecture Registration Board (CLARB) licensure pathways.
+
+
+
+
+     
+	i. Credit Hours  
+	j. Anticipated Enrollment per Semester:  
+	k. Repeatable for additional credit?   ☐Yes  ☐No 
+   If yes, how many additional times,     or ☐Unlimited
+   Retake / Replace (UG Only)?          ☐Yes  ☐ No
+	 1 (0-2)      
+	    
+	
+
+4. Course Restrictions (Select type and enforcement from the dropdown list.  Use additional sheet if necessary)
+	Type of Restriction 
+	Enter Details
+	Enforced by
+	Prerequisite
+	LDAR 248 Ecologic Systems Studio
+	Banner
+	Type of Restriction 
+	Details
+	Enforced by 
+	
+
+	             
+	        
+	Type of Restriction
+	Details
+	Enforced by
+	
+
+	             
+	        
+	l. Special Grading:  ☐ Yes  ☐ No  Explain:      
+	m.  Is the content of this course duplicated in other degree programs outside your department?  ☐ Yes  ☐ No
+	n.  Does this change affect any other degree program?  
+☐ Yes  ☐ No
+	If you answer yes to either “m” or “n,” include a signature below from the other department chair.
+	Other department chair signature:
+	
+
+	
+
+5. Justification (You must include, but you are not limited to, statements about the need for course changes or new course.)
+	This course has been revised in response to recommendations from the most recent LAAB re-accreditation visit. Updates include changes to the course description and learning objectives to more explicitly align with LAAB accreditation standards, particularly regarding the planning and design process, professional competencies, and clarity of curricular intent.
+
+
+Revisions to prerequisites and course sequencing have been made intentionally to ensure students follow a structured and progressive path through design studios, technical coursework, and professional preparation.
+  
+	
+
+6. Resources (You must include, but you are not limited to, the availability of faculty / physical resources.)
+	Faculty and physical resources are available. 
+	
+
+7. Course Grading Scale (Select from dropdown list)
+	Standard Letter Grade
+	
+
+8. Course Learning Objectives (Undergraduate Courses Only: For Dual-Listed or Grad Courses, attach syllabus)
+	At the end of this course the student will be able to:
+1. Communication: Organize and present studio work in a clear, professional portfolio format, for future use.
+2. Critical Thinking: Reflect on personal strengths, areas for growth, and career goals through self-assessment and review.
+3. Disciplinary Expertise: Understand professional workflows, portfolio standards, and licensure expectations.
+4. Research & Creativity: Investigate firms, internships, graduate programs, and emerging career paths within landscape architecture.   
+	
+
+For Provost Office Use Only
+	Date Received:       
+	Date Added to Banner:       
+	Date Copies Sent to Registrar’ Office:       
+	Date Catalog Changed:       
+	Date Added to Curriculum Report:       
+	CIP Code:       
+	VPUGAA:       
+	Date Registrar’s Office Received:       
+	
+
+	
+
+
+
+Entry 14-LDAR 345 
+1. General Information (Must be completed by all)
+	a. Originating / Contact Person 
+	b. Contact Person’s Email
+	c. Contact Person’s Phone
+	d. Date
+	William Harrison     
+	wcharris@ncat.edu
+	 336-285-4840    
+	4/13/25     
+	Originating / Contact Person’s Signature:
+	  
+
+	f. Department / Program
+	f. College (Select from dropdown list)
+	Landscape Architecture     
+	CAES
+	g. Type of Course Change (Select all that apply)
+☐ Prefix Change        ☐ Credit Hour Change
+☐ Title Change        ☐ Instructional Method Change 
+☐ Description Change        ☐ Semesters Offered Change 
+☐ Prerequisite Change        ☐ Cross Listing – Offer for credit in two or more departments.
+☐ Grading Change        ☐ Deletion – Take the course completely out of the system, never to be used again.
+☐ Change to Restrictions        ☐ Change to Repeatability
+	h. Degree Audit Adjustment Necessary? ☐ Yes ☐ No
+	If yes, describe:             
+	i. Explanation (i.e., type of change, special issues, General Education Course, etc.) 
+Course description and learning objective changes based upon recent re-accreditation visit feedback     
+	
+
+2. Course Changes or Deletions (Current course information)
+	a. Current Prefix (e.g., BIOL)
+	b. Current Number
+	c. Current Title (30 or fewer characters/spaces)
+	LDAR 
+	345
+	Site Systems   
+	d. Type of Action
+	e. Effective Semester (Use for deletions only)
+	        ☐ Change        ☐ Delete
+	             
+	f. Current Course Description (Old catalog entry. Use for changes only)
+	This course will focus on exercises and projects in site engineering with emphasis on sustainable landscapes.
+	g. Credit Hour
+	h. Instructional Method (Select all that apply)
+	   3 (0-6)  
+	☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+3. New Course Information (Complete only applicable fields for course changes.  Complete all fields for new courses.)
+	a. New Prefix (e.g., BIOL)
+	b. New Number
+	c. New Title (30 or fewer characters/spaces)
+	     
+	    
+	             
+	d. Effective Semester
+	e. Course level (Select from dropdown list) 
+	f. Schedule Type (Select from dropdown list)
+	Fall 2026     
+	Undergraduate
+	Laboratory
+	g. Instructional Method (Select all that apply)
+☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+h. Proposed Course Description (Catalog entry)
+	This course introduces students to the environmental and engineering systems that support technical decision-making within the planning and design process. Topics include soils, hydrology, grading, and stormwater management. Students analyze physical site conditions and apply basic site engineering methods to develop accessible, functional, and resilient site designs. Through lecture and lab work, students learn how technical systems shape feasibility, safety, and performance in the development phase of landscape architecture projects.
+
+
+     
+	i. Credit Hours  
+	j. Anticipated Enrollment per Semester:  
+	k. Repeatable for additional credit?   ☐Yes  ☐No 
+   If yes, how many additional times,     or ☐Unlimited
+   Retake / Replace (UG Only)?          ☐Yes  ☐ No
+	3 (0-6)      
+	    
+	
+
+4. Course Restrictions (Select type and enforcement from the dropdown list.  Use additional sheet if necessary)
+	Type of Restriction 
+	Enter Details
+	Enforced by
+	Prerequisite 
+	Pre. LDAR 248 Ecologic Systems Studio
+	Banner
+	Type of Restriction 
+	Details
+	Enforced by 
+	Prerequisite
+	MATH 102 or higher
+	Banner        
+	Type of Restriction
+	Details
+	Enforced by
+	Corequisite
+	LDAR 347 Landform & Stormwater Studio             
+	Banner        
+	l. Special Grading:  ☐ Yes  ☐ No  Explain:      
+	m.  Is the content of this course duplicated in other degree programs outside your department?  ☐ Yes  ☐ No
+	n.  Does this change affect any other degree program?  
+☐ Yes  ☐ No
+	If you answer yes to either “m” or “n,” include a signature below from the other department chair.
+	Other department chair signature:
+	
+
+	
+
+5. Justification (You must include, but you are not limited to, statements about the need for course changes or new course.)
+	This course has been revised in response to recommendations from the most recent LAAB re-accreditation visit. Updates include changes to the course description and learning objectives to more explicitly align with LAAB accreditation standards, particularly regarding the planning and design process, professional competencies, and clarity of curricular intent.
+
+
+Revisions to prerequisites and course sequencing have been made intentionally to ensure students follow a structured and progressive path through design studios, technical coursework, and professional preparation.
+
+
+	
+
+6. Resources (You must include, but you are not limited to, the availability of faculty / physical resources.)
+	Faculty and physical resources are available. 
+	
+
+7. Course Grading Scale (Select from dropdown list)
+	Standard Letter Grade
+	
+
+8. Course Learning Objectives (Undergraduate Courses Only: For Dual-Listed or Grad Courses, attach syllabus)
+	At the end of this course the student will be able to:
+1. Communication: Produce grading and drainage plans using standard conventions and accurate notation.
+2. Critical Thinking: Analyze topographic data and assess site challenges including water movement, soil stability, and slope compliance.
+3. Disciplinary Expertise: Apply environmental systems knowledge to support the technical phases of the planning and design process.
+4. Research & Creativity: Investigate low-impact development strategies and natural systems to inform sustainable site design.  
+	
+
+For Provost Office Use Only
+	Date Received:       
+	Date Added to Banner:       
+	Date Copies Sent to Registrar’ Office:       
+	Date Catalog Changed:       
+	Date Added to Curriculum Report:       
+	CIP Code:       
+	VPUGAA:       
+	Date Registrar’s Office Received:       
+	
+
+	
+
+
+
+
+
+Entry 15-LDAR 349
+1. General Information (Must be completed by all)
+	a. Originating / Contact Person 
+	b. Contact Person’s Email
+	c. Contact Person’s Phone
+	d. Date
+	William Harrison     
+	wcharris@ncat.edu
+	 336-285-4840    
+	4/13/25     
+	Originating / Contact Person’s Signature:
+	  
+
+	f. Department / Program
+	f. College (Select from dropdown list)
+	Landscape Architecture     
+	CAES
+	g. Type of Course Change (Select all that apply)
+☐ Prefix Change        ☐ Credit Hour Change
+☐ Title Change        ☐ Instructional Method Change 
+☐ Description Change        ☐ Semesters Offered Change 
+☐ Prerequisite Change        ☐ Cross Listing – Offer for credit in two or more departments.
+☐ Grading Change        ☐ Deletion – Take the course completely out of the system, never to be used again.
+☐ Change to Restrictions        ☐ Change to Repeatability
+	h. Degree Audit Adjustment Necessary? ☐ Yes ☐ No
+	If yes, describe:             
+	i. Explanation (i.e., type of change, special issues, General Education Course, etc.) 
+Course description and learning objective changes based upon recent re-accreditation visit feedback     
+	
+
+2. Course Changes or Deletions (Current course information)
+	a. Current Prefix (e.g., BIOL)
+	b. Current Number
+	c. Current Title (30 or fewer characters/spaces)
+	LDAR 
+	349
+	   Construction Documents
+	d. Type of Action
+	e. Effective Semester (Use for deletions only)
+	        ☐ Change        ☐ Delete
+	             
+	f. Current Course Description (Old catalog entry. Use for changes only)
+	This course has been revised in response to recommendations from the most recent LAAB re-accreditation visit. Updates include changes to the course description and learning objectives to more explicitly align with LAAB accreditation standards, particularly regarding the planning and design process, professional competencies, and clarity of curricular intent.
+
+
+Revisions to prerequisites and course sequencing have been made intentionally to ensure students follow a structured and progressive path through design studios, technical coursework, and professional preparation.
+.
+	g. Credit Hour
+	h. Instructional Method (Select all that apply)
+	   3 (0-6)  
+	☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+3. New Course Information (Complete only applicable fields for course changes.  Complete all fields for new courses.)
+	a. New Prefix (e.g., BIOL)
+	b. New Number
+	c. New Title (30 or fewer characters/spaces)
+	     
+	 249   
+	            
+	d. Effective Semester
+	e. Course level (Select from dropdown list) 
+	f. Schedule Type (Select from dropdown list)
+	Fall 2026     
+	Undergraduate
+	Laboratory
+	g. Instructional Method (Select all that apply)
+☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+h. Proposed Course Description (Catalog entry)
+	This course introduces the documentation and detailing phase of the planning and design process, with an emphasis on translating design intent into buildable solutions. Students develop construction document sets including layout plans, grading diagrams, planting plans, and material details. Emphasis is placed on lineweight control, annotation standards, sheet organization, and digital workflows. Students learn how technical accuracy and clarity support the implementation and communication of landscape designs.
+
+
+     
+	i. Credit Hours  
+	j. Anticipated Enrollment per Semester:  
+	k. Repeatable for additional credit?   ☐Yes  ☐No 
+   If yes, how many additional times,     or ☐Unlimited
+   Retake / Replace (UG Only)?          ☐Yes  ☐ No
+	3 (0-6)     
+	    
+	
+
+4. Course Restrictions (Select type and enforcement from the dropdown list.  Use additional sheet if necessary)
+	Type of Restriction 
+	Enter Details
+	Enforced by
+	Prerequisite
+	LDAR 247 Social Systems Studio
+	Banner
+	Type of Restriction 
+	Details
+	Enforced by 
+	
+
+	             
+	        
+	Type of Restriction
+	Details
+	Enforced by
+	
+
+	             
+	        
+	l. Special Grading:  ☐ Yes  ☐ No  Explain:      
+	m.  Is the content of this course duplicated in other degree programs outside your department?  ☐ Yes  ☐ No
+	n.  Does this change affect any other degree program?  
+☐ Yes  ☐ No
+	If you answer yes to either “m” or “n,” include a signature below from the other department chair.
+	Other department chair signature:
+	
+
+	
+
+5. Justification (You must include, but you are not limited to, statements about the need for course changes or new course.)
+	This course has been revised in response to recommendations from the most recent LAAB re-accreditation visit. Updates include changes to the course description and learning objectives to more explicitly align with LAAB accreditation standards, particularly regarding the planning and design process, professional competencies, and clarity of curricular intent.
+
+
+Revisions to prerequisites and course sequencing have been made intentionally to ensure students follow a structured and progressive path through design studios, technical coursework, and professional preparation.
+ 
+	
+
+6. Resources (You must include, but you are not limited to, the availability of faculty / physical resources.)
+	Faculty and physical resources are available. 
+	
+
+7. Course Grading Scale (Select from dropdown list)
+	Standard Letter Grade
+	
+
+8. Course Learning Objectives (Undergraduate Courses Only: For Dual-Listed or Grad Courses, attach syllabus)
+	At the end of this course the student will be able to:
+1. Communication: Produce detailed and legible construction drawings including layout, grading, planting, and detail sheets.
+2. Critical Thinking: Translate conceptual designs into technical construction documents that meet real-world implementation standards.
+3. Disciplinary Expertise: Understand the documentation phase of the planning and design process, including computer aided drafting standards, sheet organization, and technical precision.
+4. Research & Creativity: Analyze construction case studies and technical references to develop appropriate detailing strategies.   
+	
+
+For Provost Office Use Only
+	Date Received:       
+	Date Added to Banner:       
+	Date Copies Sent to Registrar’ Office:       
+	Date Catalog Changed:       
+	Date Added to Curriculum Report:       
+	CIP Code:       
+	VPUGAA:       
+	Date Registrar’s Office Received:       
+	
+
+	
+
+
+
+
+
+Entry 16-LDAR 380 
+1. General Information (Must be completed by all)
+	a. Originating / Contact Person 
+	b. Contact Person’s Email
+	c. Contact Person’s Phone
+	d. Date
+	William Harrison     
+	wcharris@ncat.edu
+	 336-285-4840    
+	4/13/25     
+	Originating / Contact Person’s Signature:
+	  
+
+	f. Department / Program
+	f. College (Select from dropdown list)
+	Landscape Architecture     
+	CAES
+	g. Type of Course Change (Select all that apply)
+☐ Prefix Change        ☐ Credit Hour Change
+☐ Title Change        ☐ Instructional Method Change 
+☐ Description Change        ☐ Semesters Offered Change 
+☐ Prerequisite Change        ☐ Cross Listing – Offer for credit in two or more departments.
+☐ Grading Change        ☐ Deletion – Take the course completely out of the system, never to be used again.
+☐ Change to Restrictions        ☐ Change to Repeatability
+	h. Degree Audit Adjustment Necessary? ☐ Yes ☐ No
+	If yes, describe:             
+	i. Explanation (i.e., type of change, special issues, General Education Course, etc.) 
+Course description and learning objective changes based upon recent re-accreditation visit feedback     
+	
+
+2. Course Changes or Deletions (Current course information)
+	a. Current Prefix (e.g., BIOL)
+	b. Current Number
+	c. Current Title (30 or fewer characters/spaces)
+	LDAR
+	380
+	 Master Planning/Field Study Studio
+	d. Type of Action
+	e. Effective Semester (Use for deletions only)
+	        ☐ Change        ☐ Delete
+	             
+	f. Current Course Description (Old catalog entry. Use for changes only)
+	This is a studio course for students to develop sustainable design solutions for large-scale projects. Students will develop programs, site analysis, concept, and presentation drawings.
+	g. Credit Hour
+	h. Instructional Method (Select all that apply)
+	 6 (0-9)    
+	☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+3. New Course Information (Complete only applicable fields for course changes.  Complete all fields for new courses.)
+	a. New Prefix (e.g., BIOL)
+	b. New Number
+	c. New Title (30 or fewer characters/spaces)
+	     
+	348
+	   
+	d. Effective Semester
+	e. Course level (Select from dropdown list) 
+	f. Schedule Type (Select from dropdown list)
+	Fall 2026     
+	Undergraduate
+	Laboratory
+	g. Instructional Method (Select all that apply)
+☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+h. Proposed Course Description (Catalog entry)
+	This studio introduces students to the planning and design process at the scale of large sites and multi-phase development. Students conduct field-based research, stakeholder observation, and environmental inventory as the foundation for developing context-sensitive master plans. Through structured site visits and fieldwork supported by a lab fee, students document conditions, collect spatial data, and observe precedent projects firsthand. Emphasis is placed on ecological performance, land use, programming, and systems integration. Final deliverables include phased master plans, regional analysis, and conceptual visualizations grounded in both data and field experience.
+
+
+
+
+     
+	i. Credit Hours  
+	j. Anticipated Enrollment per Semester:  
+	k. Repeatable for additional credit?   ☐Yes  ☐No 
+   If yes, how many additional times,     or ☐Unlimited
+   Retake / Replace (UG Only)?          ☐Yes  ☐ No
+	6 (0-12)     
+	    
+	
+
+4. Course Restrictions (Select type and enforcement from the dropdown list.  Use additional sheet if necessary)
+	Type of Restriction 
+	Enter Details
+	Enforced by
+	Prerequisite
+	LDAR 347 Landform & Stormwater Studio
+	Banner
+	Type of Restriction 
+	Details
+	Enforced by 
+	
+
+	             
+	        
+	Type of Restriction
+	Details
+	Enforced by
+	
+
+	             
+	        
+	l. Special Grading:  ☐ Yes  ☐ No  Explain:      
+	m.  Is the content of this course duplicated in other degree programs outside your department?  ☐ Yes  ☐ No
+	n.  Does this change affect any other degree program?  
+☐ Yes  ☐ No
+	If you answer yes to either “m” or “n,” include a signature below from the other department chair.
+	Other department chair signature:
+	
+
+	
+
+5. Justification (You must include, but you are not limited to, statements about the need for course changes or new course.)
+	This course has been revised in response to recommendations from the most recent LAAB re-accreditation visit. Updates include changes to the course description and learning objectives to more explicitly align with LAAB accreditation standards, particularly regarding the planning and design process, professional competencies, and clarity of curricular intent.
+
+
+Revisions to prerequisites and course sequencing have been made intentionally to ensure students follow a structured and progressive path through design studios, technical coursework, and professional preparation.
+ 
+	
+
+6. Resources (You must include, but you are not limited to, the availability of faculty / physical resources.)
+	Faculty and physical resources are available. 
+	
+
+7. Course Grading Scale (Select from dropdown list)
+	Standard Letter Grade
+	
+
+8. Course Learning Objectives (Undergraduate Courses Only: For Dual-Listed or Grad Courses, attach syllabus)
+	At the end of this course the student will be able to:
+1. Communication: Produce comprehensive site plans, phasing diagrams, and illustrative perspectives that communicate long-term vision and feasibility.
+2. Critical Thinking: Integrate complex site systems—natural, social, and regulatory—into strategic, multi-phase master planning.
+3. Disciplinary Expertise: Execute the complete planning and design process at the master plan scale, including analysis, programming, schematic layout, and conceptual visualization.
+4. Research & Creativity: Incorporate field data, stakeholder interviews, and precedents into design logic and narrative.  
+	
+
+For Provost Office Use Only
+	Date Received:       
+	Date Added to Banner:       
+	Date Copies Sent to Registrar’ Office:       
+	Date Catalog Changed:       
+	Date Added to Curriculum Report:       
+	CIP Code:       
+	VPUGAA:       
+	Date Registrar’s Office Received:       
+	
+
+	
+
+
+
+
+
+Entry 17-LDAR 381
+1. General Information (Must be completed by all)
+	a. Originating / Contact Person 
+	b. Contact Person’s Email
+	c. Contact Person’s Phone
+	d. Date
+	William Harrison     
+	wcharris@ncat.edu
+	 336-285-4840    
+	4/13/25     
+	Originating / Contact Person’s Signature:
+	  
+
+	f. Department / Program
+	f. College (Select from dropdown list)
+	Landscape Architecture     
+	CAES
+	g. Type of Course Change (Select all that apply)
+☐ Prefix Change        ☐ Credit Hour Change
+☐ Title Change        ☐ Instructional Method Change 
+☐ Description Change        ☐ Semesters Offered Change 
+☐ Prerequisite Change        ☐ Cross Listing – Offer for credit in two or more departments.
+☐ Grading Change        ☐ Deletion – Take the course completely out of the system, never to be used again.
+☐ Change to Restrictions        ☐ Change to Repeatability
+	h. Degree Audit Adjustment Necessary? ☐ Yes ☐ No
+	If yes, describe:             
+	i. Explanation (i.e., type of change, special issues, General Education Course, etc.) 
+Course description and learning objective changes based upon recent re-accreditation visit feedback     
+	
+
+2. Course Changes or Deletions (Current course information)
+	a. Current Prefix (e.g., BIOL)
+	b. Current Number
+	c. Current Title (30 or fewer characters/spaces)
+	LDAR 
+	381
+	  Materials and Construction Studio 
+	d. Type of Action
+	e. Effective Semester (Use for deletions only)
+	        ☐ Change        ☐ Delete
+	             
+	f. Current Course Description (Old catalog entry. Use for changes only)
+	This studio course concentrates on landscape construction materials and methods. Students will become familiar with a wide range of materials and how they are used together, and will learn about on-site processes used to construct a landscape project.
+	g. Credit Hour
+	h. Instructional Method (Select all that apply)
+	  6 (0-9)   
+	☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+3. New Course Information (Complete only applicable fields for course changes.  Complete all fields for new courses.)
+	a. New Prefix (e.g., BIOL)
+	b. New Number
+	c. New Title (30 or fewer characters/spaces)
+	     
+	  149 
+	         Site Materials and Construction Methods   
+	d. Effective Semester
+	e. Course level (Select from dropdown list) 
+	f. Schedule Type (Select from dropdown list)
+	Fall 2026     
+	Undergraduate
+	Lecture
+	g. Instructional Method (Select all that apply)
+☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+h. Proposed Course Description (Catalog entry)
+	This course introduces students to construction materials and basic assembly systems used in landscape architecture. Through lectures, drawing exercises, and visual analysis, students study how materials shape site experience, support sustainability, and influence construction feasibility. The course connects material knowledge to the planning and design process by showing how technical decisions inform design development, spatial definition, and project implementation.
+
+
+     
+	i. Credit Hours  
+	j. Anticipated Enrollment per Semester:  
+	k. Repeatable for additional credit?   ☐Yes  ☐No 
+   If yes, how many additional times,     or ☐Unlimited
+   Retake / Replace (UG Only)?          ☐Yes  ☐ No
+	3 (3-0)     
+	   
+	
+
+4. Course Restrictions (Select type and enforcement from the dropdown list.  Use additional sheet if necessary)
+	Type of Restriction 
+	Enter Details
+	Enforced by
+	Prerequisite
+	LDAR 170 Landscape Architecture Graphics I
+	Banner
+	Type of Restriction 
+	Details
+	Enforced by 
+	
+
+	             
+	        
+	Type of Restriction
+	Details
+	Enforced by
+	
+
+	             
+	        
+	l. Special Grading:  ☐ Yes  ☐ No  Explain:      
+	m.  Is the content of this course duplicated in other degree programs outside your department?  ☐ Yes  ☐ No
+	n.  Does this change affect any other degree program?  
+☐ Yes  ☐ No
+	If you answer yes to either “m” or “n,” include a signature below from the other department chair.
+	Other department chair signature:
+	
+
+	
+
+5. Justification (You must include, but you are not limited to, statements about the need for course changes or new course.)
+	This course has been revised in response to recommendations from the most recent LAAB re-accreditation visit. Updates include changes to the course description and learning objectives to more explicitly align with LAAB accreditation standards, particularly regarding the planning and design process, professional competencies, and clarity of curricular intent.
+
+
+Revisions to prerequisites and course sequencing have been made intentionally to ensure students follow a structured and progressive path through design studios, technical coursework, and professional preparation.
+  
+	
+
+6. Resources (You must include, but you are not limited to, the availability of faculty / physical resources.)
+	Faculty and physical resources are available. 
+	
+
+7. Course Grading Scale (Select from dropdown list)
+	Standard Letter Grade
+	
+
+8. Course Learning Objectives (Undergraduate Courses Only: For Dual-Listed or Grad Courses, attach syllabus)
+	At the end of this course the student will be able to:
+1. Communication: Document basic construction logic and material use through technical drawings and visual diagrams.
+2. Critical Thinking: Evaluate material choices for function, durability, climate compatibility, and environmental impact.
+3. Disciplinary Expertise: Understand how common landscape materials—paving, walls, edging, planting infrastructure are used within the design and construction process.
+4. Research & Creativity: Analyze case studies and product data to inform real-world construction logic and creative detailing.   
+	
+
+For Provost Office Use Only
+	Date Received:       
+	Date Added to Banner:       
+	Date Copies Sent to Registrar’ Office:       
+	Date Catalog Changed:       
+	Date Added to Curriculum Report:       
+	CIP Code:       
+	VPUGAA:       
+	Date Registrar’s Office Received:       
+	
+
+	
+
+
+
+
+
+Entry 18-LDAR 304
+1. General Information (Must be completed by all)
+	a. Originating / Contact Person 
+	b. Contact Person’s Email
+	c. Contact Person’s Phone
+	d. Date
+	William Harrison     
+	wcharris@ncat.edu
+	 336-285-4840    
+	4/13/25     
+	Originating / Contact Person’s Signature:
+	  
+
+	f. Department / Program
+	f. College (Select from dropdown list)
+	Landscape Architecture     
+	CAES
+	g. Type of Course Change (Select all that apply)
+☐ Prefix Change        ☐ Credit Hour Change
+☐ Title Change        ☐ Instructional Method Change 
+☐ Description Change        ☐ Semesters Offered Change 
+☐ Prerequisite Change        ☐ Cross Listing – Offer for credit in two or more departments.
+☐ Grading Change        ☐ Deletion – Take the course completely out of the system, never to be used again.
+☐ Change to Restrictions        ☐ Change to Repeatability
+	h. Degree Audit Adjustment Necessary? ☐ Yes ☐ No
+	If yes, describe:             
+	i. Explanation (i.e., type of change, special issues, General Education Course, etc.) 
+Course description and learning objective changes based upon recent re-accreditation visit feedback     
+	
+
+2. Course Changes or Deletions (Current course information)
+	a. Current Prefix (e.g., BIOL)
+	b. Current Number
+	c. Current Title (30 or fewer characters/spaces)
+	LDAR 
+	304
+	   Designing Sustainably
+	d. Type of Action
+	e. Effective Semester (Use for deletions only)
+	        ☐ Change        ☐ Delete
+	             
+	f. Current Course Description (Old catalog entry. Use for changes only)
+	This lecture course will explore current research, technology, best practices and performance goals for the design, construction and maintenance of sustainable sites. Basic concepts of ecology, ecosystem structure and function will be explored; energy flow and material recycling emphasized. Field trips are required.
+	g. Credit Hour
+	h. Instructional Method (Select all that apply)
+	   3 (3-0)  
+	☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+3. New Course Information (Complete only applicable fields for course changes.  Complete all fields for new courses.)
+	a. New Prefix (e.g., BIOL)
+	b. New Number
+	c. New Title (30 or fewer characters/spaces)
+	     
+	  347  
+	         Landform & Stormwater Studio    
+	d. Effective Semester
+	e. Course level (Select from dropdown list) 
+	f. Schedule Type (Select from dropdown list)
+	Fall 2026     
+	Undergraduate
+	Laboratory
+	g. Instructional Method (Select all that apply)
+☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+h. Proposed Course Description (Catalog entry)
+	This advanced studio challenges students to apply grading, stormwater, and landform strategies as integrated components of the planning and design process. Students analyze terrain, hydrologic flows, soil systems, and access requirements to develop site proposals that balance technical feasibility, spatial experience, and environmental performance. Emphasis is placed on iterative modeling, cut-fill logic, and stormwater best management practices (BMPs) to create buildable and ecologically responsive land-based designs.
+
+
+     
+	i. Credit Hours  
+	j. Anticipated Enrollment per Semester:  
+	k. Repeatable for additional credit?   ☐Yes  ☐No 
+   If yes, how many additional times,     or ☐Unlimited
+   Retake / Replace (UG Only)?          ☐Yes  ☐ No
+	6 (0-12)     
+	    
+	
+
+4. Course Restrictions (Select type and enforcement from the dropdown list.  Use additional sheet if necessary)
+	Type of Restriction 
+	Enter Details
+	Enforced by
+	Prerequisite 
+	Pre. LDAR 248 Ecologic Systems Studio
+	Banner
+	Type of Restriction 
+	Details
+	Enforced by 
+	Prerequisite
+	MATH 102 or higher
+	Banner        
+	Type of Restriction
+	Details
+	Enforced by
+	Corequisite
+	LDAR 345 Site Systems             
+	Banner        
+	l. Special Grading:  ☐ Yes  ☐ No  Explain:      
+	m.  Is the content of this course duplicated in other degree programs outside your department?  ☐ Yes  ☐ No
+	n.  Does this change affect any other degree program?  
+☐ Yes  ☐ No
+	If you answer yes to either “m” or “n,” include a signature below from the other department chair.
+	Other department chair signature:
+	
+
+	
+
+5. Justification (You must include, but you are not limited to, statements about the need for course changes or new course.)
+	This course has been revised in response to recommendations from the most recent LAAB re-accreditation visit. Updates include changes to the course description and learning objectives to more explicitly align with LAAB accreditation standards, particularly regarding the planning and design process, professional competencies, and clarity of curricular intent.
+
+
+Revisions to prerequisites and course sequencing have been made intentionally to ensure students follow a structured and progressive path through design studios, technical coursework, and professional preparation.
+ 
+	
+
+6. Resources (You must include, but you are not limited to, the availability of faculty / physical resources.)
+	Faculty and physical resources are available. 
+	
+
+7. Course Grading Scale (Select from dropdown list)
+	Standard Letter Grade
+	
+
+8. Course Learning Objectives (Undergraduate Courses Only: For Dual-Listed or Grad Courses, attach syllabus)
+	At the end of this course the student will be able to:
+1. Communication: Produce annotated grading plans, landform models, and stormwater sections that explain technical strategies clearly.
+2. Critical Thinking: Solve complex terrain challenges through a design process that balances hydrology, access, soil performance, and aesthetics.
+3. Disciplinary Expertise: Apply contour design, cut-fill logic, and stormwater BMPs within landscape proposals.
+4. Research & Creativity: Investigate successful case studies of landform-based design and implement similar strategies in new contexts.   
+	
+
+For Provost Office Use Only
+	Date Received:       
+	Date Added to Banner:       
+	Date Copies Sent to Registrar’ Office:       
+	Date Catalog Changed:       
+	Date Added to Curriculum Report:       
+	CIP Code:       
+	VPUGAA:       
+	Date Registrar’s Office Received:       
+	
+
+	
+
+
+
+
+
+Entry 19-LDAR 440 
+1. General Information (Must be completed by all)
+	a. Originating / Contact Person 
+	b. Contact Person’s Email
+	c. Contact Person’s Phone
+	d. Date
+	William Harrison     
+	wcharris@ncat.edu
+	 336-285-4840    
+	4/13/25     
+	Originating / Contact Person’s Signature:
+	  
+
+	f. Department / Program
+	f. College (Select from dropdown list)
+	Landscape Architecture     
+	CAES
+	g. Type of Course Change (Select all that apply)
+☐ Prefix Change        ☐ Credit Hour Change
+☐ Title Change        ☐ Instructional Method Change 
+☐ Description Change        ☐ Semesters Offered Change 
+☐ Prerequisite Change        ☐ Cross Listing – Offer for credit in two or more departments.
+☐ Grading Change        ☐ Deletion – Take the course completely out of the system, never to be used again.
+☐ Change to Restrictions        ☐ Change to Repeatability
+	h. Degree Audit Adjustment Necessary? ☐ Yes ☐ No
+	If yes, describe:             
+	i. Explanation (i.e., type of change, special issues, General Education Course, etc.) 
+Course description and learning objective changes based upon recent re-accreditation visit feedback     
+	
+
+2. Course Changes or Deletions (Current course information)
+	a. Current Prefix (e.g., BIOL)
+	b. Current Number
+	c. Current Title (30 or fewer characters/spaces)
+	LDAR 
+	440
+	 Design Proposal Writing  
+	d. Type of Action
+	e. Effective Semester (Use for deletions only)
+	        ☐ Change        ☐ Delete
+	             
+	f. Current Course Description (Old catalog entry. Use for changes only)
+	This course is intended to assist students in selecting an individual capstone project, finding and organizing appropriate information needed for the project, and firmly establishing parameters for the design and development of the project.
+	g. Credit Hour
+	h. Instructional Method (Select all that apply)
+	 3 (3-0)    
+	☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+3. New Course Information (Complete only applicable fields for course changes.  Complete all fields for new courses.)
+	a. New Prefix (e.g., BIOL)
+	b. New Number
+	c. New Title (30 or fewer characters/spaces)
+	     
+	    
+	             
+	d. Effective Semester
+	e. Course level (Select from dropdown list) 
+	f. Schedule Type (Select from dropdown list)
+	Fall 2026     
+	Undergraduate
+	Lecture
+	g. Instructional Method (Select all that apply)
+☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+h. Proposed Course Description (Catalog entry)
+	This course prepares students for the capstone studio by guiding them through the early stages of the planning and design process: site selection, research, programming, precedent analysis, and project scoping. Students formalize a design question and develop a structured proposal that defines their methodology, deliverables, and schedule. Emphasis is placed on aligning design intent with site conditions, user needs, environmental goals, and academic rigor.
+
+
+     
+	i. Credit Hours  
+	j. Anticipated Enrollment per Semester:  
+	k. Repeatable for additional credit?   ☐Yes  ☐No 
+   If yes, how many additional times,     or ☐Unlimited
+   Retake / Replace (UG Only)?          ☐Yes  ☐ No
+	     
+	    
+	
+
+4. Course Restrictions (Select type and enforcement from the dropdown list.  Use additional sheet if necessary)
+	Type of Restriction 
+	Enter Details
+	Enforced by
+	Prerequisite
+	LDAR 348 Master Planning/Field Study Studio
+	Banner
+	Type of Restriction 
+	Details
+	Enforced by 
+	
+
+	             
+	        
+	Type of Restriction
+	Details
+	Enforced by
+	
+
+	             
+	        
+	l. Special Grading:  ☐ Yes  ☐ No  Explain:      
+	m.  Is the content of this course duplicated in other degree programs outside your department?  ☐ Yes  ☐ No
+	n.  Does this change affect any other degree program?  
+☐ Yes  ☐ No
+	If you answer yes to either “m” or “n,” include a signature below from the other department chair.
+	Other department chair signature:
+	
+
+	
+
+5. Justification (You must include, but you are not limited to, statements about the need for course changes or new course.)
+	This course has been revised in response to recommendations from the most recent LAAB re-accreditation visit. Updates include changes to the course description and learning objectives to more explicitly align with LAAB accreditation standards, particularly regarding the planning and design process, professional competencies, and clarity of curricular intent.
+
+
+Revisions to prerequisites and course sequencing have been made intentionally to ensure students follow a structured and progressive path through design studios, technical coursework, and professional preparation.
+ 
+	
+
+6. Resources (You must include, but you are not limited to, the availability of faculty / physical resources.)
+	Faculty and physical resources are available. 
+	
+
+7. Course Grading Scale (Select from dropdown list)
+	Standard Letter Grade
+	
+
+8. Course Learning Objectives (Undergraduate Courses Only: For Dual-Listed or Grad Courses, attach syllabus)
+	At the end of this course the student will be able to:
+1. Communication: Develop a well-organized design proposal document and presentation outlining scope, goals, and timeline.
+2. Critical Thinking: Define a problem of interest, outline constraints and opportunities, and articulate a strategy for resolution.
+3. Disciplinary Expertise: Demonstrate knowledge of the planning and design process through the development of a research-based project framework.
+4. Research & Creativity: Conduct site analysis, user/stakeholder studies, and precedent reviews to support the proposed intervention.  
+	
+
+For Provost Office Use Only
+	Date Received:       
+	Date Added to Banner:       
+	Date Copies Sent to Registrar’ Office:       
+	Date Catalog Changed:       
+	Date Added to Curriculum Report:       
+	CIP Code:       
+	VPUGAA:       
+	Date Registrar’s Office Received:       
+	
+
+	
+
+
+
+
+
+Entry 20-LDAR 442
+1. General Information (Must be completed by all)
+	a. Originating / Contact Person 
+	b. Contact Person’s Email
+	c. Contact Person’s Phone
+	d. Date
+	William Harrison     
+	wcharris@ncat.edu
+	 336-285-4840    
+	4/13/25     
+	Originating / Contact Person’s Signature:
+	  
+
+	f. Department / Program
+	f. College (Select from dropdown list)
+	Landscape Architecture     
+	CAES
+	g. Type of Course Change (Select all that apply)
+☐ Prefix Change        ☐ Credit Hour Change
+☐ Title Change        ☐ Instructional Method Change 
+☐ Description Change        ☐ Semesters Offered Change 
+☐ Prerequisite Change        ☐ Cross Listing – Offer for credit in two or more departments.
+☐ Grading Change        ☐ Deletion – Take the course completely out of the system, never to be used again.
+☐ Change to Restrictions        ☐ Change to Repeatability
+	h. Degree Audit Adjustment Necessary? ☐ Yes ☐ No
+	If yes, describe:             
+	i. Explanation (i.e., type of change, special issues, General Education Course, etc.) 
+Course description and learning objective changes based upon recent re-accreditation visit feedback     
+	
+
+2. Course Changes or Deletions (Current course information)
+	a. Current Prefix (e.g., BIOL)
+	b. Current Number
+	c. Current Title (30 or fewer characters/spaces)
+	LDAR 
+	442
+	  Design in Practice 
+	d. Type of Action
+	e. Effective Semester (Use for deletions only)
+	        ☐ Change        ☐ Delete
+	             
+	f. Current Course Description (Old catalog entry. Use for changes only)
+	This course is a study of the professional practice of landscape architecture with emphasis on creating and maintaining a professional firm. Professional ethics and registration laws; the preparation of proposals and contract documents; office administration; job supervision; and relationships with clients and customers will be covered.
+	g. Credit Hour
+	h. Instructional Method (Select all that apply)
+	  3 (3-0)   
+	☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+3. New Course Information (Complete only applicable fields for course changes.  Complete all fields for new courses.)
+	a. New Prefix (e.g., BIOL)
+	b. New Number
+	c. New Title (30 or fewer characters/spaces)
+	     
+	    
+	             
+	d. Effective Semester
+	e. Course level (Select from dropdown list) 
+	f. Schedule Type (Select from dropdown list)
+	Fall 2026     
+	Undergraduate
+	
+
+	g. Instructional Method (Select all that apply)
+☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+h. Proposed Course Description (Catalog entry)
+	This course introduces students to the professional, legal, and ethical dimensions of landscape architecture practice. Topics include office structure, project management, contracts, fee proposals, business development, professional ethics, and licensure pathways. Students explore the roles of public and private sector practice, professional liability, marketing strategies, and the Landscape Architect Registration Examination (LARE). The course prepares students to enter the profession with a clear understanding of how landscape architecture projects are proposed, managed, and delivered within various organizational and regulatory contexts.
+
+
+     
+	i. Credit Hours  
+	j. Anticipated Enrollment per Semester:  
+	k. Repeatable for additional credit?   ☐Yes  ☐No 
+   If yes, how many additional times,     or ☐Unlimited
+   Retake / Replace (UG Only)?          ☐Yes  ☐ No
+	     
+	    
+	
+
+4. Course Restrictions (Select type and enforcement from the dropdown list.  Use additional sheet if necessary)
+	Type of Restriction 
+	Enter Details
+	Enforced by
+	Prerequisite
+	LDAR 447 The Collaborative Studio
+	Banner
+	Type of Restriction 
+	Details
+	Enforced by 
+	
+
+	             
+	        
+	Type of Restriction
+	Details
+	Enforced by
+	
+
+	             
+	        
+	l. Special Grading:  ☐ Yes  ☐ No  Explain:      
+	m.  Is the content of this course duplicated in other degree programs outside your department?  ☐ Yes  ☐ No
+	n.  Does this change affect any other degree program?  
+☐ Yes  ☐ No
+	If you answer yes to either “m” or “n,” include a signature below from the other department chair.
+	Other department chair signature:
+	
+
+	
+
+5. Justification (You must include, but you are not limited to, statements about the need for course changes or new course.)
+	This course has been revised in response to recommendations from the most recent LAAB re-accreditation visit. Updates include changes to the course description and learning objectives to more explicitly align with LAAB accreditation standards, particularly regarding the planning and design process, professional competencies, and clarity of curricular intent.
+
+
+Revisions to prerequisites and course sequencing have been made intentionally to ensure students follow a structured and progressive path through design studios, technical coursework, and professional preparation.
+ 
+	
+
+6. Resources (You must include, but you are not limited to, the availability of faculty / physical resources.)
+	Faculty and physical resources are available. 
+	
+
+7. Course Grading Scale (Select from dropdown list)
+	Standard Letter Grade
+	
+
+8. Course Learning Objectives (Undergraduate Courses Only: For Dual-Listed or Grad Courses, attach syllabus)
+	At the end of this course the student will be able to:
+1. Communication: Produce professional written materials such as fee proposals, resumes, and scopes of work; engage in simulated interviews and verbal presentations.
+2. Critical Thinking: Evaluate ethical scenarios and legal obligations in professional practice, including liability, conflicts of interest, and public accountability.
+3. Disciplinary Expertise: Demonstrate understanding of landscape architecture business operations, project phases, billing structures, and regulatory frameworks.
+4. Research & Career Preparedness: Investigate licensure requirements (including the LARE), state boards, and professional organizations (ASLA, CLARB) to develop a personal licensure pathway and career plan.
+	
+
+For Provost Office Use Only
+	Date Received:       
+	Date Added to Banner:       
+	Date Copies Sent to Registrar’ Office:       
+	Date Catalog Changed:       
+	Date Added to Curriculum Report:       
+	CIP Code:       
+	VPUGAA:       
+	Date Registrar’s Office Received:       
+	
+
+	
+
+
+
+
+
+Entry 21-LDAR 447 
+1. General Information (Must be completed by all)
+	a. Originating / Contact Person 
+	b. Contact Person’s Email
+	c. Contact Person’s Phone
+	d. Date
+	William Harrison     
+	wcharris@ncat.edu
+	 336-285-4840    
+	4/13/25     
+	Originating / Contact Person’s Signature:
+	  
+
+	f. Department / Program
+	f. College (Select from dropdown list)
+	Landscape Architecture     
+	CAES
+	g. Type of Course Change (Select all that apply)
+☐ Prefix Change        ☐ Credit Hour Change
+☐ Title Change        ☐ Instructional Method Change 
+☐ Description Change        ☐ Semesters Offered Change 
+☐ Prerequisite Change        ☐ Cross Listing – Offer for credit in two or more departments.
+☐ Grading Change        ☐ Deletion – Take the course completely out of the system, never to be used again.
+☐ Change to Restrictions        ☐ Change to Repeatability
+	h. Degree Audit Adjustment Necessary? ☐ Yes ☐ No
+	If yes, describe:             
+	i. Explanation (i.e., type of change, special issues, General Education Course, etc.) 
+Course description and learning objective changes based upon recent re-accreditation visit feedback     
+	
+
+2. Course Changes or Deletions (Current course information)
+	a. Current Prefix (e.g., BIOL)
+	b. Current Number
+	c. Current Title (30 or fewer characters/spaces)
+	LDAR 
+	447
+	   The Collaborative Studio
+	d. Type of Action
+	e. Effective Semester (Use for deletions only)
+	        ☐ Change        ☐ Delete
+	             
+	f. Current Course Description (Old catalog entry. Use for changes only)
+	This studio course is an in-depth group study of a comprehensive landscape architecture management, planning, and design problem while considering the research, programming, site analysis, conceptual studies, preliminary and master plan, design guidelines, and presentations of recommendations.
+	g. Credit Hour
+	h. Instructional Method (Select all that apply)
+	  6 (0-9)   
+	☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+3. New Course Information (Complete only applicable fields for course changes.  Complete all fields for new courses.)
+	a. New Prefix (e.g., BIOL)
+	b. New Number
+	c. New Title (30 or fewer characters/spaces)
+	     
+	    
+	             
+	d. Effective Semester
+	e. Course level (Select from dropdown list) 
+	f. Schedule Type (Select from dropdown list)
+	Fall 2026     
+	Undergraduate
+	Laboratory
+	g. Instructional Method (Select all that apply)
+☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+h. Proposed Course Description (Catalog entry)
+	This advanced studio emphasizes collaborative, interdisciplinary approaches to the planning and design process. Students work in teams and engage with community stakeholders, allied professionals, or public agencies to develop context-sensitive landscape solutions. The studio reinforces iterative design development—from site analysis and programming to concept refinement and presentation—through collective decision-making and shared spatial visioning. Deliverables include site plans, section-perspectives, community-facing visuals, and outreach materials.
+
+
+     
+	i. Credit Hours  
+	j. Anticipated Enrollment per Semester:  
+	k. Repeatable for additional credit?   ☐Yes  ☐No 
+   If yes, how many additional times,     or ☐Unlimited
+   Retake / Replace (UG Only)?          ☐Yes  ☐ No
+	6 (0-12)     
+	    
+	
+
+4. Course Restrictions (Select type and enforcement from the dropdown list.  Use additional sheet if necessary)
+	Type of Restriction 
+	Enter Details
+	Enforced by
+	Prerequisite
+	LDAR 348 Master Planning/Field Study Studio
+	Banner
+	Type of Restriction 
+	Details
+	Enforced by 
+	
+
+	             
+	        
+	Type of Restriction
+	Details
+	Enforced by
+	
+
+	             
+	        
+	l. Special Grading:  ☐ Yes  ☐ No  Explain:      
+	m.  Is the content of this course duplicated in other degree programs outside your department?  ☐ Yes  ☐ No
+	n.  Does this change affect any other degree program?  
+☐ Yes  ☐ No
+	If you answer yes to either “m” or “n,” include a signature below from the other department chair.
+	Other department chair signature:
+	
+
+	
+
+5. Justification (You must include, but you are not limited to, statements about the need for course changes or new course.)
+	This course has been revised in response to recommendations from the most recent LAAB re-accreditation visit. Updates include changes to the course description and learning objectives to more explicitly align with LAAB accreditation standards, particularly regarding the planning and design process, professional competencies, and clarity of curricular intent.
+
+
+Revisions to prerequisites and course sequencing have been made intentionally to ensure students follow a structured and progressive path through design studios, technical coursework, and professional preparation.
+
+
+	
+
+6. Resources (You must include, but you are not limited to, the availability of faculty / physical resources.)
+	Faculty and physical resources are available. 
+	
+
+7. Course Grading Scale (Select from dropdown list)
+	Standard Letter Grade
+	
+
+8. Course Learning Objectives (Undergraduate Courses Only: For Dual-Listed or Grad Courses, attach syllabus)
+	At the end of this course the student will be able to:
+1. Communication: Co-author design presentations and documents that clearly articulate shared vision, goals, and design strategies.
+2. Critical Thinking: Integrate diverse stakeholder feedback, community input, and site realities into holistic design responses.
+3. Disciplinary Expertise: Apply the full planning and design process in a collaborative setting, including inventory, analysis, programming, schematic design, and detailing.
+4. Research & Creativity: Use interviews, community forums, mapping, and narrative design tools to translate shared values into space.   
+	
+
+For Provost Office Use Only
+	Date Received:       
+	Date Added to Banner:       
+	Date Copies Sent to Registrar’ Office:       
+	Date Catalog Changed:       
+	Date Added to Curriculum Report:       
+	CIP Code:       
+	VPUGAA:       
+	Date Registrar’s Office Received:       
+	
+
+	
+
+
+
+
+
+Entry 22-LDAR 448 
+1. General Information (Must be completed by all)
+	a. Originating / Contact Person 
+	b. Contact Person’s Email
+	c. Contact Person’s Phone
+	d. Date
+	William Harrison     
+	wcharris@ncat.edu
+	 336-285-4840    
+	4/13/25     
+	Originating / Contact Person’s Signature:
+	  
+
+	f. Department / Program
+	f. College (Select from dropdown list)
+	Landscape Architecture     
+	CAES
+	g. Type of Course Change (Select all that apply)
+☐ Prefix Change        ☐ Credit Hour Change
+☐ Title Change        ☐ Instructional Method Change 
+☐ Description Change        ☐ Semesters Offered Change 
+☐ Prerequisite Change        ☐ Cross Listing – Offer for credit in two or more departments.
+☐ Grading Change        ☐ Deletion – Take the course completely out of the system, never to be used again.
+☐ Change to Restrictions        ☐ Change to Repeatability
+	h. Degree Audit Adjustment Necessary? ☐ Yes ☐ No
+	If yes, describe:             
+	i. Explanation (i.e., type of change, special issues, General Education Course, etc.) 
+Course description and learning objective changes based upon recent re-accreditation visit feedback     
+	
+
+2. Course Changes or Deletions (Current course information)
+	a. Current Prefix (e.g., BIOL)
+	b. Current Number
+	c. Current Title (30 or fewer characters/spaces)
+	LDAR 
+	448
+	   Capstone Project Studio
+	d. Type of Action
+	e. Effective Semester (Use for deletions only)
+	        ☐ Change        ☐ Delete
+	             
+	f. Current Course Description (Old catalog entry. Use for changes only)
+	This studio course focuses on an approved design project requiring individual work, which will serve as a comprehensive examination. Preparation and presentation are to include a written and graphic problem statement, analysis, and detailed plans, or other activities approved by instructor.
+	g. Credit Hour
+	h. Instructional Method (Select all that apply)
+	     6 (0-9)
+	☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+3. New Course Information (Complete only applicable fields for course changes.  Complete all fields for new courses.)
+	a. New Prefix (e.g., BIOL)
+	b. New Number
+	c. New Title (30 or fewer characters/spaces)
+	     
+	    
+	             
+	d. Effective Semester
+	e. Course level (Select from dropdown list) 
+	f. Schedule Type (Select from dropdown list)
+	Fall 2026     
+	Undergraduate
+	Laboratory
+	g. Instructional Method (Select all that apply)
+☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+h. Proposed Course Description (Catalog entry)
+	This culminating studio challenges students to demonstrate mastery of the full planning and design process through the execution of a comprehensive, self-directed project. Students build on previously developed proposals to carry a project from site analysis and conceptual development through schematic design, technical documentation, and final presentation. Emphasis is placed on integrating research, stakeholder engagement, environmental performance[c], and professional standards. Students are expected to produce a visually compelling and technically sound documentation package that reflects real-world readiness.
+
+
+     
+	i. Credit Hours  
+	j. Anticipated Enrollment per Semester:  
+	k. Repeatable for additional credit?   ☐Yes  ☐No 
+   If yes, how many additional times,     or ☐Unlimited
+   Retake / Replace (UG Only)?          ☐Yes  ☐ No
+	6 (0-12)     
+	    
+	
+
+4. Course Restrictions (Select type and enforcement from the dropdown list.  Use additional sheet if necessary)
+	Type of Restriction 
+	Enter Details
+	Enforced by
+	Prerequisite
+	LDAR 440 Design Proposal Writing
+	Banner
+	Type of Restriction 
+	Details
+	Enforced by 
+	
+
+	             
+	        
+	Type of Restriction
+	Details
+	Enforced by
+	
+
+	             
+	        
+	l. Special Grading:  ☐ Yes  ☐ No  Explain:      
+	m.  Is the content of this course duplicated in other degree programs outside your department?  ☐ Yes  ☐ No
+	n.  Does this change affect any other degree program?  
+☐ Yes  ☐ No
+	If you answer yes to either “m” or “n,” include a signature below from the other department chair.
+	Other department chair signature:
+	
+
+	
+
+5. Justification (You must include, but you are not limited to, statements about the need for course changes or new course.)
+	This course has been revised in response to recommendations from the most recent LAAB re-accreditation visit. Updates include changes to the course description and learning objectives to more explicitly align with LAAB accreditation standards, particularly regarding the planning and design process, professional competencies, and clarity of curricular intent.
+
+
+Revisions to prerequisites and course sequencing have been made intentionally to ensure students follow a structured and progressive path through design studios, technical coursework, and professional preparation.
+ 
+	
+
+6. Resources (You must include, but you are not limited to, the availability of faculty / physical resources.)
+	Faculty and physical resources are available. 
+	
+
+7. Course Grading Scale (Select from dropdown list)
+	Standard Letter Grade
+	
+
+8. Course Learning Objectives (Undergraduate Courses Only: For Dual-Listed or Grad Courses, attach syllabus)
+	At the end of this course the student will be able to:
+1. Communication: Develop and present a complete, cohesive studio package, including plans, diagrams, perspectives, and a design narrative.
+2. Critical Thinking: Solve complex design problems with innovative, research-informed strategies across multiple scales.
+3. Disciplinary Expertise: Apply all phases of the planning and design process: inventory, analysis, programming, design development, and documentation within a comprehensive, site-specific project.
+4. Research & Creativity: Integrate evidence-based research, stakeholder feedback, and creative vision to deliver a project of professional caliber.   
+	
+
+For Provost Office Use Only
+	Date Received:       
+	Date Added to Banner:       
+	Date Copies Sent to Registrar’ Office:       
+	Date Catalog Changed:       
+	Date Added to Curriculum Report:       
+	CIP Code:       
+	VPUGAA:       
+	Date Registrar’s Office Received:       
+	
+
+	
+
+
+
+
+
+Entry 23-LDAR 455
+1. General Information (Must be completed by all)
+	a. Originating / Contact Person 
+	b. Contact Person’s Email
+	c. Contact Person’s Phone
+	d. Date
+	William Harrison     
+	wcharris@ncat.edu
+	 336-285-4840    
+	4/13/25     
+	Originating / Contact Person’s Signature:
+	  
+
+	f. Department / Program
+	f. College (Select from dropdown list)
+	Landscape Architecture     
+	CAES
+	g. Type of Course Change (Select all that apply)
+☐ Prefix Change        ☐ Credit Hour Change
+☐ Title Change        ☐ Instructional Method Change 
+☐ Description Change        ☐ Semesters Offered Change 
+☐ Prerequisite Change        ☐ Cross Listing – Offer for credit in two or more departments.
+☐ Grading Change        ☐ Deletion – Take the course completely out of the system, never to be used again.
+☐ Change to Restrictions        ☐ Change to Repeatability
+	h. Degree Audit Adjustment Necessary? ☐ Yes ☐ No
+	If yes, describe:             
+	i. Explanation (i.e., type of change, special issues, General Education Course, etc.) 
+Course description and learning objective changes based upon recent re-accreditation visit feedback     
+	
+
+2. Course Changes or Deletions (Current course information)
+	a. Current Prefix (e.g., BIOL)
+	b. Current Number
+	c. Current Title (30 or fewer characters/spaces)
+	LDAR 
+	455
+	  Current Issues & Topics in Landscape Architecture 
+	d. Type of Action
+	e. Effective Semester (Use for deletions only)
+	        ☐ Change        ☐ Delete
+	             
+	f. Current Course Description (Old catalog entry. Use for changes only)
+	This course addresses sustainable design in contemporary cities through theoretical discussion and practice projects. The emphasis is on identifying opportunities for landscape/ecological urbanism - where experience of urban landscapes and discovery of ideas go hand in hand by encouraging careful design and planning that informs long-term monitoring and adaptive management of the landscape. We will utilize Steiner’s method in a practice experiment, addressing a multi-purpose green infrastructure, urban forestry and landscape urbanism theory and practice, with applications in numerous urban contexts including urban river systems, green streets, brownfields, vacant lots, urban transit hubs and intensifying neighborhood districts for adaptation to global climate change and sustainable development in NC.
+
+
+	g. Credit Hour
+	h. Instructional Method (Select all that apply)
+	 3 (3-0)    
+	☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+3. New Course Information (Complete only applicable fields for course changes.  Complete all fields for new courses.)
+	a. New Prefix (e.g., BIOL)
+	b. New Number
+	c. New Title (30 or fewer characters/spaces)
+	     
+	    
+	             
+	d. Effective Semester
+	e. Course level (Select from dropdown list) 
+	f. Schedule Type (Select from dropdown list)
+	Fall 2026     
+	Undergraduate
+	Lecture
+	g. Instructional Method (Select all that apply)
+☐ Face-to-Face        ☐ Web Based
+☐ One-way Video        ☐ Independent Study
+☐ Two-way Video        ☐ Study Abroad
+	
+
+h. Proposed Course Description (Catalog entry)
+	This seminar explores emerging topics that influence the planning and design process in contemporary landscape architecture. Themes may include climate adaptation, environmental justice, digital tools, regenerative design, urban resilience, and evolving theories of practice. Students engage with real-world case studies, design ethics, and professional discourse to understand how social, technological, and ecological forces shape landscape systems and design outcomes. The course fosters critical reflection and strategic thinking relevant to current and future practice.
+
+
+     
+	i. Credit Hours  
+	j. Anticipated Enrollment per Semester:  
+	k. Repeatable for additional credit?   ☐Yes  ☐No 
+   If yes, how many additional times,     or ☐Unlimited
+   Retake / Replace (UG Only)?          ☐Yes  ☐ No
+	3 (3-0)     
+	    
+	
+
+4. Course Restrictions (Select type and enforcement from the dropdown list.  Use additional sheet if necessary)
+	Type of Restriction 
+	Enter Details
+	Enforced by
+	Prerequisite
+	LDAR 348 Master Planning/Field Study Studio
+	Banner
+	Type of Restriction 
+	Details
+	Enforced by 
+	
+
+	             
+	        
+	Type of Restriction
+	Details
+	Enforced by
+	
+
+	             
+	        
+	l. Special Grading:  ☐ Yes  ☐ No  Explain:      
+	m.  Is the content of this course duplicated in other degree programs outside your department?  ☐ Yes  ☐ No
+	n.  Does this change affect any other degree program?  
+☐ Yes  ☐ No
+	If you answer yes to either “m” or “n,” include a signature below from the other department chair.
+	Other department chair signature:
+	
+
+	
+
+5. Justification (You must include, but you are not limited to, statements about the need for course changes or new course.)
+	This course has been revised in response to recommendations from the most recent LAAB re-accreditation visit. Updates include changes to the course description and learning objectives to more explicitly align with LAAB accreditation standards, particularly regarding the planning and design process, professional competencies, and clarity of curricular intent.
+
+
+Revisions to prerequisites and course sequencing have been made intentionally to ensure students follow a structured and progressive path through design studios, technical coursework, and professional preparation.
+
+
+	
+
+6. Resources (You must include, but you are not limited to, the availability of faculty / physical resources.)
+	Faculty and physical resources are available. 
+	
+
+7. Course Grading Scale (Select from dropdown list)
+	Standard Letter Grade
+	
+
+8. Course Learning Objectives (Undergraduate Courses Only: For Dual-Listed or Grad Courses, attach syllabus)
+	At the end of this course the student will be able to:
+1. Communication: Express well-reasoned arguments about key issues in landscape architecture through oral presentations and written work.
+2. Critical Thinking: Evaluate the ethical, environmental, and cultural implications of emerging challenges and innovations in the planning and design process.
+3. Disciplinary Expertise: Understand contemporary trends, tools, and theoretical shifts in practice.
+4. Research & Creativity: Investigate pressing global topics and propose creative, critical responses in the form of concept proposals, narratives, or design provocations.  
+	
+
+For Provost Office Use Only
+	Date Received:       
+	Date Added to Banner:       
+	Date Copies Sent to Registrar’ Office:       
+	Date Catalog Changed:       
+	Date Added to Curriculum Report:       
+	CIP Code:       
+	VPUGAA:       
+	Date Registrar’s Office Received:       
+	
+
+	
+
+________________
+
+
+Existing Curriculum Guide
+
+
+FRESHMAN YEAR
+	First Semester
+	Second Semester
+	Course #
+	Course Name
+	Credit
+	Notes
+	Course #
+	Course Name
+	Credit
+	Notes
+	LDAR 103
+	Landscape Architecture Discovery
+	3
+	
+
+	LDAR 104
+	Landscape Architecture History
+	3
+	
+
+	LDAR 147
+	Design Foundations
+	3
+	
+
+	LDAR 148
+	Landscape Architecture Fundamentals
+	3
+	
+
+	LDAR 170
+	Landscape Architecture Graphics I
+	3
+	
+
+	LDAR 171
+	Landscape Architecture Graphics II
+	3
+	
+
+	ENG 100
+	Ideas & Their Expressions I
+	3
+	
+
+	ENG 101
+	Ideas and Their Expression II
+	3
+	
+
+	MATH 101
+	Math, Logical, and Analytical Reasoning
+	3
+	
+
+	MATH 102
+	Math, Logical, and Analytical Reasoning
+	3
+	
+
+	FRT 101
+	University Survival
+	1
+	
+
+	
+
+	
+
+	
+
+	
+
+	Total Credit
+	16
+	Total Credit
+	15
+	SOPHOMORE YEAR
+	First Semester
+	Second Semester
+	Course #
+	Course Name
+	Credit
+	Notes
+	Course #
+	Course Name
+	Credit
+	Notes
+	LDAR 204
+	Plant Materials
+	3
+	
+
+	LDAR 244
+	Designing with Plants
+	3
+	
+
+	LDAR 247
+	Social Systems Studio
+	6
+	
+
+	LDAR 248
+	Ecological Systems
+	6
+	
+
+	LDAR 299
+	Resume/Portfolio Seminar
+	1
+	
+
+	LDAR 249
+	GIS Applications in Environmental Design
+	3
+	
+
+	SBS
+	Social/Behavioral Sciences Elective¹*
+	3
+	
+
+	LDAR 255
+	Design Theory
+	3
+	
+
+	SR
+	Scientific Reasoning Elective¹
+	4
+	
+
+	
+
+	
+
+	
+
+	
+
+	Total Credit
+	17
+	Total Credit
+	15
+	JUNIOR YEAR
+	First Semester
+	Second Semester
+	Course #
+	Course Name
+	Credit
+	Notes
+	Course #
+	Course Name
+	Credit
+	Notes
+	LDAR 345
+	Site Systems
+	3
+	
+
+	LDAR 349
+	Construction Documents
+	3
+	
+
+	LDAR 380
+	Master Planning/Field Study Studio
+	6
+	
+
+	LDAR 381
+	Materials and Construction Studio
+	6
+	
+
+	AA
+	African American Culture & History Elective¹*
+	3
+	
+
+	HFA
+	Humanities/Fine Arts Elective¹*
+	3
+	
+
+	GA
+	Global Awareness Elective¹*
+	3
+	
+
+	SR
+	Scientific Reasoning Elective¹
+	3
+	
+
+	Total Credit
+	15
+	Total Credit
+	15
+	SENIOR YEAR
+	First Semester
+	Second Semester
+	Course #
+	Course Name
+	Credit
+	Notes
+	Course #
+	Course Name
+	Credit
+	Notes
+	LDAR 440
+	Design Proposal Writing
+	3
+	
+
+	LDAR 442
+	Design in Practice
+	3
+	
+
+	LDAR 447
+	The Collaborative Studio
+	6
+	
+
+	LDAR 448
+	Capstone Project Studio
+	6
+	
+
+	LDAR 455
+	Current Issues and Topics in Landscape Architecture
+	3
+	
+
+	
+
+	Free Elective
+	3
+	
+
+	
+
+	Free Elective
+	3
+	
+
+	
+
+	
+
+	
+
+	
+
+	Total Credit
+	15
+	Total Credit
+	12
+	________________
+
+
+Proposed Curriculum Guide
+
+
+
+
+FRESHMAN YEAR
+	First Semester
+	Second Semester
+	Course #
+	Course Name
+	Credit
+	Notes
+	Course #
+	Course Name
+	Credit
+	Notes
+	LDAR 103
+	Landscape Architecture Discovery
+	3
+	
+
+	LDAR 104
+	Landscape Architecture History
+	3
+	
+
+	LDAR 147
+	Design Foundations
+	3
+	
+
+	LDAR 148
+	Landscape Architecture Fundamentals
+	3
+	pre-req. LDAR 147 or with override
+	LDAR 170
+	Landscape Architecture Graphics I
+	3
+	
+
+	LDAR 171
+	Landscape Architecture Graphics II
+	3
+	pre-req. LDAR 170 or with override
+	ENG 100
+	Ideas & Their Expressions I
+	3
+	
+
+	ENG 101
+	Ideas and Their Expression II
+	3
+	
+
+	MATH 101
+	Math, Logical, and Analytical Reasoning
+	3
+	
+
+	MATH 102
+	Math, Logical, and Analytical Reasoning
+	3
+	
+
+	FRT 101
+	University Survival
+	1
+	
+
+	LDAR 181
+	Materials and Construction
+	3
+	pre-req. LDAR 170 or with override
+	Total Credit
+	16
+	
+
+	Total Credit
+	18
+	
+
+	SOPHOMORE YEAR
+	First Semester
+	Second Semester
+	Course #
+	Course Name
+	Credit
+	Notes
+	Course #
+	Course Name
+	Credit
+	Notes
+	LDAR 204
+	Plant Materials
+	3
+	pre-req. LDAR 148 or with override
+	LDAR 244
+	Designing with Plants
+	3
+	pre-req. LDAR 244 or with override
+	LDAR 247
+	Social Systems Studio
+	6
+	pre-req. LDAR 148 or with override
+	LDAR 248
+	Ecological Systems
+	6
+	pre-req. LDAR 247 or with override
+	SBS
+	Social/Behavioral Sciences Elective¹*
+	3
+	
+
+	LDAR 249
+	Construction Documents
+	3
+	pre-req. LDAR 181 or with override
+	SR
+	Scientific Reasoning Elective¹
+	4
+	
+
+	LDAR 255
+	Design Theory
+	3
+	
+
+	Total Credit
+	16
+	
+
+	Total Credit
+	15
+	
+
+	JUNIOR YEAR
+	First Semester
+	Second Semester
+	Course #
+	Course Name
+	Credit
+	Notes
+	Course #
+	Course Name
+	Credit
+	Notes
+	LDAR 345
+	Site Systems
+	3
+	pre-req. LDAR 248 and also co-requisite with LDAR 347 or with override
+	LDAR 349
+	GIS Applications in Environmental Design
+	3
+	pre-req. LDAR 247 or with override
+	LDAR 347
+	Landform & Stormwater Studio
+	6
+	pre-req. LDAR 248 and also co-requisite with LDAR 345 or with override
+	LDAR 348
+	Master Planning/Field Study Studio
+	6
+	pre-req. LDAR 248 or with override
+	LDAR 399
+	Resume/Portfolio Seminar
+	1
+	pre-req. LDAR 248 or with override
+	SR
+	Scientific Reasoning Elective¹
+	3
+	
+
+	AA
+	African American Culture & History Elective¹*
+	3
+	
+
+	
+
+	Free Elective
+	3
+	
+
+	GA
+	Global Awareness Elective¹*
+	3
+	
+
+	
+
+	
+
+	
+
+	
+
+	Total Credit
+	16
+	
+
+	Total Credit
+	15
+	
+
+	SENIOR YEAR
+	First Semester
+	Second Semester
+	Course #
+	Course Name
+	Credit
+	Notes
+	Course #
+	Course Name
+	Credit
+	Notes
+	LDAR 440
+	Design Proposal Writing
+	3
+	pre-req. LDAR 348 or with override
+	LDAR 442
+	Design in Practice
+	3
+	pre-req. LDAR 447 or with override
+	LDAR 447
+	The Collaborative Studio
+	6
+	pre-req. LDAR 348 or with override
+	LDAR 448
+	Capstone Project Studio
+	6
+	pre-req. LDAR 447 or with override
+	LDAR 455
+	Current Issues and Topics in Landscape Architecture
+	3
+	pre-req. LDAR 348 or with override
+	HFA
+	Humanities/Fine Arts Elective¹*
+	3
+	
+
+	Total Credit
+	12
+	
+
+	Total Credit
+	12
+	
+
+	
+
+________________
+
+
+
+
+
+
+
+
+[a]Does changing the allocation of hours from lab hours 9 to 12 mean this is a credit hour change? If so, each form will need to be updated for all the studios
+[b]number change and maybe title change
+[c]I think "environmental performance" doesn't fit in this list alone.  You could go "environmental, economic and social performance"....or leave it out.

@@ -1,0 +1,246 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Foundation in child development, psychology, and early childhood education careers.",
+      "milestones": [
+        {
+          "id": "y1-fcs160",
+          "label": "Explore early childhood education careers",
+          "courseRef": "FCS 160 — Intro to FCS",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Survey of FCS disciplines with emphasis on birth-kindergarten teaching and early intervention.",
+          "skills": [
+            "Career exploration",
+            "Early childhood"
+          ]
+        },
+        {
+          "id": "y1-psyc101",
+          "label": "Study developmental psychology",
+          "courseRef": "PSYC 101 — Introduction to Psychology",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Human behavior and developmental psychology foundations for understanding young children.",
+          "skills": [
+            "Psychology",
+            "Development"
+          ]
+        },
+        {
+          "id": "y1-edpr102",
+          "label": "Begin teacher education pathway",
+          "courseRef": "EDPR 102 — Intro to Teacher Education",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "NC teaching standards, classroom observation, and professional identity.",
+          "skills": [
+            "Teaching foundations",
+            "NC standards"
+          ]
+        },
+        {
+          "id": "y1-fcs260",
+          "label": "Master child development theory",
+          "courseRef": "FCS 260 — Child Development",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Physical, cognitive, social, and emotional development birth through age 8.",
+          "skills": [
+            "Child development",
+            "Observation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Culturally responsive pedagogy and assessment build teaching competencies.",
+      "milestones": [
+        {
+          "id": "y2-edpr210",
+          "label": "Study culturally responsive pedagogy",
+          "courseRef": "EDPR 210 — Culturally Relevant Pedagogy",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Anti-bias curriculum and culturally sustaining practices for diverse early childhood classrooms.",
+          "skills": [
+            "Cultural responsiveness",
+            "Anti-bias education"
+          ]
+        },
+        {
+          "id": "y2-sped250",
+          "label": "Learn inclusive education practices",
+          "courseRef": "SPED 250 — Exceptional Children",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Special education law, IFSP/IEP development, and inclusive practices for young children.",
+          "skills": [
+            "Special education",
+            "IFSP/IEP"
+          ]
+        },
+        {
+          "id": "y2-fcs321",
+          "label": "Study family engagement strategies",
+          "courseRef": "FCS 321 — Family Relationships",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Family-school partnerships and community resource coordination.",
+          "skills": [
+            "Family engagement",
+            "Communication"
+          ]
+        },
+        {
+          "id": "y2-fcs334",
+          "label": "Explore health & wellness in ECE",
+          "courseRef": "FCS 334 — Child Health & Nutrition",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Nutrition, safety, and wellness promotion for infants through preschool.",
+          "skills": [
+            "Child health",
+            "Nutrition"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Specialized B-K methods in literacy, assessment, and DAP build clinical teaching skills.",
+      "milestones": [
+        {
+          "id": "y3-fcs427",
+          "label": "Master emergent literacy instruction",
+          "courseRef": "FCS 427 — Emergent Literacy",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Language development, emergent reading/writing, and literacy-rich classroom environments.",
+          "skills": [
+            "Emergent literacy",
+            "Curriculum design"
+          ]
+        },
+        {
+          "id": "y3-fcs430",
+          "label": "Develop B-K assessment competencies",
+          "courseRef": "FCS 430 — Assessment in Early Childhood",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Authentic assessment, portfolio documentation, and developmental monitoring.",
+          "skills": [
+            "Assessment",
+            "Portfolio",
+            "NC Foundations"
+          ]
+        },
+        {
+          "id": "y3-fcs436",
+          "label": "Create inclusive learning environments",
+          "courseRef": "FCS 436 — Inclusive ECE Environments",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Universal Design for Learning, assistive technology, and collaborative planning.",
+          "skills": [
+            "UDL",
+            "Inclusion",
+            "Assistive technology"
+          ]
+        },
+        {
+          "id": "y3-fcs439",
+          "label": "Master developmentally appropriate practice",
+          "courseRef": "FCS 439 — Developmentally Appropriate Practice",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "NAEYC DAP framework, play-based learning, and project approach.",
+          "skills": [
+            "DAP",
+            "Play-based learning"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Full-semester clinical practice completes the NC B-K Teaching License.",
+      "milestones": [
+        {
+          "id": "y4-fcs435",
+          "label": "Complete infant/toddler clinical methods",
+          "courseRef": "FCS 435 — Infant & Toddler Programs",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Curriculum planning and clinical practice in infant/toddler settings.",
+          "skills": [
+            "Infant/toddler curriculum",
+            "Responsive caregiving"
+          ]
+        },
+        {
+          "id": "y4-fcs437",
+          "label": "Complete Pre-K/K clinical methods",
+          "courseRef": "FCS 437 — Pre-K & Kindergarten Programs",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Methods and clinical practice for pre-K and kindergarten classrooms.",
+          "skills": [
+            "Pre-K/K methods",
+            "NC standards"
+          ]
+        },
+        {
+          "id": "y4-fcs438",
+          "label": "Study trends in early childhood",
+          "courseRef": "FCS 438 — Trends in Early Childhood",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "description": "NC Pre-K policy, quality rating systems, technology in ECE.",
+          "skills": [
+            "ECE policy",
+            "Quality rating"
+          ]
+        },
+        {
+          "id": "y4-edpr487",
+          "label": "Complete full-semester student teaching",
+          "courseRef": "EDPR 487 — Clinical Practice",
+          "credits": 12,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Full-semester clinical practice in a licensed B-K program.",
+          "skills": [
+            "Student teaching",
+            "Licensure readiness"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+      xmlns:w="urn:schemas-microsoft-com:office:word"
+      xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta charset="utf-8">
+<meta name="ProgId" content="Word.Document">
+<meta name="Generator" content="Microsoft Word 15">
+<meta name="Originator" content="Microsoft Word 15">
+<!--[if gte mso 9]>
+<xml>
+<w:WordDocument>
+<w:View>Print</w:View>
+<w:Zoom>100</w:Zoom>
+<w:DoNotOptimizeForBrowser/>
+</w:WordDocument>
+</xml>
+<![endif]-->
+<style>
+  @page {
+    size: 8.5in 11in;
+    margin: 1in 1in 1in 1in;
+  }
+  body {
+    font-family: 'Calibri', 'Segoe UI', Arial, sans-serif;
+    font-size: 11pt;
+    color: #333333;
+    line-height: 1.4;
+  }
+  h1 {
+    font-size: 18pt;
+    color: #003366;
+    text-align: center;
+    margin-bottom: 4pt;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 14pt;
+    color: #003366;
+    border-bottom: 2px solid #C4A000;
+    padding-bottom: 4pt;
+    margin-top: 24pt;
+    margin-bottom: 12pt;
+  }
+  h3 {
+    font-size: 12pt;
+    color: #003366;
+    margin-top: 14pt;
+    margin-bottom: 6pt;
+  }
+  .subtitle {
+    text-align: center;
+    font-size: 13pt;
+    color: #555;
+    margin-bottom: 2pt;
+  }
+  .tagline {
+    text-align: center;
+    font-size: 10pt;
+    color: #888;
+    margin-bottom: 18pt;
+  }
+  .purpose-box {
+    background-color: #F0F4F8;
+    border-left: 4px solid #C4A000;
+    padding: 10pt 14pt;
+    margin-bottom: 18pt;
+    font-size: 10pt;
+    color: #444;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 14pt;
+  }
+  table.form-table td, table.form-table th {
+    border: 1px solid #999;
+    padding: 6pt 8pt;
+    vertical-align: top;
+    font-size: 10.5pt;
+  }
+  table.form-table td:first-child {
+    width: 35%;
+    font-weight: bold;
+    background-color: #F7F7F7;
+    color: #003366;
+  }
+  table.form-table td:last-child {
+    width: 65%;
+  }
+  table.grid-table {
+    margin-top: 8pt;
+  }
+  table.grid-table th {
+    background-color: #003366;
+    color: white;
+    font-size: 10pt;
+    padding: 6pt 8pt;
+    border: 1px solid #003366;
+    text-align: center;
+    font-weight: bold;
+  }
+  table.grid-table td {
+    border: 1px solid #999;
+    padding: 6pt 8pt;
+    vertical-align: top;
+    font-size: 9.5pt;
+  }
+  .section-emoji {
+    font-size: 12pt;
+  }
+  .bold-tagline {
+    font-weight: bold;
+    font-size: 11pt;
+    color: #003366;
+    padding: 8pt;
+    background-color: #F0F4F8;
+    border-left: 4px solid #C4A000;
+    margin-bottom: 12pt;
+  }
+  ul {
+    margin-top: 4pt;
+    margin-bottom: 8pt;
+    padding-left: 18pt;
+  }
+  li {
+    margin-bottom: 4pt;
+    font-size: 10.5pt;
+  }
+  .footer {
+    text-align: center;
+    font-size: 9pt;
+    color: #888;
+    margin-top: 30pt;
+    border-top: 1px solid #ccc;
+    padding-top: 8pt;
+  }
+  .next-steps {
+    background-color: #F0F4F8;
+    border: 1px solid #ccc;
+    padding: 10pt 14pt;
+    margin-top: 18pt;
+    font-size: 10pt;
+  }
+  .page-break {
+    page-break-before: always;
+  }
+</style>
+<title>NC A&amp;T Experiential Journey Map — BSLA Content Form</title>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════
+     COVER / HEADER
+     ═══════════════════════════════════════════════════════ -->
+<h1>NC A&amp;T Experiential Journey Map</h1>
+<p class="subtitle"><b>Major Program Content Form</b></p>
+<p class="subtitle">Including Concentrations &nbsp;&nbsp;|&nbsp;&nbsp; POST TO SHAREPOINT</p>
+<p class="tagline">Link Goes Here</p>
+
+<div class="purpose-box">
+<b>PURPOSE:</b> This form gathers the content needed to build your department's Experiential Major Map — a two-page visual tool that connects students to academic milestones, experiential learning, and career pathways across all four years. Your input is critical. Please be as specific as possible. If a field does not apply to your program, simply write 'N/A.'
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
+     SECTION 1
+     ═══════════════════════════════════════════════════════ -->
+<h2>SECTION 1 | MAJOR IDENTIFICATION</h2>
+
+<table class="form-table">
+<tr><td>Major / Program Name</td><td>Bachelor of Science in Landscape Architecture (BSLA)</td></tr>
+<tr><td>College / School</td><td>College of Agriculture and Environmental Sciences (CAES)</td></tr>
+<tr><td>Department</td><td>Department of Natural Resources and Environmental Design</td></tr>
+<tr><td>Degree Type</td><td>B.S.</td></tr>
+<tr><td>Concentrations / Tracks</td><td>None — single-track professional degree program</td></tr>
+<tr><td>Department Chair Name</td><td>Dr. Niroj Aryal, Associate Professor and Chair</td></tr>
+<tr><td>Chair Email Address</td><td>naryal@ncat.edu</td></tr>
+<tr><td>Best Point of Contact<br><span style="font-weight:normal;font-size:9pt;color:#666;">(for follow-up questions)</span></td><td>W. Chris Harrison, Assistant Professor<br>wcharris@ncat.edu</td></tr>
+<tr><td>Advising Contact</td><td>W. Chris Harrison<br>wcharris@ncat.edu</td></tr>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════
+     SECTION 2
+     ═══════════════════════════════════════════════════════ -->
+<h2>SECTION 2 | MAJOR INTRODUCTION &amp; HIGHLIGHTS</h2>
+<p style="font-size:9pt;color:#666;font-style:italic;">This content appears on Page 1 of the Major Map. Write for a prospective or first-year student audience — be compelling, clear, and specific to NC A&amp;T.</p>
+
+<h3>Bold Tagline / Value Statement</h3>
+<div class="bold-tagline">
+Landscape architects design the places where life happens — from urban parks and green infrastructure to climate-resilient communities. NC A&amp;T's BSLA is the only LAAB-accredited landscape architecture program at a public HBCU, preparing students to lead in environmental justice, sustainable design, and equitable placemaking.
+</div>
+
+<h3>Program Description</h3>
+<p>The Bachelor of Science in Landscape Architecture at NC A&amp;T is a rigorous, studio-intensive professional degree accredited by the Landscape Architectural Accreditation Board (LAAB). Across four years, students progress through a sequenced curriculum of 24 LDAR courses that build competencies in design fundamentals, ecological systems, site engineering, construction documentation, and collaborative professional practice. The program integrates community-engaged design with technical mastery, producing graduates who are eligible for the Landscape Architect Registration Examination (LARE) and prepared for immediate professional contribution. As the only LAAB-accredited program at a public HBCU, NC A&amp;T uniquely positions graduates to bring underrepresented perspectives to environmental design, green infrastructure, and community-centered planning.</p>
+
+<h3>Program Highlights (6 bullet points)</h3>
+<ul>
+<li><b>LAAB Accredited</b> — One of only ~70 accredited landscape architecture programs in the U.S., and the only one at a public HBCU</li>
+<li><b>24-Course Professional Studio Sequence</b> — Intensive design studios every semester from Year 1 through Capstone, with dedicated studios for Social Systems (LDAR 247), Ecological Systems (LDAR 248), Stormwater/Landform (LDAR 347), Master Planning (LDAR 348), Collaborative (LDAR 447), and Capstone (LDAR 448)</li>
+<li><b>LARE Exam Pathway</b> — Curriculum mapped directly to all 4 sections of the Landscape Architect Registration Examination; LDAR 442 (Design in Practice) includes structured LARE prep</li>
+<li><b>Required Professional Internship</b> — LDAR 400 provides credit for internship at landscape architecture firms, public agencies, or allied design practices (can be taken any summer)</li>
+<li><b>Community-Engaged Design Focus</b> — Students work with real communities in Greensboro and the Piedmont Triad on participatory design projects addressing environmental justice and equitable access to green space</li>
+<li><b>GIS &amp; Digital Technology</b> — Advanced geospatial analysis (LDAR 349), CAD/BIM pipeline (LDAR 170/171), and construction documentation (LDAR 249) ensure graduates are technically proficient on day one</li>
+</ul>
+
+<!-- ═══════════════════════════════════════════════════════
+     SECTION 3 — PAGE BREAK
+     ═══════════════════════════════════════════════════════ -->
+<div class="page-break"></div>
+<h2>SECTION 3 | CAREERS &amp; GRADUATE PATHWAYS</h2>
+
+<h3>Common Job Titles for Graduates</h3>
+<table class="form-table">
+<tr><td style="width:100%;" colspan="2">
+1. Landscape Architect (Licensed, after LARE passage)<br>
+2. Landscape Designer<br>
+3. Urban Designer / Urban Planner<br>
+4. Environmental Planner<br>
+5. Green Infrastructure Specialist<br>
+6. Park Planner / Recreation Facility Designer<br>
+7. Site Development Project Manager<br>
+8. Stormwater Management Designer<br>
+9. Land Use / Environmental Consultant<br>
+10. Campus / Institutional Planner
+</td></tr>
+</table>
+
+<h3>Common Employers &amp; Industries</h3>
+<table class="form-table">
+<tr><td style="width:100%;" colspan="2">
+1. <b>Landscape Architecture Firms</b> — Design Workshop, AECOM, Sasaki, SWA Group, Hood Design Studio, Smith Dalia<br>
+2. <b>Civil/Environmental Engineering Firms</b> — Kimley-Horn, WSP, Stantec, Terracon<br>
+3. <b>Federal Government</b> — National Park Service, USDA NRCS, Army Corps of Engineers, GSA<br>
+4. <b>State &amp; Local Government</b> — NC DOT, city parks &amp; recreation departments, county planning offices<br>
+5. <b>Nonprofit / NGO</b> — The Trust for Public Land, The Nature Conservancy, local land conservancies<br>
+6. <b>Real Estate Development</b> — mixed-use developers, resort/hospitality design teams<br>
+7. <b>Architecture &amp; Multidisciplinary Firms</b> — Perkins&amp;Will, Gensler, SmithGroup<br>
+8. <b>Academic / Research Institutions</b> — university facilities planning, extension services
+</td></tr>
+</table>
+
+<h3>Graduate &amp; Professional School Pathways</h3>
+<table class="form-table">
+<tr><td style="width:100%;" colspan="2">
+• Master of Landscape Architecture (MLA) — advanced research/design studios<br>
+• Master of Urban Design (MUD) — urban-scale design and policy<br>
+• Master of City and Regional Planning (MCRP)<br>
+• Master of Environmental Management (MEM)<br>
+• Ph.D. in Landscape Architecture, Environmental Design, or Planning<br>
+• Master of Architecture (M.Arch) — dual-degree pathway<br>
+• NC A&amp;T does not currently offer an accelerated 4+1 in LA; students pursue MLA at peer institutions (e.g., NC State, UVA, Penn, Harvard GSD, Morgan State)
+</td></tr>
+</table>
+
+<h3>Licensure / Certifications Required</h3>
+<table class="form-table">
+<tr><td style="width:100%;" colspan="2">
+• <b>LARE (Landscape Architect Registration Examination)</b> — Required for licensure in all 50 states. 4-section exam administered by CLARB. NC A&amp;T's curriculum maps to all 4 sections. Graduates are eligible to begin testing upon degree completion (varies by state).<br>
+• <b>CLARB Certification</b> — Council of Landscape Architectural Registration Boards credential facilitating multi-state licensure reciprocity<br>
+• <b>LEED AP (Optional)</b> — Leadership in Energy and Environmental Design Accredited Professional; valued in sustainable design practice<br>
+• <b>ISA Certified Arborist (Optional)</b> — International Society of Arboriculture certification for tree care and urban forestry specialization
+</td></tr>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════
+     SECTION 4 — PAGE BREAK
+     ═══════════════════════════════════════════════════════ -->
+<div class="page-break"></div>
+<h2>SECTION 4 | EXPERIENTIAL LEARNING BY ACADEMIC YEAR</h2>
+<p style="font-size:9pt;color:#666;font-style:italic;">For each of the four themes below, list specific activities, programs, events, courses, organizations, and resources that students in YOUR major should engage with during each academic year.</p>
+
+<!-- THEME 1: PURPOSE -->
+<h3><span class="section-emoji">🔍</span> Discover &amp; Demonstrate Purpose | Connecting passion to purpose</h3>
+<table class="grid-table">
+<tr>
+  <th style="width:25%;">Year 1 – Explore</th>
+  <th style="width:25%;">Year 2 – Engage</th>
+  <th style="width:25%;">Year 3 – Develop</th>
+  <th style="width:25%;">Year 4 – Launch</th>
+</tr>
+<tr>
+  <td>
+    <b>LDAR 103</b> — Landscape Architecture Discovery: Survey profession scope, ethics, career pathways; field visits to Greensboro firms and public agencies<br><br>
+    <b>LDAR 147</b> — Design Foundations Studio: Develop spatial reasoning, compositional awareness, and design process fluency<br><br>
+    <b>LDAR 148</b> — LA Fundamentals: Site inventory, analysis, and preliminary design on real Piedmont sites<br><br>
+    Attend CAES First-Year Discovery Seminar
+  </td>
+  <td>
+    <b>LDAR 255</b> — Design Theory: Read primary texts in phenomenology, ecology, and resilience theory; develop written design philosophy statements<br><br>
+    Attend ASLA regional conference or CELA symposium as a student observer<br><br>
+    Participate in a design competition (e.g., ASLA Student Awards, SLLA Design Challenge)
+  </td>
+  <td>
+    <b>LDAR 349</b> — GIS Applications in Environmental Design: LIDAR, suitability modeling, environmental impact analysis using real geospatial datasets<br><br>
+    Apply for CUGR (Center for Undergraduate Research) faculty mentorship for design-research project<br><br>
+    Develop independent research question for potential capstone topic
+  </td>
+  <td>
+    <b>LDAR 440</b> — Design Proposal Writing: Write RFQ/RFP responses, grant proposals, and competition narratives using professional evaluation criteria<br><br>
+    <b>LDAR 448</b> — Capstone Project Studio: Self-directed design-research project assessed by faculty jury and external professional reviewers<br><br>
+    Present capstone work at CAES Research Forum or ASLA student poster session
+  </td>
+</tr>
+</table>
+
+<!-- THEME 2: COMMUNITIES -->
+<h3><span class="section-emoji">🤝</span> Cultivate Your Communities | Building belonging and networks</h3>
+<table class="grid-table">
+<tr>
+  <th style="width:25%;">Year 1 – Explore</th>
+  <th style="width:25%;">Year 2 – Engage</th>
+  <th style="width:25%;">Year 3 – Develop</th>
+  <th style="width:25%;">Year 4 – Launch</th>
+</tr>
+<tr>
+  <td>
+    Join <b>ASLA Student Chapter</b> (American Society of Landscape Architects) — attend first meeting during Welcome Week<br><br>
+    Attend CAES Welcome Back cookout and department mixers<br><br>
+    Engage with <b>NOMA</b> student chapter (National Organization of Minority Architects)<br><br>
+    Connect with SGA, Greek life, and university-wide student organizations
+  </td>
+  <td>
+    <b>LDAR 247</b> — Social Systems Studio: Partner with underserved Greensboro neighborhoods for participatory co-design, community workshops, and design charrettes<br><br>
+    <b>LDAR 204</b> — Plant Materials: Weekly plant walks with cohort; plant ID practicum builds community through shared field experience<br><br>
+    <b>LDAR 244</b> — Designing with Plants: Collaborative planting design projects for community gardens and urban streetscapes<br><br>
+    Volunteer with Greensboro Beautiful, local Habitat for Humanity builds, or community garden initiatives
+  </td>
+  <td>
+    <b>LDAR 348</b> — Master Planning / Field Study Studio: Stakeholder interviews, community engagement, and comprehensive master plans for campus or community sites<br><br>
+    Mentor incoming Year 1 and Year 2 students through ASLA chapter or departmental peer mentoring program<br><br>
+    Participate in NC A&amp;T Community Design Charrettes or AIAS/ASLA joint events
+  </td>
+  <td>
+    <b>LDAR 447</b> — The Collaborative Studio: Cross-disciplinary teams with architecture, engineering, and planning students addressing complex real-world projects<br><br>
+    Serve as ASLA Student Chapter officer; organize firm visits, alumni panels, and portfolio review nights<br><br>
+    Build professional network through alumni mentorship and CLARB Council connections
+  </td>
+</tr>
+</table>
+
+<div class="page-break"></div>
+
+<!-- THEME 3: LOCAL & GLOBAL -->
+<h3><span class="section-emoji">🌍</span> Engage Locally &amp; Globally | Applying knowledge beyond campus</h3>
+<table class="grid-table">
+<tr>
+  <th style="width:25%;">Year 1 – Explore</th>
+  <th style="width:25%;">Year 2 – Engage</th>
+  <th style="width:25%;">Year 3 – Develop</th>
+  <th style="width:25%;">Year 4 – Launch</th>
+</tr>
+<tr>
+  <td>
+    <b>LDAR 104</b> — LA History: Global survey from Mesopotamian gardens through Olmsted to contemporary ecological design; attention to underrepresented voices<br><br>
+    Explore Greensboro's parks, greenways, and public spaces through guided field trips (Downtown Greenway, Bicentennial Garden, Hester Park)<br><br>
+    Begin exploring Study Abroad options through NC A&amp;T International Programs office
+  </td>
+  <td>
+    <b>LDAR 248</b> — Ecological Systems Studio: Watershed management, habitat restoration, green infrastructure at landscape scale; stream corridor restoration and urban heat island mitigation<br><br>
+    Participate in National Landscape Architecture Month (April) service projects<br><br>
+    Explore study abroad partnerships (e.g., summer programs in Italy, Scandinavia, or Caribbean sustainability studios)
+  </td>
+  <td>
+    <b>LDAR 345</b> — Site Systems: ADA-compliant grading, utility coordination, stormwater infrastructure applied to real Piedmont development sites<br><br>
+    <b>LDAR 347</b> — Landform &amp; Stormwater Studio: Bioretention systems, constructed wetlands, permeable paving — regulatory compliance and engineering calculations<br><br>
+    Participate in study abroad or domestic field study component of LDAR 348<br><br>
+    Apply for international design workshops or LAF fellowship opportunities
+  </td>
+  <td>
+    <b>LDAR 455</b> — Current Issues and Topics in LA: Climate adaptation, environmental justice, indigenous land stewardship, post-disaster recovery design; visiting practitioners and virtual conferences<br><br>
+    Engage with professional practice at regional and national scale through internship network and capstone research<br><br>
+    Connect capstone research to regional environmental justice priorities in the Piedmont Triad
+  </td>
+</tr>
+</table>
+
+<!-- THEME 4: PROFESSIONAL IDENTITY -->
+<h3><span class="section-emoji">💼</span> Develop Professional Identity | Building career readiness and credentials</h3>
+<table class="grid-table">
+<tr>
+  <th style="width:25%;">Year 1 – Explore</th>
+  <th style="width:25%;">Year 2 – Engage</th>
+  <th style="width:25%;">Year 3 – Develop</th>
+  <th style="width:25%;">Year 4 – Launch</th>
+</tr>
+<tr>
+  <td>
+    <b>LDAR 170</b> — LA Graphics I: Freehand sketching, orthographic drawing, digital drafting; portfolio-quality deliverables from first assignment<br><br>
+    <b>LDAR 171</b> — LA Graphics II: CAD, Adobe Creative Suite, 3D modeling; professional-standard plan graphics, sections, and perspectives<br><br>
+    <b>LDAR 181</b> — Materials and Construction: Material properties, construction assemblies, detailing, specification writing<br><br>
+    Create Handshake profile; attend Career Services orientation
+  </td>
+  <td>
+    <b>LDAR 249</b> — Construction Documents: Complete CD sets (layout, grading, planting, detail sheets, specs) at industry standard — the "Billable on Day One" benchmark<br><br>
+    Register for Handshake and attend CAES Career Fair<br><br>
+    Build initial project portfolio from Year 1–2 studio work; attend Career Services resume workshop<br><br>
+    Identify potential internship firms; conduct informational interviews<br><br>
+    <b>LDAR 400</b> — Internship Independent Study: Can be registered as early as sophomore summer when students secure a position
+  </td>
+  <td>
+    <b>LDAR 349</b> — GIS Applications: Advanced digital proficiency in ArcGIS, LIDAR processing, suitability modeling<br><br>
+    <b>LDAR 347</b> — Landform &amp; Stormwater Studio: Technical competency directly mapped to LARE Section 4<br><br>
+    Attend ASLA Annual Conference or state chapter conference; present student work<br><br>
+    <b>LDAR 400</b> — Internship can also be taken this summer<br><br>
+    Attend Professional Development headshot and business attire workshop
+  </td>
+  <td>
+    <b>LDAR 399</b> — Resume/Portfolio Seminar: Professional portfolio curation, resume development, CLARB licensure pathway planning<br><br>
+    <b>LDAR 442</b> — Design in Practice: Firm management, contract law, professional liability, LARE exam preparation modules with practice vignettes<br><br>
+    <b>LDAR 448</b> — Capstone Project: Portfolio-ready body of work suitable for professional exhibition<br><br>
+    Register for LARE exam sections; develop post-graduation licensure action plan
+  </td>
+</tr>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════
+     SECTION 5 — PAGE BREAK
+     ═══════════════════════════════════════════════════════ -->
+<div class="page-break"></div>
+<h2>SECTION 5 | ADVISOR NOTES &amp; ADDITIONAL RESOURCES</h2>
+
+<h3>Relevant Student Organizations</h3>
+<table class="form-table">
+<tr><td style="width:100%;" colspan="2">
+• <b>ASLA Student Chapter</b> — American Society of Landscape Architects (primary professional organization; competitions, networking, mentorship)<br>
+• <b>NOMA Student Chapter</b> — National Organization of Minority Architects (cross-disciplinary design community)<br>
+• <b>CAES Ambassadors</b> — College-level student leadership and recruitment team<br>
+• <b>Sigma Lambda Alpha</b> — Landscape Architecture Honor Society (by invitation, based on GPA and professional engagement)<br>
+• <b>Engineers Without Borders</b> — Cross-disciplinary community design and infrastructure projects<br>
+• <b>1891 Student Organizations</b> — University-wide registry of 200+ clubs, Greek organizations, and honor societies
+</td></tr>
+</table>
+
+<h3>Scholarships &amp; Funding Opportunities</h3>
+<table class="form-table">
+<tr><td style="width:100%;" colspan="2">
+• <b>ASLA Student Awards</b> — National design competition with cash prizes and portfolio recognition<br>
+• <b>LAF (Landscape Architecture Foundation) Scholarships</b> — Multiple merit- and need-based scholarships for LA students<br>
+• <b>CAES Dean's Scholarship</b> — College-level merit scholarship for CAES majors<br>
+• <b>NC A&amp;T Foundation Scholarships</b> — University-wide endowed scholarships (apply through Aggie Access by March 1)<br>
+• <b>Diversity Advancement Scholarships</b> — ASLA and allied organizations offer scholarships supporting underrepresented students in landscape architecture<br>
+• <b>USDA/NIFA Scholarships</b> — Federal funding opportunities for students in agriculture and environmental sciences
+</td></tr>
+</table>
+
+<h3>Key Deadlines / Milestones</h3>
+<table class="form-table">
+<tr><td style="width:35%;">Freshman Fall</td><td>Declare LA major by end of first semester; enroll in LDAR 103 + 147 + 170</td></tr>
+<tr><td>Sophomore Spring</td><td>Complete all 100-level LDAR courses before advancing to 200-level studios</td></tr>
+<tr><td>Any Summer</td><td>LDAR 400 — Internship Independent Study (can be taken any summer once a position is secured)</td></tr>
+<tr><td>Senior Fall</td><td>Complete LDAR 399 portfolio/resume seminar; submit capstone proposal; LDAR 440, 447, 455</td></tr>
+<tr><td>Senior Spring</td><td>Capstone exhibition and jury review (LDAR 448); file CLARB exam application</td></tr>
+<tr><td>Post-Graduation</td><td>Begin LARE exam sequence (most states allow testing upon degree completion)</td></tr>
+</table>
+
+<h3>Additional Information</h3>
+<table class="form-table">
+<tr><td style="width:100%;" colspan="2">
+• The BSLA is a <b>professional degree</b> — graduates are eligible for LARE exam and professional licensure without requiring a graduate degree.<br>
+• NC A&amp;T's program uniquely emphasizes <b>environmental justice and community-engaged design</b> as a core thread, not an elective add-on.<br>
+• The new Fall 2026 curriculum features <b>24 sequenced LDAR courses</b> organized across 4 years: 7 courses (Year 1 Explore), 6 courses (Year 2 Engage), 4 courses (Year 3 Develop), 7 courses (Year 4 Launch).<br>
+• Students should maintain a <b>portfolio from Day 1</b> — all studios produce portfolio-ready work; LDAR 399 provides formal portfolio curation in senior year.<br>
+• The program supports the <b>EMMA (Experiential Major Mapping Assistant)</b> digital platform for tracking milestone completion, career outlook, and credential validation progress.
+</td></tr>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════
+     SECTION 6
+     ═══════════════════════════════════════════════════════ -->
+<h2>SECTION 6 | SUBMISSION &amp; APPROVAL</h2>
+
+<table class="form-table">
+<tr><td>Submitted by</td><td>W. Chris Harrison</td></tr>
+<tr><td>Title</td><td>Assistant Professor, Department of Natural Resources and Environmental Design</td></tr>
+<tr><td>Date Submitted</td><td>May 22, 2026</td></tr>
+<tr><td>Department Chair Approval<br><span style="font-weight:normal;font-size:9pt;color:#666;">(if different from submitter)</span></td><td>Dr. Niroj Aryal, Associate Professor and Chair<br>naryal@ncat.edu</td></tr>
+</table>
+
+<div class="next-steps">
+<b>NEXT STEPS:</b> After you submit this form, the University Student Success Office will draft your department's Experiential Major Map and share a proof for your review. Final maps will be published digitally on ncat.edu and printed for student advising use.
+</div>
+
+<div class="footer">
+Developed by the University Student Success Office | NC Agricultural &amp; Technical State University | ncat.edu
+</div>
+
+</body>
+</html>

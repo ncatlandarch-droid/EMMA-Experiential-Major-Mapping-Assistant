@@ -1,0 +1,44 @@
+{
+  "phases": [
+    {
+      "id": "year-1", "name": "Year 1", "subtitle": "Explore",
+      "description": "Foundation in biological sciences and introduction to laboratory animal science career pathways.",
+      "milestones": [
+        { "id": "y1-lasc162", "label": "Explore lab animal science careers", "courseRef": "LASC 162 — Intro to Animal & Lab Animal Sciences", "credits": 3, "category": "Purpose", "semester": "fall", "description": "Survey career pathways in laboratory animal science including pharmaceutical research, academic research facilities, and regulatory agencies. Students visit university and industry vivaria to understand the scope of the profession.", "skills": ["Career exploration", "Facility orientation", "Scientific literacy"] },
+        { "id": "y1-lasc161", "label": "Complete orientation & academic planning", "courseRef": "LASC 161 — Orientation I", "credits": 1, "category": "Purpose", "semester": "fall", "description": "First-year advising and degree planning with emphasis on AALAS certification timeline, prerequisite sequencing, and co-curricular research opportunities.", "skills": ["Academic planning", "Goal setting", "Advising"] },
+        { "id": "y1-biol100", "label": "Build biological science foundations", "courseRef": "BIOL 100/101 — General Biology with Lab", "credits": 4, "category": "Identity", "semester": "spring", "description": "Foundational biology covering cell structure, genetics, ecology, and evolution. Laboratory component builds microscopy, experimental design, and data recording skills.", "skills": ["Cell biology", "Lab techniques", "Scientific method", "Data analysis"] },
+        { "id": "y1-ansc163", "label": "Study animal species & husbandry basics", "courseRef": "ANSC 163 — Introduction to Animal Science", "credits": 3, "category": "Identity", "semester": "spring", "description": "Overview of domestic and laboratory animal species, breed characteristics, basic anatomy, and animal care principles. Hands-on experience at university animal facilities.", "skills": ["Animal identification", "Basic husbandry", "Species characteristics"] }
+      ]
+    },
+    {
+      "id": "year-2", "name": "Year 2", "subtitle": "Engage",
+      "description": "Deepen scientific foundations through chemistry, microbiology, genetics, and medical terminology while engaging with professional communication.",
+      "milestones": [
+        { "id": "y2-ansc214", "label": "Master agricultural genetics", "courseRef": "ANSC 214 — Agricultural Genetics", "credits": 3, "category": "Identity", "semester": "fall", "description": "Mendelian and population genetics applied to animal breeding and selection. Students analyze pedigree data and evaluate genetic models relevant to laboratory animal colony management.", "skills": ["Genetics", "Colony management", "Pedigree analysis"] },
+        { "id": "y2-lasc261", "label": "Build medical terminology proficiency", "courseRef": "LASC 261 — Medical Terminology", "credits": 3, "category": "Identity", "semester": "fall", "description": "Systematic study of medical and veterinary terminology. Essential for AALAS exam preparation, veterinary clinical communication, and research protocol documentation.", "skills": ["Medical terminology", "Clinical vocabulary", "Protocol documentation"] },
+        { "id": "y2-biol221", "label": "Complete microbiology training", "courseRef": "BIOL 221 — Microbiology", "credits": 4, "category": "Communities", "semester": "spring", "description": "Microbial diversity, pathogenesis, immunology, and laboratory methods. Students master aseptic technique, culture protocols, and diagnostic microbiology essential for vivarium health monitoring.", "skills": ["Microbiology", "Aseptic technique", "Health monitoring", "Diagnostic protocols"] },
+        { "id": "y2-spch250", "label": "Develop professional communication", "courseRef": "SPCH 250 — Public Speaking", "credits": 3, "category": "Communities", "semester": "spring", "description": "Oral communication skills for science presentations, IACUC protocol defense, and professional conference participation.", "skills": ["Public speaking", "Science communication", "Protocol defense"] }
+      ]
+    },
+    {
+      "id": "year-3", "name": "Year 3", "subtitle": "Develop",
+      "description": "Specialized coursework in laboratory animal biology, diseases, toxicology, and advanced anatomy builds clinical-grade expertise.",
+      "milestones": [
+        { "id": "y3-lasc365", "label": "Master lab animal biology & diseases", "courseRef": "LASC 365 — Biology, Diseases & Care of Lab Animals", "credits": 3, "category": "Purpose", "semester": "fall", "description": "Comprehensive study of common laboratory animal species (rodents, rabbits, primates, zebrafish), their biology, husbandry requirements, common diseases, and veterinary care protocols. Central course for AALAS certification preparation.", "skills": ["Lab animal biology", "Disease recognition", "Husbandry protocols", "AALAS preparation"] },
+        { "id": "y3-lasc436", "label": "Study toxicology principles", "courseRef": "LASC 436 — Principles of Toxicology", "credits": 3, "category": "LocalGlobal", "semester": "fall", "description": "Study of toxic substances, dose-response relationships, and regulatory frameworks for preclinical safety testing. Students learn GLP compliance, study design, and the global regulatory landscape for pharmaceutical development.", "skills": ["Toxicology", "GLP compliance", "Regulatory science", "Safety testing"] },
+        { "id": "y3-lasc459", "label": "Complete integrated anatomy", "courseRef": "LASC 459 — Integrated Anatomy", "credits": 4, "category": "Identity", "semester": "spring", "description": "Detailed comparative anatomy with dissection-based laboratory. Systematic study of musculoskeletal, cardiovascular, and organ systems across species used in laboratory research.", "skills": ["Comparative anatomy", "Dissection", "Systems biology", "Clinical preparation"] },
+        { "id": "y3-ansc413", "label": "Study animal sanitation & biosecurity", "courseRef": "ANSC 413 — Sanitation & Diseases", "credits": 3, "category": "LocalGlobal", "semester": "spring", "description": "Infectious and parasitic diseases, biosecurity protocols, and sanitation practices for animal facilities. Focus on barrier systems, sentinel programs, and quarantine procedures in research environments.", "skills": ["Biosecurity", "Sanitation protocols", "Disease surveillance", "Facility management"] }
+      ]
+    },
+    {
+      "id": "year-4", "name": "Year 4", "subtitle": "Launch",
+      "description": "Clinical techniques, facility management, capstone seminar, and professional placement finalize AALAS certification readiness.",
+      "milestones": [
+        { "id": "y4-lasc453", "label": "Master clinical techniques & management", "courseRef": "LASC 453 — Lab Animal Management & Clinical Techniques", "credits": 3, "category": "Identity", "semester": "fall", "description": "Advanced clinical procedures including anesthesia, surgery, sample collection, and facility management. Students develop competencies in IACUC protocol compliance, colony health monitoring, and personnel training — the capstone clinical skills course.", "skills": ["Clinical techniques", "IACUC compliance", "Facility management", "Personnel training"] },
+        { "id": "y4-lasc462", "label": "Complete medical sciences training", "courseRef": "LASC 462 — Principles of Medical Sciences", "credits": 3, "category": "Purpose", "semester": "fall", "description": "Advanced study of medical science principles including pharmacology, pathology, and clinical diagnostics applied to laboratory animal medicine. Prepares students for veterinary school or advanced AALAS certification.", "skills": ["Pharmacology", "Pathology", "Clinical diagnostics", "Medical sciences"] },
+        { "id": "y4-lasc489", "label": "Present capstone seminar research", "courseRef": "LASC 489 — Seminar in Lab Animal Science", "credits": 3, "category": "Communities", "semester": "spring", "description": "Capstone seminar requiring students to research, present, and defend a topic in laboratory animal science. Professional-grade oral and written communication assessed by faculty panel.", "skills": ["Research presentation", "Scientific writing", "Critical analysis", "Professional defense"] },
+        { "id": "y4-intern", "label": "Complete professional internship", "courseRef": "LASC 490 — Internship", "credits": 3, "category": "Communities", "semester": "spring", "description": "Supervised placement at a research vivarium, pharmaceutical company, contract research organization, or academic institution. Students demonstrate AALAS competencies in authentic professional settings.", "skills": ["Professional practice", "Industry placement", "Applied skills", "Career readiness"] }
+      ]
+    }
+  ]
+}

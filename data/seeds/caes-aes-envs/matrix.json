@@ -1,0 +1,53 @@
+{
+  "validationTracks": [
+    {
+      "id": "envs",
+      "name": "Environmental Studies Competencies",
+      "description": "Core environmental science competencies",
+      "sections": [
+        {
+          "id": "e-sci",
+          "name": "Science Foundation",
+          "requiredMilestoneIds": [
+            "y1-envs201",
+            "y1-biol100",
+            "y1-chem106",
+            "y2-envs210",
+            "y2-nars225"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "e-mgmt",
+          "name": "Resource Management",
+          "requiredMilestoneIds": [
+            "y3-wmi333",
+            "y3-envs420",
+            "y3-envs422"
+          ],
+          "totalRequired": 3
+        },
+        {
+          "id": "e-pol",
+          "name": "Sustainability & Policy",
+          "requiredMilestoneIds": [
+            "y2-envs220",
+            "y3-envs410",
+            "y4-envs450"
+          ],
+          "totalRequired": 3
+        },
+        {
+          "id": "e-cap",
+          "name": "Research & Capstone",
+          "requiredMilestoneIds": [
+            "y4-envs444",
+            "y4-envs487",
+            "y4-career"
+          ],
+          "totalRequired": 3
+        }
+      ]
+    }
+  ]
+}

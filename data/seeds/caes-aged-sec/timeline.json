@@ -1,0 +1,261 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Introduction to agricultural education and teacher preparation foundations.",
+      "milestones": [
+        {
+          "id": "y1-aged101",
+          "label": "Explore agricultural education careers",
+          "courseRef": "AGED 101 — Intro to Agricultural Education",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "History, philosophy, and career opportunities in agricultural education. Students observe high school ag programs and develop their teaching identity.",
+          "skills": [
+            "Teaching philosophy",
+            "Career exploration",
+            "Ag education history"
+          ]
+        },
+        {
+          "id": "y1-edpr102",
+          "label": "Begin teacher education pathway",
+          "courseRef": "EDPR 102 — Intro to Teacher Education",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Foundations of teaching including classroom management, educational psychology, and NC teaching standards. Students complete early field observations in public schools.",
+          "skills": [
+            "Teaching foundations",
+            "Classroom observation",
+            "Educational psychology"
+          ]
+        },
+        {
+          "id": "y1-engl100",
+          "label": "Develop academic writing skills",
+          "courseRef": "ENGL 100 — English Composition I",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Academic writing, critical thinking, and communication skills for teacher preparation and professional practice.",
+          "skills": [
+            "Academic writing",
+            "Critical thinking",
+            "Communication"
+          ]
+        },
+        {
+          "id": "y1-biol100",
+          "label": "Build agricultural science foundations",
+          "courseRef": "BIOL 100 — General Biology",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Biological science foundations that support agricultural content knowledge for secondary teaching.",
+          "skills": [
+            "Biology",
+            "Agricultural science",
+            "Content knowledge"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Culturally responsive pedagogy, special education, and youth program management build teaching competencies.",
+      "milestones": [
+        {
+          "id": "y2-edpr210",
+          "label": "Study culturally responsive pedagogy",
+          "courseRef": "EDPR 210 — Culturally Relevant Pedagogy",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Multicultural education, culturally responsive teaching practices, and equity-focused curriculum design. Students develop lesson plans that honor diverse cultural perspectives in agricultural education.",
+          "skills": [
+            "Cultural responsiveness",
+            "Equity",
+            "Inclusive teaching"
+          ]
+        },
+        {
+          "id": "y2-sped250",
+          "label": "Learn exceptional children education",
+          "courseRef": "SPED 250 — Exceptional Children",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Introduction to special education law, IEP development, and differentiated instruction for students with diverse learning needs in agricultural education settings.",
+          "skills": [
+            "Special education",
+            "IEP",
+            "Differentiated instruction"
+          ]
+        },
+        {
+          "id": "y2-aged301",
+          "label": "Master youth program management",
+          "courseRef": "AGED 301 — Youth Program Management",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "FFA chapter management, supervised agricultural experience (SAE) programs, and youth leadership development. Students design and implement agricultural education extracurricular activities.",
+          "skills": [
+            "FFA management",
+            "SAE programs",
+            "Youth leadership"
+          ]
+        },
+        {
+          "id": "y2-ansc163",
+          "label": "Build animal science content knowledge",
+          "courseRef": "ANSC 163 — Introduction to Animal Science",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Animal science content knowledge for secondary agricultural education teaching. Covers species identification, production systems, and veterinary science basics.",
+          "skills": [
+            "Animal science",
+            "Content mastery",
+            "Agricultural knowledge"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Methods courses, educational technology, and clinical practice build teaching proficiency.",
+      "milestones": [
+        {
+          "id": "y3-aged303",
+          "label": "Master agricultural education foundations",
+          "courseRef": "AGED 303 — Foundations of Agricultural Education",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Advanced pedagogical methods for teaching agricultural subjects including laboratory instruction, project-based learning, and competency-based assessment.",
+          "skills": [
+            "Pedagogy",
+            "Lab instruction",
+            "Assessment design"
+          ]
+        },
+        {
+          "id": "y3-aged302",
+          "label": "Integrate educational technology",
+          "courseRef": "AGED 302 — Educational Technology in Ag Ed",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Technology integration in agricultural education including precision agriculture tools, virtual labs, and multimedia instruction. Students design technology-enhanced lesson plans.",
+          "skills": [
+            "EdTech",
+            "Precision ag tools",
+            "Multimedia instruction"
+          ]
+        },
+        {
+          "id": "y3-aged304",
+          "label": "Study adult education methods",
+          "courseRef": "AGED 304 — Adult Education in Agriculture",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Adult learning theory, extension education methods, and community-based agricultural education program development.",
+          "skills": [
+            "Adult education",
+            "Extension methods",
+            "Community education"
+          ]
+        },
+        {
+          "id": "y3-edpr410",
+          "label": "Complete pre-clinical teaching experience",
+          "courseRef": "EDPR 410 — Clinical Experience I",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Extended field experience in secondary agricultural education classrooms. Students teach lessons, manage FFA activities, and receive mentor teacher feedback.",
+          "skills": [
+            "Clinical teaching",
+            "Classroom management",
+            "Mentor feedback"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Full-semester student teaching and licensure preparation complete the pathway to NC Teaching License.",
+      "milestones": [
+        {
+          "id": "y4-aged405",
+          "label": "Begin senior clinical practice",
+          "courseRef": "AGED 405 — Clinical Practice I",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Advanced clinical practice in secondary agricultural education. Students assume increasing responsibility for classroom instruction, FFA advising, and SAE supervision.",
+          "skills": [
+            "Advanced teaching",
+            "FFA advising",
+            "SAE supervision"
+          ]
+        },
+        {
+          "id": "y4-aged406",
+          "label": "Master program planning & evaluation",
+          "courseRef": "AGED 406 — Program Planning",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Agricultural education program design, curriculum mapping, advisory board management, and comprehensive program assessment aligned with NC agricultural education standards.",
+          "skills": [
+            "Program planning",
+            "Curriculum design",
+            "Assessment"
+          ]
+        },
+        {
+          "id": "y4-aged407",
+          "label": "Study environmental education methods",
+          "courseRef": "AGED 407 — Environmental Education",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "description": "Environmental literacy, outdoor education, and place-based learning in agricultural education contexts. Connects agricultural education to sustainability and natural resource conservation.",
+          "skills": [
+            "Environmental education",
+            "Outdoor learning",
+            "Sustainability"
+          ]
+        },
+        {
+          "id": "y4-edpr498",
+          "label": "Complete full-semester student teaching",
+          "courseRef": "EDPR 498 — Student Teaching",
+          "credits": 12,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Full-semester clinical practice in a secondary agricultural education program. Students assume full teaching responsibilities, manage FFA chapters, supervise SAEs, and demonstrate all NC teaching competencies. Culminating experience for licensure eligibility.",
+          "skills": [
+            "Student teaching",
+            "Full responsibility",
+            "Licensure readiness",
+            "Professional practice"
+          ]
+        }
+      ]
+    }
+  ]
+}

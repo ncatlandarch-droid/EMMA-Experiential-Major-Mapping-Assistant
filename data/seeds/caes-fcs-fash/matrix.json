@@ -1,0 +1,52 @@
+{
+  "validationTracks": [
+    {
+      "id": "fashion",
+      "name": "Fashion Industry Competencies",
+      "description": "Core competencies for fashion professionals",
+      "sections": [
+        {
+          "id": "f-des",
+          "name": "Design & Production",
+          "requiredMilestoneIds": [
+            "y1-fcs155",
+            "y2-fcs255",
+            "y2-fcs260",
+            "y3-fcs370"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "f-merch",
+          "name": "Merchandising & Retail",
+          "requiredMilestoneIds": [
+            "y2-fcs270",
+            "y2-mktg201",
+            "y3-fcs360",
+            "y3-fcs380"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "f-global",
+          "name": "Global Industry",
+          "requiredMilestoneIds": [
+            "y3-fcs350",
+            "y4-fcs475",
+            "y4-portfolio"
+          ],
+          "totalRequired": 3
+        },
+        {
+          "id": "f-intern",
+          "name": "Professional Internship",
+          "requiredMilestoneIds": [
+            "y4-fcs487",
+            "y4-fcs490"
+          ],
+          "totalRequired": 2
+        }
+      ]
+    }
+  ]
+}

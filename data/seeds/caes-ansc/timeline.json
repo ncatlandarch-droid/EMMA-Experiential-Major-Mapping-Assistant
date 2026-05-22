@@ -1,0 +1,206 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Foundation in biological sciences, animal biology orientation, and career pathway exploration through introductory coursework and advising.",
+      "milestones": [
+        {
+          "id": "y1-lasc162",
+          "label": "Explore animal & lab animal science careers",
+          "courseRef": "LASC 162 — Intro to Animal & Lab Animal Sciences",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Survey the breadth of animal science disciplines from livestock production to biomedical research. Students explore career pathways in veterinary medicine, pharmaceutical research, agricultural extension, and wildlife management through guest lectures and site visits.",
+          "skills": ["Career exploration", "Scientific literacy", "Professional orientation"]
+        },
+        {
+          "id": "y1-lasc161",
+          "label": "Complete first-year orientation & advising",
+          "courseRef": "LASC 161 — Orientation I",
+          "credits": 1,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Structured orientation to university resources, academic planning, and the animal science curriculum. Students develop a 4-year degree map with faculty advisors and identify co-curricular opportunities in pre-vet clubs and research labs.",
+          "skills": ["Academic planning", "Goal setting", "Resource navigation"]
+        },
+        {
+          "id": "y1-biol100",
+          "label": "Build biological science foundations",
+          "courseRef": "BIOL 100/101 — General Biology with Lab",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Establish foundational understanding of cell biology, genetics, ecology, and evolution. Laboratory exercises develop scientific method skills, microscopy techniques, and data analysis that underpin all upper-division animal science coursework.",
+          "skills": ["Cell biology", "Scientific method", "Lab techniques", "Data analysis"]
+        },
+        {
+          "id": "y1-ansc163",
+          "label": "Study animal anatomy & physiology basics",
+          "courseRef": "ANSC 163 — Introduction to Animal Science",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Introduction to domestic animal species, breed identification, basic anatomy, and production systems. Students gain hands-on experience at the university farm facilities, developing practical animal handling skills alongside academic foundations.",
+          "skills": ["Animal identification", "Basic anatomy", "Husbandry", "Farm operations"]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Deepen scientific foundations through chemistry, genetics, and nutrition while engaging with professional communication and laboratory research skills.",
+      "milestones": [
+        {
+          "id": "y2-ansc214",
+          "label": "Master agricultural genetics principles",
+          "courseRef": "ANSC 214 — Agricultural Genetics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Study Mendelian and population genetics applied to animal breeding, selection strategies, and genetic improvement programs. Students analyze pedigree data and evaluate heritability estimates for economically important traits in livestock species.",
+          "skills": ["Genetics", "Breeding strategies", "Pedigree analysis", "Heritability"]
+        },
+        {
+          "id": "y2-lasc261",
+          "label": "Build professional medical vocabulary",
+          "courseRef": "LASC 261 — Medical Terminology",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Systematic study of medical and veterinary terminology including prefixes, suffixes, and root words. Essential for students pursuing veterinary school applications, pharmaceutical careers, or biomedical research positions.",
+          "skills": ["Medical terminology", "Professional vocabulary", "Clinical communication"]
+        },
+        {
+          "id": "y2-ansc212",
+          "label": "Analyze animal nutrition & feeding systems",
+          "courseRef": "ANSC 212 — Feeds & Feeding",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Study nutrient requirements, feed composition, ration formulation, and feeding management for major livestock species. Students develop practical skills in feed analysis, diet balancing, and nutritional assessment using industry-standard software and laboratory techniques.",
+          "skills": ["Nutrition science", "Ration formulation", "Feed analysis", "Diet balancing"]
+        },
+        {
+          "id": "y2-spch250",
+          "label": "Develop professional communication skills",
+          "courseRef": "SPCH 250 — Public Speaking",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Build competency in oral communication, persuasive argumentation, and professional presentation. Students practice science communication techniques relevant to extension education, client consultation, and academic conference presentations.",
+          "skills": ["Public speaking", "Science communication", "Persuasion", "Professional presentation"]
+        },
+        {
+          "id": "y2-biol221",
+          "label": "Complete microbiology laboratory training",
+          "courseRef": "BIOL 221 — Microbiology",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Study microbial diversity, pathogenesis, immunology, and antimicrobial mechanisms with intensive laboratory component. Students master aseptic technique, culture methods, staining procedures, and diagnostic microbiology protocols essential for veterinary and food safety careers.",
+          "skills": ["Microbiology", "Aseptic technique", "Diagnostic protocols", "Immunology"]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Advanced coursework in livestock systems, organic chemistry, anatomy, and disease management builds professional-grade expertise and research capability.",
+      "milestones": [
+        {
+          "id": "y3-ansc411",
+          "label": "Master livestock production systems",
+          "courseRef": "ANSC 411 — Livestock Production",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Comprehensive study of beef, swine, sheep, and goat production systems including management practices, reproductive technologies, marketing strategies, and economic analysis. Students visit commercial operations and evaluate production efficiency using industry benchmarking tools.",
+          "skills": ["Livestock management", "Production economics", "Reproductive technology", "Industry benchmarking"]
+        },
+        {
+          "id": "y3-lasc459",
+          "label": "Complete integrated anatomy studies",
+          "courseRef": "LASC 459 — Integrated Anatomy",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Detailed study of comparative vertebrate anatomy with dissection-based laboratory. Students develop systematic understanding of musculoskeletal, cardiovascular, nervous, and organ systems across domestic animal species, building essential knowledge for veterinary school entrance.",
+          "skills": ["Comparative anatomy", "Dissection", "Systems physiology", "Veterinary preparation"]
+        },
+        {
+          "id": "y3-ansc413",
+          "label": "Study animal sanitation & disease prevention",
+          "courseRef": "ANSC 413 — Sanitation & Diseases",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Examination of infectious and parasitic diseases in domestic animals, biosecurity protocols, sanitation practices, and public health implications. Students learn disease surveillance methods, outbreak investigation techniques, and the global dimensions of zoonotic disease management.",
+          "skills": ["Disease prevention", "Biosecurity", "Zoonotic diseases", "Public health"]
+        },
+        {
+          "id": "y3-ansc451",
+          "label": "Explore poultry science & global production",
+          "courseRef": "ANSC 451 — Poultry Production",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Study of poultry genetics, nutrition, housing systems, and processing in the context of North Carolina's $4B poultry industry. Students analyze global supply chains, evaluate welfare standards across international markets, and visit commercial poultry operations in the NC Piedmont region.",
+          "skills": ["Poultry science", "Supply chain analysis", "Welfare standards", "Industry operations"]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Capstone research, advanced physiology, clinical preparation, and professional placement finalize the transition from student to animal science professional.",
+      "milestones": [
+        {
+          "id": "y4-ansc435",
+          "label": "Complete capstone research project",
+          "courseRef": "ANSC 435 — Animal Science Capstone",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Independent research project integrating knowledge from across the curriculum. Students design experiments, collect and analyze data, and present findings to faculty and industry professionals. Capstone projects address real-world challenges in animal production, health, or welfare.",
+          "skills": ["Research design", "Data analysis", "Scientific writing", "Professional presentation"]
+        },
+        {
+          "id": "y4-lasc460",
+          "label": "Master microscopic anatomy & histology",
+          "courseRef": "LASC 460 — Microscopic Anatomy",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Advanced study of tissue structure and cellular organization using light and electron microscopy. Students identify normal tissue architecture across organ systems, building diagnostic competency essential for veterinary pathology and biomedical research careers.",
+          "skills": ["Histology", "Microscopy", "Tissue identification", "Diagnostic competency"]
+        },
+        {
+          "id": "y4-lasc461",
+          "label": "Complete advanced physiology training",
+          "courseRef": "LASC 461 — Physiology",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Comprehensive study of organ system physiology including cardiovascular, respiratory, renal, endocrine, and reproductive systems. Students develop integrative understanding of physiological mechanisms essential for veterinary school success and graduate research in animal biology.",
+          "skills": ["Systems physiology", "Endocrinology", "Integrative biology", "Clinical preparation"]
+        },
+        {
+          "id": "y4-intern",
+          "label": "Complete professional internship placement",
+          "courseRef": "ANSC 490 — Internship",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Supervised professional experience at a veterinary clinic, research laboratory, agricultural agency, or agribusiness firm. Students apply academic training in authentic professional settings, build industry networks, and develop workplace competencies evaluated through reflective journals and supervisor assessments.",
+          "skills": ["Professional practice", "Industry networking", "Applied skills", "Career readiness"]
+        }
+      ]
+    }
+  ]
+}

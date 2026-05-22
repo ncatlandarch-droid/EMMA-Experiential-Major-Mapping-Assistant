@@ -1,0 +1,52 @@
+{
+  "validationTracks": [
+    {
+      "id": "cfp",
+      "name": "CFP Exam Readiness",
+      "description": "CFP Board principal knowledge domains",
+      "sections": [
+        {
+          "id": "cfp-fund",
+          "name": "Financial Fundamentals",
+          "requiredMilestoneIds": [
+            "y1-econ200",
+            "y1-acct201",
+            "y2-fcs315",
+            "y3-fcs316"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "cfp-ins",
+          "name": "Insurance & Tax",
+          "requiredMilestoneIds": [
+            "y3-fcs317",
+            "y3-fcs318",
+            "y4-fcs416"
+          ],
+          "totalRequired": 3
+        },
+        {
+          "id": "cfp-inv",
+          "name": "Investment & Retirement",
+          "requiredMilestoneIds": [
+            "y3-fcs319",
+            "y4-fcs416"
+          ],
+          "totalRequired": 2
+        },
+        {
+          "id": "cfp-cert",
+          "name": "CFP Eligibility",
+          "requiredMilestoneIds": [
+            "y2-fcs310",
+            "y4-fcs480",
+            "y4-fcs487",
+            "y4-cfp"
+          ],
+          "totalRequired": 4
+        }
+      ]
+    }
+  ]
+}

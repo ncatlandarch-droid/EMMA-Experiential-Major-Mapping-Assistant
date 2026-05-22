@@ -1,0 +1,261 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Introduction to child development and family science career pathways.",
+      "milestones": [
+        {
+          "id": "y1-fcs160",
+          "label": "Explore child & family science careers",
+          "courseRef": "FCS 160 — Introduction to Family & Consumer Sciences",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Survey of FCS disciplines with emphasis on child development, family services, and CFLE certification pathways. Students visit community agencies and family service organizations.",
+          "skills": [
+            "Career exploration",
+            "FCS overview",
+            "Family services"
+          ]
+        },
+        {
+          "id": "y1-psyc101",
+          "label": "Study human behavior foundations",
+          "courseRef": "PSYC 101 — Introduction to Psychology",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Psychological principles including development, learning, motivation, and behavior that underpin child development and family studies coursework.",
+          "skills": [
+            "Psychology",
+            "Human behavior",
+            "Developmental foundations"
+          ]
+        },
+        {
+          "id": "y1-soci200",
+          "label": "Understand family & social structures",
+          "courseRef": "SOCI 200 — Introduction to Sociology",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Social institutions, family structures, diversity, and inequality. Provides sociological frameworks for understanding family dynamics across cultures and communities.",
+          "skills": [
+            "Sociology",
+            "Family structures",
+            "Cultural diversity"
+          ]
+        },
+        {
+          "id": "y1-engl100",
+          "label": "Develop professional communication",
+          "courseRef": "ENGL 100 — English Composition I",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Writing skills for professional reports, case documentation, and family service program proposals.",
+          "skills": [
+            "Professional writing",
+            "Documentation",
+            "Communication"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Child development theory, family dynamics, and community engagement build professional competencies.",
+      "milestones": [
+        {
+          "id": "y2-fcs260",
+          "label": "Master child development theory",
+          "courseRef": "FCS 260 — Child Development",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Physical, cognitive, social, and emotional development from conception through adolescence. Students observe children at the NC A&T Child Development Laboratory and apply developmental theory to practice.",
+          "skills": [
+            "Child development",
+            "Observation",
+            "Developmental theory"
+          ]
+        },
+        {
+          "id": "y2-fcs321",
+          "label": "Study family dynamics & relationships",
+          "courseRef": "FCS 321 — Family Relationships",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Family systems theory, communication patterns, and relationship dynamics across the lifespan. Students analyze family case studies and develop intervention strategies.",
+          "skills": [
+            "Family systems",
+            "Communication",
+            "Intervention strategies"
+          ]
+        },
+        {
+          "id": "y2-fcs334",
+          "label": "Explore human sexuality education",
+          "courseRef": "FCS 334 — Human Sexuality",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Comprehensive sexuality education, reproductive health, and relationship education across cultures. Essential content area for CFLE certification.",
+          "skills": [
+            "Sexuality education",
+            "Reproductive health",
+            "Cultural competency"
+          ]
+        },
+        {
+          "id": "y2-spch250",
+          "label": "Develop counseling communication",
+          "courseRef": "SPCH 250 — Public Speaking",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Communication skills for family life education, parent training workshops, and community program facilitation.",
+          "skills": [
+            "Public speaking",
+            "Facilitation",
+            "Parent education"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Advanced family studies, practicum, and CFLE content areas develop professional expertise.",
+      "milestones": [
+        {
+          "id": "y3-fcs420",
+          "label": "Study family resource management",
+          "courseRef": "FCS 420 — Family Resource Management",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Financial literacy education, consumer decision-making, and family resource management across the lifespan. Students develop family budgeting workshops and consumer education curricula.",
+          "skills": [
+            "Financial literacy",
+            "Resource management",
+            "Consumer education"
+          ]
+        },
+        {
+          "id": "y3-fcs430",
+          "label": "Master family life education methods",
+          "courseRef": "FCS 430 — Family Life Education",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "NCFR Framework for Family Life Education, program design, and facilitation methods. Students develop and deliver family life education programs aligned with CFLE certification standards.",
+          "skills": [
+            "FLE methods",
+            "NCFR framework",
+            "Program design"
+          ]
+        },
+        {
+          "id": "y3-fcs460",
+          "label": "Complete family services practicum",
+          "courseRef": "FCS 460 — Practicum in Family Services",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Supervised field experience at a family service agency, domestic violence shelter, child advocacy center, or community-based organization. Students apply CFLE competencies in real-world settings.",
+          "skills": [
+            "Field experience",
+            "Family services",
+            "Community engagement"
+          ]
+        },
+        {
+          "id": "y3-fcs440",
+          "label": "Study family diversity & policy",
+          "courseRef": "FCS 440 — Family Diversity & Public Policy",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Family structure diversity, family policy analysis, and advocacy skills. Students analyze federal and state family policies including TANF, child welfare, and family leave.",
+          "skills": [
+            "Family policy",
+            "Advocacy",
+            "Diversity",
+            "Policy analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Capstone research, CFLE exam preparation, and professional placement complete certification readiness.",
+      "milestones": [
+        {
+          "id": "y4-fcs461",
+          "label": "Complete family studies capstone",
+          "courseRef": "FCS 461 — Capstone in Family Studies",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Integrative capstone project demonstrating CFLE competency across all 10 NCFR content areas. Students produce professional portfolios and present research to faculty and community partners.",
+          "skills": [
+            "Capstone research",
+            "CFLE portfolio",
+            "Professional presentation"
+          ]
+        },
+        {
+          "id": "y4-fcs450",
+          "label": "Study parent-child relationships",
+          "courseRef": "FCS 450 — Parent-Child Relations",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Advanced study of parenting styles, attachment theory, parent education programs, and intervention strategies for at-risk families.",
+          "skills": [
+            "Parenting education",
+            "Attachment theory",
+            "Intervention"
+          ]
+        },
+        {
+          "id": "y4-fcs487",
+          "label": "Complete professional internship",
+          "courseRef": "FCS 487 — Internship",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Supervised internship at a family service organization, school counseling center, community agency, or faith-based family ministry. Final supervised practice experience for CFLE eligibility.",
+          "skills": [
+            "Professional practice",
+            "CFLE readiness",
+            "Career placement"
+          ]
+        },
+        {
+          "id": "y4-cfle",
+          "label": "Prepare for CFLE certification",
+          "courseRef": "FCS 499 — CFLE Exam Preparation",
+          "credits": 1,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Structured preparation for the NCFR Certified Family Life Educator examination. Review of all 10 CFLE content areas with practice assessments.",
+          "skills": [
+            "CFLE preparation",
+            "Certification readiness",
+            "Professional credentials"
+          ]
+        }
+      ]
+    }
+  ]
+}

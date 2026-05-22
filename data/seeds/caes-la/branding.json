@@ -1,0 +1,176 @@
+{
+  "institutionName": "North Carolina Agricultural and Technical State University",
+  "abbreviation": "NC A&T",
+  "collegeName": "College of Agriculture and Environmental Sciences (CAES)",
+  "departmentName": "Natural Resources and Environmental Design",
+  "programName": "Bachelor of Science in Landscape Architecture",
+  "degreeType": "BSLA",
+  "programSlug": "caes-la",
+  "slug": "caes-la",
+  "concentrations": "None — single-track professional degree program",
+  "departmentChair": "Dr. Niroj Aryal, Associate Professor and Chair",
+  "departmentChairEmail": "naryal@ncat.edu",
+  "contactName": "W. Chris Harrison, Assistant Professor",
+  "contactEmail": "wcharris@ncat.edu",
+  "advisingContact": "W. Chris Harrison",
+  "advisingEmail": "wcharris@ncat.edu",
+  "programDescription": "The Bachelor of Science in Landscape Architecture at NC A&T is a rigorous, studio-intensive professional degree accredited by the Landscape Architectural Accreditation Board (LAAB). Across four years, students progress through a sequenced curriculum of 24 LDAR courses that build competencies in design fundamentals, ecological systems, site engineering, construction documentation, and collaborative professional practice. As the only LAAB-accredited program at a public HBCU, NC A&T uniquely positions graduates to bring underrepresented perspectives to environmental design, green infrastructure, and community-centered planning.",
+  "tagline": "High-Tech, High-Touch Socio-Ecological Design",
+  "brandingColors": {
+    "primaryHex": "#004684",
+    "primaryRgb": "0, 70, 132",
+    "secondaryHex": "#fdb927",
+    "secondaryRgb": "253, 185, 39",
+    "backgroundHex": "#F0F2F5",
+    "surfaceHex": "#FFFFFF",
+    "textPrimaryHex": "#1A1A2E",
+    "textSecondaryHex": "#555770"
+  },
+  "categoryColors": {
+    "Purpose": {
+      "hex": "#2563EB",
+      "rgb": "37, 99, 235",
+      "emoji": "🔍",
+      "label": "Purpose & Self-Discovery"
+    },
+    "Communities": {
+      "hex": "#059669",
+      "rgb": "5, 150, 105",
+      "emoji": "🤝",
+      "label": "Communities & Service"
+    },
+    "LocalGlobal": {
+      "hex": "#D97706",
+      "rgb": "217, 119, 6",
+      "emoji": "🌍",
+      "label": "Local & Global Engagement"
+    },
+    "Identity": {
+      "hex": "#7C3AED",
+      "rgb": "124, 58, 237",
+      "emoji": "💼",
+      "label": "Professional Identity"
+    }
+  },
+  "validationType": "licensure",
+  "validationLabel": "LARE Exam + LAAB Accreditation",
+  "accreditationBody": "LAAB (Landscape Architectural Accreditation Board)",
+  "licensureExam": "LARE (Landscape Architect Registration Examination)",
+  "careerOutlook": {
+    "field": "Landscape Architecture",
+    "blsCode": "17-1012",
+    "growthRate": "4% (2022-2032)",
+    "medianSalary": "$73,210",
+    "entryLevelSalary": "$46,000",
+    "topSalary": "$115,000+",
+    "totalJobs": "25,500",
+    "topEmployers": [
+      "AECOM", "SWA Group", "Sasaki", "HOK", "Design Workshop",
+      "NRCS/USDA", "National Park Service", "State DOTs"
+    ],
+    "certifications": [
+      "LARE (Landscape Architect Registration Exam)",
+      "SITES AP (Sustainable Sites)",
+      "LEED AP",
+      "ISA Certified Arborist"
+    ],
+    "relatedFields": [
+      "Urban Planning", "Environmental Design", "Civil Engineering",
+      "Architecture", "Ecological Restoration"
+    ],
+    "keySkills": [
+      "Site Analysis", "Grading & Drainage", "Plant Identification",
+      "Construction Documents", "GIS/CAD", "Sustainable Design",
+      "Community Engagement", "Stormwater Management"
+    ],
+    "outlook": "Landscape architects are in demand for green infrastructure, climate adaptation, and sustainable development. HBCU graduates bring unique perspectives to environmental justice and community-centered design."
+  },
+  "sfricProjects": [
+    {
+      "id": "inspiration-courtyard",
+      "name": "Inspiration Courtyard",
+      "location": "CH Moore Agricultural Research Station",
+      "status": "Active",
+      "description": "A contemplative outdoor space designed to honor agricultural heritage while showcasing sustainable materials, native plantings, and accessible design. Students contribute site analysis, planting design, construction documentation, and 3D visualization.",
+      "avaUrl": "https://ava3-digital-twin.netlify.app",
+      "applicableCourses": ["LDAR 247", "LDAR 244", "LDAR 249", "LDAR 348", "LDAR 448"],
+      "categories": ["Communities", "Purpose"],
+      "roles": ["Site Analyst", "Planting Designer", "Construction Documenter", "3D Visualizer"],
+      "aslaCategory": "General Design"
+    },
+    {
+      "id": "holland-bowl",
+      "name": "Holland Bowl",
+      "location": "NC A&T University Farm",
+      "status": "Active",
+      "description": "A significant landscape feature requiring grading analysis, stormwater management design, and ecological performance planning. Students engage with real terrain data, drone surveys, and hydrology modeling to develop implementable solutions.",
+      "avaUrl": "https://ava3-digital-twin.netlify.app",
+      "applicableCourses": ["LDAR 345", "LDAR 347", "LDAR 349", "LDAR 248", "LDAR 348"],
+      "categories": ["Identity", "LocalGlobal"],
+      "roles": ["Grading Engineer", "Stormwater Designer", "GIS Analyst", "Ecological Planner"],
+      "aslaCategory": "Analysis & Planning"
+    },
+    {
+      "id": "woodland",
+      "name": "Woodland Restoration",
+      "location": "NC A&T University Farm — Woodland Edge",
+      "status": "Active",
+      "description": "A habitat corridor and woodland edge restoration project integrating ecological inventory, native plant communities, and biodiversity monitoring. Students conduct field research using SFRIC sensor data and drone imagery to design resilient woodland landscapes.",
+      "avaUrl": "https://ava3-digital-twin.netlify.app",
+      "applicableCourses": ["LDAR 248", "LDAR 204", "LDAR 244", "LDAR 349", "LDAR 455"],
+      "categories": ["LocalGlobal", "Communities"],
+      "roles": ["Ecological Researcher", "Plant Ecologist", "GIS Mapper", "Habitat Designer"],
+      "aslaCategory": "General Design"
+    },
+    {
+      "id": "small-area-plan",
+      "name": "Small Area Plan",
+      "location": "SFRIC Community Zone",
+      "status": "Active",
+      "description": "A community-scale planning effort developing land use, programming, and spatial frameworks for the SFRIC campus. Students conduct stakeholder interviews, precedent analysis, and phased master planning to create a comprehensive small area plan with implementation strategies.",
+      "avaUrl": "https://ava3-digital-twin.netlify.app",
+      "applicableCourses": ["LDAR 247", "LDAR 348", "LDAR 440", "LDAR 447", "LDAR 448"],
+      "categories": ["Communities", "LocalGlobal"],
+      "roles": ["Master Planner", "Community Facilitator", "Visualization Specialist", "Documentation Lead"],
+      "aslaCategory": "Analysis & Planning"
+    }
+  ],
+  "aslaAwardCategories": [
+    {
+      "id": "general-design",
+      "name": "General Design",
+      "description": "Honors design excellence for built or conceptual projects at any scale — parks, plazas, campuses, streetscapes, and public spaces.",
+      "deliverables": ["Site analysis diagrams", "Concept narrative", "Master plan", "Planting plan", "Construction details", "Section perspectives", "Before/after visualizations", "10-board presentation set"]
+    },
+    {
+      "id": "residential-design",
+      "name": "Residential Design",
+      "description": "Celebrates exceptional design for private residential landscapes including gardens, estates, and multi-family outdoor spaces.",
+      "deliverables": ["Client program statement", "Concept plan", "Planting plan", "Hardscape details", "Lighting plan", "Irrigation plan", "Construction documents", "Photo-realistic renderings"]
+    },
+    {
+      "id": "analysis-planning",
+      "name": "Analysis & Planning",
+      "description": "Recognizes excellence in landscape planning, environmental analysis, and large-scale strategic projects.",
+      "deliverables": ["Regional context maps", "Environmental inventory", "Suitability analysis", "Stakeholder engagement summary", "Phased master plan", "Implementation strategy", "Policy recommendations", "GIS data visualizations"]
+    },
+    {
+      "id": "communications",
+      "name": "Communications",
+      "description": "Honors excellence in visual communication, graphic design, and public outreach in landscape architecture.",
+      "deliverables": ["Process documentation", "Graphic standards", "Community outreach materials", "Interactive presentations", "Digital media package", "Publication-ready layouts"]
+    },
+    {
+      "id": "research",
+      "name": "Research",
+      "description": "Recognizes significant contributions to landscape architecture knowledge through original research.",
+      "deliverables": ["Literature review", "Research methodology", "Data collection & analysis", "Findings documentation", "Design implications", "Peer-reviewed manuscript draft", "Research poster"]
+    },
+    {
+      "id": "student-community-service",
+      "name": "Student Community Service",
+      "description": "Celebrates student projects that demonstrate meaningful community engagement and service-learning in landscape architecture.",
+      "deliverables": ["Community needs assessment", "Participatory design documentation", "Stakeholder letters of support", "Design proposals", "Implementation plan", "Impact metrics", "Community presentation materials"]
+    }
+  ]
+}

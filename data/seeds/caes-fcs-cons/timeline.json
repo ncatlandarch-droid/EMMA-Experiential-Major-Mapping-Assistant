@@ -1,0 +1,244 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Introduction to consumer sciences and personal finance.",
+      "milestones": [
+        {
+          "id": "y1-fcs160",
+          "label": "Explore consumer science careers",
+          "courseRef": "FCS 160 — Intro to FCS",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Survey of FCS disciplines with emphasis on financial planning and consumer education.",
+          "skills": [
+            "Career exploration",
+            "Financial planning"
+          ]
+        },
+        {
+          "id": "y1-econ200",
+          "label": "Master microeconomics",
+          "courseRef": "ECON 200 — Microeconomics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Supply/demand, market structures, and consumer choice theory.",
+          "skills": [
+            "Microeconomics",
+            "Market analysis"
+          ]
+        },
+        {
+          "id": "y1-math111",
+          "label": "Build quantitative foundations",
+          "courseRef": "MATH 111 — College Algebra",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Math for financial calculations and investment modeling.",
+          "skills": [
+            "Algebra",
+            "Financial math"
+          ]
+        },
+        {
+          "id": "y1-acct201",
+          "label": "Study accounting",
+          "courseRef": "ACCT 201 — Principles of Accounting",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Financial accounting and personal financial statements.",
+          "skills": [
+            "Accounting",
+            "Financial statements"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Consumer economics and financial planning foundations.",
+      "milestones": [
+        {
+          "id": "y2-fcs310",
+          "label": "Study consumer economics",
+          "courseRef": "FCS 310 — Consumer Economics",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Consumer rights, protection laws, and financial literacy education.",
+          "skills": [
+            "Consumer economics",
+            "Financial literacy"
+          ]
+        },
+        {
+          "id": "y2-fcs315",
+          "label": "Master personal financial planning",
+          "courseRef": "FCS 315 — Personal Financial Planning",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Budgeting, credit management, and financial goal setting.",
+          "skills": [
+            "Financial planning",
+            "Budgeting"
+          ]
+        },
+        {
+          "id": "y2-fcs320",
+          "label": "Study family resource management",
+          "courseRef": "FCS 320 — Family Resource Management",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Household financial management across the family lifecycle.",
+          "skills": [
+            "Resource management",
+            "Family finance"
+          ]
+        },
+        {
+          "id": "y2-mgmt110",
+          "label": "Learn management",
+          "courseRef": "MGMT 110 — Principles of Management",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Management theory for financial services practice.",
+          "skills": [
+            "Management",
+            "Leadership"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "CFP Board-registered courses in all major planning domains.",
+      "milestones": [
+        {
+          "id": "y3-fcs316",
+          "label": "Master financial planning",
+          "courseRef": "FCS 316 — Financial Planning",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "CFP Board-registered: financial planning process and comprehensive plan development.",
+          "skills": [
+            "CFP planning",
+            "Financial analysis"
+          ]
+        },
+        {
+          "id": "y3-fcs317",
+          "label": "Study insurance planning",
+          "courseRef": "FCS 317 — Insurance Planning",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Life, health, disability, and liability insurance analysis.",
+          "skills": [
+            "Insurance",
+            "Risk management"
+          ]
+        },
+        {
+          "id": "y3-fcs318",
+          "label": "Master tax planning",
+          "courseRef": "FCS 318 — Tax Planning",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Federal income tax principles and tax-efficient strategies.",
+          "skills": [
+            "Tax planning",
+            "IRS regulations"
+          ]
+        },
+        {
+          "id": "y3-fcs319",
+          "label": "Study investment planning",
+          "courseRef": "FCS 319 — Investment Planning",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Portfolio management, asset allocation, and retirement planning.",
+          "skills": [
+            "Investments",
+            "Portfolio management"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Estate planning, capstone, internship, and CFP exam prep.",
+      "milestones": [
+        {
+          "id": "y4-fcs416",
+          "label": "Complete estate & retirement planning",
+          "courseRef": "FCS 416 — Estate & Retirement",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Estate documents, trusts, Social Security, and retirement distribution.",
+          "skills": [
+            "Estate planning",
+            "Retirement"
+          ]
+        },
+        {
+          "id": "y4-fcs480",
+          "label": "Complete capstone financial plan",
+          "courseRef": "FCS 480 — Capstone",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Comprehensive financial plan covering all 8 CFP knowledge domains.",
+          "skills": [
+            "Comprehensive plan",
+            "CFP domains"
+          ]
+        },
+        {
+          "id": "y4-fcs487",
+          "label": "Complete financial services internship",
+          "courseRef": "FCS 487 — Internship",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Internship at financial planning firm, bank, or investment company.",
+          "skills": [
+            "Financial services",
+            "CFP experience hours"
+          ]
+        },
+        {
+          "id": "y4-cfp",
+          "label": "Prepare for CFP exam",
+          "courseRef": "FCS 499 — CFP Exam Prep",
+          "credits": 1,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Review of all 8 CFP principal knowledge domains.",
+          "skills": [
+            "CFP exam prep",
+            "Certification"
+          ]
+        }
+      ]
+    }
+  ]
+}

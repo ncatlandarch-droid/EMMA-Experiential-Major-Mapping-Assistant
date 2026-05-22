@@ -1,0 +1,54 @@
+{
+  "validationTracks": [
+    {
+      "id": "ncdpi-bk",
+      "name": "NC B-K Teaching License",
+      "description": "NC DPI B-K licensure requirements",
+      "sections": [
+        {
+          "id": "bk-dev",
+          "name": "Developmental Knowledge",
+          "requiredMilestoneIds": [
+            "y1-psyc101",
+            "y1-fcs260",
+            "y2-fcs334",
+            "y2-fcs321"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "bk-meth",
+          "name": "Instructional Methods",
+          "requiredMilestoneIds": [
+            "y3-fcs427",
+            "y3-fcs430",
+            "y3-fcs436",
+            "y3-fcs439"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "bk-clin",
+          "name": "Clinical Practice",
+          "requiredMilestoneIds": [
+            "y4-fcs435",
+            "y4-fcs437",
+            "y4-edpr487"
+          ],
+          "totalRequired": 3
+        },
+        {
+          "id": "bk-prax",
+          "name": "Praxis & Licensure Readiness",
+          "requiredMilestoneIds": [
+            "y1-edpr102",
+            "y2-edpr210",
+            "y2-sped250",
+            "y4-fcs438"
+          ],
+          "totalRequired": 4
+        }
+      ]
+    }
+  ]
+}

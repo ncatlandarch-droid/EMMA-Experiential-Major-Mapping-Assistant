@@ -1,0 +1,39 @@
+{
+  "validationTracks": [
+    {
+      "id": "pre-vet",
+      "name": "Pre-Veterinary Readiness",
+      "description": "Core competencies required for competitive veterinary school applications — aligned with AAVMC prerequisite standards",
+      "sections": [
+        {
+          "id": "pv-bio",
+          "name": "Biological Sciences Foundation",
+          "description": "Biology, microbiology, anatomy, and physiology — foundational life sciences for veterinary medicine",
+          "requiredMilestoneIds": ["y1-biol100", "y2-biol221", "y3-lasc459", "y4-lasc460", "y4-lasc461"],
+          "totalRequired": 5
+        },
+        {
+          "id": "pv-ansc",
+          "name": "Animal Systems Knowledge",
+          "description": "Genetics, nutrition, production systems, and disease management across domestic species",
+          "requiredMilestoneIds": ["y1-ansc163", "y2-ansc214", "y2-ansc212", "y3-ansc411", "y3-ansc413", "y3-ansc451"],
+          "totalRequired": 6
+        },
+        {
+          "id": "pv-research",
+          "name": "Research & Clinical Preparation",
+          "description": "Independent research, capstone project, and professional experience demonstrating readiness for graduate-level study",
+          "requiredMilestoneIds": ["y4-ansc435", "y4-intern"],
+          "totalRequired": 2
+        },
+        {
+          "id": "pv-prof",
+          "name": "Professional Communication & Identity",
+          "description": "Medical terminology, public speaking, and career planning competencies for veterinary school applications",
+          "requiredMilestoneIds": ["y1-lasc161", "y1-lasc162", "y2-lasc261", "y2-spch250"],
+          "totalRequired": 4
+        }
+      ]
+    }
+  ]
+}

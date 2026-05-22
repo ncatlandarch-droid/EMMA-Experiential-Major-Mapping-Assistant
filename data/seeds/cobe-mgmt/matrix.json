@@ -1,0 +1,63 @@
+{
+  "validationTracks": [
+    {
+      "id": "professional-readiness",
+      "name": "Corporate Leadership Placement Metrics",
+      "description": "Non-licensure validation framework measuring career readiness, professional network development, leadership competency, and placement outcomes against the 62% full-time placement benchmark",
+      "sections": [
+        {
+          "id": "readiness-index",
+          "name": "Professional Readiness Index",
+          "description": "Composite measure of professional skills, personal branding, interview readiness, and compensation negotiation competency. Target: students demonstrate market-ready professionalism before graduation.",
+          "requiredMilestoneIds": [
+            "y1-identity-01",
+            "y2-identity-01",
+            "y3-identity-01",
+            "y3-identity-02",
+            "y4-identity-01",
+            "y4-identity-02"
+          ],
+          "totalRequired": 6
+        },
+        {
+          "id": "network-development",
+          "name": "Industry Network Development",
+          "description": "Tracks the systematic building of professional relationships including informational interviews, mentorship engagements, alumni connections, and industry event participation. Target: each student develops a documented network of 15+ industry contacts by graduation.",
+          "requiredMilestoneIds": [
+            "y1-communities-01",
+            "y2-communities-01",
+            "y2-communities-02",
+            "y3-communities-01",
+            "y4-communities-01"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "leadership-competency",
+          "name": "Leadership Competency",
+          "description": "Assesses demonstrated leadership through team projects, organizational improvement initiatives, peer mentorship, and strategic decision-making in applied settings. Aligns with AACSB learning goals for leadership effectiveness.",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-purpose-02",
+            "y2-purpose-01",
+            "y3-purpose-01",
+            "y4-purpose-01"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "career-placement",
+          "name": "Career Placement Preparation",
+          "description": "Measures progress toward the 62% full-time placement benchmark through internship completion, portfolio development, interview preparation, and career activation documentation. Tracked longitudinally across all four years.",
+          "requiredMilestoneIds": [
+            "y1-localglobal-01",
+            "y2-localglobal-01",
+            "y3-localglobal-01",
+            "y4-localglobal-01"
+          ],
+          "totalRequired": 4
+        }
+      ]
+    }
+  ]
+}

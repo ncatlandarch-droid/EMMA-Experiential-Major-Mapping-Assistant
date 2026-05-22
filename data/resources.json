@@ -1,0 +1,76 @@
+{
+  "utilityLinks": [
+    {
+      "id": "handshake-core",
+      "icon": "🤝",
+      "title": "Career Services",
+      "subtitle": "Handshake · Jobs · Internships",
+      "description": "Search internships, co-ops, and full-time positions. Schedule mock interviews and career coaching through NC A&T Career Services on Handshake.",
+      "url": "https://ncat.joinhandshake.com/",
+      "category": "Identity"
+    },
+    {
+      "id": "identity-link",
+      "icon": "👔",
+      "title": "Professional Development",
+      "subtitle": "Resume · Headshots · Attire",
+      "description": "Access professional attire through The Aggie Rack, schedule headshots, and get resume reviews through Career Services.",
+      "url": "https://www.ncat.edu/campus-life/index.php",
+      "category": "Identity"
+    },
+    {
+      "id": "civic-engagement",
+      "icon": "🏛️",
+      "title": "Leadership & Civic Engagement",
+      "subtitle": "Student Development · SGA · Greek Life",
+      "description": "Explore leadership tracks, student government, Greek letter organizations, and civic engagement programs.",
+      "url": "https://www.ncat.edu/campus-life/index.php",
+      "category": "Communities"
+    },
+    {
+      "id": "1891-registry",
+      "icon": "📋",
+      "title": "Student Organizations",
+      "subtitle": "Clubs · Societies · Honor Orgs",
+      "description": "Discover and join 200+ campus organizations. Build your experiential portfolio through cross-disciplinary engagement.",
+      "url": "https://www.ncat.edu/campus-life/index.php",
+      "category": "Communities"
+    },
+    {
+      "id": "study-abroad",
+      "icon": "✈️",
+      "title": "International Programs",
+      "subtitle": "Study Abroad · Global Exchange",
+      "description": "Explore semester-long and short-term study abroad opportunities through the Office of International Affairs.",
+      "url": "https://www.ncat.edu/academics/international-affairs/index.php",
+      "category": "LocalGlobal"
+    },
+    {
+      "id": "research",
+      "icon": "🔬",
+      "title": "Undergraduate Research",
+      "subtitle": "CUGR · Faculty Mentorship · Labs",
+      "description": "Find research opportunities, apply for undergraduate research assistantships, and connect with faculty mentors through the Center for Undergraduate Research.",
+      "url": "https://www.ncat.edu/research/index.php",
+      "category": "Purpose"
+    },
+    {
+      "id": "alumni-network",
+      "icon": "🎓",
+      "title": "Alumni Network",
+      "subtitle": "Mentorship · Networking · Legacy",
+      "description": "Connect with NC A&T alumni for mentorship, industry insights, and professional networking through the Alumni Association.",
+      "url": "https://www.ncat.edu/alumni/",
+      "category": "Communities"
+    },
+    {
+      "id": "aggie-access",
+      "icon": "📱",
+      "title": "Aggie Access",
+      "subtitle": "Banner · DegreeWorks · Registration",
+      "description": "Access your student portal for registration, degree audits, financial aid, and academic records via Aggie Access (Banner).",
+      "url": "https://aggieaccess.ncat.edu/",
+      "category": "Purpose"
+    }
+  ]
+}

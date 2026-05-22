@@ -1,0 +1,14 @@
+{
+  "validationTracks": [
+    {
+      "id": "acend", "name": "ACEND Readiness — Dietetics Pathway",
+      "description": "Accreditation Council for Education in Nutrition and Dietetics — competencies for RDN eligibility",
+      "sections": [
+        { "id": "ac-sci", "name": "Nutritional Science Foundation", "description": "Chemistry, biology, biochemistry, and advanced nutrition science", "requiredMilestoneIds": ["y1-fcs160", "y1-chem106", "y1-biol100", "y2-fcs352", "y3-fcs457"], "totalRequired": 5 },
+        { "id": "ac-clin", "name": "Clinical & Community Nutrition", "description": "Medical nutrition therapy, community assessment, and lifespan nutrition", "requiredMilestoneIds": ["y2-fcs359", "y3-fcs451", "y3-fcs458", "y4-fcs460"], "totalRequired": 4 },
+        { "id": "ac-assess", "name": "Assessment & Counseling", "description": "Nutritional assessment methods, counseling skills, and communication", "requiredMilestoneIds": ["y1-psyc101", "y2-spch250", "y3-fcs450"], "totalRequired": 3 },
+        { "id": "ac-prof", "name": "Dietetics Pathway Readiness", "description": "Research capstone, supervised practice, and professional placement", "requiredMilestoneIds": ["y4-fcs480", "y4-fcs487", "y4-fcs460"], "totalRequired": 3 }
+      ]
+    }
+  ]
+}

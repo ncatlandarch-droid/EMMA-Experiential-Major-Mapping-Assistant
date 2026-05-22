@@ -1,0 +1,54 @@
+{
+  "validationTracks": [
+    {
+      "id": "slfs",
+      "name": "Sustainable Systems Competencies",
+      "description": "Core sustainable land & food systems competencies",
+      "sections": [
+        {
+          "id": "s-land",
+          "name": "Sustainable Systems",
+          "requiredMilestoneIds": [
+            "y1-nars100",
+            "y1-nars110",
+            "y2-nars225",
+            "y2-slmg200"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "s-soil",
+          "name": "Land & Soil Management",
+          "requiredMilestoneIds": [
+            "y3-slmg350",
+            "y3-slmg400",
+            "y4-slmg450"
+          ],
+          "totalRequired": 3
+        },
+        {
+          "id": "s-food",
+          "name": "Food Production",
+          "requiredMilestoneIds": [
+            "y1-hort210",
+            "y2-hort301",
+            "y2-slmg300",
+            "y3-hort422"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "s-cap",
+          "name": "Capstone & Readiness",
+          "requiredMilestoneIds": [
+            "y3-agri400",
+            "y4-nars487",
+            "y4-intern",
+            "y4-career"
+          ],
+          "totalRequired": 4
+        }
+      ]
+    }
+  ]
+}

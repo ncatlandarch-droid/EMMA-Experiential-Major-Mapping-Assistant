@@ -1,0 +1,245 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Introduction to sustainable agriculture and natural resources.",
+      "milestones": [
+        {
+          "id": "y1-nars100",
+          "label": "Explore natural resources",
+          "courseRef": "NARS 100 — Intro to Natural Resources",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Survey of soil conservation, forestry, wildlife, and sustainable agriculture.",
+          "skills": [
+            "Natural resources",
+            "Sustainable agriculture"
+          ]
+        },
+        {
+          "id": "y1-nars110",
+          "label": "Study environmental science",
+          "courseRef": "NARS 110 — Environmental Science",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Ecological principles and biogeochemistry for land management.",
+          "skills": [
+            "Environmental science",
+            "Ecology"
+          ]
+        },
+        {
+          "id": "y1-biol100",
+          "label": "Build biology foundations",
+          "courseRef": "BIOL 100 — General Biology",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Plant biology and soil ecology for sustainable food production.",
+          "skills": [
+            "Biology",
+            "Plant science"
+          ]
+        },
+        {
+          "id": "y1-hort210",
+          "label": "Introduction to horticulture",
+          "courseRef": "HORT 210 — Principles of Horticulture",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Plant propagation, greenhouse management at NC A&T university farm.",
+          "skills": [
+            "Horticulture",
+            "Greenhouse management"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Soil management, sustainable practices, and food systems.",
+      "milestones": [
+        {
+          "id": "y2-nars225",
+          "label": "Master soil science",
+          "courseRef": "NARS 225 — Soil Science",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Soil formation, fertility, and conservation with field testing.",
+          "skills": [
+            "Soil science",
+            "Conservation"
+          ]
+        },
+        {
+          "id": "y2-slmg200",
+          "label": "Study sustainable land management",
+          "courseRef": "SLMG 200 — Sustainable Land Management",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Cover cropping, IPM, and regenerative agriculture practices.",
+          "skills": [
+            "Sustainable management",
+            "Regenerative agriculture"
+          ]
+        },
+        {
+          "id": "y2-hort301",
+          "label": "Master crop science",
+          "courseRef": "HORT 301 — Crop Science",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Crop physiology and sustainable production systems.",
+          "skills": [
+            "Crop science",
+            "Production"
+          ]
+        },
+        {
+          "id": "y2-slmg300",
+          "label": "Study food systems",
+          "courseRef": "SLMG 300 — Food Systems",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Local/global food systems, food security, and urban agriculture.",
+          "skills": [
+            "Food systems",
+            "Food security"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Advanced soil, organic agriculture, and precision ag.",
+      "milestones": [
+        {
+          "id": "y3-slmg350",
+          "label": "Advanced soil management",
+          "courseRef": "SLMG 350 — Advanced Soil Management",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Advanced soil physics, nutrient cycling, and NRCS conservation planning.",
+          "skills": [
+            "Advanced soils",
+            "NRCS tools"
+          ]
+        },
+        {
+          "id": "y3-hort422",
+          "label": "Master organic production",
+          "courseRef": "HORT 422 — Organic Agriculture",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "description": "USDA organic certification, composting, and biological pest management.",
+          "skills": [
+            "Organic certification",
+            "Composting"
+          ]
+        },
+        {
+          "id": "y3-agri400",
+          "label": "Conduct research",
+          "courseRef": "AGRI 400 — Research Methods",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Experimental design and field research methods for agriculture.",
+          "skills": [
+            "Research methods",
+            "Statistical analysis"
+          ]
+        },
+        {
+          "id": "y3-slmg400",
+          "label": "Study precision agriculture",
+          "courseRef": "SLMG 400 — Precision Agriculture",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "GPS, remote sensing, drones, and variable rate technology.",
+          "skills": [
+            "Precision ag",
+            "GPS/GIS",
+            "Drones"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Capstone, internship, and career placement.",
+      "milestones": [
+        {
+          "id": "y4-nars487",
+          "label": "Complete capstone project",
+          "courseRef": "NARS 487 — Capstone",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Independent research on sustainable land or food systems.",
+          "skills": [
+            "Capstone",
+            "Sustainability"
+          ]
+        },
+        {
+          "id": "y4-intern",
+          "label": "Complete field internship",
+          "courseRef": "SLMG 487 — Internship",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Placement at organic farm, NRCS, or food systems organization.",
+          "skills": [
+            "Field experience",
+            "Industry placement"
+          ]
+        },
+        {
+          "id": "y4-slmg450",
+          "label": "Study agroforestry",
+          "courseRef": "SLMG 450 — Agroforestry",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "description": "Trees with crops/livestock, permaculture, and carbon sequestration.",
+          "skills": [
+            "Agroforestry",
+            "Permaculture"
+          ]
+        },
+        {
+          "id": "y4-career",
+          "label": "Finalize career placement",
+          "courseRef": "NARS 499 — Professional Development",
+          "credits": 1,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Career prep for USDA, NRCS, Extension, and organic farming.",
+          "skills": [
+            "Career readiness",
+            "USDA applications"
+          ]
+        }
+      ]
+    }
+  ]
+}

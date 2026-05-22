@@ -1,0 +1,15 @@
+{
+  "validationTracks": [
+    {
+      "id": "aalas",
+      "name": "AALAS Certification Readiness",
+      "description": "American Association for Laboratory Animal Science — competencies aligned with ALAT, LAT, and LATG certification examinations",
+      "sections": [
+        { "id": "aalas-bio", "name": "Animal Biology & Husbandry", "description": "Species biology, husbandry requirements, nutrition, and housing standards for laboratory animals", "requiredMilestoneIds": ["y1-lasc162", "y1-ansc163", "y2-ansc214", "y3-lasc365"], "totalRequired": 4 },
+        { "id": "aalas-clin", "name": "Clinical & Lab Techniques", "description": "Anesthesia, surgery, sample collection, health monitoring, and clinical procedures", "requiredMilestoneIds": ["y3-lasc459", "y4-lasc453", "y4-lasc462"], "totalRequired": 3 },
+        { "id": "aalas-reg", "name": "Regulatory & Ethics Compliance", "description": "IACUC protocols, biosafety, GLP standards, and ethical frameworks for animal research", "requiredMilestoneIds": ["y3-lasc436", "y3-ansc413", "y4-lasc453"], "totalRequired": 3 },
+        { "id": "aalas-res", "name": "Research & Professional Practice", "description": "Scientific method, research presentation, and supervised professional experience", "requiredMilestoneIds": ["y2-biol221", "y4-lasc489", "y4-intern"], "totalRequired": 3 }
+      ]
+    }
+  ]
+}

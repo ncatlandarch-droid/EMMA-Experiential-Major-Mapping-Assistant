@@ -1,0 +1,246 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Introduction to fashion industry and textile science.",
+      "milestones": [
+        {
+          "id": "y1-fcs150",
+          "label": "Explore fashion industry",
+          "courseRef": "FCS 150 — Introduction to Fashion",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Survey of the global fashion industry including design, merchandising, and sustainability.",
+          "skills": [
+            "Fashion industry",
+            "Career exploration"
+          ]
+        },
+        {
+          "id": "y1-fcs155",
+          "label": "Master textiles",
+          "courseRef": "FCS 155 — Textiles",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Fiber properties, yarn construction, fabric structures, and textile testing.",
+          "skills": [
+            "Textiles",
+            "Material science"
+          ]
+        },
+        {
+          "id": "y1-art101",
+          "label": "Develop design skills",
+          "courseRef": "ART 101 — Design Fundamentals",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Color theory, composition, and visual design for fashion illustration.",
+          "skills": [
+            "Color theory",
+            "Design"
+          ]
+        },
+        {
+          "id": "y1-fcs160",
+          "label": "Build FCS foundations",
+          "courseRef": "FCS 160 — Intro to FCS",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Professional foundations, consumer behavior, and cultural identity in fashion.",
+          "skills": [
+            "FCS foundations",
+            "Consumer behavior"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Patternmaking, CAD, and merchandising develop core skills.",
+      "milestones": [
+        {
+          "id": "y2-fcs255",
+          "label": "Master flat pattern design",
+          "courseRef": "FCS 255 — Flat Pattern Design",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Pattern drafting, garment construction, and muslin prototypes.",
+          "skills": [
+            "Patternmaking",
+            "Construction"
+          ]
+        },
+        {
+          "id": "y2-fcs260",
+          "label": "Learn CAD for fashion",
+          "courseRef": "FCS 260 — CAD for Fashion",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "CLO 3D, Adobe Illustrator for technical flats and digital pattern development.",
+          "skills": [
+            "CAD",
+            "CLO 3D",
+            "Illustrator"
+          ]
+        },
+        {
+          "id": "y2-fcs270",
+          "label": "Analyze retail buying",
+          "courseRef": "FCS 270 — Retail Buying & Merchandising",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Buying mathematics, merchandise planning, and vendor negotiation.",
+          "skills": [
+            "Retail buying",
+            "Merchandise planning"
+          ]
+        },
+        {
+          "id": "y2-mktg201",
+          "label": "Study marketing",
+          "courseRef": "MKTG 201 — Principles of Marketing",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Marketing strategy, digital marketing, and brand management for fashion.",
+          "skills": [
+            "Marketing",
+            "Brand management"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Global sourcing, visual merchandising, and advanced design.",
+      "milestones": [
+        {
+          "id": "y3-fcs350",
+          "label": "Study global sourcing",
+          "courseRef": "FCS 350 — Global Sourcing",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "description": "International sourcing, trade regulations, ethical manufacturing, and sustainability.",
+          "skills": [
+            "Global sourcing",
+            "Sustainability"
+          ]
+        },
+        {
+          "id": "y3-fcs360",
+          "label": "Master visual merchandising",
+          "courseRef": "FCS 360 — Visual Merchandising",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Store design, window displays, and experiential retail environments.",
+          "skills": [
+            "Visual merchandising",
+            "Store design"
+          ]
+        },
+        {
+          "id": "y3-fcs370",
+          "label": "Complete advanced design studio",
+          "courseRef": "FCS 370 — Advanced Fashion Design",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Draping, tailoring, and collection development with tech packs.",
+          "skills": [
+            "Collection design",
+            "Draping",
+            "Tailoring"
+          ]
+        },
+        {
+          "id": "y3-fcs380",
+          "label": "Study fashion forecasting",
+          "courseRef": "FCS 380 — Fashion Forecasting",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Trend research, color forecasting, and seasonal market analysis.",
+          "skills": [
+            "Trend forecasting",
+            "Market analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Mandatory 200-hour internship and capstone collection.",
+      "milestones": [
+        {
+          "id": "y4-fcs487",
+          "label": "Complete 200-hour internship",
+          "courseRef": "FCS 487 — Internship",
+          "credits": 6,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Required 200-hour internship at a fashion company. Min 2.30 GPA required.",
+          "skills": [
+            "Industry experience",
+            "200-hour requirement"
+          ]
+        },
+        {
+          "id": "y4-fcs490",
+          "label": "Present capstone collection",
+          "courseRef": "FCS 490 — Fashion Capstone",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Design and present a cohesive fashion collection at CAES Fashion Show.",
+          "skills": [
+            "Fashion show",
+            "Collection presentation"
+          ]
+        },
+        {
+          "id": "y4-fcs475",
+          "label": "Study fashion entrepreneurship",
+          "courseRef": "FCS 475 — Fashion Entrepreneurship",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Business plans, e-commerce, and brand building for fashion startups.",
+          "skills": [
+            "Entrepreneurship",
+            "E-commerce"
+          ]
+        },
+        {
+          "id": "y4-portfolio",
+          "label": "Build professional portfolio",
+          "courseRef": "FCS 499 — Portfolio Development",
+          "credits": 1,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Portfolio curation, digital presence, and industry networking.",
+          "skills": [
+            "Portfolio",
+            "Networking"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- EMMA — Experiential Major Mapping Assistant -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="EMMA — Experiential Major Mapping Assistant. Curriculum-to-Credentials engine for NC A&T State University. Maps every experiential milestone in a student's journey." />
+  <meta name="author" content="Think! Design and Planning, LLC — W. Chris Harrison" />
+  <title>EMMA — Experiential Major Mapping Assistant | NC A&T</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+</head>
+<body class="role-student">
+
+  <!-- ══════════════════════════════════════════
+       CONFETTI CANVAS (fullscreen overlay)
+       ══════════════════════════════════════════ -->
+  <canvas id="confetti-canvas"></canvas>
+
+  <!-- ══════════════════════════════════════════
+       TOAST CONTAINER
+       ══════════════════════════════════════════ -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- ══════════════════════════════════════════
+       APP HEADER
+       ══════════════════════════════════════════ -->
+  <header class="app-header" id="app-header">
+    <div class="header-left">
+      <!-- College Badge -->
+      <div class="college-badge">
+        <span id="college-badge-icon" class="college-badge-icon">🎓</span>
+        <span id="college-badge-label" class="college-badge-label">CAES</span>
+      </div>
+
+      <!-- Brand -->
+      <div class="header-brand">
+        <h1 class="header-brand-name">EMMA</h1>
+        <span class="header-brand-tagline" id="header-brand-tagline">Experiential Major Mapping Assistant</span>
+      </div>
+    </div>
+
+    <div class="header-center">
+      <!-- Progress Bar -->
+      <div class="header-progress" id="progress-hero" title="Click for progress report">
+        <div class="header-progress-track">
+          <div class="header-progress-fill" id="header-progress-fill" style="width:0%"></div>
+        </div>
+        <span class="header-progress-label" id="header-progress-label">0 / 0</span>
+        <span class="header-progress-count" id="progress-hero-count"></span>
+      </div>
+    </div>
+
+    <div class="header-right">
+      <!-- Role Switcher -->
+      <div class="header-role-group">
+        <label class="header-role-label" for="role-select">View</label>
+        <select id="role-select" class="header-role-select">
+          <option value="student">👩‍🎓 Student</option>
+          <option value="advisor">👨‍🏫 Advisor</option>
+          <option value="admin">🔧 Admin</option>
+        </select>
+      </div>
+
+      <!-- Program Selector -->
+      <button class="header-program-btn" id="program-selector-btn">
+        <span id="canvas-selector-icon" class="program-btn-icon">🎓</span>
+        <span id="program-selector-label" class="program-btn-label">Select Program</span>
+      </button>
+
+      <!-- Export Word Form (admin only) -->
+      <button class="btn btn-accent admin-only" id="btn-export-word-form-header" title="Download the Experiential Journey Map intake form as a Word document" style="display:none;">
+        📝 Export Form
+      </button>
+
+      <!-- Settings -->
+      <button class="header-icon-btn" id="btn-settings" title="Settings">
+        ⚙️
+      </button>
+
+      <!-- Intro Video -->
+      <button class="header-icon-btn" id="btn-intro-video" title="Watch Intro">
+        🎬
+      </button>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════════
+       CAREER OUTLOOK STRIP
+       ══════════════════════════════════════════ -->
+  <div class="career-outlook-strip" id="career-outlook-strip" style="display:none;">
+    <div class="career-stat">
+      <span class="career-stat-label">Median Salary</span>
+      <span class="career-stat-value" id="outlook-salary">—</span>
+    </div>
+    <div class="career-stat">
+      <span class="career-stat-label">Job Growth</span>
+      <span class="career-stat-value" id="outlook-growth">—</span>
+    </div>
+    <div class="career-stat">
+      <span class="career-stat-label">Employment</span>
+      <span class="career-stat-value" id="outlook-employment">—</span>
+    </div>
+    <div class="career-stat">
+      <span class="career-stat-label">Field</span>
+      <span class="career-stat-value" id="outlook-field">—</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       EMMA VOICE / AVATAR BAR
+       ══════════════════════════════════════════ -->
+  <div class="emma-says-bar" id="emma-says-box">
+    <div class="emma-avatar-wrap" id="emma-avatar" title="Click to toggle voice">
+      <img src="assets/images/emma-avatar.png" alt="EMMA" class="emma-avatar-img" onerror="this.style.display='none';" />
+      <div class="emma-speaking-wave" id="emma-speaking-wave"></div>
+    </div>
+    <div class="emma-ticker-wrap">
+      <span class="emma-ticker-text" id="emma-ticker-text">Hello! I'm EMMA — your Experiential Major Mapping Assistant. Click a milestone to begin.</span>
+      <span class="emma-voice-status" id="emma-voice-status"></span>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       MAIN 3-COLUMN LAYOUT
+       ══════════════════════════════════════════ -->
+  <main class="app-main">
+
+    <!-- ── LEFT: Utility Panel ── -->
+    <aside class="utility-panel" id="utility-panel">
+      <!-- Category Legend -->
+      <div class="utility-section">
+        <h3 class="utility-section-title">Category Legend</h3>
+        <div id="category-legend-items" class="category-legend-items"></div>
+      </div>
+
+      <!-- ASLA Knowledge Areas -->
+      <div class="utility-section">
+        <h3 class="utility-section-title">ASLA Knowledge Areas</h3>
+        <div id="asla-category-list" class="asla-category-list"></div>
+      </div>
+
+      <!-- Utility Links -->
+      <div class="utility-section">
+        <h3 class="utility-section-title">Resources & Links</h3>
+        <div id="utility-links-container" class="utility-links-container"></div>
+      </div>
+
+      <!-- Resource Progress -->
+      <div class="utility-section" style="margin-top:auto; padding-top:var(--space-md); border-top:1px solid rgba(0,0,0,0.06);">
+        <span id="resource-progress-count" class="resource-progress-count"></span>
+      </div>
+    </aside>
+
+    <!-- ── CENTER: 4-Year Timeline Canvas ── -->
+    <section class="center-canvas" id="center-canvas">
+      <div class="canvas-header">
+        <div class="canvas-header-left">
+          <h2 class="canvas-title" id="canvas-title">4-Year Experiential Map</h2>
+          <p class="canvas-subtitle" id="canvas-subtitle">Loading program…</p>
+        </div>
+        <div class="canvas-header-right">
+          <button class="btn btn-outline admin-only" id="btn-export-pdf" style="display:none;">📄 Export PDF</button>
+        </div>
+      </div>
+
+      <!-- Phase Grid (rendered by matrix-renderer.js) -->
+      <div class="phase-grid" id="phase-grid">
+        <!-- Rendered by EMMA_MATRIX.render() -->
+      </div>
+    </section>
+
+    <!-- ── RIGHT: Validation Bridge ── -->
+    <aside class="validation-bridge" id="validation-bridge">
+      <div class="validation-header">
+        <div class="isla-brand-header">
+          <img src="img/isla-avatar.jpg" alt="ISLA" class="isla-brand-avatar" />
+          <div class="isla-brand-text">
+            <h2 class="validation-title" id="validation-title">ISLA</h2>
+            <span class="isla-brand-full">Interactive Study &amp; Licensure Assistant</span>
+          </div>
+        </div>
+        <p class="isla-description" id="validation-subtitle">ISLA maps your coursework to the professional exams and accreditation standards your program requires. As you complete milestones, your mastery gauges fill automatically.</p>
+      </div>
+
+      <!-- Validation Track Tabs -->
+      <div class="track-tabs" id="validation-track-tabs">
+        <!-- Tabs rendered from matrix.json validationTracks -->
+      </div>
+
+      <!-- Gauge Cards Container -->
+      <div id="gauge-cards-container">
+        <!-- Rendered by validation-renderer.js -->
+      </div>
+
+      <!-- Export Summary -->
+      <div id="validation-summary" style="margin-top:auto; padding-top:var(--space-md); border-top:1px solid rgba(0,0,0,0.06);">
+        <button class="btn btn-primary" id="btn-export-audit" style="width:100%;">
+          📋 Export Progress Audit
+        </button>
+        <button class="btn btn-primary admin-only" id="btn-export-word-form" style="width:100%; margin-top:var(--space-sm); display:none;" title="Download the Experiential Journey Map intake form as a Word document">
+          📝 Export Major Map Form (.docx)
+        </button>
+      </div>
+    </aside>
+
+  </main>
+
+  <!-- ══════════════════════════════════════════
+       MOBILE TAB BAR
+       ══════════════════════════════════════════ -->
+  <nav class="mobile-tab-bar">
+    <button class="mobile-tab-btn active" data-tab="canvas">
+      <span class="mobile-tab-icon">📋</span>
+      <span class="mobile-tab-label">Map</span>
+    </button>
+    <button class="mobile-tab-btn" data-tab="validation">
+      <span class="mobile-tab-icon">🏝️</span>
+      <span class="mobile-tab-label">ISLA</span>
+    </button>
+    <button class="mobile-tab-btn" data-tab="utility">
+      <span class="mobile-tab-icon">📚</span>
+      <span class="mobile-tab-label">Resources</span>
+    </button>
+  </nav>
+
+  <!-- ══════════════════════════════════════════
+       CHAT PANEL
+       ══════════════════════════════════════════ -->
+  <div class="chat-panel">
+    <div class="chat-messages" id="chat-messages">
+      <!-- Chat bubbles rendered by chat.js -->
+    </div>
+    <div class="chat-input-wrap">
+      <input type="text" id="chat-input" class="chat-input" placeholder="Ask EMMA anything…" autocomplete="off" />
+      <button id="chat-send-btn" class="chat-send-btn" title="Send">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2L15 22L11 13L2 9L22 2Z"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       MODALS
+       ══════════════════════════════════════════ -->
+
+  <!-- Milestone Detail Modal -->
+  <div class="modal-overlay" id="milestone-detail-modal">
+    <div class="modal-card modal-card--detail">
+      <button class="modal-close" id="detail-modal-close">✕</button>
+      <div class="modal-body" id="detail-modal-body">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Admin Edit Modal -->
+  <div class="modal-overlay" id="admin-edit-modal">
+    <div class="modal-card modal-card--admin">
+      <button class="modal-close" id="admin-edit-close">✕</button>
+      <h3 class="modal-title" id="detail-modal-title">Edit Milestone</h3>
+      <div class="admin-form">
+        <div class="admin-field">
+          <label class="admin-label">Label</label>
+          <input type="text" id="admin-label" class="admin-input" />
+        </div>
+        <div class="admin-field">
+          <label class="admin-label">Course Ref</label>
+          <input type="text" id="admin-courseRef" class="admin-input" readonly />
+        </div>
+        <div class="admin-field">
+          <label class="admin-label">Category</label>
+          <input type="text" id="admin-category" class="admin-input" readonly />
+        </div>
+        <div class="admin-field">
+          <label class="admin-label">Credits</label>
+          <input type="number" id="admin-credits" class="admin-input" />
+        </div>
+        <div class="admin-field">
+          <label class="admin-label">Semester</label>
+          <input type="text" id="admin-semester" class="admin-input" />
+        </div>
+        <div class="admin-field">
+          <label class="admin-label">Instructor</label>
+          <input type="text" id="admin-instructor" class="admin-input" />
+        </div>
+        <div class="admin-field">
+          <label class="admin-label">Description</label>
+          <textarea id="admin-description" class="admin-textarea" rows="3"></textarea>
+        </div>
+        <div class="admin-field">
+          <label class="admin-label">LAAB Standards (comma-separated)</label>
+          <input type="text" id="admin-laab" class="admin-input" />
+        </div>
+        <div class="admin-field">
+          <label class="admin-label">Skills (comma-separated)</label>
+          <input type="text" id="admin-skills" class="admin-input" />
+        </div>
+        <div class="admin-actions">
+          <button class="btn btn-primary" id="admin-save-btn">💾 Save Changes</button>
+          <button class="btn btn-outline" id="admin-cancel-btn">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Program Selector Modal -->
+  <div class="modal-overlay" id="program-modal">
+    <div class="modal-card modal-card--program">
+      <button class="modal-close" id="program-modal-close">✕</button>
+      <h3 class="modal-title">🎓 Choose Your Program</h3>
+      <div id="program-list" class="program-list">
+        <!-- Rendered by app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Settings Modal -->
+  <div class="modal-overlay" id="settings-modal">
+    <div class="modal-card modal-card--settings">
+      <button class="modal-close" id="settings-modal-close">✕</button>
+      <h3 class="modal-title">⚙️ Settings</h3>
+      <div class="settings-form">
+        <div class="admin-field">
+          <label class="admin-label">Gemini API Key</label>
+          <input type="password" id="settings-gemini-key" class="admin-input" placeholder="Enter your Gemini API key" />
+          <p class="settings-hint">Enables EMMA's AI voice coaching and chat. Your key is stored locally in your browser.</p>
+        </div>
+        <button class="btn btn-primary" id="settings-save-btn" style="width:100%; margin-top:var(--space-md);">💾 Save Settings</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Intro Modal -->
+  <div class="modal-overlay" id="intro-modal">
+    <div class="modal-card modal-card--intro">
+      <button class="modal-close" id="intro-modal-close">✕</button>
+      <h3 class="modal-title">🎬 Welcome to EMMA</h3>
+      <p class="intro-text">EMMA is your Experiential Major Mapping Assistant — she tracks every milestone in your academic journey and maps them to professional competencies.</p>
+      <video id="intro-video" class="intro-video" controls preload="none">
+        <source src="assets/video/emma-intro.mp4" type="video/mp4" />
+      </video>
+      <div class="intro-actions">
+        <label class="intro-checkbox-label">
+          <input type="checkbox" id="intro-dont-show" /> Don't show again
+        </label>
+        <button class="btn btn-accent" id="intro-get-started">Get Started →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       SCRIPTS
+       ══════════════════════════════════════════ -->
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+  <script src="js/firebase-config.js"></script>
+
+  <!-- Core modules -->
+  <script src="js/state.js"></script>
+  <script src="js/config-loader.js"></script>
+  <script src="js/live-data.js"></script>
+  <script src="js/tts.js"></script>
+  <script src="js/chat.js"></script>
+  <script src="js/confetti.js"></script>
+  <script src="js/firebase-sync.js"></script>
+
+  <!-- Renderers -->
+  <script src="js/utility-renderer.js"></script>
+  <script src="js/matrix-renderer.js"></script>
+  <script src="js/validation-renderer.js"></script>
+  <script src="js/admin.js"></script>
+  <script src="js/export.js"></script>
+
+  <!-- App orchestrator (boot) -->
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+{
+  "validationTracks": [
+    {
+      "id": "abet",
+      "name": "ABET + FE Exam — Natural Resources",
+      "description": "ABET student outcomes for environmental/natural resources engineering",
+      "sections": [
+        {
+          "id": "abet-math",
+          "name": "Mathematics & Basic Science",
+          "description": "Calculus, physics, chemistry, and biology foundations",
+          "requiredMilestoneIds": [
+            "y1-math131",
+            "y1-chem106",
+            "y2-math132",
+            "y2-phys241",
+            "y2-biol101"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "abet-core",
+          "name": "Engineering Core",
+          "description": "Graphics, transport phenomena, and engineering fundamentals",
+          "requiredMilestoneIds": [
+            "y1-geen100",
+            "y2-geen111",
+            "y3-bioe301"
+          ],
+          "totalRequired": 3
+        },
+        {
+          "id": "abet-spec",
+          "name": "Natural Resources Specialization",
+          "description": "Soil & water, water resources, and ecological engineering",
+          "requiredMilestoneIds": [
+            "y1-bioe121",
+            "y3-bioe400",
+            "y3-bioe424",
+            "y3-bioe434"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "abet-cap",
+          "name": "FE Exam & Capstone",
+          "description": "Design project and professional certification",
+          "requiredMilestoneIds": [
+            "y4-bioe495",
+            "y4-bioe496",
+            "y4-fe",
+            "y4-intern"
+          ],
+          "totalRequired": 4
+        }
+      ]
+    }
+  ]
+}
