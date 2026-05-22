@@ -21,8 +21,11 @@
 </head>
 <body class="role-student">
 
-  <canvas id="confetti-canvas"></canvas>
+  <canvas id="confetti-canvas" style="position:fixed; top:0; left:0; width:100vw; height:100vh; pointer-events:none; z-index:9999;"></canvas>
   <div id="toast-container" class="toast-container"></div>
+
+  <!-- Skip intro on fresh session -->
+  <script>localStorage.setItem('emma_hide_intro','true');</script>
 
   <div class="app-shell">
 
@@ -34,7 +37,7 @@
           <div class="header-logo-separator"></div>
           <div class="header-brand">
             <h1 class="header-brand-name"><span class="emma-letter">E</span><span class="emma-word">MMA</span></h1>
-            <span class="header-brand-tagline" id="header-brand-tagline">Experiential Major Mapping Assistant</span>
+            <span class="header-brand-tagline" id="header-brand-tagline">CURRICULUM-TO-CREDENTIALS ENGINE - NORTH CAROLINA A&amp;T STATE UNIVERSITY</span>
           </div>
         </div>
         <div class="header-right">
@@ -62,7 +65,6 @@
           <button class="header-control-btn" id="btn-intro-video" title="Watch Intro">
             <span class="control-label">Intro</span>
           </button>
-          <img src="assets/images/think-logo-white.png" alt="Think!" class="header-logo" />
         </div>
       </div>
     </header>
@@ -93,9 +95,13 @@
       <!-- LEFT: Utility Panel -->
       <aside class="utility-panel" id="utility-panel">
         <div class="utility-panel-avatar">
-          <div class="emma-avatar-ring" id="emma-avatar" title="Click to toggle voice">
-            <img src="assets/images/emma-avatar.png" alt="EMMA" class="emma-avatar-img" onerror="this.style.display='none';" />
+          <div class="emma-avatar-ring" id="emma-avatar" title="Click to toggle voice" style="width:260px; height:260px; border-radius:50%; overflow:hidden; border:4px solid rgba(0,70,132,0.5); box-shadow:0 6px 20px rgba(0,70,132,0.25); flex-shrink:0;">
+            <img src="assets/images/emma-avatar.png" alt="EMMA" class="emma-avatar-img" style="width:100%; height:100%; object-fit:cover; display:block;" onerror="this.style.display='none';" />
             <div class="emma-speaking-wave" id="emma-speaking-wave"></div>
+          </div>
+          <div style="text-align:center; margin-top:8px;">
+            <div style="font-size:1.4rem; font-weight:800; color:var(--theme-text-primary); letter-spacing:0.02em;">EMMA</div>
+            <div style="font-size:0.65rem; font-weight:600; color:var(--theme-text-secondary); text-transform:uppercase; letter-spacing:0.08em;">Experiential Major Mapping Assistant</div>
           </div>
           <div class="emma-says-box" id="emma-says-box">
             <div class="emma-says-header">
@@ -127,14 +133,15 @@
 
       <!-- CENTER: Canvas -->
       <section class="center-canvas" id="center-canvas">
-        <div class="canvas-top-bar">
-          <div class="header-progress" id="progress-hero" title="Click for progress report">
-            <div class="header-progress-track">
-              <div class="header-progress-fill" id="header-progress-fill" style="width:0%"></div>
-            </div>
-            <span class="header-progress-label" id="header-progress-label">0 / 0</span>
-            <span class="header-progress-count" id="progress-hero-count"></span>
+        <div class="progress-hero" id="progress-hero" title="Click for progress report" style="cursor:pointer;">
+          <div class="progress-hero-top">
+            <span class="progress-hero-title">Overall Progress</span>
+            <span class="progress-hero-count" id="progress-hero-count">0 / 0 items</span>
           </div>
+          <div class="progress-hero-bar-wrap">
+            <div class="progress-hero-bar-fill" id="header-progress-fill" style="width:0%"></div>
+          </div>
+          <span class="header-progress-label" id="header-progress-label" style="font-size:0.8rem; font-weight:700; color:var(--theme-primary); text-align:center;">0%</span>
         </div>
         <div class="canvas-title-row">
           <div>
