@@ -97,10 +97,9 @@
       <!-- LEFT: Utility Panel -->
       <aside class="utility-panel" id="utility-panel">
         <div class="utility-panel-avatar">
-          <div class="emma-avatar-ring" id="emma-avatar" title="Click to hear Emma speak" style="width:260px; height:260px; border-radius:50%; overflow:hidden; border:4px solid rgba(0,70,132,0.5); box-shadow:0 6px 20px rgba(0,70,132,0.25); flex-shrink:0; position:relative;">
-            <img src="assets/images/emma-avatar.png" alt="EMMA" class="emma-avatar-img" style="width:100%; height:100%; object-fit:cover; display:block;" onerror="this.style.display='none';" />
+          <div class="avatar-wrapper" id="emma-avatar" title="Click to hear Emma speak">
+            <img src="assets/images/emma-avatar.png" alt="EMMA" class="avatar-portrait" onerror="this.style.display='none';" />
             <span class="voice-badge" onclick="event.stopPropagation(); EMMA_TTS.toggleMute();" title="Toggle voice on/off">🔊</span>
-            <div class="emma-speaking-wave" id="emma-speaking-wave"></div>
           </div>
           <div style="text-align:center; margin-top:8px;">
             <div style="font-size:1.4rem; font-weight:800; color:var(--theme-text-primary); letter-spacing:0.02em;">EMMA</div>

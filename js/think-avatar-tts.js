@@ -198,30 +198,16 @@ const ThinkAvatarTTS = (() => {
 
       let data;
 
-      if (PROXY_URL) {
-        // ── Server-side proxy — API key stays on server ──
-        const response = await fetch(PROXY_URL, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ text, voice: VOICE_NAME, model: TTS_MODEL })
-        });
-
-        if (!response.ok) {
-          const errText = await response.text().catch(() => '');
-          throw new Error(`TTS proxy ${response.status}: ${errText.substring(0, 200)}`);
-        }
-
-        data = await response.json();
-      } else {
-        // ── Direct API call — requires client-side key ──
+      // Helper: direct Gemini API call using client-side key
+      async function _directApiCall() {
         const apiKey = getApiKey();
         if (!apiKey) {
-          console.log(`[${NAME} TTS] No API key and no proxy — voice disabled.`);
+          console.warn(`[${NAME} TTS] No API key — voice disabled. Set key in Settings.`);
           _setSpeaking(false);
-          return;
+          return null;
         }
-
-        const response = await fetch(
+        console.log(`[${NAME} TTS] Using direct API (key present: ${apiKey.length > 0})`);
+        const resp = await fetch(
           `https://generativelanguage.googleapis.com/v1beta/models/${TTS_MODEL}:generateContent?key=${apiKey}`,
           {
             method: 'POST',
@@ -237,13 +223,37 @@ const ThinkAvatarTTS = (() => {
             })
           }
         );
-
-        if (!response.ok) {
-          const errText = await response.text().catch(() => '');
-          throw new Error(`Gemini TTS API ${response.status}: ${errText.substring(0, 200)}`);
+        if (!resp.ok) {
+          const errText = await resp.text().catch(() => '');
+          throw new Error(`Gemini TTS API ${resp.status}: ${errText.substring(0, 200)}`);
         }
+        return await resp.json();
+      }
 
-        data = await response.json();
+      // Strategy: Try proxy first → fall back to direct API key
+      if (PROXY_URL) {
+        try {
+          console.log(`[${NAME} TTS] Trying proxy: ${PROXY_URL}`);
+          const response = await fetch(PROXY_URL, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ text, voice: VOICE_NAME, model: TTS_MODEL })
+          });
+
+          if (!response.ok) {
+            throw new Error(`Proxy returned ${response.status}`);
+          }
+
+          data = await response.json();
+          console.log(`[${NAME} TTS] Proxy succeeded`);
+        } catch (proxyErr) {
+          console.warn(`[${NAME} TTS] Proxy failed (${proxyErr.message}), falling back to direct API...`);
+          data = await _directApiCall();
+          if (!data) return; // No API key available
+        }
+      } else {
+        data = await _directApiCall();
+        if (!data) return; // No API key available
       }
 
       const audioPart = data.candidates?.[0]?.content?.parts?.find(p => p.inlineData);

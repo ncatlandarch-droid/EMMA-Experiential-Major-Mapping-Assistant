@@ -207,27 +207,10 @@ const EMMA_TTS = (() => {
       apiKeySource: () => localStorage.getItem('EMMA_GEMINI_KEY') || '',
       preRecorded: PRE_RECORDED,
       speakingClass: 'speaking',
-      onSpeakStart: () => {
-        const wave = document.getElementById('emma-speaking-wave');
-        if (wave) wave.style.display = 'flex';
-      },
-      onSpeakEnd: () => {
-        const wave = document.getElementById('emma-speaking-wave');
-        if (wave) wave.style.display = 'none';
-      },
       onMuteChanged: (muted) => {
-        const voiceStatus = document.getElementById('emma-voice-status');
-        if (voiceStatus) {
-          voiceStatus.textContent = muted ? '🔇 Voice Off' : '🔊 Voice On';
-        }
+        console.log(`[EMMA TTS] Mute changed → ${muted ? 'MUTED' : 'UNMUTED'}`);
       }
     });
-
-    // Set initial voice status
-    const voiceStatus = document.getElementById('emma-voice-status');
-    if (voiceStatus) {
-      voiceStatus.textContent = _engine.isMuted() ? '🔇 Voice Off' : '🔊 Voice On';
-    }
 
     console.log('[EMMA TTS] Initialized via ThinkAvatarTTS universal module');
   }
