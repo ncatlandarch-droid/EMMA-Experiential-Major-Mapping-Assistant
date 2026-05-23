@@ -9,15 +9,15 @@
     .container { text-align: center; max-width: 600px; }
     h1 { font-size: 2rem; margin-bottom: 8px; }
     p { color: #aaa; margin-bottom: 32px; }
-    button { padding: 16px 48px; font-size: 1.1rem; font-weight: 700; background: linear-gradient(135deg, #003366, #004488); color: #C4A000; border: 2px solid #C4A000; border-radius: 12px; cursor: pointer; transition: all 0.3s; }
-    button:hover { background: #C4A000; color: #003366; transform: scale(1.05); }
+    button { padding: 16px 48px; font-size: 1.1rem; font-weight: 700; background: linear-gradient(135deg, #004684, #005a9e); color: #FDB927; border: 2px solid #FDB927; border-radius: 12px; cursor: pointer; transition: all 0.3s; }
+    button:hover { background: #FDB927; color: #004684; transform: scale(1.05); }
     .status { margin-top: 20px; color: #4ade80; font-size: 0.9rem; }
   </style>
 </head>
 <body>
 <div class="container">
   <h1>🎓 EMMA Ecosystem Pitch Deck</h1>
-  <p>NC A&T Branded PowerPoint — 10 Slides</p>
+  <p>Official NC A&T Branded PowerPoint — 10 Slides</p>
   <button onclick="generatePPTX()">⬇️ Generate & Download .pptx</button>
   <div class="status" id="status"></div>
 </div>
@@ -28,429 +28,509 @@ function generatePPTX() {
 
   const pptx = new PptxGenJS();
   pptx.author = 'W. Chris Harrison';
-  pptx.company = 'NC A&T State University';
+  pptx.company = 'North Carolina Agricultural and Technical State University';
   pptx.title = 'EMMA Ecosystem — From Transcript to Transformation';
   pptx.subject = 'Provost Pitch — Experiential Learning Ecosystem';
+  pptx.layout = 'LAYOUT_WIDE'; // 13.33 x 7.5
 
-  // NC A&T Brand Colors
-  const BLUE = '003366';
-  const GOLD = 'C4A000';
+  // ═══════════════════════════════════════
+  // NC A&T OFFICIAL BRAND COLORS
+  // ═══════════════════════════════════════
+  const AGGIE_BLUE = '004684';
+  const AGGIE_GOLD = 'FDB927';
   const WHITE = 'FFFFFF';
-  const DARK = '0a0a1a';
+  const DARK = '0a0e1a';
   const LIGHT_BG = 'F0F4F8';
+  const DARK_BLUE = '002d56';
+  const MID_BLUE = '005a9e';
 
-  // Master layout helper
-  function addBrandBar(slide) {
-    // Top gold accent bar
-    slide.addShape(pptx.ShapeType.rect, { x: 0, y: 0, w: '100%', h: 0.08, fill: { color: GOLD } });
-    // Bottom blue bar with gold text
-    slide.addShape(pptx.ShapeType.rect, { x: 0, y: 7.0, w: '100%', h: 0.5, fill: { color: BLUE } });
-    slide.addText('NC A&T STATE UNIVERSITY  •  THINK! DESIGN & PLANNING, LLC', {
-      x: 0.5, y: 7.05, w: 9, h: 0.4,
-      fontSize: 8, color: GOLD, fontFace: 'Calibri', align: 'left', letterSpacing: 2
+  // ═══════════════════════════════════════
+  // LAYOUT HELPERS
+  // ═══════════════════════════════════════
+
+  // 74.5-degree angled accent (signature NC A&T brand element)
+  function addAngledAccent(slide, color = AGGIE_GOLD) {
+    // Gold diagonal bar — mimics A&T's 74.5° angled texture
+    slide.addShape(pptx.ShapeType.rtTriangle, {
+      x: 10.5, y: 0, w: 2.83, h: 7.5,
+      fill: { color: color, transparency: 85 },
+      rotate: 0
     });
+  }
+
+  function addBrandFooter(slide, darkMode = false) {
+    const bgColor = darkMode ? DARK_BLUE : AGGIE_BLUE;
+    slide.addShape(pptx.ShapeType.rect, { x: 0, y: 6.9, w: 13.33, h: 0.6, fill: { color: bgColor } });
+    // Gold top line on footer
+    slide.addShape(pptx.ShapeType.rect, { x: 0, y: 6.88, w: 13.33, h: 0.03, fill: { color: AGGIE_GOLD } });
+    slide.addText('NORTH CAROLINA AGRICULTURAL AND TECHNICAL STATE UNIVERSITY', {
+      x: 0.5, y: 6.95, w: 8, h: 0.4,
+      fontSize: 7.5, color: AGGIE_GOLD, fontFace: 'Calibri', align: 'left', letterSpacing: 3, bold: true
+    });
+    slide.addText('AGGIES DO.', {
+      x: 10.5, y: 6.95, w: 2.5, h: 0.4,
+      fontSize: 9, color: AGGIE_GOLD, fontFace: 'Calibri', align: 'right', bold: true, letterSpacing: 2
+    });
+  }
+
+  function addGoldTopBar(slide) {
+    slide.addShape(pptx.ShapeType.rect, { x: 0, y: 0, w: 13.33, h: 0.06, fill: { color: AGGIE_GOLD } });
   }
 
   function addSlideNumber(slide, num, total) {
-    slide.addText(`${num} / ${total}`, {
-      x: 8.5, y: 7.05, w: 1, h: 0.4,
-      fontSize: 8, color: GOLD, fontFace: 'Calibri', align: 'right'
+    slide.addText(`${num}`, {
+      x: 12.3, y: 6.95, w: 0.7, h: 0.4,
+      fontSize: 8, color: WHITE, fontFace: 'Calibri', align: 'center', transparency: 40
     });
   }
 
-  // ═══════════════════════════════════════════
+  // ═══════════════════════════════════════
   // SLIDE 1: TITLE
-  // ═══════════════════════════════════════════
+  // ═══════════════════════════════════════
   let slide = pptx.addSlide();
-  slide.background = { fill: BLUE };
-  slide.addShape(pptx.ShapeType.rect, { x: 0, y: 0, w: '100%', h: 0.1, fill: { color: GOLD } });
+  slide.background = { fill: AGGIE_BLUE };
+  addGoldTopBar(slide);
+  addAngledAccent(slide, AGGIE_GOLD);
+
+  // University name
+  slide.addText('NORTH CAROLINA A&T STATE UNIVERSITY', {
+    x: 0.8, y: 0.5, w: 10, h: 0.4,
+    fontSize: 10, fontFace: 'Calibri', color: AGGIE_GOLD, bold: true, letterSpacing: 4
+  });
+
+  slide.addShape(pptx.ShapeType.rect, { x: 0.8, y: 1.0, w: 3.5, h: 0.04, fill: { color: AGGIE_GOLD } });
 
   slide.addText('From Transcript\nto Transformation', {
-    x: 0.8, y: 1.2, w: 8.4, h: 2.5,
-    fontSize: 44, fontFace: 'Calibri Light', color: WHITE, bold: true, lineSpacingMultiple: 1.1
+    x: 0.8, y: 1.4, w: 9, h: 2.8,
+    fontSize: 48, fontFace: 'Calibri Light', color: WHITE, bold: true, lineSpacingMultiple: 1.05
   });
 
-  slide.addText('The Experiential Learning Ecosystem at NC A&T State University', {
-    x: 0.8, y: 3.5, w: 8.4, h: 0.6,
-    fontSize: 18, fontFace: 'Calibri', color: GOLD, italic: true
+  slide.addText('The Experiential Learning Ecosystem', {
+    x: 0.8, y: 4.0, w: 9, h: 0.6,
+    fontSize: 20, fontFace: 'Calibri', color: AGGIE_GOLD, italic: true
   });
 
-  slide.addShape(pptx.ShapeType.rect, { x: 0.8, y: 4.3, w: 2, h: 0.04, fill: { color: GOLD } });
+  slide.addShape(pptx.ShapeType.rect, { x: 0.8, y: 4.8, w: 2.5, h: 0.03, fill: { color: AGGIE_GOLD } });
 
-  slide.addText('W. Chris Harrison\nDepartment of Natural Resources & Environmental Design\nCollege of Agriculture & Environmental Sciences\nwcharris@ncat.edu', {
-    x: 0.8, y: 4.6, w: 8.4, h: 1.5,
-    fontSize: 13, fontFace: 'Calibri', color: WHITE, lineSpacingMultiple: 1.4, transparency: 20
+  slide.addText('W. Chris Harrison\nDepartment of Natural Resources & Environmental Design\nCollege of Agriculture & Environmental Sciences', {
+    x: 0.8, y: 5.1, w: 8, h: 1.2,
+    fontSize: 12, fontFace: 'Calibri', color: WHITE, lineSpacingMultiple: 1.5, transparency: 15
   });
 
   slide.addText('thinkemma.app', {
-    x: 0.8, y: 6.5, w: 3, h: 0.4,
-    fontSize: 14, fontFace: 'Calibri', color: GOLD, bold: true
+    x: 0.8, y: 6.3, w: 3, h: 0.4,
+    fontSize: 15, fontFace: 'Calibri', color: AGGIE_GOLD, bold: true
   });
 
-  // ═══════════════════════════════════════════
-  // SLIDE 2: THE GAP (Scene 1)
-  // ═══════════════════════════════════════════
+  // Footer
+  slide.addShape(pptx.ShapeType.rect, { x: 0, y: 6.9, w: 13.33, h: 0.6, fill: { color: DARK_BLUE } });
+  slide.addShape(pptx.ShapeType.rect, { x: 0, y: 6.88, w: 13.33, h: 0.03, fill: { color: AGGIE_GOLD } });
+  slide.addText('wcharris@ncat.edu', {
+    x: 0.8, y: 6.95, w: 5, h: 0.4,
+    fontSize: 9, color: AGGIE_GOLD, fontFace: 'Calibri', letterSpacing: 1
+  });
+
+  // ═══════════════════════════════════════
+  // SLIDE 2: THE GAP
+  // ═══════════════════════════════════════
   slide = pptx.addSlide();
   slide.background = { fill: DARK };
-  addBrandBar(slide);
+  addGoldTopBar(slide);
+  addBrandFooter(slide, true);
   addSlideNumber(slide, 1, 8);
+  addAngledAccent(slide, AGGIE_BLUE);
 
   slide.addText('THE GAP', {
-    x: 0.8, y: 0.4, w: 8.4, h: 0.7,
-    fontSize: 14, fontFace: 'Calibri', color: GOLD, bold: true, letterSpacing: 4
+    x: 0.8, y: 0.5, w: 10, h: 0.5,
+    fontSize: 12, fontFace: 'Calibri', color: AGGIE_GOLD, bold: true, letterSpacing: 5
   });
+
+  slide.addShape(pptx.ShapeType.rect, { x: 0.8, y: 1.1, w: 2, h: 0.03, fill: { color: AGGIE_GOLD } });
 
   slide.addText('"NC A&T has world-class programs\nacross nine colleges.\n\nBut no unified system to track\na student\'s experiential journey."', {
-    x: 0.8, y: 1.5, w: 8.4, h: 3,
-    fontSize: 28, fontFace: 'Calibri Light', color: WHITE, italic: true, lineSpacingMultiple: 1.3
+    x: 0.8, y: 1.5, w: 10, h: 3,
+    fontSize: 30, fontFace: 'Calibri Light', color: WHITE, italic: true, lineSpacingMultiple: 1.25
   });
 
-  slide.addText('Every college maps it differently.\nEvery advisor tracks it differently.\n\nWe built the system to fix that.', {
-    x: 0.8, y: 4.8, w: 8.4, h: 1.5,
-    fontSize: 16, fontFace: 'Calibri', color: GOLD, lineSpacingMultiple: 1.4
+  slide.addText('Every college maps it differently. Every advisor tracks it differently.', {
+    x: 0.8, y: 4.8, w: 10, h: 0.5,
+    fontSize: 14, fontFace: 'Calibri', color: WHITE, transparency: 30
   });
 
-  // ═══════════════════════════════════════════
-  // SLIDE 3: EMMA (Scene 2)
-  // ═══════════════════════════════════════════
+  // Gold accent box
+  slide.addShape(pptx.ShapeType.rect, { x: 0.8, y: 5.5, w: 8, h: 0.8, fill: { color: AGGIE_GOLD }, rectRadius: 0.05 });
+  slide.addText('We built the system to fix that.', {
+    x: 0.8, y: 5.5, w: 8, h: 0.8,
+    fontSize: 22, fontFace: 'Calibri', color: AGGIE_BLUE, bold: true, align: 'center', valign: 'middle'
+  });
+
+  // ═══════════════════════════════════════
+  // SLIDE 3: EMMA
+  // ═══════════════════════════════════════
   slide = pptx.addSlide();
   slide.background = { fill: WHITE };
-  addBrandBar(slide);
+  addGoldTopBar(slide);
+  addBrandFooter(slide);
   addSlideNumber(slide, 2, 8);
 
+  // Blue left accent bar
+  slide.addShape(pptx.ShapeType.rect, { x: 0, y: 0, w: 0.15, h: 7.5, fill: { color: AGGIE_BLUE } });
+
   slide.addText('EMMA', {
-    x: 0.8, y: 0.4, w: 2, h: 0.7,
-    fontSize: 32, fontFace: 'Calibri', color: BLUE, bold: true
+    x: 0.6, y: 0.4, w: 3, h: 0.8,
+    fontSize: 36, fontFace: 'Calibri', color: AGGIE_BLUE, bold: true
   });
   slide.addText('Experiential Major Mapping Assistant', {
-    x: 2.8, y: 0.45, w: 6, h: 0.6,
-    fontSize: 16, fontFace: 'Calibri', color: GOLD, italic: true
+    x: 3.2, y: 0.5, w: 7, h: 0.6,
+    fontSize: 16, fontFace: 'Calibri', color: AGGIE_GOLD, italic: true
   });
-  slide.addText('Curriculum-to-Credentials Engine', {
-    x: 0.8, y: 1.0, w: 8.4, h: 0.4,
-    fontSize: 12, fontFace: 'Calibri', color: '666666', letterSpacing: 2
+  slide.addText('CURRICULUM-TO-CREDENTIALS ENGINE', {
+    x: 0.6, y: 1.15, w: 10, h: 0.4,
+    fontSize: 10, fontFace: 'Calibri', color: '888888', letterSpacing: 3
   });
 
-  slide.addShape(pptx.ShapeType.rect, { x: 0.8, y: 1.5, w: 8.4, h: 0.02, fill: { color: GOLD } });
+  slide.addShape(pptx.ShapeType.rect, { x: 0.6, y: 1.6, w: 11, h: 0.02, fill: { color: AGGIE_GOLD } });
 
   const emmaPoints = [
-    { text: '✓  Maps every milestone in a student\'s 4-year experiential journey', options: { fontSize: 14, color: '1a1a2e', bullet: false, spaceBefore: 12 } },
-    { text: '✓  Real-time progress — courses, clubs, internships, capstones', options: { fontSize: 14, color: '1a1a2e', bullet: false, spaceBefore: 8 } },
-    { text: '✓  Course data locked & verified from approved curriculum submissions', options: { fontSize: 14, color: '1a1a2e', bullet: false, spaceBefore: 8 } },
-    { text: '✓  SFRIC field opportunities matched automatically from the ERP', options: { fontSize: 14, color: '1a1a2e', bullet: false, spaceBefore: 8 } },
-    { text: '✓  Three role views — Student, Advisor, Administrator', options: { fontSize: 14, color: '1a1a2e', bullet: false, spaceBefore: 8 } },
-    { text: '✓  White-label: swap one data file → works for any program, any college', options: { fontSize: 14, color: BLUE, bold: true, bullet: false, spaceBefore: 16 } },
+    { text: '✦  Maps every milestone in a student\'s 4-year experiential journey', options: { fontSize: 15, color: '1a1a2e', bullet: false, spaceBefore: 14 } },
+    { text: '✦  Real-time progress — courses, clubs, internships, capstones', options: { fontSize: 15, color: '1a1a2e', bullet: false, spaceBefore: 10 } },
+    { text: '✦  Course data locked & verified from approved curriculum submissions', options: { fontSize: 15, color: '1a1a2e', bullet: false, spaceBefore: 10 } },
+    { text: '✦  Field opportunities matched automatically from the ERP', options: { fontSize: 15, color: '1a1a2e', bullet: false, spaceBefore: 10 } },
+    { text: '✦  Three role views — Student, Advisor, Administrator', options: { fontSize: 15, color: '1a1a2e', bullet: false, spaceBefore: 10 } },
+    { text: '✦  White-label: swap one data file → any program, any college', options: { fontSize: 15, color: AGGIE_BLUE, bold: true, bullet: false, spaceBefore: 16 } },
   ];
-  slide.addText(emmaPoints, { x: 0.8, y: 1.8, w: 8.4, h: 4, fontFace: 'Calibri', lineSpacingMultiple: 1.3 });
+  slide.addText(emmaPoints, { x: 0.6, y: 1.9, w: 11, h: 4, fontFace: 'Calibri', lineSpacingMultiple: 1.2 });
 
   slide.addText('thinkemma.app', {
-    x: 0.8, y: 6.2, w: 3, h: 0.5,
-    fontSize: 16, fontFace: 'Calibri', color: BLUE, bold: true, underline: true
+    x: 0.6, y: 6.1, w: 3, h: 0.5,
+    fontSize: 16, fontFace: 'Calibri', color: AGGIE_BLUE, bold: true
   });
 
-  // ═══════════════════════════════════════════
-  // SLIDE 4: ISLA (Scene 3)
-  // ═══════════════════════════════════════════
+  // ═══════════════════════════════════════
+  // SLIDE 4: ISLA
+  // ═══════════════════════════════════════
   slide = pptx.addSlide();
   slide.background = { fill: WHITE };
-  addBrandBar(slide);
+  addGoldTopBar(slide);
+  addBrandFooter(slide);
   addSlideNumber(slide, 3, 8);
+  slide.addShape(pptx.ShapeType.rect, { x: 0, y: 0, w: 0.15, h: 7.5, fill: { color: AGGIE_BLUE } });
 
-  slide.addText('🏝️  ISLA', {
-    x: 0.8, y: 0.4, w: 3, h: 0.7,
-    fontSize: 32, fontFace: 'Calibri', color: BLUE, bold: true
+  slide.addText('ISLA', {
+    x: 0.6, y: 0.4, w: 3, h: 0.8,
+    fontSize: 36, fontFace: 'Calibri', color: AGGIE_BLUE, bold: true
   });
   slide.addText('Interactive Study & Licensure Assistant', {
-    x: 3.3, y: 0.45, w: 6, h: 0.6,
-    fontSize: 16, fontFace: 'Calibri', color: GOLD, italic: true
+    x: 2.8, y: 0.5, w: 8, h: 0.6,
+    fontSize: 16, fontFace: 'Calibri', color: AGGIE_GOLD, italic: true
   });
-  slide.addText('Universal Credentialing Engine', {
-    x: 0.8, y: 1.0, w: 8.4, h: 0.4,
-    fontSize: 12, fontFace: 'Calibri', color: '666666', letterSpacing: 2
+  slide.addText('UNIVERSAL CREDENTIALING ENGINE', {
+    x: 0.6, y: 1.15, w: 10, h: 0.4,
+    fontSize: 10, fontFace: 'Calibri', color: '888888', letterSpacing: 3
   });
 
-  slide.addShape(pptx.ShapeType.rect, { x: 0.8, y: 1.5, w: 8.4, h: 0.02, fill: { color: GOLD } });
+  slide.addShape(pptx.ShapeType.rect, { x: 0.6, y: 1.6, w: 11, h: 0.02, fill: { color: AGGIE_GOLD } });
 
   const islaPoints = [
-    { text: '✓  Tracks whether students have MASTERED each domain — not just enrolled', options: { fontSize: 14, color: '1a1a2e', bullet: false, spaceBefore: 12 } },
-    { text: '✓  Gauges update automatically as milestones are completed in EMMA', options: { fontSize: 14, color: '1a1a2e', bullet: false, spaceBefore: 8 } },
-    { text: '✓  Exam standards & accreditation requirements pulled from the ERP', options: { fontSize: 14, color: '1a1a2e', bullet: false, spaceBefore: 8 } },
-    { text: '✓  Verified mastery writes back to the ERP as permanent record', options: { fontSize: 14, color: '1a1a2e', bullet: false, spaceBefore: 8 } },
-    { text: '✓  Adapts to EVERY professional exam:', options: { fontSize: 14, color: '1a1a2e', bullet: false, spaceBefore: 8 } },
-    { text: '       LARE  •  NCLEX  •  FE  •  CPA  •  Praxis  •  Any Exam', options: { fontSize: 13, color: BLUE, bold: true, bullet: false, spaceBefore: 4 } },
+    { text: '✦  Tracks whether students have MASTERED each domain — not just enrolled', options: { fontSize: 15, color: '1a1a2e', bullet: false, spaceBefore: 14 } },
+    { text: '✦  Gauges update automatically as milestones are completed in EMMA', options: { fontSize: 15, color: '1a1a2e', bullet: false, spaceBefore: 10 } },
+    { text: '✦  Exam standards & accreditation requirements pulled from the ERP', options: { fontSize: 15, color: '1a1a2e', bullet: false, spaceBefore: 10 } },
+    { text: '✦  Verified mastery writes back to the ERP as permanent record', options: { fontSize: 15, color: '1a1a2e', bullet: false, spaceBefore: 10 } },
+    { text: '✦  Adapts to EVERY professional exam:', options: { fontSize: 15, color: '1a1a2e', bullet: false, spaceBefore: 10 } },
+    { text: '       LARE  •  NCLEX  •  FE  •  CPA  •  Praxis  •  Any Exam', options: { fontSize: 14, color: AGGIE_BLUE, bold: true, bullet: false, spaceBefore: 4 } },
   ];
-  slide.addText(islaPoints, { x: 0.8, y: 1.8, w: 8.4, h: 3.5, fontFace: 'Calibri', lineSpacingMultiple: 1.3 });
+  slide.addText(islaPoints, { x: 0.6, y: 1.9, w: 11, h: 3.5, fontFace: 'Calibri', lineSpacingMultiple: 1.2 });
 
-  slide.addShape(pptx.ShapeType.rect, { x: 1.5, y: 5.5, w: 7, h: 1.0, fill: { color: LIGHT_BG }, rectRadius: 0.1 });
+  // Quote box
+  slide.addShape(pptx.ShapeType.rect, { x: 1.5, y: 5.5, w: 9, h: 1.0, fill: { color: AGGIE_BLUE }, rectRadius: 0.08 });
   slide.addText('"Mastery is expressed, not assumed."', {
-    x: 1.5, y: 5.5, w: 7, h: 1.0,
-    fontSize: 20, fontFace: 'Calibri', color: BLUE, bold: true, italic: true, align: 'center', valign: 'middle'
+    x: 1.5, y: 5.5, w: 9, h: 1.0,
+    fontSize: 22, fontFace: 'Calibri', color: AGGIE_GOLD, bold: true, italic: true, align: 'center', valign: 'middle'
   });
 
-  // ═══════════════════════════════════════════
-  // SLIDE 5: THE ERP (Scene 4)
-  // ═══════════════════════════════════════════
+  // ═══════════════════════════════════════
+  // SLIDE 5: THE ERP
+  // ═══════════════════════════════════════
   slide = pptx.addSlide();
-  slide.background = { fill: BLUE };
-  slide.addShape(pptx.ShapeType.rect, { x: 0, y: 0, w: '100%', h: 0.08, fill: { color: GOLD } });
-  slide.addShape(pptx.ShapeType.rect, { x: 0, y: 7.0, w: '100%', h: 0.5, fill: { color: '002244' } });
-  slide.addText('NC A&T STATE UNIVERSITY  •  SAFE  •  SECURE  •  ALREADY IN PLACE', {
-    x: 0.5, y: 7.05, w: 9.5, h: 0.4,
-    fontSize: 8, color: GOLD, fontFace: 'Calibri', align: 'center', letterSpacing: 3
+  slide.background = { fill: AGGIE_BLUE };
+  addGoldTopBar(slide);
+  addAngledAccent(slide, DARK_BLUE);
+
+  // Footer
+  slide.addShape(pptx.ShapeType.rect, { x: 0, y: 6.9, w: 13.33, h: 0.6, fill: { color: DARK_BLUE } });
+  slide.addShape(pptx.ShapeType.rect, { x: 0, y: 6.88, w: 13.33, h: 0.03, fill: { color: AGGIE_GOLD } });
+  slide.addText('SAFE  •  SECURE  •  ALREADY IN PLACE', {
+    x: 0.5, y: 6.95, w: 12, h: 0.4,
+    fontSize: 9, color: AGGIE_GOLD, fontFace: 'Calibri', align: 'center', letterSpacing: 4, bold: true
   });
 
   slide.addText('THE ERP', {
-    x: 0.8, y: 0.4, w: 8.4, h: 0.7,
-    fontSize: 14, fontFace: 'Calibri', color: GOLD, bold: true, letterSpacing: 4
-  });
-  slide.addText('Enterprise Resource Planning System', {
-    x: 0.8, y: 0.9, w: 8.4, h: 0.5,
-    fontSize: 22, fontFace: 'Calibri Light', color: WHITE
-  });
-  slide.addText('The Institutional Backbone', {
-    x: 0.8, y: 1.3, w: 8.4, h: 0.4,
-    fontSize: 14, fontFace: 'Calibri', color: GOLD, italic: true
+    x: 0.8, y: 0.4, w: 10, h: 0.5,
+    fontSize: 12, fontFace: 'Calibri', color: AGGIE_GOLD, bold: true, letterSpacing: 5
   });
 
-  slide.addShape(pptx.ShapeType.rect, { x: 0.8, y: 1.9, w: 8.4, h: 0.02, fill: { color: GOLD } });
+  slide.addShape(pptx.ShapeType.rect, { x: 0.8, y: 1.0, w: 3, h: 0.03, fill: { color: AGGIE_GOLD } });
+
+  slide.addText('Enterprise Resource\nPlanning System', {
+    x: 0.8, y: 1.2, w: 10, h: 1.2,
+    fontSize: 32, fontFace: 'Calibri Light', color: WHITE, lineSpacingMultiple: 1.1
+  });
+  slide.addText('THE INSTITUTIONAL BACKBONE', {
+    x: 0.8, y: 2.3, w: 10, h: 0.4,
+    fontSize: 11, fontFace: 'Calibri', color: AGGIE_GOLD, letterSpacing: 3, bold: true
+  });
 
   slide.addText('A digital library that feeds its information\nto every app — and every app writes back.', {
-    x: 0.8, y: 2.1, w: 8.4, h: 1.2,
-    fontSize: 20, fontFace: 'Calibri Light', color: WHITE, italic: true, lineSpacingMultiple: 1.3
+    x: 0.8, y: 2.9, w: 10, h: 0.9,
+    fontSize: 17, fontFace: 'Calibri', color: WHITE, italic: true, lineSpacingMultiple: 1.4, transparency: 10
   });
 
-  // What the ERP holds
-  const erpHolds = [
-    '📄  Publications',
-    '👤  Personnel Profiles',
-    '📋  Project Records',
-    '📦  Resource Collections',
-    '📐  Professional Exam Standards',
-    '🏛️  All University Operational Data',
-  ];
-  erpHolds.forEach((item, i) => {
+  // What the ERP holds — left column
+  const erpItems = ['📄 Publications', '👤 Personnel Profiles', '📋 Project Records', '📦 Resource Collections', '📐 Exam Standards', '🏛️ All University Data'];
+  erpItems.forEach((item, i) => {
     slide.addText(item, {
-      x: 0.8, y: 3.4 + (i * 0.38), w: 4, h: 0.36,
+      x: 0.8, y: 4.0 + (i * 0.4), w: 4.5, h: 0.38,
       fontSize: 13, fontFace: 'Calibri', color: WHITE
     });
   });
 
-  // Bidirectional flow
+  // Bidirectional flow — right column
+  slide.addShape(pptx.ShapeType.rect, { x: 6.5, y: 3.8, w: 5.5, h: 0.45, fill: { color: AGGIE_GOLD }, rectRadius: 0.05 });
+  slide.addText('READS ←  ERP  → WRITES', {
+    x: 6.5, y: 3.8, w: 5.5, h: 0.45,
+    fontSize: 11, fontFace: 'Calibri', color: AGGIE_BLUE, bold: true, align: 'center', valign: 'middle', letterSpacing: 2
+  });
+
   const flows = [
-    { app: 'EMMA', reads: 'Milestones & courses', writes: 'Student progress' },
-    { app: 'ISLA', reads: 'Exam standards', writes: 'Verified mastery' },
-    { app: 'AVA', reads: 'Site data', writes: 'Design layers' },
-    { app: 'GRANT', reads: 'Project records', writes: 'Funded proposals' },
+    { app: 'EMMA', reads: '← Milestones & courses', writes: 'Student progress →' },
+    { app: 'ISLA', reads: '← Exam standards', writes: 'Verified mastery →' },
+    { app: 'AVA', reads: '← Site data', writes: 'Design layers →' },
+    { app: 'GRANT', reads: '← Project records', writes: 'Funded proposals →' },
   ];
 
-  slide.addText('READS ←  ERP  → WRITES', {
-    x: 5.2, y: 3.2, w: 4.3, h: 0.4,
-    fontSize: 10, fontFace: 'Calibri', color: GOLD, bold: true, align: 'center', letterSpacing: 2
-  });
-  
   flows.forEach((f, i) => {
-    const y = 3.7 + (i * 0.55);
-    slide.addShape(pptx.ShapeType.rect, { x: 5.2, y: y, w: 4.3, h: 0.45, fill: { color: '004488' }, rectRadius: 0.05 });
-    slide.addText(`${f.app}`, { x: 5.3, y: y, w: 0.9, h: 0.45, fontSize: 11, fontFace: 'Calibri', color: GOLD, bold: true, valign: 'middle' });
-    slide.addText(`← ${f.reads}`, { x: 6.2, y: y, w: 1.6, h: 0.45, fontSize: 9, fontFace: 'Calibri', color: WHITE, valign: 'middle' });
-    slide.addText(`${f.writes} →`, { x: 7.8, y: y, w: 1.6, h: 0.45, fontSize: 9, fontFace: 'Calibri', color: WHITE, valign: 'middle', align: 'right' });
+    const y = 4.4 + (i * 0.55);
+    slide.addShape(pptx.ShapeType.rect, { x: 6.5, y: y, w: 5.5, h: 0.45, fill: { color: MID_BLUE }, rectRadius: 0.05 });
+    slide.addText(f.app, { x: 6.6, y: y, w: 1.0, h: 0.45, fontSize: 12, fontFace: 'Calibri', color: AGGIE_GOLD, bold: true, valign: 'middle' });
+    slide.addText(f.reads, { x: 7.6, y: y, w: 2.2, h: 0.45, fontSize: 10, fontFace: 'Calibri', color: WHITE, valign: 'middle' });
+    slide.addText(f.writes, { x: 9.8, y: y, w: 2.1, h: 0.45, fontSize: 10, fontFace: 'Calibri', color: WHITE, valign: 'middle', align: 'right' });
   });
 
-  // ═══════════════════════════════════════════
-  // SLIDE 6: ATCS (Scene 4 continued)
-  // ═══════════════════════════════════════════
+  // ═══════════════════════════════════════
+  // SLIDE 6: ATCS
+  // ═══════════════════════════════════════
   slide = pptx.addSlide();
   slide.background = { fill: WHITE };
-  addBrandBar(slide);
+  addGoldTopBar(slide);
+  addBrandFooter(slide);
   addSlideNumber(slide, 4, 8);
+  slide.addShape(pptx.ShapeType.rect, { x: 0, y: 0, w: 0.15, h: 7.5, fill: { color: AGGIE_BLUE } });
 
   slide.addText('ATCS', {
-    x: 0.8, y: 0.4, w: 3, h: 0.7,
-    fontSize: 32, fontFace: 'Calibri', color: BLUE, bold: true
+    x: 0.6, y: 0.4, w: 3, h: 0.8,
+    fontSize: 36, fontFace: 'Calibri', color: AGGIE_BLUE, bold: true
   });
   slide.addText('Agriculture, Technology & Community Studio', {
-    x: 0.8, y: 1.0, w: 8.4, h: 0.5,
-    fontSize: 16, fontFace: 'Calibri', color: GOLD, italic: true
+    x: 0.6, y: 1.1, w: 10, h: 0.5,
+    fontSize: 16, fontFace: 'Calibri', color: AGGIE_GOLD, italic: true
   });
-  slide.addText('Within the Small Farm Research & Innovation Center', {
-    x: 0.8, y: 1.5, w: 8.4, h: 0.4,
-    fontSize: 12, fontFace: 'Calibri', color: '666666', letterSpacing: 1
+  slide.addText('WITHIN THE SMALL FARM RESEARCH & INNOVATION CENTER', {
+    x: 0.6, y: 1.6, w: 10, h: 0.4,
+    fontSize: 10, fontFace: 'Calibri', color: '888888', letterSpacing: 2
   });
 
-  slide.addShape(pptx.ShapeType.rect, { x: 0.8, y: 2.1, w: 8.4, h: 0.02, fill: { color: GOLD } });
+  slide.addShape(pptx.ShapeType.rect, { x: 0.6, y: 2.1, w: 11, h: 0.02, fill: { color: AGGIE_GOLD } });
 
   slide.addText('Opens the farm to every college.', {
-    x: 0.8, y: 2.4, w: 8.4, h: 0.6,
-    fontSize: 20, fontFace: 'Calibri Light', color: BLUE, italic: true
+    x: 0.6, y: 2.3, w: 10, h: 0.6,
+    fontSize: 22, fontFace: 'Calibri Light', color: AGGIE_BLUE, italic: true
   });
 
   const atcsItems = [
     { emoji: '⚙️', college: 'Engineering', action: 'students survey the land' },
-    { emoji: '📊', college: 'Business', action: 'students model the economics' },
+    { emoji: '📊', college: 'Business & Economics', action: 'students model the economics' },
     { emoji: '🎨', college: 'Design', action: 'students visualize the future' },
-    { emoji: '🌱', college: 'Agriculture', action: 'students cultivate innovation' },
-    { emoji: '💻', college: 'Science & Tech', action: 'students build the systems' },
+    { emoji: '🌱', college: 'Agriculture & Env. Sciences', action: 'students cultivate innovation' },
+    { emoji: '💻', college: 'Science & Technology', action: 'students build the systems' },
+    { emoji: '🏥', college: 'Health & Human Sciences', action: 'students assess wellness impact' },
     { emoji: '🤝', college: 'Community', action: 'gains the wealth' },
   ];
 
   atcsItems.forEach((item, i) => {
-    const y = 3.2 + (i * 0.55);
-    slide.addShape(pptx.ShapeType.rect, { x: 0.8, y: y, w: 8.4, h: 0.45, fill: { color: i % 2 === 0 ? LIGHT_BG : WHITE }, rectRadius: 0.05 });
-    slide.addText(`${item.emoji}  ${item.college}`, { x: 1.0, y: y, w: 3, h: 0.45, fontSize: 14, fontFace: 'Calibri', color: BLUE, bold: true, valign: 'middle' });
-    slide.addText(item.action, { x: 4.2, y: y, w: 4.8, h: 0.45, fontSize: 14, fontFace: 'Calibri', color: '444444', valign: 'middle' });
+    const y = 3.0 + (i * 0.5);
+    slide.addShape(pptx.ShapeType.rect, { x: 0.6, y: y, w: 11, h: 0.42, fill: { color: i % 2 === 0 ? LIGHT_BG : WHITE }, rectRadius: 0.05 });
+    slide.addText(`${item.emoji}  ${item.college}`, { x: 0.8, y: y, w: 4.5, h: 0.42, fontSize: 14, fontFace: 'Calibri', color: AGGIE_BLUE, bold: true, valign: 'middle' });
+    slide.addText(item.action, { x: 5.5, y: y, w: 5.5, h: 0.42, fontSize: 14, fontFace: 'Calibri', color: '444444', valign: 'middle' });
   });
 
-  // ═══════════════════════════════════════════
-  // SLIDE 7: AVA (Scene 5)
-  // ═══════════════════════════════════════════
+  // ═══════════════════════════════════════
+  // SLIDE 7: AVA
+  // ═══════════════════════════════════════
   slide = pptx.addSlide();
   slide.background = { fill: WHITE };
-  addBrandBar(slide);
+  addGoldTopBar(slide);
+  addBrandFooter(slide);
   addSlideNumber(slide, 5, 8);
+  slide.addShape(pptx.ShapeType.rect, { x: 0, y: 0, w: 0.15, h: 7.5, fill: { color: AGGIE_BLUE } });
 
-  slide.addText('🔭  AVA', {
-    x: 0.8, y: 0.4, w: 3, h: 0.7,
-    fontSize: 32, fontFace: 'Calibri', color: BLUE, bold: true
+  slide.addText('AVA', {
+    x: 0.6, y: 0.4, w: 3, h: 0.8,
+    fontSize: 36, fontFace: 'Calibri', color: AGGIE_BLUE, bold: true
   });
   slide.addText('Aggie Virtual Architect', {
-    x: 3.3, y: 0.45, w: 6, h: 0.6,
-    fontSize: 16, fontFace: 'Calibri', color: GOLD, italic: true
+    x: 2.7, y: 0.5, w: 7, h: 0.6,
+    fontSize: 16, fontFace: 'Calibri', color: AGGIE_GOLD, italic: true
   });
-  slide.addText('Digital Twin & Visualization Engine', {
-    x: 0.8, y: 1.0, w: 8.4, h: 0.4,
-    fontSize: 12, fontFace: 'Calibri', color: '666666', letterSpacing: 2
+  slide.addText('DIGITAL TWIN & VISUALIZATION ENGINE', {
+    x: 0.6, y: 1.15, w: 10, h: 0.4,
+    fontSize: 10, fontFace: 'Calibri', color: '888888', letterSpacing: 3
   });
 
-  slide.addShape(pptx.ShapeType.rect, { x: 0.8, y: 1.5, w: 8.4, h: 0.02, fill: { color: GOLD } });
+  slide.addShape(pptx.ShapeType.rect, { x: 0.6, y: 1.6, w: 11, h: 0.02, fill: { color: AGGIE_GOLD } });
 
   const avaPoints = [
-    { text: '✓  Where student work becomes VISIBLE', options: { fontSize: 14, color: '1a1a2e', bullet: false, spaceBefore: 12 } },
-    { text: '✓  Digital twin powered by AI + geospatial data', options: { fontSize: 14, color: '1a1a2e', bullet: false, spaceBefore: 8 } },
-    { text: '✓  Student designs become permanent layers', options: { fontSize: 14, color: '1a1a2e', bullet: false, spaceBefore: 8 } },
-    { text: '✓  Portfolio that lives beyond graduation', options: { fontSize: 14, color: '1a1a2e', bullet: false, spaceBefore: 8 } },
-    { text: '✓  Reads site data from ERP — writes design layers back', options: { fontSize: 14, color: '1a1a2e', bullet: false, spaceBefore: 8 } },
+    { text: '✦  Where student work becomes VISIBLE', options: { fontSize: 15, color: '1a1a2e', bullet: false, spaceBefore: 14 } },
+    { text: '✦  Digital twin powered by AI + geospatial data', options: { fontSize: 15, color: '1a1a2e', bullet: false, spaceBefore: 10 } },
+    { text: '✦  Student designs become permanent layers in the digital twin', options: { fontSize: 15, color: '1a1a2e', bullet: false, spaceBefore: 10 } },
+    { text: '✦  Portfolio that lives beyond graduation', options: { fontSize: 15, color: '1a1a2e', bullet: false, spaceBefore: 10 } },
+    { text: '✦  Reads site data from ERP — writes design layers back', options: { fontSize: 15, color: '1a1a2e', bullet: false, spaceBefore: 10 } },
   ];
-  slide.addText(avaPoints, { x: 0.8, y: 1.8, w: 8.4, h: 3, fontFace: 'Calibri', lineSpacingMultiple: 1.3 });
+  slide.addText(avaPoints, { x: 0.6, y: 1.9, w: 11, h: 3, fontFace: 'Calibri', lineSpacingMultiple: 1.2 });
 
-  // ═══════════════════════════════════════════
-  // SLIDE 8: GRANT (Scene 6)
-  // ═══════════════════════════════════════════
+  // ═══════════════════════════════════════
+  // SLIDE 8: GRANT
+  // ═══════════════════════════════════════
   slide = pptx.addSlide();
   slide.background = { fill: WHITE };
-  addBrandBar(slide);
+  addGoldTopBar(slide);
+  addBrandFooter(slide);
   addSlideNumber(slide, 6, 8);
+  slide.addShape(pptx.ShapeType.rect, { x: 0, y: 0, w: 0.15, h: 7.5, fill: { color: AGGIE_BLUE } });
 
-  slide.addText('💰  GRANT', {
-    x: 0.8, y: 0.4, w: 4, h: 0.7,
-    fontSize: 32, fontFace: 'Calibri', color: BLUE, bold: true
+  slide.addText('GRANT', {
+    x: 0.6, y: 0.4, w: 4, h: 0.8,
+    fontSize: 36, fontFace: 'Calibri', color: AGGIE_BLUE, bold: true
   });
   slide.addText('Grant Research & Award Navigation Technology', {
-    x: 0.8, y: 1.0, w: 8.4, h: 0.5,
-    fontSize: 16, fontFace: 'Calibri', color: GOLD, italic: true
+    x: 0.6, y: 1.1, w: 10, h: 0.5,
+    fontSize: 16, fontFace: 'Calibri', color: AGGIE_GOLD, italic: true
   });
-  slide.addText('Funding Lifecycle Management', {
-    x: 0.8, y: 1.45, w: 8.4, h: 0.4,
-    fontSize: 12, fontFace: 'Calibri', color: '666666', letterSpacing: 2
+  slide.addText('FUNDING LIFECYCLE MANAGEMENT', {
+    x: 0.6, y: 1.55, w: 10, h: 0.4,
+    fontSize: 10, fontFace: 'Calibri', color: '888888', letterSpacing: 3
   });
 
-  slide.addShape(pptx.ShapeType.rect, { x: 0.8, y: 1.9, w: 8.4, h: 0.02, fill: { color: GOLD } });
+  slide.addShape(pptx.ShapeType.rect, { x: 0.6, y: 2.0, w: 11, h: 0.02, fill: { color: AGGIE_GOLD } });
 
   const grantPoints = [
-    { text: '✓  AI-powered grant lifecycle — from idea to award', options: { fontSize: 14, color: '1a1a2e', bullet: false, spaceBefore: 12 } },
-    { text: '✓  Guided NOI wizard for faculty submissions', options: { fontSize: 14, color: '1a1a2e', bullet: false, spaceBefore: 8 } },
-    { text: '✓  AI drafts, refines, and tracks every stage', options: { fontSize: 14, color: '1a1a2e', bullet: false, spaceBefore: 8 } },
-    { text: '✓  Funded projects write back to ERP — safe, secure, always up to date', options: { fontSize: 14, color: '1a1a2e', bullet: false, spaceBefore: 8 } },
-    { text: '✓  Site-based projects flow into EMMA as student field opportunities', options: { fontSize: 14, color: '1a1a2e', bullet: false, spaceBefore: 8 } },
+    { text: '✦  AI-powered grant lifecycle — from idea to award', options: { fontSize: 15, color: '1a1a2e', bullet: false, spaceBefore: 14 } },
+    { text: '✦  Guided NOI wizard for faculty submissions', options: { fontSize: 15, color: '1a1a2e', bullet: false, spaceBefore: 10 } },
+    { text: '✦  AI drafts, refines, and tracks every stage', options: { fontSize: 15, color: '1a1a2e', bullet: false, spaceBefore: 10 } },
+    { text: '✦  Funded projects write back to ERP — safe, secure, always up to date', options: { fontSize: 15, color: '1a1a2e', bullet: false, spaceBefore: 10 } },
+    { text: '✦  Site-based projects flow into EMMA as student field opportunities', options: { fontSize: 15, color: '1a1a2e', bullet: false, spaceBefore: 10 } },
   ];
-  slide.addText(grantPoints, { x: 0.8, y: 2.1, w: 8.4, h: 3, fontFace: 'Calibri', lineSpacingMultiple: 1.3 });
+  slide.addText(grantPoints, { x: 0.6, y: 2.2, w: 11, h: 3, fontFace: 'Calibri', lineSpacingMultiple: 1.2 });
 
-  slide.addShape(pptx.ShapeType.rect, { x: 1.5, y: 5.5, w: 7, h: 1.0, fill: { color: LIGHT_BG }, rectRadius: 0.1 });
+  // Quote box
+  slide.addShape(pptx.ShapeType.rect, { x: 1.5, y: 5.5, w: 9, h: 1.0, fill: { color: AGGIE_BLUE }, rectRadius: 0.08 });
   slide.addText('"Faculty fund it. Students build it."', {
-    x: 1.5, y: 5.5, w: 7, h: 1.0,
-    fontSize: 20, fontFace: 'Calibri', color: BLUE, bold: true, italic: true, align: 'center', valign: 'middle'
+    x: 1.5, y: 5.5, w: 9, h: 1.0,
+    fontSize: 22, fontFace: 'Calibri', color: AGGIE_GOLD, bold: true, italic: true, align: 'center', valign: 'middle'
   });
 
-  // ═══════════════════════════════════════════
-  // SLIDE 9: THE LOOP (Scene 7)
-  // ═══════════════════════════════════════════
+  // ═══════════════════════════════════════
+  // SLIDE 9: THE LOOP
+  // ═══════════════════════════════════════
   slide = pptx.addSlide();
   slide.background = { fill: DARK };
-  slide.addShape(pptx.ShapeType.rect, { x: 0, y: 0, w: '100%', h: 0.08, fill: { color: GOLD } });
+  addGoldTopBar(slide);
+  addAngledAccent(slide, AGGIE_BLUE);
 
   slide.addText('THE LOOP', {
-    x: 0.8, y: 0.4, w: 8.4, h: 0.7,
-    fontSize: 14, fontFace: 'Calibri', color: GOLD, bold: true, letterSpacing: 4
+    x: 0.8, y: 0.4, w: 10, h: 0.5,
+    fontSize: 12, fontFace: 'Calibri', color: AGGIE_GOLD, bold: true, letterSpacing: 5
   });
 
+  slide.addShape(pptx.ShapeType.rect, { x: 0.8, y: 1.0, w: 2, h: 0.03, fill: { color: AGGIE_GOLD } });
+
   const loopLines = [
-    { text: 'GRANT secures the funding.', color: GOLD },
-    { text: 'The ERP organizes everything — safe and secure.', color: WHITE },
-    { text: 'EMMA reads from it. Writes back to it.', color: WHITE },
-    { text: 'ISLA reads standards from it. Writes mastery back.', color: WHITE },
-    { text: 'AVA visualizes the work. Writes back to it.', color: WHITE },
-    { text: 'GRANT funds the projects. Writes back to it.', color: WHITE },
-    { text: 'Community gains long-term wealth.', color: GOLD },
+    { text: 'GRANT secures the funding.', color: AGGIE_GOLD, bold: true },
+    { text: 'The ERP organizes everything — safe and secure.', color: WHITE, bold: false },
+    { text: 'EMMA reads from it. Writes back to it.', color: WHITE, bold: false },
+    { text: 'ISLA reads standards from it. Writes mastery back.', color: WHITE, bold: false },
+    { text: 'AVA visualizes the work. Writes back to it.', color: WHITE, bold: false },
+    { text: 'GRANT funds the projects. Writes back to it.', color: WHITE, bold: false },
+    { text: 'Community gains long-term wealth.', color: AGGIE_GOLD, bold: true },
   ];
 
   loopLines.forEach((line, i) => {
     slide.addText(line.text, {
-      x: 1.5, y: 1.5 + (i * 0.65), w: 7, h: 0.55,
-      fontSize: 18, fontFace: 'Calibri Light', color: line.color, lineSpacingMultiple: 1.2
+      x: 1.2, y: 1.5 + (i * 0.7), w: 9, h: 0.6,
+      fontSize: 20, fontFace: 'Calibri Light', color: line.color, bold: line.bold
     });
   });
 
-  slide.addShape(pptx.ShapeType.rect, { x: 1.5, y: 6.2, w: 7, h: 0.02, fill: { color: GOLD } });
+  // Bottom quote
+  slide.addShape(pptx.ShapeType.rect, { x: 0, y: 6.9, w: 13.33, h: 0.6, fill: { color: AGGIE_BLUE } });
+  slide.addShape(pptx.ShapeType.rect, { x: 0, y: 6.88, w: 13.33, h: 0.03, fill: { color: AGGIE_GOLD } });
   slide.addText('"Faculty fund it. Students build it. Community benefits. That\'s the loop."', {
-    x: 1.0, y: 6.3, w: 8, h: 0.6,
-    fontSize: 14, fontFace: 'Calibri', color: GOLD, italic: true, align: 'center'
+    x: 0.5, y: 6.93, w: 12, h: 0.5,
+    fontSize: 12, fontFace: 'Calibri', color: AGGIE_GOLD, italic: true, align: 'center'
   });
 
-  // ═══════════════════════════════════════════
-  // SLIDE 10: THE ASK (Scene 8)
-  // ═══════════════════════════════════════════
+  // ═══════════════════════════════════════
+  // SLIDE 10: THE ASK
+  // ═══════════════════════════════════════
   slide = pptx.addSlide();
-  slide.background = { fill: BLUE };
-  slide.addShape(pptx.ShapeType.rect, { x: 0, y: 0, w: '100%', h: 0.1, fill: { color: GOLD } });
+  slide.background = { fill: AGGIE_BLUE };
+  addGoldTopBar(slide);
+  addAngledAccent(slide, DARK_BLUE);
 
   slide.addText('We built this for you.', {
-    x: 0.8, y: 1.0, w: 8.4, h: 1.0,
-    fontSize: 36, fontFace: 'Calibri Light', color: WHITE, bold: true
+    x: 0.8, y: 0.8, w: 10, h: 1.0,
+    fontSize: 40, fontFace: 'Calibri Light', color: WHITE, bold: true
   });
 
   slide.addText('The links are live. Click, explore, play.\nEverything you just saw is working right now.', {
-    x: 0.8, y: 2.0, w: 8.4, h: 1.0,
-    fontSize: 16, fontFace: 'Calibri', color: WHITE, transparency: 20, lineSpacingMultiple: 1.4
+    x: 0.8, y: 1.8, w: 10, h: 1.0,
+    fontSize: 16, fontFace: 'Calibri', color: WHITE, transparency: 15, lineSpacingMultiple: 1.5
   });
 
-  slide.addShape(pptx.ShapeType.rect, { x: 0.8, y: 3.2, w: 8.4, h: 0.02, fill: { color: GOLD } });
+  slide.addShape(pptx.ShapeType.rect, { x: 0.8, y: 3.1, w: 10, h: 0.03, fill: { color: AGGIE_GOLD } });
 
   const links = [
     { emoji: '🗺️', name: 'EMMA', desc: 'Journey Mapping', url: 'thinkemma.app' },
-    { emoji: '🏝️', name: 'ISLA', desc: 'Licensure & Mastery', url: '[live link]' },
-    { emoji: '🔭', name: 'AVA', desc: 'Visualization', url: '[live link]' },
-    { emoji: '💰', name: 'GRANT', desc: 'Funding Pipeline', url: '[live link]' },
+    { emoji: '🏝️', name: 'ISLA', desc: 'Licensure & Mastery', url: 'larelab.app' },
+    { emoji: '🔭', name: 'AVA', desc: 'Digital Twin', url: 'ava3-digital-twin.netlify.app' },
+    { emoji: '💰', name: 'GRANT', desc: 'Funding Pipeline', url: 'thinkgranted.app' },
   ];
 
   links.forEach((link, i) => {
-    const y = 3.5 + (i * 0.55);
-    slide.addText(`${link.emoji}  ${link.name}`, { x: 1.0, y: y, w: 2, h: 0.5, fontSize: 16, fontFace: 'Calibri', color: GOLD, bold: true, valign: 'middle' });
-    slide.addText(link.desc, { x: 3.2, y: y, w: 3, h: 0.5, fontSize: 13, fontFace: 'Calibri', color: WHITE, transparency: 20, valign: 'middle' });
-    slide.addText(link.url, { x: 6.5, y: y, w: 3, h: 0.5, fontSize: 13, fontFace: 'Calibri', color: WHITE, valign: 'middle', align: 'right' });
+    const y = 3.4 + (i * 0.6);
+    slide.addShape(pptx.ShapeType.rect, { x: 0.8, y: y, w: 10, h: 0.5, fill: { color: MID_BLUE }, rectRadius: 0.05 });
+    slide.addText(`${link.emoji}  ${link.name}`, { x: 1.0, y: y, w: 2.5, h: 0.5, fontSize: 17, fontFace: 'Calibri', color: AGGIE_GOLD, bold: true, valign: 'middle' });
+    slide.addText(link.desc, { x: 3.5, y: y, w: 4, h: 0.5, fontSize: 13, fontFace: 'Calibri', color: WHITE, transparency: 15, valign: 'middle' });
+    slide.addText(link.url, { x: 7.5, y: y, w: 3, h: 0.5, fontSize: 13, fontFace: 'Calibri', color: WHITE, valign: 'middle', align: 'right' });
   });
 
-  slide.addShape(pptx.ShapeType.rect, { x: 0.8, y: 5.8, w: 8.4, h: 0.02, fill: { color: GOLD } });
+  slide.addShape(pptx.ShapeType.rect, { x: 0.8, y: 5.8, w: 10, h: 0.03, fill: { color: AGGIE_GOLD } });
 
   slide.addText('Our question is simple:\nIs this useful? How can we improve to better serve you?', {
-    x: 0.8, y: 5.9, w: 8.4, h: 0.8,
-    fontSize: 15, fontFace: 'Calibri', color: GOLD, italic: true, lineSpacingMultiple: 1.3
+    x: 0.8, y: 5.9, w: 10, h: 0.7,
+    fontSize: 15, fontFace: 'Calibri', color: AGGIE_GOLD, italic: true, lineSpacingMultiple: 1.4
   });
 
-  slide.addText('W. Chris Harrison  •  wcharris@ncat.edu\nDepartment of Natural Resources & Environmental Design\nCollege of Agriculture & Environmental Sciences  •  NC A&T State University', {
-    x: 0.5, y: 6.7, w: 9, h: 0.8,
-    fontSize: 9, fontFace: 'Calibri', color: WHITE, transparency: 30, align: 'center', lineSpacingMultiple: 1.3
+  // Footer
+  slide.addShape(pptx.ShapeType.rect, { x: 0, y: 6.9, w: 13.33, h: 0.6, fill: { color: DARK_BLUE } });
+  slide.addShape(pptx.ShapeType.rect, { x: 0, y: 6.88, w: 13.33, h: 0.03, fill: { color: AGGIE_GOLD } });
+  slide.addText('W. Chris Harrison  •  wcharris@ncat.edu  •  Department of Natural Resources & Environmental Design  •  CAES  •  NC A&T', {
+    x: 0.5, y: 6.93, w: 12, h: 0.5,
+    fontSize: 8, fontFace: 'Calibri', color: AGGIE_GOLD, align: 'center', letterSpacing: 1
   });
 
-  // Generate and download
+  // ═══════════════════════════════════════
+  // GENERATE
+  // ═══════════════════════════════════════
   pptx.writeFile({ fileName: 'EMMA_Ecosystem_Provost_Pitch_NCAT.pptx' })
     .then(() => {
       document.getElementById('status').textContent = '✅ Downloaded! Check your Downloads folder.';
