@@ -1,22 +1,29 @@
 /**
- * Think! Avatar TTS — Universal Speaking Engine v1.0
+ * Think! Avatar TTS — Universal Speaking Engine v1.1
  * ═══════════════════════════════════════════════════
  * Drop-in Gemini Neural TTS module for any Think! Design project.
- * Proven across: AVA (Kore), Tia TM (Sulafat), EMMA (Aoede), GRANT (Gacrux)
+ * Proven across: AVA (Kore), Tia TM (Sulafat), EMMA (Kore), GRANT (Gacrux)
+ *
+ * v1.1 Changes:
+ *   - Added `proxyUrl` config — routes TTS through server proxy (no client-side API key)
+ *   - Kept `apiKeySource` as fallback for local dev / direct API calls
+ *   - Pre-recorded WAV files are project-specific via `preRecorded` map
  *
  * Usage:
  *   const avatar = ThinkAvatarTTS.create({
- *     name: 'EMMA',
+ *     name: 'AVA',
  *     voice: 'Kore',
- *     avatarId: 'emma-avatar',
- *     apiKeySource: () => localStorage.getItem('EMMA_GEMINI_KEY') || '',
+ *     avatarId: 'ava-avatar',
+ *     proxyUrl: '/.netlify/functions/gemini-tts-proxy',   // Server-side key
+ *     apiKeySource: () => localStorage.getItem('key'),    // Fallback only
+ *     preRecorded: { 'welcome': 'assets/audio/en-welcome.wav' },
  *     speakingClass: 'speaking',
  *     onSpeakStart: () => {},
  *     onSpeakEnd: () => {},
- *     onTextGenerated: (text) => {}   // hook for posting to chat panels
+ *     onMuteChanged: (muted) => {}
  *   });
  *
- *   avatar.speak('Hello world');       // Live Gemini TTS
+ *   avatar.speak('Hello world');       // Live Gemini TTS via proxy
  *   avatar.speak('welcome');           // Pre-recorded WAV lookup
  *   avatar.toggleMute();               // Toggle with UI update
  *   avatar.stop();                     // Stop + clear queue
@@ -45,6 +52,7 @@ const ThinkAvatarTTS = (() => {
     const AVATAR_ID = config.avatarId || null;
     const SPEAKING_CLASS = config.speakingClass || 'speaking';
     const MUTE_STORAGE_KEY = config.muteKey || `${NAME.toLowerCase()}_tts_muted`;
+    const PROXY_URL = config.proxyUrl || null;
     const getApiKey = config.apiKeySource || (() => '');
 
     // ── Callbacks ──
@@ -71,7 +79,7 @@ const ThinkAvatarTTS = (() => {
     function init() {
       _isMuted = localStorage.getItem(MUTE_STORAGE_KEY) === 'true';
       _updateAvatarState();
-      console.log(`[${NAME} TTS] Initialized — Voice: ${VOICE_NAME}, Muted: ${_isMuted}`);
+      console.log(`[${NAME} TTS] Initialized — Voice: ${VOICE_NAME}, Muted: ${_isMuted}, Proxy: ${PROXY_URL ? 'YES' : 'direct'}`);
     }
 
     // ═══════════════════════════════════════
@@ -81,25 +89,20 @@ const ThinkAvatarTTS = (() => {
     /**
      * Queue text for playback.
      * @param {string} textOrKey - Pre-recorded key OR raw text
-     * @param {object} opts - { coachingKey: string }
+     * @param {object} opts - { coachingKey: string, fallbackText: string }
      */
     function speak(textOrKey, opts = {}) {
-      console.log(`[${NAME} TTS Engine] speak() called — muted=${_isMuted}, text="${String(textOrKey).substring(0,50)}..."`);
-      if (_isMuted) {
-        console.log(`[${NAME} TTS Engine] BLOCKED — muted`);
-        return;
-      }
+      if (_isMuted) return;
 
       // Stop current speech to prevent talking over herself
       if (_isSpeaking) stop();
 
       _queue.push({
         key: textOrKey,
-        text: textOrKey,
+        text: opts.fallbackText || textOrKey,
         coachingKey: opts.coachingKey || null
       });
 
-      console.log(`[${NAME} TTS Engine] Queued. Queue length=${_queue.length}, processing=${_processing}`);
       if (!_processing) _processQueue();
     }
 
@@ -110,29 +113,25 @@ const ThinkAvatarTTS = (() => {
     async function _processQueue() {
       if (_processing || _queue.length === 0) return;
       _processing = true;
-      console.log(`[${NAME} TTS Engine] Processing queue...`);
 
       while (_queue.length > 0) {
         const item = _queue.shift();
         try {
           // 1. Try pre-recorded WAV
           if (_preRecorded[item.key]) {
-            console.log(`[${NAME} TTS Engine] Trying pre-recorded: ${item.key}`);
             try {
               await _playFile(_preRecorded[item.key]);
               continue;
             } catch (e) {
-              console.log(`[${NAME} TTS Engine] Pre-recorded not found: "${item.key}", trying live...`);
+              console.log(`[${NAME} TTS] Pre-recorded not found: "${item.key}", trying live...`);
             }
           }
 
           // 2. Fallback: Live Gemini Neural TTS
-          console.log(`[${NAME} TTS Engine] Calling Gemini TTS API...`);
           await _generateLiveAudio(item.text);
-          console.log(`[${NAME} TTS Engine] Gemini TTS complete.`);
 
         } catch (err) {
-          console.error(`[${NAME} TTS Engine] Playback FAILED:`, err.message, err);
+          console.warn(`[${NAME} TTS] Playback failed, skipping:`, err.message);
           _setSpeaking(false);
         }
       }
@@ -188,45 +187,65 @@ const ThinkAvatarTTS = (() => {
     }
 
     // ═══════════════════════════════════════
-    // LIVE GEMINI TTS — API call + PCM→WAV
+    // LIVE GEMINI TTS — Proxy or Direct API
     // ═══════════════════════════════════════
 
     async function _generateLiveAudio(text) {
-      const apiKey = getApiKey();
-      console.log(`[${NAME} TTS Engine] API key present: ${!!apiKey} (len=${apiKey.length})`);
-      if (!apiKey) {
-        console.log(`[${NAME} TTS Engine] No API key — voice disabled.`);
-        return;
-      }
-
       const audioCtx = _getAudioContext();
       if (audioCtx.state === 'suspended') await audioCtx.resume();
 
       _setSpeaking(true);
 
-      const response = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/${TTS_MODEL}:generateContent?key=${apiKey}`,
-        {
+      let data;
+
+      if (PROXY_URL) {
+        // ── Server-side proxy — API key stays on server ──
+        const response = await fetch(PROXY_URL, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            contents: [{ parts: [{ text }] }],
-            generationConfig: {
-              responseModalities: ['AUDIO'],
-              speechConfig: {
-                voiceConfig: { prebuiltVoiceConfig: { voiceName: VOICE_NAME } }
-              }
-            }
-          })
-        }
-      );
+          body: JSON.stringify({ text, voice: VOICE_NAME, model: TTS_MODEL })
+        });
 
-      if (!response.ok) {
-        const errText = await response.text().catch(() => '');
-        throw new Error(`Gemini TTS API ${response.status}: ${errText.substring(0, 200)}`);
+        if (!response.ok) {
+          const errText = await response.text().catch(() => '');
+          throw new Error(`TTS proxy ${response.status}: ${errText.substring(0, 200)}`);
+        }
+
+        data = await response.json();
+      } else {
+        // ── Direct API call — requires client-side key ──
+        const apiKey = getApiKey();
+        if (!apiKey) {
+          console.log(`[${NAME} TTS] No API key and no proxy — voice disabled.`);
+          _setSpeaking(false);
+          return;
+        }
+
+        const response = await fetch(
+          `https://generativelanguage.googleapis.com/v1beta/models/${TTS_MODEL}:generateContent?key=${apiKey}`,
+          {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              contents: [{ parts: [{ text }] }],
+              generationConfig: {
+                responseModalities: ['AUDIO'],
+                speechConfig: {
+                  voiceConfig: { prebuiltVoiceConfig: { voiceName: VOICE_NAME } }
+                }
+              }
+            })
+          }
+        );
+
+        if (!response.ok) {
+          const errText = await response.text().catch(() => '');
+          throw new Error(`Gemini TTS API ${response.status}: ${errText.substring(0, 200)}`);
+        }
+
+        data = await response.json();
       }
 
-      const data = await response.json();
       const audioPart = data.candidates?.[0]?.content?.parts?.find(p => p.inlineData);
 
       if (!audioPart?.inlineData) {
@@ -369,7 +388,7 @@ const ThinkAvatarTTS = (() => {
     // ═══════════════════════════════════════
 
     /**
-     * Register pre-recorded WAV files.
+     * Register additional pre-recorded WAV files.
      * @param {object} map - { key: 'path/to/file.wav', ... }
      */
     function registerPreRecorded(map) {
@@ -451,4 +470,4 @@ const ThinkAvatarTTS = (() => {
 
 })();
 
-console.log('[Think! Avatar TTS] Universal module loaded v1.0');
+console.log('[Think! Avatar TTS] Universal module loaded v1.1 (proxy support)');

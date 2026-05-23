@@ -203,6 +203,7 @@ const EMMA_TTS = (() => {
       voice: 'Kore',
       avatarId: 'emma-avatar',
       muteKey: 'emma_tts_muted',
+      proxyUrl: '/.netlify/functions/gemini-tts-proxy',
       apiKeySource: () => localStorage.getItem('EMMA_GEMINI_KEY') || '',
       preRecorded: PRE_RECORDED,
       speakingClass: 'speaking',
