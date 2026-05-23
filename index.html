@@ -24,6 +24,8 @@
   <canvas id="confetti-canvas" style="position:fixed; top:0; left:0; width:100vw; height:100vh; pointer-events:none; z-index:9999;"></canvas>
   <div id="toast-container" class="toast-container"></div>
 
+  <!-- Pre-load Gemini API key for chat + TTS -->
+  <script>if(!localStorage.getItem('EMMA_GEMINI_KEY'))localStorage.setItem('EMMA_GEMINI_KEY','AIzaSyC2SYzTKuWqbXZ_YmZpn0yb6j6qvQyrnuc');</script>
 
 
   <div class="app-shell">
@@ -50,9 +52,9 @@
           </button>
           <div class="header-control-btn">
             <select id="role-select" class="header-role-select" style="background:transparent; border:none; color:white; font-size:10px; cursor:pointer;">
-              <option value="student">Student</option>
-              <option value="advisor">Advisor</option>
-              <option value="admin">Admin</option>
+              <option value="student" style="color:#333; background:#fff;">Student</option>
+              <option value="advisor" style="color:#333; background:#fff;">Advisor</option>
+              <option value="admin" style="color:#333; background:#fff;">Admin</option>
             </select>
           </div>
           <button class="header-control-btn admin-only" id="btn-export-word-form-header" title="Export Journey Map Form">
