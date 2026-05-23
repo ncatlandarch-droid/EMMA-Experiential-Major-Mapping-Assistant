@@ -84,7 +84,11 @@ const ThinkAvatarTTS = (() => {
      * @param {object} opts - { coachingKey: string }
      */
     function speak(textOrKey, opts = {}) {
-      if (_isMuted) return;
+      console.log(`[${NAME} TTS Engine] speak() called — muted=${_isMuted}, text="${String(textOrKey).substring(0,50)}..."`);
+      if (_isMuted) {
+        console.log(`[${NAME} TTS Engine] BLOCKED — muted`);
+        return;
+      }
 
       // Stop current speech to prevent talking over herself
       if (_isSpeaking) stop();
@@ -95,6 +99,7 @@ const ThinkAvatarTTS = (() => {
         coachingKey: opts.coachingKey || null
       });
 
+      console.log(`[${NAME} TTS Engine] Queued. Queue length=${_queue.length}, processing=${_processing}`);
       if (!_processing) _processQueue();
     }
 
@@ -105,25 +110,29 @@ const ThinkAvatarTTS = (() => {
     async function _processQueue() {
       if (_processing || _queue.length === 0) return;
       _processing = true;
+      console.log(`[${NAME} TTS Engine] Processing queue...`);
 
       while (_queue.length > 0) {
         const item = _queue.shift();
         try {
           // 1. Try pre-recorded WAV
           if (_preRecorded[item.key]) {
+            console.log(`[${NAME} TTS Engine] Trying pre-recorded: ${item.key}`);
             try {
               await _playFile(_preRecorded[item.key]);
               continue;
             } catch (e) {
-              console.log(`[${NAME} TTS] Pre-recorded not found: "${item.key}", trying live...`);
+              console.log(`[${NAME} TTS Engine] Pre-recorded not found: "${item.key}", trying live...`);
             }
           }
 
           // 2. Fallback: Live Gemini Neural TTS
+          console.log(`[${NAME} TTS Engine] Calling Gemini TTS API...`);
           await _generateLiveAudio(item.text);
+          console.log(`[${NAME} TTS Engine] Gemini TTS complete.`);
 
         } catch (err) {
-          console.warn(`[${NAME} TTS] Playback failed, skipping:`, err.message);
+          console.error(`[${NAME} TTS Engine] Playback FAILED:`, err.message, err);
           _setSpeaking(false);
         }
       }
@@ -184,8 +193,9 @@ const ThinkAvatarTTS = (() => {
 
     async function _generateLiveAudio(text) {
       const apiKey = getApiKey();
+      console.log(`[${NAME} TTS Engine] API key present: ${!!apiKey} (len=${apiKey.length})`);
       if (!apiKey) {
-        console.log(`[${NAME} TTS] No API key — voice disabled.`);
+        console.log(`[${NAME} TTS Engine] No API key — voice disabled.`);
         return;
       }
 
