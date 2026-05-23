@@ -105,12 +105,26 @@ const EMMA_APP = (() => {
     document.getElementById('btn-export-word-form')?.addEventListener('click', () => EMMA_EXPORT.exportWordForm());
     document.getElementById('btn-export-word-form-header')?.addEventListener('click', () => EMMA_EXPORT.exportWordForm());
 
-    // ── Voice Toggle / Stop (click Emma avatar) ──
+    // ── Avatar Click: Speak / Stop (universal pattern) ──
     const avatar = document.getElementById('emma-avatar');
-    avatar?.addEventListener('click', () => {
-      EMMA_TTS.toggleMute();
-      const muted = EMMA_TTS.isMuted();
-      EMMA_MATRIX.showToast(muted ? '🔇 Voice muted' : '🔊 Voice enabled', 'success');
+    avatar?.addEventListener('click', (e) => {
+      // If the voice badge was clicked, let it handle mute/unmute (stopPropagation)
+      if (e.target.classList.contains('voice-badge')) return;
+
+      // If speaking → stop
+      if (EMMA_TTS.isMuted() === false && EMMA_TTS.stop && document.querySelector('#emma-avatar.speaking')) {
+        EMMA_TTS.stop();
+        EMMA_MATRIX.showToast('Emma stopped', 'info');
+        return;
+      }
+
+      // Unmute if muted (clicking avatar = user wants to hear her)
+      if (EMMA_TTS.isMuted()) {
+        EMMA_TTS.toggleMute();
+      }
+
+      // Speak contextual welcome
+      EMMA_TTS.speak('welcome');
     });
 
     // ── Progress Bar Click → Emma Progress Report ──
