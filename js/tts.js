@@ -1,23 +1,17 @@
 /**
  * EMMA C2C — TTS Engine (Gemini Neural)
- * Emma's voice coaching using the proven AVA/Tia pattern from gemini-tts-engine skill:
- * speak(key) → hasPreRecording(key)? → playFile() → fallback: generateLiveAudio()
- * Voice: Aoede (calm female, soothing)
+ * Now powered by ThinkAvatarTTS universal module.
+ * EMMA-specific: coaching logic, milestone insights, progress reports.
+ * Audio engine: ThinkAvatarTTS handles queue, PCM→WAV, Web Audio, speaking ring.
+ * Voice: Kore (warm female, natural)
  *
  * NO browser speechSynthesis — robotic voices degrade UX.
  * If Gemini API fails, skip silently.
  */
 
 const EMMA_TTS = (() => {
-  let _isMuted = false;
-  let _isSpeaking = false;
-  let _audioContext = null;
-  let _currentSource = null;
-  let _queue = [];
-  let _processing = false;
-
-  const TTS_MODEL = 'gemini-2.5-flash-preview-tts';
-  const VOICE_NAME = 'Kore';
+  // ── Audio Engine (universal module) ──
+  let _engine = null;
 
   // Pre-recorded coaching keys (WAV files in assets/audio/)
   const PRE_RECORDED = {
@@ -197,55 +191,66 @@ const EMMA_TTS = (() => {
   // ── Public API ─────────────────────────────────────────────
 
   /**
-   * Initialize the TTS engine.
+   * Initialize the TTS engine using ThinkAvatarTTS universal module.
    */
   function init() {
-    // Defer AudioContext creation until first user interaction
-    // (Chrome autoplay policy requires user gesture)
-    _isMuted = localStorage.getItem('emma_tts_muted') === 'true';
+    // Inject speaking ring CSS
+    ThinkAvatarTTS.injectSpeakingCSS('#003366');
 
-    // Avatar click is handled by app.js wireEvents()
+    // Create the engine instance
+    _engine = ThinkAvatarTTS.create({
+      name: 'EMMA',
+      voice: 'Kore',
+      avatarId: 'emma-avatar',
+      muteKey: 'emma_tts_muted',
+      apiKeySource: () => localStorage.getItem('EMMA_GEMINI_KEY') || '',
+      preRecorded: PRE_RECORDED,
+      speakingClass: 'speaking',
+      onSpeakStart: () => {
+        const wave = document.getElementById('emma-speaking-wave');
+        if (wave) wave.style.display = 'flex';
+      },
+      onSpeakEnd: () => {
+        const wave = document.getElementById('emma-speaking-wave');
+        if (wave) wave.style.display = 'none';
+      },
+      onMuteChanged: (muted) => {
+        const voiceStatus = document.getElementById('emma-voice-status');
+        if (voiceStatus) {
+          voiceStatus.textContent = muted ? '🔇 Voice Off' : '🔊 Voice On';
+        }
+      }
+    });
 
-    // Update badge to reflect stored mute state
-    updateBadge();
-
-    // Set initial voice status in Emma Says box
+    // Set initial voice status
     const voiceStatus = document.getElementById('emma-voice-status');
     if (voiceStatus) {
-      voiceStatus.textContent = _isMuted ? '🔇 Voice Off' : '🔊 Voice On';
+      voiceStatus.textContent = _engine.isMuted() ? '🔇 Voice Off' : '🔊 Voice On';
     }
 
-    console.log(`[EMMA TTS] Initialized — Voice: ${VOICE_NAME}, Muted: ${_isMuted}`);
+    console.log('[EMMA TTS] Initialized via ThinkAvatarTTS universal module');
   }
 
   /**
    * Toggle mute state. Avatar click handler.
    */
   function toggleMute() {
-    // If she's currently speaking, just stop her (don't toggle mute)
-    if (_isSpeaking) {
-      stop();
+    if (!_engine) return false;
+
+    // If speaking, stop instead of toggling
+    if (_engine.isSpeaking()) {
+      _engine.stop();
       postToChat('(Emma stopped)');
-      return _isMuted;
+      return _engine.isMuted();
     }
 
-    // Otherwise toggle mute state
-    _isMuted = !_isMuted;
-    localStorage.setItem('emma_tts_muted', _isMuted);
-    updateBadge();
+    const muted = _engine.toggleMute();
 
-    // Update the "Emma Says" voice status badge
-    const voiceStatus = document.getElementById('emma-voice-status');
-    if (voiceStatus) {
-      voiceStatus.textContent = _isMuted ? '🔇 Voice Off' : '🔊 Voice On';
-    }
-
-    if (!_isMuted) {
+    if (!muted) {
       speak('welcome');
     }
 
-    console.log(`[EMMA TTS] ${_isMuted ? 'Muted' : 'Unmuted'}`);
-    return _isMuted;
+    return muted;
   }
 
   /**
@@ -265,15 +270,10 @@ const EMMA_TTS = (() => {
     // Always post to chat (unless already posted by caller)
     if (!opts.skipChat) postToChat(text);
 
-    if (_isMuted) return;
+    if (!_engine || _engine.isMuted()) return;
 
-    // Stop current speech to prevent talking over herself
-    if (_isSpeaking) {
-      stop();
-    }
-
-    _queue.push({ key: textOrKey, text, coachingKey: opts.coachingKey || null });
-    if (!_processing) processQueue();
+    // Delegate audio to universal engine
+    _engine.speak(text, { coachingKey: opts.coachingKey || null });
   }
 
   /**
@@ -404,33 +404,28 @@ const EMMA_TTS = (() => {
 
     // Progress reports are always live (not pre-recorded)
     postToChat(report);
-    if (!_isMuted) speak(report, { skipChat: true });
+    if (_engine && !_engine.isMuted()) speak(report, { skipChat: true });
   }
 
   /**
    * Stop current speech + clear queue.
    */
   function stop() {
-    _queue = [];
-    _processing = false;
-    if (_currentSource) {
-      try { _currentSource.stop(); } catch (e) {}
-      _currentSource = null;
-    }
-    setSpeaking(false);
+    if (_engine) _engine.stop();
   }
 
   /**
    * Check mute state.
    */
   function isMuted() {
-    return _isMuted;
+    return _engine ? _engine.isMuted() : true;
   }
 
   // ── Internal ───────────────────────────────────────────────
 
   /**
    * Load pre-recorded coaching manifest for current program.
+   * Registers files with the universal engine.
    */
   async function loadCoachingManifest(programSlug) {
     try {
@@ -441,248 +436,16 @@ const EMMA_TTS = (() => {
         return;
       }
       const manifest = await resp.json();
-      PRE_RECORDED_COACHING = {};
+      const map = {};
       manifest.forEach(entry => {
-        PRE_RECORDED_COACHING[entry.id] = entry.path;
+        map[entry.id] = entry.path;
       });
+      // Register with universal engine
+      if (_engine) _engine.registerPreRecorded(map);
       _coachingLoaded = true;
       console.log(`[EMMA TTS] Loaded ${manifest.length} pre-recorded coaching files for ${programSlug}`);
     } catch (e) {
       console.log('[EMMA TTS] Coaching manifest load failed:', e.message);
-    }
-  }
-
-  /**
-   * Process items in the queue one at a time.
-   * 3-tier lookup: (1) generic pre-recorded → (2) coaching pre-recorded → (3) live Gemini TTS
-   */
-  async function processQueue() {
-    if (_processing || _queue.length === 0) return;
-    _processing = true;
-
-    while (_queue.length > 0) {
-      const item = _queue.shift();
-      try {
-        // 1. Try generic pre-recorded WAV first (welcome, etc.)
-        if (PRE_RECORDED[item.key]) {
-          try {
-            await playFile(PRE_RECORDED[item.key]);
-            continue;
-          } catch (e) {
-            console.log(`[EMMA TTS] Pre-recorded not found for "${item.key}", trying coaching...`);
-          }
-        }
-
-        // 2. Try per-milestone coaching pre-recorded WAV
-        const coachingKey = item.coachingKey;
-        if (coachingKey && PRE_RECORDED_COACHING[coachingKey]) {
-          try {
-            await playFile(PRE_RECORDED_COACHING[coachingKey]);
-            continue;
-          } catch (e) {
-            console.log(`[EMMA TTS] Coaching file not found for "${coachingKey}", trying live...`);
-          }
-        }
-
-        // 3. Fallback: Gemini Neural TTS (uses API tokens)
-        await generateLiveAudio(item.text);
-
-      } catch (err) {
-        // Skill says: "If API fails, skip silently."
-        console.warn('[EMMA TTS] Playback failed, skipping:', err.message);
-        setSpeaking(false);
-      }
-    }
-
-    _processing = false;
-  }
-
-  /**
-   * Get or create AudioContext (deferred until user interaction).
-   */
-  function getAudioContext() {
-    if (!_audioContext || _audioContext.state === 'closed') {
-      _audioContext = new (window.AudioContext || window.webkitAudioContext)();
-    }
-    return _audioContext;
-  }
-
-  /**
-   * Get the Gemini API key — stored in localStorage via Settings.
-   */
-  function getApiKey() {
-    return localStorage.getItem('EMMA_GEMINI_KEY') || '';
-  }
-
-  /**
-   * Play a pre-recorded WAV file via Web Audio API.
-   * Uses decodeAudioData to prevent static (proven pattern).
-   */
-  function playFile(url) {
-    return new Promise(async (resolve, reject) => {
-      try {
-        const audioCtx = getAudioContext();
-        if (audioCtx.state === 'suspended') await audioCtx.resume();
-
-        setSpeaking(true);
-
-        const response = await fetch(url);
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-
-        const arrayBuffer = await response.arrayBuffer();
-        const audioBuffer = await audioCtx.decodeAudioData(arrayBuffer);
-
-        _currentSource = audioCtx.createBufferSource();
-        _currentSource.buffer = audioBuffer;
-        _currentSource.connect(audioCtx.destination);
-
-        _currentSource.onended = () => {
-          _currentSource = null;
-          setSpeaking(false);
-          resolve();
-        };
-
-        _currentSource.start(0);
-      } catch (err) {
-        setSpeaking(false);
-        reject(err);
-      }
-    });
-  }
-
-  /**
-   * Call Gemini TTS API and play the returned audio.
-   * Follows the exact pattern from gemini-tts-engine skill.
-   */
-  async function generateLiveAudio(text) {
-    const apiKey = getApiKey();
-    if (!apiKey) {
-      console.log('[EMMA TTS] No API key set — open Settings to enable voice.');
-      return;
-    }
-
-    const audioCtx = getAudioContext();
-    if (audioCtx.state === 'suspended') await audioCtx.resume();
-
-    setSpeaking(true);
-
-    const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/${TTS_MODEL}:generateContent?key=${apiKey}`,
-      {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          contents: [{ parts: [{ text }] }],
-          generationConfig: {
-            responseModalities: ['AUDIO'],
-            speechConfig: {
-              voiceConfig: { prebuiltVoiceConfig: { voiceName: VOICE_NAME } }
-            }
-          }
-        })
-      }
-    );
-
-    if (!response.ok) {
-      const errText = await response.text().catch(() => '');
-      throw new Error(`Gemini TTS API ${response.status}: ${errText.substring(0, 200)}`);
-    }
-
-    const data = await response.json();
-    const audioPart = data.candidates?.[0]?.content?.parts?.find(p => p.inlineData);
-
-    if (!audioPart?.inlineData) {
-      throw new Error('No audio data in Gemini response');
-    }
-
-    await playLiveAudio(audioPart.inlineData, audioCtx);
-  }
-
-  /**
-   * Convert raw PCM from Gemini into WAV and play via Web Audio API.
-   * CRITICAL: WAV wrapper + decodeAudioData eliminates static noise.
-   */
-  function playLiveAudio(inlineData, audioCtx) {
-    return new Promise(async (resolve, reject) => {
-      try {
-        // Decode base64 PCM
-        const raw = atob(inlineData.data);
-        const pcmBytes = new Uint8Array(raw.length);
-        for (let i = 0; i < raw.length; i++) pcmBytes[i] = raw.charCodeAt(i);
-
-        // Parse sample rate from mimeType (e.g., "audio/L16;rate=24000")
-        const mime = inlineData.mimeType || '';
-        const rateMatch = mime.match(/rate=(\d+)/);
-        const sampleRate = rateMatch ? parseInt(rateMatch[1]) : 24000;
-
-        // Build WAV header (44 bytes)
-        const dataSize = pcmBytes.length;
-        const wavBuffer = new ArrayBuffer(44 + dataSize);
-        const view = new DataView(wavBuffer);
-        const writeStr = (off, s) => {
-          for (let i = 0; i < s.length; i++) view.setUint8(off + i, s.charCodeAt(i));
-        };
-
-        writeStr(0, 'RIFF');
-        view.setUint32(4, 36 + dataSize, true);
-        writeStr(8, 'WAVE');
-        writeStr(12, 'fmt ');
-        view.setUint32(16, 16, true);
-        view.setUint16(20, 1, true);      // PCM format
-        view.setUint16(22, 1, true);      // Mono
-        view.setUint32(24, sampleRate, true);
-        view.setUint32(28, sampleRate * 2, true); // byte rate
-        view.setUint16(32, 2, true);      // block align
-        view.setUint16(34, 16, true);     // bits per sample
-        writeStr(36, 'data');
-        view.setUint32(40, dataSize, true);
-        new Uint8Array(wavBuffer, 44).set(pcmBytes);
-
-        // Browser-native decoding — eliminates static
-        const audioBuffer = await audioCtx.decodeAudioData(wavBuffer);
-
-        _currentSource = audioCtx.createBufferSource();
-        _currentSource.buffer = audioBuffer;
-        _currentSource.connect(audioCtx.destination);
-
-        _currentSource.onended = () => {
-          _currentSource = null;
-          setSpeaking(false);
-          resolve();
-        };
-
-        _currentSource.start(0);
-      } catch (err) {
-        setSpeaking(false);
-        reject(err);
-      }
-    });
-  }
-
-  /**
-   * Set speaking state and update avatar animation.
-   */
-  function setSpeaking(speaking) {
-    _isSpeaking = speaking;
-    const avatar = document.getElementById('emma-avatar');
-    if (avatar) {
-      avatar.classList.toggle('speaking', speaking);
-    }
-    // Speaking wave bar animation
-    const wave = document.getElementById('emma-speaking-wave');
-    if (wave) {
-      wave.style.display = speaking ? 'flex' : 'none';
-    }
-  }
-
-  /**
-   * Update the voice badge icon.
-   */
-  function updateBadge() {
-    const avatar = document.getElementById('emma-avatar');
-    const badge = avatar?.querySelector('.voice-badge');
-    if (badge) {
-      badge.textContent = _isMuted ? '🔇' : '🔊';
     }
   }
 
