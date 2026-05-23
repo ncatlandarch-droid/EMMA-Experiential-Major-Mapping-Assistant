@@ -245,6 +245,7 @@ const EMMA_TTS = (() => {
     }
 
     const muted = _engine.toggleMute();
+    console.log(`[EMMA TTS] toggleMute → muted=${muted}`);
 
     if (!muted) {
       speak('welcome');
@@ -270,9 +271,13 @@ const EMMA_TTS = (() => {
     // Always post to chat (unless already posted by caller)
     if (!opts.skipChat) postToChat(text);
 
-    if (!_engine || _engine.isMuted()) return;
+    if (!_engine || _engine.isMuted()) {
+      console.log(`[EMMA TTS] speak() blocked — engine=${!!_engine}, muted=${_engine?.isMuted()}`);
+      return;
+    }
 
     // Delegate audio to universal engine
+    console.log(`[EMMA TTS] speak() → delegating to engine, text length=${text.length}`);
     _engine.speak(text, { coachingKey: opts.coachingKey || null });
   }
 
