@@ -478,6 +478,8 @@ const EMMA_TTS = (() => {
     init,
     speak,
     toggleMute,
+    forceUnmute: () => { if (_engine) _engine.forceUnmute(); },
+    isSpeaking: () => _engine ? _engine.isSpeaking() : false,
     onMilestoneChecked,
     onCompetencyVerified,
     onProgressClicked,

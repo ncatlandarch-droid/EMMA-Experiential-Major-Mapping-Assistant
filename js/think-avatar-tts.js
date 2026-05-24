@@ -92,10 +92,22 @@ const ThinkAvatarTTS = (() => {
      * @param {object} opts - { coachingKey: string, fallbackText: string }
      */
     function speak(textOrKey, opts = {}) {
-      if (_isMuted) return;
+      console.log(`[${NAME} TTS] speak() called — muted: ${_isMuted}, speaking: ${_isSpeaking}, key: "${textOrKey?.substring(0,40)}..."`);
+      if (_isMuted) {
+        console.log(`[${NAME} TTS] Blocked — voice is muted`);
+        return;
+      }
 
       // Stop current speech to prevent talking over herself
       if (_isSpeaking) stop();
+
+      // Pre-warm AudioContext on user gesture (browser autoplay policy)
+      try {
+        const ctx = _getAudioContext();
+        if (ctx.state === 'suspended') {
+          ctx.resume().then(() => console.log(`[${NAME} TTS] AudioContext resumed`));
+        }
+      } catch (e) { /* will be created during playback */ }
 
       _queue.push({
         key: textOrKey,
@@ -191,23 +203,43 @@ const ThinkAvatarTTS = (() => {
     // ═══════════════════════════════════════
 
     async function _generateLiveAudio(text) {
+      console.log(`[${NAME} TTS] _generateLiveAudio — text length: ${text.length}, proxy: ${PROXY_URL ? 'YES' : 'direct'}`);
       const audioCtx = _getAudioContext();
-      if (audioCtx.state === 'suspended') await audioCtx.resume();
+      if (audioCtx.state === 'suspended') {
+        console.log(`[${NAME} TTS] Resuming suspended AudioContext...`);
+        await audioCtx.resume();
+      }
 
       _setSpeaking(true);
 
       let data;
 
-      // Helper: direct Gemini API call using client-side key
-      async function _directApiCall() {
+      if (PROXY_URL) {
+        // ── Server-side proxy — API key stays on server ──
+        console.log(`[${NAME} TTS] Fetching from proxy: ${PROXY_URL}`);
+        const response = await fetch(PROXY_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ text, voice: VOICE_NAME, model: TTS_MODEL })
+        });
+
+        console.log(`[${NAME} TTS] Proxy response: ${response.status}`);
+        if (!response.ok) {
+          const errText = await response.text().catch(() => '');
+          throw new Error(`TTS proxy ${response.status}: ${errText.substring(0, 200)}`);
+        }
+
+        data = await response.json();
+      } else {
+        // ── Direct API call — requires client-side key ──
         const apiKey = getApiKey();
         if (!apiKey) {
-          console.warn(`[${NAME} TTS] No API key — voice disabled. Set key in Settings.`);
+          console.log(`[${NAME} TTS] No API key and no proxy — voice disabled.`);
           _setSpeaking(false);
-          return null;
+          return;
         }
-        console.log(`[${NAME} TTS] Using direct API (key present: ${apiKey.length > 0})`);
-        const resp = await fetch(
+
+        const response = await fetch(
           `https://generativelanguage.googleapis.com/v1beta/models/${TTS_MODEL}:generateContent?key=${apiKey}`,
           {
             method: 'POST',
@@ -223,37 +255,13 @@ const ThinkAvatarTTS = (() => {
             })
           }
         );
-        if (!resp.ok) {
-          const errText = await resp.text().catch(() => '');
-          throw new Error(`Gemini TTS API ${resp.status}: ${errText.substring(0, 200)}`);
+
+        if (!response.ok) {
+          const errText = await response.text().catch(() => '');
+          throw new Error(`Gemini TTS API ${response.status}: ${errText.substring(0, 200)}`);
         }
-        return await resp.json();
-      }
 
-      // Strategy: Try proxy first → fall back to direct API key
-      if (PROXY_URL) {
-        try {
-          console.log(`[${NAME} TTS] Trying proxy: ${PROXY_URL}`);
-          const response = await fetch(PROXY_URL, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ text, voice: VOICE_NAME, model: TTS_MODEL })
-          });
-
-          if (!response.ok) {
-            throw new Error(`Proxy returned ${response.status}`);
-          }
-
-          data = await response.json();
-          console.log(`[${NAME} TTS] Proxy succeeded`);
-        } catch (proxyErr) {
-          console.warn(`[${NAME} TTS] Proxy failed (${proxyErr.message}), falling back to direct API...`);
-          data = await _directApiCall();
-          if (!data) return; // No API key available
-        }
-      } else {
-        data = await _directApiCall();
-        if (!data) return; // No API key available
+        data = await response.json();
       }
 
       const audioPart = data.candidates?.[0]?.content?.parts?.find(p => p.inlineData);
@@ -332,17 +340,31 @@ const ThinkAvatarTTS = (() => {
     function toggleMute() {
       // If speaking, stop instead of toggling
       if (_isSpeaking) {
+        console.log(`[${NAME} TTS] toggleMute — currently speaking, stopping instead`);
         stop();
         return _isMuted;
       }
 
       _isMuted = !_isMuted;
-      localStorage.setItem(MUTE_STORAGE_KEY, _isMuted);
+      localStorage.setItem(MUTE_STORAGE_KEY, String(_isMuted));
       _updateAvatarState();
       onMuteChanged(_isMuted);
 
       console.log(`[${NAME} TTS] ${_isMuted ? 'Muted' : 'Unmuted'}`);
       return _isMuted;
+    }
+
+    /**
+     * Force unmute without the isSpeaking guard.
+     * Used by avatar click handlers that need to guarantee unmute.
+     */
+    function forceUnmute() {
+      if (!_isMuted) return;
+      _isMuted = false;
+      localStorage.setItem(MUTE_STORAGE_KEY, 'false');
+      _updateAvatarState();
+      onMuteChanged(false);
+      console.log(`[${NAME} TTS] Force unmuted`);
     }
 
     function isMuted() {
@@ -438,6 +460,7 @@ const ThinkAvatarTTS = (() => {
       speak,
       stop,
       toggleMute,
+      forceUnmute,
       isMuted,
       isSpeaking,
       registerPreRecorded,

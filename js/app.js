@@ -112,15 +112,15 @@ const EMMA_APP = (() => {
       if (e.target.classList.contains('voice-badge')) return;
 
       // If speaking → stop
-      if (EMMA_TTS.isMuted() === false && EMMA_TTS.stop && document.querySelector('#emma-avatar.speaking')) {
+      if (EMMA_TTS.isSpeaking && EMMA_TTS.isSpeaking()) {
         EMMA_TTS.stop();
         EMMA_MATRIX.showToast('Emma stopped', 'info');
         return;
       }
 
-      // Unmute if muted (clicking avatar = user wants to hear her)
+      // Force unmute (clicking avatar = user wants to hear her)
       if (EMMA_TTS.isMuted()) {
-        EMMA_TTS.toggleMute();
+        EMMA_TTS.forceUnmute ? EMMA_TTS.forceUnmute() : EMMA_TTS.toggleMute();
       }
 
       // Speak contextual welcome
