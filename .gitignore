@@ -2,6 +2,14 @@
 .netlify/plugins/
 node_modules/
 
+# PPTX generation (local-only tools)
+atic-extract/
+ncat-template/
+pptx-assets/
+gen-pptx.mjs
+package.json
+package-lock.json
+
 # OS files
 .DS_Store
 Thumbs.db
