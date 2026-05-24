@@ -137,25 +137,39 @@
         </div>
         <div class="phase-grid" id="phase-grid"></div>
 
-        <!-- Utility Content (moved from left panel for visibility) -->
+        <!-- Below-map content — organized in student engagement sequence -->
         <div class="center-utility-sections">
-          <div class="center-utility-row">
-            <div class="center-utility-card">
-              <h3 class="utility-section-title">Category Legend</h3>
-              <div id="category-legend-items" class="category-legend-items"></div>
-            </div>
-            <div class="center-utility-card">
-              <h3 class="utility-section-title">ASLA Knowledge Areas</h3>
-              <div id="asla-category-list" class="asla-category-list"></div>
-            </div>
+
+          <!-- 1. Category Legend — helps read the map above -->
+          <div class="center-utility-card compact-legend">
+            <h3 class="utility-section-title">Category Legend</h3>
+            <div id="category-legend-items" class="category-legend-items"></div>
           </div>
-          <div class="center-utility-card full-width">
+
+          <!-- 2. Career Outlook — motivation: why this matters -->
+          <div class="center-utility-card" id="career-outlook-container"></div>
+
+          <!-- 3. SFRIC Field Opportunities — real projects to work on NOW -->
+          <div class="center-utility-card" id="sfric-container"></div>
+
+          <!-- 4. Resources & Links — campus support tools -->
+          <div class="center-utility-card">
             <h3 class="utility-section-title">Resources &amp; Links</h3>
             <div id="utility-links-container" class="utility-links-container"></div>
             <div style="margin-top:var(--space-sm);">
               <span id="resource-progress-count" class="resource-progress-count"></span>
             </div>
           </div>
+
+          <!-- 5. ASLA Knowledge Areas — professional standards -->
+          <div class="center-utility-card">
+            <h3 class="utility-section-title">ASLA Knowledge Areas</h3>
+            <div id="asla-category-list" class="asla-category-list"></div>
+          </div>
+
+          <!-- 6. ASLA Award Categories — aspirational capstone goal -->
+          <div class="center-utility-card" id="asla-awards-container"></div>
+
         </div>
       </section>
 

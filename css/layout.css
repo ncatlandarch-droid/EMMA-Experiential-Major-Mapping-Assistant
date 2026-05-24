@@ -826,13 +826,9 @@
   margin-top: var(--space-xl);
   padding-top: var(--space-lg);
   border-top: 2px solid rgba(var(--theme-primary-rgb), 0.10);
-}
-
-.center-utility-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
   gap: var(--space-lg);
-  margin-bottom: var(--space-lg);
 }
 
 .center-utility-card {
@@ -841,6 +837,11 @@
   padding: var(--space-lg) var(--space-xl);
   border: 1px solid rgba(0, 0, 0, 0.06);
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+/* Empty cards hide themselves */
+.center-utility-card:empty {
+  display: none;
 }
 
 .center-utility-card .utility-section-title {
@@ -868,8 +869,9 @@
   gap: 6px;
 }
 
-.center-utility-card.full-width {
-  margin-bottom: var(--space-lg);
+/* Compact legend: horizontal chip row */
+.center-utility-card.compact-legend {
+  padding: var(--space-md) var(--space-xl);
 }
 
 /* Resource links in center: responsive grid */

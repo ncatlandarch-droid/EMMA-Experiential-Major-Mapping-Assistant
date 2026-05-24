@@ -194,7 +194,7 @@ const EMMA_UTILITY = (() => {
    * Render career outlook summary card.
    */
   function renderCareerCard() {
-    const container = document.getElementById('utility-links-container');
+    const container = document.getElementById('career-outlook-container');
     if (!container) return;
 
     const branding = EMMA_STATE.get('branding');
@@ -237,7 +237,7 @@ const EMMA_UTILITY = (() => {
    * Each project links to AVA for the visualization experience.
    */
   function renderOpportunities() {
-    const container = document.getElementById('utility-links-container');
+    const container = document.getElementById('sfric-container');
     if (!container) return;
 
     const branding = EMMA_STATE.get('branding');
@@ -333,7 +333,8 @@ const EMMA_UTILITY = (() => {
           `).join('')}
         </div>
       `;
-      container.appendChild(aslaSection);
+      const aslaContainer = document.getElementById('asla-awards-container');
+      if (aslaContainer) aslaContainer.appendChild(aslaSection);
 
       // Toggle behavior
       aslaSection.querySelector('#asla-toggle-btn').addEventListener('click', () => {
