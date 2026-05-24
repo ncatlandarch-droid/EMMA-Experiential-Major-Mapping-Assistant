@@ -15,10 +15,45 @@ const EMMA_TTS = (() => {
 
   // Pre-recorded coaching keys (WAV files in assets/audio/)
   const PRE_RECORDED = {
-    'welcome': 'assets/audio/en-welcome.wav',
-    'milestone-checked': 'assets/audio/en-milestone-checked.wav',
-    'competency-verified': 'assets/audio/en-competency-verified.wav',
-    'export-ready': 'assets/audio/en-export-ready.wav'
+    // Generic events
+    'welcome':               'assets/audio/en-welcome.wav',
+    'milestone-checked':     'assets/audio/en-milestone-checked.wav',
+    'competency-verified':   'assets/audio/en-competency-verified.wav',
+    'export-ready':          'assets/audio/en-export-ready.wav',
+    // Welcome variants (selected by progress %)
+    'welcome-first':         'assets/audio/coaching/caes-la/welcome-first.wav',
+    'welcome-returning-early': 'assets/audio/coaching/caes-la/welcome-returning-early.wav',
+    'welcome-returning-mid': 'assets/audio/coaching/caes-la/welcome-returning-mid.wav',
+    'welcome-returning-late': 'assets/audio/coaching/caes-la/welcome-returning-late.wav',
+    // Phase intros
+    'phase-explore':         'assets/audio/coaching/caes-la/phase-explore.wav',
+    'phase-engage':          'assets/audio/coaching/caes-la/phase-engage.wav',
+    'phase-develop':         'assets/audio/coaching/caes-la/phase-develop.wav',
+    'phase-launch':          'assets/audio/coaching/caes-la/phase-launch.wav',
+    // Category explanations
+    'category-purpose':      'assets/audio/coaching/caes-la/category-purpose.wav',
+    'category-communities':  'assets/audio/coaching/caes-la/category-communities.wav',
+    'category-localglobal':  'assets/audio/coaching/caes-la/category-localglobal.wav',
+    'category-identity':     'assets/audio/coaching/caes-la/category-identity.wav',
+    // Career & orgs
+    'career-outlook':        'assets/audio/coaching/caes-la/career-outlook.wav',
+    'org-asla':              'assets/audio/coaching/caes-la/org-asla.wav',
+    'org-blan':              'assets/audio/coaching/caes-la/org-blan.wav',
+    // SFRIC projects
+    'sfric-stormwater':      'assets/audio/coaching/caes-la/sfric-stormwater.wav',
+    'sfric-pollinator':      'assets/audio/coaching/caes-la/sfric-pollinator.wav',
+    'sfric-outdoor-classroom': 'assets/audio/coaching/caes-la/sfric-outdoor-classroom.wav',
+    'sfric-master-plan':     'assets/audio/coaching/caes-la/sfric-master-plan.wav',
+    // Progress milestones
+    'progress-25':           'assets/audio/coaching/caes-la/progress-25.wav',
+    'progress-50':           'assets/audio/coaching/caes-la/progress-50.wav',
+    'progress-75':           'assets/audio/coaching/caes-la/progress-75.wav',
+    'progress-100':          'assets/audio/coaching/caes-la/progress-100.wav',
+    // ASLA awards
+    'asla-awards-intro':     'assets/audio/coaching/caes-la/asla-awards-intro.wav',
+    // Celebrations
+    'celebration-milestone': 'assets/audio/coaching/caes-la/celebration-milestone.wav',
+    'celebration-competency': 'assets/audio/coaching/caes-la/celebration-competency.wav'
   };
 
   // Pre-recorded per-milestone coaching (loaded from manifest)
