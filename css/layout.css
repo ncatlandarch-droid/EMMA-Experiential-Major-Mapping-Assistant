@@ -941,6 +941,63 @@
   margin-bottom: var(--space-sm);
 }
 
+/* Professional organizations */
+.pro-orgs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-md);
+}
+
+.pro-org-card {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-md) var(--space-lg);
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: rgba(var(--theme-primary-rgb), 0.03);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+}
+
+.pro-org-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  border-color: var(--theme-primary);
+}
+
+.pro-org-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.pro-org-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.pro-org-name {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--theme-text-primary);
+}
+
+.pro-org-desc {
+  font-size: 0.7rem;
+  color: var(--theme-text-secondary);
+  line-height: 1.4;
+}
+
+.pro-org-arrow {
+  font-size: 1.1rem;
+  color: var(--theme-primary);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
 .canvas-title-row {
   display: flex;
   align-items: center;

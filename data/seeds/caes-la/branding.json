@@ -172,5 +172,21 @@
       "description": "Celebrates student projects that demonstrate meaningful community engagement and service-learning in landscape architecture.",
       "deliverables": ["Community needs assessment", "Participatory design documentation", "Stakeholder letters of support", "Design proposals", "Implementation plan", "Impact metrics", "Community presentation materials"]
     }
+  ],
+  "professionalOrgs": [
+    {
+      "id": "asla",
+      "name": "American Society of Landscape Architects (ASLA)",
+      "description": "The national professional association — advocacy, awards, career resources, and student chapters",
+      "url": "https://www.asla.org",
+      "icon": "🏛️"
+    },
+    {
+      "id": "blan",
+      "name": "Black Landscape Architecture Network (BLAN)",
+      "description": "Advancing Black professionals in landscape architecture — mentorship, community, and visibility",
+      "url": "https://www.blacklandarch.com",
+      "icon": "✊🏿"
+    }
   ]
 }

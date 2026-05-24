@@ -84,40 +84,23 @@ YOUR ROLE AS CAREER COUNSELOR:
    * Send a message to Gemini and get Emma's response.
    */
   async function askEmma(userMessage) {
-    const apiKey = localStorage.getItem('EMMA_GEMINI_KEY');
-    if (!apiKey) {
-      return "I need a Gemini API key to chat! Go to **Settings** (⚙️) and paste your key. You can get a free one at [Google AI Studio](https://aistudio.google.com/apikey).";
-    }
-
     const systemContext = buildContext();
 
     try {
-      const response = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${apiKey}`,
-        {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            system_instruction: { parts: [{ text: systemContext }] },
-            contents: [{ parts: [{ text: userMessage }] }],
-            generationConfig: {
-              temperature: 0.7,
-              maxOutputTokens: 512,
-              topP: 0.9
-            }
-          })
-        }
-      );
+      const response = await fetch('/.netlify/functions/gemini-chat-proxy', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ systemContext, userMessage })
+      });
 
       if (!response.ok) {
-        const err = await response.json();
-        console.error('[EMMA_CHAT] API error:', err);
-        return "I'm having trouble connecting right now. Please check your API key in Settings and try again.";
+        const err = await response.json().catch(() => ({}));
+        console.error('[EMMA_CHAT] Proxy error:', err);
+        return "I'm having trouble connecting right now. Please try again in a moment.";
       }
 
       const data = await response.json();
-      const text = data.candidates?.[0]?.content?.parts?.[0]?.text;
-      return text || "I'm not sure how to answer that. Try asking about your courses, milestones, or accreditation requirements!";
+      return data.text || "I'm not sure how to answer that. Try asking about your courses, milestones, or career prospects!";
     } catch (err) {
       console.error('[EMMA_CHAT] Network error:', err);
       return "Couldn't reach Emma's AI. Check your internet connection and try again.";

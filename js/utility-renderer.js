@@ -13,6 +13,7 @@ const EMMA_UTILITY = (() => {
     renderResourceLinks();
     renderCareerCard();
     renderOpportunities();
+    renderProfessionalOrgs();
   }
 
   /**
@@ -180,6 +181,7 @@ const EMMA_UTILITY = (() => {
   function renderCareerCard() {
     const container = document.getElementById('career-outlook-container');
     if (!container) return;
+    container.innerHTML = '';
 
     const branding = EMMA_STATE.get('branding');
     const career = branding?.careerOutlook;
@@ -223,6 +225,7 @@ const EMMA_UTILITY = (() => {
   function renderOpportunities() {
     const container = document.getElementById('sfric-container');
     if (!container) return;
+    container.innerHTML = '';
 
     const branding = EMMA_STATE.get('branding');
     const projects = branding?.sfricProjects;
@@ -297,6 +300,9 @@ const EMMA_UTILITY = (() => {
 
     // ─── ASLA Award Categories (collapsed by default) ───
     if (aslaCategories?.length) {
+      const aslaContainer = document.getElementById('asla-awards-container');
+      if (aslaContainer) aslaContainer.innerHTML = '';
+
       const aslaSection = document.createElement('div');
       aslaSection.className = 'sfric-asla-section';
       aslaSection.innerHTML = `
@@ -317,7 +323,6 @@ const EMMA_UTILITY = (() => {
           `).join('')}
         </div>
       `;
-      const aslaContainer = document.getElementById('asla-awards-container');
       if (aslaContainer) aslaContainer.appendChild(aslaSection);
 
       // Toggle behavior
@@ -329,6 +334,46 @@ const EMMA_UTILITY = (() => {
         arrow.textContent = isHidden ? '▼' : '▶';
       });
     }
+  }
+
+  /**
+   * Render professional organization links from branding.json.
+   */
+  function renderProfessionalOrgs() {
+    const container = document.getElementById('pro-orgs-container');
+    if (!container) return;
+    container.innerHTML = '';
+
+    const branding = EMMA_STATE.get('branding');
+    const orgs = branding?.professionalOrgs;
+    if (!orgs?.length) return;
+
+    const title = document.createElement('h3');
+    title.className = 'utility-section-title';
+    title.textContent = 'Professional Organizations';
+    container.appendChild(title);
+
+    const grid = document.createElement('div');
+    grid.className = 'pro-orgs-grid';
+
+    orgs.forEach(org => {
+      const card = document.createElement('a');
+      card.href = org.url || '#';
+      card.target = '_blank';
+      card.rel = 'noopener';
+      card.className = 'pro-org-card';
+      card.innerHTML = `
+        <span class="pro-org-icon">${org.icon || '🏛️'}</span>
+        <div class="pro-org-text">
+          <span class="pro-org-name">${escapeHtml(org.name)}</span>
+          <span class="pro-org-desc">${escapeHtml(org.description || '')}</span>
+        </div>
+        <span class="pro-org-arrow">→</span>
+      `;
+      grid.appendChild(card);
+    });
+
+    container.appendChild(grid);
   }
 
   // Public API
