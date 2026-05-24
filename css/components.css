@@ -7,8 +7,8 @@
 .avatar-wrapper {
   position: relative;
   cursor: pointer;
-  width: 120px;
-  height: 120px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   flex-shrink: 0;
   margin: 0 auto;
@@ -20,13 +20,13 @@
 }
 
 .avatar-portrait {
-  width: 100%;
-  height: 100%;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center 10%;
-  border: 4px solid var(--theme-primary);
-  box-shadow: 0 6px 20px rgba(var(--theme-primary-rgb), 0.20);
+  border: 5px solid var(--theme-primary);
+  box-shadow: 0 8px 24px rgba(var(--theme-primary-rgb), 0.20);
   transition: border-color var(--duration-normal), box-shadow var(--duration-normal);
 }
 
@@ -36,8 +36,8 @@
 
 .avatar-wrapper.speaking .avatar-portrait {
   border-color: #22c55e;
-  box-shadow: 0 0 16px 3px rgba(34, 197, 94, 0.2);
-  transition: border-color 0.3s, box-shadow 0.3s;
+  box-shadow: 0 0 20px 4px rgba(34, 197, 94, 0.3);
+  animation: thinkAvatarPulse 1.2s ease-in-out infinite;
 }
 
 .avatar-name {
@@ -57,8 +57,8 @@
 
 .voice-badge {
   position: absolute;
-  bottom: 2px;
-  right: 2px;
+  bottom: 4px;
+  right: 4px;
   width: 30px;
   height: 30px;
   background: var(--theme-primary);
@@ -66,8 +66,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 13px;
-  border: 2px solid var(--theme-surface);
+  font-size: 14px;
+  border: 2px solid white;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s;
   z-index: 2;
