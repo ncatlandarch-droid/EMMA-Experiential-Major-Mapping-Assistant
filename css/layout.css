@@ -824,8 +824,8 @@
 /* ── Center Utility Sections (moved from left panel) ── */
 .center-utility-sections {
   margin-top: var(--space-xl);
-  padding-top: var(--space-xl);
-  border-top: 2px solid rgba(var(--theme-primary-rgb), 0.12);
+  padding-top: var(--space-lg);
+  border-top: 2px solid rgba(var(--theme-primary-rgb), 0.10);
 }
 
 .center-utility-row {
@@ -838,19 +838,55 @@
 .center-utility-card {
   background: var(--theme-surface);
   border-radius: var(--radius-lg);
-  padding: var(--space-lg);
+  padding: var(--space-lg) var(--space-xl);
   border: 1px solid rgba(0, 0, 0, 0.06);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+.center-utility-card .utility-section-title {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--theme-primary);
+  font-weight: 700;
+  margin-bottom: var(--space-md);
+  padding-bottom: var(--space-xs);
+  border-bottom: 2px solid rgba(var(--theme-primary-rgb), 0.12);
+}
+
+/* Category legend in center: horizontal compact chips */
+.center-utility-card .category-legend-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+/* ASLA list in center: compact grid */
+.center-utility-card .asla-category-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
 }
 
 .center-utility-card.full-width {
   margin-bottom: var(--space-lg);
 }
 
+/* Resource links in center: responsive grid */
 .center-utility-card .utility-links-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: var(--space-md);
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: var(--space-sm);
+}
+
+/* Clean up resource cards for wider center layout */
+.center-utility-card .utility-link-card {
+  padding: var(--space-sm) var(--space-md);
+}
+
+.center-utility-card .resource-progress-header {
+  grid-column: 1 / -1;
+  margin-bottom: var(--space-sm);
 }
 
 .canvas-title-row {
