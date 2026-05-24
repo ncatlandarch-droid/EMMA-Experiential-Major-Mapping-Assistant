@@ -301,7 +301,7 @@ const EMMA_TTS = (() => {
   function onMilestoneChecked(milestone) {
     const text = COACHING.milestoneChecked(milestone);
     postToChat(text);
-    if (!_isMuted) speak(text, { skipChat: true, coachingKey: `milestone-${milestone.id}` });
+    if (!isMuted()) speak(text, { skipChat: true, coachingKey: `milestone-${milestone.id}` });
   }
 
   /**
@@ -310,7 +310,7 @@ const EMMA_TTS = (() => {
   function onCompetencyVerified(section) {
     const text = COACHING.competencyVerified(section);
     postToChat(text);
-    if (!_isMuted) speak(text, { skipChat: true, coachingKey: `competency-${section.index || 0}` });
+    if (!isMuted()) speak(text, { skipChat: true, coachingKey: `competency-${section.index || 0}` });
   }
 
   /**
