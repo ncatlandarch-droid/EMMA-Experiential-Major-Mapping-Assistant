@@ -1,0 +1,113 @@
+/**
+ * Think! Design & Planning — Universal Avatar Standard
+ * =====================================================
+ * Single source of truth for avatar sizing, voice badge, and speaking ring
+ * across all Think! apps (AVA, EMMA, GRANT, ISLA, PERRY, etc.)
+ * 
+ * USAGE:
+ *   1. Include this CSS in your project
+ *   2. Use the HTML structure below
+ *   3. ThinkAvatarTTS.js handles speaking ring + badge toggle automatically
+ * 
+ * HTML TEMPLATE:
+ *   <div class="think-avatar-wrapper" id="[app]-avatar" title="Click to hear [name] speak">
+ *     <img src="[avatar-url]" alt="[NAME]" class="think-avatar-portrait" />
+ *     <span class="think-voice-badge" onclick="event.stopPropagation(); [APP]_TTS.toggleMute();" title="Toggle voice">🔊</span>
+ *   </div>
+ *   <div style="text-align:center; margin-top:8px;">
+ *     <div class="think-avatar-name">[NAME]</div>
+ *     <div class="think-avatar-role">[FULL TITLE]</div>
+ *   </div>
+ * 
+ * CSS VARIABLES (set these in your app's tokens):
+ *   --think-avatar-size: 240px;         (default: 240px)
+ *   --think-avatar-border-color: #FDB927; (your brand color)
+ *   --think-avatar-border-width: 5px;
+ *   --think-badge-bg: #003366;          (badge background)
+ *   --think-badge-size: 36px;
+ * 
+ * VERSION: 1.0.0
+ * LAST UPDATED: 2026-05-24
+ */
+
+/* ── Avatar Wrapper ── */
+.think-avatar-wrapper {
+  position: relative;
+  cursor: pointer;
+  width: var(--think-avatar-size, 240px);
+  height: var(--think-avatar-size, 240px);
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin: 0 auto;
+  transition: transform 0.2s;
+}
+
+.think-avatar-wrapper:hover {
+  transform: scale(1.03);
+}
+
+/* ── Portrait Image ── */
+.think-avatar-portrait {
+  width: var(--think-avatar-size, 240px);
+  height: var(--think-avatar-size, 240px);
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 10%;
+  border: var(--think-avatar-border-width, 5px) solid var(--think-avatar-border-color, #003366);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  transition: border-color 0.4s, box-shadow 0.4s;
+}
+
+.think-avatar-wrapper:hover .think-avatar-portrait {
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+}
+
+/* ── Speaking Ring (green pulse when TTS is playing) ── */
+.think-avatar-wrapper.speaking .think-avatar-portrait {
+  border-color: #22c55e;
+  box-shadow: 0 0 20px 4px rgba(34, 197, 94, 0.3);
+  animation: thinkAvatarPulse 1.2s ease-in-out infinite;
+}
+
+@keyframes thinkAvatarPulse {
+  0%, 100% { box-shadow: 0 0 12px 2px rgba(34, 197, 94, 0.25); transform: scale(1); }
+  50% { box-shadow: 0 0 40px 10px rgba(34, 197, 94, 0.2); transform: scale(1.02); }
+}
+
+/* ── Voice Badge (mic icon) ── */
+.think-voice-badge {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  width: var(--think-badge-size, 36px);
+  height: var(--think-badge-size, 36px);
+  background: var(--think-badge-bg, #003366);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  border: 2px solid white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+  z-index: 2;
+}
+
+.think-avatar-wrapper:hover .think-voice-badge {
+  transform: scale(1.1);
+}
+
+/* ── Name & Role ── */
+.think-avatar-name {
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.think-avatar-role {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.7;
+}
