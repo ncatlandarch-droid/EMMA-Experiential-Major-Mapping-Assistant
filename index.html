@@ -105,6 +105,9 @@
             <div style="font-size:1.4rem; font-weight:800; color:var(--theme-text-primary); letter-spacing:0.02em;">EMMA</div>
             <div style="font-size:0.65rem; font-weight:600; color:var(--theme-text-secondary); text-transform:uppercase; letter-spacing:0.08em;">Experiential Major Mapping Assistant</div>
           </div>
+        </div>
+        <!-- Chat messages area -->
+        <div class="emma-chat-area">
           <div class="emma-says-box" id="emma-says-box">
             <div class="emma-says-header">
               <span class="emma-says-name">EMMA</span>
@@ -112,8 +115,16 @@
             </div>
             <p class="emma-says-text" id="emma-ticker-text">Hello! I am EMMA, your Experiential Major Mapping Assistant. Click a milestone to begin.</p>
           </div>
-          <span class="emma-voice-status" id="emma-voice-status"></span>
+          <div class="chat-messages" id="chat-messages"></div>
         </div>
+        <!-- Ask EMMA input (like AVA's chat bar) -->
+        <div class="emma-chat-input-wrap">
+          <input type="text" id="chat-input" class="chat-input" placeholder="Ask EMMA anything..." autocomplete="off" />
+          <button id="chat-send-btn" class="chat-send-btn" title="Send">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2L15 22L11 13L2 9L22 2Z"/></svg>
+          </button>
+        </div>
+        <span class="emma-voice-status" id="emma-voice-status"></span>
       </aside>
 
       <!-- CENTER: Canvas -->
@@ -197,16 +208,6 @@
     <button class="mobile-tab-btn" data-tab="utility"><span class="mobile-tab-label">Resources</span></button>
   </nav>
 
-  <!-- CHAT PANEL -->
-  <div class="chat-panel">
-    <div class="chat-messages" id="chat-messages"></div>
-    <div class="chat-input-wrap">
-      <input type="text" id="chat-input" class="chat-input" placeholder="Ask EMMA anything..." autocomplete="off" />
-      <button id="chat-send-btn" class="chat-send-btn" title="Send">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2L15 22L11 13L2 9L22 2Z"/></svg>
-      </button>
-    </div>
-  </div>
 
   <!-- MODALS -->
 

@@ -76,70 +76,54 @@ const EMMA_UTILITY = (() => {
     `;
     container.appendChild(header);
 
-    // Group by category
-    const groups = {};
+    // Render ALL resources as a flat grid (no category sub-headers — legend handles that)
     resources.utilityLinks.forEach(link => {
-      const cat = link.category || 'General';
-      if (!groups[cat]) groups[cat] = [];
-      groups[cat].push(link);
-    });
+      const isChecked = EMMA_STATE.get('checkedResources')[link.id] || false;
 
-    Object.keys(groups).forEach(catKey => {
-      // Section header
-      const sectionTitle = document.createElement('p');
-      sectionTitle.className = 'utility-section-title';
-      sectionTitle.textContent = catKey;
-      container.appendChild(sectionTitle);
+      const card = document.createElement('div');
+      card.className = `utility-link-card${isChecked ? ' resource-checked' : ''}`;
+      card.id = `utility-${link.id}`;
+      card.dataset.resourceId = link.id;
 
-      // Cards with checkboxes
-      groups[catKey].forEach(link => {
-        const isChecked = EMMA_STATE.get('checkedResources')[link.id] || false;
+      card.innerHTML = `
+        <div class="resource-checkbox${isChecked ? ' checked' : ''}" role="checkbox" aria-checked="${isChecked}" tabindex="0">
+          ${isChecked ? '✓' : ''}
+        </div>
+        <span class="utility-link-icon">${link.icon || '🔗'}</span>
+        <div class="utility-link-text">
+          <span class="utility-link-title">${escapeHtml(link.title)}</span>
+          <span class="utility-link-subtitle">${escapeHtml(link.subtitle || '')}</span>
+        </div>
+      `;
 
-        const card = document.createElement('div');
-        card.className = `utility-link-card${isChecked ? ' resource-checked' : ''}`;
-        card.id = `utility-${link.id}`;
-        card.dataset.resourceId = link.id;
-
-        card.innerHTML = `
-          <div class="resource-checkbox${isChecked ? ' checked' : ''}" role="checkbox" aria-checked="${isChecked}" tabindex="0">
-            ${isChecked ? '✓' : ''}
-          </div>
-          <span class="utility-link-icon">${link.icon || '🔗'}</span>
-          <div class="utility-link-text">
-            <span class="utility-link-title">${escapeHtml(link.title)}</span>
-            <span class="utility-link-subtitle">${escapeHtml(link.subtitle || '')}</span>
-          </div>
-        `;
-
-        // Click on checkbox toggles check state
-        const checkbox = card.querySelector('.resource-checkbox');
-        checkbox.addEventListener('click', (e) => {
-          e.stopPropagation();
-          handleResourceCheck(link, card);
-        });
-
-        checkbox.addEventListener('keydown', (e) => {
-          if (e.key === 'Enter' || e.key === ' ') {
-            e.preventDefault();
-            handleResourceCheck(link, card);
-          }
-        });
-
-        // Click on card opens link
-        card.addEventListener('click', (e) => {
-          if (e.target.closest('.resource-checkbox')) return;
-          window.open(link.url || '#', '_blank', 'noopener');
-        });
-
-        // Hover glow tracking
-        card.addEventListener('mousemove', (e) => {
-          const rect = card.getBoundingClientRect();
-          card.style.setProperty('--mouse-x', `${((e.clientX - rect.left) / rect.width) * 100}%`);
-          card.style.setProperty('--mouse-y', `${((e.clientY - rect.top) / rect.height) * 100}%`);
-        });
-
-        container.appendChild(card);
+      // Click on checkbox toggles check state
+      const checkbox = card.querySelector('.resource-checkbox');
+      checkbox.addEventListener('click', (e) => {
+        e.stopPropagation();
+        handleResourceCheck(link, card);
       });
+
+      checkbox.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          handleResourceCheck(link, card);
+        }
+      });
+
+      // Click on card opens link
+      card.addEventListener('click', (e) => {
+        if (e.target.closest('.resource-checkbox')) return;
+        window.open(link.url || '#', '_blank', 'noopener');
+      });
+
+      // Hover glow tracking
+      card.addEventListener('mousemove', (e) => {
+        const rect = card.getBoundingClientRect();
+        card.style.setProperty('--mouse-x', `${((e.clientX - rect.left) / rect.width) * 100}%`);
+        card.style.setProperty('--mouse-y', `${((e.clientY - rect.top) / rect.height) * 100}%`);
+      });
+
+      container.appendChild(card);
     });
   }
 
