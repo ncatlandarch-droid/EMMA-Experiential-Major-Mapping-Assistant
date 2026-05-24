@@ -1,0 +1,106 @@
+[
+  {
+    "id": "welcome-first",
+    "path": "assets/audio/coaching/caes-la/welcome-first.wav"
+  },
+  {
+    "id": "welcome-returning-early",
+    "path": "assets/audio/coaching/caes-la/welcome-returning-early.wav"
+  },
+  {
+    "id": "welcome-returning-mid",
+    "path": "assets/audio/coaching/caes-la/welcome-returning-mid.wav"
+  },
+  {
+    "id": "welcome-returning-late",
+    "path": "assets/audio/coaching/caes-la/welcome-returning-late.wav"
+  },
+  {
+    "id": "phase-explore",
+    "path": "assets/audio/coaching/caes-la/phase-explore.wav"
+  },
+  {
+    "id": "phase-engage",
+    "path": "assets/audio/coaching/caes-la/phase-engage.wav"
+  },
+  {
+    "id": "phase-develop",
+    "path": "assets/audio/coaching/caes-la/phase-develop.wav"
+  },
+  {
+    "id": "phase-launch",
+    "path": "assets/audio/coaching/caes-la/phase-launch.wav"
+  },
+  {
+    "id": "category-purpose",
+    "path": "assets/audio/coaching/caes-la/category-purpose.wav"
+  },
+  {
+    "id": "category-communities",
+    "path": "assets/audio/coaching/caes-la/category-communities.wav"
+  },
+  {
+    "id": "category-localglobal",
+    "path": "assets/audio/coaching/caes-la/category-localglobal.wav"
+  },
+  {
+    "id": "category-identity",
+    "path": "assets/audio/coaching/caes-la/category-identity.wav"
+  },
+  {
+    "id": "career-outlook",
+    "path": "assets/audio/coaching/caes-la/career-outlook.wav"
+  },
+  {
+    "id": "org-asla",
+    "path": "assets/audio/coaching/caes-la/org-asla.wav"
+  },
+  {
+    "id": "org-blan",
+    "path": "assets/audio/coaching/caes-la/org-blan.wav"
+  },
+  {
+    "id": "sfric-stormwater",
+    "path": "assets/audio/coaching/caes-la/sfric-stormwater.wav"
+  },
+  {
+    "id": "sfric-pollinator",
+    "path": "assets/audio/coaching/caes-la/sfric-pollinator.wav"
+  },
+  {
+    "id": "sfric-outdoor-classroom",
+    "path": "assets/audio/coaching/caes-la/sfric-outdoor-classroom.wav"
+  },
+  {
+    "id": "sfric-master-plan",
+    "path": "assets/audio/coaching/caes-la/sfric-master-plan.wav"
+  },
+  {
+    "id": "progress-25",
+    "path": "assets/audio/coaching/caes-la/progress-25.wav"
+  },
+  {
+    "id": "progress-50",
+    "path": "assets/audio/coaching/caes-la/progress-50.wav"
+  },
+  {
+    "id": "progress-75",
+    "path": "assets/audio/coaching/caes-la/progress-75.wav"
+  },
+  {
+    "id": "progress-100",
+    "path": "assets/audio/coaching/caes-la/progress-100.wav"
+  },
+  {
+    "id": "asla-awards-intro",
+    "path": "assets/audio/coaching/caes-la/asla-awards-intro.wav"
+  },
+  {
+    "id": "celebration-milestone",
+    "path": "assets/audio/coaching/caes-la/celebration-milestone.wav"
+  },
+  {
+    "id": "celebration-competency",
+    "path": "assets/audio/coaching/caes-la/celebration-competency.wav"
+  }
+]
