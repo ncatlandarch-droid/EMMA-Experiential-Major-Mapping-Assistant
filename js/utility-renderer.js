@@ -32,25 +32,14 @@ const EMMA_UTILITY = (() => {
     Object.keys(cats).forEach(key => {
       const cat = cats[key];
       const item = document.createElement('div');
-      item.style.cssText = `
-        display: flex; align-items: center; gap: 8px;
-        padding: 4px 8px; border-radius: 6px;
-        font-size: var(--font-scale-xs); font-weight: 500;
-        background: rgba(0,0,0,0.02);
+      item.className = 'category-legend-item';
+      item.style.cssText = `border-left: 3px solid ${cat.hex};`;
+
+      item.innerHTML = `
+        <div class="category-legend-label">${cat.emoji} ${cat.label}</div>
+        ${cat.description ? `<div class="category-legend-desc">${cat.description}</div>` : ''}
       `;
 
-      const dot = document.createElement('span');
-      dot.style.cssText = `
-        width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0;
-        background: ${cat.hex};
-      `;
-
-      const label = document.createElement('span');
-      label.className = 'utility-link-title';
-      label.textContent = `${cat.emoji} ${cat.label}`;
-
-      item.appendChild(dot);
-      item.appendChild(label);
       container.appendChild(item);
     });
   }

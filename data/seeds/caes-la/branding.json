@@ -31,25 +31,29 @@
       "hex": "#2563EB",
       "rgb": "37, 99, 235",
       "emoji": "🔍",
-      "label": "Purpose & Self-Discovery"
+      "label": "Purpose & Self-Discovery",
+      "description": "Research, studio work, and foundational courses that build your design identity"
     },
     "Communities": {
       "hex": "#059669",
       "rgb": "5, 150, 105",
       "emoji": "🤝",
-      "label": "Communities & Service"
+      "label": "Communities & Service",
+      "description": "Collaborative projects, service-learning, and community engagement experiences"
     },
     "LocalGlobal": {
       "hex": "#D97706",
       "rgb": "217, 119, 6",
       "emoji": "🌍",
-      "label": "Local & Global Engagement"
+      "label": "Local & Global Engagement",
+      "description": "Study abroad, field work, and real-world site applications beyond campus"
     },
     "Identity": {
       "hex": "#7C3AED",
       "rgb": "124, 58, 237",
       "emoji": "💼",
-      "label": "Professional Identity"
+      "label": "Professional Identity",
+      "description": "Career prep, licensure readiness, portfolio development, and professional practice"
     }
   },
   "validationType": "licensure",

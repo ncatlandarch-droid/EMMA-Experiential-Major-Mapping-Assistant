@@ -924,6 +924,36 @@
   padding: var(--space-md) var(--space-xl);
 }
 
+/* ── Category Legend Strip (above phase grid) ── */
+.category-legend-strip {
+  margin-bottom: var(--space-lg);
+}
+
+.category-legend-strip .category-legend-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-md);
+}
+
+.category-legend-item {
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-md);
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.category-legend-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--theme-text-primary);
+  margin-bottom: 2px;
+}
+
+.category-legend-desc {
+  font-size: 0.68rem;
+  color: var(--theme-text-secondary);
+  line-height: 1.4;
+}
+
 /* Resource links in center: responsive grid */
 .center-utility-card .utility-links-container {
   display: grid;
