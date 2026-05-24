@@ -808,20 +808,9 @@
   flex-direction: column;
   align-items: center;
   gap: var(--space-sm);
-  padding: var(--space-lg) var(--space-md) var(--space-md);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-  flex-shrink: 0; /* Never shrinks — always visible */
+  padding: var(--space-lg) var(--space-sm) var(--space-md);
+  flex-shrink: 0;
   background: var(--theme-surface);
-}
-
-/* Everything below Emma scrolls independently */
-.utility-panel-scrollable {
-  flex: 1;
-  overflow-y: auto;
-  padding: var(--space-md);
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-md);
 }
 
 /* ── Center Canvas ── */
@@ -830,6 +819,38 @@
   overflow-x: hidden;
   padding: var(--space-xl);
   scroll-behavior: smooth;
+}
+
+/* ── Center Utility Sections (moved from left panel) ── */
+.center-utility-sections {
+  margin-top: var(--space-xl);
+  padding-top: var(--space-xl);
+  border-top: 2px solid rgba(var(--theme-primary-rgb), 0.12);
+}
+
+.center-utility-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-lg);
+}
+
+.center-utility-card {
+  background: var(--theme-surface);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.center-utility-card.full-width {
+  margin-bottom: var(--space-lg);
+}
+
+.center-utility-card .utility-links-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--space-md);
 }
 
 .canvas-title-row {

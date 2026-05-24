@@ -97,7 +97,7 @@
 
   /* ── Layout ── */
   --header-height: 64px;
-  --utility-panel-width: 340px;
+  --utility-panel-width: 180px;
   --validation-panel-width: 360px;
   --utility-rail-width: 64px;
 }

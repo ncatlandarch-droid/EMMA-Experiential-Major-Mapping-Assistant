@@ -94,7 +94,7 @@
     <!-- 3-PANEL BODY -->
     <div class="app-body">
 
-      <!-- LEFT: Utility Panel -->
+      <!-- LEFT: Emma Panel -->
       <aside class="utility-panel" id="utility-panel">
         <div class="utility-panel-avatar">
           <div class="avatar-wrapper" id="emma-avatar" title="Click to hear Emma speak">
@@ -113,23 +113,6 @@
             <p class="emma-says-text" id="emma-ticker-text">Hello! I am EMMA, your Experiential Major Mapping Assistant. Click a milestone to begin.</p>
           </div>
           <span class="emma-voice-status" id="emma-voice-status"></span>
-        </div>
-        <div class="utility-panel-scrollable">
-          <div class="utility-section">
-            <h3 class="utility-section-title">Category Legend</h3>
-            <div id="category-legend-items" class="category-legend-items"></div>
-          </div>
-          <div class="utility-section">
-            <h3 class="utility-section-title">ASLA Knowledge Areas</h3>
-            <div id="asla-category-list" class="asla-category-list"></div>
-          </div>
-          <div class="utility-section">
-            <h3 class="utility-section-title">Resources &amp; Links</h3>
-            <div id="utility-links-container" class="utility-links-container"></div>
-          </div>
-          <div class="utility-section" style="margin-top:auto; padding-top:var(--space-md); border-top:1px solid rgba(0,0,0,0.06);">
-            <span id="resource-progress-count" class="resource-progress-count"></span>
-          </div>
         </div>
       </aside>
 
@@ -153,6 +136,27 @@
           <button class="btn btn-outline" id="btn-export-pdf" title="Download your progress report as PDF">Export PDF</button>
         </div>
         <div class="phase-grid" id="phase-grid"></div>
+
+        <!-- Utility Content (moved from left panel for visibility) -->
+        <div class="center-utility-sections">
+          <div class="center-utility-row">
+            <div class="center-utility-card">
+              <h3 class="utility-section-title">Category Legend</h3>
+              <div id="category-legend-items" class="category-legend-items"></div>
+            </div>
+            <div class="center-utility-card">
+              <h3 class="utility-section-title">ASLA Knowledge Areas</h3>
+              <div id="asla-category-list" class="asla-category-list"></div>
+            </div>
+          </div>
+          <div class="center-utility-card full-width">
+            <h3 class="utility-section-title">Resources &amp; Links</h3>
+            <div id="utility-links-container" class="utility-links-container"></div>
+            <div style="margin-top:var(--space-sm);">
+              <span id="resource-progress-count" class="resource-progress-count"></span>
+            </div>
+          </div>
+        </div>
       </section>
 
       <!-- RIGHT: ISLA Validation Bridge -->
