@@ -862,13 +862,6 @@
   gap: 6px;
 }
 
-/* ASLA list in center: compact grid */
-.center-utility-card .asla-category-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-
 /* Compact legend: horizontal chip row */
 .center-utility-card.compact-legend {
   padding: var(--space-md) var(--space-xl);

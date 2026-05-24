@@ -320,7 +320,7 @@ const EMMA_UTILITY = (() => {
           🏆 ASLA Award Categories for Capstone
           <span class="sfric-toggle-arrow">▶</span>
         </button>
-        <div class="sfric-asla-list" id="asla-category-list" style="display:none;">
+        <div class="sfric-asla-list" id="asla-awards-list" style="display:none;">
           ${aslaCategories.map(cat => `
             <div class="sfric-asla-item">
               <div class="sfric-asla-name">${escapeHtml(cat.name)}</div>
@@ -338,7 +338,7 @@ const EMMA_UTILITY = (() => {
 
       // Toggle behavior
       aslaSection.querySelector('#asla-toggle-btn').addEventListener('click', () => {
-        const list = document.getElementById('asla-category-list');
+        const list = document.getElementById('asla-awards-list');
         const arrow = aslaSection.querySelector('.sfric-toggle-arrow');
         const isHidden = list.style.display === 'none';
         list.style.display = isHidden ? 'block' : 'none';
