@@ -71,26 +71,6 @@
       </div>
     </header>
 
-    <!-- CAREER OUTLOOK STRIP -->
-    <div class="career-outlook-strip" id="career-outlook-strip" style="display:none;">
-      <div class="career-stat">
-        <span class="career-stat-label">Median Salary</span>
-        <span class="career-stat-value" id="outlook-salary">-</span>
-      </div>
-      <div class="career-stat">
-        <span class="career-stat-label">Job Growth</span>
-        <span class="career-stat-value" id="outlook-growth">-</span>
-      </div>
-      <div class="career-stat">
-        <span class="career-stat-label">Employment</span>
-        <span class="career-stat-value" id="outlook-employment">-</span>
-      </div>
-      <div class="career-stat">
-        <span class="career-stat-label">Field</span>
-        <span class="career-stat-value" id="outlook-field">-</span>
-      </div>
-    </div>
-
     <!-- 3-PANEL BODY -->
     <div class="app-body">
 
@@ -129,7 +109,9 @@
 
       <!-- CENTER: Canvas -->
       <section class="center-canvas" id="center-canvas">
+        <!-- UNIFIED PROGRESS + CAREER HERO -->
         <div class="progress-hero" id="progress-hero" title="Click for progress report" style="cursor:pointer;">
+          <div class="progress-hero-field-name" id="outlook-field" style="font-size:0.7rem; font-weight:700; color:var(--theme-primary); text-transform:uppercase; letter-spacing:0.08em; text-align:center; margin-bottom:2px;">—</div>
           <div class="progress-hero-top">
             <span class="progress-hero-title">Overall Progress</span>
             <span class="progress-hero-count" id="progress-hero-count">0 / 0 items</span>
@@ -138,6 +120,23 @@
             <div class="progress-hero-bar-fill" id="header-progress-fill" style="width:0%"></div>
           </div>
           <span class="header-progress-label" id="header-progress-label" style="font-size:0.8rem; font-weight:700; color:var(--theme-primary); text-align:center;">0%</span>
+          <!-- Career stats row — merged into progress hero -->
+          <div class="progress-career-row" id="career-outlook-strip">
+            <div class="progress-career-stat">
+              <span class="progress-career-value" id="outlook-salary">—</span>
+              <span class="progress-career-label">Median Salary</span>
+            </div>
+            <div class="progress-career-divider"></div>
+            <div class="progress-career-stat">
+              <span class="progress-career-value" id="outlook-growth">—</span>
+              <span class="progress-career-label">Job Growth</span>
+            </div>
+            <div class="progress-career-divider"></div>
+            <div class="progress-career-stat">
+              <span class="progress-career-value" id="outlook-employment">—</span>
+              <span class="progress-career-label">Employment</span>
+            </div>
+          </div>
         </div>
         <div class="canvas-title-row">
           <div>

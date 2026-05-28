@@ -1,10 +1,11 @@
 /**
- * EMMA C2C — Firebase Configuration
- * Project: EMMA c2c (emma-c2c)
+ * EMMA — Firebase Configuration
+ * Project: Think! Design and Planning (think--design-and-planning)
+ * Owner: Think! Design and Planning, LLC
  * 
- * This file initializes Firebase services for the EMMA platform:
- * - Firestore: Multi-program document store for milestones, branding, timelines
- * - Auth: Anonymous (students) + Email/Password (faculty admin)
+ * Services:
+ * - Firestore: Student progress, milestone tracking
+ * - Auth: Google SSO (faculty/staff) + Anonymous (students)
  * - Analytics: Usage tracking
  */
 
@@ -12,13 +13,13 @@
 // Loaded via <script> tags in index.html before this file
 
 const FIREBASE_CONFIG = {
-  apiKey: "AIzaSyBz8SlTV94u1n1U-nTxSRvJchLw41fBREM",
-  authDomain: "emma-c2c.firebaseapp.com",
-  projectId: "emma-c2c",
-  storageBucket: "emma-c2c.firebasestorage.app",
-  messagingSenderId: "801338727299",
-  appId: "1:801338727299:web:b9dc3ce4265810917034b6",
-  measurementId: "G-EPHM30CNRD"
+  apiKey: "AIzaSyBGXTMyk4bPeU8Q4P3Iyb0pLKFD2imzIo4",
+  authDomain: "think--design-and-planning.firebaseapp.com",
+  projectId: "think--design-and-planning",
+  storageBucket: "think--design-and-planning.firebasestorage.app",
+  messagingSenderId: "582582370434",
+  appId: "1:582582370434:web:114bb9d97de06f9f4cb49b",
+  measurementId: "G-2P5CYY50RL"
 };
 
 // Initialize Firebase
@@ -38,4 +39,4 @@ db.enablePersistence({ synchronizeTabs: true })
     }
   });
 
-console.log('[EMMA] Firebase initialized — project: emma-c2c');
+console.log('[EMMA] Firebase initialized — project: think--design-and-planning');

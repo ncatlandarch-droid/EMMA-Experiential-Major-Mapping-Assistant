@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Generate EMMA Journey Mapping Presentation</title>
+  <script src="https://cdn.jsdelivr.net/gh/gitbrent/PptxGenJS@3.12.0/dist/pptxgen.bundle.js"></script>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; background: #0a0a1a; color: white; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; }
+    .container { text-align: center; max-width: 600px; }
+    h1 { font-size: 2rem; margin-bottom: 8px; }
+    p { color: #aaa; margin-bottom: 32px; }
+    button { padding: 16px 48px; font-size: 1.1rem; font-weight: 700; background: linear-gradient(135deg, #004684, #005a9e); color: #FDB927; border: 2px solid #FDB927; border-radius: 12px; cursor: pointer; transition: all 0.3s; }
+    button:hover { background: #FDB927; color: #004684; transform: scale(1.05); }
+    .status { margin-top: 20px; color: #4ade80; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>🎓 EMMA — Journey Mapping Presentation</h1>
+  <p>NC A&T Branded — 7 Slides, Gemini Structure</p>
+  <button onclick="generatePPTX()">⬇️ Generate & Download .pptx</button>
+  <div class="status" id="status"></div>
+</div>
+
+<script>
+function generatePPTX() {
+  document.getElementById('status').textContent = 'Building slides...';
+
+  const pptx = new PptxGenJS();
+  pptx.author = 'W. Christopher Harrison';
+  pptx.company = 'North Carolina Agricultural and Technical State University';
+  pptx.title = 'EMMA — Student Experiential Journey Mapping';
+  pptx.subject = 'Journey Mapping Committee Presentation';
+  pptx.layout = 'LAYOUT_WIDE'; // 13.33 x 7.5
+
+  // ═══════════════════════════════════════
+  // NC A&T OFFICIAL BRAND COLORS
+  // ═══════════════════════════════════════
+  const AGGIE_BLUE   = '004684';
+  const AGGIE_GOLD   = 'FDB927';
+  const WHITE        = 'FFFFFF';
+  const DARK         = '0a0e1a';
+  const LIGHT_BG     = 'F0F4F8';
+  const DARK_BLUE    = '002d56';
+  const MID_BLUE     = '005a9e';
+  const GREEN        = '059669';
+  const PURPLE       = '7C3AED';
+  const AMBER        = 'D97706';
+  const RED          = 'DC2626';
+
+  // ═══════════════════════════════════════
+  // LAYOUT HELPERS
+  // ═══════════════════════════════════════
+  function addAngledAccent(slide, color = AGGIE_GOLD) {
+    slide.addShape(pptx.ShapeType.rtTriangle, {
+      x: 10.5, y: 0, w: 2.83, h: 7.5,
+      fill: { color: color, transparency: 85 },
+      rotate: 0
+    });
+  }
+
+  function addBrandFooter(slide, darkMode = false) {
+    const bgColor = darkMode ? DARK_BLUE : AGGIE_BLUE;
+    slide.addShape(pptx.ShapeType.rect, { x: 0, y: 6.9, w: 13.33, h: 0.6, fill: { color: bgColor } });
+    slide.addShape(pptx.ShapeType.rect, { x: 0, y: 6.88, w: 13.33, h: 0.03, fill: { color: AGGIE_GOLD } });
+    slide.addText('NORTH CAROLINA AGRICULTURAL AND TECHNICAL STATE UNIVERSITY', {
+      x: 0.5, y: 6.95, w: 8, h: 0.4,
+      fontSize: 7.5, color: AGGIE_GOLD, fontFace: 'Calibri', align: 'left', letterSpacing: 3, bold: true
+    });
+    slide.addText('AGGIES DO.', {
+      x: 10.5, y: 6.95, w: 2.5, h: 0.4,
+      fontSize: 9, color: AGGIE_GOLD, fontFace: 'Calibri', align: 'right', bold: true, letterSpacing: 2
+    });
+  }
+
+  function addGoldTopBar(slide) {
+    slide.addShape(pptx.ShapeType.rect, { x: 0, y: 0, w: 13.33, h: 0.06, fill: { color: AGGIE_GOLD } });
+  }
+
+  function addBlueLeftBar(slide) {
+    slide.addShape(pptx.ShapeType.rect, { x: 0, y: 0, w: 0.15, h: 7.5, fill: { color: AGGIE_BLUE } });
+  }
+
+  function sectionLabel(slide, text) {
+    slide.addText(text, {
+      x: 0.6, y: 0.3, w: 10, h: 0.35,
+      fontSize: 10, fontFace: 'Calibri', color: AGGIE_GOLD, bold: true, letterSpacing: 5
+    });
+    slide.addShape(pptx.ShapeType.rect, { x: 0.6, y: 0.72, w: 2.5, h: 0.03, fill: { color: AGGIE_GOLD } });
+  }
+
+
+  // ╔═══════════════════════════════════════════════════════╗
+  // ║  SLIDE 1 — TITLE                                     ║
+  // ╚═══════════════════════════════════════════════════════╝
+  let slide = pptx.addSlide();
+  slide.background = { fill: AGGIE_BLUE };
+  addGoldTopBar(slide);
+  addAngledAccent(slide, AGGIE_GOLD);
+
+  // University name
+  slide.addText('NORTH CAROLINA A&T STATE UNIVERSITY', {
+    x: 0.8, y: 0.5, w: 10, h: 0.4,
+    fontSize: 10, fontFace: 'Calibri', color: AGGIE_GOLD, bold: true, letterSpacing: 4
+  });
+  slide.addText('COLLEGE OF AGRICULTURE & ENVIRONMENTAL SCIENCES', {
+    x: 0.8, y: 0.88, w: 10, h: 0.3,
+    fontSize: 8, fontFace: 'Calibri', color: WHITE, letterSpacing: 3, transparency: 25
+  });
+
+  slide.addShape(pptx.ShapeType.rect, { x: 0.8, y: 1.35, w: 3.5, h: 0.04, fill: { color: AGGIE_GOLD } });
+
+  // Title
+  slide.addText('EMMA', {
+    x: 0.8, y: 1.6, w: 9, h: 1.2,
+    fontSize: 64, fontFace: 'Calibri', color: WHITE, bold: true
+  });
+  slide.addText('Student Experiential\nJourney Mapping', {
+    x: 0.8, y: 2.7, w: 9, h: 1.4,
+    fontSize: 34, fontFace: 'Calibri Light', color: WHITE, lineSpacingMultiple: 1.1
+  });
+
+  // Subtitle
+  slide.addText('Experiential Major Mapping Assistant', {
+    x: 0.8, y: 4.1, w: 9, h: 0.5,
+    fontSize: 17, fontFace: 'Calibri', color: AGGIE_GOLD, italic: true
+  });
+
+  slide.addShape(pptx.ShapeType.rect, { x: 0.8, y: 4.85, w: 2.5, h: 0.03, fill: { color: AGGIE_GOLD } });
+
+  // Presenter
+  slide.addText('W. Christopher Harrison, MLA\nAssistant Professor\nDepartment of Natural Resources & Environmental Design', {
+    x: 0.8, y: 5.1, w: 8, h: 1.0,
+    fontSize: 11, fontFace: 'Calibri', color: WHITE, lineSpacingMultiple: 1.4, transparency: 10
+  });
+
+  slide.addText('thinkemma.app', {
+    x: 0.8, y: 6.2, w: 3, h: 0.4,
+    fontSize: 15, fontFace: 'Calibri', color: AGGIE_GOLD, bold: true
+  });
+
+  // Footer
+  slide.addShape(pptx.ShapeType.rect, { x: 0, y: 6.9, w: 13.33, h: 0.6, fill: { color: DARK_BLUE } });
+  slide.addShape(pptx.ShapeType.rect, { x: 0, y: 6.88, w: 13.33, h: 0.03, fill: { color: AGGIE_GOLD } });
+  slide.addText('Student Experiential Journey Mapping Project  •  May 2026', {
+    x: 0.5, y: 6.95, w: 12, h: 0.4,
+    fontSize: 8, color: AGGIE_GOLD, fontFace: 'Calibri', align: 'center', letterSpacing: 2
+  });
+
+
+  // ╔═══════════════════════════════════════════════════════╗
+  // ║  SLIDE 2 — THE CHALLENGE                             ║
+  // ╚═══════════════════════════════════════════════════════╝
+  slide = pptx.addSlide();
+  slide.background = { fill: DARK };
+  addGoldTopBar(slide);
+  addBrandFooter(slide, true);
+  addAngledAccent(slide, AGGIE_BLUE);
+
+  sectionLabel(slide, 'THE CHALLENGE');
+
+  slide.addText('Siloed Data.\nFragmented Tracking.\nNo Unified View.', {
+    x: 0.8, y: 1.0, w: 10, h: 2.0,
+    fontSize: 36, fontFace: 'Calibri Light', color: WHITE, bold: true, lineSpacingMultiple: 1.15
+  });
+
+  slide.addShape(pptx.ShapeType.rect, { x: 0.8, y: 3.15, w: 3, h: 0.03, fill: { color: AGGIE_GOLD } });
+
+  // Problem cards - left column
+  const leftProblems = [
+    { icon: '📄', title: 'Static Journey Maps', desc: 'Printed PDFs with no interactivity,\nno progress tracking, no updates' },
+    { icon: '🔒', title: 'Siloed Systems', desc: 'Advising notes in one place, transcripts\nin another, experiences untracked' },
+    { icon: '👤', title: 'Every Advisor Is Different', desc: 'No consistent way to track or\ncredential experiential completion' },
+  ];
+
+  // Problem cards - right column
+  const rightProblems = [
+    { icon: '📊', title: 'No Engagement Data', desc: 'Faculty can\'t see which students are\ngaining experiences — or missing them' },
+    { icon: '🔗', title: 'No Career Connection', desc: 'Students don\'t see how experiences\nconnect to career outcomes' },
+    { icon: '🏫', title: 'College-by-College', desc: 'Each of 9 colleges maps it differently —\nno scalable platform exists' },
+  ];
+
+  leftProblems.forEach((p, i) => {
+    const y = 3.4 + (i * 1.05);
+    slide.addShape(pptx.ShapeType.rect, { x: 0.6, y: y, w: 5.6, h: 0.9, fill: { color: DARK_BLUE }, rectRadius: 0.08 });
+    slide.addText(`${p.icon}  ${p.title}`, { x: 0.8, y: y + 0.08, w: 5, h: 0.32, fontSize: 13, fontFace: 'Calibri', color: AGGIE_GOLD, bold: true });
+    slide.addText(p.desc, { x: 0.8, y: y + 0.42, w: 5, h: 0.42, fontSize: 10, fontFace: 'Calibri', color: WHITE, transparency: 15, lineSpacingMultiple: 1.2 });
+  });
+
+  rightProblems.forEach((p, i) => {
+    const y = 3.4 + (i * 1.05);
+    slide.addShape(pptx.ShapeType.rect, { x: 6.5, y: y, w: 5.6, h: 0.9, fill: { color: DARK_BLUE }, rectRadius: 0.08 });
+    slide.addText(`${p.icon}  ${p.title}`, { x: 6.7, y: y + 0.08, w: 5, h: 0.32, fontSize: 13, fontFace: 'Calibri', color: AGGIE_GOLD, bold: true });
+    slide.addText(p.desc, { x: 6.7, y: y + 0.42, w: 5, h: 0.42, fontSize: 10, fontFace: 'Calibri', color: WHITE, transparency: 15, lineSpacingMultiple: 1.2 });
+  });
+
+
+  // ╔═══════════════════════════════════════════════════════╗
+  // ║  SLIDE 3 — EMMA CAPABILITY (Two-Column)              ║
+  // ╚═══════════════════════════════════════════════════════╝
+  slide = pptx.addSlide();
+  slide.background = { fill: WHITE };
+  addGoldTopBar(slide);
+  addBrandFooter(slide);
+  addBlueLeftBar(slide);
+
+  sectionLabel(slide, 'EMMA CAPABILITY');
+
+  slide.addText('Interactive Journey Mapping — Built for NC A&T', {
+    x: 0.6, y: 0.9, w: 11, h: 0.5,
+    fontSize: 24, fontFace: 'Calibri', color: AGGIE_BLUE, bold: true
+  });
+
+  slide.addShape(pptx.ShapeType.rect, { x: 0.6, y: 1.5, w: 11, h: 0.02, fill: { color: AGGIE_GOLD } });
+
+  // LEFT COLUMN — Features
+  slide.addShape(pptx.ShapeType.rect, { x: 0.6, y: 1.7, w: 5.8, h: 4.7, fill: { color: LIGHT_BG }, rectRadius: 0.1 });
+  slide.addText('INTERACTIVE FEATURES', {
+    x: 0.8, y: 1.85, w: 5.4, h: 0.35,
+    fontSize: 10, fontFace: 'Calibri', color: AGGIE_BLUE, bold: true, letterSpacing: 3
+  });
+  slide.addShape(pptx.ShapeType.rect, { x: 0.8, y: 2.25, w: 2, h: 0.02, fill: { color: AGGIE_GOLD } });
+
+  const features = [
+    { icon: '🗺️', title: 'Dynamic Milestone Tracking', desc: '4-year journey organized by phase:\nExplore → Engage → Develop → Launch' },
+    { icon: '🎓', title: 'Major-Specific Guidance', desc: '16 CAES programs loaded with real\ncurriculum data, BLS codes, and career paths' },
+    { icon: '📊', title: 'Visualized Progress', desc: 'Animated SVG rings, stat blocks,\nand category-based completion tracking' },
+    { icon: '🎤', title: 'AI Voice Coaching', desc: 'Gemini Neural TTS avatar speaks,\ncelebrates, and guides students' },
+    { icon: '💰', title: 'Live Career Data', desc: 'Bureau of Labor Statistics API\nauto-populates salary & job outlook' },
+  ];
+
+  features.forEach((f, i) => {
+    const y = 2.45 + (i * 0.75);
+    slide.addText(`${f.icon}  ${f.title}`, { x: 0.9, y: y, w: 5.2, h: 0.28, fontSize: 12, fontFace: 'Calibri', color: AGGIE_BLUE, bold: true });
+    slide.addText(f.desc, { x: 1.3, y: y + 0.28, w: 4.8, h: 0.4, fontSize: 9.5, fontFace: 'Calibri', color: '555770', lineSpacingMultiple: 1.2 });
+  });
+
+  // RIGHT COLUMN — What Students See
+  slide.addShape(pptx.ShapeType.rect, { x: 6.7, y: 1.7, w: 5.5, h: 4.7, fill: { color: AGGIE_BLUE }, rectRadius: 0.1 });
+  slide.addText('WHAT STUDENTS SEE', {
+    x: 6.9, y: 1.85, w: 5, h: 0.35,
+    fontSize: 10, fontFace: 'Calibri', color: AGGIE_GOLD, bold: true, letterSpacing: 3
+  });
+  slide.addShape(pptx.ShapeType.rect, { x: 6.9, y: 2.25, w: 2, h: 0.02, fill: { color: AGGIE_GOLD } });
+
+  const studentView = [
+    { step: '①', text: 'Select their college & program' },
+    { step: '②', text: 'See their personalized 4-year map' },
+    { step: '③', text: 'Check milestones as completed' },
+    { step: '④', text: 'Progress rings animate in real time' },
+    { step: '⑤', text: 'Emma avatar speaks encouragement' },
+    { step: '⑥', text: 'Career strip shows salary & growth' },
+    { step: '⑦', text: 'Export PDF for advising/employers' },
+  ];
+
+  studentView.forEach((s, i) => {
+    const y = 2.5 + (i * 0.52);
+    slide.addShape(pptx.ShapeType.rect, { x: 6.9, y: y, w: 5, h: 0.42, fill: { color: MID_BLUE }, rectRadius: 0.05 });
+    slide.addText(`${s.step}  ${s.text}`, {
+      x: 7.1, y: y, w: 4.6, h: 0.42,
+      fontSize: 12, fontFace: 'Calibri', color: WHITE, valign: 'middle'
+    });
+  });
+
+  // "16 programs live" callout
+  slide.addShape(pptx.ShapeType.rect, { x: 6.9, y: 6.1, w: 5, h: 0.45, fill: { color: AGGIE_GOLD }, rectRadius: 0.05 });
+  slide.addText('16 CAES programs loaded  •  thinkemma.app', {
+    x: 6.9, y: 6.1, w: 5, h: 0.45,
+    fontSize: 11, fontFace: 'Calibri', color: AGGIE_BLUE, bold: true, align: 'center', valign: 'middle'
+  });
+
+
+  // ╔═══════════════════════════════════════════════════════╗
+  // ║  SLIDE 4 — DATA ARCHITECTURE (Table)                 ║
+  // ╚═══════════════════════════════════════════════════════╝
+  slide = pptx.addSlide();
+  slide.background = { fill: WHITE };
+  addGoldTopBar(slide);
+  addBrandFooter(slide);
+  addBlueLeftBar(slide);
+
+  sectionLabel(slide, 'DATA ARCHITECTURE');
+
+  slide.addText('What EMMA Tracks — Real Data, Real Sources', {
+    x: 0.6, y: 0.9, w: 11, h: 0.5,
+    fontSize: 24, fontFace: 'Calibri', color: AGGIE_BLUE, bold: true
+  });
+
+  slide.addShape(pptx.ShapeType.rect, { x: 0.6, y: 1.5, w: 11, h: 0.02, fill: { color: AGGIE_GOLD } });
+
+  // Table header
+  slide.addShape(pptx.ShapeType.rect, { x: 0.6, y: 1.7, w: 11.5, h: 0.45, fill: { color: AGGIE_BLUE }, rectRadius: 0.03 });
+  slide.addText('Data Metric', { x: 0.8, y: 1.7, w: 3.5, h: 0.45, fontSize: 11, fontFace: 'Calibri', color: AGGIE_GOLD, bold: true, valign: 'middle' });
+  slide.addText('What EMMA Stores', { x: 4.3, y: 1.7, w: 4.5, h: 0.45, fontSize: 11, fontFace: 'Calibri', color: AGGIE_GOLD, bold: true, valign: 'middle' });
+  slide.addText('Source System', { x: 8.8, y: 1.7, w: 3.2, h: 0.45, fontSize: 11, fontFace: 'Calibri', color: AGGIE_GOLD, bold: true, valign: 'middle' });
+
+  const dataRows = [
+    ['📋  Course Milestones', '24 courses per program with credits, semester,\ninstructor, LAAB standards, learning objectives', 'Curriculum data files\n(faculty-verified JSON)'],
+    ['📊  Career Outlook', 'BLS code, median salary, growth rate,\ntop employers, certifications, key skills', 'Bureau of Labor Statistics\nAPI (live fetch)'],
+    ['🎯  Experiential Categories', '4 categories: Purpose, Communities,\nLocal & Global, Professional Identity', 'University experiential\nlearning framework'],
+    ['📈  Student Progress', 'Per-milestone check-off, completion %,\ncategory breakdown, timestamps', 'Student interaction\n(localStorage + Firestore)'],
+    ['🏛️  Accreditation Mapping', 'LAAB standards (LA), ABET (Engineering),\nACEND (Nutrition), DPI (Teaching)', 'Accreditation body\npublished standards'],
+    ['🌱  Field Opportunities', 'SFRIC projects, student roles, applicable\ncourses, site locations, AVA 3D links', 'SFRIC project database\n(faculty-curated)'],
+    ['👤  Advising Notes', 'PDF export with branding, progress summary,\nmilestone audit trail for review', 'Generated on-demand\nfrom student data'],
+    ['🎤  AI Coaching Context', 'Progress state, year, completion %, category\ngaps → personalized voice guidance', 'Gemini API +\npre-recorded WAVs'],
+  ];
+
+  dataRows.forEach((row, i) => {
+    const y = 2.2 + (i * 0.53);
+    const bg = i % 2 === 0 ? LIGHT_BG : WHITE;
+    slide.addShape(pptx.ShapeType.rect, { x: 0.6, y: y, w: 11.5, h: 0.5, fill: { color: bg } });
+    slide.addText(row[0], { x: 0.8, y: y, w: 3.5, h: 0.5, fontSize: 10, fontFace: 'Calibri', color: AGGIE_BLUE, bold: true, valign: 'middle' });
+    slide.addText(row[1], { x: 4.3, y: y, w: 4.5, h: 0.5, fontSize: 8.5, fontFace: 'Calibri', color: '1a1a2e', valign: 'middle', lineSpacingMultiple: 1.1 });
+    slide.addText(row[2], { x: 8.8, y: y, w: 3.2, h: 0.5, fontSize: 8.5, fontFace: 'Calibri', color: '555770', valign: 'middle', italic: true, lineSpacingMultiple: 1.1 });
+  });
+
+  // FERPA footer note
+  slide.addShape(pptx.ShapeType.rect, { x: 0.6, y: 6.55, w: 11.5, h: 0.25, fill: { color: AGGIE_BLUE }, rectRadius: 0.03 });
+  slide.addText('🔒  FERPA Compliant: No PII stored in seed data. Student progress stored locally (localStorage) or in authenticated Firestore with Google SSO.', {
+    x: 0.8, y: 6.55, w: 11, h: 0.25,
+    fontSize: 7.5, fontFace: 'Calibri', color: WHITE, valign: 'middle'
+  });
+
+
+  // ╔═══════════════════════════════════════════════════════╗
+  // ║  SLIDE 5 — ECOSYSTEM (AVA, GRANT, ISLA)              ║
+  // ╚═══════════════════════════════════════════════════════╝
+  slide = pptx.addSlide();
+  slide.background = { fill: AGGIE_BLUE };
+  addGoldTopBar(slide);
+  addAngledAccent(slide, DARK_BLUE);
+
+  sectionLabel(slide, 'THE ECOSYSTEM');
+
+  slide.addText('EMMA Syncs Into a Unified View', {
+    x: 0.6, y: 0.9, w: 8, h: 0.6,
+    fontSize: 28, fontFace: 'Calibri', color: WHITE, bold: true
+  });
+  slide.addText('Four connected platforms scaffold the full arc of professional formation', {
+    x: 0.6, y: 1.5, w: 9, h: 0.35,
+    fontSize: 12, fontFace: 'Calibri', color: WHITE, italic: true, transparency: 20
+  });
+
+  slide.addShape(pptx.ShapeType.rect, { x: 0.6, y: 1.95, w: 3, h: 0.03, fill: { color: AGGIE_GOLD } });
+
+  // LEFT SIDE — 4 App Cards (stacked)
+  const ecosystem = [
+    { name: 'EMMA', emoji: '🎯', sub: 'Experiential Major Mapping Assistant', desc: 'Interactive journey mapping with AI voice coaching,\nlive career data, and milestone tracking', url: 'thinkemma.app', color: AGGIE_GOLD, textColor: AGGIE_BLUE },
+    { name: 'AVA', emoji: '🌍', sub: 'Adaptive Visualization Assistant', desc: 'CesiumJS 3D digital twin + SITES v2 sustainability\nscoring (250 pts, 10 sections)', url: 'ava3-digital-twin.netlify.app', color: MID_BLUE, textColor: WHITE },
+    { name: 'GRANT', emoji: '💰', sub: 'Grant Research & Award Navigation', desc: 'AI-guided funding pipeline — NOI wizard,\nproposal drafting, award tracking', url: 'thinkgranted.app', color: MID_BLUE, textColor: WHITE },
+    { name: 'ISLA', emoji: '📚', sub: 'Interactive Study & Licensure Assistant', desc: 'Adaptive exam prep with SM-2 spaced\nrepetition + Coach Perry AI', url: 'larelab.app', color: MID_BLUE, textColor: WHITE },
+  ];
+
+  ecosystem.forEach((app, i) => {
+    const y = 2.2 + (i * 1.08);
+    slide.addShape(pptx.ShapeType.rect, { x: 0.6, y: y, w: 7.0, h: 0.95, fill: { color: app.color }, rectRadius: 0.08 });
+    slide.addText(`${app.emoji}  ${app.name}`, { x: 0.8, y: y + 0.05, w: 2.5, h: 0.35, fontSize: 18, fontFace: 'Calibri', color: app.textColor, bold: true });
+    slide.addText(app.sub, { x: 3.2, y: y + 0.05, w: 4.2, h: 0.35, fontSize: 9, fontFace: 'Calibri', color: app.textColor, italic: true, valign: 'middle', transparency: 20 });
+    slide.addText(app.desc, { x: 0.8, y: y + 0.42, w: 5, h: 0.45, fontSize: 9, fontFace: 'Calibri', color: app.textColor, transparency: 10, lineSpacingMultiple: 1.15 });
+    slide.addText(app.url, { x: 5.5, y: y + 0.55, w: 2, h: 0.3, fontSize: 9, fontFace: 'Calibri', color: app.textColor, bold: true, align: 'right' });
+  });
+
+  // RIGHT SIDE — How They Connect
+  slide.addShape(pptx.ShapeType.rect, { x: 8.0, y: 2.2, w: 4.5, h: 4.1, fill: { color: DARK_BLUE }, rectRadius: 0.1 });
+  slide.addText('HOW THEY CONNECT', {
+    x: 8.2, y: 2.35, w: 4, h: 0.3,
+    fontSize: 9, fontFace: 'Calibri', color: AGGIE_GOLD, bold: true, letterSpacing: 3
+  });
+  slide.addShape(pptx.ShapeType.rect, { x: 8.2, y: 2.7, w: 2, h: 0.02, fill: { color: AGGIE_GOLD } });
+
+  const connections = [
+    '🎯 EMMA tracks milestones →\n     feeds exam readiness to ISLA',
+    '🌍 AVA site assessments →\n     become EMMA field milestones',
+    '💰 GRANT funds projects →\n     create new SFRIC field placements',
+    '📚 ISLA mastery data →\n     validates EMMA professional domain',
+    '🔄 All platforms share →\n     Firebase Auth + Firestore',
+  ];
+
+  connections.forEach((c, i) => {
+    slide.addText(c, {
+      x: 8.3, y: 2.9 + (i * 0.65), w: 4, h: 0.55,
+      fontSize: 9.5, fontFace: 'Calibri', color: WHITE, lineSpacingMultiple: 1.2
+    });
+  });
+
+  // Footer
+  slide.addShape(pptx.ShapeType.rect, { x: 0, y: 6.9, w: 13.33, h: 0.6, fill: { color: DARK_BLUE } });
+  slide.addShape(pptx.ShapeType.rect, { x: 0, y: 6.88, w: 13.33, h: 0.03, fill: { color: AGGIE_GOLD } });
+  slide.addText('"Isolated tools inform. Connected platforms transform."', {
+    x: 0.5, y: 6.95, w: 12, h: 0.4,
+    fontSize: 9, color: AGGIE_GOLD, fontFace: 'Calibri', align: 'center', italic: true, letterSpacing: 1
+  });
+
+
+  // ╔═══════════════════════════════════════════════════════╗
+  // ║  SLIDE 6 — FEEDBACK ASK                              ║
+  // ╚═══════════════════════════════════════════════════════╝
+  slide = pptx.addSlide();
+  slide.background = { fill: WHITE };
+  addGoldTopBar(slide);
+  addBrandFooter(slide);
+  addBlueLeftBar(slide);
+
+  sectionLabel(slide, 'COLLABORATIVE DESIGN PHASE');
+
+  slide.addText('We Built This for You.\nNow We Need Your Input.', {
+    x: 0.6, y: 0.9, w: 11, h: 1.0,
+    fontSize: 28, fontFace: 'Calibri', color: AGGIE_BLUE, bold: true, lineSpacingMultiple: 1.15
+  });
+
+  slide.addShape(pptx.ShapeType.rect, { x: 0.6, y: 2.0, w: 11, h: 0.02, fill: { color: AGGIE_GOLD } });
+
+  // Three feedback columns
+  const feedbackAreas = [
+    { title: '🔧  Workflow Fit', color: '2563EB', questions: [
+      'Does the 4-category framework\n(Purpose, Communities, Local & Global,\nIdentity) align with your program?',
+      'What milestones matter most\nfor YOUR students?',
+      'How do you currently track\nexperiential engagement?',
+    ]},
+    { title: '👤  Usability', color: GREEN, questions: [
+      'Would students actually use this\nvoluntarily — or need it assigned?',
+      'Should AI coaching be opt-in\nor always-on?',
+      'Is the PDF export useful for\nyour advising process?',
+    ]},
+    { title: '🎯  Strategic Impact', color: PURPLE, questions: [
+      'How does this support your\naccreditation self-study?',
+      'Would Canvas LTI integration\nchange your adoption calculus?',
+      'Could this help with retention\nand student success metrics?',
+    ]},
+  ];
+
+  feedbackAreas.forEach((area, i) => {
+    const x = 0.6 + (i * 4.1);
+    // Header
+    slide.addShape(pptx.ShapeType.rect, { x: x, y: 2.3, w: 3.9, h: 0.5, fill: { color: area.color }, rectRadius: 0.06 });
+    slide.addText(area.title, { x: x, y: 2.3, w: 3.9, h: 0.5, fontSize: 13, fontFace: 'Calibri', color: WHITE, bold: true, align: 'center', valign: 'middle' });
+    // Question cards
+    area.questions.forEach((q, j) => {
+      const y = 2.95 + (j * 1.15);
+      slide.addShape(pptx.ShapeType.rect, { x: x, y: y, w: 3.9, h: 1.0, fill: { color: LIGHT_BG }, rectRadius: 0.06 });
+      slide.addText(q, {
+        x: x + 0.15, y: y + 0.08, w: 3.6, h: 0.85,
+        fontSize: 10.5, fontFace: 'Calibri', color: '1a1a2e', lineSpacingMultiple: 1.25, valign: 'middle'
+      });
+    });
+  });
+
+  // Bottom CTA
+  slide.addShape(pptx.ShapeType.rect, { x: 1.5, y: 6.25, w: 9, h: 0.45, fill: { color: AGGIE_GOLD }, rectRadius: 0.05 });
+  slide.addText('Your journey maps + EMMA\'s platform = a system that works for every college.', {
+    x: 1.5, y: 6.25, w: 9, h: 0.45,
+    fontSize: 12, fontFace: 'Calibri', color: AGGIE_BLUE, bold: true, align: 'center', valign: 'middle'
+  });
+
+
+  // ╔═══════════════════════════════════════════════════════╗
+  // ║  SLIDE 7 — Q&A                                       ║
+  // ╚═══════════════════════════════════════════════════════╝
+  slide = pptx.addSlide();
+  slide.background = { fill: AGGIE_BLUE };
+  addGoldTopBar(slide);
+  addAngledAccent(slide, AGGIE_GOLD);
+
+  slide.addText('Questions?', {
+    x: 0, y: 1.5, w: 13.33, h: 1.5,
+    fontSize: 64, fontFace: 'Calibri Light', color: WHITE, bold: true, align: 'center', valign: 'middle'
+  });
+
+  slide.addShape(pptx.ShapeType.rect, { x: 4.5, y: 3.2, w: 4.33, h: 0.04, fill: { color: AGGIE_GOLD } });
+
+  slide.addText('Let\'s discuss how EMMA can support\nyour students and your programs.', {
+    x: 2, y: 3.6, w: 9.33, h: 1.0,
+    fontSize: 18, fontFace: 'Calibri', color: WHITE, align: 'center', transparency: 10, lineSpacingMultiple: 1.4
+  });
+
+  // Live links
+  const qLinks = [
+    { name: 'EMMA', url: 'thinkemma.app' },
+    { name: 'AVA', url: 'ava3-digital-twin.netlify.app' },
+    { name: 'GRANT', url: 'thinkgranted.app' },
+    { name: 'ISLA', url: 'larelab.app' },
+  ];
+
+  qLinks.forEach((l, i) => {
+    const x = 2.0 + (i * 2.5);
+    slide.addShape(pptx.ShapeType.rect, { x: x, y: 5.0, w: 2.2, h: 0.75, fill: { color: MID_BLUE }, rectRadius: 0.08 });
+    slide.addText(l.name, { x: x, y: 5.0, w: 2.2, h: 0.38, fontSize: 16, fontFace: 'Calibri', color: AGGIE_GOLD, bold: true, align: 'center', valign: 'bottom' });
+    slide.addText(l.url, { x: x, y: 5.38, w: 2.2, h: 0.32, fontSize: 8, fontFace: 'Calibri', color: WHITE, align: 'center', valign: 'top', transparency: 20 });
+  });
+
+  // Footer
+  slide.addShape(pptx.ShapeType.rect, { x: 0, y: 6.9, w: 13.33, h: 0.6, fill: { color: DARK_BLUE } });
+  slide.addShape(pptx.ShapeType.rect, { x: 0, y: 6.88, w: 13.33, h: 0.03, fill: { color: AGGIE_GOLD } });
+  slide.addText('W. Christopher Harrison  •  wcharris@ncat.edu  •  Natural Resources & Environmental Design  •  CAES', {
+    x: 0.5, y: 6.93, w: 10, h: 0.5,
+    fontSize: 8, fontFace: 'Calibri', color: AGGIE_GOLD, align: 'center', letterSpacing: 1
+  });
+  slide.addText('© 2026 Think! Design and Planning, LLC', {
+    x: 10.5, y: 6.93, w: 2.5, h: 0.5,
+    fontSize: 6.5, fontFace: 'Calibri', color: AGGIE_GOLD, align: 'right', transparency: 30
+  });
+
+
+  // ═══════════════════════════════════════
+  // GENERATE FILE
+  // ═══════════════════════════════════════
+  pptx.writeFile({ fileName: 'EMMA_Journey_Mapping_Presentation.pptx' })
+    .then(() => {
+      document.getElementById('status').textContent = '✅ Downloaded! Check your Downloads folder.';
+    })
+    .catch(err => {
+      document.getElementById('status').textContent = '❌ Error: ' + err.message;
+    });
+}
+</script>
+</body>
+</html>

@@ -59,6 +59,11 @@ const EMMA_APP = (() => {
     renderAll();
 
     console.log('[EMMA] ✅ Boot complete');
+
+    // Default to Admin mode for demo (everyone gets edit controls)
+    setDemoRole('admin');
+    const roleSelect = document.getElementById('role-select');
+    if (roleSelect) roleSelect.value = 'admin';
   }
 
   /**
@@ -76,26 +81,17 @@ const EMMA_APP = (() => {
    */
   function renderCareerOutlook() {
     const branding = EMMA_STATE.get('branding');
-    const strip = document.getElementById('career-outlook-strip');
-    if (!strip) return;
-
     const career = branding?.careerOutlook;
-    if (!career) {
-      strip.style.display = 'none';
-      return;
-    }
-
-    strip.style.display = 'flex';
 
     const salary = document.getElementById('outlook-salary');
     const growth = document.getElementById('outlook-growth');
     const employment = document.getElementById('outlook-employment');
     const field = document.getElementById('outlook-field');
 
-    if (salary) salary.textContent = career.medianSalary || '—';
-    if (growth) growth.textContent = career.growthRate || '—';
-    if (employment) employment.textContent = career.totalJobs || career.totalEmployment || '—';
-    if (field) field.textContent = career.field || branding?.programName || '—';
+    if (salary) salary.textContent = career?.medianSalary || '—';
+    if (growth) growth.textContent = career?.growthRate || '—';
+    if (employment) employment.textContent = career?.totalJobs || career?.totalEmployment || '—';
+    if (field) field.textContent = career?.field || branding?.programName || '—';
   }
 
   /**

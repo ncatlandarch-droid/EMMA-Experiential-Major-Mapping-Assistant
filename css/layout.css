@@ -329,6 +329,45 @@
   line-height: 1;
 }
 
+/* ── Progress Career Row (merged into progress hero) ── */
+.progress-career-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  padding-top: 6px;
+  margin-top: 4px;
+  border-top: 1px solid rgba(var(--theme-primary-rgb), 0.08);
+}
+
+.progress-career-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+}
+
+.progress-career-value {
+  font-size: var(--font-scale-sm);
+  font-weight: var(--font-weight-black);
+  color: var(--theme-primary);
+  line-height: 1.2;
+}
+
+.progress-career-label {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--theme-text-secondary);
+  font-weight: var(--font-weight-semibold);
+}
+
+.progress-career-divider {
+  width: 1px;
+  height: 24px;
+  background: rgba(var(--theme-primary-rgb), 0.12);
+}
+
 /* ── Footer ── */
 .app-footer {
   background: var(--theme-primary);
