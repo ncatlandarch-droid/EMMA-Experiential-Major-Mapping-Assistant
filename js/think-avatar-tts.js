@@ -143,13 +143,14 @@ const ThinkAvatarTTS = (() => {
           continue;
         }
         try {
-          // 1. Try pre-recorded WAV
-          if (_preRecorded[item.key]) {
+          // 1. Try pre-recorded WAV — check coachingKey first, then key
+          const lookupKey = item.coachingKey || item.key;
+          if (_preRecorded[lookupKey]) {
             try {
-              await _playFile(_preRecorded[item.key]);
+              await _playFile(_preRecorded[lookupKey]);
               continue;
             } catch (e) {
-              console.log(`[${NAME} TTS] Pre-recorded not found: "${item.key}", trying live...`);
+              console.log(`[${NAME} TTS] Pre-recorded not found: "${lookupKey}", trying live...`);
             }
           }
 

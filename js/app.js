@@ -1,6 +1,9 @@
 /**
  * EMMA C2C — App Orchestrator
  * Boots the application: loads config, initializes modules, wires events.
+ * 
+ * © 2026 Think! Design and Planning, LLC. All rights reserved.
+ * PROPRIETARY AND CONFIDENTIAL. Unauthorized use, copying, or distribution prohibited.
  */
 
 const EMMA_APP = (() => {

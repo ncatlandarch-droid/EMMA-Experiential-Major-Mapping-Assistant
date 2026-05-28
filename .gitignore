@@ -10,6 +10,12 @@ gen-pptx.mjs
 package.json
 package-lock.json
 
+# Demo recordings & temp Chrome profiles
+demos/
+scan-dom.js
+scan-isla.js
+record-demos.js
+
 # OS files
 .DS_Store
 Thumbs.db

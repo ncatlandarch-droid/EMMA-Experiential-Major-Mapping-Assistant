@@ -13,14 +13,12 @@ const EMMA_TTS = (() => {
   // ── Audio Engine (universal module) ──
   let _engine = null;
 
-  // Pre-recorded coaching keys (WAV files in assets/audio/)
+  // Pre-recorded coaching keys (WAV files in assets/audio/coaching/)
+  // NOTE: Generic en-*.wav files removed — they were never generated.
+  // All pre-recorded audio lives in program-specific coaching folders.
   const PRE_RECORDED = {
-    // Generic events
-    'welcome':               'assets/audio/en-welcome.wav',
-    'milestone-checked':     'assets/audio/en-milestone-checked.wav',
-    'competency-verified':   'assets/audio/en-competency-verified.wav',
-    'export-ready':          'assets/audio/en-export-ready.wav',
-    // Welcome variants (selected by progress %)
+    // Welcome variants (selected by progress %) — use coaching files
+    'welcome':               'assets/audio/coaching/caes-la/welcome-first.wav',
     'welcome-first':         'assets/audio/coaching/caes-la/welcome-first.wav',
     'welcome-returning-early': 'assets/audio/coaching/caes-la/welcome-returning-early.wav',
     'welcome-returning-mid': 'assets/audio/coaching/caes-la/welcome-returning-mid.wav',
@@ -283,9 +281,26 @@ const EMMA_TTS = (() => {
     if (typeof opts === 'boolean') opts = { skipChat: opts };
     opts = opts || {};
 
-    // Resolve text from coaching key
+    // Resolve text from coaching key — but PRESERVE the key for pre-recorded lookup
     let text = textOrKey;
-    if (textOrKey === 'welcome') text = COACHING.welcome();
+    let preRecordedKey = opts.coachingKey || null;
+
+    if (textOrKey === 'welcome') {
+      text = COACHING.welcome();
+      // Pick the right welcome WAV based on progress
+      const checked = typeof EMMA_STATE !== 'undefined' ? EMMA_STATE.get('checkedMilestones') : {};
+      const completedCount = Object.values(checked || {}).filter(Boolean).length;
+      if (completedCount === 0) {
+        preRecordedKey = 'welcome-first';
+      } else {
+        const timeline = typeof EMMA_STATE !== 'undefined' ? EMMA_STATE.get('timeline') : null;
+        const total = timeline?.phases?.reduce((s, p) => s + (p.milestones?.length || 0), 0) || 1;
+        const pct = Math.round((completedCount / total) * 100);
+        if (pct < 33) preRecordedKey = 'welcome-returning-early';
+        else if (pct < 66) preRecordedKey = 'welcome-returning-mid';
+        else preRecordedKey = 'welcome-returning-late';
+      }
+    }
 
     // Always post to chat (unless already posted by caller)
     if (!opts.skipChat) postToChat(text);
@@ -295,9 +310,9 @@ const EMMA_TTS = (() => {
       return;
     }
 
-    // Delegate audio to universal engine
-    console.log(`[EMMA TTS] speak() → delegating to engine, text length=${text.length}`);
-    _engine.speak(text, { coachingKey: opts.coachingKey || null });
+    // Delegate audio to universal engine — pass coachingKey for pre-recorded WAV lookup
+    console.log(`[EMMA TTS] speak() → delegating to engine, key=${preRecordedKey}, text length=${text.length}`);
+    _engine.speak(text, { coachingKey: preRecordedKey });
   }
 
   /**
