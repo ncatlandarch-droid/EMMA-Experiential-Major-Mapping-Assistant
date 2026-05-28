@@ -1,10 +1,11 @@
 /**
  * EMMA C2C — Firebase Sync
- * Saves and restores milestone progress to/from Firestore.
+ * Saves and restores milestone progress AND admin timeline edits to/from Firestore.
  */
 
 const EMMA_SYNC = (() => {
   let _saveTimeout = null;
+  let _timelineSaveTimeout = null;
   const DEBOUNCE_MS = 1500;
   let _userId = null;
 
@@ -50,12 +51,94 @@ const EMMA_SYNC = (() => {
             .collection('programs')
             .doc(program)
             .set(snapshot, { merge: true });
-          console.log('[EMMA Sync] Saved to Firestore');
+          console.log('[EMMA Sync] Saved progress to Firestore');
         } catch (err) {
           console.warn('[EMMA Sync] Firestore save failed:', err.message);
         }
       }
     }, DEBOUNCE_MS);
+  }
+
+  /**
+   * Save admin timeline edits to Firestore (debounced).
+   * Called whenever milestones are added, edited, deleted, or reordered.
+   */
+  function saveTimeline() {
+    clearTimeout(_timelineSaveTimeout);
+    _timelineSaveTimeout = setTimeout(async () => {
+      const timeline = EMMA_STATE.get('timeline');
+      const program = EMMA_STATE.get('currentProgram');
+      if (!timeline || !program) return;
+
+      // Save to localStorage
+      try {
+        localStorage.setItem(`emma-timeline-${program}`, JSON.stringify(timeline));
+        console.log('[EMMA Sync] Timeline saved to localStorage');
+      } catch (e) {
+        console.warn('[EMMA Sync] Timeline localStorage save failed');
+      }
+
+      // Save to Firestore
+      if (_userId) {
+        try {
+          await db.collection('timelines')
+            .doc(program)
+            .collection('edits')
+            .doc(_userId)
+            .set({
+              timeline: JSON.stringify(timeline),
+              updatedAt: new Date().toISOString(),
+              updatedBy: _userId
+            });
+          // Also save a shared version (last editor wins for now)
+          await db.collection('timelines')
+            .doc(program)
+            .set({
+              timeline: JSON.stringify(timeline),
+              updatedAt: new Date().toISOString(),
+              updatedBy: _userId
+            });
+          console.log('[EMMA Sync] Timeline saved to Firestore');
+        } catch (err) {
+          console.warn('[EMMA Sync] Timeline Firestore save failed:', err.message);
+        }
+      }
+    }, DEBOUNCE_MS);
+  }
+
+  /**
+   * Load saved timeline edits from Firestore (or localStorage fallback).
+   * Returns the saved timeline or null if none exists.
+   */
+  async function loadTimeline(program) {
+    if (!program) return null;
+
+    // Try Firestore first
+    if (_userId) {
+      try {
+        const doc = await db.collection('timelines').doc(program).get();
+        if (doc.exists && doc.data().timeline) {
+          const timeline = JSON.parse(doc.data().timeline);
+          console.log('[EMMA Sync] Restored timeline from Firestore');
+          return timeline;
+        }
+      } catch (err) {
+        console.warn('[EMMA Sync] Timeline Firestore load failed:', err.message);
+      }
+    }
+
+    // Fallback to localStorage
+    try {
+      const saved = localStorage.getItem(`emma-timeline-${program}`);
+      if (saved) {
+        console.log('[EMMA Sync] Restored timeline from localStorage');
+        return JSON.parse(saved);
+      }
+    } catch (e) {
+      console.warn('[EMMA Sync] Timeline localStorage load failed');
+    }
+
+    return null;
   }
 
   /**
@@ -121,7 +204,7 @@ const EMMA_SYNC = (() => {
   }
 
   // Public API
-  return { init, saveProgress, loadProgress };
+  return { init, saveProgress, loadProgress, saveTimeline, loadTimeline };
 })();
 
 console.log('[EMMA] Firebase sync initialized');

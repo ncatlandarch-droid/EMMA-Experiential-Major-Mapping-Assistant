@@ -303,6 +303,8 @@ const EMMA_ADMIN = (() => {
     EMMA_STATE.set('timeline', timeline);
     closeModal(modal);
     EMMA_MATRIX.render();
+    // Persist timeline edits to Firestore
+    if (typeof EMMA_SYNC !== 'undefined') EMMA_SYNC.saveTimeline();
     // Re-inject admin controls after re-render
     setTimeout(() => { if (_isAdminMode) injectAdminControls(); initDragDrop(); }, 100);
   }
@@ -327,6 +329,8 @@ const EMMA_ADMIN = (() => {
     EMMA_STATE.set('timeline', timeline);
     EMMA_MATRIX.showToast(`🗑️ Deleted: ${result.milestone.label}`, 'success');
     EMMA_MATRIX.render();
+    // Persist timeline edits to Firestore
+    if (typeof EMMA_SYNC !== 'undefined') EMMA_SYNC.saveTimeline();
     setTimeout(() => { if (_isAdminMode) injectAdminControls(); initDragDrop(); }, 100);
   }
 
@@ -388,6 +392,8 @@ const EMMA_ADMIN = (() => {
     EMMA_STATE.set('timeline', timeline);
     EMMA_MATRIX.showToast(`↔️ Moved to ${toPhase.name}`, 'success');
     EMMA_MATRIX.render();
+    // Persist timeline edits to Firestore
+    if (typeof EMMA_SYNC !== 'undefined') EMMA_SYNC.saveTimeline();
     setTimeout(() => { if (_isAdminMode) injectAdminControls(); initDragDrop(); }, 100);
   }
 
@@ -464,6 +470,8 @@ const EMMA_ADMIN = (() => {
 
     EMMA_STATE.set('timeline', timeline);
     EMMA_MATRIX.render();
+    // Persist timeline edits to Firestore
+    if (typeof EMMA_SYNC !== 'undefined') EMMA_SYNC.saveTimeline();
     setTimeout(() => { if (_isAdminMode) injectAdminControls(); initDragDrop(); }, 100);
   }
 

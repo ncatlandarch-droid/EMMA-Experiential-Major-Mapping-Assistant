@@ -111,13 +111,23 @@ const EMMA_CONFIG = (() => {
 
       // Update state
       EMMA_STATE.set('branding', branding);
-      EMMA_STATE.set('timeline', timeline);
       EMMA_STATE.set('matrix', matrix);
       EMMA_STATE.set('resources', resources);
       EMMA_STATE.set('currentProgram', programSlug);
 
+      // Check for saved admin timeline edits (Firestore/localStorage)
+      let activeTimeline = timeline;
+      if (typeof EMMA_SYNC !== 'undefined' && EMMA_SYNC.loadTimeline) {
+        const savedTimeline = await EMMA_SYNC.loadTimeline(programSlug);
+        if (savedTimeline && savedTimeline.phases) {
+          activeTimeline = savedTimeline;
+          console.log('[EMMA Config] Using saved admin timeline edits');
+        }
+      }
+      EMMA_STATE.set('timeline', activeTimeline);
+
       // Initialize checked milestones (all unchecked)
-      const allMilestones = timeline.phases.flatMap(p => p.milestones);
+      const allMilestones = activeTimeline.phases.flatMap(p => p.milestones);
       const checked = {};
       allMilestones.forEach(m => { checked[m.id] = false; });
       EMMA_STATE.restoreChecked(checked);
