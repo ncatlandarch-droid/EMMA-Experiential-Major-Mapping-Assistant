@@ -7,6 +7,7 @@
   "degreeType": "BS",
   "programSlug": "caes-ansc",
   "tagline": "From Lab to Field — Building Tomorrow's Animal Scientists",
+  "programDescription": "The B.S. in Animal Science prepares students for careers in veterinary medicine, animal production, biomedical research, and agricultural management. Through hands-on laboratory work, livestock management at the University Farm, and undergraduate research opportunities, students develop expertise in animal physiology, nutrition, genetics, and reproductive science. The program's proximity to the Small Farm Research and Innovation Center provides unique field experiences with both large and small animal systems.",
   "brandingColors": {
     "primaryHex": "#004684",
     "primaryRgb": "0, 70, 132",
@@ -26,5 +27,35 @@
   "validationType": "competency",
   "validationLabel": "Pre-Veterinary Readiness + Industry Competency",
   "accreditationBody": null,
-  "licensureExam": null
+  "licensureExam": null,
+  "careerOutlook": {
+    "field": "Animal Science",
+    "blsCode": "19-1011",
+    "growthRate": "7% (2022-2032)",
+    "medianSalary": "$72,520",
+    "entryLevelSalary": "$46,000",
+    "topSalary": "$120,000+",
+    "totalJobs": "2,900",
+    "topEmployers": [
+      "USDA Agricultural Research Service", "Zoetis", "Cargill Animal Nutrition",
+      "Elanco", "NC Cooperative Extension", "State Veterinary Diagnostic Labs",
+      "Smithfield Foods", "Tyson Foods"
+    ],
+    "certifications": [
+      "Pre-Veterinary Track (GRE/MCAT prep)",
+      "Certified Animal Scientist (ASAS)",
+      "AI/ET Certification (Artificial Insemination)",
+      "IACUC Training (Research Compliance)"
+    ],
+    "relatedFields": [
+      "Veterinary Medicine", "Biomedical Research", "Animal Nutrition",
+      "Livestock Management", "Pharmaceutical Sciences"
+    ],
+    "keySkills": [
+      "Animal Physiology", "Livestock Nutrition", "Reproductive Science",
+      "Laboratory Techniques", "Herd Management", "Genetics & Breeding",
+      "Research Methods", "Animal Welfare Assessment"
+    ],
+    "outlook": "Animal scientists are essential to advancing food security, veterinary medicine, and biomedical research. HBCU graduates bring critical diversity to agricultural sciences, where minority representation remains historically low."
+  }
 }

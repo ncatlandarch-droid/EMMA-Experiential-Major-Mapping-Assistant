@@ -2,49 +2,56 @@
   "institutionName": "North Carolina Agricultural and Technical State University",
   "abbreviation": "NC A&T",
   "collegeName": "College of Agriculture and Environmental Sciences (CAES)",
-  "departmentName": "Natural Resources and Environmental Design",
-  "programName": "Bachelor of Science in Biological Engineering — Natural Resources Engineering",
+  "departmentName": "Natural Resources & Environmental Design",
+  "programName": "Bachelor of Science in Biological Engineering — Natural Resources",
   "degreeType": "BS",
   "programSlug": "caes-bioe-nr",
-  "tagline": "Soil, Water & Ecological Solutions for a Sustainable Planet",
+  "tagline": "Engineer Solutions for Water, Soil & Ecosystems",
+  "programDescription": "The Natural Resources concentration in Biological Engineering focuses on engineering solutions for water quality, soil conservation, watershed management, and ecological restoration. Students apply engineering design to environmental challenges including stormwater management, erosion control, and water treatment. The ABET-accredited program produces engineers ready to address the most pressing environmental infrastructure needs.",
   "brandingColors": {
-    "primaryHex": "#004684",
-    "primaryRgb": "0, 70, 132",
-    "secondaryHex": "#fdb927",
-    "secondaryRgb": "253, 185, 39",
-    "backgroundHex": "#F0F2F5",
-    "surfaceHex": "#FFFFFF",
-    "textPrimaryHex": "#1A1A2E",
-    "textSecondaryHex": "#555770"
+    "primaryHex": "#004684", "primaryRgb": "0, 70, 132",
+    "secondaryHex": "#fdb927", "secondaryRgb": "253, 185, 39",
+    "backgroundHex": "#F0F2F5", "surfaceHex": "#FFFFFF",
+    "textPrimaryHex": "#1A1A2E", "textSecondaryHex": "#555770"
   },
   "categoryColors": {
-    "Purpose": {
-      "hex": "#2563EB",
-      "rgb": "37, 99, 235",
-      "emoji": "🔍",
-      "label": "Purpose & Self-Discovery"
-    },
-    "Communities": {
-      "hex": "#059669",
-      "rgb": "5, 150, 105",
-      "emoji": "🤝",
-      "label": "Communities & Service"
-    },
-    "LocalGlobal": {
-      "hex": "#D97706",
-      "rgb": "217, 119, 6",
-      "emoji": "🌍",
-      "label": "Local & Global Engagement"
-    },
-    "Identity": {
-      "hex": "#7C3AED",
-      "rgb": "124, 58, 237",
-      "emoji": "💼",
-      "label": "Professional Identity"
-    }
+    "Purpose": { "hex": "#2563EB", "rgb": "37, 99, 235", "emoji": "🔍", "label": "Purpose & Self-Discovery" },
+    "Communities": { "hex": "#059669", "rgb": "5, 150, 105", "emoji": "🤝", "label": "Communities & Service" },
+    "LocalGlobal": { "hex": "#D97706", "rgb": "217, 119, 6", "emoji": "🌍", "label": "Local & Global Engagement" },
+    "Identity": { "hex": "#7C3AED", "rgb": "124, 58, 237", "emoji": "💼", "label": "Professional Identity" }
   },
   "validationType": "licensure",
-  "validationLabel": "ABET Accreditation + FE Exam",
-  "accreditationBody": "ABET",
-  "licensureExam": "FE Exam"
+  "validationLabel": "ABET Accredited + FE Exam Readiness",
+  "accreditationBody": "ABET (Accreditation Board for Engineering and Technology)",
+  "licensureExam": "Fundamentals of Engineering (FE) Exam",
+  "careerOutlook": {
+    "field": "Environmental Engineering",
+    "blsCode": "17-2081",
+    "growthRate": "6% (2022-2032)",
+    "medianSalary": "$96,820",
+    "entryLevelSalary": "$58,000",
+    "topSalary": "$150,000+",
+    "totalJobs": "53,300",
+    "topEmployers": [
+      "US Army Corps of Engineers", "EPA", "AECOM", "Arcadis",
+      "NC DEQ (Dept of Environmental Quality)", "HDR Inc.",
+      "Stantec", "USDA NRCS"
+    ],
+    "certifications": [
+      "Fundamentals of Engineering (FE) Exam",
+      "Professional Engineer (PE) License",
+      "Certified Erosion, Sediment & Storm Water Inspector (CESSWI)",
+      "LEED AP"
+    ],
+    "relatedFields": [
+      "Civil Engineering", "Water Resources Engineering", "Geotechnical Engineering",
+      "Environmental Science", "Watershed Management"
+    ],
+    "keySkills": [
+      "Hydrology & Hydraulics", "Water Treatment Design", "Soil Mechanics",
+      "Stormwater Management", "GIS & Remote Sensing", "AutoCAD/Civil 3D",
+      "Environmental Impact Assessment", "Erosion Control Design"
+    ],
+    "outlook": "Environmental engineers are increasingly critical as communities face climate adaptation, aging water infrastructure, and stricter environmental regulations. The $96K median salary and 6% growth make this one of the highest-paying and most stable engineering fields."
+  }
 }

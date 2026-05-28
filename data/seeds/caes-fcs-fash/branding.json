@@ -2,49 +2,56 @@
   "institutionName": "North Carolina Agricultural and Technical State University",
   "abbreviation": "NC A&T",
   "collegeName": "College of Agriculture and Environmental Sciences (CAES)",
-  "departmentName": "Family and Consumer Sciences",
-  "programName": "Bachelor of Science in FCS — Fashion Merchandising & Design",
+  "departmentName": "Family & Consumer Sciences",
+  "programName": "Bachelor of Science in Family & Consumer Sciences — Fashion Merchandising & Design",
   "degreeType": "BS",
   "programSlug": "caes-fcs-fash",
-  "tagline": "Style, Strategy & Global Markets",
+  "tagline": "Design the Future of Fashion — From Concept to Consumer",
+  "programDescription": "The Fashion Merchandising & Design concentration blends creative design with business strategy, preparing students for careers in fashion retail, product development, visual merchandising, and brand management. Students learn textile science, trend forecasting, fashion illustration, and retail management through studio courses and industry internships with leading fashion brands and retailers.",
   "brandingColors": {
-    "primaryHex": "#004684",
-    "primaryRgb": "0, 70, 132",
-    "secondaryHex": "#fdb927",
-    "secondaryRgb": "253, 185, 39",
-    "backgroundHex": "#F0F2F5",
-    "surfaceHex": "#FFFFFF",
-    "textPrimaryHex": "#1A1A2E",
-    "textSecondaryHex": "#555770"
+    "primaryHex": "#004684", "primaryRgb": "0, 70, 132",
+    "secondaryHex": "#fdb927", "secondaryRgb": "253, 185, 39",
+    "backgroundHex": "#F0F2F5", "surfaceHex": "#FFFFFF",
+    "textPrimaryHex": "#1A1A2E", "textSecondaryHex": "#555770"
   },
   "categoryColors": {
-    "Purpose": {
-      "hex": "#2563EB",
-      "rgb": "37, 99, 235",
-      "emoji": "🔍",
-      "label": "Purpose & Self-Discovery"
-    },
-    "Communities": {
-      "hex": "#059669",
-      "rgb": "5, 150, 105",
-      "emoji": "🤝",
-      "label": "Communities & Service"
-    },
-    "LocalGlobal": {
-      "hex": "#D97706",
-      "rgb": "217, 119, 6",
-      "emoji": "🌍",
-      "label": "Local & Global Engagement"
-    },
-    "Identity": {
-      "hex": "#7C3AED",
-      "rgb": "124, 58, 237",
-      "emoji": "💼",
-      "label": "Professional Identity"
-    }
+    "Purpose": { "hex": "#2563EB", "rgb": "37, 99, 235", "emoji": "🔍", "label": "Purpose & Self-Discovery" },
+    "Communities": { "hex": "#059669", "rgb": "5, 150, 105", "emoji": "🤝", "label": "Communities & Service" },
+    "LocalGlobal": { "hex": "#D97706", "rgb": "217, 119, 6", "emoji": "🌍", "label": "Local & Global Engagement" },
+    "Identity": { "hex": "#7C3AED", "rgb": "124, 58, 237", "emoji": "💼", "label": "Professional Identity" }
   },
   "validationType": "competency",
-  "validationLabel": "Fashion Industry Competencies",
+  "validationLabel": "Fashion Industry Portfolio + Professional Competency",
   "accreditationBody": null,
-  "licensureExam": null
+  "licensureExam": null,
+  "careerOutlook": {
+    "field": "Fashion Design & Merchandising",
+    "blsCode": "27-1022",
+    "growthRate": "3% (2022-2032)",
+    "medianSalary": "$77,450",
+    "entryLevelSalary": "$38,000",
+    "topSalary": "$130,000+",
+    "totalJobs": "23,700",
+    "topEmployers": [
+      "Ralph Lauren", "PVH Corp (Calvin Klein/Tommy Hilfiger)", "Nike",
+      "Nordstrom", "Target Corporate", "VF Corporation (Greensboro HQ)",
+      "Kontoor Brands (Greensboro)", "Hanesbrands (Winston-Salem)"
+    ],
+    "certifications": [
+      "Certified Fashion Designer",
+      "Visual Merchandising Certificate",
+      "Adobe Creative Suite Certification",
+      "Sustainable Fashion Certificate"
+    ],
+    "relatedFields": [
+      "Retail Management", "Textile Science", "Brand Management",
+      "Visual Merchandising", "E-Commerce"
+    ],
+    "keySkills": [
+      "Fashion Illustration", "Trend Forecasting", "Textile Analysis",
+      "Visual Merchandising", "Retail Buying", "Brand Strategy",
+      "Adobe Illustrator/Photoshop", "Sustainable Design"
+    ],
+    "outlook": "The Piedmont Triad region is a historic hub for textile and apparel companies, giving NC A&T students proximity to major employers like VF Corporation and Kontoor Brands. Fashion careers increasingly demand sustainability expertise and digital design skills."
+  }
 }

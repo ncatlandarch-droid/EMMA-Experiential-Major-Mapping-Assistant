@@ -401,6 +401,21 @@ const EMMA_APP = (() => {
           EMMA_MATRIX.showToast(`🎓 Loaded: ${program.name}`, 'success');
           // Load pre-recorded coaching audio for this program
           EMMA_TTS.loadCoachingManifest(program.slug);
+
+          // Fetch live BLS career data for the new program
+          const newBranding = EMMA_STATE.get('branding');
+          if (newBranding?.careerOutlook?.blsCode) {
+            EMMA_DATA.fetchBLSData(newBranding.careerOutlook.blsCode).then(blsData => {
+              if (blsData) {
+                EMMA_DATA.mergeCareerData(newBranding, blsData);
+                renderCareerOutlook();
+                console.log(`[EMMA] Live BLS data merged for ${program.slug}`);
+              }
+            });
+          } else {
+            // Still render career strip from static data
+            renderCareerOutlook();
+          }
         });
       }
 

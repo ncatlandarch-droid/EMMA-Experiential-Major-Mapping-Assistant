@@ -2,49 +2,57 @@
   "institutionName": "North Carolina Agricultural and Technical State University",
   "abbreviation": "NC A&T",
   "collegeName": "College of Agriculture and Environmental Sciences (CAES)",
-  "departmentName": "Family and Consumer Sciences",
+  "departmentName": "Family & Consumer Sciences",
   "programName": "Bachelor of Science in Child Development & Family Studies — Birth-Kindergarten Licensure",
   "degreeType": "BS",
   "programSlug": "caes-cdfs-bk",
-  "tagline": "Nurturing Young Minds from Day One",
+  "tagline": "Shaping the Earliest Years — Licensed to Lead",
+  "programDescription": "The Birth-Kindergarten Licensure concentration prepares students for NC teaching licensure to work with children ages birth through kindergarten. Students complete extensive practicum hours in early childhood settings, learning developmentally appropriate practices, family engagement, and inclusive education. This program addresses the critical need for qualified early childhood educators, especially in underserved communities.",
   "brandingColors": {
-    "primaryHex": "#004684",
-    "primaryRgb": "0, 70, 132",
-    "secondaryHex": "#fdb927",
-    "secondaryRgb": "253, 185, 39",
-    "backgroundHex": "#F0F2F5",
-    "surfaceHex": "#FFFFFF",
-    "textPrimaryHex": "#1A1A2E",
-    "textSecondaryHex": "#555770"
+    "primaryHex": "#004684", "primaryRgb": "0, 70, 132",
+    "secondaryHex": "#fdb927", "secondaryRgb": "253, 185, 39",
+    "backgroundHex": "#F0F2F5", "surfaceHex": "#FFFFFF",
+    "textPrimaryHex": "#1A1A2E", "textSecondaryHex": "#555770"
   },
   "categoryColors": {
-    "Purpose": {
-      "hex": "#2563EB",
-      "rgb": "37, 99, 235",
-      "emoji": "🔍",
-      "label": "Purpose & Self-Discovery"
-    },
-    "Communities": {
-      "hex": "#059669",
-      "rgb": "5, 150, 105",
-      "emoji": "🤝",
-      "label": "Communities & Service"
-    },
-    "LocalGlobal": {
-      "hex": "#D97706",
-      "rgb": "217, 119, 6",
-      "emoji": "🌍",
-      "label": "Local & Global Engagement"
-    },
-    "Identity": {
-      "hex": "#7C3AED",
-      "rgb": "124, 58, 237",
-      "emoji": "💼",
-      "label": "Professional Identity"
-    }
+    "Purpose": { "hex": "#2563EB", "rgb": "37, 99, 235", "emoji": "🔍", "label": "Purpose & Self-Discovery" },
+    "Communities": { "hex": "#059669", "rgb": "5, 150, 105", "emoji": "🤝", "label": "Communities & Service" },
+    "LocalGlobal": { "hex": "#D97706", "rgb": "217, 119, 6", "emoji": "🌍", "label": "Local & Global Engagement" },
+    "Identity": { "hex": "#7C3AED", "rgb": "124, 58, 237", "emoji": "💼", "label": "Professional Identity" }
   },
   "validationType": "licensure",
-  "validationLabel": "NC B-K Teaching License",
-  "accreditationBody": "NC DPI / CAEP",
-  "licensureExam": "Praxis Early Childhood Exam"
+  "validationLabel": "NC Birth-Kindergarten Teaching Licensure",
+  "accreditationBody": "NC Department of Public Instruction",
+  "licensureExam": "Praxis Early Childhood Education (5025) / Pearson Foundations of Reading (190)",
+  "careerOutlook": {
+    "field": "Early Childhood Education",
+    "blsCode": "25-2011",
+    "growthRate": "3% (2022-2032)",
+    "medianSalary": "$37,130",
+    "entryLevelSalary": "$28,000",
+    "topSalary": "$62,000+",
+    "totalJobs": "457,600",
+    "topEmployers": [
+      "NC Pre-K Programs", "Head Start/Early Head Start", "NC Public Schools (Pre-K)",
+      "Private Child Development Centers", "NC Smart Start",
+      "Military Child Development Centers", "Montessori Schools",
+      "University Lab Schools"
+    ],
+    "certifications": [
+      "NC Birth-Kindergarten Teaching License (SP-II)",
+      "Praxis Early Childhood Education (5025)",
+      "Child Development Associate (CDA)",
+      "NC Early Childhood Credential"
+    ],
+    "relatedFields": [
+      "Early Childhood Special Education", "Pre-K Administration",
+      "Child Life Specialist", "Early Intervention", "Family Engagement"
+    ],
+    "keySkills": [
+      "Developmentally Appropriate Practice", "Classroom Management",
+      "Family Engagement", "Assessment & Screening", "Inclusive Education",
+      "Curriculum Design", "Infant/Toddler Care", "Literacy Instruction"
+    ],
+    "outlook": "North Carolina faces a severe shortage of qualified B-K teachers, especially in rural and underserved areas. Licensed B-K teachers from NC A&T are in immediate demand with strong job placement rates and growing salary incentives from the state."
+  }
 }

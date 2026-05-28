@@ -2,49 +2,56 @@
   "institutionName": "North Carolina Agricultural and Technical State University",
   "abbreviation": "NC A&T",
   "collegeName": "College of Agriculture and Environmental Sciences (CAES)",
-  "departmentName": "Family and Consumer Sciences",
-  "programName": "Bachelor of Science in FCS — Consumer Sciences",
+  "departmentName": "Family & Consumer Sciences",
+  "programName": "Bachelor of Science in Family & Consumer Sciences — Consumer Sciences",
   "degreeType": "BS",
   "programSlug": "caes-fcs-cons",
-  "tagline": "Financial Literacy for Life",
+  "tagline": "Empower Consumers — Drive Market Intelligence",
+  "programDescription": "The Consumer Sciences concentration focuses on consumer behavior, market research, financial literacy, and consumer advocacy. Students learn to analyze market trends, evaluate product safety, and develop programs that protect and empower consumers. Graduates pursue careers in market research, consumer affairs, financial counseling, and government regulatory agencies.",
   "brandingColors": {
-    "primaryHex": "#004684",
-    "primaryRgb": "0, 70, 132",
-    "secondaryHex": "#fdb927",
-    "secondaryRgb": "253, 185, 39",
-    "backgroundHex": "#F0F2F5",
-    "surfaceHex": "#FFFFFF",
-    "textPrimaryHex": "#1A1A2E",
-    "textSecondaryHex": "#555770"
+    "primaryHex": "#004684", "primaryRgb": "0, 70, 132",
+    "secondaryHex": "#fdb927", "secondaryRgb": "253, 185, 39",
+    "backgroundHex": "#F0F2F5", "surfaceHex": "#FFFFFF",
+    "textPrimaryHex": "#1A1A2E", "textSecondaryHex": "#555770"
   },
   "categoryColors": {
-    "Purpose": {
-      "hex": "#2563EB",
-      "rgb": "37, 99, 235",
-      "emoji": "🔍",
-      "label": "Purpose & Self-Discovery"
-    },
-    "Communities": {
-      "hex": "#059669",
-      "rgb": "5, 150, 105",
-      "emoji": "🤝",
-      "label": "Communities & Service"
-    },
-    "LocalGlobal": {
-      "hex": "#D97706",
-      "rgb": "217, 119, 6",
-      "emoji": "🌍",
-      "label": "Local & Global Engagement"
-    },
-    "Identity": {
-      "hex": "#7C3AED",
-      "rgb": "124, 58, 237",
-      "emoji": "💼",
-      "label": "Professional Identity"
-    }
+    "Purpose": { "hex": "#2563EB", "rgb": "37, 99, 235", "emoji": "🔍", "label": "Purpose & Self-Discovery" },
+    "Communities": { "hex": "#059669", "rgb": "5, 150, 105", "emoji": "🤝", "label": "Communities & Service" },
+    "LocalGlobal": { "hex": "#D97706", "rgb": "217, 119, 6", "emoji": "🌍", "label": "Local & Global Engagement" },
+    "Identity": { "hex": "#7C3AED", "rgb": "124, 58, 237", "emoji": "💼", "label": "Professional Identity" }
   },
-  "validationType": "certification",
-  "validationLabel": "CFP Exam Readiness",
-  "accreditationBody": "CFP Board",
-  "licensureExam": "CFP Exam"
+  "validationType": "competency",
+  "validationLabel": "Consumer Research & Advocacy Competency",
+  "accreditationBody": null,
+  "licensureExam": null,
+  "careerOutlook": {
+    "field": "Market Research & Consumer Affairs",
+    "blsCode": "13-1161",
+    "growthRate": "13% (2022-2032)",
+    "medianSalary": "$68,230",
+    "entryLevelSalary": "$38,000",
+    "topSalary": "$128,000+",
+    "totalJobs": "905,000",
+    "topEmployers": [
+      "Nielsen", "Procter & Gamble", "Consumer Financial Protection Bureau",
+      "Federal Trade Commission", "NC Attorney General Consumer Division",
+      "Bank of America (Charlotte)", "Market Research Firms", "Retail Corporations"
+    ],
+    "certifications": [
+      "Professional Researcher Certification (PRC)",
+      "Certified Financial Planner (CFP) — requires graduate work",
+      "Accredited Financial Counselor (AFC)",
+      "Google Analytics Certification"
+    ],
+    "relatedFields": [
+      "Market Research", "Consumer Protection", "Financial Planning",
+      "Data Analytics", "Public Policy"
+    ],
+    "keySkills": [
+      "Consumer Behavior Analysis", "Survey Design", "Data Analytics",
+      "Financial Literacy Education", "Policy Analysis", "SPSS/Excel",
+      "Report Writing", "Consumer Advocacy"
+    ],
+    "outlook": "Market research analysts are among the fastest-growing occupations in the U.S. at 13% growth. Consumer protection and financial literacy expertise is increasingly valued as digital commerce expands and consumer data complexity grows."
+  }
 }
