@@ -99,8 +99,15 @@ const EMMA_SYNC = (() => {
               updatedBy: _userId
             });
           console.log('[EMMA Sync] Timeline saved to Firestore');
+          // Show user-visible confirmation
+          if (typeof EMMA_MATRIX !== 'undefined') {
+            EMMA_MATRIX.showToast('☁️ Changes saved to cloud!', 'success');
+          }
         } catch (err) {
           console.warn('[EMMA Sync] Timeline Firestore save failed:', err.message);
+          if (typeof EMMA_MATRIX !== 'undefined') {
+            EMMA_MATRIX.showToast('⚠️ Cloud save failed — changes saved locally', 'error');
+          }
         }
       }
     }, DEBOUNCE_MS);
