@@ -398,6 +398,12 @@ const EMMA_APP = (() => {
           // Load pre-recorded coaching audio for this program
           EMMA_TTS.loadCoachingManifest(program.slug);
 
+          // Re-inject admin controls onto fresh DOM cards
+          const currentRole = document.getElementById('role-select')?.value || 'admin';
+          if (currentRole === 'admin' && typeof EMMA_ADMIN !== 'undefined') {
+            EMMA_ADMIN.setAdminMode(true);
+          }
+
           // Fetch live BLS career data for the new program
           const newBranding = EMMA_STATE.get('branding');
           if (newBranding?.careerOutlook?.blsCode) {
