@@ -1,0 +1,236 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Computing Foundations & Algorithmic Thinking — Build programming skills, explore CS careers, and develop computational reasoning.",
+      "milestones": [
+        {
+          "id": "y1-purpose-01",
+          "label": "Explore computer science career pathways",
+          "courseRef": "COMP 150 — Introduction to Computer Science",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Survey of computer science including software engineering, AI/ML, cybersecurity, data science, game development, and systems programming. Students complete introductory programming projects in Python.",
+          "skills": ["Computational thinking", "Career exploration", "Python basics", "CS overview"]
+        },
+        {
+          "id": "y1-identity-01",
+          "label": "Master object-oriented programming",
+          "courseRef": "COMP 163 — Introduction to Programming",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Object-oriented programming in Java or C++ including classes, inheritance, polymorphism, and exception handling. Students build progressively complex programs with proper software engineering practices.",
+          "skills": ["OOP programming", "Java/C++", "Software design", "Debugging"]
+        },
+        {
+          "id": "y1-identity-02",
+          "label": "Build discrete mathematics foundations",
+          "courseRef": "MATH 224 — Discrete Mathematics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Logic, set theory, combinatorics, graph theory, and proof techniques. The mathematical foundation for algorithm design, data structures, and theoretical computer science.",
+          "skills": ["Discrete math", "Logic", "Proof techniques", "Graph theory"]
+        },
+        {
+          "id": "y1-communities-01",
+          "label": "Join ACM student chapter or coding community",
+          "courseRef": "Co-Curricular Requirement",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Join the ACM student chapter, NSBE, Google Developer Student Club, or campus coding club. Participate in hackathons, coding challenges, and tech meetups.",
+          "skills": ["Tech community", "Hackathon participation", "Peer programming", "Networking"]
+        },
+        {
+          "id": "y1-localglobal-01",
+          "label": "Build calculus foundations for computing",
+          "courseRef": "MATH 131 — Calculus I",
+          "credits": 4,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Functions, limits, derivatives, and integration. Mathematical foundation for algorithms, machine learning, graphics, and computational theory.",
+          "skills": ["Calculus", "Mathematical reasoning", "Optimization", "Analytical thinking"]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Data Structures & Systems Programming — Master core CS concepts and build software engineering skills.",
+      "milestones": [
+        {
+          "id": "y2-identity-01",
+          "label": "Master data structures and algorithms",
+          "courseRef": "COMP 280 — Data Structures",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Arrays, linked lists, stacks, queues, trees, hash tables, graphs, and algorithm complexity analysis. Students implement data structures from scratch and solve algorithm problems.",
+          "skills": ["Data structures", "Algorithm design", "Big-O analysis", "Problem solving"]
+        },
+        {
+          "id": "y2-purpose-01",
+          "label": "Study computer organization and architecture",
+          "courseRef": "COMP 310 — Computer Organization",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Digital logic, CPU architecture, memory hierarchy, instruction sets, and assembly language programming. Students understand how software executes on hardware.",
+          "skills": ["Computer architecture", "Assembly language", "Digital logic", "Memory systems"]
+        },
+        {
+          "id": "y2-communities-01",
+          "label": "Compete in ACM programming competition",
+          "courseRef": "COMP 280 — Data Structures",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Represent NC A&T in the ACM International Collegiate Programming Contest (ICPC) regional competition. Develop algorithmic problem-solving speed and team programming skills.",
+          "skills": ["Competitive programming", "Algorithm speed", "Team collaboration", "Problem solving"]
+        },
+        {
+          "id": "y2-localglobal-01",
+          "label": "Master operating systems concepts",
+          "courseRef": "COMP 340 — Operating Systems",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Process management, memory management, file systems, concurrency, and system calls. Students write systems programs in C and analyze Linux kernel behavior.",
+          "skills": ["Operating systems", "Process management", "Concurrency", "Systems programming"]
+        },
+        {
+          "id": "y2-identity-02",
+          "label": "Study software engineering principles",
+          "courseRef": "COMP 350 — Software Engineering",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Software development methodologies (Agile, Scrum), requirements engineering, testing, version control (Git), and CI/CD. Students complete a team-based software project.",
+          "skills": ["Software engineering", "Agile/Scrum", "Git/GitHub", "Testing"]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Advanced CS Specialization & Professional Experience — Master advanced topics, build a portfolio, and complete internship.",
+      "milestones": [
+        {
+          "id": "y3-identity-01",
+          "label": "Master database systems design",
+          "courseRef": "COMP 410 — Database Systems",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Relational database theory, SQL, normalization, query optimization, NoSQL databases, and distributed data systems. Students design and implement a full-stack database application.",
+          "skills": ["Database design", "SQL/NoSQL", "Query optimization", "Full-stack development"]
+        },
+        {
+          "id": "y3-purpose-01",
+          "label": "Study artificial intelligence and machine learning",
+          "courseRef": "COMP 420 — Artificial Intelligence",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Search algorithms, knowledge representation, machine learning fundamentals, neural networks, and natural language processing. Students implement AI algorithms and train ML models on real datasets.",
+          "skills": ["AI fundamentals", "Machine learning", "Neural networks", "NLP"]
+        },
+        {
+          "id": "y3-communities-01",
+          "label": "Contribute to open-source project or research lab",
+          "courseRef": "COMP 410 — Database Systems",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Make meaningful contributions to an open-source software project or join a faculty research lab in AI, cybersecurity, or systems. Build a public portfolio of technical contributions.",
+          "skills": ["Open-source contribution", "Research experience", "Collaborative coding", "GitHub portfolio"]
+        },
+        {
+          "id": "y3-identity-02",
+          "label": "Complete summer software engineering internship",
+          "courseRef": "COMP 395 — CS Internship",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Secure and complete an internship at a tech company, startup, or research lab. Apply software engineering, AI, or systems skills in a professional environment.",
+          "skills": ["Professional experience", "Applied CS", "Industry practice", "Performance reflection"]
+        },
+        {
+          "id": "y3-localglobal-01",
+          "label": "Study computer networks and cybersecurity",
+          "courseRef": "COMP 430 — Computer Networks",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "TCP/IP, network protocols, routing, network security, and distributed systems. Students configure networks, analyze packet captures, and implement security measures.",
+          "skills": ["Networking", "TCP/IP", "Network security", "Distributed systems"]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Capstone Project & Career Launch — Complete senior project, build portfolio, and launch CS career.",
+      "milestones": [
+        {
+          "id": "y4-purpose-01",
+          "label": "Execute senior capstone software project",
+          "courseRef": "COMP 490 — Senior Project I & II",
+          "credits": 4,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Complete a year-long software development project addressing a real-world problem. Teams follow Agile methodology, produce working software, and present to faculty and industry reviewers.",
+          "skills": ["Software development", "Project management", "Full-stack engineering", "Professional delivery"]
+        },
+        {
+          "id": "y4-identity-01",
+          "label": "Prepare for technical interviews and certifications",
+          "courseRef": "COMP 490 — Senior Project I & II",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Intensive preparation for technical coding interviews including LeetCode practice, system design questions, and behavioral interview training. Explore AWS, Google Cloud, or security certifications.",
+          "skills": ["Technical interviews", "LeetCode", "System design", "Coding challenges"]
+        },
+        {
+          "id": "y4-communities-01",
+          "label": "Serve as peer mentor and tech community leader",
+          "courseRef": "COMP 490 — Senior Project I & II",
+          "credits": 4,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Mentor underclassmen in CS coursework, lead ACM chapter activities, and organize hackathons, coding workshops, and tech career panels.",
+          "skills": ["Peer mentorship", "Tech leadership", "Knowledge transfer", "Community stewardship"]
+        },
+        {
+          "id": "y4-localglobal-01",
+          "label": "Develop tech career placement portfolio",
+          "courseRef": "COMP 490 — Senior Project I & II",
+          "credits": 4,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Assemble a career launch package including GitHub portfolio, technical resume, project demos, open-source contributions, and documented professional network.",
+          "skills": ["Career preparation", "GitHub portfolio", "Technical resume", "Professional positioning"]
+        },
+        {
+          "id": "y4-identity-02",
+          "label": "Complete exit assessment and career activation",
+          "courseRef": "COMP 490 — Senior Project I & II",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Complete the CoE Computer Science Exit Assessment demonstrating ABET outcomes. Finalize career activation documenting job offers, graduate admissions, or certification achievements.",
+          "skills": ["ABET competency", "Self-assessment", "Career activation", "Program outcome alignment"]
+        }
+      ]
+    }
+  ]
+}

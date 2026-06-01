@@ -1,0 +1,236 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Global Business Foundations & Self-Discovery — Build business literacy, explore international management careers, and develop cross-cultural awareness.",
+      "milestones": [
+        {
+          "id": "y1-purpose-01",
+          "label": "Complete CliftonStrengths assessment and international career mapping",
+          "courseRef": "BUAD 100 — Introduction to Business",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Complete the Gallup CliftonStrengths assessment and connect signature themes to international business career pathways including global operations, export management, diplomatic service, and multinational management.",
+          "skills": ["Self-assessment", "Career exploration", "Reflective writing", "Strengths identification"]
+        },
+        {
+          "id": "y1-identity-01",
+          "label": "Explore management principles in a global context",
+          "courseRef": "MGMT 110 — Introduction to Management",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Introduction to management functions with emphasis on how planning, organizing, leading, and controlling vary across cultural and geographic contexts. Students analyze multinational management case studies.",
+          "skills": ["Management fundamentals", "Global perspective", "Case analysis", "Organizational awareness"]
+        },
+        {
+          "id": "y1-identity-02",
+          "label": "Build financial literacy foundations",
+          "courseRef": "ACCT 201 — Principles of Financial Accounting",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Introduction to financial statements and the accounting cycle. Students build the financial literacy needed to analyze international business performance and cross-border transactions.",
+          "skills": ["Financial statements", "Accounting cycle", "Business literacy", "Financial analysis"]
+        },
+        {
+          "id": "y1-communities-01",
+          "label": "Join International Business Club or AIESEC",
+          "courseRef": "Co-Curricular Requirement",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Join an internationally-focused student organization such as AIESEC, International Business Club, or Model UN. Attend cultural events and engage with international students to build cross-cultural competency.",
+          "skills": ["Cross-cultural networking", "International exposure", "Peer learning", "Community building"]
+        },
+        {
+          "id": "y1-localglobal-01",
+          "label": "Analyze global economic forces and trade patterns",
+          "courseRef": "ECON 100 — Principles of Economics",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Examine international trade theory, comparative advantage, exchange rates, and global economic institutions. Students analyze how global economic forces create business opportunities and risks.",
+          "skills": ["International trade", "Global economics", "Exchange rates", "Economic institutions"]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Cross-Cultural Management & Applied Learning — Deepen organizational behavior knowledge and build international professional networks.",
+      "milestones": [
+        {
+          "id": "y2-identity-01",
+          "label": "Master organizational behavior across cultures",
+          "courseRef": "MGMT 301 — Organizational Behavior",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Study individual and group behavior in organizations with emphasis on how cultural dimensions (Hofstede, GLOBE) influence motivation, communication, leadership, and team dynamics in multinational settings.",
+          "skills": ["Organizational behavior", "Cultural dimensions", "Team dynamics", "Cross-cultural leadership"]
+        },
+        {
+          "id": "y2-purpose-01",
+          "label": "Begin foreign language proficiency development",
+          "courseRef": "Foreign Language Elective",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Begin or advance proficiency in a foreign language (Spanish, French, Mandarin, Arabic, or other) essential for international business communication. Target working proficiency by graduation.",
+          "skills": ["Foreign language", "Communication skills", "Cultural immersion", "Global readiness"]
+        },
+        {
+          "id": "y2-communities-01",
+          "label": "Attend CoBE career fair and multinational recruiting events",
+          "courseRef": "MGMT 301 — Organizational Behavior",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Participate in career fairs and recruiting events with multinational corporations, international NGOs, and government agencies with global operations. Practice cross-cultural networking skills.",
+          "skills": ["Professional networking", "Cross-cultural etiquette", "Resume refinement", "Global career awareness"]
+        },
+        {
+          "id": "y2-localglobal-01",
+          "label": "Analyze international marketing and global consumer behavior",
+          "courseRef": "MKTG 301 — Principles of Marketing",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Study marketing principles with emphasis on global market segmentation, international branding, and cross-cultural consumer behavior. Students compare marketing strategies across national markets.",
+          "skills": ["International marketing", "Global branding", "Consumer behavior", "Market segmentation"]
+        },
+        {
+          "id": "y2-communities-02",
+          "label": "Participate in international service-learning project",
+          "courseRef": "MGMT 320 — Operations Management",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Partner with an international or multicultural community organization to address an operational challenge. Apply operations management tools while developing cross-cultural collaboration skills.",
+          "skills": ["Service-learning", "Cross-cultural collaboration", "Process improvement", "Community engagement"]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "International Management Specialization — Study abroad, master international strategy, and gain global professional experience.",
+      "milestones": [
+        {
+          "id": "y3-identity-01",
+          "label": "Complete study abroad or international exchange program",
+          "courseRef": "MGMT 430 — International Management",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Participate in a semester-long or summer study abroad program at a partner university. Immerse in a foreign business environment, complete coursework, and develop intercultural competency through lived experience.",
+          "skills": ["Study abroad", "Cultural immersion", "Global perspective", "Independence"]
+        },
+        {
+          "id": "y3-purpose-01",
+          "label": "Master international strategic management",
+          "courseRef": "MGMT 410 — Strategic Management",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Study strategic management frameworks for multinational enterprises including global integration vs. local responsiveness, international market entry modes, and cross-border alliance management.",
+          "skills": ["International strategy", "Market entry", "Alliance management", "Global integration"]
+        },
+        {
+          "id": "y3-communities-01",
+          "label": "Secure and engage with a global industry mentor",
+          "courseRef": "MGMT 430 — International Management",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Establish a mentorship with a manager in international business, global supply chain, or diplomatic service through CoBE networks. Focus monthly discussions on global career navigation.",
+          "skills": ["Mentorship cultivation", "Global networking", "Career strategy", "Professional development"]
+        },
+        {
+          "id": "y3-identity-02",
+          "label": "Complete summer international internship",
+          "courseRef": "MGMT 395 — Management Internship",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Secure an internship with a multinational corporation, international NGO, or government agency with global operations. Apply cross-cultural management skills in a professional setting abroad or with international teams.",
+          "skills": ["International work experience", "Applied management", "Cross-cultural skills", "Performance reflection"]
+        },
+        {
+          "id": "y3-localglobal-01",
+          "label": "Complete cross-cultural management simulation",
+          "courseRef": "MGMT 430 — International Management",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Participate in an immersive cross-cultural management simulation involving negotiation, team leadership, and decision-making across culturally diverse virtual teams. Analyze cultural intelligence dimensions.",
+          "skills": ["Cross-cultural negotiation", "Global team leadership", "Cultural intelligence", "Simulation-based learning"]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Career Placement & Capstone — Finalize global career readiness, complete capstone, and launch international career.",
+      "milestones": [
+        {
+          "id": "y4-purpose-01",
+          "label": "Execute capstone international consulting project",
+          "courseRef": "MGMT 495 — Capstone in Management",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Collaborate with a client organization facing international business challenges. Conduct cross-border market research, develop global strategy recommendations, and present findings to faculty and industry panelists.",
+          "skills": ["International consulting", "Client management", "Global strategy", "Executive presentation"]
+        },
+        {
+          "id": "y4-identity-01",
+          "label": "Complete international salary and expatriate package evaluation",
+          "courseRef": "MGMT 490 — Senior Seminar in Management",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Workshops covering international compensation packages, expatriate benefits, cost-of-living adjustments, and cross-border tax implications. Develop a personal global career strategy.",
+          "skills": ["International compensation", "Expatriate planning", "Global career strategy", "Cross-border negotiation"]
+        },
+        {
+          "id": "y4-communities-01",
+          "label": "Serve as peer mentor for underclassmen",
+          "courseRef": "MGMT 490 — Senior Seminar in Management",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Mentor first- or second-year international management students, sharing study abroad experiences, internship strategies, and cross-cultural professional development insights.",
+          "skills": ["Peer mentorship", "Knowledge transfer", "Leadership modeling", "Community stewardship"]
+        },
+        {
+          "id": "y4-localglobal-01",
+          "label": "Develop global career placement portfolio",
+          "courseRef": "MGMT 490 — Senior Seminar in Management",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Assemble a career launch package for international roles including multilingual resume, cross-cultural competency portfolio, and documented global professional network. Target multinational employers.",
+          "skills": ["Global career preparation", "Multilingual resume", "International networking", "Professional portfolio"]
+        },
+        {
+          "id": "y4-identity-02",
+          "label": "Complete exit assessment and career activation",
+          "courseRef": "MGMT 495 — Capstone in Management",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Complete the CoBE Management Exit Assessment and finalize career activation documenting international job offers, graduate school admissions, or fellowship placements.",
+          "skills": ["Competency demonstration", "Self-assessment", "Career activation", "Program outcome alignment"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Computing & Math Foundations — Build programming skills, explore AI careers, and develop mathematical reasoning.",
+      "milestones": [
+        {
+          "id": "y1-purpose-01",
+          "label": "Explore artificial intelligence career pathways",
+          "courseRef": "COMP 150 — Introduction to Computer Science",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Survey of computer science with emphasis on AI applications including machine learning, natural language processing, computer vision, robotics, and autonomous systems. Students complete introductory Python programming projects.",
+          "skills": ["Computational thinking", "Career exploration", "Python basics", "AI overview"]
+        },
+        {
+          "id": "y1-identity-01",
+          "label": "Master programming fundamentals for AI",
+          "courseRef": "COMP 163 — Introduction to Programming",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Object-oriented programming in Python and C++ with emphasis on data manipulation, numerical computing, and software design patterns used in AI/ML systems.",
+          "skills": ["Python/C++ programming", "OOP", "Data manipulation", "Software design"]
+        },
+        {
+          "id": "y1-identity-02",
+          "label": "Build linear algebra and calculus foundations",
+          "courseRef": "MATH 131 — Calculus I",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Calculus foundations essential for understanding gradient descent, optimization, and the mathematical underpinnings of neural networks and machine learning algorithms.",
+          "skills": ["Calculus", "Mathematical reasoning", "Optimization foundations", "Analytical thinking"]
+        },
+        {
+          "id": "y1-communities-01",
+          "label": "Join AI/ML student club or Google GDSC",
+          "courseRef": "Co-Curricular Requirement",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Join the AI/ML student club, Google Developer Student Club, ACM chapter, or NSBE. Participate in Kaggle competitions, AI workshops, and reading groups on recent AI papers.",
+          "skills": ["AI community", "Kaggle participation", "Peer learning", "Research exposure"]
+        },
+        {
+          "id": "y1-localglobal-01",
+          "label": "Study discrete mathematics for AI",
+          "courseRef": "MATH 224 — Discrete Mathematics",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Logic, set theory, combinatorics, graph theory, and proof techniques. Mathematical foundations for algorithm design, knowledge representation, and AI reasoning systems.",
+          "skills": ["Discrete math", "Logic", "Graph theory", "AI math foundations"]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Data Structures & Statistical Learning — Master algorithms, probability, and introduction to machine learning.",
+      "milestones": [
+        {
+          "id": "y2-identity-01",
+          "label": "Master data structures and algorithms",
+          "courseRef": "COMP 280 — Data Structures",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Arrays, linked lists, trees, graphs, hash tables, and algorithm complexity. Foundation for implementing efficient ML pipelines, search algorithms, and optimization routines.",
+          "skills": ["Data structures", "Algorithm design", "Big-O analysis", "Efficient computation"]
+        },
+        {
+          "id": "y2-purpose-01",
+          "label": "Study probability and statistics for AI",
+          "courseRef": "MATH 340 — Probability & Statistics",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Probability theory, Bayesian inference, statistical distributions, hypothesis testing, and regression. The statistical foundation for machine learning, prediction, and uncertainty quantification.",
+          "skills": ["Probability theory", "Bayesian inference", "Statistical modeling", "Data analysis"]
+        },
+        {
+          "id": "y2-communities-01",
+          "label": "Compete in first Kaggle competition",
+          "courseRef": "COMP 280 — Data Structures",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Form a team and compete in a Kaggle data science competition. Apply data preprocessing, feature engineering, and basic ML models to a real-world prediction problem.",
+          "skills": ["Kaggle competition", "Data science", "Feature engineering", "Team collaboration"]
+        },
+        {
+          "id": "y2-localglobal-01",
+          "label": "Master linear algebra for AI",
+          "courseRef": "MATH 231 — Linear Algebra",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Vector spaces, matrix operations, eigenvalues/eigenvectors, SVD, and PCA. The mathematical backbone of neural networks, dimensionality reduction, and recommender systems.",
+          "skills": ["Linear algebra", "Matrix operations", "PCA", "Mathematical computing"]
+        },
+        {
+          "id": "y2-identity-02",
+          "label": "Introduction to machine learning",
+          "courseRef": "COMP 360 — Introduction to Machine Learning",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Supervised and unsupervised learning, decision trees, SVMs, k-means, and neural networks. Students implement ML algorithms from scratch and apply scikit-learn to real datasets.",
+          "skills": ["Machine learning", "Supervised learning", "Unsupervised learning", "scikit-learn"]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Deep Learning & AI Specialization — Master neural networks, NLP, computer vision, and gain professional experience.",
+      "milestones": [
+        {
+          "id": "y3-identity-01",
+          "label": "Master deep learning and neural networks",
+          "courseRef": "COMP 420 — Deep Learning",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Convolutional neural networks, recurrent neural networks, transformers, GANs, and reinforcement learning. Students implement deep learning models using PyTorch and train on GPU clusters.",
+          "skills": ["Deep learning", "CNNs/RNNs", "Transformers", "PyTorch"]
+        },
+        {
+          "id": "y3-purpose-01",
+          "label": "Study natural language processing",
+          "courseRef": "COMP 430 — Natural Language Processing",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Text processing, word embeddings, language models, sentiment analysis, machine translation, and large language models (LLMs). Students build NLP applications using Hugging Face and spaCy.",
+          "skills": ["NLP", "Language models", "Text processing", "Hugging Face"]
+        },
+        {
+          "id": "y3-communities-01",
+          "label": "Contribute to AI research lab or open-source project",
+          "courseRef": "COMP 420 — Deep Learning",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Join a faculty AI research lab or make meaningful contributions to an open-source AI project (TensorFlow, PyTorch, Hugging Face). Build a public portfolio of AI research and code.",
+          "skills": ["AI research", "Open-source contribution", "Lab experience", "Technical portfolio"]
+        },
+        {
+          "id": "y3-identity-02",
+          "label": "Complete summer AI/ML internship",
+          "courseRef": "COMP 395 — CS Internship",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Secure and complete an internship at a tech company, AI startup, or research lab working on machine learning, data science, or AI engineering projects.",
+          "skills": ["Professional experience", "Applied AI/ML", "Industry practice", "Performance reflection"]
+        },
+        {
+          "id": "y3-localglobal-01",
+          "label": "Study computer vision and robotics",
+          "courseRef": "ECEN 440 — Computer Vision",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Image processing, object detection, semantic segmentation, 3D vision, and robotic perception. Students build computer vision systems using OpenCV and deep learning frameworks.",
+          "skills": ["Computer vision", "Object detection", "Image processing", "Robotic perception"]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Capstone AI Project & Career Launch — Complete senior AI project, build portfolio, and launch AI career.",
+      "milestones": [
+        {
+          "id": "y4-purpose-01",
+          "label": "Execute senior capstone AI project",
+          "courseRef": "COMP 490 — Senior Project I & II",
+          "credits": 4,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Complete a year-long AI project addressing a real-world challenge. Teams design, train, evaluate, and deploy an AI system. Projects are presented to faculty and industry reviewers.",
+          "skills": ["AI system design", "Model training", "Deployment", "Project management"]
+        },
+        {
+          "id": "y4-identity-01",
+          "label": "Study AI ethics and responsible AI",
+          "courseRef": "COMP 450 — AI Ethics and Society",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Algorithmic bias, fairness, transparency, privacy, and the societal impact of AI systems. Students analyze real AI deployment cases and develop responsible AI frameworks.",
+          "skills": ["AI ethics", "Algorithmic fairness", "Responsible AI", "Policy analysis"]
+        },
+        {
+          "id": "y4-communities-01",
+          "label": "Serve as peer mentor and AI community leader",
+          "courseRef": "COMP 490 — Senior Project I & II",
+          "credits": 4,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Mentor underclassmen in AI/ML coursework, lead AI club activities, organize Kaggle teams, and host AI paper reading groups and workshops.",
+          "skills": ["Peer mentorship", "AI leadership", "Knowledge transfer", "Community stewardship"]
+        },
+        {
+          "id": "y4-localglobal-01",
+          "label": "Develop AI career placement portfolio",
+          "courseRef": "COMP 490 — Senior Project I & II",
+          "credits": 4,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Assemble a career launch package including GitHub portfolio with ML projects, Kaggle profile, research papers, model deployments, and documented professional network in AI industry.",
+          "skills": ["Career preparation", "ML portfolio", "GitHub showcase", "Professional positioning"]
+        },
+        {
+          "id": "y4-identity-02",
+          "label": "Complete exit assessment and career activation",
+          "courseRef": "COMP 490 — Senior Project I & II",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Complete the CoE AI Exit Assessment demonstrating competency across program outcomes. Finalize career activation documenting job offers, graduate admissions, or research fellowship placements.",
+          "skills": ["Competency demonstration", "Self-assessment", "Career activation", "Program outcome alignment"]
+        }
+      ]
+    }
+  ]
+}

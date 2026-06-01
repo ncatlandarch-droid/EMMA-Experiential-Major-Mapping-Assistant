@@ -1,0 +1,236 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Sales & Marketing Foundations — Build business literacy, explore sales careers, and develop interpersonal communication skills.",
+      "milestones": [
+        {
+          "id": "y1-purpose-01",
+          "label": "Complete CliftonStrengths assessment and sales career mapping",
+          "courseRef": "BUAD 100 — Introduction to Business",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Complete the Gallup CliftonStrengths assessment and connect signature themes to sales career pathways including B2B sales, pharmaceutical sales, tech sales, sales management, and business development.",
+          "skills": ["Self-assessment", "Career exploration", "Reflective writing", "Strengths identification"]
+        },
+        {
+          "id": "y1-identity-01",
+          "label": "Master principles of marketing",
+          "courseRef": "MKTG 301 — Principles of Marketing",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Introduction to marketing strategy, the marketing mix, consumer behavior, and market segmentation. Students analyze how sales integrates with the broader marketing function.",
+          "skills": ["Marketing strategy", "4Ps framework", "Consumer behavior", "Sales-marketing alignment"]
+        },
+        {
+          "id": "y1-identity-02",
+          "label": "Build financial literacy for sales professionals",
+          "courseRef": "ACCT 201 — Principles of Financial Accounting",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Introduction to financial statements and revenue recognition. Students understand how sales activity flows to financial statements and learn to read P&L statements.",
+          "skills": ["Financial literacy", "Revenue recognition", "P&L analysis", "Business acumen"]
+        },
+        {
+          "id": "y1-communities-01",
+          "label": "Join Pi Sigma Epsilon or Sales Club",
+          "courseRef": "Co-Curricular Requirement",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Join Pi Sigma Epsilon (national sales fraternity), the Sales Club, or AMA student chapter. Attend sales role-play workshops and networking events with sales professionals.",
+          "skills": ["Sales community", "Professional networking", "Peer learning", "Role-play practice"]
+        },
+        {
+          "id": "y1-localglobal-01",
+          "label": "Analyze consumer economics and market dynamics",
+          "courseRef": "ECON 100 — Principles of Economics",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Examine economic principles driving consumer purchasing decisions, market demand, and competitive dynamics. Students connect economic theory to sales strategy and territory management.",
+          "skills": ["Consumer economics", "Market dynamics", "Demand analysis", "Competitive awareness"]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Professional Selling & Customer Relationship Management — Build sales technique mastery and CRM proficiency.",
+      "milestones": [
+        {
+          "id": "y2-identity-01",
+          "label": "Master professional selling techniques",
+          "courseRef": "MKTG 340 — Professional Selling",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Study the sales process including prospecting, needs assessment, presentation, objection handling, and closing. Students complete recorded sales role-plays and receive faculty and peer feedback.",
+          "skills": ["Professional selling", "Needs assessment", "Objection handling", "Closing techniques"]
+        },
+        {
+          "id": "y2-purpose-01",
+          "label": "Learn customer relationship management systems",
+          "courseRef": "MKTG 350 — Sales Management",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Study CRM platforms (Salesforce, HubSpot), pipeline management, sales forecasting, and territory design. Students complete Salesforce Trailhead certifications and manage a simulated sales pipeline.",
+          "skills": ["CRM platforms", "Salesforce", "Pipeline management", "Sales forecasting"]
+        },
+        {
+          "id": "y2-communities-01",
+          "label": "Compete in collegiate sales competition",
+          "courseRef": "MKTG 340 — Professional Selling",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Represent NC A&T in a collegiate sales competition, developing B2B sales presentations, conducting live role-plays with industry buyers, and receiving professional feedback.",
+          "skills": ["Sales competition", "B2B selling", "Competitive performance", "Professional feedback"]
+        },
+        {
+          "id": "y2-localglobal-01",
+          "label": "Study consumer behavior and buying psychology",
+          "courseRef": "MKTG 330 — Consumer Behavior",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Analyze consumer psychology, decision-making processes, and cultural influences on purchasing behavior. Students apply behavioral science insights to sales strategy development.",
+          "skills": ["Consumer psychology", "Buying behavior", "Decision science", "Sales psychology"]
+        },
+        {
+          "id": "y2-identity-02",
+          "label": "Build negotiation and persuasion skills",
+          "courseRef": "MKTG 350 — Sales Management",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Master negotiation tactics, persuasion psychology, and consultative selling approaches. Students practice complex sales scenarios involving multiple stakeholders and competitive situations.",
+          "skills": ["Negotiation", "Persuasion", "Consultative selling", "Stakeholder management"]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Advanced Sales Strategy & Professional Experience — Master B2B selling, earn Salesforce certification, and complete internship.",
+      "milestones": [
+        {
+          "id": "y3-identity-01",
+          "label": "Master advanced B2B and enterprise selling",
+          "courseRef": "MKTG 440 — Advanced Professional Selling",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Study complex and enterprise sales methodologies (SPIN, Challenger, MEDDIC). Students conduct multi-call sales simulations, develop account strategies, and practice executive-level presentations.",
+          "skills": ["Enterprise selling", "SPIN selling", "Account strategy", "Executive presentation"]
+        },
+        {
+          "id": "y3-purpose-01",
+          "label": "Earn Salesforce Administrator certification",
+          "courseRef": "MKTG 420 — Marketing Analytics",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Complete Salesforce Administrator certification through Trailhead. Master CRM customization, reporting, dashboards, and workflow automation for sales team productivity.",
+          "skills": ["Salesforce certification", "CRM administration", "Sales reporting", "Workflow automation"]
+        },
+        {
+          "id": "y3-communities-01",
+          "label": "Secure and engage with a sales industry mentor",
+          "courseRef": "MKTG 440 — Advanced Professional Selling",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Establish a mentorship with a sales director, account executive, or business development leader through CoBE networks. Monthly meetings focus on territory management, career progression, and industry insights.",
+          "skills": ["Mentorship cultivation", "Sales career guidance", "Professional development", "Industry networking"]
+        },
+        {
+          "id": "y3-identity-02",
+          "label": "Complete summer sales internship",
+          "courseRef": "MKTG 395 — Marketing Internship",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Secure an internship in B2B sales, pharmaceutical sales, tech sales, or business development. Apply professional selling techniques and CRM skills in a quota-carrying environment.",
+          "skills": ["Sales experience", "Quota management", "Applied selling", "Performance reflection"]
+        },
+        {
+          "id": "y3-localglobal-01",
+          "label": "Study sales strategy in international markets",
+          "courseRef": "MKTG 430 — International Marketing",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Analyze how sales processes, negotiation styles, and customer relationship management vary across cultures and international markets. Students develop an international sales strategy for a cross-border product launch.",
+          "skills": ["International sales", "Cross-cultural negotiation", "Global market strategy", "Cultural adaptation"]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Career Placement & Capstone — Complete capstone sales project, build professional portfolio, and launch sales career.",
+      "milestones": [
+        {
+          "id": "y4-purpose-01",
+          "label": "Execute capstone sales strategy project",
+          "courseRef": "MKTG 495 — Capstone in Marketing",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Develop a comprehensive sales strategy for a real client including territory design, compensation planning, CRM implementation, and performance metrics. Present to faculty and industry panelists.",
+          "skills": ["Sales strategy", "Territory design", "Compensation planning", "Performance metrics"]
+        },
+        {
+          "id": "y4-identity-01",
+          "label": "Complete sales compensation and career negotiation training",
+          "courseRef": "MKTG 490 — Senior Seminar in Marketing",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Workshops on sales compensation structures (base + commission, OTE, accelerators), territory assignment evaluation, and offer negotiation for sales roles. Develop personal compensation strategy.",
+          "skills": ["Compensation analysis", "OTE evaluation", "Offer negotiation", "Career strategy"]
+        },
+        {
+          "id": "y4-communities-01",
+          "label": "Serve as peer mentor and sales coach",
+          "courseRef": "MKTG 490 — Senior Seminar in Marketing",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Coach underclassmen through sales role-plays, CRM practice, and competition preparation. Model professional selling behaviors and share internship and industry insights.",
+          "skills": ["Peer coaching", "Sales mentorship", "Knowledge transfer", "Community stewardship"]
+        },
+        {
+          "id": "y4-localglobal-01",
+          "label": "Develop sales career placement portfolio",
+          "courseRef": "MKTG 490 — Senior Seminar in Marketing",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Assemble a career launch package targeting B2B sales, tech sales, or pharmaceutical sales roles. Includes role-play recordings, Salesforce certification, competition results, and documented network.",
+          "skills": ["Career launch preparation", "Sales portfolio", "Interview preparation", "Professional positioning"]
+        },
+        {
+          "id": "y4-identity-02",
+          "label": "Complete exit assessment and career activation",
+          "courseRef": "MKTG 495 — Capstone in Marketing",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Complete the CoBE Marketing Exit Assessment and finalize career activation documenting job offers, sales role placements, or graduate school admissions.",
+          "skills": ["Competency demonstration", "Self-assessment", "Career activation", "Program outcome alignment"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "institutionName": "North Carolina Agricultural and Technical State University",
+  "abbreviation": "NC A&T",
+  "collegeName": "Willie A. Deese College of Business & Economics (CoBE)",
+  "departmentName": "Economics",
+  "programName": "B.S. in Economics — Law",
+  "degreeType": "BSECONL",
+  "programSlug": "cobe-econ-law",
+  "slug": "cobe-econ-law",
+  "programDescription": "B.S. in Economics — Law at NC A&T prepares students for rewarding careers in law & economics.",
+  "tagline": "Leading the Future of Law & Economics",
+  "brandingColors": {
+    "primaryHex": "#004684",
+    "primaryRgb": "0,70,132",
+    "secondaryHex": "#fdb927",
+    "secondaryRgb": "253,185,39",
+    "backgroundHex": "#F0F2F5",
+    "surfaceHex": "#FFFFFF",
+    "textPrimaryHex": "#1A1A2E",
+    "textSecondaryHex": "#555770"
+  },
+  "categoryColors": {
+    "Purpose": {
+      "hex": "#2563EB",
+      "rgb": "37,99,235",
+      "emoji": "🔍",
+      "label": "Purpose & Self-Discovery",
+      "description": "Research, coursework, and foundational experiences that build your professional identity"
+    },
+    "Communities": {
+      "hex": "#059669",
+      "rgb": "5,150,105",
+      "emoji": "🤝",
+      "label": "Communities & Service",
+      "description": "Collaborative projects, service-learning, and community engagement"
+    },
+    "LocalGlobal": {
+      "hex": "#D97706",
+      "rgb": "217,119,6",
+      "emoji": "🌍",
+      "label": "Local & Global Engagement",
+      "description": "Field work, internships, and real-world applications beyond campus"
+    },
+    "Identity": {
+      "hex": "#7C3AED",
+      "rgb": "124,58,237",
+      "emoji": "💼",
+      "label": "Professional Identity",
+      "description": "Career prep, portfolio development, and professional practice"
+    }
+  },
+  "careerOutlook": {
+    "field": "Law & Economics",
+    "blsCode": "19-3011",
+    "growthRate": "6% (2022-2032)",
+    "medianSalary": "$113,940",
+    "totalJobs": "20,000",
+    "topEmployers": [
+      "Law Firms",
+      "DOJ",
+      "FTC",
+      "SEC",
+      "Corporate Legal Depts"
+    ],
+    "certifications": [
+      "LSAT Prep"
+    ],
+    "relatedFields": [
+      "Political Science",
+      "Criminal Justice",
+      "History"
+    ],
+    "keySkills": [
+      "Legal Research",
+      "Antitrust Analysis",
+      "Regulatory Economics",
+      "Critical Thinking"
+    ]
+  }
+}

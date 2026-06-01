@@ -41,7 +41,20 @@ const EMMA_CONFIG = (() => {
       collegeSlug: 'cobe',
       collegeColor: '#888890',
       collegeIcon: 'assets/images/college-icons/icon-business-color.svg',
-      programs: []
+      programs: [
+        { slug: 'cobe-acct', name: 'B.S. in Accounting', dept: 'Accounting & Finance' },
+        { slug: 'cobe-fin', name: 'B.S. in Finance', dept: 'Accounting & Finance' },
+        { slug: 'cobe-econ', name: 'B.S. in Economics', dept: 'Economics' },
+        { slug: 'cobe-econ-biz', name: 'B.S. in Economics — Business', dept: 'Economics' },
+        { slug: 'cobe-econ-law', name: 'B.S. in Economics — Law', dept: 'Economics' },
+        { slug: 'cobe-mgmt', name: 'B.S. in Management — Business Admin', dept: 'Management' },
+        { slug: 'cobe-mgmt-ent', name: 'B.S. in Management — Entrepreneurship', dept: 'Management' },
+        { slug: 'cobe-mgmt-intl', name: 'B.S. in Management — International', dept: 'Management' },
+        { slug: 'cobe-bit', name: 'B.S. in Business Information Technology', dept: 'Business Info Systems & Analytics' },
+        { slug: 'cobe-mktg', name: 'B.S. in Marketing', dept: 'Marketing & Supply Chain Management' },
+        { slug: 'cobe-mktg-sales', name: 'B.S. in Marketing — Sales', dept: 'Marketing & Supply Chain Management' },
+        { slug: 'cobe-scm', name: 'B.S. in Supply Chain Management', dept: 'Marketing & Supply Chain Management' }
+      ]
     },
     {
       college: 'College of Engineering',
@@ -49,7 +62,18 @@ const EMMA_CONFIG = (() => {
       collegeSlug: 'coe',
       collegeColor: '#BC5C45',
       collegeIcon: 'assets/images/college-icons/icon-engineering-color.svg',
-      programs: []
+      programs: [
+        { slug: 'coe-bioe', name: 'B.S. in Bioengineering', dept: 'Chemical, Biological & Bio Engineering' },
+        { slug: 'coe-che', name: 'B.S. in Chemical Engineering', dept: 'Chemical, Biological & Bio Engineering' },
+        { slug: 'coe-ae', name: 'B.S. in Architectural Engineering', dept: 'Civil, Architectural & Env Engineering' },
+        { slug: 'coe-ce', name: 'B.S. in Civil Engineering', dept: 'Civil, Architectural & Env Engineering' },
+        { slug: 'coe-cs', name: 'B.S. in Computer Science', dept: 'Computer Science' },
+        { slug: 'coe-cpe', name: 'B.S. in Computer Engineering', dept: 'Electrical & Computer Engineering' },
+        { slug: 'coe-ee', name: 'B.S. in Electrical Engineering', dept: 'Electrical & Computer Engineering' },
+        { slug: 'coe-ise', name: 'B.S. in Industrial & Systems Engineering', dept: 'Industrial & Systems Engineering' },
+        { slug: 'coe-me', name: 'B.S. in Mechanical Engineering', dept: 'Mechanical Engineering' },
+        { slug: 'coe-ai', name: 'B.S. in Artificial Intelligence', dept: 'Interdisciplinary' }
+      ]
     },
     {
       college: 'Hairston College of Health & Human Sciences',

@@ -1,0 +1,236 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Marketing Foundations & Self-Discovery — Explore marketing careers, build business literacy, and develop consumer insight skills.",
+      "milestones": [
+        {
+          "id": "y1-purpose-01",
+          "label": "Complete CliftonStrengths assessment and marketing career mapping",
+          "courseRef": "BUAD 100 — Introduction to Business",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Complete the Gallup CliftonStrengths assessment and connect signature themes to marketing career pathways including brand management, digital marketing, market research, advertising, and product management.",
+          "skills": ["Self-assessment", "Career exploration", "Reflective writing", "Strengths identification"]
+        },
+        {
+          "id": "y1-identity-01",
+          "label": "Master principles of marketing",
+          "courseRef": "MKTG 301 — Principles of Marketing",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Introduction to marketing strategy, the marketing mix (4Ps), consumer behavior, market segmentation, and brand positioning. Students analyze real brands and develop a marketing plan for a local business.",
+          "skills": ["Marketing strategy", "4Ps framework", "Consumer behavior", "Brand analysis"]
+        },
+        {
+          "id": "y1-identity-02",
+          "label": "Build financial literacy for marketing professionals",
+          "courseRef": "ACCT 201 — Principles of Financial Accounting",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Introduction to financial statements and the accounting cycle. Students build the financial literacy needed to analyze marketing ROI, budget allocation, and campaign performance.",
+          "skills": ["Financial statements", "Budget analysis", "ROI fundamentals", "Business literacy"]
+        },
+        {
+          "id": "y1-communities-01",
+          "label": "Join American Marketing Association student chapter",
+          "courseRef": "Co-Curricular Requirement",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Join AMA student chapter, Ad Club, or CoBE Marketing Club. Attend brand case study events, marketing competitions, and connect with marketing professionals.",
+          "skills": ["Marketing community", "Professional networking", "Peer learning", "Event participation"]
+        },
+        {
+          "id": "y1-localglobal-01",
+          "label": "Analyze global consumer behavior and market trends",
+          "courseRef": "ECON 100 — Principles of Economics",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Examine economic principles that drive consumer behavior, market demand, and purchasing patterns across local and global markets. Students connect economic theory to marketing strategy.",
+          "skills": ["Consumer economics", "Market trends", "Global awareness", "Demand analysis"]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Digital Marketing & Market Research — Build digital marketing expertise and market research skills.",
+      "milestones": [
+        {
+          "id": "y2-identity-01",
+          "label": "Master digital marketing and social media strategy",
+          "courseRef": "MKTG 310 — Digital Marketing",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Study digital marketing channels including SEO, SEM, social media marketing, email marketing, and content strategy. Students develop and execute a digital marketing campaign for a real or simulated brand.",
+          "skills": ["Digital marketing", "SEO/SEM", "Social media strategy", "Content marketing"]
+        },
+        {
+          "id": "y2-purpose-01",
+          "label": "Conduct market research and consumer analysis",
+          "courseRef": "MKTG 320 — Marketing Research",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Design and execute primary market research including surveys, focus groups, and data analysis. Students use SPSS or Qualtrics to analyze consumer data and present actionable insights.",
+          "skills": ["Market research", "Survey design", "Data analysis", "Consumer insights"]
+        },
+        {
+          "id": "y2-communities-01",
+          "label": "Compete in AMA case competition",
+          "courseRef": "MKTG 310 — Digital Marketing",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Collaborate in a team to solve a real-world marketing challenge in the AMA Collegiate Case Competition. Develop strategy, creative execution, and professional presentation skills.",
+          "skills": ["Case competition", "Team collaboration", "Creative strategy", "Presentation skills"]
+        },
+        {
+          "id": "y2-localglobal-01",
+          "label": "Analyze brand strategy across cultural markets",
+          "courseRef": "MKTG 330 — Consumer Behavior",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Study consumer psychology, cultural influences on purchasing behavior, and how global brands adapt messaging and positioning across markets. Students analyze cross-cultural advertising campaigns.",
+          "skills": ["Consumer psychology", "Cultural marketing", "Brand adaptation", "Cross-cultural analysis"]
+        },
+        {
+          "id": "y2-communities-02",
+          "label": "Deliver community marketing project for local business",
+          "courseRef": "MKTG 320 — Marketing Research",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Partner with a local small business to develop a marketing strategy including market analysis, competitive positioning, and promotional recommendations. Apply classroom learning to community impact.",
+          "skills": ["Community consulting", "Small business marketing", "Strategy development", "Client engagement"]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Advanced Marketing Strategy & Professional Experience — Master brand management, earn certifications, and complete internship.",
+      "milestones": [
+        {
+          "id": "y3-identity-01",
+          "label": "Master brand management and integrated marketing communications",
+          "courseRef": "MKTG 410 — Brand Management",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Study brand equity, brand architecture, positioning strategy, and integrated marketing communications (IMC). Students develop a comprehensive brand strategy for a new product launch.",
+          "skills": ["Brand management", "Brand equity", "IMC strategy", "Product launch"]
+        },
+        {
+          "id": "y3-purpose-01",
+          "label": "Earn Google Analytics and digital marketing certifications",
+          "courseRef": "MKTG 420 — Marketing Analytics",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Master marketing analytics tools and earn Google Analytics certification. Students analyze web traffic, campaign performance, and customer journey data to optimize marketing strategies.",
+          "skills": ["Marketing analytics", "Google Analytics", "Campaign optimization", "Data-driven marketing"]
+        },
+        {
+          "id": "y3-communities-01",
+          "label": "Secure and engage with a marketing industry mentor",
+          "courseRef": "MKTG 410 — Brand Management",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Establish a mentorship with a brand manager, marketing director, or digital strategist through CoBE networks. Monthly meetings focus on industry trends and career development.",
+          "skills": ["Mentorship cultivation", "Professional development", "Career strategy", "Industry networking"]
+        },
+        {
+          "id": "y3-identity-02",
+          "label": "Complete summer marketing internship",
+          "courseRef": "MKTG 395 — Marketing Internship",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Secure an internship in brand management, digital marketing, advertising, or market research at a corporation, agency, or nonprofit. Apply marketing strategy in a professional setting.",
+          "skills": ["Professional work experience", "Applied marketing", "Campaign execution", "Performance reflection"]
+        },
+        {
+          "id": "y3-localglobal-01",
+          "label": "Study international marketing and global strategy",
+          "courseRef": "MKTG 430 — International Marketing",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Analyze international market entry strategies, global brand management, and cross-cultural marketing challenges. Students develop a market entry plan for a brand expanding internationally.",
+          "skills": ["International marketing", "Market entry strategy", "Global branding", "Cross-cultural strategy"]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Career Placement & Capstone — Complete capstone campaign, build portfolio, and launch marketing career.",
+      "milestones": [
+        {
+          "id": "y4-purpose-01",
+          "label": "Execute capstone marketing campaign project",
+          "courseRef": "MKTG 495 — Capstone in Marketing",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Develop and execute a comprehensive marketing campaign for a real client including strategy, creative execution, media planning, and performance measurement. Evaluated by faculty and industry professionals.",
+          "skills": ["Campaign strategy", "Creative execution", "Media planning", "Performance measurement"]
+        },
+        {
+          "id": "y4-identity-01",
+          "label": "Build professional marketing portfolio",
+          "courseRef": "MKTG 490 — Senior Seminar in Marketing",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Curate a professional portfolio showcasing campaign work, market research projects, digital analytics dashboards, and brand strategy documents. Create an online portfolio site for employer review.",
+          "skills": ["Portfolio development", "Creative showcase", "Personal branding", "Digital presence"]
+        },
+        {
+          "id": "y4-communities-01",
+          "label": "Serve as peer mentor for underclassmen",
+          "courseRef": "MKTG 490 — Senior Seminar in Marketing",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Mentor underclassmen in marketing coursework, sharing internship insights, portfolio development strategies, and AMA competition experience.",
+          "skills": ["Peer mentorship", "Knowledge transfer", "Leadership modeling", "Community stewardship"]
+        },
+        {
+          "id": "y4-localglobal-01",
+          "label": "Develop industry-specific placement portfolio",
+          "courseRef": "MKTG 490 — Senior Seminar in Marketing",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Assemble a career launch package targeting brand management, digital agency, or corporate marketing roles. Includes tailored resume, portfolio link, and documented industry network.",
+          "skills": ["Career launch preparation", "Industry targeting", "Interview preparation", "Professional portfolio"]
+        },
+        {
+          "id": "y4-identity-02",
+          "label": "Complete exit assessment and career activation",
+          "courseRef": "MKTG 495 — Capstone in Marketing",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Complete the CoBE Marketing Exit Assessment and finalize career activation documenting job offers, graduate admissions, or agency placements.",
+          "skills": ["Competency demonstration", "Self-assessment", "Career activation", "Program outcome alignment"]
+        }
+      ]
+    }
+  ]
+}

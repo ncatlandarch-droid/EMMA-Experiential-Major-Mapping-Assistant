@@ -1,0 +1,236 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Engineering & Chemistry Foundations — Build STEM literacy, explore chemical engineering careers, and develop laboratory skills.",
+      "milestones": [
+        {
+          "id": "y1-purpose-01",
+          "label": "Explore chemical engineering career pathways",
+          "courseRef": "ENGR 100 — Introduction to Engineering",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Introduction to engineering disciplines with emphasis on chemical engineering applications in energy, pharmaceuticals, polymers, food processing, and environmental remediation.",
+          "skills": ["Engineering design", "Career exploration", "Problem solving", "ChemE overview"]
+        },
+        {
+          "id": "y1-identity-01",
+          "label": "Build calculus foundations for engineering",
+          "courseRef": "MATH 131 — Calculus I",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Functions, limits, derivatives, and introduction to integration. Mathematical foundation for mass and energy balances, reaction kinetics, and transport phenomena.",
+          "skills": ["Calculus", "Mathematical reasoning", "Problem solving", "Analytical thinking"]
+        },
+        {
+          "id": "y1-identity-02",
+          "label": "Master general chemistry for engineers",
+          "courseRef": "CHEM 105 — General Chemistry I",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Atomic structure, chemical bonding, stoichiometry, thermochemistry, and equilibrium. Foundation for chemical reaction engineering and process chemistry.",
+          "skills": ["General chemistry", "Stoichiometry", "Lab techniques", "Chemical analysis"]
+        },
+        {
+          "id": "y1-communities-01",
+          "label": "Join AIChE student chapter",
+          "courseRef": "Co-Curricular Requirement",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Join the American Institute of Chemical Engineers (AIChE) student chapter, NSBE, or SWE. Attend plant tours, industry speakers, and ChemE Car competition preparation.",
+          "skills": ["Engineering community", "Professional networking", "Industry exposure", "Peer learning"]
+        },
+        {
+          "id": "y1-localglobal-01",
+          "label": "Study physics foundations for engineering",
+          "courseRef": "PHYS 241 — Engineering Physics I",
+          "credits": 4,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Mechanics, thermodynamics, and waves. Students build the physics foundation for fluid mechanics, heat transfer, and process equipment design.",
+          "skills": ["Engineering physics", "Mechanics", "Thermodynamics", "Scientific reasoning"]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Core Chemical Engineering Sciences — Master mass/energy balances, thermodynamics, and transport phenomena.",
+      "milestones": [
+        {
+          "id": "y2-identity-01",
+          "label": "Master material and energy balances",
+          "courseRef": "CHME 201 — Material & Energy Balances",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Systematic application of conservation laws to chemical processes. Students solve complex material and energy balance problems for reacting and non-reacting systems, multiunit processes, and recycle streams.",
+          "skills": ["Mass balances", "Energy balances", "Process analysis", "Conservation laws"]
+        },
+        {
+          "id": "y2-purpose-01",
+          "label": "Study chemical engineering thermodynamics",
+          "courseRef": "CHME 301 — Chemical Engineering Thermodynamics",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Laws of thermodynamics, equations of state, phase equilibria, and chemical equilibrium applied to industrial chemical processes. Students use thermodynamic software for process calculations.",
+          "skills": ["Thermodynamics", "Phase equilibria", "Equations of state", "Process calculations"]
+        },
+        {
+          "id": "y2-communities-01",
+          "label": "Tour chemical plants and process facilities",
+          "courseRef": "CHME 201 — Material & Energy Balances",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Participate in AIChE-organized tours of chemical plants, refineries, and pharmaceutical manufacturing facilities in North Carolina. Connect classroom concepts to industrial practice.",
+          "skills": ["Industry exposure", "Plant operations", "Safety awareness", "Professional networking"]
+        },
+        {
+          "id": "y2-localglobal-01",
+          "label": "Master fluid mechanics and transport phenomena",
+          "courseRef": "CHME 310 — Transport Phenomena",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Momentum, heat, and mass transfer in chemical engineering systems. Students analyze pipe flow, heat exchangers, and mass transfer equipment used in global chemical manufacturing.",
+          "skills": ["Transport phenomena", "Fluid mechanics", "Heat transfer", "Mass transfer"]
+        },
+        {
+          "id": "y2-identity-02",
+          "label": "Study organic chemistry for chemical engineers",
+          "courseRef": "CHEM 221 — Organic Chemistry I",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Organic reaction mechanisms, functional groups, and synthesis. Foundation for polymer engineering, pharmaceutical processing, and petrochemical applications.",
+          "skills": ["Organic chemistry", "Reaction mechanisms", "Functional groups", "Synthesis"]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Advanced ChemE & Professional Experience — Master reaction engineering, process design, and complete internship.",
+      "milestones": [
+        {
+          "id": "y3-identity-01",
+          "label": "Master chemical reaction engineering",
+          "courseRef": "CHME 401 — Chemical Reaction Engineering",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Kinetics of chemical reactions, reactor design (batch, CSTR, PFR), catalysis, and reaction optimization. Students design reactor systems for industrial chemical processes.",
+          "skills": ["Reaction kinetics", "Reactor design", "Catalysis", "Process optimization"]
+        },
+        {
+          "id": "y3-purpose-01",
+          "label": "Study process control and instrumentation",
+          "courseRef": "CHME 410 — Process Control",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Feedback control systems, PID controllers, process dynamics, and instrumentation for chemical processes. Students design and tune control systems using simulation software.",
+          "skills": ["Process control", "PID tuning", "Instrumentation", "Control systems"]
+        },
+        {
+          "id": "y3-communities-01",
+          "label": "Compete in AIChE Chem-E-Car or design competition",
+          "courseRef": "CHME 401 — Chemical Reaction Engineering",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Design and build a chemically-powered vehicle for the AIChE Chem-E-Car competition. Develop teamwork, project management, and applied chemical engineering skills.",
+          "skills": ["Competition engineering", "Team project", "Applied design", "Creative problem solving"]
+        },
+        {
+          "id": "y3-identity-02",
+          "label": "Complete summer chemical engineering internship",
+          "courseRef": "CHME 395 — Chemical Engineering Internship",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Secure and complete an internship at a chemical company, refinery, pharmaceutical manufacturer, or environmental engineering firm. Apply process engineering skills in an industrial setting.",
+          "skills": ["Professional experience", "Applied ChemE", "Industry operations", "Performance reflection"]
+        },
+        {
+          "id": "y3-localglobal-01",
+          "label": "Study process safety and environmental engineering",
+          "courseRef": "CHME 420 — Process Safety & Environment",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Process hazard analysis, risk assessment, environmental regulations (EPA, OSHA), and green engineering principles. Students conduct HAZOP studies and develop safety management systems.",
+          "skills": ["Process safety", "HAZOP analysis", "Environmental compliance", "Risk assessment"]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Capstone Design & Career Launch — Complete senior design project, prepare for PE exam, and launch engineering career.",
+      "milestones": [
+        {
+          "id": "y4-purpose-01",
+          "label": "Execute senior design capstone project",
+          "courseRef": "CHME 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Complete a year-long process design project including process flow diagrams, equipment sizing, economic analysis, and safety review. Teams work with industry sponsors on real chemical process challenges.",
+          "skills": ["Process design", "Equipment sizing", "Economic analysis", "Team collaboration"]
+        },
+        {
+          "id": "y4-identity-01",
+          "label": "Prepare for FE exam and professional licensure",
+          "courseRef": "CHME 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Prepare for the NCEES Fundamentals of Engineering (FE) exam through review courses and practice exams. Begin the path toward Professional Engineer (PE) licensure.",
+          "skills": ["FE exam preparation", "Professional licensure", "Engineering review", "Exam strategy"]
+        },
+        {
+          "id": "y4-communities-01",
+          "label": "Serve as peer mentor and AIChE chapter leader",
+          "courseRef": "CHME 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Mentor underclassmen in chemical engineering coursework, lead AIChE chapter activities, and organize industry speaker events and plant tours.",
+          "skills": ["Peer mentorship", "Chapter leadership", "Knowledge transfer", "Community stewardship"]
+        },
+        {
+          "id": "y4-localglobal-01",
+          "label": "Develop career placement portfolio",
+          "courseRef": "CHME 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Assemble a career launch package including technical resume, design project portfolio, FE exam status, and documented professional network for chemical engineering positions.",
+          "skills": ["Career preparation", "Technical portfolio", "Interview readiness", "Professional positioning"]
+        },
+        {
+          "id": "y4-identity-02",
+          "label": "Complete exit assessment and career activation",
+          "courseRef": "CHME 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Complete the CoE Chemical Engineering Exit Assessment demonstrating competency across ABET outcomes. Finalize career activation documenting job offers, graduate admissions, or FE exam results.",
+          "skills": ["ABET competency", "Self-assessment", "Career activation", "Program outcome alignment"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Economic Foundations & Career Discovery — Build quantitative and economic reasoning, explore economics career pathways.",
+      "milestones": [
+        {
+          "id": "y1-purpose-01",
+          "label": "Complete CliftonStrengths assessment and economics career mapping",
+          "courseRef": "BUAD 100 — Introduction to Business",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Complete the Gallup CliftonStrengths assessment and connect signature themes to economics career pathways including policy analysis, data analytics, consulting, and research. Students develop a strengths-based career exploration plan.",
+          "skills": ["Self-assessment", "Career exploration", "Reflective writing", "Strengths identification"]
+        },
+        {
+          "id": "y1-identity-01",
+          "label": "Master principles of microeconomics",
+          "courseRef": "ECON 201 — Principles of Microeconomics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Study consumer behavior, market structures, pricing theory, and resource allocation. Students analyze how individuals and firms make decisions under conditions of scarcity using supply and demand models.",
+          "skills": ["Microeconomic analysis", "Supply and demand", "Market structures", "Economic reasoning"]
+        },
+        {
+          "id": "y1-identity-02",
+          "label": "Master principles of macroeconomics",
+          "courseRef": "ECON 202 — Principles of Macroeconomics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Examine national income determination, monetary and fiscal policy, inflation, unemployment, and economic growth. Students analyze current economic data from the Bureau of Economic Analysis and Federal Reserve.",
+          "skills": ["Macroeconomic analysis", "GDP measurement", "Monetary policy", "Fiscal policy"]
+        },
+        {
+          "id": "y1-communities-01",
+          "label": "Join Economics Club or Omicron Delta Epsilon",
+          "courseRef": "Co-Curricular Requirement",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Research and join a CoBE-affiliated economics organization. Attend speaker events, participate in economic policy discussions, and connect with faculty mentors conducting economics research.",
+          "skills": ["Professional networking", "Organizational engagement", "Peer learning", "Community building"]
+        },
+        {
+          "id": "y1-localglobal-01",
+          "label": "Analyze global economic development patterns",
+          "courseRef": "ECON 202 — Principles of Macroeconomics",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Examine economic development disparities across nations, analyzing factors such as institutional quality, trade openness, and human capital investment that drive long-term growth differences.",
+          "skills": ["Development economics", "Global awareness", "Comparative analysis", "Data interpretation"]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Intermediate Theory & Quantitative Methods — Deepen economic theory and build statistical analysis skills for applied economics.",
+      "milestones": [
+        {
+          "id": "y2-identity-01",
+          "label": "Complete intermediate microeconomic theory",
+          "courseRef": "ECON 301 — Intermediate Microeconomics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Advanced consumer and producer theory, general equilibrium, market failures, and welfare economics. Students develop mathematical models of economic behavior using calculus-based optimization.",
+          "skills": ["Advanced micro theory", "Optimization models", "Welfare analysis", "Mathematical economics"]
+        },
+        {
+          "id": "y2-purpose-01",
+          "label": "Build statistical analysis foundations",
+          "courseRef": "ECON 310 — Statistics for Economics",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Probability theory, statistical inference, hypothesis testing, and regression analysis applied to economic data. Students use statistical software to analyze real-world economic datasets.",
+          "skills": ["Statistical analysis", "Hypothesis testing", "Regression analysis", "Data software"]
+        },
+        {
+          "id": "y2-communities-01",
+          "label": "Conduct informational interviews with economics professionals",
+          "courseRef": "ECON 302 — Intermediate Macroeconomics",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Identify and interview three economics professionals in policy research, consulting, or government agencies. Students develop professional outreach, conduct structured interviews, and synthesize findings into a career pathway report.",
+          "skills": ["Professional outreach", "Interviewing skills", "Industry research", "Career planning"]
+        },
+        {
+          "id": "y2-localglobal-01",
+          "label": "Analyze monetary policy and central banking",
+          "courseRef": "ECON 302 — Intermediate Macroeconomics",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Study intermediate macroeconomic models including IS-LM, aggregate supply-demand, and Phillips Curve frameworks. Analyze Federal Reserve and international central bank policy decisions and their global transmission effects.",
+          "skills": ["Macroeconomic modeling", "Central banking", "Policy analysis", "Global transmission"]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Econometrics & Applied Research — Master quantitative research methods, conduct independent research, and complete summer internship.",
+      "milestones": [
+        {
+          "id": "y3-identity-01",
+          "label": "Master econometric methods",
+          "courseRef": "ECON 401 — Econometrics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Multiple regression analysis, instrumental variables, panel data, and time series methods using Stata or R. Students conduct original empirical analysis of economic questions using large-scale datasets.",
+          "skills": ["Econometrics", "Stata/R programming", "Causal inference", "Empirical analysis"]
+        },
+        {
+          "id": "y3-purpose-01",
+          "label": "Conduct independent economics research",
+          "courseRef": "ECON 410 — Research Methods in Economics",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Design and execute an independent research project using econometric methods. Students develop a research question, review literature, collect data, estimate models, and present findings at a departmental research symposium.",
+          "skills": ["Research design", "Literature review", "Data collection", "Academic presentation"]
+        },
+        {
+          "id": "y3-communities-01",
+          "label": "Secure and engage with an industry mentor",
+          "courseRef": "ECON 401 — Econometrics",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Establish a formal mentorship with an economist in government, think tank, or private sector through the CoBE network. Meet monthly to discuss career options, research opportunities, and graduate school planning.",
+          "skills": ["Mentorship cultivation", "Professional development", "Career strategy", "Relationship management"]
+        },
+        {
+          "id": "y3-identity-02",
+          "label": "Complete summer economics internship",
+          "courseRef": "ECON 395 — Economics Internship",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Secure and complete an internship at a government agency, Federal Reserve bank, think tank, consulting firm, or data analytics company. Apply econometric and policy analysis skills professionally.",
+          "skills": ["Professional work experience", "Applied economics", "Policy analysis", "Performance reflection"]
+        },
+        {
+          "id": "y3-localglobal-01",
+          "label": "Study labor economics and inequality",
+          "courseRef": "ECON 420 — Labor Economics",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Analyze labor markets, wage determination, discrimination, human capital investment, and income inequality using both U.S. and international comparative data. Students examine policies addressing racial and gender wage gaps.",
+          "skills": ["Labor economics", "Inequality analysis", "Policy evaluation", "Comparative research"]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Career Placement & Capstone — Finalize professional readiness, complete capstone research, and launch economics career.",
+      "milestones": [
+        {
+          "id": "y4-purpose-01",
+          "label": "Execute capstone economics research project",
+          "courseRef": "ECON 495 — Capstone in Economics",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Complete a comprehensive research paper applying econometric methods to an original economic question. Present findings to faculty and external reviewers. Strong projects are submitted to undergraduate research journals.",
+          "skills": ["Advanced research", "Econometric application", "Academic writing", "Professional presentation"]
+        },
+        {
+          "id": "y4-identity-01",
+          "label": "Prepare for graduate school or professional certification",
+          "courseRef": "ECON 490 — Senior Seminar in Economics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Develop graduate school applications (GRE preparation, personal statements, writing samples) or professional certification plans. Students explore MA/PhD economics programs and alternative career paths in data science and policy.",
+          "skills": ["Graduate school readiness", "GRE preparation", "Personal statements", "Career planning"]
+        },
+        {
+          "id": "y4-communities-01",
+          "label": "Serve as peer mentor and research assistant",
+          "courseRef": "ECON 490 — Senior Seminar in Economics",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Mentor underclassmen in economics coursework and assist faculty with research projects. Document mentorship activities and research contributions for graduate school applications.",
+          "skills": ["Peer mentorship", "Research assistance", "Leadership modeling", "Community stewardship"]
+        },
+        {
+          "id": "y4-localglobal-01",
+          "label": "Analyze economic policy for capstone extension",
+          "courseRef": "ECON 440 — Public Policy Economics",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Evaluate local and national economic policies using cost-benefit analysis and program evaluation methods. Students write policy briefs addressing issues such as healthcare, education, or environmental regulation.",
+          "skills": ["Policy evaluation", "Cost-benefit analysis", "Policy brief writing", "Evidence-based reasoning"]
+        },
+        {
+          "id": "y4-identity-02",
+          "label": "Complete exit assessment and career activation",
+          "courseRef": "ECON 495 — Capstone in Economics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Complete the CoBE Economics Exit Assessment and finalize career activation status documenting job offers, graduate school admissions, or research fellowship placements.",
+          "skills": ["Competency demonstration", "Self-assessment", "Career activation", "Program outcome alignment"]
+        }
+      ]
+    }
+  ]
+}

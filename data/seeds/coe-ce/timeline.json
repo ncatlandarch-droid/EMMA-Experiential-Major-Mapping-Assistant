@@ -1,0 +1,236 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Engineering & Science Foundations — Build STEM literacy, explore civil engineering careers, and develop analytical skills.",
+      "milestones": [
+        {
+          "id": "y1-purpose-01",
+          "label": "Explore civil engineering career pathways",
+          "courseRef": "ENGR 100 — Introduction to Engineering",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Introduction to engineering disciplines with emphasis on civil engineering applications in transportation, water resources, geotechnical, structural, and environmental engineering.",
+          "skills": ["Engineering design", "Career exploration", "Problem solving", "Civil engineering overview"]
+        },
+        {
+          "id": "y1-identity-01",
+          "label": "Build calculus foundations for engineering",
+          "courseRef": "MATH 131 — Calculus I",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Functions, limits, derivatives, and introduction to integration. Mathematical foundation for structural analysis, fluid mechanics, and transportation engineering.",
+          "skills": ["Calculus", "Mathematical reasoning", "Problem solving", "Analytical thinking"]
+        },
+        {
+          "id": "y1-identity-02",
+          "label": "Master engineering graphics and CAD",
+          "courseRef": "CIEN 101 — Engineering Graphics & CAD",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Engineering drawing standards, Civil 3D, and AutoCAD for civil engineering applications. Students create site plans, road profiles, and utility drawings.",
+          "skills": ["CAD proficiency", "AutoCAD Civil 3D", "Technical drawing", "Site planning"]
+        },
+        {
+          "id": "y1-communities-01",
+          "label": "Join ASCE student chapter",
+          "courseRef": "Co-Curricular Requirement",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Join the American Society of Civil Engineers (ASCE) student chapter, NSBE, or SWE. Participate in concrete canoe, steel bridge, or surveying competitions.",
+          "skills": ["Engineering community", "Professional networking", "Competition participation", "Peer learning"]
+        },
+        {
+          "id": "y1-localglobal-01",
+          "label": "Study physics foundations for engineering",
+          "courseRef": "PHYS 241 — Engineering Physics I",
+          "credits": 4,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Mechanics, thermodynamics, and waves. Foundation for structural mechanics, fluid dynamics, and geotechnical engineering.",
+          "skills": ["Engineering physics", "Mechanics", "Thermodynamics", "Scientific reasoning"]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Core Civil Engineering Sciences — Master structural mechanics, fluid mechanics, and surveying.",
+      "milestones": [
+        {
+          "id": "y2-identity-01",
+          "label": "Master statics and mechanics of materials",
+          "courseRef": "CIEN 201 — Statics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Force equilibrium, free body diagrams, trusses, frames, and centroids. Foundation for structural analysis and design of civil infrastructure.",
+          "skills": ["Statics", "Force analysis", "Truss analysis", "Free body diagrams"]
+        },
+        {
+          "id": "y2-purpose-01",
+          "label": "Master surveying and geomatics",
+          "courseRef": "CIEN 210 — Surveying",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Land surveying methods, GPS/GNSS, total stations, leveling, and GIS applications. Students complete field surveying exercises on campus and community sites.",
+          "skills": ["Surveying", "GPS/GNSS", "Total stations", "GIS applications"]
+        },
+        {
+          "id": "y2-communities-01",
+          "label": "Compete in ASCE concrete canoe or steel bridge competition",
+          "courseRef": "CIEN 201 — Statics",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Participate in ASCE regional competitions designing and building a concrete canoe or steel bridge. Develop teamwork, project management, and applied structural engineering skills.",
+          "skills": ["Competition engineering", "Team project", "Applied design", "Concrete/steel skills"]
+        },
+        {
+          "id": "y2-localglobal-01",
+          "label": "Study fluid mechanics and hydraulics",
+          "courseRef": "CIEN 301 — Fluid Mechanics",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Fluid statics, pipe flow, open channel flow, and hydraulic design. Students analyze water distribution systems and stormwater management infrastructure.",
+          "skills": ["Fluid mechanics", "Hydraulics", "Pipe flow", "Stormwater design"]
+        },
+        {
+          "id": "y2-identity-02",
+          "label": "Master mechanics of materials for structures",
+          "courseRef": "CIEN 310 — Mechanics of Materials",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Stress, strain, beam deflection, column buckling, and combined loading. Students analyze structural elements used in bridges, buildings, and infrastructure.",
+          "skills": ["Mechanics of materials", "Stress analysis", "Beam design", "Column buckling"]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Advanced Civil Engineering & Professional Experience — Master structural design, geotechnical engineering, and complete internship.",
+      "milestones": [
+        {
+          "id": "y3-identity-01",
+          "label": "Master structural analysis and design",
+          "courseRef": "CIEN 401 — Structural Analysis",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Analysis of determinate and indeterminate structures using classical and matrix methods. Students design steel and concrete structural elements using AISC and ACI codes.",
+          "skills": ["Structural analysis", "Steel design", "Concrete design", "Building codes"]
+        },
+        {
+          "id": "y3-purpose-01",
+          "label": "Study geotechnical engineering",
+          "courseRef": "CIEN 410 — Geotechnical Engineering",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Soil mechanics, foundation design, earth retaining structures, and slope stability analysis. Students conduct laboratory soil testing and analyze geotechnical investigation reports.",
+          "skills": ["Geotechnical engineering", "Soil mechanics", "Foundation design", "Lab testing"]
+        },
+        {
+          "id": "y3-communities-01",
+          "label": "Present research or project at ASCE conference",
+          "courseRef": "CIEN 401 — Structural Analysis",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Present undergraduate research or design project at an ASCE regional or national conference. Network with practicing engineers, graduate students, and faculty from other programs.",
+          "skills": ["Technical presentation", "Conference networking", "Research communication", "Professional exposure"]
+        },
+        {
+          "id": "y3-identity-02",
+          "label": "Complete summer civil engineering internship",
+          "courseRef": "CIEN 395 — Civil Engineering Internship",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Secure and complete an internship at a civil engineering firm, DOT, or construction company. Apply structural, transportation, or geotechnical skills in professional practice.",
+          "skills": ["Professional experience", "Applied civil engineering", "Industry practice", "Performance reflection"]
+        },
+        {
+          "id": "y3-localglobal-01",
+          "label": "Study transportation engineering and planning",
+          "courseRef": "CIEN 420 — Transportation Engineering",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Highway design, traffic engineering, transportation planning, and pavement design. Students analyze traffic data and design roadway improvements for local transportation projects.",
+          "skills": ["Transportation engineering", "Highway design", "Traffic analysis", "Pavement design"]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Capstone Design & Career Launch — Complete senior design project, prepare for FE exam, and launch civil engineering career.",
+      "milestones": [
+        {
+          "id": "y4-purpose-01",
+          "label": "Execute senior design capstone project",
+          "courseRef": "CIEN 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Complete a year-long civil engineering design project including site design, structural analysis, water/sewer infrastructure, transportation access, and environmental considerations.",
+          "skills": ["Civil design", "Site development", "Infrastructure design", "Project management"]
+        },
+        {
+          "id": "y4-identity-01",
+          "label": "Prepare for FE exam and professional licensure",
+          "courseRef": "CIEN 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Prepare for the NCEES FE Civil exam through review courses and practice exams. Begin the path toward PE licensure.",
+          "skills": ["FE exam preparation", "Professional licensure", "Engineering review", "Exam strategy"]
+        },
+        {
+          "id": "y4-communities-01",
+          "label": "Serve as peer mentor and ASCE chapter leader",
+          "courseRef": "CIEN 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Mentor underclassmen in civil engineering, lead ASCE chapter activities, and organize site visits, career panels, and competition teams.",
+          "skills": ["Peer mentorship", "Chapter leadership", "Knowledge transfer", "Community stewardship"]
+        },
+        {
+          "id": "y4-localglobal-01",
+          "label": "Develop career placement portfolio",
+          "courseRef": "CIEN 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Assemble a career launch package including technical resume, design portfolio, CAD/BIM samples, FE exam status, and documented professional network.",
+          "skills": ["Career preparation", "Design portfolio", "CAD showcase", "Professional positioning"]
+        },
+        {
+          "id": "y4-identity-02",
+          "label": "Complete exit assessment and career activation",
+          "courseRef": "CIEN 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Complete the CoE Civil Engineering Exit Assessment demonstrating ABET outcomes. Finalize career activation documenting job offers, graduate admissions, or FE exam results.",
+          "skills": ["ABET competency", "Self-assessment", "Career activation", "Program outcome alignment"]
+        }
+      ]
+    }
+  ]
+}

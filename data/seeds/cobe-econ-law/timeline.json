@@ -1,0 +1,226 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Economic & Legal Foundations — Build economic reasoning and explore the intersection of law and economics.",
+      "milestones": [
+        {
+          "id": "y1-purpose-01",
+          "label": "Complete CliftonStrengths assessment and pre-law career mapping",
+          "courseRef": "BUAD 100 — Introduction to Business",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Complete the Gallup CliftonStrengths assessment and connect signature themes to law and economics career pathways including regulatory policy, antitrust law, legal consulting, and government service.",
+          "skills": ["Self-assessment", "Career exploration", "Reflective writing", "Strengths identification"]
+        },
+        {
+          "id": "y1-identity-01",
+          "label": "Master principles of microeconomics",
+          "courseRef": "ECON 201 — Principles of Microeconomics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Study consumer behavior, market structures, pricing theory, and resource allocation. Build the economic reasoning skills foundational to law and economics analysis.",
+          "skills": ["Microeconomic analysis", "Supply and demand", "Market structures", "Economic reasoning"]
+        },
+        {
+          "id": "y1-identity-02",
+          "label": "Master principles of macroeconomics",
+          "courseRef": "ECON 202 — Principles of Macroeconomics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Examine national income, monetary and fiscal policy, and how government economic regulation affects markets. Focus on the policy frameworks that shape legal and regulatory environments.",
+          "skills": ["Macroeconomic analysis", "Government policy", "Regulatory frameworks", "Economic institutions"]
+        },
+        {
+          "id": "y1-communities-01",
+          "label": "Join Pre-Law Society or Economics Club",
+          "courseRef": "Co-Curricular Requirement",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Join NC A&T's Pre-Law Society or Economics Club. Attend mock trial events, legal career panels, and constitutional law discussions to build a pre-law network.",
+          "skills": ["Professional networking", "Pre-law exposure", "Peer learning", "Community building"]
+        },
+        {
+          "id": "y1-localglobal-01",
+          "label": "Analyze constitutional economics and property rights",
+          "courseRef": "ECON 202 — Principles of Macroeconomics",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Explore how constitutional frameworks, property rights systems, and legal institutions shape economic outcomes across nations. Students compare U.S. and international legal-economic systems.",
+          "skills": ["Constitutional economics", "Property rights", "Institutional analysis", "Comparative law"]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Intermediate Economics & Legal Reasoning — Integrate economic theory with business law and analytical writing.",
+      "milestones": [
+        {
+          "id": "y2-identity-01",
+          "label": "Complete intermediate microeconomic theory",
+          "courseRef": "ECON 301 — Intermediate Microeconomics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Advanced consumer and producer theory, externalities, public goods, and market failures that form the economic basis for legal regulation and antitrust policy.",
+          "skills": ["Advanced micro theory", "Market failures", "Externalities", "Regulatory rationale"]
+        },
+        {
+          "id": "y2-purpose-01",
+          "label": "Study business law and legal environment",
+          "courseRef": "BUAD 301 — Legal Environment of Business",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Introduction to the American legal system, contracts, torts, intellectual property, and constitutional law as applied to business. Students brief cases and develop legal reasoning skills.",
+          "skills": ["Legal reasoning", "Contract law", "Case briefing", "Constitutional analysis"]
+        },
+        {
+          "id": "y2-communities-01",
+          "label": "Participate in moot court or mock trial competition",
+          "courseRef": "BUAD 301 — Legal Environment of Business",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Compete in a moot court or mock trial event, developing oral advocacy, legal argumentation, and courtroom presence. Connect with pre-law advisors and law school representatives.",
+          "skills": ["Oral advocacy", "Legal argumentation", "Courtroom presence", "Competitive analysis"]
+        },
+        {
+          "id": "y2-localglobal-01",
+          "label": "Analyze international trade law and regulation",
+          "courseRef": "ECON 302 — Intermediate Macroeconomics",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Examine the economic rationale for trade agreements, tariffs, and WTO dispute resolution. Students analyze how international trade law shapes domestic economic policy.",
+          "skills": ["Trade law", "WTO framework", "International regulation", "Policy analysis"]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Law & Economics Specialization — Master quantitative legal analysis, LSAT preparation, and professional experience.",
+      "milestones": [
+        {
+          "id": "y3-identity-01",
+          "label": "Master econometrics for legal and policy analysis",
+          "courseRef": "ECON 401 — Econometrics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Regression analysis and causal inference methods applied to legal and regulatory questions. Students analyze discrimination cases, regulatory impact assessments, and damages estimation.",
+          "skills": ["Econometrics", "Causal inference", "Legal analytics", "Damages estimation"]
+        },
+        {
+          "id": "y3-purpose-01",
+          "label": "Study law and economics theory",
+          "courseRef": "ECON 430 — Law and Economics",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Economic analysis of legal rules including property law, tort liability, criminal law, and contract enforcement. Students apply the Coase Theorem and efficiency analysis to evaluate legal institutions.",
+          "skills": ["Law and economics", "Coase Theorem", "Efficiency analysis", "Legal institutional analysis"]
+        },
+        {
+          "id": "y3-communities-01",
+          "label": "Secure and engage with a legal industry mentor",
+          "courseRef": "ECON 430 — Law and Economics",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Establish a mentorship with a practicing attorney, legal economist, or policy analyst. Monthly meetings focus on law school admissions, career pathways, and professional development.",
+          "skills": ["Mentorship cultivation", "Professional development", "Law school guidance", "Relationship management"]
+        },
+        {
+          "id": "y3-identity-02",
+          "label": "Complete summer pre-law internship",
+          "courseRef": "ECON 395 — Economics Internship",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Secure an internship at a law firm, government agency, regulatory body, or public interest organization. Apply economic analysis to legal questions in a professional setting.",
+          "skills": ["Professional work experience", "Legal research", "Policy analysis", "Performance reflection"]
+        },
+        {
+          "id": "y3-localglobal-01",
+          "label": "Analyze antitrust and competition policy",
+          "courseRef": "ECON 425 — Industrial Organization",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Study market power, merger analysis, price-fixing, and antitrust enforcement using economic theory and empirical methods. Analyze landmark antitrust cases and their implications for competition policy.",
+          "skills": ["Antitrust economics", "Merger analysis", "Competition policy", "Case law analysis"]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Career Placement & Capstone — LSAT preparation, capstone research, and law school or career launch.",
+      "milestones": [
+        {
+          "id": "y4-purpose-01",
+          "label": "Execute capstone law and economics research project",
+          "courseRef": "ECON 495 — Capstone in Economics",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Complete a comprehensive research paper applying economic analysis to a legal or regulatory question. Present findings to faculty and legal professionals. Strong projects support law school applications.",
+          "skills": ["Advanced research", "Legal-economic analysis", "Academic writing", "Professional presentation"]
+        },
+        {
+          "id": "y4-identity-01",
+          "label": "Complete LSAT preparation and law school applications",
+          "courseRef": "ECON 490 — Senior Seminar in Economics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Intensive LSAT preparation including practice exams, logical reasoning workshops, and analytical writing practice. Submit law school applications with personal statements and faculty recommendations.",
+          "skills": ["LSAT preparation", "Law school applications", "Personal statements", "Analytical writing"]
+        },
+        {
+          "id": "y4-communities-01",
+          "label": "Serve as peer mentor and pre-law advisor",
+          "courseRef": "ECON 490 — Senior Seminar in Economics",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Mentor underclassmen interested in law and economics, sharing pre-law preparation insights and internship strategies. Model the integration of economic analysis and legal reasoning.",
+          "skills": ["Peer mentorship", "Knowledge transfer", "Leadership modeling", "Community stewardship"]
+        },
+        {
+          "id": "y4-localglobal-01",
+          "label": "Study regulatory economics and public policy",
+          "courseRef": "ECON 440 — Public Policy Economics",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Evaluate government regulatory programs using economic frameworks including cost-benefit analysis, regulatory impact analysis, and program evaluation. Write policy briefs on current regulatory debates.",
+          "skills": ["Regulatory economics", "Cost-benefit analysis", "Policy brief writing", "Government regulation"]
+        },
+        {
+          "id": "y4-identity-02",
+          "label": "Complete exit assessment and career activation",
+          "courseRef": "ECON 495 — Capstone in Economics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Complete the CoBE Economics Exit Assessment and finalize career activation documenting law school acceptances, job offers, or fellowship placements.",
+          "skills": ["Competency demonstration", "Self-assessment", "Career activation", "Program outcome alignment"]
+        }
+      ]
+    }
+  ]
+}

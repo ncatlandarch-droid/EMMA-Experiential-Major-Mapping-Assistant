@@ -1,0 +1,226 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Business Foundations & Accounting Discovery — Build quantitative literacy, explore the accounting profession, and develop professional identity.",
+      "milestones": [
+        {
+          "id": "y1-purpose-01",
+          "label": "Complete CliftonStrengths assessment and accounting career mapping",
+          "courseRef": "BUAD 100 — Introduction to Business",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Complete the Gallup CliftonStrengths assessment and connect signature themes to accounting career pathways including public accounting, corporate finance, government audit, and forensic accounting. Students develop a strengths-based career exploration plan.",
+          "skills": ["Self-assessment", "Career exploration", "Reflective writing", "Strengths identification"]
+        },
+        {
+          "id": "y1-identity-01",
+          "label": "Master financial accounting fundamentals",
+          "courseRef": "ACCT 201 — Principles of Financial Accounting",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Introduction to the accounting cycle, financial statements, and Generally Accepted Accounting Principles (GAAP). Students prepare income statements, balance sheets, and cash flow statements for service and merchandising enterprises.",
+          "skills": ["Financial statements", "GAAP fundamentals", "Journal entries", "Accounting cycle"]
+        },
+        {
+          "id": "y1-identity-02",
+          "label": "Complete managerial accounting foundations",
+          "courseRef": "ACCT 202 — Principles of Managerial Accounting",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Cost-volume-profit analysis, budgeting, variance analysis, and management decision-making using accounting data. Students apply cost accounting methods to manufacturing and service organizations.",
+          "skills": ["Cost analysis", "Budgeting", "Variance analysis", "Managerial decision-making"]
+        },
+        {
+          "id": "y1-communities-01",
+          "label": "Join Beta Alpha Psi or Accounting Club",
+          "courseRef": "Co-Curricular Requirement",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Research and join a CoBE-affiliated accounting organization such as Beta Alpha Psi, the National Association of Black Accountants (NABA) student chapter, or the Accounting Club. Attend a minimum of three meetings and document participation.",
+          "skills": ["Professional networking", "Organizational engagement", "Peer learning", "Community building"]
+        },
+        {
+          "id": "y1-localglobal-01",
+          "label": "Analyze global economic forces in business",
+          "courseRef": "ECON 100 — Principles of Economics",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Examine macroeconomic and microeconomic principles shaping global business environments. Students analyze international trade, monetary policy, and their impact on accounting and financial reporting standards across borders.",
+          "skills": ["Economic analysis", "Global awareness", "Critical thinking", "Market dynamics"]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Core Accounting Knowledge & Professional Exposure — Deepen technical accounting skills and build industry connections through networking and applied learning.",
+      "milestones": [
+        {
+          "id": "y2-identity-01",
+          "label": "Master intermediate financial accounting",
+          "courseRef": "ACCT 301 — Intermediate Accounting I",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "In-depth study of asset valuation, revenue recognition, and financial statement presentation under GAAP and IFRS. Students analyze complex transactions including leases, pensions, and deferred taxes.",
+          "skills": ["Intermediate accounting", "IFRS comparison", "Asset valuation", "Revenue recognition"]
+        },
+        {
+          "id": "y2-purpose-01",
+          "label": "Complete VITA volunteer tax preparation",
+          "courseRef": "ACCT 310 — Income Tax Accounting",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Participate in the IRS Volunteer Income Tax Assistance (VITA) program, preparing federal and state tax returns for low-income community members. Students earn IRS certification and apply tax code knowledge in a service-learning context.",
+          "skills": ["Tax preparation", "IRS certification", "Community service", "Tax code application"]
+        },
+        {
+          "id": "y2-communities-01",
+          "label": "Attend CoBE career fair and Big Four recruiting events",
+          "courseRef": "ACCT 301 — Intermediate Accounting I",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Participate in CoBE-sponsored career fairs and Big Four accounting firm recruiting events. Students practice elevator pitches, submit resumes through Handshake, and conduct follow-up outreach to recruiters.",
+          "skills": ["Professional networking", "Elevator pitch", "Resume refinement", "Recruiter engagement"]
+        },
+        {
+          "id": "y2-localglobal-01",
+          "label": "Analyze international financial reporting standards",
+          "courseRef": "ACCT 302 — Intermediate Accounting II",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Compare U.S. GAAP and IFRS frameworks through case studies of multinational corporations. Students analyze how convergence efforts impact financial reporting for global companies operating across regulatory jurisdictions.",
+          "skills": ["IFRS analysis", "Global reporting", "Comparative standards", "Multinational accounting"]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Advanced Accounting & CPA Preparation — Build audit and tax expertise, secure mentorship, and complete a summer internship.",
+      "milestones": [
+        {
+          "id": "y3-identity-01",
+          "label": "Complete auditing and assurance services",
+          "courseRef": "ACCT 401 — Auditing",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Study audit standards, evidence gathering, internal controls, and professional ethics. Students conduct a simulated audit engagement including risk assessment, testing, and audit report preparation following PCAOB and AICPA standards.",
+          "skills": ["Audit procedures", "Internal controls", "Risk assessment", "Professional ethics"]
+        },
+        {
+          "id": "y3-purpose-01",
+          "label": "Begin CPA exam preparation coursework",
+          "courseRef": "ACCT 410 — Advanced Accounting",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Advanced topics including business combinations, consolidated financial statements, governmental accounting, and partnership accounting. Coursework directly maps to CPA exam content areas in FAR and AUD sections.",
+          "skills": ["Consolidations", "Government accounting", "CPA preparation", "Advanced transactions"]
+        },
+        {
+          "id": "y3-communities-01",
+          "label": "Secure and engage with an industry mentor",
+          "courseRef": "ACCT 401 — Auditing",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Establish a formal mentorship relationship with a CPA or accounting professional through the CoBE Alumni Mentor Network or NABA mentorship program. Meet monthly and document career guidance insights in a structured journal.",
+          "skills": ["Mentorship cultivation", "Professional development", "Career strategy", "Relationship management"]
+        },
+        {
+          "id": "y3-identity-02",
+          "label": "Complete summer accounting internship",
+          "courseRef": "ACCT 395 — Accounting Internship",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Secure and complete a structured internship at a public accounting firm, corporate finance department, or government agency. Students apply audit, tax, or advisory skills in a professional setting and submit a comprehensive reflection report.",
+          "skills": ["Professional work experience", "Applied accounting", "Supervisor feedback", "Performance reflection"]
+        },
+        {
+          "id": "y3-localglobal-01",
+          "label": "Analyze forensic accounting and fraud examination",
+          "courseRef": "ACCT 420 — Forensic Accounting",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Investigate real-world fraud cases using forensic accounting techniques. Students analyze financial statement fraud, asset misappropriation, and corruption schemes with applications to both domestic and international contexts.",
+          "skills": ["Fraud examination", "Forensic analysis", "Investigative techniques", "Ethical reasoning"]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Career Placement & Capstone — Finalize CPA readiness, complete capstone project, and launch professional career.",
+      "milestones": [
+        {
+          "id": "y4-purpose-01",
+          "label": "Execute capstone accounting research project",
+          "courseRef": "ACCT 495 — Capstone in Accounting",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Collaborate with a client organization to analyze a complex accounting issue, conduct research using authoritative literature (ASC, IRC), and deliver professional recommendations. Projects are evaluated by faculty and industry professionals.",
+          "skills": ["Accounting research", "Client management", "Authoritative literature", "Executive presentation"]
+        },
+        {
+          "id": "y4-identity-01",
+          "label": "Complete CPA exam review and 150-hour planning",
+          "courseRef": "ACCT 490 — Senior Seminar in Accounting",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Finalize CPA exam preparation strategy including 150-credit-hour planning for licensure eligibility. Students complete practice exams, develop a study timeline, and explore MAcc program options at NC A&T and partner institutions.",
+          "skills": ["CPA exam strategy", "Licensure planning", "Self-directed study", "Graduate school readiness"]
+        },
+        {
+          "id": "y4-communities-01",
+          "label": "Serve as peer mentor for underclassmen",
+          "courseRef": "ACCT 490 — Senior Seminar in Accounting",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Serve as a peer mentor for first- or second-year accounting students, facilitating study groups, sharing internship strategies, and modeling professional behavior within Beta Alpha Psi or NABA chapters.",
+          "skills": ["Peer mentorship", "Knowledge transfer", "Leadership modeling", "Community stewardship"]
+        },
+        {
+          "id": "y4-localglobal-01",
+          "label": "Develop industry-specific placement portfolio",
+          "courseRef": "ACCT 490 — Senior Seminar in Accounting",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Assemble a comprehensive career launch package targeting public accounting, corporate, or government sectors. Includes tailored resume, case interview preparation, and documented network map of industry contacts.",
+          "skills": ["Career launch preparation", "Industry targeting", "Interview preparation", "Professional portfolio"]
+        },
+        {
+          "id": "y4-identity-02",
+          "label": "Complete exit competency assessment and career activation",
+          "courseRef": "ACCT 495 — Capstone in Accounting",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Complete the CoBE Accounting Exit Assessment measuring competency across program learning outcomes. Finalize career activation status documenting job offers, graduate admissions, or CPA exam registration.",
+          "skills": ["Competency demonstration", "Self-assessment", "Career activation", "Program outcome alignment"]
+        }
+      ]
+    }
+  ]
+}

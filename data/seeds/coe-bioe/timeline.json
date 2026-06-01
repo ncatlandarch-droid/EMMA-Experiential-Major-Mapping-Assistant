@@ -1,0 +1,236 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Engineering & Biology Foundations — Build STEM literacy, explore bioengineering careers, and develop laboratory skills.",
+      "milestones": [
+        {
+          "id": "y1-purpose-01",
+          "label": "Explore bioengineering career pathways",
+          "courseRef": "ENGR 100 — Introduction to Engineering",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Introduction to engineering disciplines with emphasis on bioengineering applications in biomedical devices, pharmaceutical manufacturing, tissue engineering, and bioinformatics. Students complete an engineering design challenge.",
+          "skills": ["Engineering design", "Career exploration", "Problem solving", "Bioengineering overview"]
+        },
+        {
+          "id": "y1-identity-01",
+          "label": "Build calculus foundations for engineering",
+          "courseRef": "MATH 131 — Calculus I",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Functions, limits, derivatives, and introduction to integration. The mathematical foundation for all engineering analysis, modeling, and design courses.",
+          "skills": ["Calculus", "Mathematical reasoning", "Problem solving", "Analytical thinking"]
+        },
+        {
+          "id": "y1-identity-02",
+          "label": "Master general chemistry for engineers",
+          "courseRef": "CHEM 105 — General Chemistry I",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Atomic structure, chemical bonding, stoichiometry, and thermochemistry. Provides the chemistry foundation for biomaterials, biochemistry, and chemical process courses.",
+          "skills": ["General chemistry", "Lab techniques", "Scientific reasoning", "Chemical analysis"]
+        },
+        {
+          "id": "y1-communities-01",
+          "label": "Join BMES or bioengineering student organization",
+          "courseRef": "Co-Curricular Requirement",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Join the Biomedical Engineering Society (BMES) student chapter, NSBE, or SWE. Attend research seminars, lab tours, and networking events with bioengineering professionals and faculty researchers.",
+          "skills": ["Engineering community", "Professional networking", "Research exposure", "Peer learning"]
+        },
+        {
+          "id": "y1-localglobal-01",
+          "label": "Study biology foundations for bioengineering",
+          "courseRef": "BIOL 101 — General Biology I",
+          "credits": 4,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Cell biology, genetics, and molecular biology fundamentals. Students connect biological principles to bioengineering applications in drug delivery, tissue engineering, and biosensors.",
+          "skills": ["Cell biology", "Genetics", "Molecular biology", "Biological foundations"]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Core Bioengineering Sciences — Deepen engineering science knowledge and begin laboratory research exposure.",
+      "milestones": [
+        {
+          "id": "y2-identity-01",
+          "label": "Master biomechanics and statics",
+          "courseRef": "BIEN 201 — Biomechanics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Study of forces and motion in biological systems including musculoskeletal mechanics, tissue stress analysis, and biomedical device mechanics. Students apply engineering statics to human anatomy.",
+          "skills": ["Biomechanics", "Statics", "Force analysis", "Biological systems"]
+        },
+        {
+          "id": "y2-purpose-01",
+          "label": "Study biochemistry and molecular engineering",
+          "courseRef": "BIEN 210 — Biochemistry for Engineers",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Protein structure, enzyme kinetics, metabolic pathways, and molecular engineering principles. Students analyze biological molecules and design experiments for bioprocess applications.",
+          "skills": ["Biochemistry", "Enzyme kinetics", "Molecular engineering", "Bioprocess fundamentals"]
+        },
+        {
+          "id": "y2-communities-01",
+          "label": "Begin undergraduate research with faculty mentor",
+          "courseRef": "BIEN 201 — Biomechanics",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Join a faculty research lab in tissue engineering, biomaterials, drug delivery, or bioinformatics. Complete training in research protocols, lab safety, and scientific documentation.",
+          "skills": ["Research experience", "Lab skills", "Scientific documentation", "Faculty mentorship"]
+        },
+        {
+          "id": "y2-localglobal-01",
+          "label": "Study bioengineering thermodynamics and transport",
+          "courseRef": "BIEN 301 — Biotransport Phenomena",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Heat and mass transfer in biological systems including drug delivery kinetics, oxygen transport in tissues, and bioreactor design. Students model real physiological transport problems.",
+          "skills": ["Transport phenomena", "Heat transfer", "Mass transfer", "Bioreactor design"]
+        },
+        {
+          "id": "y2-identity-02",
+          "label": "Master bioengineering materials science",
+          "courseRef": "BIEN 310 — Biomaterials",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Study biomaterial properties, biocompatibility, degradation, and applications in implants, prosthetics, and tissue scaffolds. Students evaluate biomaterial candidates for medical device applications.",
+          "skills": ["Biomaterials", "Biocompatibility", "Material selection", "Medical devices"]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Advanced Bioengineering & Research — Master tissue engineering, bioinstrumentation, and gain professional experience.",
+      "milestones": [
+        {
+          "id": "y3-identity-01",
+          "label": "Master tissue engineering and regenerative medicine",
+          "courseRef": "BIEN 410 — Tissue Engineering",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Study scaffold design, cell culture techniques, stem cell engineering, and regenerative medicine approaches. Students design and test tissue-engineered constructs in the bioengineering lab.",
+          "skills": ["Tissue engineering", "Cell culture", "Scaffold design", "Regenerative medicine"]
+        },
+        {
+          "id": "y3-purpose-01",
+          "label": "Study bioinstrumentation and biosensors",
+          "courseRef": "BIEN 420 — Bioinstrumentation",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Design and analysis of biomedical instruments including biosensors, signal processing, medical imaging systems, and point-of-care diagnostics. Students build and test biosensor prototypes.",
+          "skills": ["Bioinstrumentation", "Biosensors", "Signal processing", "Prototype development"]
+        },
+        {
+          "id": "y3-communities-01",
+          "label": "Present research at undergraduate symposium",
+          "courseRef": "BIEN 410 — Tissue Engineering",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Present undergraduate research at a departmental or university symposium. Develop scientific poster and oral presentation skills. Network with graduate students and industry professionals at the event.",
+          "skills": ["Research presentation", "Scientific communication", "Poster design", "Academic networking"]
+        },
+        {
+          "id": "y3-identity-02",
+          "label": "Complete summer bioengineering internship or REU",
+          "courseRef": "BIEN 395 — Bioengineering Internship",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Secure an internship at a biotech company, medical device manufacturer, pharmaceutical firm, or NSF REU program. Apply bioengineering skills in an industry or advanced research setting.",
+          "skills": ["Professional experience", "Applied bioengineering", "Industry exposure", "Performance reflection"]
+        },
+        {
+          "id": "y3-localglobal-01",
+          "label": "Study bioethics and regulatory affairs",
+          "courseRef": "BIEN 430 — Bioethics and Regulatory Science",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Analyze FDA regulatory pathways (510(k), PMA), clinical trial design, bioethics frameworks, and international medical device regulations. Students prepare a regulatory submission for a medical device concept.",
+          "skills": ["FDA regulations", "Clinical trials", "Bioethics", "Regulatory affairs"]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Capstone Design & Career Launch — Complete senior design project, apply to graduate programs, and launch bioengineering career.",
+      "milestones": [
+        {
+          "id": "y4-purpose-01",
+          "label": "Execute senior design capstone project",
+          "courseRef": "BIEN 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Complete a year-long senior design project addressing a real bioengineering challenge. Teams work with industry sponsors or clinical partners to design, prototype, test, and present a biomedical solution.",
+          "skills": ["Engineering design", "Prototyping", "Team collaboration", "Project management"]
+        },
+        {
+          "id": "y4-identity-01",
+          "label": "Prepare graduate school or industry applications",
+          "courseRef": "BIEN 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Develop applications for graduate programs (MS/PhD in bioengineering, biomedical engineering, or medical school) or industry positions. Prepare GRE, personal statements, research portfolios, and faculty recommendations.",
+          "skills": ["Graduate school readiness", "GRE preparation", "Research portfolio", "Application strategy"]
+        },
+        {
+          "id": "y4-communities-01",
+          "label": "Serve as peer mentor and lab teaching assistant",
+          "courseRef": "BIEN 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Mentor underclassmen in bioengineering coursework, serve as a teaching assistant for laboratory courses, and contribute to the department's research community.",
+          "skills": ["Peer mentorship", "Teaching assistance", "Knowledge transfer", "Community stewardship"]
+        },
+        {
+          "id": "y4-localglobal-01",
+          "label": "Develop career placement portfolio",
+          "courseRef": "BIEN 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Assemble a career launch package including technical resume, research portfolio, design project documentation, and documented professional network for biotech, medical device, or graduate program applications.",
+          "skills": ["Career preparation", "Technical portfolio", "Interview readiness", "Professional positioning"]
+        },
+        {
+          "id": "y4-identity-02",
+          "label": "Complete exit assessment and career activation",
+          "courseRef": "BIEN 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Complete the CoE Bioengineering Exit Assessment demonstrating competency across ABET outcomes. Finalize career activation documenting job offers, graduate admissions, or research fellowship placements.",
+          "skills": ["ABET competency", "Self-assessment", "Career activation", "Program outcome alignment"]
+        }
+      ]
+    }
+  ]
+}

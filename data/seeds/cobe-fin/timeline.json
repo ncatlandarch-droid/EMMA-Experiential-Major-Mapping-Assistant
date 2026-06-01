@@ -1,0 +1,236 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Business Foundations & Financial Literacy — Build quantitative foundations, explore finance career pathways, and develop professional identity.",
+      "milestones": [
+        {
+          "id": "y1-purpose-01",
+          "label": "Complete CliftonStrengths assessment and finance career mapping",
+          "courseRef": "BUAD 100 — Introduction to Business",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Complete the Gallup CliftonStrengths assessment and connect signature themes to finance career pathways including investment banking, corporate finance, wealth management, and fintech. Students develop a strengths-based career exploration plan.",
+          "skills": ["Self-assessment", "Career exploration", "Reflective writing", "Strengths identification"]
+        },
+        {
+          "id": "y1-identity-01",
+          "label": "Master financial accounting fundamentals",
+          "courseRef": "ACCT 201 — Principles of Financial Accounting",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Introduction to financial statements, the accounting cycle, and GAAP. Students build the accounting literacy essential for financial analysis and investment valuation in upper-division finance courses.",
+          "skills": ["Financial statements", "GAAP fundamentals", "Accounting cycle", "Business literacy"]
+        },
+        {
+          "id": "y1-identity-02",
+          "label": "Build quantitative reasoning foundations",
+          "courseRef": "MATH 131 — Calculus I",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Develop the calculus foundations required for financial modeling, derivatives pricing, and quantitative analysis. Emphasis on functions, limits, derivatives, and optimization problems applied to business contexts.",
+          "skills": ["Calculus", "Quantitative reasoning", "Mathematical modeling", "Analytical thinking"]
+        },
+        {
+          "id": "y1-communities-01",
+          "label": "Join Financial Management Association or Investment Club",
+          "courseRef": "Co-Curricular Requirement",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Research and join a CoBE-affiliated finance organization such as the Financial Management Association, Student Investment Club, or National Association of Securities Professionals student chapter.",
+          "skills": ["Professional networking", "Organizational engagement", "Peer learning", "Community building"]
+        },
+        {
+          "id": "y1-localglobal-01",
+          "label": "Analyze global economic forces shaping financial markets",
+          "courseRef": "ECON 100 — Principles of Economics",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Examine macroeconomic principles including monetary policy, interest rates, inflation, and international trade that directly influence financial markets and investment decisions.",
+          "skills": ["Economic analysis", "Global awareness", "Market dynamics", "Critical thinking"]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Core Finance Knowledge & Market Exposure — Deepen corporate finance and investment skills, engage with industry professionals.",
+      "milestones": [
+        {
+          "id": "y2-identity-01",
+          "label": "Master corporate finance principles",
+          "courseRef": "FINC 301 — Corporate Finance",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Time value of money, capital budgeting, cost of capital, capital structure decisions, and dividend policy. Students analyze real company financial decisions using discounted cash flow models and NPV analysis.",
+          "skills": ["Capital budgeting", "DCF analysis", "Cost of capital", "Financial decision-making"]
+        },
+        {
+          "id": "y2-purpose-01",
+          "label": "Complete Bloomberg Market Concepts certification",
+          "courseRef": "FINC 301 — Corporate Finance",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Complete the Bloomberg Market Concepts (BMC) self-paced certification covering economic indicators, currencies, fixed income, and equities using the Bloomberg Terminal in the CoBE Finance Lab.",
+          "skills": ["Bloomberg Terminal", "Market data analysis", "Financial certification", "Industry tool proficiency"]
+        },
+        {
+          "id": "y2-communities-01",
+          "label": "Attend CoBE career fair and finance industry recruiting events",
+          "courseRef": "FINC 301 — Corporate Finance",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Participate in CoBE-sponsored career fairs and finance industry recruiting events with banks, asset management firms, and financial services companies. Practice elevator pitches and submit targeted resumes.",
+          "skills": ["Professional networking", "Elevator pitch", "Resume refinement", "Recruiter engagement"]
+        },
+        {
+          "id": "y2-localglobal-01",
+          "label": "Analyze international financial markets",
+          "courseRef": "FINC 310 — Investments",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Study investment theory including portfolio construction, asset pricing models (CAPM, APT), and market efficiency. Students analyze domestic and international equity, fixed income, and derivative markets.",
+          "skills": ["Portfolio theory", "Asset pricing", "Market analysis", "Investment evaluation"]
+        },
+        {
+          "id": "y2-identity-02",
+          "label": "Build financial modeling proficiency",
+          "courseRef": "FINC 320 — Financial Analysis",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Develop advanced Excel financial models including three-statement models, sensitivity analysis, and scenario planning. Students analyze publicly traded companies using ratio analysis and valuation multiples.",
+          "skills": ["Financial modeling", "Excel proficiency", "Ratio analysis", "Valuation techniques"]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Advanced Finance & Portfolio Management — Build portfolio management expertise, secure mentorship, and complete summer internship.",
+      "milestones": [
+        {
+          "id": "y3-identity-01",
+          "label": "Manage student investment fund portfolio",
+          "courseRef": "FINC 410 — Portfolio Management",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Participate in the CoBE Student Managed Investment Fund, conducting equity research, presenting stock pitches, and making real investment decisions. Students apply modern portfolio theory and risk management frameworks.",
+          "skills": ["Portfolio management", "Equity research", "Stock pitching", "Risk management"]
+        },
+        {
+          "id": "y3-purpose-01",
+          "label": "Begin CFA Level I preparation",
+          "courseRef": "FINC 420 — Advanced Investments",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Coursework aligned with CFA Level I curriculum covering ethics, quantitative methods, financial reporting, and equity valuation. Students register for the CFA Institute University Affiliation Program.",
+          "skills": ["CFA preparation", "Ethics standards", "Quantitative methods", "Professional certification"]
+        },
+        {
+          "id": "y3-communities-01",
+          "label": "Secure and engage with an industry mentor",
+          "courseRef": "FINC 410 — Portfolio Management",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Establish a formal mentorship relationship with a finance professional through the CoBE Alumni Mentor Network or industry partner program. Meet monthly and document career guidance and market insights.",
+          "skills": ["Mentorship cultivation", "Professional development", "Career strategy", "Relationship management"]
+        },
+        {
+          "id": "y3-identity-02",
+          "label": "Complete summer finance internship",
+          "courseRef": "FINC 395 — Finance Internship",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Secure and complete a structured internship at a bank, investment firm, insurance company, or corporate finance department. Students apply financial analysis skills in a professional setting and submit a comprehensive reflection.",
+          "skills": ["Professional work experience", "Applied finance", "Supervisor feedback", "Performance reflection"]
+        },
+        {
+          "id": "y3-localglobal-01",
+          "label": "Study international finance and foreign exchange",
+          "courseRef": "FINC 430 — International Finance",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Analyze international financial management topics including foreign exchange markets, currency risk hedging, international capital budgeting, and cross-border mergers and acquisitions.",
+          "skills": ["Foreign exchange", "Currency hedging", "International capital markets", "Cross-border analysis"]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Career Placement & Capstone — Finalize professional readiness, complete capstone project, and launch finance career.",
+      "milestones": [
+        {
+          "id": "y4-purpose-01",
+          "label": "Execute capstone financial consulting project",
+          "courseRef": "FINC 495 — Capstone in Finance",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Collaborate with a client organization to analyze a financial challenge, conduct valuation analysis, and deliver professional recommendations. Projects are evaluated by faculty and industry professionals.",
+          "skills": ["Financial consulting", "Client management", "Valuation analysis", "Executive presentation"]
+        },
+        {
+          "id": "y4-identity-01",
+          "label": "Complete salary negotiation and offer evaluation training",
+          "courseRef": "FINC 490 — Senior Seminar in Finance",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Participate in negotiation workshops covering compensation analysis, benefits evaluation, and offer comparison for finance industry positions. Students develop personal compensation strategy documents.",
+          "skills": ["Salary negotiation", "Compensation analysis", "Offer evaluation", "Professional assertiveness"]
+        },
+        {
+          "id": "y4-communities-01",
+          "label": "Serve as peer mentor for underclassmen",
+          "courseRef": "FINC 490 — Senior Seminar in Finance",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Serve as a peer mentor for first- or second-year finance students, facilitating study groups, sharing internship strategies, and modeling professional behavior within the Investment Club or FMA.",
+          "skills": ["Peer mentorship", "Knowledge transfer", "Leadership modeling", "Community stewardship"]
+        },
+        {
+          "id": "y4-localglobal-01",
+          "label": "Develop industry-specific placement portfolio",
+          "courseRef": "FINC 490 — Senior Seminar in Finance",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Assemble a comprehensive career launch package targeting investment banking, asset management, or corporate finance sectors. Includes tailored resume, technical interview preparation, and network map of contacts.",
+          "skills": ["Career launch preparation", "Industry targeting", "Interview preparation", "Professional portfolio"]
+        },
+        {
+          "id": "y4-identity-02",
+          "label": "Complete exit competency assessment and career activation",
+          "courseRef": "FINC 495 — Capstone in Finance",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Complete the CoBE Finance Exit Assessment measuring competency across program learning outcomes. Finalize career activation status documenting job offers, graduate admissions, or CFA exam registration.",
+          "skills": ["Competency demonstration", "Self-assessment", "Career activation", "Program outcome alignment"]
+        }
+      ]
+    }
+  ]
+}

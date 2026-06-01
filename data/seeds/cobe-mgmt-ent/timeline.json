@@ -1,0 +1,236 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Entrepreneurial Foundations & Self-Discovery — Explore entrepreneurship career pathways, build business literacy, and identify personal strengths.",
+      "milestones": [
+        {
+          "id": "y1-purpose-01",
+          "label": "Complete CliftonStrengths assessment and entrepreneurship career mapping",
+          "courseRef": "BUAD 100 — Introduction to Business",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Complete the Gallup CliftonStrengths assessment and connect signature themes to entrepreneurship pathways including venture creation, social enterprise, family business, and intrapreneurship.",
+          "skills": ["Self-assessment", "Career exploration", "Reflective writing", "Strengths identification"]
+        },
+        {
+          "id": "y1-identity-01",
+          "label": "Explore the entrepreneurial mindset",
+          "courseRef": "MGMT 110 — Introduction to Management",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Introduction to management principles with emphasis on entrepreneurial thinking, opportunity recognition, and the role of small business in the economy. Students explore entrepreneurial archetypes and startup ecosystems.",
+          "skills": ["Entrepreneurial mindset", "Opportunity recognition", "Management fundamentals", "Small business"]
+        },
+        {
+          "id": "y1-identity-02",
+          "label": "Build financial literacy for entrepreneurs",
+          "courseRef": "ACCT 201 — Principles of Financial Accounting",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Learn to read and prepare financial statements essential for business planning, investor communication, and financial management of new ventures.",
+          "skills": ["Financial statements", "Accounting fundamentals", "Business literacy", "Investor readiness"]
+        },
+        {
+          "id": "y1-communities-01",
+          "label": "Join Enactus or Entrepreneurship Club",
+          "courseRef": "Co-Curricular Requirement",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Join NC A&T's Enactus team, Entrepreneurship Club, or startup incubator community. Attend pitch events, connect with student founders, and explore the campus innovation ecosystem.",
+          "skills": ["Entrepreneurial networking", "Peer learning", "Innovation community", "Team building"]
+        },
+        {
+          "id": "y1-localglobal-01",
+          "label": "Analyze economic forces shaping entrepreneurship",
+          "courseRef": "ECON 100 — Principles of Economics",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Examine how economic conditions, market structures, and regulatory environments create opportunities and barriers for entrepreneurs in local, national, and global markets.",
+          "skills": ["Economic analysis", "Market opportunity", "Regulatory awareness", "Global business"]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Venture Development & Market Validation — Learn venture creation fundamentals, build marketing skills, and validate business ideas.",
+      "milestones": [
+        {
+          "id": "y2-identity-01",
+          "label": "Develop a venture concept and business model canvas",
+          "courseRef": "MGMT 330 — Entrepreneurship",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Apply the Lean Startup methodology and Business Model Canvas to develop, test, and iterate a venture concept. Students conduct customer discovery interviews and validate product-market fit assumptions.",
+          "skills": ["Lean Startup", "Business Model Canvas", "Customer discovery", "Product-market fit"]
+        },
+        {
+          "id": "y2-purpose-01",
+          "label": "Master marketing fundamentals for startups",
+          "courseRef": "MKTG 301 — Principles of Marketing",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Study marketing strategy, market segmentation, digital marketing, and brand development. Students apply marketing principles to develop go-to-market strategies for their venture concepts.",
+          "skills": ["Marketing strategy", "Market segmentation", "Brand development", "Digital marketing"]
+        },
+        {
+          "id": "y2-communities-01",
+          "label": "Compete in campus pitch competition",
+          "courseRef": "MGMT 330 — Entrepreneurship",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Develop and deliver a pitch deck for a startup concept in a campus-wide pitch competition. Receive feedback from faculty judges, alumni investors, and local entrepreneurs.",
+          "skills": ["Pitch development", "Presentation skills", "Investor communication", "Competitive spirit"]
+        },
+        {
+          "id": "y2-localglobal-01",
+          "label": "Analyze local startup ecosystem and community assets",
+          "courseRef": "MGMT 301 — Organizational Behavior",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Map the Greensboro-Triad entrepreneurship ecosystem including incubators, accelerators, angel investors, and community development financial institutions. Connect classroom learning to the local innovation economy.",
+          "skills": ["Ecosystem mapping", "Community asset analysis", "Local economy", "Stakeholder identification"]
+        },
+        {
+          "id": "y2-communities-02",
+          "label": "Conduct informational interviews with entrepreneurs",
+          "courseRef": "MGMT 301 — Organizational Behavior",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Interview three entrepreneurs or small business owners to understand startup challenges, funding strategies, and lessons learned. Synthesize findings into a comparative entrepreneurship report.",
+          "skills": ["Professional outreach", "Interviewing skills", "Entrepreneurial research", "Comparative analysis"]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Venture Growth & Professional Experience — Build a working business plan, secure mentorship, and gain startup experience.",
+      "milestones": [
+        {
+          "id": "y3-identity-01",
+          "label": "Write a comprehensive business plan",
+          "courseRef": "MGMT 435 — Small Business Management",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Develop a comprehensive business plan including market analysis, operations plan, financial projections, and funding strategy. Plans are reviewed by faculty, mentors, and potential investors.",
+          "skills": ["Business planning", "Financial projections", "Market analysis", "Venture strategy"]
+        },
+        {
+          "id": "y3-purpose-01",
+          "label": "Study venture finance and funding strategies",
+          "courseRef": "FINC 301 — Corporate Finance",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Learn capital structure, valuation, and financing options for startups including bootstrapping, angel investment, venture capital, crowdfunding, and SBA loans.",
+          "skills": ["Venture finance", "Startup valuation", "Fundraising", "Financial modeling"]
+        },
+        {
+          "id": "y3-communities-01",
+          "label": "Secure and engage with an entrepreneur mentor",
+          "courseRef": "MGMT 435 — Small Business Management",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Establish a formal mentorship with a successful entrepreneur or small business owner through CoBE networks or local Small Business Development Center. Monthly meetings provide guidance on venture development.",
+          "skills": ["Mentorship cultivation", "Entrepreneurial guidance", "Career strategy", "Relationship management"]
+        },
+        {
+          "id": "y3-identity-02",
+          "label": "Complete summer entrepreneurship internship or venture launch",
+          "courseRef": "MGMT 395 — Management Internship",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Either intern at a startup, venture capital firm, or incubator, or work full-time on launching a personal venture through a structured accelerator program. Document learnings and milestones.",
+          "skills": ["Startup experience", "Venture development", "Applied entrepreneurship", "Performance reflection"]
+        },
+        {
+          "id": "y3-localglobal-01",
+          "label": "Study social entrepreneurship and impact investing",
+          "courseRef": "MGMT 440 — Social Entrepreneurship",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Explore social enterprise models, impact measurement, and sustainable business practices. Students develop social venture concepts addressing community challenges in the Triad region or developing nations.",
+          "skills": ["Social entrepreneurship", "Impact measurement", "Sustainable business", "Community impact"]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Venture Launch & Career Activation — Launch a venture or transition to corporate intrapreneurship, complete capstone.",
+      "milestones": [
+        {
+          "id": "y4-purpose-01",
+          "label": "Execute capstone venture launch or consulting project",
+          "courseRef": "MGMT 495 — Capstone in Management",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Either launch a venture with paying customers and revenue, or complete a strategic consulting project for an early-stage startup. Demonstrate entrepreneurial competency through real-world outcomes.",
+          "skills": ["Venture launch", "Revenue generation", "Strategic consulting", "Entrepreneurial execution"]
+        },
+        {
+          "id": "y4-identity-01",
+          "label": "Complete innovation and design thinking workshop",
+          "courseRef": "MGMT 490 — Senior Seminar in Management",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Intensive design thinking workshop covering rapid prototyping, user testing, and innovation management. Students apply human-centered design to solve real business problems.",
+          "skills": ["Design thinking", "Rapid prototyping", "User testing", "Innovation management"]
+        },
+        {
+          "id": "y4-communities-01",
+          "label": "Mentor aspiring student entrepreneurs",
+          "courseRef": "MGMT 490 — Senior Seminar in Management",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Mentor underclassmen in the entrepreneurship track, coaching them through business plan development, pitch preparation, and customer discovery processes.",
+          "skills": ["Peer mentorship", "Coaching", "Knowledge transfer", "Community stewardship"]
+        },
+        {
+          "id": "y4-localglobal-01",
+          "label": "Develop venture growth or career launch portfolio",
+          "courseRef": "MGMT 490 — Senior Seminar in Management",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Assemble either a venture portfolio (pitch deck, financial projections, customer traction) for investor meetings or a career launch package for corporate innovation and intrapreneurship roles.",
+          "skills": ["Portfolio development", "Investor readiness", "Career launch", "Professional positioning"]
+        },
+        {
+          "id": "y4-identity-02",
+          "label": "Complete exit assessment and career activation",
+          "courseRef": "MGMT 495 — Capstone in Management",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Complete the CoBE Management Exit Assessment and finalize career activation documenting venture launch status, job offers, or graduate program admissions.",
+          "skills": ["Competency demonstration", "Self-assessment", "Career activation", "Program outcome alignment"]
+        }
+      ]
+    }
+  ]
+}

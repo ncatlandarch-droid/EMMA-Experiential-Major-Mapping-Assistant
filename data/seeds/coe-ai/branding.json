@@ -1,0 +1,88 @@
+{
+  "institutionName": "North Carolina Agricultural and Technical State University",
+  "abbreviation": "NC A&T",
+  "collegeName": "College of Engineering (CoE)",
+  "departmentName": "Interdisciplinary",
+  "programName": "B.S. in Artificial Intelligence",
+  "degreeType": "BSAI",
+  "programSlug": "coe-ai",
+  "slug": "coe-ai",
+  "programDescription": "B.S. in Artificial Intelligence at NC A&T prepares students for rewarding careers in artificial intelligence. Through rigorous coursework, hands-on projects, internships, and mentorship from industry-connected faculty, graduates emerge ready to lead and innovate.",
+  "tagline": "Leading the Future of Artificial Intelligence",
+  "brandingColors": {
+    "primaryHex": "#004684",
+    "primaryRgb": "0,70,132",
+    "secondaryHex": "#fdb927",
+    "secondaryRgb": "253,185,39",
+    "backgroundHex": "#F0F2F5",
+    "surfaceHex": "#FFFFFF",
+    "textPrimaryHex": "#1A1A2E",
+    "textSecondaryHex": "#555770"
+  },
+  "categoryColors": {
+    "Purpose": {
+      "hex": "#2563EB",
+      "rgb": "37,99,235",
+      "emoji": "🔍",
+      "label": "Purpose & Self-Discovery",
+      "description": "Research, coursework, and foundational experiences that build your professional identity"
+    },
+    "Communities": {
+      "hex": "#059669",
+      "rgb": "5,150,105",
+      "emoji": "🤝",
+      "label": "Communities & Service",
+      "description": "Collaborative projects, service-learning, and community engagement"
+    },
+    "LocalGlobal": {
+      "hex": "#D97706",
+      "rgb": "217,119,6",
+      "emoji": "🌍",
+      "label": "Local & Global Engagement",
+      "description": "Field work, internships, and real-world applications beyond campus"
+    },
+    "Identity": {
+      "hex": "#7C3AED",
+      "rgb": "124,58,237",
+      "emoji": "💼",
+      "label": "Professional Identity",
+      "description": "Career prep, portfolio development, and professional practice"
+    }
+  },
+  "careerOutlook": {
+    "field": "Artificial Intelligence",
+    "blsCode": "15-2051",
+    "growthRate": "23% (2022-2032)",
+    "medianSalary": "$136,620",
+    "totalJobs": "190,600",
+    "topEmployers": [
+      "Google",
+      "Meta",
+      "Microsoft",
+      "Amazon",
+      "Apple",
+      "OpenAI",
+      "NVIDIA",
+      "DeepMind"
+    ],
+    "certifications": [
+      "AWS ML Specialty",
+      "Google Cloud ML Engineer",
+      "TensorFlow Developer Certificate"
+    ],
+    "relatedFields": [
+      "Computer Science",
+      "Computer Engineering",
+      "Mathematics — Data Science"
+    ],
+    "keySkills": [
+      "Machine Learning",
+      "Deep Learning",
+      "NLP",
+      "Computer Vision",
+      "Python",
+      "TensorFlow/PyTorch"
+    ],
+    "outlook": "Artificial Intelligence professionals are in demand. NC A&T graduates bring unique perspectives and strong technical skills to this growing field."
+  }
+}

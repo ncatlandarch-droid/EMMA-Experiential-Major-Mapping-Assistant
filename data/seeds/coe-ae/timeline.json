@@ -1,0 +1,236 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Engineering & Design Foundations — Build STEM literacy, explore architectural engineering, and develop design thinking skills.",
+      "milestones": [
+        {
+          "id": "y1-purpose-01",
+          "label": "Explore architectural engineering career pathways",
+          "courseRef": "ENGR 100 — Introduction to Engineering",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Introduction to engineering disciplines with emphasis on architectural engineering applications in building systems design, structural engineering for buildings, HVAC, lighting, and sustainable building technologies.",
+          "skills": ["Engineering design", "Career exploration", "Problem solving", "ArchE overview"]
+        },
+        {
+          "id": "y1-identity-01",
+          "label": "Build calculus foundations for engineering",
+          "courseRef": "MATH 131 — Calculus I",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Functions, limits, derivatives, and introduction to integration. Mathematical foundation for structural analysis, building physics, and building systems design.",
+          "skills": ["Calculus", "Mathematical reasoning", "Problem solving", "Analytical thinking"]
+        },
+        {
+          "id": "y1-identity-02",
+          "label": "Master engineering graphics and CAD",
+          "courseRef": "AREN 101 — Engineering Graphics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Engineering drawing standards, 3D modeling, and computer-aided design (AutoCAD, Revit). Students create architectural and structural drawings for building components.",
+          "skills": ["CAD proficiency", "AutoCAD", "Revit", "Technical drawing"]
+        },
+        {
+          "id": "y1-communities-01",
+          "label": "Join AEI or ASCE student chapter",
+          "courseRef": "Co-Curricular Requirement",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Join the Architectural Engineering Institute (AEI) student chapter, ASCE, or NSBE. Attend building tours, design competitions, and networking events with structural and building systems engineers.",
+          "skills": ["Engineering community", "Professional networking", "Industry exposure", "Peer learning"]
+        },
+        {
+          "id": "y1-localglobal-01",
+          "label": "Study physics foundations for engineering",
+          "courseRef": "PHYS 241 — Engineering Physics I",
+          "credits": 4,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Mechanics, thermodynamics, and waves. Foundation for structural mechanics, building physics, and HVAC system design.",
+          "skills": ["Engineering physics", "Mechanics", "Thermodynamics", "Scientific reasoning"]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Building Systems & Structural Foundations — Study structural mechanics, building materials, and MEP systems.",
+      "milestones": [
+        {
+          "id": "y2-identity-01",
+          "label": "Master statics and mechanics of materials",
+          "courseRef": "AREN 201 — Statics & Mechanics of Materials",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Force equilibrium, stress/strain analysis, beam deflection, and column buckling for building structural elements. Students analyze real building structural systems.",
+          "skills": ["Statics", "Mechanics of materials", "Structural analysis", "Force equilibrium"]
+        },
+        {
+          "id": "y2-purpose-01",
+          "label": "Study building materials and construction methods",
+          "courseRef": "AREN 210 — Building Materials & Construction",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Properties of concrete, steel, wood, masonry, and advanced building materials. Students evaluate material selection for various building applications and sustainability criteria.",
+          "skills": ["Building materials", "Concrete", "Steel design", "Material selection"]
+        },
+        {
+          "id": "y2-communities-01",
+          "label": "Tour construction sites and building systems facilities",
+          "courseRef": "AREN 210 — Building Materials & Construction",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Visit active construction sites, mechanical rooms, and building systems installations in the Triad region. Connect classroom concepts to real building engineering practice.",
+          "skills": ["Construction exposure", "Site observation", "Industry awareness", "Professional networking"]
+        },
+        {
+          "id": "y2-localglobal-01",
+          "label": "Study building HVAC and mechanical systems",
+          "courseRef": "AREN 310 — Building Mechanical Systems",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "HVAC system design, psychrometrics, heating/cooling load calculations, and indoor air quality. Students design mechanical systems for various building types and climate zones.",
+          "skills": ["HVAC design", "Load calculations", "Psychrometrics", "Indoor air quality"]
+        },
+        {
+          "id": "y2-identity-02",
+          "label": "Master structural analysis for buildings",
+          "courseRef": "AREN 301 — Structural Analysis",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Analysis of determinate and indeterminate building structures including frames, trusses, and lateral force resisting systems. Students use structural analysis software for building design.",
+          "skills": ["Structural analysis", "Frame analysis", "Lateral systems", "Analysis software"]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Advanced Building Design & Professional Experience — Master building structural design, electrical systems, and complete internship.",
+      "milestones": [
+        {
+          "id": "y3-identity-01",
+          "label": "Master steel and concrete building design",
+          "courseRef": "AREN 410 — Building Structural Design",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Design of steel and reinforced concrete building structural systems using AISC and ACI codes. Students complete structural design for a multi-story building project.",
+          "skills": ["Steel design", "Concrete design", "Building codes", "Structural engineering"]
+        },
+        {
+          "id": "y3-purpose-01",
+          "label": "Study building electrical and lighting systems",
+          "courseRef": "AREN 420 — Building Electrical Systems",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Electrical power distribution, lighting design, fire alarm systems, and building automation. Students design electrical systems for commercial buildings using NEC codes and lighting analysis software.",
+          "skills": ["Electrical systems", "Lighting design", "NEC codes", "Building automation"]
+        },
+        {
+          "id": "y3-communities-01",
+          "label": "Compete in AEI student design competition",
+          "courseRef": "AREN 410 — Building Structural Design",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Participate in the AEI Student Design Competition, designing integrated building systems (structural, mechanical, electrical) for a real building. Collaborate with multidisciplinary student teams.",
+          "skills": ["Design competition", "Integrated design", "Team collaboration", "Multidisciplinary engineering"]
+        },
+        {
+          "id": "y3-identity-02",
+          "label": "Complete summer architectural engineering internship",
+          "courseRef": "AREN 395 — Architectural Engineering Internship",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Secure and complete an internship at a structural engineering firm, MEP consulting firm, or construction company. Apply building systems design skills in professional practice.",
+          "skills": ["Professional experience", "Applied design", "Industry practice", "Performance reflection"]
+        },
+        {
+          "id": "y3-localglobal-01",
+          "label": "Study sustainable building design and energy codes",
+          "courseRef": "AREN 430 — Sustainable Building Design",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "LEED certification process, energy modeling (eQUEST, EnergyPlus), building envelope design, and net-zero building strategies. Students evaluate building sustainability across climate zones.",
+          "skills": ["LEED certification", "Energy modeling", "Sustainable design", "Net-zero strategies"]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Capstone Design & Career Launch — Complete senior design project, prepare for FE exam, and launch engineering career.",
+      "milestones": [
+        {
+          "id": "y4-purpose-01",
+          "label": "Execute senior design capstone project",
+          "courseRef": "AREN 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Complete a year-long integrated building design project including structural, mechanical, electrical, and architectural coordination. Teams design a real building with industry mentor guidance.",
+          "skills": ["Integrated building design", "Project management", "Team collaboration", "Professional delivery"]
+        },
+        {
+          "id": "y4-identity-01",
+          "label": "Prepare for FE exam and professional licensure",
+          "courseRef": "AREN 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Prepare for the NCEES FE exam through review courses and practice exams. Begin the path toward PE licensure in structural or mechanical engineering.",
+          "skills": ["FE exam preparation", "Professional licensure", "Engineering review", "Exam strategy"]
+        },
+        {
+          "id": "y4-communities-01",
+          "label": "Serve as peer mentor and AEI chapter leader",
+          "courseRef": "AREN 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Mentor underclassmen in architectural engineering coursework, lead AEI or ASCE chapter activities, and organize building tours and industry speaker events.",
+          "skills": ["Peer mentorship", "Chapter leadership", "Knowledge transfer", "Community stewardship"]
+        },
+        {
+          "id": "y4-localglobal-01",
+          "label": "Develop career placement portfolio",
+          "courseRef": "AREN 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Assemble a career launch package including technical resume, building design portfolio, BIM models, FE exam status, and documented professional network.",
+          "skills": ["Career preparation", "Design portfolio", "BIM showcase", "Professional positioning"]
+        },
+        {
+          "id": "y4-identity-02",
+          "label": "Complete exit assessment and career activation",
+          "courseRef": "AREN 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Complete the CoE Architectural Engineering Exit Assessment demonstrating ABET outcomes. Finalize career activation documenting job offers, graduate admissions, or FE exam results.",
+          "skills": ["ABET competency", "Self-assessment", "Career activation", "Program outcome alignment"]
+        }
+      ]
+    }
+  ]
+}

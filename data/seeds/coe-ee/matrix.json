@@ -1,0 +1,28 @@
+{
+  "validationCategories": [
+    {
+      "id": "Purpose",
+      "label": "Purpose & Self-Discovery",
+      "description": "Research, coursework, and foundational experiences that build your professional identity",
+      "color": "#2563EB"
+    },
+    {
+      "id": "Communities",
+      "label": "Communities & Service",
+      "description": "Collaborative projects, service-learning, and community engagement",
+      "color": "#059669"
+    },
+    {
+      "id": "LocalGlobal",
+      "label": "Local & Global Engagement",
+      "description": "Field work, internships, and real-world applications beyond campus",
+      "color": "#D97706"
+    },
+    {
+      "id": "Identity",
+      "label": "Professional Identity",
+      "description": "Career prep, portfolio development, and professional practice",
+      "color": "#7C3AED"
+    }
+  ]
+}

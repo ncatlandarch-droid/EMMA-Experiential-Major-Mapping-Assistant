@@ -1,0 +1,236 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Supply Chain & Business Foundations — Explore supply chain careers, build business literacy, and develop analytical skills.",
+      "milestones": [
+        {
+          "id": "y1-purpose-01",
+          "label": "Complete CliftonStrengths assessment and SCM career mapping",
+          "courseRef": "BUAD 100 — Introduction to Business",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Complete the Gallup CliftonStrengths assessment and connect signature themes to supply chain career pathways including logistics, procurement, operations, demand planning, and global sourcing.",
+          "skills": ["Self-assessment", "Career exploration", "Reflective writing", "Strengths identification"]
+        },
+        {
+          "id": "y1-identity-01",
+          "label": "Explore operations and supply chain management",
+          "courseRef": "MGMT 320 — Operations Management",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Introduction to operations management concepts including process design, capacity planning, quality management, and the role of supply chain in competitive business strategy.",
+          "skills": ["Operations management", "Process design", "Quality management", "Capacity planning"]
+        },
+        {
+          "id": "y1-identity-02",
+          "label": "Build financial literacy for supply chain professionals",
+          "courseRef": "ACCT 201 — Principles of Financial Accounting",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Introduction to financial statements with emphasis on inventory valuation, cost of goods sold, and how supply chain efficiency impacts the bottom line.",
+          "skills": ["Financial statements", "Inventory accounting", "COGS analysis", "Business literacy"]
+        },
+        {
+          "id": "y1-communities-01",
+          "label": "Join APICS or ISM student chapter",
+          "courseRef": "Co-Curricular Requirement",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Join the APICS (now ASCM) student chapter, ISM student chapter, or CSCMP Roundtable. Attend supply chain industry events, facility tours, and networking sessions.",
+          "skills": ["Supply chain community", "Professional networking", "Industry exposure", "Peer learning"]
+        },
+        {
+          "id": "y1-localglobal-01",
+          "label": "Analyze global economic forces in supply chains",
+          "courseRef": "ECON 100 — Principles of Economics",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Examine how international trade, tariffs, transportation economics, and global sourcing decisions shape modern supply chains. Students analyze the economics of reshoring and nearshoring trends.",
+          "skills": ["Global economics", "Trade analysis", "Sourcing economics", "Supply chain context"]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Logistics & Procurement — Build logistics management and strategic sourcing skills.",
+      "milestones": [
+        {
+          "id": "y2-identity-01",
+          "label": "Master logistics and transportation management",
+          "courseRef": "SCMS 310 — Logistics Management",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Study transportation modes, warehousing, distribution network design, and logistics technology. Students analyze logistics optimization problems using simulation and routing software.",
+          "skills": ["Logistics management", "Transportation", "Warehousing", "Network design"]
+        },
+        {
+          "id": "y2-purpose-01",
+          "label": "Learn strategic procurement and sourcing",
+          "courseRef": "SCMS 320 — Procurement and Sourcing",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Study strategic sourcing methodologies, supplier evaluation and selection, contract negotiation, and total cost of ownership analysis. Students develop sourcing strategies for case study organizations.",
+          "skills": ["Strategic sourcing", "Supplier evaluation", "Contract negotiation", "TCO analysis"]
+        },
+        {
+          "id": "y2-communities-01",
+          "label": "Tour regional distribution centers and manufacturing facilities",
+          "courseRef": "SCMS 310 — Logistics Management",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Participate in industry facility tours of regional distribution centers, manufacturing plants, and 3PL providers in the Greensboro-Triad region. Connect classroom concepts to real operations.",
+          "skills": ["Industry exposure", "Facility assessment", "Networking", "Applied observation"]
+        },
+        {
+          "id": "y2-localglobal-01",
+          "label": "Analyze global supply chain networks",
+          "courseRef": "SCMS 330 — Global Supply Chain Management",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Study global supply chain design, international logistics, customs and trade compliance, and supply chain risk management. Students map a multinational company's global supply network.",
+          "skills": ["Global supply chains", "International logistics", "Trade compliance", "Risk management"]
+        },
+        {
+          "id": "y2-identity-02",
+          "label": "Build supply chain analytics proficiency",
+          "courseRef": "SCMS 340 — Supply Chain Analytics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Apply quantitative methods including forecasting, inventory optimization, and simulation modeling to supply chain problems. Students use Excel, Python, and supply chain software tools.",
+          "skills": ["Supply chain analytics", "Forecasting", "Inventory optimization", "Simulation modeling"]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Advanced SCM & Professional Certification — Master supply chain strategy, earn CSCP preparation, and complete internship.",
+      "milestones": [
+        {
+          "id": "y3-identity-01",
+          "label": "Master supply chain strategy and integration",
+          "courseRef": "SCMS 410 — Supply Chain Strategy",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Study end-to-end supply chain integration, S&OP (Sales and Operations Planning), demand-supply balancing, and supply chain digital transformation strategies.",
+          "skills": ["Supply chain strategy", "S&OP", "Integration", "Digital transformation"]
+        },
+        {
+          "id": "y3-purpose-01",
+          "label": "Begin CSCP or CLTD certification preparation",
+          "courseRef": "SCMS 420 — Advanced Supply Chain Management",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Coursework aligned with ASCM CSCP (Certified Supply Chain Professional) or CLTD (Certified in Logistics, Transportation and Distribution) certification content. Students register for certification exams.",
+          "skills": ["CSCP preparation", "Professional certification", "Industry standards", "Continuous learning"]
+        },
+        {
+          "id": "y3-communities-01",
+          "label": "Secure and engage with a supply chain industry mentor",
+          "courseRef": "SCMS 410 — Supply Chain Strategy",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Establish a mentorship with a supply chain director, logistics manager, or procurement specialist through CoBE networks or ASCM chapter. Monthly meetings focus on career development and industry trends.",
+          "skills": ["Mentorship cultivation", "Professional development", "Career strategy", "Industry networking"]
+        },
+        {
+          "id": "y3-identity-02",
+          "label": "Complete summer supply chain internship",
+          "courseRef": "SCMS 395 — SCM Internship",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Secure and complete an internship in logistics, procurement, demand planning, or supply chain operations at a manufacturing company, retailer, or 3PL provider.",
+          "skills": ["Professional work experience", "Applied SCM", "Operations exposure", "Performance reflection"]
+        },
+        {
+          "id": "y3-localglobal-01",
+          "label": "Study supply chain sustainability and resilience",
+          "courseRef": "SCMS 430 — Sustainable Supply Chains",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Analyze supply chain sustainability practices, circular economy principles, carbon footprint reduction, and resilience strategies for disruption management. Students develop sustainability scorecards.",
+          "skills": ["Sustainability", "Circular economy", "Resilience planning", "ESG reporting"]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Career Placement & Capstone — Complete capstone supply chain project, earn certification, and launch career.",
+      "milestones": [
+        {
+          "id": "y4-purpose-01",
+          "label": "Execute capstone supply chain consulting project",
+          "courseRef": "SCMS 495 — Capstone in SCM",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Collaborate with a client organization to diagnose supply chain challenges, conduct analysis, and deliver optimization recommendations including cost reduction, service improvement, or network redesign.",
+          "skills": ["Supply chain consulting", "Client management", "Optimization analysis", "Executive presentation"]
+        },
+        {
+          "id": "y4-identity-01",
+          "label": "Complete salary negotiation and offer evaluation for SCM roles",
+          "courseRef": "SCMS 490 — Senior Seminar in SCM",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Workshops covering compensation analysis, relocation evaluation, and offer comparison for supply chain management positions across industries. Develop personal compensation strategy.",
+          "skills": ["Salary negotiation", "Compensation analysis", "Offer evaluation", "Professional assertiveness"]
+        },
+        {
+          "id": "y4-communities-01",
+          "label": "Serve as peer mentor and ASCM chapter leader",
+          "courseRef": "SCMS 490 — Senior Seminar in SCM",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Mentor underclassmen in SCM coursework, lead ASCM student chapter activities, and organize facility tours and industry speaker events for the supply chain community.",
+          "skills": ["Peer mentorship", "Chapter leadership", "Knowledge transfer", "Community stewardship"]
+        },
+        {
+          "id": "y4-localglobal-01",
+          "label": "Develop industry-specific placement portfolio",
+          "courseRef": "SCMS 490 — Senior Seminar in SCM",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Assemble a career launch package targeting logistics, procurement, or operations management roles. Includes CSCP certification status, case competition results, and documented industry network.",
+          "skills": ["Career launch preparation", "Industry targeting", "Interview preparation", "Professional portfolio"]
+        },
+        {
+          "id": "y4-identity-02",
+          "label": "Complete exit assessment and career activation",
+          "courseRef": "SCMS 495 — Capstone in SCM",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Complete the CoBE SCM Exit Assessment and finalize career activation documenting job offers, certification completions, or graduate program admissions.",
+          "skills": ["Competency demonstration", "Self-assessment", "Career activation", "Program outcome alignment"]
+        }
+      ]
+    }
+  ]
+}

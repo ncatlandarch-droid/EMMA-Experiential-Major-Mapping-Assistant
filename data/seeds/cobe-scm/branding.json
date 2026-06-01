@@ -1,0 +1,86 @@
+{
+  "institutionName": "North Carolina Agricultural and Technical State University",
+  "abbreviation": "NC A&T",
+  "collegeName": "Willie A. Deese College of Business & Economics (CoBE)",
+  "departmentName": "Marketing & Supply Chain Management",
+  "programName": "B.S. in Supply Chain Management",
+  "degreeType": "BSSCM",
+  "programSlug": "cobe-scm",
+  "slug": "cobe-scm",
+  "programDescription": "B.S. in Supply Chain Management at NC A&T prepares students for rewarding careers in supply chain management.",
+  "tagline": "Leading the Future of Supply Chain Management",
+  "brandingColors": {
+    "primaryHex": "#004684",
+    "primaryRgb": "0,70,132",
+    "secondaryHex": "#fdb927",
+    "secondaryRgb": "253,185,39",
+    "backgroundHex": "#F0F2F5",
+    "surfaceHex": "#FFFFFF",
+    "textPrimaryHex": "#1A1A2E",
+    "textSecondaryHex": "#555770"
+  },
+  "categoryColors": {
+    "Purpose": {
+      "hex": "#2563EB",
+      "rgb": "37,99,235",
+      "emoji": "🔍",
+      "label": "Purpose & Self-Discovery",
+      "description": "Research, coursework, and foundational experiences that build your professional identity"
+    },
+    "Communities": {
+      "hex": "#059669",
+      "rgb": "5,150,105",
+      "emoji": "🤝",
+      "label": "Communities & Service",
+      "description": "Collaborative projects, service-learning, and community engagement"
+    },
+    "LocalGlobal": {
+      "hex": "#D97706",
+      "rgb": "217,119,6",
+      "emoji": "🌍",
+      "label": "Local & Global Engagement",
+      "description": "Field work, internships, and real-world applications beyond campus"
+    },
+    "Identity": {
+      "hex": "#7C3AED",
+      "rgb": "124,58,237",
+      "emoji": "💼",
+      "label": "Professional Identity",
+      "description": "Career prep, portfolio development, and professional practice"
+    }
+  },
+  "careerOutlook": {
+    "field": "Supply Chain Management",
+    "blsCode": "13-1081",
+    "growthRate": "18% (2022-2032)",
+    "medianSalary": "$79,400",
+    "totalJobs": "878,700",
+    "topEmployers": [
+      "Amazon",
+      "FedEx",
+      "UPS",
+      "Walmart",
+      "Target",
+      "Apple"
+    ],
+    "certifications": [
+      "CSCP",
+      "CPIM",
+      "CLTD",
+      "Six Sigma"
+    ],
+    "relatedFields": [
+      "Industrial Engineering",
+      "Business IT",
+      "Economics"
+    ],
+    "keySkills": [
+      "Logistics",
+      "Procurement",
+      "Inventory Management",
+      "ERP/SAP",
+      "Data Analytics",
+      "Lean"
+    ]
+  }
+}

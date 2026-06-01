@@ -1,0 +1,236 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Engineering & Computing Foundations — Build hardware/software foundations, explore computer engineering careers.",
+      "milestones": [
+        {
+          "id": "y1-purpose-01",
+          "label": "Explore computer engineering career pathways",
+          "courseRef": "ENGR 100 — Introduction to Engineering",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Introduction to engineering disciplines with emphasis on computer engineering applications in embedded systems, VLSI design, IoT, robotics, and hardware-software co-design.",
+          "skills": ["Engineering design", "Career exploration", "Problem solving", "CompE overview"]
+        },
+        {
+          "id": "y1-identity-01",
+          "label": "Master programming fundamentals",
+          "courseRef": "COMP 163 — Introduction to Programming",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Object-oriented programming in C/C++ with emphasis on systems-level programming, memory management, and hardware interfacing concepts relevant to computer engineering.",
+          "skills": ["C/C++ programming", "OOP", "Memory management", "Systems programming"]
+        },
+        {
+          "id": "y1-identity-02",
+          "label": "Build calculus foundations for engineering",
+          "courseRef": "MATH 131 — Calculus I",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Functions, limits, derivatives, and integration. Mathematical foundation for circuit analysis, signal processing, and computer architecture.",
+          "skills": ["Calculus", "Mathematical reasoning", "Problem solving", "Analytical thinking"]
+        },
+        {
+          "id": "y1-communities-01",
+          "label": "Join IEEE student branch or robotics club",
+          "courseRef": "Co-Curricular Requirement",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Join the IEEE student branch, NSBE, robotics club, or ACM chapter. Participate in hardware projects, maker spaces, and embedded systems workshops.",
+          "skills": ["Engineering community", "Hardware projects", "Maker culture", "Peer learning"]
+        },
+        {
+          "id": "y1-localglobal-01",
+          "label": "Study physics foundations for engineering",
+          "courseRef": "PHYS 241 — Engineering Physics I",
+          "credits": 4,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Mechanics, waves, and introduction to electromagnetism. Foundation for circuit analysis, electromagnetics, and semiconductor physics.",
+          "skills": ["Engineering physics", "Mechanics", "Electromagnetism basics", "Scientific reasoning"]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Digital Systems & Circuit Design — Master digital logic, circuit analysis, and microprocessor architecture.",
+      "milestones": [
+        {
+          "id": "y2-identity-01",
+          "label": "Master digital logic design",
+          "courseRef": "ECEN 201 — Digital Logic Design",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Boolean algebra, combinational and sequential logic, finite state machines, and FPGA implementation. Students design and verify digital circuits using Verilog/VHDL.",
+          "skills": ["Digital logic", "Verilog/VHDL", "FPGA design", "State machines"]
+        },
+        {
+          "id": "y2-purpose-01",
+          "label": "Master circuit analysis fundamentals",
+          "courseRef": "ECEN 210 — Circuit Analysis",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "DC and AC circuit analysis, Kirchhoff's laws, Thevenin/Norton equivalents, frequency response, and op-amp circuits. Foundation for analog and mixed-signal design.",
+          "skills": ["Circuit analysis", "AC/DC circuits", "Op-amps", "Frequency response"]
+        },
+        {
+          "id": "y2-communities-01",
+          "label": "Build an embedded systems project",
+          "courseRef": "ECEN 201 — Digital Logic Design",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Participate in IEEE or maker club projects building embedded systems with Arduino or Raspberry Pi. Develop hands-on skills in hardware prototyping and embedded programming.",
+          "skills": ["Embedded systems", "Arduino/RPi", "Hardware prototyping", "Team project"]
+        },
+        {
+          "id": "y2-localglobal-01",
+          "label": "Study microprocessor architecture and assembly",
+          "courseRef": "ECEN 310 — Microprocessor Systems",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Microprocessor architecture, instruction sets, assembly language programming, and interfacing with peripherals. Students program ARM-based microcontrollers for real-time applications.",
+          "skills": ["Microprocessor architecture", "ARM assembly", "Peripheral interfacing", "Real-time systems"]
+        },
+        {
+          "id": "y2-identity-02",
+          "label": "Master data structures for hardware-software systems",
+          "courseRef": "COMP 280 — Data Structures",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Data structures and algorithms with emphasis on memory-efficient implementations for embedded and resource-constrained systems.",
+          "skills": ["Data structures", "Algorithm efficiency", "Memory optimization", "Systems algorithms"]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Advanced Computer Systems & Professional Experience — Master computer architecture, VLSI, and complete internship.",
+      "milestones": [
+        {
+          "id": "y3-identity-01",
+          "label": "Master computer architecture",
+          "courseRef": "ECEN 401 — Computer Architecture",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Pipelining, cache design, multicore processors, memory hierarchy, and parallel computing architectures. Students design and simulate CPU components using hardware description languages.",
+          "skills": ["Computer architecture", "Pipelining", "Cache design", "Parallel computing"]
+        },
+        {
+          "id": "y3-purpose-01",
+          "label": "Study VLSI and integrated circuit design",
+          "courseRef": "ECEN 410 — VLSI Design",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "CMOS circuit design, layout, simulation, and verification. Students design custom digital circuits and complete the layout-to-GDS flow using industry EDA tools (Cadence, Synopsys).",
+          "skills": ["VLSI design", "CMOS circuits", "Layout design", "EDA tools"]
+        },
+        {
+          "id": "y3-communities-01",
+          "label": "Present research at IEEE conference or symposium",
+          "courseRef": "ECEN 401 — Computer Architecture",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Present undergraduate research or design project at an IEEE conference, department symposium, or undergraduate research event. Network with industry professionals and graduate researchers.",
+          "skills": ["Research presentation", "Technical communication", "Conference networking", "Professional exposure"]
+        },
+        {
+          "id": "y3-identity-02",
+          "label": "Complete summer computer engineering internship",
+          "courseRef": "ECEN 395 — Computer Engineering Internship",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Secure and complete an internship at a semiconductor company, tech firm, or embedded systems company. Apply hardware design and systems programming skills professionally.",
+          "skills": ["Professional experience", "Applied CompE", "Industry practice", "Performance reflection"]
+        },
+        {
+          "id": "y3-localglobal-01",
+          "label": "Study embedded systems and IoT",
+          "courseRef": "ECEN 420 — Embedded Systems Design",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Real-time operating systems, sensor interfacing, wireless communication, and IoT architecture. Students design and deploy embedded IoT systems with cloud connectivity.",
+          "skills": ["Embedded systems", "RTOS", "IoT design", "Wireless communication"]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Capstone Design & Career Launch — Complete senior design project, prepare for industry, and launch computer engineering career.",
+      "milestones": [
+        {
+          "id": "y4-purpose-01",
+          "label": "Execute senior design capstone project",
+          "courseRef": "ECEN 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Complete a year-long hardware-software co-design project addressing a real engineering challenge. Teams design, prototype, test, and demonstrate an embedded or digital system.",
+          "skills": ["System design", "Hardware-software co-design", "Prototyping", "Project management"]
+        },
+        {
+          "id": "y4-identity-01",
+          "label": "Prepare for FE exam and technical interviews",
+          "courseRef": "ECEN 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Prepare for the NCEES FE exam and tech industry interviews. Practice LeetCode problems, system design questions, and hardware design interviews for semiconductor and tech companies.",
+          "skills": ["FE exam preparation", "Technical interviews", "System design", "Coding challenges"]
+        },
+        {
+          "id": "y4-communities-01",
+          "label": "Serve as peer mentor and IEEE chapter leader",
+          "courseRef": "ECEN 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Mentor underclassmen in computer engineering, lead IEEE chapter activities, and organize hardware workshops, tech talks, and career panels.",
+          "skills": ["Peer mentorship", "Chapter leadership", "Knowledge transfer", "Community stewardship"]
+        },
+        {
+          "id": "y4-localglobal-01",
+          "label": "Develop career placement portfolio",
+          "courseRef": "ECEN 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Assemble a career launch package including technical resume, hardware design portfolio, GitHub projects, FE exam status, and documented professional network.",
+          "skills": ["Career preparation", "Hardware portfolio", "Technical showcase", "Professional positioning"]
+        },
+        {
+          "id": "y4-identity-02",
+          "label": "Complete exit assessment and career activation",
+          "courseRef": "ECEN 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Complete the CoE Computer Engineering Exit Assessment demonstrating ABET outcomes. Finalize career activation documenting job offers, graduate admissions, or certification achievements.",
+          "skills": ["ABET competency", "Self-assessment", "Career activation", "Program outcome alignment"]
+        }
+      ]
+    }
+  ]
+}

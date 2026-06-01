@@ -1,0 +1,236 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Engineering & Quantitative Foundations — Build STEM literacy, explore ISE careers, and develop systems thinking.",
+      "milestones": [
+        {
+          "id": "y1-purpose-01",
+          "label": "Explore industrial and systems engineering career pathways",
+          "courseRef": "ENGR 100 — Introduction to Engineering",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Introduction to engineering disciplines with emphasis on ISE applications in manufacturing, healthcare, logistics, supply chain, quality, and human factors engineering.",
+          "skills": ["Engineering design", "Career exploration", "Systems thinking", "ISE overview"]
+        },
+        {
+          "id": "y1-identity-01",
+          "label": "Build calculus foundations for engineering",
+          "courseRef": "MATH 131 — Calculus I",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Functions, limits, derivatives, and integration. Mathematical foundation for optimization, probability, and operations research.",
+          "skills": ["Calculus", "Mathematical reasoning", "Problem solving", "Analytical thinking"]
+        },
+        {
+          "id": "y1-identity-02",
+          "label": "Master general chemistry for engineers",
+          "courseRef": "CHEM 105 — General Chemistry I",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Atomic structure, chemical bonding, stoichiometry, and thermochemistry. Foundation for materials science and manufacturing processes.",
+          "skills": ["General chemistry", "Lab techniques", "Scientific reasoning", "Chemical analysis"]
+        },
+        {
+          "id": "y1-communities-01",
+          "label": "Join IISE student chapter",
+          "courseRef": "Co-Curricular Requirement",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Join the Institute of Industrial and Systems Engineers (IISE) student chapter, NSBE, or SWE. Participate in lean manufacturing simulations, facility tours, and process improvement workshops.",
+          "skills": ["Engineering community", "Professional networking", "Industry exposure", "Peer learning"]
+        },
+        {
+          "id": "y1-localglobal-01",
+          "label": "Study physics foundations for engineering",
+          "courseRef": "PHYS 241 — Engineering Physics I",
+          "credits": 4,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Mechanics, thermodynamics, and waves. Foundation for manufacturing processes, ergonomics, and facility design.",
+          "skills": ["Engineering physics", "Mechanics", "Thermodynamics", "Scientific reasoning"]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Core ISE Sciences — Master probability, statistics, and manufacturing processes.",
+      "milestones": [
+        {
+          "id": "y2-identity-01",
+          "label": "Master engineering probability and statistics",
+          "courseRef": "ISEN 201 — Probability & Statistics for Engineers",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Probability theory, statistical distributions, hypothesis testing, confidence intervals, and regression analysis. Foundation for quality control, reliability, and simulation.",
+          "skills": ["Probability", "Statistics", "Hypothesis testing", "Regression analysis"]
+        },
+        {
+          "id": "y2-purpose-01",
+          "label": "Study manufacturing processes and systems",
+          "courseRef": "ISEN 210 — Manufacturing Processes",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Machining, forming, casting, welding, additive manufacturing, and CNC programming. Students operate manufacturing equipment and design production processes.",
+          "skills": ["Manufacturing processes", "CNC programming", "Additive manufacturing", "Production design"]
+        },
+        {
+          "id": "y2-communities-01",
+          "label": "Tour manufacturing facilities and logistics centers",
+          "courseRef": "ISEN 210 — Manufacturing Processes",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Visit regional manufacturing plants, automotive facilities, and distribution centers with IISE chapter. Observe lean manufacturing, Six Sigma, and automation in practice.",
+          "skills": ["Industry exposure", "Lean observation", "Manufacturing tour", "Professional networking"]
+        },
+        {
+          "id": "y2-localglobal-01",
+          "label": "Master operations research and optimization",
+          "courseRef": "ISEN 301 — Operations Research I",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Linear programming, integer programming, network optimization, and sensitivity analysis using CPLEX or Gurobi. Students solve real optimization problems in logistics, scheduling, and resource allocation.",
+          "skills": ["Operations research", "Linear programming", "Optimization", "Mathematical modeling"]
+        },
+        {
+          "id": "y2-identity-02",
+          "label": "Study work systems and human factors",
+          "courseRef": "ISEN 310 — Human Factors Engineering",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Ergonomics, workplace design, cognitive engineering, and human-machine interaction. Students conduct ergonomic assessments and design workstations meeting OSHA standards.",
+          "skills": ["Human factors", "Ergonomics", "Workplace design", "OSHA standards"]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Advanced ISE & Professional Experience — Master quality, simulation, and complete internship.",
+      "milestones": [
+        {
+          "id": "y3-identity-01",
+          "label": "Master quality engineering and Six Sigma",
+          "courseRef": "ISEN 401 — Quality Engineering",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Statistical process control, design of experiments, Six Sigma DMAIC methodology, and reliability analysis. Students earn Six Sigma Green Belt certification through coursework.",
+          "skills": ["Quality engineering", "Six Sigma", "SPC", "Design of experiments"]
+        },
+        {
+          "id": "y3-purpose-01",
+          "label": "Study simulation modeling and analysis",
+          "courseRef": "ISEN 410 — Simulation",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Discrete-event simulation using Arena or Simio. Students model manufacturing systems, healthcare operations, and logistics networks to analyze performance and recommend improvements.",
+          "skills": ["Simulation modeling", "Arena/Simio", "System analysis", "Performance optimization"]
+        },
+        {
+          "id": "y3-communities-01",
+          "label": "Compete in IISE case competition or lean challenge",
+          "courseRef": "ISEN 401 — Quality Engineering",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Participate in IISE regional case competition or lean manufacturing challenge. Apply ISE tools to solve real operational problems in a competitive team environment.",
+          "skills": ["Case competition", "Lean manufacturing", "Team problem-solving", "Applied ISE"]
+        },
+        {
+          "id": "y3-identity-02",
+          "label": "Complete summer ISE internship",
+          "courseRef": "ISEN 395 — ISE Internship",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Secure and complete an internship in manufacturing engineering, process improvement, supply chain, or healthcare operations. Apply ISE tools and methodologies professionally.",
+          "skills": ["Professional experience", "Applied ISE", "Process improvement", "Performance reflection"]
+        },
+        {
+          "id": "y3-localglobal-01",
+          "label": "Study supply chain and logistics engineering",
+          "courseRef": "ISEN 420 — Supply Chain Engineering",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Quantitative supply chain modeling, inventory optimization, facility location, and logistics network design. Students optimize global supply chain configurations.",
+          "skills": ["Supply chain engineering", "Facility location", "Inventory modeling", "Network optimization"]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Capstone Design & Career Launch — Complete senior design project, earn certifications, and launch ISE career.",
+      "milestones": [
+        {
+          "id": "y4-purpose-01",
+          "label": "Execute senior design capstone project",
+          "courseRef": "ISEN 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Complete a year-long systems engineering project with an industry sponsor. Teams apply ISE tools to improve manufacturing, healthcare, or logistics operations and present recommendations.",
+          "skills": ["Systems engineering", "Process improvement", "Team collaboration", "Project management"]
+        },
+        {
+          "id": "y4-identity-01",
+          "label": "Prepare for FE exam and Lean Six Sigma certification",
+          "courseRef": "ISEN 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Prepare for the NCEES FE Industrial & Systems exam and finalize Lean Six Sigma Green or Black Belt certification. Build professional credentials for career launch.",
+          "skills": ["FE exam preparation", "Six Sigma certification", "Professional credentials", "Exam strategy"]
+        },
+        {
+          "id": "y4-communities-01",
+          "label": "Serve as peer mentor and IISE chapter leader",
+          "courseRef": "ISEN 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Mentor underclassmen in ISE coursework, lead IISE chapter activities, and organize lean simulations, facility tours, and career panels.",
+          "skills": ["Peer mentorship", "Chapter leadership", "Knowledge transfer", "Community stewardship"]
+        },
+        {
+          "id": "y4-localglobal-01",
+          "label": "Develop career placement portfolio",
+          "courseRef": "ISEN 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Assemble a career launch package including technical resume, project portfolio, Six Sigma certification, FE exam status, and documented professional network.",
+          "skills": ["Career preparation", "Technical portfolio", "Certification showcase", "Professional positioning"]
+        },
+        {
+          "id": "y4-identity-02",
+          "label": "Complete exit assessment and career activation",
+          "courseRef": "ISEN 490 — Senior Design I & II",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Complete the CoE ISE Exit Assessment demonstrating ABET outcomes. Finalize career activation documenting job offers, graduate admissions, or certification achievements.",
+          "skills": ["ABET competency", "Self-assessment", "Career activation", "Program outcome alignment"]
+        }
+      ]
+    }
+  ]
+}

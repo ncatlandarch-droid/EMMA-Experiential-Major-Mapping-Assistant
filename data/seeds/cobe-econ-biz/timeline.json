@@ -1,0 +1,226 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Economic & Business Foundations — Build economic reasoning and business literacy for applied economics careers.",
+      "milestones": [
+        {
+          "id": "y1-purpose-01",
+          "label": "Complete CliftonStrengths assessment and business economics career mapping",
+          "courseRef": "BUAD 100 — Introduction to Business",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Complete the Gallup CliftonStrengths assessment and connect signature themes to business economics career pathways including corporate strategy, management consulting, market research, and business analytics.",
+          "skills": ["Self-assessment", "Career exploration", "Reflective writing", "Strengths identification"]
+        },
+        {
+          "id": "y1-identity-01",
+          "label": "Master principles of microeconomics",
+          "courseRef": "ECON 201 — Principles of Microeconomics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Study consumer behavior, market structures, pricing theory, and resource allocation. Students analyze how individuals and firms make decisions under scarcity using supply and demand models.",
+          "skills": ["Microeconomic analysis", "Supply and demand", "Market structures", "Economic reasoning"]
+        },
+        {
+          "id": "y1-identity-02",
+          "label": "Master principles of macroeconomics",
+          "courseRef": "ECON 202 — Principles of Macroeconomics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Examine national income, monetary and fiscal policy, inflation, unemployment, and economic growth with a focus on how macroeconomic conditions shape business strategy and corporate decision-making.",
+          "skills": ["Macroeconomic analysis", "GDP measurement", "Business cycles", "Policy impact"]
+        },
+        {
+          "id": "y1-communities-01",
+          "label": "Join Economics Club or business student organization",
+          "courseRef": "Co-Curricular Requirement",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Join a CoBE-affiliated organization such as the Economics Club, Enactus, or a business fraternity. Attend networking events and participate in business case discussions.",
+          "skills": ["Professional networking", "Organizational engagement", "Peer learning", "Community building"]
+        },
+        {
+          "id": "y1-localglobal-01",
+          "label": "Analyze global business environments",
+          "courseRef": "ECON 202 — Principles of Macroeconomics",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Examine how international trade, exchange rates, and global economic institutions shape business environments across countries and regions.",
+          "skills": ["Global economics", "Trade analysis", "International institutions", "Business environment"]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Intermediate Economics & Business Core — Integrate economic theory with core business disciplines.",
+      "milestones": [
+        {
+          "id": "y2-identity-01",
+          "label": "Complete intermediate microeconomic theory",
+          "courseRef": "ECON 301 — Intermediate Microeconomics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Advanced consumer and producer theory, game theory, market failures, and business strategy applications. Students develop mathematical models of firm behavior and competitive dynamics.",
+          "skills": ["Advanced micro theory", "Game theory", "Business strategy", "Mathematical economics"]
+        },
+        {
+          "id": "y2-purpose-01",
+          "label": "Master managerial accounting for business economics",
+          "courseRef": "ACCT 202 — Principles of Managerial Accounting",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Cost analysis, budgeting, and managerial decision-making tools essential for economists working in corporate environments. Students connect economic theory to internal business financial analysis.",
+          "skills": ["Cost analysis", "Budgeting", "Managerial decision-making", "Business accounting"]
+        },
+        {
+          "id": "y2-communities-01",
+          "label": "Attend CoBE career fair and consulting firm events",
+          "courseRef": "ECON 301 — Intermediate Microeconomics",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Participate in career fairs and recruiting events targeting consulting firms, corporate strategy roles, and business analytics positions. Practice case interview fundamentals.",
+          "skills": ["Professional networking", "Case interviews", "Resume refinement", "Recruiter engagement"]
+        },
+        {
+          "id": "y2-localglobal-01",
+          "label": "Apply marketing analytics to business economics",
+          "courseRef": "MKTG 301 — Principles of Marketing",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Integrate marketing principles with economic analysis, focusing on market research, consumer demand estimation, pricing strategies, and competitive positioning in local and global markets.",
+          "skills": ["Marketing analytics", "Demand estimation", "Pricing strategy", "Market research"]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Applied Business Economics & Professional Experience — Master quantitative methods and gain industry experience.",
+      "milestones": [
+        {
+          "id": "y3-identity-01",
+          "label": "Master econometric methods for business",
+          "courseRef": "ECON 401 — Econometrics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Regression analysis, forecasting, and causal inference methods applied to business problems. Students use econometric tools to analyze market trends, demand forecasting, and business performance data.",
+          "skills": ["Econometrics", "Business forecasting", "Causal inference", "Data analysis"]
+        },
+        {
+          "id": "y3-purpose-01",
+          "label": "Study managerial economics and strategy",
+          "courseRef": "ECON 415 — Managerial Economics",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Apply microeconomic theory to managerial decision-making including optimal pricing, production decisions, market entry strategy, and competitive analysis in oligopolistic industries.",
+          "skills": ["Managerial economics", "Strategic pricing", "Competitive analysis", "Decision optimization"]
+        },
+        {
+          "id": "y3-communities-01",
+          "label": "Secure and engage with an industry mentor",
+          "courseRef": "ECON 415 — Managerial Economics",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Establish a mentorship with a business economist or strategy consultant through the CoBE Alumni Mentor Network. Monthly meetings focus on industry insights and career development.",
+          "skills": ["Mentorship cultivation", "Professional development", "Career strategy", "Relationship management"]
+        },
+        {
+          "id": "y3-identity-02",
+          "label": "Complete summer business economics internship",
+          "courseRef": "ECON 395 — Economics Internship",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Secure and complete an internship in corporate strategy, management consulting, market research, or business analytics. Apply economic analysis skills to real business challenges.",
+          "skills": ["Professional work experience", "Applied economics", "Business analysis", "Performance reflection"]
+        },
+        {
+          "id": "y3-localglobal-01",
+          "label": "Analyze industrial organization and competition policy",
+          "courseRef": "ECON 425 — Industrial Organization",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Study market power, antitrust policy, regulation, and competitive dynamics using game theory and empirical methods. Analyze mergers, acquisitions, and competitive strategy in domestic and global markets.",
+          "skills": ["Industrial organization", "Antitrust analysis", "Competitive strategy", "Regulatory economics"]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Career Placement & Capstone — Finalize professional readiness, complete capstone project, and launch business economics career.",
+      "milestones": [
+        {
+          "id": "y4-purpose-01",
+          "label": "Execute capstone business economics project",
+          "courseRef": "ECON 495 — Capstone in Economics",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Complete a comprehensive applied research project analyzing a real business economics problem. Deliver strategic recommendations using econometric analysis to faculty and industry panelists.",
+          "skills": ["Applied research", "Strategic recommendations", "Client consulting", "Executive presentation"]
+        },
+        {
+          "id": "y4-identity-01",
+          "label": "Complete salary negotiation and offer evaluation training",
+          "courseRef": "ECON 490 — Senior Seminar in Economics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Participate in negotiation workshops covering compensation analysis and offer evaluation for consulting, corporate strategy, and analytics roles. Develop personal compensation strategy.",
+          "skills": ["Salary negotiation", "Compensation analysis", "Offer evaluation", "Professional assertiveness"]
+        },
+        {
+          "id": "y4-communities-01",
+          "label": "Serve as peer mentor for underclassmen",
+          "courseRef": "ECON 490 — Senior Seminar in Economics",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Mentor underclassmen in economics and business coursework. Facilitate study groups and share career development insights from internship and professional experiences.",
+          "skills": ["Peer mentorship", "Knowledge transfer", "Leadership modeling", "Community stewardship"]
+        },
+        {
+          "id": "y4-localglobal-01",
+          "label": "Develop industry-specific placement portfolio",
+          "courseRef": "ECON 490 — Senior Seminar in Economics",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Assemble a career launch package targeting consulting, corporate strategy, or analytics positions. Includes case interview preparation, tailored resume, and documented industry contact network.",
+          "skills": ["Career launch preparation", "Industry targeting", "Case interview prep", "Professional portfolio"]
+        },
+        {
+          "id": "y4-identity-02",
+          "label": "Complete exit assessment and career activation",
+          "courseRef": "ECON 495 — Capstone in Economics",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Complete the CoBE Economics Exit Assessment and finalize career activation documenting job offers, graduate admissions, or professional placement status.",
+          "skills": ["Competency demonstration", "Self-assessment", "Career activation", "Program outcome alignment"]
+        }
+      ]
+    }
+  ]
+}

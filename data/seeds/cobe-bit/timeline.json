@@ -1,0 +1,236 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Technology & Business Foundations — Build digital literacy, explore IT career pathways, and develop professional identity.",
+      "milestones": [
+        {
+          "id": "y1-purpose-01",
+          "label": "Complete CliftonStrengths assessment and BIT career mapping",
+          "courseRef": "BUAD 100 — Introduction to Business",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Complete the Gallup CliftonStrengths assessment and connect signature themes to BIT career pathways including business analytics, IT consulting, systems analysis, cybersecurity, and project management.",
+          "skills": ["Self-assessment", "Career exploration", "Reflective writing", "Strengths identification"]
+        },
+        {
+          "id": "y1-identity-01",
+          "label": "Master information systems fundamentals",
+          "courseRef": "BSIS 101 — Introduction to Information Systems",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Survey of information systems concepts including hardware, software, networking, databases, and the role of IT in modern business operations. Students explore emerging technologies and digital transformation trends.",
+          "skills": ["Information systems", "Digital literacy", "Technology survey", "Business IT alignment"]
+        },
+        {
+          "id": "y1-identity-02",
+          "label": "Build programming foundations",
+          "courseRef": "BSIS 201 — Programming for Business",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Introduction to programming logic and Python for business applications. Students write scripts for data processing, automation, and basic analytics to solve real business problems.",
+          "skills": ["Python programming", "Logic design", "Business automation", "Problem solving"]
+        },
+        {
+          "id": "y1-communities-01",
+          "label": "Join Association for Information Systems student chapter",
+          "courseRef": "Co-Curricular Requirement",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Join the AIS student chapter, ACM student group, or CoBE Technology Club. Attend hackathons, tech talks, and networking events with IT professionals and alumni.",
+          "skills": ["Tech community", "Professional networking", "Peer learning", "Event participation"]
+        },
+        {
+          "id": "y1-localglobal-01",
+          "label": "Analyze digital transformation in global business",
+          "courseRef": "ECON 100 — Principles of Economics",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Examine how digital technologies are transforming industries globally, from e-commerce and fintech to cloud computing and AI-driven business models across different economic contexts.",
+          "skills": ["Digital transformation", "Global technology trends", "Economic analysis", "Industry awareness"]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Database & Systems Analysis — Build database management and systems analysis skills for enterprise IT roles.",
+      "milestones": [
+        {
+          "id": "y2-identity-01",
+          "label": "Master database management systems",
+          "courseRef": "BSIS 310 — Database Management Systems",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Relational database design, SQL programming, normalization, and data modeling. Students design and implement a database solution for a real business scenario using MySQL or SQL Server.",
+          "skills": ["Database design", "SQL programming", "Data modeling", "Normalization"]
+        },
+        {
+          "id": "y2-purpose-01",
+          "label": "Learn systems analysis and design methodologies",
+          "courseRef": "BSIS 320 — Systems Analysis and Design",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Study the systems development life cycle (SDLC), requirements gathering, UML modeling, and agile methodologies. Students analyze a real business process and design an IT solution.",
+          "skills": ["Systems analysis", "SDLC", "UML modeling", "Agile methodology"]
+        },
+        {
+          "id": "y2-communities-01",
+          "label": "Attend CoBE career fair and tech industry recruiting events",
+          "courseRef": "BSIS 310 — Database Management Systems",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Participate in career fairs and tech recruiting events with IT consulting firms, enterprise software companies, and corporate IT departments. Practice technical interviewing skills.",
+          "skills": ["Tech networking", "Technical interviews", "Resume refinement", "Recruiter engagement"]
+        },
+        {
+          "id": "y2-localglobal-01",
+          "label": "Study business data analytics and visualization",
+          "courseRef": "BSIS 330 — Business Analytics",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Apply statistical analysis and data visualization tools (Tableau, Power BI) to business datasets. Students analyze real-world business data to support decision-making across industries.",
+          "skills": ["Data analytics", "Data visualization", "Tableau/Power BI", "Business intelligence"]
+        },
+        {
+          "id": "y2-identity-02",
+          "label": "Master web development technologies",
+          "courseRef": "BSIS 340 — Web Application Development",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Full-stack web development including HTML, CSS, JavaScript, and server-side frameworks. Students build functional web applications addressing real business requirements.",
+          "skills": ["Web development", "HTML/CSS/JavaScript", "Full-stack", "Application design"]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Advanced IT & Professional Certification — Master enterprise systems, earn industry certifications, and gain professional experience.",
+      "milestones": [
+        {
+          "id": "y3-identity-01",
+          "label": "Study enterprise resource planning systems",
+          "courseRef": "BSIS 410 — Enterprise Systems",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Study ERP systems (SAP, Oracle) and their role in integrating business processes across finance, HR, supply chain, and operations. Students complete SAP certification modules.",
+          "skills": ["ERP systems", "SAP/Oracle", "Business process integration", "Enterprise architecture"]
+        },
+        {
+          "id": "y3-purpose-01",
+          "label": "Study cybersecurity and IT governance",
+          "courseRef": "BSIS 420 — Information Security",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Network security, risk assessment, compliance frameworks (NIST, SOX, GDPR), and IT governance. Students conduct security assessments and develop organizational security policies.",
+          "skills": ["Cybersecurity", "Risk assessment", "Compliance frameworks", "IT governance"]
+        },
+        {
+          "id": "y3-communities-01",
+          "label": "Secure and engage with an IT industry mentor",
+          "courseRef": "BSIS 410 — Enterprise Systems",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Establish a mentorship with an IT professional, systems architect, or IT consultant through CoBE networks. Monthly meetings focus on technology career paths, certifications, and industry trends.",
+          "skills": ["Mentorship cultivation", "Professional development", "Career strategy", "Industry networking"]
+        },
+        {
+          "id": "y3-identity-02",
+          "label": "Complete summer IT internship",
+          "courseRef": "BSIS 395 — BIT Internship",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Secure and complete an internship in IT consulting, business analytics, systems administration, or software development. Apply technical and analytical skills in a professional setting.",
+          "skills": ["Professional work experience", "Applied IT", "Technical problem-solving", "Performance reflection"]
+        },
+        {
+          "id": "y3-localglobal-01",
+          "label": "Study IT project management",
+          "courseRef": "BSIS 430 — IT Project Management",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Master IT project management methodologies (PMI, Scrum, Kanban) and tools. Students manage a team-based IT project from inception through delivery, applying both waterfall and agile approaches.",
+          "skills": ["Project management", "Agile/Scrum", "Team leadership", "Deliverable management"]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Career Placement & Capstone — Complete capstone IT project, earn certifications, and launch technology career.",
+      "milestones": [
+        {
+          "id": "y4-purpose-01",
+          "label": "Execute capstone IT consulting project",
+          "courseRef": "BSIS 495 — Capstone in BIT",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Collaborate with a client organization to analyze IT challenges, design system solutions, and deliver a working prototype or strategic recommendations. Projects are evaluated by faculty and industry professionals.",
+          "skills": ["IT consulting", "Systems design", "Client management", "Professional delivery"]
+        },
+        {
+          "id": "y4-identity-01",
+          "label": "Earn industry certification (CompTIA, AWS, or Salesforce)",
+          "courseRef": "BSIS 490 — Senior Seminar in BIT",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Prepare for and earn an industry-recognized certification such as CompTIA Security+, AWS Cloud Practitioner, Salesforce Administrator, or Google Analytics. Certification enhances employability and validates technical competency.",
+          "skills": ["Industry certification", "Technical validation", "Continuous learning", "Professional credentialing"]
+        },
+        {
+          "id": "y4-communities-01",
+          "label": "Serve as peer mentor and tech community leader",
+          "courseRef": "BSIS 490 — Senior Seminar in BIT",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Mentor underclassmen in BIT coursework, lead hackathon teams, and contribute to the campus tech community through workshops, code reviews, and knowledge sharing.",
+          "skills": ["Peer mentorship", "Tech leadership", "Knowledge transfer", "Community stewardship"]
+        },
+        {
+          "id": "y4-localglobal-01",
+          "label": "Develop tech industry placement portfolio",
+          "courseRef": "BSIS 490 — Senior Seminar in BIT",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Assemble a career launch package targeting IT consulting, analytics, or tech company roles. Includes technical portfolio, GitHub profile, certification documentation, and industry contact network.",
+          "skills": ["Career launch preparation", "Technical portfolio", "GitHub presence", "Interview preparation"]
+        },
+        {
+          "id": "y4-identity-02",
+          "label": "Complete exit assessment and career activation",
+          "courseRef": "BSIS 495 — Capstone in BIT",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Complete the CoBE BIT Exit Assessment and finalize career activation documenting job offers, graduate school admissions, or certification achievements.",
+          "skills": ["Competency demonstration", "Self-assessment", "Career activation", "Program outcome alignment"]
+        }
+      ]
+    }
+  ]
+}
