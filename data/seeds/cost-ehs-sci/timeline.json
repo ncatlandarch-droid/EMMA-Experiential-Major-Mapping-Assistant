@@ -1,0 +1,216 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Introduction to environmental health science and foundations.",
+      "milestones": [
+        {
+          "id": "y1-intro",
+          "label": "Intro to Environmental Health Science",
+          "courseRef": "ENHS 101",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Overview of environmental health science: history, scope, and careers.",
+          "skills": [
+            "Environmental Health Science"
+          ]
+        },
+        {
+          "id": "y1-found1",
+          "label": "Foundation Course I",
+          "courseRef": "ENHS 110",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Core principles and methodologies in environmental health science.",
+          "skills": [
+            "Foundations"
+          ]
+        },
+        {
+          "id": "y1-found2",
+          "label": "Foundation Course II",
+          "courseRef": "ENHS 120",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Building fundamental skills and knowledge.",
+          "skills": [
+            "Core Skills"
+          ]
+        },
+        {
+          "id": "y1-gen",
+          "label": "General Education",
+          "courseRef": "UNIV 101",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "University seminar and academic success strategies.",
+          "skills": [
+            "Academic Skills"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Intermediate environmental health science courses and engagement.",
+      "milestones": [
+        {
+          "id": "y2-inter1",
+          "label": "Intermediate Environmental Health Science",
+          "courseRef": "ENHS 200",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Deeper exploration of environmental health science concepts.",
+          "skills": [
+            "Intermediate Skills"
+          ]
+        },
+        {
+          "id": "y2-inter2",
+          "label": "Methods & Techniques",
+          "courseRef": "ENHS 210",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Practical methods and professional techniques.",
+          "skills": [
+            "Methods"
+          ]
+        },
+        {
+          "id": "y2-app",
+          "label": "Applied Practice",
+          "courseRef": "ENHS 220",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Hands-on applications and collaborative projects.",
+          "skills": [
+            "Applied Practice"
+          ]
+        },
+        {
+          "id": "y2-elec",
+          "label": "Elective Exploration",
+          "courseRef": "ENHS 250",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Exploring specialized topics and interests.",
+          "skills": [
+            "Specialization"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Advanced environmental health science and professional development.",
+      "milestones": [
+        {
+          "id": "y3-adv1",
+          "label": "Advanced Topics",
+          "courseRef": "ENHS 300",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Advanced theory and practice in environmental health science.",
+          "skills": [
+            "Advanced Topics"
+          ]
+        },
+        {
+          "id": "y3-adv2",
+          "label": "Specialized Study",
+          "courseRef": "ENHS 310",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Concentrated study in area of specialization.",
+          "skills": [
+            "Specialization"
+          ]
+        },
+        {
+          "id": "y3-research",
+          "label": "Research/Practice",
+          "courseRef": "ENHS 350",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "description": "Research methods or applied professional practice.",
+          "skills": [
+            "Research"
+          ]
+        },
+        {
+          "id": "y3-intern",
+          "label": "Internship/Field Experience",
+          "courseRef": "ENHS 490",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Professional work experience in the field.",
+          "skills": [
+            "Industry Experience"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Capstone, certification, and career launch.",
+      "milestones": [
+        {
+          "id": "y4-cap1",
+          "label": "Senior Seminar",
+          "courseRef": "ENHS 400",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Advanced seminar integrating all program knowledge.",
+          "skills": [
+            "Integration"
+          ]
+        },
+        {
+          "id": "y4-capstone",
+          "label": "Senior Capstone",
+          "courseRef": "ENHS 498",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Comprehensive capstone project or thesis.",
+          "skills": [
+            "Capstone"
+          ]
+        },
+        {
+          "id": "y4-career",
+          "label": "Career Preparation",
+          "courseRef": "ENHS 499",
+          "credits": 1,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Resume, portfolio, and career placement.",
+          "skills": [
+            "Career Readiness"
+          ]
+        }
+      ]
+    }
+  ]
+}

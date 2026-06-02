@@ -1,0 +1,82 @@
+{
+  "institutionName": "North Carolina Agricultural and Technical State University",
+  "abbreviation": "NC A&T",
+  "collegeName": "College of Science & Technology (CoST)",
+  "departmentName": "Built Environment",
+  "programName": "B.S. in Environmental Health & Safety — Mgmt",
+  "degreeType": "BS",
+  "programSlug": "cost-ehs-mgmt",
+  "slug": "cost-ehs-mgmt",
+  "programDescription": "B.S. in Environmental Health & Safety — Mgmt at NC A&T prepares students for rewarding careers in ehs management. Through rigorous coursework, hands-on projects, and internships, graduates emerge ready to lead.",
+  "tagline": "Leading the Future of EHS Management",
+  "brandingColors": {
+    "primaryHex": "#004684",
+    "primaryRgb": "0,70,132",
+    "secondaryHex": "#fdb927",
+    "secondaryRgb": "253,185,39",
+    "backgroundHex": "#F0F2F5",
+    "surfaceHex": "#FFFFFF",
+    "textPrimaryHex": "#1A1A2E",
+    "textSecondaryHex": "#555770"
+  },
+  "categoryColors": {
+    "Purpose": {
+      "hex": "#2563EB",
+      "rgb": "37,99,235",
+      "emoji": "🔍",
+      "label": "Purpose & Self-Discovery",
+      "description": "Research, coursework, and foundational experiences"
+    },
+    "Communities": {
+      "hex": "#059669",
+      "rgb": "5,150,105",
+      "emoji": "🤝",
+      "label": "Communities & Service",
+      "description": "Collaborative projects and community engagement"
+    },
+    "LocalGlobal": {
+      "hex": "#D97706",
+      "rgb": "217,119,6",
+      "emoji": "🌍",
+      "label": "Local & Global Engagement",
+      "description": "Field work, internships, and real-world applications"
+    },
+    "Identity": {
+      "hex": "#7C3AED",
+      "rgb": "124,58,237",
+      "emoji": "💼",
+      "label": "Professional Identity",
+      "description": "Career prep and professional practice"
+    }
+  },
+  "careerOutlook": {
+    "field": "EHS Management",
+    "blsCode": "29-9011",
+    "medianSalary": "$78,570",
+    "growthRate": "5% (2022-2032)",
+    "totalJobs": "122,700",
+    "topEmployers": [
+      "OSHA",
+      "EPA",
+      "Manufacturing",
+      "Construction",
+      "Consulting Firms"
+    ],
+    "certifications": [
+      "CSP",
+      "CIH",
+      "OSHA 30"
+    ],
+    "relatedFields": [
+      "Biology",
+      "Chemistry",
+      "Construction Management"
+    ],
+    "keySkills": [
+      "OSHA Regulations",
+      "Risk Assessment",
+      "Industrial Hygiene",
+      "Safety Training"
+    ]
+  }
+}

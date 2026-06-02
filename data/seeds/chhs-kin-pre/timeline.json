@@ -1,0 +1,218 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Pre-health science foundations.",
+      "milestones": [
+        {
+          "id": "y1-kins100",
+          "label": "Intro to Kinesiology",
+          "courseRef": "KINS 100",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Careers in health professions.",
+          "skills": [
+            "Kinesiology"
+          ]
+        },
+        {
+          "id": "y1-biol101",
+          "label": "General Biology I",
+          "courseRef": "BIOL 101",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Cell biology and genetics.",
+          "skills": [
+            "Biology"
+          ]
+        },
+        {
+          "id": "y1-chem101",
+          "label": "General Chemistry I",
+          "courseRef": "CHEM 101",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Atomic structure, bonding, and reactions.",
+          "skills": [
+            "Chemistry"
+          ]
+        },
+        {
+          "id": "y1-math131",
+          "label": "Calculus or Statistics",
+          "courseRef": "MATH 131",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Quantitative foundations for health sciences.",
+          "skills": [
+            "Mathematics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Anatomy, physiology, and organic chemistry.",
+      "milestones": [
+        {
+          "id": "y2-biol221",
+          "label": "Anatomy & Physiology I",
+          "courseRef": "BIOL 221",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Musculoskeletal and nervous systems.",
+          "skills": [
+            "Anatomy"
+          ]
+        },
+        {
+          "id": "y2-biol222",
+          "label": "Anatomy & Physiology II",
+          "courseRef": "BIOL 222",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Organ systems and clinical anatomy.",
+          "skills": [
+            "Physiology"
+          ]
+        },
+        {
+          "id": "y2-chem201",
+          "label": "Organic Chemistry I",
+          "courseRef": "CHEM 201",
+          "credits": 4,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Carbon chemistry and functional groups.",
+          "skills": [
+            "Organic Chemistry"
+          ]
+        },
+        {
+          "id": "y2-phys101",
+          "label": "Physics I",
+          "courseRef": "PHYS 101",
+          "credits": 4,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Mechanics and thermodynamics for health sciences.",
+          "skills": [
+            "Physics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Advanced sciences and clinical shadowing.",
+      "milestones": [
+        {
+          "id": "y3-kins310",
+          "label": "Exercise Physiology",
+          "courseRef": "KINS 310",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Physiological responses to exercise.",
+          "skills": [
+            "Exercise Physiology"
+          ]
+        },
+        {
+          "id": "y3-kins320",
+          "label": "Pathophysiology",
+          "courseRef": "KINS 320",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Disease mechanisms for clinical applications.",
+          "skills": [
+            "Pathophysiology"
+          ]
+        },
+        {
+          "id": "y3-biol301",
+          "label": "Microbiology",
+          "courseRef": "BIOL 301",
+          "credits": 4,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "description": "Medical microbiology and infectious diseases.",
+          "skills": [
+            "Microbiology"
+          ]
+        },
+        {
+          "id": "y3-shadow",
+          "label": "Clinical Shadowing",
+          "courseRef": "KINS 395",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "100+ hours of shadowing physicians, PTs, or OTs.",
+          "skills": [
+            "Clinical Shadowing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "MCAT/GRE prep and graduate school applications.",
+      "milestones": [
+        {
+          "id": "y4-kins410",
+          "label": "Research Methods",
+          "courseRef": "KINS 410",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Research design for health sciences.",
+          "skills": [
+            "Research"
+          ]
+        },
+        {
+          "id": "y4-kins420",
+          "label": "Senior Research",
+          "courseRef": "KINS 420",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Independent research project.",
+          "skills": [
+            "Research Project"
+          ]
+        },
+        {
+          "id": "y4-career",
+          "label": "MCAT/GRE & Grad School Prep",
+          "courseRef": "KINS 499",
+          "credits": 1,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Exam preparation and application support.",
+          "skills": [
+            "MCAT",
+            "GRE",
+            "Applications"
+          ]
+        }
+      ]
+    }
+  ]
+}

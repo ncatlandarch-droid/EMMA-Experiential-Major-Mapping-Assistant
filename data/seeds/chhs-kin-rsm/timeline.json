@@ -1,0 +1,216 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Sport management foundations.",
+      "milestones": [
+        {
+          "id": "y1-kins100",
+          "label": "Intro to Kinesiology",
+          "courseRef": "KINS 100",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Careers in sport and recreation management.",
+          "skills": [
+            "Kinesiology"
+          ]
+        },
+        {
+          "id": "y1-kins150",
+          "label": "Intro to Sport Management",
+          "courseRef": "KINS 150",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Overview of the sport industry and career paths.",
+          "skills": [
+            "Sport Management"
+          ]
+        },
+        {
+          "id": "y1-mgmt101",
+          "label": "Principles of Management",
+          "courseRef": "MGMT 101",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Management theory and organizational behavior.",
+          "skills": [
+            "Management"
+          ]
+        },
+        {
+          "id": "y1-comm110",
+          "label": "Public Speaking",
+          "courseRef": "COMM 110",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Presentation skills for sports professionals.",
+          "skills": [
+            "Public Speaking"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Marketing, law, and facility management.",
+      "milestones": [
+        {
+          "id": "y2-kins250",
+          "label": "Sport Marketing",
+          "courseRef": "KINS 250",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Marketing strategies for sports organizations.",
+          "skills": [
+            "Sports Marketing"
+          ]
+        },
+        {
+          "id": "y2-kins260",
+          "label": "Sport Law",
+          "courseRef": "KINS 260",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Legal issues in athletics and recreation.",
+          "skills": [
+            "Sport Law"
+          ]
+        },
+        {
+          "id": "y2-kins270",
+          "label": "Facility & Event Management",
+          "courseRef": "KINS 270",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "description": "Planning and managing sports facilities and events.",
+          "skills": [
+            "Event Management"
+          ]
+        },
+        {
+          "id": "y2-acct201",
+          "label": "Principles of Accounting",
+          "courseRef": "ACCT 201",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Financial fundamentals for sport managers.",
+          "skills": [
+            "Accounting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Finance, governance, and analytics.",
+      "milestones": [
+        {
+          "id": "y3-kins350",
+          "label": "Sport Finance",
+          "courseRef": "KINS 350",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Budgeting, revenue streams, and financial management.",
+          "skills": [
+            "Sport Finance"
+          ]
+        },
+        {
+          "id": "y3-kins360",
+          "label": "Sport Governance",
+          "courseRef": "KINS 360",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "NCAA governance, Olympic organizations, and professional leagues.",
+          "skills": [
+            "Governance"
+          ]
+        },
+        {
+          "id": "y3-kins370",
+          "label": "Sport Analytics",
+          "courseRef": "KINS 370",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Data analytics for player evaluation and business decisions.",
+          "skills": [
+            "Analytics"
+          ]
+        },
+        {
+          "id": "y3-intern",
+          "label": "Sport Management Internship",
+          "courseRef": "KINS 490",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Internship with a sports organization or recreation department.",
+          "skills": [
+            "Industry Experience"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Capstone and career launch.",
+      "milestones": [
+        {
+          "id": "y4-kins450",
+          "label": "Sport Ethics",
+          "courseRef": "KINS 450",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Ethical issues in sports administration.",
+          "skills": [
+            "Ethics"
+          ]
+        },
+        {
+          "id": "y4-capstone",
+          "label": "Senior Capstone",
+          "courseRef": "KINS 498",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Comprehensive sport management project.",
+          "skills": [
+            "Capstone"
+          ]
+        },
+        {
+          "id": "y4-career",
+          "label": "Career Placement",
+          "courseRef": "KINS 499",
+          "credits": 1,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Resume, networking, and job search preparation.",
+          "skills": [
+            "Career Readiness"
+          ]
+        }
+      ]
+    }
+  ]
+}

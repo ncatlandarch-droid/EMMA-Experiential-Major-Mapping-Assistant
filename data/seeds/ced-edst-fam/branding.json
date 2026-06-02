@@ -1,0 +1,80 @@
+{
+  "institutionName": "North Carolina Agricultural and Technical State University",
+  "abbreviation": "NC A&T",
+  "collegeName": "College of Education (CEd)",
+  "departmentName": "Educator Preparation",
+  "programName": "B.S. in Educational Studies — Family & Community",
+  "degreeType": "BS",
+  "programSlug": "ced-edst-fam",
+  "slug": "ced-edst-fam",
+  "programDescription": "B.S. in Educational Studies — Family & Community at NC A&T prepares students for rewarding careers in family & community education. Through rigorous coursework, hands-on projects, and internships, graduates emerge ready to lead.",
+  "tagline": "Leading the Future of Family & Community Education",
+  "brandingColors": {
+    "primaryHex": "#004684",
+    "primaryRgb": "0,70,132",
+    "secondaryHex": "#fdb927",
+    "secondaryRgb": "253,185,39",
+    "backgroundHex": "#F0F2F5",
+    "surfaceHex": "#FFFFFF",
+    "textPrimaryHex": "#1A1A2E",
+    "textSecondaryHex": "#555770"
+  },
+  "categoryColors": {
+    "Purpose": {
+      "hex": "#2563EB",
+      "rgb": "37,99,235",
+      "emoji": "🔍",
+      "label": "Purpose & Self-Discovery",
+      "description": "Research, coursework, and foundational experiences"
+    },
+    "Communities": {
+      "hex": "#059669",
+      "rgb": "5,150,105",
+      "emoji": "🤝",
+      "label": "Communities & Service",
+      "description": "Collaborative projects and community engagement"
+    },
+    "LocalGlobal": {
+      "hex": "#D97706",
+      "rgb": "217,119,6",
+      "emoji": "🌍",
+      "label": "Local & Global Engagement",
+      "description": "Field work, internships, and real-world applications"
+    },
+    "Identity": {
+      "hex": "#7C3AED",
+      "rgb": "124,58,237",
+      "emoji": "💼",
+      "label": "Professional Identity",
+      "description": "Career prep and professional practice"
+    }
+  },
+  "careerOutlook": {
+    "field": "Family & Community Education",
+    "blsCode": "21-1093",
+    "medianSalary": "$52,870",
+    "growthRate": "11% (2022-2032)",
+    "totalJobs": "58,600",
+    "topEmployers": [
+      "Community Centers",
+      "Nonprofits",
+      "Schools",
+      "Social Services",
+      "Faith-Based Orgs"
+    ],
+    "certifications": [
+      "Certified Family Life Educator"
+    ],
+    "relatedFields": [
+      "Social Work",
+      "Psychology",
+      "Child Development"
+    ],
+    "keySkills": [
+      "Family Engagement",
+      "Community Partnerships",
+      "Program Planning",
+      "Cultural Competency"
+    ]
+  }
+}

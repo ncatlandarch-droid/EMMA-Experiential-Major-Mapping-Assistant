@@ -1,0 +1,234 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Foundations in communication sciences.",
+      "milestones": [
+        {
+          "id": "y1-csdi100",
+          "label": "Intro to Communication Disorders",
+          "courseRef": "CSDI 100",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Overview of speech, language, and hearing disorders.",
+          "skills": [
+            "Communication Disorders"
+          ]
+        },
+        {
+          "id": "y1-biol101",
+          "label": "Biology",
+          "courseRef": "BIOL 101",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Biological foundations for clinical sciences.",
+          "skills": [
+            "Biology"
+          ]
+        },
+        {
+          "id": "y1-psyc201",
+          "label": "General Psychology",
+          "courseRef": "PSYC 201",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Psychological principles for clinical practice.",
+          "skills": [
+            "Psychology"
+          ]
+        },
+        {
+          "id": "y1-csdi200",
+          "label": "Phonetics",
+          "courseRef": "CSDI 200",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "International Phonetic Alphabet and transcription.",
+          "skills": [
+            "Phonetics",
+            "IPA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Anatomy of speech and language development.",
+      "milestones": [
+        {
+          "id": "y2-csdi210",
+          "label": "Anatomy of Speech & Hearing",
+          "courseRef": "CSDI 210",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Structures and functions of speech and hearing mechanisms.",
+          "skills": [
+            "Speech Anatomy",
+            "Hearing"
+          ]
+        },
+        {
+          "id": "y2-csdi220",
+          "label": "Language Development",
+          "courseRef": "CSDI 220",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Normal language acquisition from birth through adolescence.",
+          "skills": [
+            "Language Development"
+          ]
+        },
+        {
+          "id": "y2-csdi230",
+          "label": "Intro to Audiology",
+          "courseRef": "CSDI 230",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "description": "Hearing science, audiometric testing, and hearing aids.",
+          "skills": [
+            "Audiology",
+            "Hearing Assessment"
+          ]
+        },
+        {
+          "id": "y2-stat210",
+          "label": "Statistics",
+          "courseRef": "STAT 210",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Statistical methods for clinical research.",
+          "skills": [
+            "Statistics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Clinical methods and disorders.",
+      "milestones": [
+        {
+          "id": "y3-csdi310",
+          "label": "Articulation Disorders",
+          "courseRef": "CSDI 310",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Assessment and treatment of speech sound disorders.",
+          "skills": [
+            "Articulation",
+            "Speech Therapy"
+          ]
+        },
+        {
+          "id": "y3-csdi320",
+          "label": "Language Disorders",
+          "courseRef": "CSDI 320",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Assessment and intervention for language impairments.",
+          "skills": [
+            "Language Therapy"
+          ]
+        },
+        {
+          "id": "y3-csdi330",
+          "label": "Clinical Methods",
+          "courseRef": "CSDI 330",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Introduction to clinical practicum and documentation.",
+          "skills": [
+            "Clinical Practice"
+          ]
+        },
+        {
+          "id": "y3-csdi340",
+          "label": "Voice & Fluency Disorders",
+          "courseRef": "CSDI 340",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Stuttering, voice disorders, and related interventions.",
+          "skills": [
+            "Voice",
+            "Fluency"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Clinical practicum and graduate school preparation.",
+      "milestones": [
+        {
+          "id": "y4-csdi410",
+          "label": "Neurogenic Disorders",
+          "courseRef": "CSDI 410",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Aphasia, dysarthria, and cognitive-communication disorders.",
+          "skills": [
+            "Neurogenic Disorders"
+          ]
+        },
+        {
+          "id": "y4-csdi490",
+          "label": "Clinical Practicum",
+          "courseRef": "CSDI 490",
+          "credits": 4,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Supervised clinical experience with real clients.",
+          "skills": [
+            "Clinical Practicum"
+          ]
+        },
+        {
+          "id": "y4-csdi420",
+          "label": "Swallowing Disorders",
+          "courseRef": "CSDI 420",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "description": "Dysphagia assessment and management.",
+          "skills": [
+            "Dysphagia"
+          ]
+        },
+        {
+          "id": "y4-gre",
+          "label": "Graduate School Preparation",
+          "courseRef": "CSDI 499",
+          "credits": 1,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "GRE prep, grad school applications, and career planning.",
+          "skills": [
+            "GRE",
+            "Career Readiness"
+          ]
+        }
+      ]
+    }
+  ]
+}

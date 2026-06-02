@@ -1,0 +1,217 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Sociological foundations.",
+      "milestones": [
+        {
+          "id": "y1-soci201",
+          "label": "Intro to Sociology",
+          "courseRef": "SOCI 201",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Social structures, institutions, and inequality.",
+          "skills": [
+            "Sociology"
+          ]
+        },
+        {
+          "id": "y1-soci210",
+          "label": "Social Problems",
+          "courseRef": "SOCI 210",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Poverty, crime, racism, and social change.",
+          "skills": [
+            "Social Problems"
+          ]
+        },
+        {
+          "id": "y1-psyc201",
+          "label": "Psychology",
+          "courseRef": "PSYC 201",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Individual behavior and mental processes.",
+          "skills": [
+            "Psychology"
+          ]
+        },
+        {
+          "id": "y1-stat210",
+          "label": "Statistics",
+          "courseRef": "STAT 210",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Statistical analysis for social sciences.",
+          "skills": [
+            "Statistics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Theory and specialized topics.",
+      "milestones": [
+        {
+          "id": "y2-soci301",
+          "label": "Sociological Theory",
+          "courseRef": "SOCI 301",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Classical and contemporary sociological theory.",
+          "skills": [
+            "Sociological Theory"
+          ]
+        },
+        {
+          "id": "y2-soci310",
+          "label": "Race & Ethnicity",
+          "courseRef": "SOCI 310",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Racial stratification, identity, and social movements.",
+          "skills": [
+            "Race Studies"
+          ]
+        },
+        {
+          "id": "y2-soci320",
+          "label": "Research Methods",
+          "courseRef": "SOCI 320",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Survey design, interviewing, and ethnography.",
+          "skills": [
+            "Research Methods"
+          ]
+        },
+        {
+          "id": "y2-soci330",
+          "label": "Criminology",
+          "courseRef": "SOCI 330",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Theories of crime and deviance.",
+          "skills": [
+            "Criminology"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Applied sociology and fieldwork.",
+      "milestones": [
+        {
+          "id": "y3-soci340",
+          "label": "Urban Sociology",
+          "courseRef": "SOCI 340",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "description": "Cities, gentrification, and community development.",
+          "skills": [
+            "Urban Sociology"
+          ]
+        },
+        {
+          "id": "y3-soci350",
+          "label": "Medical Sociology",
+          "courseRef": "SOCI 350",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Social determinants of health and healthcare systems.",
+          "skills": [
+            "Medical Sociology"
+          ]
+        },
+        {
+          "id": "y3-soci360",
+          "label": "Gender & Society",
+          "courseRef": "SOCI 360",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Gender roles, inequality, and feminist theory.",
+          "skills": [
+            "Gender Studies"
+          ]
+        },
+        {
+          "id": "y3-intern",
+          "label": "Sociology Internship",
+          "courseRef": "SOCI 490",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Applied research or community organization placement.",
+          "skills": [
+            "Fieldwork"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Senior research and career placement.",
+      "milestones": [
+        {
+          "id": "y4-soci410",
+          "label": "Advanced Data Analysis",
+          "courseRef": "SOCI 410",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "SPSS/R for sociological data analysis.",
+          "skills": [
+            "SPSS",
+            "Data Analysis"
+          ]
+        },
+        {
+          "id": "y4-capstone",
+          "label": "Senior Research",
+          "courseRef": "SOCI 498",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Original sociological research project.",
+          "skills": [
+            "Research"
+          ]
+        },
+        {
+          "id": "y4-career",
+          "label": "Career Preparation",
+          "courseRef": "SOCI 499",
+          "credits": 1,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Graduate school prep and career placement.",
+          "skills": [
+            "Career Readiness"
+          ]
+        }
+      ]
+    }
+  ]
+}

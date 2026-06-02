@@ -1,0 +1,83 @@
+{
+  "institutionName": "North Carolina Agricultural and Technical State University",
+  "abbreviation": "NC A&T",
+  "collegeName": "Hairston College of Health & Human Sciences (CHHS)",
+  "departmentName": "School of Nursing",
+  "programName": "B.S.N. in Nursing",
+  "degreeType": "BSN",
+  "programSlug": "chhs-nurs",
+  "slug": "chhs-nurs",
+  "programDescription": "B.S.N. in Nursing at NC A&T prepares students for rewarding careers in nursing. Through rigorous coursework, hands-on projects, and internships, graduates emerge ready to lead.",
+  "tagline": "Leading the Future of Nursing",
+  "brandingColors": {
+    "primaryHex": "#004684",
+    "primaryRgb": "0,70,132",
+    "secondaryHex": "#fdb927",
+    "secondaryRgb": "253,185,39",
+    "backgroundHex": "#F0F2F5",
+    "surfaceHex": "#FFFFFF",
+    "textPrimaryHex": "#1A1A2E",
+    "textSecondaryHex": "#555770"
+  },
+  "categoryColors": {
+    "Purpose": {
+      "hex": "#2563EB",
+      "rgb": "37,99,235",
+      "emoji": "🔍",
+      "label": "Purpose & Self-Discovery",
+      "description": "Research, coursework, and foundational experiences"
+    },
+    "Communities": {
+      "hex": "#059669",
+      "rgb": "5,150,105",
+      "emoji": "🤝",
+      "label": "Communities & Service",
+      "description": "Collaborative projects and community engagement"
+    },
+    "LocalGlobal": {
+      "hex": "#D97706",
+      "rgb": "217,119,6",
+      "emoji": "🌍",
+      "label": "Local & Global Engagement",
+      "description": "Field work, internships, and real-world applications"
+    },
+    "Identity": {
+      "hex": "#7C3AED",
+      "rgb": "124,58,237",
+      "emoji": "💼",
+      "label": "Professional Identity",
+      "description": "Career prep and professional practice"
+    }
+  },
+  "careerOutlook": {
+    "field": "Nursing",
+    "blsCode": "29-1141",
+    "medianSalary": "$81,220",
+    "growthRate": "6% (2022-2032)",
+    "totalJobs": "3,175,000",
+    "topEmployers": [
+      "Cone Health",
+      "Duke Health",
+      "Novant Health",
+      "HCA Healthcare",
+      "VA Medical Centers"
+    ],
+    "certifications": [
+      "NCLEX-RN",
+      "BLS/ACLS",
+      "Specialty Certifications"
+    ],
+    "relatedFields": [
+      "Biology",
+      "Psychology",
+      "Health Services Management"
+    ],
+    "keySkills": [
+      "Patient Assessment",
+      "Clinical Skills",
+      "Pharmacology",
+      "EHR Systems",
+      "Critical Thinking"
+    ]
+  }
+}

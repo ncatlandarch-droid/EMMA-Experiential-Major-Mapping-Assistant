@@ -1,0 +1,243 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Science foundations and intro to nursing.",
+      "milestones": [
+        {
+          "id": "y1-nurs101",
+          "label": "Intro to Professional Nursing",
+          "courseRef": "NURS 101",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "History, ethics, and scope of professional nursing.",
+          "skills": [
+            "Nursing Overview"
+          ]
+        },
+        {
+          "id": "y1-biol221",
+          "label": "Human Anatomy & Physiology I",
+          "courseRef": "BIOL 221",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Skeletal, muscular, and nervous systems.",
+          "skills": [
+            "Anatomy",
+            "Physiology"
+          ]
+        },
+        {
+          "id": "y1-biol222",
+          "label": "Human Anatomy & Physiology II",
+          "courseRef": "BIOL 222",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Cardiovascular, respiratory, and endocrine systems.",
+          "skills": [
+            "Anatomy",
+            "Physiology"
+          ]
+        },
+        {
+          "id": "y1-psyc201",
+          "label": "Intro to Psychology",
+          "courseRef": "PSYC 201",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Psychological foundations for patient-centered care.",
+          "skills": [
+            "Psychology",
+            "Human Behavior"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Fundamentals of nursing and clinical rotations.",
+      "milestones": [
+        {
+          "id": "y2-nurs210",
+          "label": "Health Assessment",
+          "courseRef": "NURS 210",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Physical examination and patient history taking.",
+          "skills": [
+            "Health Assessment",
+            "Vital Signs"
+          ]
+        },
+        {
+          "id": "y2-nurs220",
+          "label": "Pharmacology",
+          "courseRef": "NURS 220",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Drug classifications, dosage calculations, and administration.",
+          "skills": [
+            "Pharmacology",
+            "Drug Admin"
+          ]
+        },
+        {
+          "id": "y2-nurs230",
+          "label": "Fundamentals of Nursing",
+          "courseRef": "NURS 230",
+          "credits": 4,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Core nursing skills with clinical lab practice.",
+          "skills": [
+            "Clinical Skills",
+            "Patient Care"
+          ]
+        },
+        {
+          "id": "y2-nurs240",
+          "label": "Pathophysiology",
+          "courseRef": "NURS 240",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Disease mechanisms and clinical manifestations.",
+          "skills": [
+            "Pathophysiology",
+            "Disease Process"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Medical-surgical nursing and specialty clinicals.",
+      "milestones": [
+        {
+          "id": "y3-nurs310",
+          "label": "Adult Health Nursing I",
+          "courseRef": "NURS 310",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Acute and chronic care nursing with hospital clinicals.",
+          "skills": [
+            "Med-Surg Nursing",
+            "Hospital Care"
+          ]
+        },
+        {
+          "id": "y3-nurs320",
+          "label": "Mental Health Nursing",
+          "courseRef": "NURS 320",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Psychiatric nursing and therapeutic communication.",
+          "skills": [
+            "Mental Health",
+            "Therapeutic Communication"
+          ]
+        },
+        {
+          "id": "y3-nurs330",
+          "label": "Maternal-Child Nursing",
+          "courseRef": "NURS 330",
+          "credits": 4,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "description": "Obstetric and pediatric nursing with clinical rotation.",
+          "skills": [
+            "OB Nursing",
+            "Pediatrics"
+          ]
+        },
+        {
+          "id": "y3-nurs340",
+          "label": "Community Health Nursing",
+          "courseRef": "NURS 340",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Population health, epidemiology, and public health nursing.",
+          "skills": [
+            "Public Health",
+            "Epidemiology"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Leadership, preceptorship, and NCLEX preparation.",
+      "milestones": [
+        {
+          "id": "y4-nurs410",
+          "label": "Adult Health Nursing II",
+          "courseRef": "NURS 410",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Complex medical-surgical nursing and critical care.",
+          "skills": [
+            "Critical Care",
+            "Complex Patients"
+          ]
+        },
+        {
+          "id": "y4-nurs420",
+          "label": "Nursing Leadership",
+          "courseRef": "NURS 420",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Healthcare management, delegation, and evidence-based practice.",
+          "skills": [
+            "Leadership",
+            "EBP"
+          ]
+        },
+        {
+          "id": "y4-nurs490",
+          "label": "Clinical Preceptorship",
+          "courseRef": "NURS 490",
+          "credits": 6,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "240-hour preceptorship with RN mentor in specialty area.",
+          "skills": [
+            "Preceptorship",
+            "Clinical Immersion"
+          ]
+        },
+        {
+          "id": "y4-nclex",
+          "label": "NCLEX-RN Preparation",
+          "courseRef": "NURS 499",
+          "credits": 1,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Comprehensive NCLEX review and career placement.",
+          "skills": [
+            "NCLEX-RN",
+            "Career Readiness"
+          ]
+        }
+      ]
+    }
+  ]
+}

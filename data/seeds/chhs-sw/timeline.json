@@ -1,0 +1,231 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Introduction to social work.",
+      "milestones": [
+        {
+          "id": "y1-sowk200",
+          "label": "Intro to Social Work",
+          "courseRef": "SOWK 200",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "History, values, and ethics of social work practice.",
+          "skills": [
+            "Social Work Overview"
+          ]
+        },
+        {
+          "id": "y1-soci201",
+          "label": "Sociology",
+          "courseRef": "SOCI 201",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Social systems and institutions.",
+          "skills": [
+            "Sociology"
+          ]
+        },
+        {
+          "id": "y1-psyc201",
+          "label": "Psychology",
+          "courseRef": "PSYC 201",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Individual development and behavior.",
+          "skills": [
+            "Psychology"
+          ]
+        },
+        {
+          "id": "y1-biol101",
+          "label": "Biology",
+          "courseRef": "BIOL 101",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Biological foundations for social work practice.",
+          "skills": [
+            "Biology"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "HBSE and diversity.",
+      "milestones": [
+        {
+          "id": "y2-sowk310",
+          "label": "Human Behavior & Social Environment I",
+          "courseRef": "SOWK 310",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Biopsychosocial development across the lifespan.",
+          "skills": [
+            "HBSE"
+          ]
+        },
+        {
+          "id": "y2-sowk311",
+          "label": "HBSE II",
+          "courseRef": "SOWK 311",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Families, groups, organizations, and communities.",
+          "skills": [
+            "Systems Theory"
+          ]
+        },
+        {
+          "id": "y2-sowk320",
+          "label": "Diversity & Social Justice",
+          "courseRef": "SOWK 320",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Oppression, privilege, and culturally responsive practice.",
+          "skills": [
+            "Social Justice",
+            "Cultural Competency"
+          ]
+        },
+        {
+          "id": "y2-sowk330",
+          "label": "Social Welfare Policy",
+          "courseRef": "SOWK 330",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "U.S. social welfare history and policy analysis.",
+          "skills": [
+            "Policy Analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Practice methods and research.",
+      "milestones": [
+        {
+          "id": "y3-sowk340",
+          "label": "Social Work Practice I",
+          "courseRef": "SOWK 340",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Generalist practice with individuals.",
+          "skills": [
+            "Case Management"
+          ]
+        },
+        {
+          "id": "y3-sowk341",
+          "label": "Social Work Practice II",
+          "courseRef": "SOWK 341",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Group and family intervention methods.",
+          "skills": [
+            "Group Work"
+          ]
+        },
+        {
+          "id": "y3-sowk350",
+          "label": "Social Work Research",
+          "courseRef": "SOWK 350",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "description": "Evidence-based practice and program evaluation.",
+          "skills": [
+            "Research",
+            "EBP"
+          ]
+        },
+        {
+          "id": "y3-sowk360",
+          "label": "Practice III — Communities",
+          "courseRef": "SOWK 360",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Community organizing and macro practice.",
+          "skills": [
+            "Community Organizing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Field practicum and licensure prep.",
+      "milestones": [
+        {
+          "id": "y4-sowk470",
+          "label": "Field Practicum I",
+          "courseRef": "SOWK 470",
+          "credits": 6,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "400-hour supervised field placement at agency.",
+          "skills": [
+            "Field Practicum"
+          ]
+        },
+        {
+          "id": "y4-sowk471",
+          "label": "Field Practicum II",
+          "courseRef": "SOWK 471",
+          "credits": 6,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Continued field placement with advanced responsibilities.",
+          "skills": [
+            "Advanced Practice"
+          ]
+        },
+        {
+          "id": "y4-sowk480",
+          "label": "Integrative Seminar",
+          "courseRef": "SOWK 480",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Integration of theory and field practice.",
+          "skills": [
+            "Integration"
+          ]
+        },
+        {
+          "id": "y4-career",
+          "label": "Licensure & Career Prep",
+          "courseRef": "SOWK 499",
+          "credits": 1,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "LSW exam preparation and career placement.",
+          "skills": [
+            "LSW Exam",
+            "Career Readiness"
+          ]
+        }
+      ]
+    }
+  ]
+}

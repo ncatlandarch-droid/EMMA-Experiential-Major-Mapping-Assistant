@@ -1,0 +1,219 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Foundations of psychology.",
+      "milestones": [
+        {
+          "id": "y1-psyc201",
+          "label": "General Psychology",
+          "courseRef": "PSYC 201",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Survey of major psychological theories and research.",
+          "skills": [
+            "Psychology Overview"
+          ]
+        },
+        {
+          "id": "y1-psyc202",
+          "label": "Developmental Psychology",
+          "courseRef": "PSYC 202",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Human development from birth through aging.",
+          "skills": [
+            "Developmental Psychology"
+          ]
+        },
+        {
+          "id": "y1-biol101",
+          "label": "Biology",
+          "courseRef": "BIOL 101",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Biological foundations for behavioral science.",
+          "skills": [
+            "Biology"
+          ]
+        },
+        {
+          "id": "y1-stat210",
+          "label": "Statistics",
+          "courseRef": "STAT 210",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Statistical methods for behavioral research.",
+          "skills": [
+            "Statistics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Core areas of psychology.",
+      "milestones": [
+        {
+          "id": "y2-psyc301",
+          "label": "Abnormal Psychology",
+          "courseRef": "PSYC 301",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Psychological disorders, diagnosis, and treatment.",
+          "skills": [
+            "Abnormal Psych",
+            "DSM"
+          ]
+        },
+        {
+          "id": "y2-psyc310",
+          "label": "Social Psychology",
+          "courseRef": "PSYC 310",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Group behavior, attitudes, and social influence.",
+          "skills": [
+            "Social Psychology"
+          ]
+        },
+        {
+          "id": "y2-psyc320",
+          "label": "Research Methods",
+          "courseRef": "PSYC 320",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Experimental design and data collection.",
+          "skills": [
+            "Research Methods"
+          ]
+        },
+        {
+          "id": "y2-psyc330",
+          "label": "Cognitive Psychology",
+          "courseRef": "PSYC 330",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Memory, perception, attention, and problem solving.",
+          "skills": [
+            "Cognitive Psychology"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Specialized topics and research.",
+      "milestones": [
+        {
+          "id": "y3-psyc340",
+          "label": "Biopsychology",
+          "courseRef": "PSYC 340",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Brain-behavior relationships and neuroscience.",
+          "skills": [
+            "Neuroscience"
+          ]
+        },
+        {
+          "id": "y3-psyc350",
+          "label": "Personality Psychology",
+          "courseRef": "PSYC 350",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Personality theories and assessment.",
+          "skills": [
+            "Personality"
+          ]
+        },
+        {
+          "id": "y3-psyc360",
+          "label": "Cross-Cultural Psychology",
+          "courseRef": "PSYC 360",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "description": "Cultural influences on behavior and mental health.",
+          "skills": [
+            "Cultural Psychology"
+          ]
+        },
+        {
+          "id": "y3-psyc390",
+          "label": "Research Practicum",
+          "courseRef": "PSYC 390",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Supervised research experience in faculty lab.",
+          "skills": [
+            "Research Experience"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Senior thesis and graduate school prep.",
+      "milestones": [
+        {
+          "id": "y4-psyc410",
+          "label": "Testing & Assessment",
+          "courseRef": "PSYC 410",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Psychological testing, reliability, and validity.",
+          "skills": [
+            "Assessment"
+          ]
+        },
+        {
+          "id": "y4-capstone",
+          "label": "Senior Thesis",
+          "courseRef": "PSYC 498",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Original research project and presentation.",
+          "skills": [
+            "Thesis",
+            "Research"
+          ]
+        },
+        {
+          "id": "y4-career",
+          "label": "GRE & Graduate School Prep",
+          "courseRef": "PSYC 499",
+          "credits": 1,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "GRE prep, grad school applications, and career planning.",
+          "skills": [
+            "GRE",
+            "Career Readiness"
+          ]
+        }
+      ]
+    }
+  ]
+}

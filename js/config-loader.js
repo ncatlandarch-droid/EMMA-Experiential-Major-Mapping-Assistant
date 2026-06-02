@@ -81,7 +81,18 @@ const EMMA_CONFIG = (() => {
       collegeSlug: 'chhs',
       collegeColor: '#5CB8DC',
       collegeIcon: 'assets/images/college-icons/icon-health-color.svg',
-      programs: []
+      programs: [
+        { slug: 'chhs-nurs', name: 'B.S.N. in Nursing', dept: 'School of Nursing' },
+        { slug: 'chhs-slpa', name: 'B.A. in Speech-Language Pathology & Audiology', dept: 'Communication Sciences & Disorders' },
+        { slug: 'chhs-comm', name: 'B.A. in Speech Communication Studies', dept: 'Communication Sciences & Disorders' },
+        { slug: 'chhs-kin-ex', name: 'B.S. in Kinesiology — Exercise Science', dept: 'Kinesiology' },
+        { slug: 'chhs-kin-rsm', name: 'B.S. in Kinesiology — Recreation & Sport Mgmt', dept: 'Kinesiology' },
+        { slug: 'chhs-kin-pre', name: 'B.S. in Kinesiology — Pre-Professional', dept: 'Kinesiology' },
+        { slug: 'chhs-hsm', name: 'B.S. in Health Services Management', dept: 'Population Health Mgmt & Policy' },
+        { slug: 'chhs-psych', name: 'B.A. in Psychology', dept: 'Psychology' },
+        { slug: 'chhs-soc', name: 'B.A. in Sociology', dept: 'Social Work & Sociology' },
+        { slug: 'chhs-sw', name: 'B.S.W. in Social Work', dept: 'Social Work & Sociology' }
+      ]
     },
     {
       college: 'College of Arts, Humanities & Social Sciences',
@@ -89,7 +100,26 @@ const EMMA_CONFIG = (() => {
       collegeSlug: 'cahss',
       collegeColor: '#D9A9B0',
       collegeIcon: 'assets/images/college-icons/icon-arts-color.svg',
-      programs: []
+      programs: [
+        { slug: 'cahss-cj', name: 'B.S. in Criminal Justice', dept: 'Criminal Justice' },
+        { slug: 'cahss-eng-afam', name: 'B.A. in English — African American Lit', dept: 'English' },
+        { slug: 'cahss-eng-cw', name: 'B.A. in English — Creative Writing', dept: 'English' },
+        { slug: 'cahss-eng-tw', name: 'B.A. in English — Technical Writing', dept: 'English' },
+        { slug: 'cahss-eng-pro', name: 'B.A. in English — Professional English', dept: 'English' },
+        { slug: 'cahss-hist', name: 'B.A. in History', dept: 'History & Political Science' },
+        { slug: 'cahss-poli', name: 'B.A. in Political Science', dept: 'History & Political Science' },
+        { slug: 'cahss-jmc-mmj', name: 'B.S. in Journalism — Multimedia', dept: 'Journalism & Mass Communication' },
+        { slug: 'cahss-jmc-mmp', name: 'B.S. in Journalism — Mass Media Production', dept: 'Journalism & Mass Communication' },
+        { slug: 'cahss-jmc-pr', name: 'B.S. in Journalism — Public Relations', dept: 'Journalism & Mass Communication' },
+        { slug: 'cahss-lib-afam', name: 'B.A. in Liberal Studies — African American', dept: 'Liberal Studies' },
+        { slug: 'cahss-lib-act', name: 'B.A. in Liberal Studies — Applied Cultural Thought', dept: 'Liberal Studies' },
+        { slug: 'cahss-lib-law', name: 'B.A. in Liberal Studies — Pre-Law', dept: 'Liberal Studies' },
+        { slug: 'cahss-art-des', name: 'B.A. in Visual Arts — Design', dept: 'Visual & Performing Arts' },
+        { slug: 'cahss-art-gd', name: 'B.A. in Visual Arts — Graphic Design', dept: 'Visual & Performing Arts' },
+        { slug: 'cahss-music', name: 'B.A. in Music', dept: 'Visual & Performing Arts' },
+        { slug: 'cahss-thtr-act', name: 'B.F.A. in Professional Theatre — Acting', dept: 'Visual & Performing Arts' },
+        { slug: 'cahss-thtr-tech', name: 'B.F.A. in Professional Theatre — Tech', dept: 'Visual & Performing Arts' }
+      ]
     },
     {
       college: 'College of Education',
@@ -97,7 +127,12 @@ const EMMA_CONFIG = (() => {
       collegeSlug: 'ced',
       collegeColor: '#FDB827',
       collegeIcon: 'assets/images/college-icons/icon-education-color.svg',
-      programs: []
+      programs: [
+        { slug: 'ced-elem', name: 'B.S. in Elementary Education', dept: 'Educator Preparation' },
+        { slug: 'ced-edst-tech', name: 'B.S. in Educational Studies — Tech & Innovation', dept: 'Educator Preparation' },
+        { slug: 'ced-edst-lead', name: 'B.S. in Educational Studies — Leadership & Policy', dept: 'Educator Preparation' },
+        { slug: 'ced-edst-fam', name: 'B.S. in Educational Studies — Family & Community', dept: 'Educator Preparation' }
+      ]
     },
     {
       college: 'College of Science & Technology',
@@ -105,7 +140,31 @@ const EMMA_CONFIG = (() => {
       collegeSlug: 'cost',
       collegeColor: '#9A86A9',
       collegeIcon: 'assets/images/college-icons/icon-science-color.svg',
-      programs: []
+      programs: [
+        { slug: 'cost-aet', name: 'B.S. in Applied Engineering Technology', dept: 'Applied Engineering Technology' },
+        { slug: 'cost-auto', name: 'B.S. in Automotive Engineering Technology', dept: 'Applied Engineering Technology' },
+        { slug: 'cost-bio', name: 'B.S. in Biology', dept: 'Biology' },
+        { slug: 'cost-bio-pre', name: 'B.S. in Biology — Pre-Medical', dept: 'Biology' },
+        { slug: 'cost-bio-law', name: 'B.S. in Biology — Pre-Law', dept: 'Biology' },
+        { slug: 'cost-cm', name: 'B.S. in Construction Management', dept: 'Built Environment' },
+        { slug: 'cost-ehs-mgmt', name: 'B.S. in Environmental Health & Safety — Mgmt', dept: 'Built Environment' },
+        { slug: 'cost-ehs-sci', name: 'B.S. in Environmental Health & Safety — Science', dept: 'Built Environment' },
+        { slug: 'cost-geo', name: 'B.S. in Geomatics', dept: 'Built Environment' },
+        { slug: 'cost-chem', name: 'B.S. in Chemistry — ACS Certified', dept: 'Chemistry' },
+        { slug: 'cost-chem-bio', name: 'B.S. in Chemistry — Biochemistry', dept: 'Chemistry' },
+        { slug: 'cost-elec', name: 'B.S. in Electronics Technology', dept: 'Computer Systems Technology' },
+        { slug: 'cost-it', name: 'B.S. in Information Technology', dept: 'Computer Systems Technology' },
+        { slug: 'cost-cgt-td', name: 'B.S. in Computer Graphics Tech — Technical Design', dept: 'Applied Engineering Technology' },
+        { slug: 'cost-cgt-ux', name: 'B.S. in Computer Graphics Tech — UX', dept: 'Applied Engineering Technology' },
+        { slug: 'cost-math-app', name: 'B.S. in Mathematics — Applied', dept: 'Mathematics & Statistics' },
+        { slug: 'cost-math-pure', name: 'B.S. in Mathematics — Pure', dept: 'Mathematics & Statistics' },
+        { slug: 'cost-math-ds', name: 'B.S. in Mathematics — Data Science', dept: 'Mathematics & Statistics' },
+        { slug: 'cost-atms', name: 'B.S. in Atmospheric Sciences & Meteorology', dept: 'Physics' },
+        { slug: 'cost-phys', name: 'B.S. in Physics', dept: 'Physics' },
+        { slug: 'cost-phys-eng', name: 'B.S. in Physics — Engineering', dept: 'Physics' },
+        { slug: 'cost-phys-bio', name: 'B.S. in Physics — Biological', dept: 'Physics' },
+        { slug: 'cost-ai', name: 'B.S. in Artificial Intelligence — Applied AI', dept: 'Interdisciplinary' }
+      ]
     },
     {
       college: 'Joint School of Nanoscience & Nanoengineering',

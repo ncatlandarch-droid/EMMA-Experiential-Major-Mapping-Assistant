@@ -1,0 +1,231 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Science foundations and intro to kinesiology.",
+      "milestones": [
+        {
+          "id": "y1-kins100",
+          "label": "Intro to Kinesiology",
+          "courseRef": "KINS 100",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "History, philosophy, and careers in kinesiology.",
+          "skills": [
+            "Kinesiology Overview"
+          ]
+        },
+        {
+          "id": "y1-biol221",
+          "label": "Anatomy & Physiology I",
+          "courseRef": "BIOL 221",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Musculoskeletal and nervous systems.",
+          "skills": [
+            "Anatomy"
+          ]
+        },
+        {
+          "id": "y1-biol222",
+          "label": "Anatomy & Physiology II",
+          "courseRef": "BIOL 222",
+          "credits": 4,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Cardiovascular and respiratory systems.",
+          "skills": [
+            "Physiology"
+          ]
+        },
+        {
+          "id": "y1-chem100",
+          "label": "General Chemistry",
+          "courseRef": "CHEM 100",
+          "credits": 4,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Chemistry fundamentals for health sciences.",
+          "skills": [
+            "Chemistry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Biomechanics and exercise physiology.",
+      "milestones": [
+        {
+          "id": "y2-kins210",
+          "label": "Biomechanics",
+          "courseRef": "KINS 210",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Forces and motion in human movement.",
+          "skills": [
+            "Biomechanics"
+          ]
+        },
+        {
+          "id": "y2-kins220",
+          "label": "Exercise Physiology",
+          "courseRef": "KINS 220",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Physiological responses to acute and chronic exercise.",
+          "skills": [
+            "Exercise Physiology"
+          ]
+        },
+        {
+          "id": "y2-kins230",
+          "label": "Motor Learning",
+          "courseRef": "KINS 230",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "description": "Principles of skill acquisition and motor control.",
+          "skills": [
+            "Motor Learning"
+          ]
+        },
+        {
+          "id": "y2-nutr200",
+          "label": "Nutrition",
+          "courseRef": "NUTR 200",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Nutritional science for health and performance.",
+          "skills": [
+            "Nutrition"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Testing, prescription, and clinical experience.",
+      "milestones": [
+        {
+          "id": "y3-kins310",
+          "label": "Exercise Testing & Prescription",
+          "courseRef": "KINS 310",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Cardiopulmonary testing and exercise program design.",
+          "skills": [
+            "Exercise Prescription",
+            "Fitness Testing"
+          ]
+        },
+        {
+          "id": "y3-kins320",
+          "label": "Strength & Conditioning",
+          "courseRef": "KINS 320",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Resistance training principles and program design.",
+          "skills": [
+            "Strength Training"
+          ]
+        },
+        {
+          "id": "y3-kins330",
+          "label": "Clinical Exercise Physiology",
+          "courseRef": "KINS 330",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "description": "Exercise in chronic disease management.",
+          "skills": [
+            "Clinical Exercise"
+          ]
+        },
+        {
+          "id": "y3-intern",
+          "label": "Kinesiology Internship",
+          "courseRef": "KINS 490",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Clinical or fitness industry internship.",
+          "skills": [
+            "Clinical Experience"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Research, certification, and career placement.",
+      "milestones": [
+        {
+          "id": "y4-kins410",
+          "label": "Research Methods",
+          "courseRef": "KINS 410",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Research design and data analysis in exercise science.",
+          "skills": [
+            "Research Methods"
+          ]
+        },
+        {
+          "id": "y4-kins420",
+          "label": "Cardiac Rehabilitation",
+          "courseRef": "KINS 420",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "description": "Exercise programming for cardiac patients.",
+          "skills": [
+            "Cardiac Rehab"
+          ]
+        },
+        {
+          "id": "y4-capstone",
+          "label": "Senior Capstone",
+          "courseRef": "KINS 498",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Independent research project in exercise science.",
+          "skills": [
+            "Research",
+            "Presentation"
+          ]
+        },
+        {
+          "id": "y4-career",
+          "label": "ACSM Certification & Career Prep",
+          "courseRef": "KINS 499",
+          "credits": 1,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "ACSM/CSCS exam prep and career placement.",
+          "skills": [
+            "Certification",
+            "Career Readiness"
+          ]
+        }
+      ]
+    }
+  ]
+}

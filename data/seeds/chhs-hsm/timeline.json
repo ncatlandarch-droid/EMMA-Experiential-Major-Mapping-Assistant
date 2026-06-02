@@ -1,0 +1,219 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Foundations of health systems.",
+      "milestones": [
+        {
+          "id": "y1-hlth100",
+          "label": "Intro to Health Services",
+          "courseRef": "HLTH 100",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "U.S. healthcare system structure and delivery.",
+          "skills": [
+            "Healthcare Systems"
+          ]
+        },
+        {
+          "id": "y1-biol101",
+          "label": "Biology",
+          "courseRef": "BIOL 101",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Biological foundations for health managers.",
+          "skills": [
+            "Biology"
+          ]
+        },
+        {
+          "id": "y1-econ201",
+          "label": "Microeconomics",
+          "courseRef": "ECON 201",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Economic principles for healthcare markets.",
+          "skills": [
+            "Economics"
+          ]
+        },
+        {
+          "id": "y1-mgmt101",
+          "label": "Principles of Management",
+          "courseRef": "MGMT 101",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Organizational theory and management.",
+          "skills": [
+            "Management"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Health policy and informatics.",
+      "milestones": [
+        {
+          "id": "y2-hlth210",
+          "label": "Health Policy",
+          "courseRef": "HLTH 210",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "description": "Federal and state health policy and reform.",
+          "skills": [
+            "Health Policy",
+            "ACA"
+          ]
+        },
+        {
+          "id": "y2-hlth220",
+          "label": "Health Informatics",
+          "courseRef": "HLTH 220",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "EHR systems, data management, and analytics.",
+          "skills": [
+            "Health Informatics",
+            "EHR"
+          ]
+        },
+        {
+          "id": "y2-hlth230",
+          "label": "Epidemiology",
+          "courseRef": "HLTH 230",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Disease patterns and population health analysis.",
+          "skills": [
+            "Epidemiology"
+          ]
+        },
+        {
+          "id": "y2-acct201",
+          "label": "Accounting",
+          "courseRef": "ACCT 201",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Financial accounting for healthcare organizations.",
+          "skills": [
+            "Accounting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Finance, quality, and law.",
+      "milestones": [
+        {
+          "id": "y3-hlth310",
+          "label": "Healthcare Finance",
+          "courseRef": "HLTH 310",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Reimbursement, budgeting, and financial management.",
+          "skills": [
+            "Healthcare Finance"
+          ]
+        },
+        {
+          "id": "y3-hlth320",
+          "label": "Healthcare Quality",
+          "courseRef": "HLTH 320",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Quality improvement, patient safety, and accreditation.",
+          "skills": [
+            "Quality Improvement"
+          ]
+        },
+        {
+          "id": "y3-hlth330",
+          "label": "Health Law & Ethics",
+          "courseRef": "HLTH 330",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "description": "HIPAA, medical liability, and bioethics.",
+          "skills": [
+            "Health Law",
+            "HIPAA"
+          ]
+        },
+        {
+          "id": "y3-intern",
+          "label": "Health Admin Internship",
+          "courseRef": "HLTH 490",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Administrative internship at a healthcare organization.",
+          "skills": [
+            "Industry Experience"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Capstone and career placement.",
+      "milestones": [
+        {
+          "id": "y4-hlth410",
+          "label": "Strategic Management in Healthcare",
+          "courseRef": "HLTH 410",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Strategic planning and organizational leadership.",
+          "skills": [
+            "Strategic Planning"
+          ]
+        },
+        {
+          "id": "y4-capstone",
+          "label": "Senior Capstone",
+          "courseRef": "HLTH 498",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Comprehensive healthcare management project.",
+          "skills": [
+            "Capstone"
+          ]
+        },
+        {
+          "id": "y4-career",
+          "label": "Career Placement",
+          "courseRef": "HLTH 499",
+          "credits": 1,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Resume, networking, and FACHE certification path.",
+          "skills": [
+            "Career Readiness"
+          ]
+        }
+      ]
+    }
+  ]
+}

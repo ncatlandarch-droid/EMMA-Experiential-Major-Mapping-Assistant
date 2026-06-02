@@ -1,0 +1,217 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Communication foundations.",
+      "milestones": [
+        {
+          "id": "y1-comm101",
+          "label": "Intro to Communication",
+          "courseRef": "COMM 101",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Theory and practice of human communication.",
+          "skills": [
+            "Communication Theory"
+          ]
+        },
+        {
+          "id": "y1-comm110",
+          "label": "Public Speaking",
+          "courseRef": "COMM 110",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Speech preparation, delivery, and audience analysis.",
+          "skills": [
+            "Public Speaking"
+          ]
+        },
+        {
+          "id": "y1-engl101",
+          "label": "Composition I",
+          "courseRef": "ENGL 101",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Academic writing and critical thinking.",
+          "skills": [
+            "Writing"
+          ]
+        },
+        {
+          "id": "y1-psyc201",
+          "label": "General Psychology",
+          "courseRef": "PSYC 201",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Psychological foundations of communication.",
+          "skills": [
+            "Psychology"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Theory and media studies.",
+      "milestones": [
+        {
+          "id": "y2-comm210",
+          "label": "Interpersonal Communication",
+          "courseRef": "COMM 210",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Relationship dynamics and conflict resolution.",
+          "skills": [
+            "Interpersonal Skills"
+          ]
+        },
+        {
+          "id": "y2-comm220",
+          "label": "Mass Media & Society",
+          "courseRef": "COMM 220",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Media influence on culture and public opinion.",
+          "skills": [
+            "Media Literacy"
+          ]
+        },
+        {
+          "id": "y2-comm230",
+          "label": "Persuasion",
+          "courseRef": "COMM 230",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Principles of persuasive communication.",
+          "skills": [
+            "Persuasion"
+          ]
+        },
+        {
+          "id": "y2-comm240",
+          "label": "Organizational Communication",
+          "courseRef": "COMM 240",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Communication in corporate and institutional settings.",
+          "skills": [
+            "Organizational Communication"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Research methods and specialized study.",
+      "milestones": [
+        {
+          "id": "y3-comm310",
+          "label": "Communication Research",
+          "courseRef": "COMM 310",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Quantitative and qualitative research methods.",
+          "skills": [
+            "Research Methods"
+          ]
+        },
+        {
+          "id": "y3-comm320",
+          "label": "Intercultural Communication",
+          "courseRef": "COMM 320",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Communication across cultures and identity.",
+          "skills": [
+            "Intercultural Skills"
+          ]
+        },
+        {
+          "id": "y3-comm330",
+          "label": "Rhetorical Criticism",
+          "courseRef": "COMM 330",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Analysis of public discourse and persuasive texts.",
+          "skills": [
+            "Rhetoric"
+          ]
+        },
+        {
+          "id": "y3-intern",
+          "label": "Communication Internship",
+          "courseRef": "COMM 490",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Work experience in corporate communications or media.",
+          "skills": [
+            "Industry Experience"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Capstone and career preparation.",
+      "milestones": [
+        {
+          "id": "y4-comm410",
+          "label": "Health Communication",
+          "courseRef": "COMM 410",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "description": "Communication in healthcare settings and campaigns.",
+          "skills": [
+            "Health Communication"
+          ]
+        },
+        {
+          "id": "y4-capstone",
+          "label": "Senior Seminar",
+          "courseRef": "COMM 498",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Research project and professional portfolio.",
+          "skills": [
+            "Research",
+            "Portfolio"
+          ]
+        },
+        {
+          "id": "y4-career",
+          "label": "Career Preparation",
+          "courseRef": "COMM 499",
+          "credits": 1,
+          "category": "Identity",
+          "semester": "spring",
+          "description": "Resume, networking, and career placement.",
+          "skills": [
+            "Career Readiness"
+          ]
+        }
+      ]
+    }
+  ]
+}

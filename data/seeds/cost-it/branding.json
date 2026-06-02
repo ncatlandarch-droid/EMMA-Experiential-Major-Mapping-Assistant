@@ -1,0 +1,85 @@
+{
+  "institutionName": "North Carolina Agricultural and Technical State University",
+  "abbreviation": "NC A&T",
+  "collegeName": "College of Science & Technology (CoST)",
+  "departmentName": "Computer Systems Technology",
+  "programName": "B.S. in Information Technology",
+  "degreeType": "BS",
+  "programSlug": "cost-it",
+  "slug": "cost-it",
+  "programDescription": "B.S. in Information Technology at NC A&T prepares students for rewarding careers in information technology. Through rigorous coursework, hands-on projects, and internships, graduates emerge ready to lead.",
+  "tagline": "Leading the Future of Information Technology",
+  "brandingColors": {
+    "primaryHex": "#004684",
+    "primaryRgb": "0,70,132",
+    "secondaryHex": "#fdb927",
+    "secondaryRgb": "253,185,39",
+    "backgroundHex": "#F0F2F5",
+    "surfaceHex": "#FFFFFF",
+    "textPrimaryHex": "#1A1A2E",
+    "textSecondaryHex": "#555770"
+  },
+  "categoryColors": {
+    "Purpose": {
+      "hex": "#2563EB",
+      "rgb": "37,99,235",
+      "emoji": "🔍",
+      "label": "Purpose & Self-Discovery",
+      "description": "Research, coursework, and foundational experiences"
+    },
+    "Communities": {
+      "hex": "#059669",
+      "rgb": "5,150,105",
+      "emoji": "🤝",
+      "label": "Communities & Service",
+      "description": "Collaborative projects and community engagement"
+    },
+    "LocalGlobal": {
+      "hex": "#D97706",
+      "rgb": "217,119,6",
+      "emoji": "🌍",
+      "label": "Local & Global Engagement",
+      "description": "Field work, internships, and real-world applications"
+    },
+    "Identity": {
+      "hex": "#7C3AED",
+      "rgb": "124,58,237",
+      "emoji": "💼",
+      "label": "Professional Identity",
+      "description": "Career prep and professional practice"
+    }
+  },
+  "careerOutlook": {
+    "field": "Information Technology",
+    "blsCode": "15-1232",
+    "medianSalary": "$99,270",
+    "growthRate": "9% (2022-2032)",
+    "totalJobs": "455,200",
+    "topEmployers": [
+      "IBM",
+      "Microsoft",
+      "Amazon",
+      "Cisco",
+      "Government",
+      "Healthcare IT"
+    ],
+    "certifications": [
+      "CompTIA A+/Net+/Sec+",
+      "AWS",
+      "Cisco CCNA"
+    ],
+    "relatedFields": [
+      "Computer Science",
+      "Business IT",
+      "Cybersecurity"
+    ],
+    "keySkills": [
+      "Networking",
+      "Cybersecurity",
+      "Cloud Computing",
+      "Linux",
+      "Help Desk",
+      "Scripting"
+    ]
+  }
+}

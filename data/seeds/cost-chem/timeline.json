@@ -1,0 +1,216 @@
+{
+  "phases": [
+    {
+      "id": "year-1",
+      "name": "Year 1",
+      "subtitle": "Explore",
+      "description": "Introduction to chemistry and foundations.",
+      "milestones": [
+        {
+          "id": "y1-intro",
+          "label": "Intro to Chemistry",
+          "courseRef": "CHEM 101",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "fall",
+          "description": "Overview of chemistry: history, scope, and careers.",
+          "skills": [
+            "Chemistry"
+          ]
+        },
+        {
+          "id": "y1-found1",
+          "label": "Foundation Course I",
+          "courseRef": "CHEM 110",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Core principles and methodologies in chemistry.",
+          "skills": [
+            "Foundations"
+          ]
+        },
+        {
+          "id": "y1-found2",
+          "label": "Foundation Course II",
+          "courseRef": "CHEM 120",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Building fundamental skills and knowledge.",
+          "skills": [
+            "Core Skills"
+          ]
+        },
+        {
+          "id": "y1-gen",
+          "label": "General Education",
+          "courseRef": "UNIV 101",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "University seminar and academic success strategies.",
+          "skills": [
+            "Academic Skills"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-2",
+      "name": "Year 2",
+      "subtitle": "Engage",
+      "description": "Intermediate chemistry courses and engagement.",
+      "milestones": [
+        {
+          "id": "y2-inter1",
+          "label": "Intermediate Chemistry",
+          "courseRef": "CHEM 200",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Deeper exploration of chemistry concepts.",
+          "skills": [
+            "Intermediate Skills"
+          ]
+        },
+        {
+          "id": "y2-inter2",
+          "label": "Methods & Techniques",
+          "courseRef": "CHEM 210",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Practical methods and professional techniques.",
+          "skills": [
+            "Methods"
+          ]
+        },
+        {
+          "id": "y2-app",
+          "label": "Applied Practice",
+          "courseRef": "CHEM 220",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "fall",
+          "description": "Hands-on applications and collaborative projects.",
+          "skills": [
+            "Applied Practice"
+          ]
+        },
+        {
+          "id": "y2-elec",
+          "label": "Elective Exploration",
+          "courseRef": "CHEM 250",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "description": "Exploring specialized topics and interests.",
+          "skills": [
+            "Specialization"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-3",
+      "name": "Year 3",
+      "subtitle": "Develop",
+      "description": "Advanced chemistry and professional development.",
+      "milestones": [
+        {
+          "id": "y3-adv1",
+          "label": "Advanced Topics",
+          "courseRef": "CHEM 300",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Advanced theory and practice in chemistry.",
+          "skills": [
+            "Advanced Topics"
+          ]
+        },
+        {
+          "id": "y3-adv2",
+          "label": "Specialized Study",
+          "courseRef": "CHEM 310",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Concentrated study in area of specialization.",
+          "skills": [
+            "Specialization"
+          ]
+        },
+        {
+          "id": "y3-research",
+          "label": "Research/Practice",
+          "courseRef": "CHEM 350",
+          "credits": 3,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "description": "Research methods or applied professional practice.",
+          "skills": [
+            "Research"
+          ]
+        },
+        {
+          "id": "y3-intern",
+          "label": "Internship/Field Experience",
+          "courseRef": "CHEM 490",
+          "credits": 3,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Professional work experience in the field.",
+          "skills": [
+            "Industry Experience"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year-4",
+      "name": "Year 4",
+      "subtitle": "Launch",
+      "description": "Capstone, certification, and career launch.",
+      "milestones": [
+        {
+          "id": "y4-cap1",
+          "label": "Senior Seminar",
+          "courseRef": "CHEM 400",
+          "credits": 3,
+          "category": "Identity",
+          "semester": "fall",
+          "description": "Advanced seminar integrating all program knowledge.",
+          "skills": [
+            "Integration"
+          ]
+        },
+        {
+          "id": "y4-capstone",
+          "label": "Senior Capstone",
+          "courseRef": "CHEM 498",
+          "credits": 3,
+          "category": "Purpose",
+          "semester": "spring",
+          "description": "Comprehensive capstone project or thesis.",
+          "skills": [
+            "Capstone"
+          ]
+        },
+        {
+          "id": "y4-career",
+          "label": "Career Preparation",
+          "courseRef": "CHEM 499",
+          "credits": 1,
+          "category": "Communities",
+          "semester": "spring",
+          "description": "Resume, portfolio, and career placement.",
+          "skills": [
+            "Career Readiness"
+          ]
+        }
+      ]
+    }
+  ]
+}

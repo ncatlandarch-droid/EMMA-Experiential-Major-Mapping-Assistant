@@ -1,0 +1,81 @@
+{
+  "institutionName": "North Carolina Agricultural and Technical State University",
+  "abbreviation": "NC A&T",
+  "collegeName": "College of Arts, Humanities & Social Sciences (CAHSS)",
+  "departmentName": "Journalism & Mass Communication",
+  "programName": "B.S. in Journalism — Mass Media Production",
+  "degreeType": "BS",
+  "programSlug": "cahss-jmc-mmp",
+  "slug": "cahss-jmc-mmp",
+  "programDescription": "B.S. in Journalism — Mass Media Production at NC A&T prepares students for rewarding careers in media production. Through rigorous coursework, hands-on projects, and internships, graduates emerge ready to lead.",
+  "tagline": "Leading the Future of Media Production",
+  "brandingColors": {
+    "primaryHex": "#004684",
+    "primaryRgb": "0,70,132",
+    "secondaryHex": "#fdb927",
+    "secondaryRgb": "253,185,39",
+    "backgroundHex": "#F0F2F5",
+    "surfaceHex": "#FFFFFF",
+    "textPrimaryHex": "#1A1A2E",
+    "textSecondaryHex": "#555770"
+  },
+  "categoryColors": {
+    "Purpose": {
+      "hex": "#2563EB",
+      "rgb": "37,99,235",
+      "emoji": "🔍",
+      "label": "Purpose & Self-Discovery",
+      "description": "Research, coursework, and foundational experiences"
+    },
+    "Communities": {
+      "hex": "#059669",
+      "rgb": "5,150,105",
+      "emoji": "🤝",
+      "label": "Communities & Service",
+      "description": "Collaborative projects and community engagement"
+    },
+    "LocalGlobal": {
+      "hex": "#D97706",
+      "rgb": "217,119,6",
+      "emoji": "🌍",
+      "label": "Local & Global Engagement",
+      "description": "Field work, internships, and real-world applications"
+    },
+    "Identity": {
+      "hex": "#7C3AED",
+      "rgb": "124,58,237",
+      "emoji": "💼",
+      "label": "Professional Identity",
+      "description": "Career prep and professional practice"
+    }
+  },
+  "careerOutlook": {
+    "field": "Media Production",
+    "blsCode": "27-4032",
+    "medianSalary": "$62,520",
+    "growthRate": "9% (2022-2032)",
+    "totalJobs": "71,700",
+    "topEmployers": [
+      "Film Studios",
+      "TV Networks",
+      "Streaming Platforms",
+      "Production Companies",
+      "Ad Agencies"
+    ],
+    "certifications": [
+      "Adobe Certified"
+    ],
+    "relatedFields": [
+      "Visual Arts",
+      "Music",
+      "Theatre"
+    ],
+    "keySkills": [
+      "Film Production",
+      "Post-Production",
+      "Motion Graphics",
+      "Sound Design",
+      "Directing"
+    ]
+  }
+}

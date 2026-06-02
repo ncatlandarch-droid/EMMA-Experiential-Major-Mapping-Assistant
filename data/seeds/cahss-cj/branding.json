@@ -1,0 +1,82 @@
+{
+  "institutionName": "North Carolina Agricultural and Technical State University",
+  "abbreviation": "NC A&T",
+  "collegeName": "College of Arts, Humanities & Social Sciences (CAHSS)",
+  "departmentName": "Criminal Justice",
+  "programName": "B.S. in Criminal Justice",
+  "degreeType": "BS",
+  "programSlug": "cahss-cj",
+  "slug": "cahss-cj",
+  "programDescription": "B.S. in Criminal Justice at NC A&T prepares students for rewarding careers in criminal justice. Through rigorous coursework, hands-on projects, and internships, graduates emerge ready to lead.",
+  "tagline": "Leading the Future of Criminal Justice",
+  "brandingColors": {
+    "primaryHex": "#004684",
+    "primaryRgb": "0,70,132",
+    "secondaryHex": "#fdb927",
+    "secondaryRgb": "253,185,39",
+    "backgroundHex": "#F0F2F5",
+    "surfaceHex": "#FFFFFF",
+    "textPrimaryHex": "#1A1A2E",
+    "textSecondaryHex": "#555770"
+  },
+  "categoryColors": {
+    "Purpose": {
+      "hex": "#2563EB",
+      "rgb": "37,99,235",
+      "emoji": "🔍",
+      "label": "Purpose & Self-Discovery",
+      "description": "Research, coursework, and foundational experiences"
+    },
+    "Communities": {
+      "hex": "#059669",
+      "rgb": "5,150,105",
+      "emoji": "🤝",
+      "label": "Communities & Service",
+      "description": "Collaborative projects and community engagement"
+    },
+    "LocalGlobal": {
+      "hex": "#D97706",
+      "rgb": "217,119,6",
+      "emoji": "🌍",
+      "label": "Local & Global Engagement",
+      "description": "Field work, internships, and real-world applications"
+    },
+    "Identity": {
+      "hex": "#7C3AED",
+      "rgb": "124,58,237",
+      "emoji": "💼",
+      "label": "Professional Identity",
+      "description": "Career prep and professional practice"
+    }
+  },
+  "careerOutlook": {
+    "field": "Criminal Justice",
+    "blsCode": "33-3051",
+    "medianSalary": "$74,910",
+    "growthRate": "3% (2022-2032)",
+    "totalJobs": "812,000",
+    "topEmployers": [
+      "FBI",
+      "DEA",
+      "ATF",
+      "State Police",
+      "Federal Courts"
+    ],
+    "certifications": [
+      "BLET",
+      "Certified Fraud Examiner"
+    ],
+    "relatedFields": [
+      "Political Science",
+      "Sociology",
+      "Psychology"
+    ],
+    "keySkills": [
+      "Criminal Law",
+      "Forensics",
+      "Investigation",
+      "Ethics",
+      "Crisis Management"
+    ]
+  }
+}
