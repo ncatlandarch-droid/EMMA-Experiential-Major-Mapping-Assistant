@@ -24,5 +24,58 @@
       "description": "Career prep and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "praxis-ela",
+      "name": "Praxis English Language Arts",
+      "description": "Praxis ELA Content Knowledge (5038)",
+      "sections": [
+        {
+          "id": "praxis-read",
+          "name": "Reading & Text Analysis",
+          "description": "Literary analysis, informational text, rhetoric",
+          "requiredMilestoneIds": [
+            "y1-intro",
+            "y1-found1",
+            "y1-found2",
+            "y1-gen"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "praxis-write",
+          "name": "Language & Writing",
+          "description": "Grammar, composition, research and argumentative writing",
+          "requiredMilestoneIds": [
+            "y2-inter1",
+            "y2-inter2",
+            "y2-app",
+            "y2-elec"
+          ],
+          "totalRequired": 4
+        }
+      ]
+    },
+    {
+      "id": "gre-lit",
+      "name": "GRE Literature Subject Test",
+      "description": "For graduate program admission",
+      "sections": [
+        {
+          "id": "gre-lit-1",
+          "name": "Literary History & Analysis",
+          "description": "British, American, and world literature",
+          "requiredMilestoneIds": [
+            "y1-intro",
+            "y1-found1",
+            "y1-found2",
+            "y1-gen",
+            "y2-inter1"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

@@ -24,5 +24,69 @@
       "description": "Career prep and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "acsm",
+      "name": "ACSM Certified Personal Trainer",
+      "description": "American College of Sports Medicine — gold standard for exercise science professionals",
+      "sections": [
+        {
+          "id": "acsm-1",
+          "name": "Exercise Physiology & Testing",
+          "description": "Cardiorespiratory, musculoskeletal, and flexibility assessment",
+          "requiredMilestoneIds": [
+            "y1-kins100",
+            "y1-biol221",
+            "y1-biol222",
+            "y1-chem100"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "acsm-2",
+          "name": "Program Design & Implementation",
+          "description": "Exercise prescription, behavior change, and special populations",
+          "requiredMilestoneIds": [
+            "y2-kins210",
+            "y2-kins220",
+            "y2-kins230",
+            "y2-nutr200"
+          ],
+          "totalRequired": 4
+        }
+      ]
+    },
+    {
+      "id": "cscs",
+      "name": "NSCA CSCS Certification",
+      "description": "Certified Strength & Conditioning Specialist — for collegiate and professional athletic training",
+      "sections": [
+        {
+          "id": "cscs-1",
+          "name": "Scientific Foundations",
+          "description": "Exercise science, sport psychology, and nutrition for athletes",
+          "requiredMilestoneIds": [
+            "y1-kins100",
+            "y1-biol221",
+            "y1-biol222",
+            "y1-chem100"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "cscs-2",
+          "name": "Practical / Applied",
+          "description": "Program design, exercise technique, testing, and organization",
+          "requiredMilestoneIds": [
+            "y2-kins210",
+            "y2-kins220",
+            "y2-kins230",
+            "y2-nutr200"
+          ],
+          "totalRequired": 4
+        }
+      ]
+    }
   ]
 }

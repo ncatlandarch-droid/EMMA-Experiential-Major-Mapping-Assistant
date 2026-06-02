@@ -79,5 +79,7 @@
       "EHR Systems",
       "Critical Thinking"
     ]
-  }
+  },
+  "validationLabel": "NCLEX-RN Exam",
+  "validationType": "nclex"
 }

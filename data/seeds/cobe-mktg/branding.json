@@ -81,5 +81,7 @@
       "Consumer Behavior",
       "Analytics"
     ]
-  }
+  },
+  "validationLabel": "Google Analytics + HubSpot Certification",
+  "validationType": "google"
 }

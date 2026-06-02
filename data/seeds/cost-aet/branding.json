@@ -76,5 +76,7 @@
       "Quality Control",
       "Project Management"
     ]
-  }
+  },
+  "validationLabel": "OSHA 30 + CMfgE Certification",
+  "validationType": "osha"
 }

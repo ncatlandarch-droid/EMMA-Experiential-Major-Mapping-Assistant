@@ -24,5 +24,40 @@
       "description": "Career prep and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "cprp",
+      "name": "CPRP Certification",
+      "description": "Certified Park & Recreation Professional — administered by NRPA for park and recreation management",
+      "sections": [
+        {
+          "id": "cprp-1",
+          "name": "Programming & Service Delivery",
+          "description": "Recreation programming, event management, and community engagement",
+          "requiredMilestoneIds": [
+            "y1-kins100",
+            "y1-kins150",
+            "y1-mgmt101",
+            "y1-comm110",
+            "y2-kins250"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "cprp-2",
+          "name": "Facility & Resource Management",
+          "description": "Facility operations, budgeting, risk management, and marketing",
+          "requiredMilestoneIds": [
+            "y3-kins350",
+            "y3-kins360",
+            "y3-kins370",
+            "y3-intern",
+            "y4-kins450"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

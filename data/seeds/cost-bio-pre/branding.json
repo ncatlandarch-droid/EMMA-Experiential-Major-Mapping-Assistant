@@ -76,5 +76,7 @@
       "MCAT Prep",
       "Research"
     ]
-  }
+  },
+  "validationLabel": "MCAT Exam",
+  "validationType": "mcat"
 }

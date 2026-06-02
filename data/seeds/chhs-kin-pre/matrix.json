@@ -24,5 +24,53 @@
       "description": "Career prep and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "dpt",
+      "name": "DPT Admission Readiness",
+      "description": "Doctor of Physical Therapy prerequisites — preparing for graduate PT programs (PTCAS application)",
+      "sections": [
+        {
+          "id": "dpt-sci",
+          "name": "Science Prerequisites",
+          "description": "Anatomy, physiology, biology, chemistry, and physics with lab",
+          "requiredMilestoneIds": [
+            "y1-kins100",
+            "y1-biol101",
+            "y1-chem101",
+            "y1-math131",
+            "y2-biol221"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "dpt-obs",
+          "name": "Clinical Observation Hours",
+          "description": "Minimum 100+ hours observing licensed PTs across multiple settings",
+          "requiredMilestoneIds": [
+            "y2-biol222",
+            "y2-chem201",
+            "y2-phys101",
+            "y3-kins310",
+            "y3-kins320"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "dpt-gre",
+          "name": "GRE Exam Preparation",
+          "description": "Quantitative, verbal, and analytical writing sections for PT school admission",
+          "requiredMilestoneIds": [
+            "y3-biol301",
+            "y3-shadow",
+            "y4-kins410",
+            "y4-kins420",
+            "y4-career"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

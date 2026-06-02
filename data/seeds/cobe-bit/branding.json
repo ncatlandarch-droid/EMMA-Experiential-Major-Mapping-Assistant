@@ -79,5 +79,7 @@
       "Business Analytics",
       "Project Management"
     ]
-  }
+  },
+  "validationLabel": "CompTIA + AWS Certification",
+  "validationType": "comptia"
 }

@@ -24,5 +24,58 @@
       "description": "Career prep and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "nws",
+      "name": "NWS Meteorologist Qualification",
+      "description": "National Weather Service entry requirements for operational meteorologists",
+      "sections": [
+        {
+          "id": "nws-1",
+          "name": "Synoptic & Dynamic Meteorology",
+          "description": "Weather analysis, forecasting techniques, and atmospheric dynamics",
+          "requiredMilestoneIds": [
+            "y1-intro",
+            "y1-found1",
+            "y1-found2",
+            "y1-gen"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "nws-2",
+          "name": "Physical Meteorology & Remote Sensing",
+          "description": "Atmospheric physics, radar, satellite interpretation, and numerical models",
+          "requiredMilestoneIds": [
+            "y2-inter1",
+            "y2-inter2",
+            "y2-app",
+            "y2-elec"
+          ],
+          "totalRequired": 4
+        }
+      ]
+    },
+    {
+      "id": "ams",
+      "name": "AMS Certified Broadcast Meteorologist",
+      "description": "American Meteorological Society seal of approval for broadcast meteorologists",
+      "sections": [
+        {
+          "id": "ams-1",
+          "name": "Broadcast Performance & Science Communication",
+          "description": "On-air presence, science communication, and public weather messaging",
+          "requiredMilestoneIds": [
+            "y1-intro",
+            "y1-found1",
+            "y1-found2",
+            "y1-gen",
+            "y2-inter1"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

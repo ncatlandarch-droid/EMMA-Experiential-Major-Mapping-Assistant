@@ -77,5 +77,7 @@
       "Lab Safety",
       "Research"
     ]
-  }
+  },
+  "validationLabel": "ACS Certified Degree + GRE Chemistry",
+  "validationType": "acs"
 }

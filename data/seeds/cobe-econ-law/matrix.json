@@ -24,5 +24,53 @@
       "description": "Career prep, portfolio development, and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "lsat",
+      "name": "LSAT Readiness",
+      "description": "Law School Admission Test — required for law school admission, testing logical reasoning and analytical skills",
+      "sections": [
+        {
+          "id": "lsat-lr",
+          "name": "Logical Reasoning",
+          "description": "Analyzing arguments, identifying flaws, and drawing logical conclusions",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01",
+            "y1-localglobal-01"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "lsat-rc",
+          "name": "Reading Comprehension",
+          "description": "Analyzing complex texts from law, social sciences, humanities, and natural sciences",
+          "requiredMilestoneIds": [
+            "y2-communities-01",
+            "y2-localglobal-01",
+            "y3-identity-01",
+            "y3-purpose-01",
+            "y3-communities-01"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "lsat-lg",
+          "name": "Analytical Reasoning (Logic Games)",
+          "description": "Deductive reasoning, ordering, grouping, and conditional logic",
+          "requiredMilestoneIds": [
+            "y4-purpose-01",
+            "y4-identity-01",
+            "y4-communities-01",
+            "y4-localglobal-01",
+            "y4-identity-02"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

@@ -80,5 +80,7 @@
       "Water Resources",
       "AutoCAD/Civil 3D"
     ]
-  }
+  },
+  "validationLabel": "FE Exam (Civil) + PE Civil Licensure",
+  "validationType": "fe"
 }

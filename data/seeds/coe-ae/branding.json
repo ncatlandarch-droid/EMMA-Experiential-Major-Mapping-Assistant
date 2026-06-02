@@ -80,5 +80,7 @@
       "HVAC",
       "Energy Modeling"
     ]
-  }
+  },
+  "validationLabel": "FE Exam + PE Licensure",
+  "validationType": "fe"
 }

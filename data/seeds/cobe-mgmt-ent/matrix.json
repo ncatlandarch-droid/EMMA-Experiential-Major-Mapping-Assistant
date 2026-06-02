@@ -24,5 +24,73 @@
       "description": "Career prep, portfolio development, and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "pmp",
+      "name": "PMP Certification Readiness",
+      "description": "Project Management Professional — administered by PMI",
+      "sections": [
+        {
+          "id": "pmp-init",
+          "name": "Project Initiation & Planning",
+          "description": "Scope, schedule, budget, and stakeholder management",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01",
+            "y1-localglobal-01"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "pmp-exec",
+          "name": "Execution & Delivery",
+          "description": "Team leadership, quality, and risk management",
+          "requiredMilestoneIds": [
+            "y2-identity-01",
+            "y2-purpose-01",
+            "y2-communities-01",
+            "y2-localglobal-01",
+            "y2-communities-02"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    },
+    {
+      "id": "lss",
+      "name": "Lean Six Sigma Green Belt",
+      "description": "Process improvement methodology certification used across all industries",
+      "sections": [
+        {
+          "id": "lss-define",
+          "name": "Define & Measure",
+          "description": "Problem definition, process mapping, and baseline measurement",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01",
+            "y1-localglobal-01"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "lss-analyze",
+          "name": "Analyze, Improve & Control",
+          "description": "Root cause analysis, solution implementation, and statistical process control",
+          "requiredMilestoneIds": [
+            "y2-identity-01",
+            "y2-purpose-01",
+            "y2-communities-01",
+            "y2-localglobal-01",
+            "y2-communities-02"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

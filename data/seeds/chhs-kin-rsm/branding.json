@@ -78,5 +78,7 @@
       "Budgeting",
       "Leadership"
     ]
-  }
+  },
+  "validationLabel": "CPRP + CPO Certification",
+  "validationType": "cprp"
 }

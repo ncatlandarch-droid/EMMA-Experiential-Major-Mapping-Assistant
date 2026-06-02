@@ -24,5 +24,93 @@
       "description": "Career prep, portfolio development, and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "cfa",
+      "name": "CFA Exam Readiness",
+      "description": "Chartered Financial Analyst — 3-level exam administered by CFA Institute, the gold standard for investment professionals worldwide",
+      "sections": [
+        {
+          "id": "cfa-1",
+          "name": "CFA Level I — Investment Tools",
+          "description": "Ethics, quantitative methods, economics, financial reporting, and portfolio management basics",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "cfa-2",
+          "name": "CFA Level II — Asset Valuation",
+          "description": "Equity and fixed income valuation, derivatives, alternative investments, and financial reporting analysis",
+          "requiredMilestoneIds": [
+            "y1-localglobal-01",
+            "y2-identity-01",
+            "y2-purpose-01",
+            "y2-communities-01"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "cfa-3",
+          "name": "CFA Level III — Portfolio Management",
+          "description": "Portfolio management, wealth planning, behavioral finance, and institutional asset management",
+          "requiredMilestoneIds": [
+            "y2-localglobal-01",
+            "y2-identity-02",
+            "y3-identity-01",
+            "y3-purpose-01"
+          ],
+          "totalRequired": 4
+        }
+      ]
+    },
+    {
+      "id": "cfp",
+      "name": "CFP Certification",
+      "description": "Certified Financial Planner — administered by CFP Board, required for comprehensive personal financial planning",
+      "sections": [
+        {
+          "id": "cfp-1",
+          "name": "Financial Planning Principles",
+          "description": "Financial planning process, fiduciary duty, and client communication",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "cfp-2",
+          "name": "Insurance & Risk Management",
+          "description": "Risk assessment, insurance products, and estate planning",
+          "requiredMilestoneIds": [
+            "y1-localglobal-01",
+            "y2-identity-01",
+            "y2-purpose-01",
+            "y2-communities-01"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "cfp-3",
+          "name": "Investment & Tax Planning",
+          "description": "Investment theory, tax strategies, and retirement planning",
+          "requiredMilestoneIds": [
+            "y2-localglobal-01",
+            "y2-identity-02",
+            "y3-identity-01",
+            "y3-purpose-01"
+          ],
+          "totalRequired": 4
+        }
+      ]
+    }
   ]
 }

@@ -79,5 +79,7 @@
       "Assessment",
       "Literacy"
     ]
-  }
+  },
+  "validationLabel": "Praxis Elementary Education + edTPA",
+  "validationType": "praxis-elem"
 }

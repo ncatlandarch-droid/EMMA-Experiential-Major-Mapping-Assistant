@@ -24,5 +24,53 @@
       "description": "Career prep and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "acp",
+      "name": "Adobe Certified Professional",
+      "description": "Adobe certification — industry standard for design professionals",
+      "sections": [
+        {
+          "id": "acp-ps",
+          "name": "Adobe Photoshop",
+          "description": "Image editing, compositing, color correction, and retouching",
+          "requiredMilestoneIds": [
+            "y1-intro",
+            "y1-found1",
+            "y1-found2",
+            "y1-gen",
+            "y2-inter1"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "acp-ai",
+          "name": "Adobe Illustrator",
+          "description": "Vector graphics, logo design, typography, and illustration",
+          "requiredMilestoneIds": [
+            "y2-inter2",
+            "y2-app",
+            "y2-elec",
+            "y3-adv1",
+            "y3-adv2"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "acp-id",
+          "name": "Adobe InDesign",
+          "description": "Layout design, print production, and digital publishing",
+          "requiredMilestoneIds": [
+            "y3-research",
+            "y3-intern",
+            "y4-cap1",
+            "y4-capstone",
+            "y4-career"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

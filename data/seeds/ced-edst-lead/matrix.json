@@ -24,5 +24,40 @@
       "description": "Career prep and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "slla",
+      "name": "School Leaders Licensure Assessment",
+      "description": "Praxis SLLA (6990) — required for principal/assistant principal licensure in NC (graduate path)",
+      "sections": [
+        {
+          "id": "slla-1",
+          "name": "Vision & School Culture",
+          "description": "Instructional leadership, school vision, and professional learning communities",
+          "requiredMilestoneIds": [
+            "y1-intro",
+            "y1-found1",
+            "y1-found2",
+            "y1-gen",
+            "y2-inter1"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "slla-2",
+          "name": "Operations & Community",
+          "description": "School operations, resource management, community engagement, and equity",
+          "requiredMilestoneIds": [
+            "y3-adv1",
+            "y3-adv2",
+            "y3-research",
+            "y3-intern",
+            "y4-cap1"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

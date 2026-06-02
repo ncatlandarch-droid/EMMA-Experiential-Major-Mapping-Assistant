@@ -83,5 +83,7 @@
       "C/C++"
     ],
     "outlook": "Computer Engineering professionals are in demand. NC A&T graduates bring unique perspectives and strong technical skills to this growing field."
-  }
+  },
+  "validationLabel": "FE Exam + CompTIA / Cisco Certification",
+  "validationType": "fe"
 }

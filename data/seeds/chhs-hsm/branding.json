@@ -78,5 +78,7 @@
       "HIPAA",
       "Quality Improvement"
     ]
-  }
+  },
+  "validationLabel": "ACHE Board Certification + CPHQ",
+  "validationType": "ache"
 }

@@ -78,5 +78,7 @@
       "Financial Projections",
       "Venture Capital"
     ]
-  }
+  },
+  "validationLabel": "PMP + Lean Six Sigma",
+  "validationType": "pmp"
 }

@@ -24,5 +24,58 @@
       "description": "Career prep and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "gre",
+      "name": "Graduate School Readiness (GRE)",
+      "description": "GRE General Test preparation for sociology graduate programs",
+      "sections": [
+        {
+          "id": "gre-v",
+          "name": "Verbal Reasoning",
+          "description": "Reading comprehension and text analysis for social science research",
+          "requiredMilestoneIds": [
+            "y1-soci201",
+            "y1-soci210",
+            "y1-psyc201",
+            "y1-stat210"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "gre-q",
+          "name": "Quantitative Reasoning",
+          "description": "Statistical analysis methods used in sociological research",
+          "requiredMilestoneIds": [
+            "y2-soci301",
+            "y2-soci310",
+            "y2-soci320",
+            "y2-soci330"
+          ],
+          "totalRequired": 4
+        }
+      ]
+    },
+    {
+      "id": "spss",
+      "name": "SPSS / Data Analysis Certification",
+      "description": "Statistical software proficiency for social science research",
+      "sections": [
+        {
+          "id": "spss-1",
+          "name": "SPSS / R Proficiency",
+          "description": "Survey analysis, regression, and qualitative coding methods",
+          "requiredMilestoneIds": [
+            "y1-soci201",
+            "y1-soci210",
+            "y1-psyc201",
+            "y1-stat210",
+            "y2-soci301"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

@@ -24,5 +24,62 @@
       "description": "Career prep and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "aswb",
+      "name": "ASWB Licensing Exam Readiness",
+      "description": "Association of Social Work Boards examination — required for Licensed Social Worker (LSW) and Licensed Clinical Social Worker (LCSW) credentials",
+      "sections": [
+        {
+          "id": "aswb-hbse",
+          "name": "Human Development & Behavior",
+          "description": "Human behavior in the social environment, diversity, and social/economic justice",
+          "requiredMilestoneIds": [
+            "y1-sowk200",
+            "y1-soci201",
+            "y1-psyc201",
+            "y1-biol101"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "aswb-assess",
+          "name": "Assessment & Intervention",
+          "description": "Biopsychosocial assessment, treatment planning, and evidence-based interventions",
+          "requiredMilestoneIds": [
+            "y2-sowk310",
+            "y2-sowk311",
+            "y2-sowk320",
+            "y2-sowk330"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "aswb-ethics",
+          "name": "Professional Ethics & Values",
+          "description": "NASW Code of Ethics, confidentiality, dual relationships, and supervision",
+          "requiredMilestoneIds": [
+            "y3-sowk340",
+            "y3-sowk341",
+            "y3-sowk350",
+            "y3-sowk360"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "aswb-comm",
+          "name": "Community & Macro Practice",
+          "description": "Community organizing, policy practice, advocacy, and program evaluation",
+          "requiredMilestoneIds": [
+            "y4-sowk470",
+            "y4-sowk471",
+            "y4-sowk480",
+            "y4-career"
+          ],
+          "totalRequired": 4
+        }
+      ]
+    }
   ]
 }

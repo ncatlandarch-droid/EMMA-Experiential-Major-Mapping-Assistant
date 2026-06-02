@@ -24,5 +24,60 @@
       "description": "Career prep, portfolio development, and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "cpsp",
+      "name": "CPSP Sales Certification",
+      "description": "Certified Professional Sales Person — administered by NASP for professional selling competency",
+      "sections": [
+        {
+          "id": "cpsp-1",
+          "name": "Prospecting & Relationship Building",
+          "description": "Lead generation, cold calling, networking, and client relationship management",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01",
+            "y1-localglobal-01"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "cpsp-2",
+          "name": "Negotiation & Closing",
+          "description": "Sales presentations, objection handling, negotiation, and deal closing",
+          "requiredMilestoneIds": [
+            "y2-identity-01",
+            "y2-purpose-01",
+            "y2-communities-01",
+            "y2-localglobal-01",
+            "y2-identity-02"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    },
+    {
+      "id": "sf",
+      "name": "Salesforce Administrator",
+      "description": "Salesforce CRM platform certification — essential for modern sales operations",
+      "sections": [
+        {
+          "id": "sf-1",
+          "name": "Salesforce Fundamentals",
+          "description": "CRM configuration, user management, reports, and dashboards",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01",
+            "y1-localglobal-01"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

@@ -24,5 +24,91 @@
       "description": "Career prep, portfolio development, and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "cpa",
+      "name": "CPA Exam Readiness",
+      "description": "Uniform CPA Examination — 4 sections administered by AICPA/NASBA, required for Certified Public Accountant licensure in all 50 states",
+      "sections": [
+        {
+          "id": "cpa-aud",
+          "name": "Auditing & Attestation (AUD)",
+          "description": "Audit procedures, attestation engagements, professional responsibilities, and ethics",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02"
+          ],
+          "totalRequired": 3
+        },
+        {
+          "id": "cpa-far",
+          "name": "Financial Accounting & Reporting (FAR)",
+          "description": "GAAP, financial statements, government/nonprofit accounting, and transaction analysis",
+          "requiredMilestoneIds": [
+            "y1-communities-01",
+            "y1-localglobal-01",
+            "y2-identity-01"
+          ],
+          "totalRequired": 3
+        },
+        {
+          "id": "cpa-reg",
+          "name": "Regulation (REG)",
+          "description": "Federal taxation, business law, ethics, and professional responsibilities",
+          "requiredMilestoneIds": [
+            "y2-purpose-01",
+            "y2-communities-01",
+            "y2-localglobal-01"
+          ],
+          "totalRequired": 3
+        },
+        {
+          "id": "cpa-tcp",
+          "name": "Tax Compliance & Planning (TCP)",
+          "description": "Individual and entity tax compliance, tax planning, and advisory",
+          "requiredMilestoneIds": [
+            "y3-identity-01",
+            "y3-purpose-01",
+            "y3-communities-01"
+          ],
+          "totalRequired": 3
+        }
+      ]
+    },
+    {
+      "id": "cma",
+      "name": "CMA Certification",
+      "description": "Certified Management Accountant — administered by IMA, demonstrating competency in financial planning, analysis, and strategic management",
+      "sections": [
+        {
+          "id": "cma-1",
+          "name": "Financial Planning, Performance & Analytics",
+          "description": "Budgeting, forecasting, cost management, and performance measurement",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01",
+            "y1-localglobal-01"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "cma-2",
+          "name": "Strategic Financial Management",
+          "description": "Financial statement analysis, corporate finance, risk management, and investment decisions",
+          "requiredMilestoneIds": [
+            "y2-identity-01",
+            "y2-purpose-01",
+            "y2-communities-01",
+            "y2-localglobal-01",
+            "y3-identity-01"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

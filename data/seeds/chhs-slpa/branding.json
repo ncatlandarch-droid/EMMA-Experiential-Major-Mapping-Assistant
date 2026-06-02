@@ -78,5 +78,7 @@
       "AAC Devices",
       "Clinical Documentation"
     ]
-  }
+  },
+  "validationLabel": "Praxis SLP Exam + ASHA CCC",
+  "validationType": "praxis-slp"
 }

@@ -78,5 +78,7 @@
       "Ethics",
       "Crisis Management"
     ]
-  }
+  },
+  "validationLabel": "Federal LE Assessment + POST Certification",
+  "validationType": "post"
 }

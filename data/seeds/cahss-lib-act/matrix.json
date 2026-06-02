@@ -24,5 +24,27 @@
       "description": "Career prep and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "gre",
+      "name": "Graduate School Readiness",
+      "description": "GRE preparation for graduate programs in public policy, law, or social sciences",
+      "sections": [
+        {
+          "id": "gre-v",
+          "name": "Verbal & Analytical Writing",
+          "description": "Reading comprehension, critical analysis, and persuasive essay writing",
+          "requiredMilestoneIds": [
+            "y1-intro",
+            "y1-found1",
+            "y1-found2",
+            "y1-gen",
+            "y2-inter1"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

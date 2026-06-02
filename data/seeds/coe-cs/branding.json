@@ -82,5 +82,7 @@
       "Databases",
       "Web Development"
     ]
-  }
+  },
+  "validationLabel": "AWS / Azure Cloud + CompTIA Security+",
+  "validationType": "cloud"
 }

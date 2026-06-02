@@ -24,5 +24,78 @@
       "description": "Career prep and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "praxis-slp",
+      "name": "Praxis SLP Exam Readiness",
+      "description": "Praxis Speech-Language Pathology exam (5331) — required for ASHA Certificate of Clinical Competence and state licensure",
+      "sections": [
+        {
+          "id": "praxis-found",
+          "name": "Foundations & Professional Practice",
+          "description": "Anatomy, physiology, acoustics, ethics, and evidence-based practice",
+          "requiredMilestoneIds": [
+            "y1-csdi100",
+            "y1-biol101",
+            "y1-psyc201"
+          ],
+          "totalRequired": 3
+        },
+        {
+          "id": "praxis-screen",
+          "name": "Screening, Assessment & Evaluation",
+          "description": "Standardized/non-standardized assessment, cultural/linguistic diversity",
+          "requiredMilestoneIds": [
+            "y1-csdi200",
+            "y2-csdi210",
+            "y2-csdi220"
+          ],
+          "totalRequired": 3
+        },
+        {
+          "id": "praxis-plan",
+          "name": "Planning, Implementation & Evaluation",
+          "description": "Treatment planning, intervention techniques, and outcome measurement",
+          "requiredMilestoneIds": [
+            "y2-csdi230",
+            "y2-stat210",
+            "y3-csdi310"
+          ],
+          "totalRequired": 3
+        }
+      ]
+    },
+    {
+      "id": "asha",
+      "name": "ASHA CCC-SLP Certification",
+      "description": "Certificate of Clinical Competence — the national credential for speech-language pathologists",
+      "sections": [
+        {
+          "id": "asha-cfy",
+          "name": "Clinical Fellowship Year (CFY)",
+          "description": "36 weeks of supervised professional experience post-master's degree",
+          "requiredMilestoneIds": [
+            "y1-csdi100",
+            "y1-biol101",
+            "y1-psyc201",
+            "y1-csdi200"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "asha-exam",
+          "name": "Praxis Exam Passage",
+          "description": "Passing score on the Praxis SLP examination",
+          "requiredMilestoneIds": [
+            "y2-csdi210",
+            "y2-csdi220",
+            "y2-csdi230",
+            "y2-stat210"
+          ],
+          "totalRequired": 4
+        }
+      ]
+    }
   ]
 }

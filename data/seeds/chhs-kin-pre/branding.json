@@ -76,5 +76,7 @@
       "Research",
       "MCAT/GRE Prep"
     ]
-  }
+  },
+  "validationLabel": "GRE + DPT Admission Readiness",
+  "validationType": "dpt"
 }

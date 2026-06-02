@@ -81,5 +81,7 @@
       "Mass Transfer",
       "HAZOP"
     ]
-  }
+  },
+  "validationLabel": "FE Exam (Chemical) + PE Licensure",
+  "validationType": "fe"
 }

@@ -24,5 +24,78 @@
       "description": "Career prep and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "lsat",
+      "name": "LSAT Readiness",
+      "description": "Law School Admission Test — required for law school admission",
+      "sections": [
+        {
+          "id": "lsat-lr",
+          "name": "Logical Reasoning",
+          "description": "Analyzing arguments, identifying assumptions, and drawing conclusions",
+          "requiredMilestoneIds": [
+            "y1-intro",
+            "y1-found1",
+            "y1-found2"
+          ],
+          "totalRequired": 3
+        },
+        {
+          "id": "lsat-rc",
+          "name": "Reading Comprehension",
+          "description": "Analyzing complex legal, social science, and humanities passages",
+          "requiredMilestoneIds": [
+            "y1-gen",
+            "y2-inter1",
+            "y2-inter2"
+          ],
+          "totalRequired": 3
+        },
+        {
+          "id": "lsat-lg",
+          "name": "Analytical Reasoning",
+          "description": "Logic games — ordering, grouping, and conditional reasoning",
+          "requiredMilestoneIds": [
+            "y2-app",
+            "y2-elec",
+            "y3-adv1"
+          ],
+          "totalRequired": 3
+        }
+      ]
+    },
+    {
+      "id": "fsot",
+      "name": "Foreign Service Officer Test",
+      "description": "FSOT — U.S. State Department exam for aspiring diplomats",
+      "sections": [
+        {
+          "id": "fsot-1",
+          "name": "Job Knowledge & Situational Judgment",
+          "description": "U.S. government, history, economics, world affairs, and management principles",
+          "requiredMilestoneIds": [
+            "y1-intro",
+            "y1-found1",
+            "y1-found2",
+            "y1-gen"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "fsot-2",
+          "name": "English Expression & Essay",
+          "description": "Written communication, grammar, and structured policy essay",
+          "requiredMilestoneIds": [
+            "y2-inter1",
+            "y2-inter2",
+            "y2-app",
+            "y2-elec"
+          ],
+          "totalRequired": 4
+        }
+      ]
+    }
   ]
 }

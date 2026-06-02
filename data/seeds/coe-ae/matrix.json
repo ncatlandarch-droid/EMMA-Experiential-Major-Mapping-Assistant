@@ -24,5 +24,83 @@
       "description": "Career prep, portfolio development, and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "fe",
+      "name": "FE Exam Readiness",
+      "description": "Fundamentals of Engineering Exam — administered by NCEES, first step toward Professional Engineer (PE) licensure",
+      "sections": [
+        {
+          "id": "fe-math",
+          "name": "Mathematics & Statistics",
+          "description": "Calculus, differential equations, linear algebra, and probability/statistics",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "fe-sci",
+          "name": "Engineering Sciences",
+          "description": "Statics, dynamics, thermodynamics, fluid mechanics, and materials science",
+          "requiredMilestoneIds": [
+            "y1-localglobal-01",
+            "y2-identity-01",
+            "y2-purpose-01",
+            "y2-communities-01"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "fe-prac",
+          "name": "Engineering Practice & Ethics",
+          "description": "Engineering economics, professional ethics, and engineering design process",
+          "requiredMilestoneIds": [
+            "y2-localglobal-01",
+            "y2-identity-02",
+            "y3-identity-01",
+            "y3-purpose-01"
+          ],
+          "totalRequired": 4
+        }
+      ]
+    },
+    {
+      "id": "pe",
+      "name": "PE Licensure Pathway",
+      "description": "Professional Engineer license — requires FE exam + 4 years experience + PE exam in your discipline",
+      "sections": [
+        {
+          "id": "pe-exp",
+          "name": "Engineering Experience Requirements",
+          "description": "4 years of progressive engineering experience under a licensed PE",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01",
+            "y1-localglobal-01"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "pe-exam",
+          "name": "PE Exam (Discipline-Specific)",
+          "description": "Advanced exam in your specific engineering discipline",
+          "requiredMilestoneIds": [
+            "y2-identity-01",
+            "y2-purpose-01",
+            "y2-communities-01",
+            "y2-localglobal-01",
+            "y2-identity-02"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

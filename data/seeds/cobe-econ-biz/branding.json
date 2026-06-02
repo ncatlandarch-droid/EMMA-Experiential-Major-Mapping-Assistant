@@ -76,5 +76,7 @@
       "Data Analysis",
       "Financial Modeling"
     ]
-  }
+  },
+  "validationLabel": "GRE Quantitative + Bloomberg Market Concepts",
+  "validationType": "gre"
 }

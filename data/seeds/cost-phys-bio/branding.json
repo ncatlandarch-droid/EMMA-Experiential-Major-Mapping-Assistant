@@ -75,5 +75,7 @@
       "Radiation Physics",
       "Molecular Biophysics"
     ]
-  }
+  },
+  "validationLabel": "MCAT + GRE Physics",
+  "validationType": "mcat"
 }

@@ -24,5 +24,83 @@
       "description": "Career prep, portfolio development, and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "fe",
+      "name": "FE Exam Readiness",
+      "description": "Fundamentals of Engineering Exam — Industrial & Systems Engineering discipline",
+      "sections": [
+        {
+          "id": "fe-or",
+          "name": "Operations Research & Statistics",
+          "description": "Linear programming, simulation, probability, and statistical process control",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "fe-mfg",
+          "name": "Manufacturing & Quality",
+          "description": "Manufacturing processes, quality engineering, and ergonomics/human factors",
+          "requiredMilestoneIds": [
+            "y1-localglobal-01",
+            "y2-identity-01",
+            "y2-purpose-01",
+            "y2-communities-01"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "fe-sys",
+          "name": "Systems Engineering & Economics",
+          "description": "Systems design, engineering economics, and project management",
+          "requiredMilestoneIds": [
+            "y2-localglobal-01",
+            "y2-identity-02",
+            "y3-identity-01",
+            "y3-purpose-01"
+          ],
+          "totalRequired": 4
+        }
+      ]
+    },
+    {
+      "id": "lss",
+      "name": "Lean Six Sigma Green Belt",
+      "description": "ASQ Lean Six Sigma certification — essential for process improvement professionals",
+      "sections": [
+        {
+          "id": "lss-dmaic",
+          "name": "DMAIC Methodology",
+          "description": "Define, Measure, Analyze, Improve, Control — the core Six Sigma framework",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01",
+            "y1-localglobal-01"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "lss-lean",
+          "name": "Lean Tools & Waste Elimination",
+          "description": "Value stream mapping, 5S, kaizen, kanban, and waste identification",
+          "requiredMilestoneIds": [
+            "y2-identity-01",
+            "y2-purpose-01",
+            "y2-communities-01",
+            "y2-localglobal-01",
+            "y2-identity-02"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

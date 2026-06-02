@@ -77,5 +77,7 @@
       "Media Literacy",
       "Organizational Communication"
     ]
-  }
+  },
+  "validationLabel": "APR Accreditation + Google Analytics",
+  "validationType": "apr"
 }

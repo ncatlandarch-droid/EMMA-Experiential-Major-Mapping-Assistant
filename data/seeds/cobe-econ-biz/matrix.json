@@ -24,5 +24,73 @@
       "description": "Career prep, portfolio development, and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "gre",
+      "name": "GRE Quantitative Readiness",
+      "description": "Graduate school preparation for economics/MBA programs",
+      "sections": [
+        {
+          "id": "gre-q",
+          "name": "Quantitative Reasoning",
+          "description": "Algebra, data analysis, and quantitative comparison",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01",
+            "y1-localglobal-01"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "gre-v",
+          "name": "Verbal & Analytical Writing",
+          "description": "Reading comprehension and analytical essay writing",
+          "requiredMilestoneIds": [
+            "y2-identity-01",
+            "y2-purpose-01",
+            "y2-communities-01",
+            "y2-localglobal-01",
+            "y3-identity-01"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    },
+    {
+      "id": "bmc",
+      "name": "Bloomberg Market Concepts",
+      "description": "Bloomberg LP certification for financial market literacy",
+      "sections": [
+        {
+          "id": "bmc-1",
+          "name": "Economics, Currencies & Fixed Income",
+          "description": "Macroeconomics, FX markets, and bond valuation",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01",
+            "y1-localglobal-01"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "bmc-2",
+          "name": "Equities & Portfolio Management",
+          "description": "Equity valuation, portfolio theory, and market analysis",
+          "requiredMilestoneIds": [
+            "y2-identity-01",
+            "y2-purpose-01",
+            "y2-communities-01",
+            "y2-localglobal-01",
+            "y3-identity-01"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

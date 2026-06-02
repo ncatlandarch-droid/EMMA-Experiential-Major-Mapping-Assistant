@@ -24,5 +24,83 @@
       "description": "Career prep, portfolio development, and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "comptia",
+      "name": "CompTIA Certifications",
+      "description": "Industry-standard IT certifications recognized worldwide for business technology professionals",
+      "sections": [
+        {
+          "id": "comptia-a",
+          "name": "CompTIA A+ (IT Fundamentals)",
+          "description": "Hardware, networking, OS, security, and troubleshooting fundamentals",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "comptia-sec",
+          "name": "CompTIA Security+",
+          "description": "Threats, vulnerabilities, cryptography, access control, and network security",
+          "requiredMilestoneIds": [
+            "y1-localglobal-01",
+            "y2-identity-01",
+            "y2-purpose-01",
+            "y2-communities-01"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "comptia-net",
+          "name": "CompTIA Network+",
+          "description": "Network architecture, operations, security, and troubleshooting",
+          "requiredMilestoneIds": [
+            "y2-localglobal-01",
+            "y2-identity-02",
+            "y3-identity-01",
+            "y3-purpose-01"
+          ],
+          "totalRequired": 4
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "name": "AWS Cloud Practitioner",
+      "description": "Amazon Web Services foundational cloud certification",
+      "sections": [
+        {
+          "id": "aws-1",
+          "name": "Cloud Concepts & Architecture",
+          "description": "AWS global infrastructure, cloud economics, and design principles",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01",
+            "y1-localglobal-01"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "aws-2",
+          "name": "Security, Billing & Technology",
+          "description": "Shared responsibility model, AWS services, pricing, and support",
+          "requiredMilestoneIds": [
+            "y2-identity-01",
+            "y2-purpose-01",
+            "y2-communities-01",
+            "y2-localglobal-01",
+            "y2-identity-02"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

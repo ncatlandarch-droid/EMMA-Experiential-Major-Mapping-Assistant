@@ -24,5 +24,73 @@
       "description": "Career prep, portfolio development, and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "fe",
+      "name": "FE Exam Readiness",
+      "description": "Fundamentals of Engineering Exam — Computer Engineering option",
+      "sections": [
+        {
+          "id": "fe-digital",
+          "name": "Digital Systems & Computer Architecture",
+          "description": "Logic design, microprocessor systems, and embedded computing",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01",
+            "y1-localglobal-01"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "fe-sw",
+          "name": "Software Engineering",
+          "description": "Data structures, algorithms, operating systems, and software design",
+          "requiredMilestoneIds": [
+            "y2-identity-01",
+            "y2-purpose-01",
+            "y2-communities-01",
+            "y2-localglobal-01",
+            "y2-identity-02"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    },
+    {
+      "id": "cisco",
+      "name": "Cisco CCNA",
+      "description": "Cisco Certified Network Associate — foundational networking certification",
+      "sections": [
+        {
+          "id": "ccna-1",
+          "name": "Network Fundamentals & Access",
+          "description": "OSI model, switching, routing, and network access",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01",
+            "y1-localglobal-01"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "ccna-2",
+          "name": "IP Services & Security",
+          "description": "IP connectivity, security fundamentals, and automation",
+          "requiredMilestoneIds": [
+            "y2-identity-01",
+            "y2-purpose-01",
+            "y2-communities-01",
+            "y2-localglobal-01",
+            "y2-identity-02"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

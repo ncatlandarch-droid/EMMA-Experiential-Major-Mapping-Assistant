@@ -24,5 +24,83 @@
       "description": "Career prep, portfolio development, and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "cloud",
+      "name": "Cloud Certification",
+      "description": "Industry cloud platform certifications — essential for modern software engineers",
+      "sections": [
+        {
+          "id": "aws-cp",
+          "name": "AWS Cloud Practitioner",
+          "description": "Cloud concepts, AWS services, security, and pricing models",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01",
+            "y1-localglobal-01"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "aws-sa",
+          "name": "AWS Solutions Architect (Associate)",
+          "description": "Designing resilient, performant, and cost-effective cloud architectures",
+          "requiredMilestoneIds": [
+            "y2-identity-01",
+            "y2-purpose-01",
+            "y2-communities-01",
+            "y2-localglobal-01",
+            "y2-identity-02"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    },
+    {
+      "id": "sec",
+      "name": "CompTIA Security+",
+      "description": "Foundational cybersecurity certification recognized by DoD and industry worldwide",
+      "sections": [
+        {
+          "id": "sec-threats",
+          "name": "Threats, Attacks & Vulnerabilities",
+          "description": "Malware, social engineering, application attacks, and threat intelligence",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "sec-arch",
+          "name": "Architecture & Cryptography",
+          "description": "Network architecture, secure design, PKI, and encryption protocols",
+          "requiredMilestoneIds": [
+            "y1-localglobal-01",
+            "y2-identity-01",
+            "y2-purpose-01",
+            "y2-communities-01"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "sec-ops",
+          "name": "Operations & Incident Response",
+          "description": "Security operations, monitoring, incident response, and forensics",
+          "requiredMilestoneIds": [
+            "y2-localglobal-01",
+            "y2-identity-02",
+            "y3-identity-01",
+            "y3-purpose-01"
+          ],
+          "totalRequired": 4
+        }
+      ]
+    }
   ]
 }

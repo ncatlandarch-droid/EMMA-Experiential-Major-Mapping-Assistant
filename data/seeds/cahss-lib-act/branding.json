@@ -76,5 +76,7 @@
       "Research",
       "Public Humanities"
     ]
-  }
+  },
+  "validationLabel": "GRE + Community Organizing Proficiency",
+  "validationType": "gre"
 }

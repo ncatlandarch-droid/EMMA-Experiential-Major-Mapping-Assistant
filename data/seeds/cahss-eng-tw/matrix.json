@@ -24,5 +24,40 @@
       "description": "Career prep and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "cptc",
+      "name": "CPTC Certification",
+      "description": "Certified Professional Technical Communicator — STC credential",
+      "sections": [
+        {
+          "id": "cptc-1",
+          "name": "Technical Communication Principles",
+          "description": "User analysis, information design, and documentation standards",
+          "requiredMilestoneIds": [
+            "y1-intro",
+            "y1-found1",
+            "y1-found2",
+            "y1-gen",
+            "y2-inter1"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "cptc-2",
+          "name": "Tools & Production",
+          "description": "MadCap Flare, DITA/XML, content management, and API documentation",
+          "requiredMilestoneIds": [
+            "y3-adv1",
+            "y3-adv2",
+            "y3-research",
+            "y3-intern",
+            "y4-cap1"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

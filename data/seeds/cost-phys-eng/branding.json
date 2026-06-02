@@ -76,5 +76,7 @@
       "Optics",
       "Computational Physics"
     ]
-  }
+  },
+  "validationLabel": "FE Exam + GRE Physics",
+  "validationType": "fe"
 }

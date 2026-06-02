@@ -24,5 +24,58 @@
       "description": "Career prep and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "ache",
+      "name": "ACHE Fellow (FACHE)",
+      "description": "American College of Healthcare Executives — the premier credential for healthcare leaders",
+      "sections": [
+        {
+          "id": "ache-1",
+          "name": "Healthcare Management & Governance",
+          "description": "Organizational management, governance, strategic planning, and financial management",
+          "requiredMilestoneIds": [
+            "y1-hlth100",
+            "y1-biol101",
+            "y1-econ201",
+            "y1-mgmt101"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "ache-2",
+          "name": "Healthcare Delivery & Quality",
+          "description": "Quality improvement, patient safety, population health, and health informatics",
+          "requiredMilestoneIds": [
+            "y2-hlth210",
+            "y2-hlth220",
+            "y2-hlth230",
+            "y2-acct201"
+          ],
+          "totalRequired": 4
+        }
+      ]
+    },
+    {
+      "id": "cphq",
+      "name": "CPHQ Certification",
+      "description": "Certified Professional in Healthcare Quality — NAHQ credential for quality and patient safety professionals",
+      "sections": [
+        {
+          "id": "cphq-1",
+          "name": "Organizational Leadership & Quality",
+          "description": "Healthcare quality concepts, data analytics, and performance improvement",
+          "requiredMilestoneIds": [
+            "y1-hlth100",
+            "y1-biol101",
+            "y1-econ201",
+            "y1-mgmt101",
+            "y2-hlth210"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

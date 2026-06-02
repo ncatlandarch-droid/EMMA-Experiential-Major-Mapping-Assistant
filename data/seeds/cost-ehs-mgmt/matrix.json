@@ -24,5 +24,67 @@
       "description": "Career prep and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "csp",
+      "name": "CSP Certification",
+      "description": "Certified Safety Professional — Board of Certified Safety Professionals credential for EHS leaders",
+      "sections": [
+        {
+          "id": "csp-1",
+          "name": "Safety Management Systems",
+          "description": "Hazard identification, risk assessment, safety programs, and OSHA compliance",
+          "requiredMilestoneIds": [
+            "y1-intro",
+            "y1-found1",
+            "y1-found2"
+          ],
+          "totalRequired": 3
+        },
+        {
+          "id": "csp-2",
+          "name": "Ergonomics & Industrial Hygiene",
+          "description": "Workplace ergonomics, chemical/physical hazards, and exposure assessment",
+          "requiredMilestoneIds": [
+            "y1-gen",
+            "y2-inter1",
+            "y2-inter2"
+          ],
+          "totalRequired": 3
+        },
+        {
+          "id": "csp-3",
+          "name": "Fire Protection & Emergency Management",
+          "description": "Fire prevention, emergency response planning, and environmental compliance",
+          "requiredMilestoneIds": [
+            "y2-app",
+            "y2-elec",
+            "y3-adv1"
+          ],
+          "totalRequired": 3
+        }
+      ]
+    },
+    {
+      "id": "cih",
+      "name": "CIH Certification",
+      "description": "Certified Industrial Hygienist — ABIH credential for industrial hygiene professionals",
+      "sections": [
+        {
+          "id": "cih-1",
+          "name": "Exposure Assessment & Control",
+          "description": "Air sampling, noise monitoring, ventilation, and exposure limits (PELs/TLVs)",
+          "requiredMilestoneIds": [
+            "y1-intro",
+            "y1-found1",
+            "y1-found2",
+            "y1-gen",
+            "y2-inter1"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

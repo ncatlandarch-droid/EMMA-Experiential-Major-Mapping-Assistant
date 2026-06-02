@@ -24,5 +24,94 @@
       "description": "Career prep and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "praxis-elem",
+      "name": "Praxis Elementary Education",
+      "description": "Praxis Elementary Education: Multiple Subjects (5001) — required for K-6 teaching licensure in North Carolina",
+      "sections": [
+        {
+          "id": "praxis-read",
+          "name": "Reading & Language Arts",
+          "description": "Phonics, fluency, comprehension, writing instruction, and children's literature",
+          "requiredMilestoneIds": [
+            "y1-intro",
+            "y1-found1"
+          ],
+          "totalRequired": 2
+        },
+        {
+          "id": "praxis-math",
+          "name": "Mathematics",
+          "description": "Number sense, algebra, geometry, measurement, and data analysis for K-6",
+          "requiredMilestoneIds": [
+            "y1-found2",
+            "y1-gen"
+          ],
+          "totalRequired": 2
+        },
+        {
+          "id": "praxis-sci",
+          "name": "Science",
+          "description": "Life science, physical science, earth/space science, and scientific inquiry",
+          "requiredMilestoneIds": [
+            "y2-inter1",
+            "y2-inter2"
+          ],
+          "totalRequired": 2
+        },
+        {
+          "id": "praxis-ss",
+          "name": "Social Studies",
+          "description": "U.S. history, geography, government/civics, and economics for elementary",
+          "requiredMilestoneIds": [
+            "y2-app",
+            "y2-elec"
+          ],
+          "totalRequired": 2
+        }
+      ]
+    },
+    {
+      "id": "edtpa",
+      "name": "edTPA Performance Assessment",
+      "description": "Educative Teacher Performance Assessment — required for initial teaching licensure in NC",
+      "sections": [
+        {
+          "id": "edtpa-plan",
+          "name": "Planning",
+          "description": "Lesson planning, learning targets, assessment design, and differentiation",
+          "requiredMilestoneIds": [
+            "y1-intro",
+            "y1-found1",
+            "y1-found2"
+          ],
+          "totalRequired": 3
+        },
+        {
+          "id": "edtpa-teach",
+          "name": "Instruction",
+          "description": "Video-recorded classroom teaching demonstrating pedagogical skills",
+          "requiredMilestoneIds": [
+            "y1-gen",
+            "y2-inter1",
+            "y2-inter2"
+          ],
+          "totalRequired": 3
+        },
+        {
+          "id": "edtpa-assess",
+          "name": "Assessment",
+          "description": "Student work analysis, feedback, and evidence of student learning",
+          "requiredMilestoneIds": [
+            "y2-app",
+            "y2-elec",
+            "y3-adv1"
+          ],
+          "totalRequired": 3
+        }
+      ]
+    }
   ]
 }

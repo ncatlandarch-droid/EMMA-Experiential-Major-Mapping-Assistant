@@ -24,5 +24,73 @@
       "description": "Career prep, portfolio development, and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "tf",
+      "name": "TensorFlow Developer Certificate",
+      "description": "Google TensorFlow certification demonstrating ML model building proficiency",
+      "sections": [
+        {
+          "id": "tf-1",
+          "name": "Neural Networks & Deep Learning",
+          "description": "Building, training, and evaluating neural networks using TensorFlow/Keras",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01",
+            "y1-localglobal-01"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "tf-2",
+          "name": "Computer Vision & NLP",
+          "description": "CNNs for image classification, RNNs/Transformers for text processing",
+          "requiredMilestoneIds": [
+            "y2-identity-01",
+            "y2-purpose-01",
+            "y2-communities-01",
+            "y2-localglobal-01",
+            "y2-identity-02"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    },
+    {
+      "id": "aws-ml",
+      "name": "AWS Machine Learning Specialty",
+      "description": "Amazon Web Services ML certification for deploying ML solutions at scale",
+      "sections": [
+        {
+          "id": "aws-ml-1",
+          "name": "Data Engineering & ML",
+          "description": "Data pipelines, feature engineering, and model training on AWS",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01",
+            "y1-localglobal-01"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "aws-ml-2",
+          "name": "Model Deployment & MLOps",
+          "description": "SageMaker, model monitoring, A/B testing, and production ML systems",
+          "requiredMilestoneIds": [
+            "y2-identity-01",
+            "y2-purpose-01",
+            "y2-communities-01",
+            "y2-localglobal-01",
+            "y2-identity-02"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

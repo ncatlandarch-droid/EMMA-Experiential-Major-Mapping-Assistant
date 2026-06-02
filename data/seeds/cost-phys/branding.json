@@ -77,5 +77,7 @@
       "Lab Skills",
       "Mathematical Physics"
     ]
-  }
+  },
+  "validationLabel": "GRE Physics Subject Test + MCAT (Biophysics)",
+  "validationType": "gre-phys"
 }

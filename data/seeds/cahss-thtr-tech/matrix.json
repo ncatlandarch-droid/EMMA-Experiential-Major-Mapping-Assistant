@@ -24,5 +24,40 @@
       "description": "Career prep and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "usitt",
+      "name": "USITT Technical Portfolio",
+      "description": "United States Institute for Theatre Technology standards for technical theatre MFA admission",
+      "sections": [
+        {
+          "id": "usitt-1",
+          "name": "Scenic & Lighting Design Portfolio",
+          "description": "Design renderings, technical drawings, and production documentation",
+          "requiredMilestoneIds": [
+            "y1-intro",
+            "y1-found1",
+            "y1-found2",
+            "y1-gen",
+            "y2-inter1"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "usitt-2",
+          "name": "Stage Management & Technical Direction",
+          "description": "Production management, budgeting, and shop supervision",
+          "requiredMilestoneIds": [
+            "y3-adv1",
+            "y3-adv2",
+            "y3-research",
+            "y3-intern",
+            "y4-cap1"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

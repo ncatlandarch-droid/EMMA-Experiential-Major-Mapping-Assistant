@@ -76,5 +76,7 @@
       "Ecology",
       "Microscopy"
     ]
-  }
+  },
+  "validationLabel": "MCAT + GRE Biology Subject Test",
+  "validationType": "mcat"
 }

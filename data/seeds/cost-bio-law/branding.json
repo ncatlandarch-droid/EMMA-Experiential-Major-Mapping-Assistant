@@ -76,5 +76,7 @@
       "LSAT Prep",
       "Scientific Writing"
     ]
-  }
+  },
+  "validationLabel": "LSAT + Science GRE",
+  "validationType": "lsat"
 }

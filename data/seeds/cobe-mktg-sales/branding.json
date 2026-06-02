@@ -79,5 +79,7 @@
       "Account Management",
       "Pipeline Management"
     ]
-  }
+  },
+  "validationLabel": "CPSP + Salesforce Certification",
+  "validationType": "cpsp"
 }

@@ -24,5 +24,66 @@
       "description": "Career prep, portfolio development, and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "fe",
+      "name": "FE Exam Readiness",
+      "description": "Fundamentals of Engineering Exam — Civil Engineering discipline",
+      "sections": [
+        {
+          "id": "fe-struct",
+          "name": "Structural Engineering",
+          "description": "Structural analysis, steel/concrete design, and foundation engineering",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01",
+            "y1-localglobal-01"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "fe-geotech",
+          "name": "Geotechnical & Transportation",
+          "description": "Soil mechanics, highway design, traffic engineering",
+          "requiredMilestoneIds": [
+            "y2-identity-01",
+            "y2-purpose-01",
+            "y2-communities-01",
+            "y2-localglobal-01",
+            "y2-identity-02"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "fe-water",
+          "name": "Water Resources & Environmental",
+          "description": "Hydraulics, hydrology, water treatment, and environmental engineering",
+          "requiredMilestoneIds": [
+            "y3-identity-01",
+            "y3-purpose-01",
+            "y3-communities-01",
+            "y3-identity-02",
+            "y3-localglobal-01"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "fe-const",
+          "name": "Construction & Surveying",
+          "description": "Construction management, surveying, and engineering economics",
+          "requiredMilestoneIds": [
+            "y4-purpose-01",
+            "y4-identity-01",
+            "y4-communities-01",
+            "y4-localglobal-01",
+            "y4-identity-02"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

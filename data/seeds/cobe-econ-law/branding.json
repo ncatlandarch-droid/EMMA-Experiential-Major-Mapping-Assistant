@@ -76,5 +76,7 @@
       "Regulatory Economics",
       "Critical Thinking"
     ]
-  }
+  },
+  "validationLabel": "LSAT + GRE Quantitative",
+  "validationType": "lsat"
 }

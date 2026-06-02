@@ -24,5 +24,61 @@
       "description": "Career prep and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "lsat",
+      "name": "LSAT Readiness",
+      "description": "Law School Admission Test — the gateway to JD programs",
+      "sections": [
+        {
+          "id": "lsat-lr",
+          "name": "Logical Reasoning",
+          "description": "Argument analysis, assumption identification, and logical deduction",
+          "requiredMilestoneIds": [
+            "y1-intro",
+            "y1-found1",
+            "y1-found2",
+            "y1-gen"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "lsat-rc",
+          "name": "Reading Comprehension",
+          "description": "Dense legal and academic text analysis",
+          "requiredMilestoneIds": [
+            "y2-inter1",
+            "y2-inter2",
+            "y2-app",
+            "y2-elec"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "lsat-lg",
+          "name": "Analytical Reasoning",
+          "description": "Logic games testing deductive reasoning",
+          "requiredMilestoneIds": [
+            "y3-adv1",
+            "y3-adv2",
+            "y3-research",
+            "y3-intern"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "lsat-write",
+          "name": "LSAT Writing",
+          "description": "Persuasive argumentative essay under timed conditions",
+          "requiredMilestoneIds": [
+            "y4-cap1",
+            "y4-capstone",
+            "y4-career"
+          ],
+          "totalRequired": 3
+        }
+      ]
+    }
   ]
 }

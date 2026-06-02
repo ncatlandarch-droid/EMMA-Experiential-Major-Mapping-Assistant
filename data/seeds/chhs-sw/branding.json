@@ -77,5 +77,7 @@
       "Advocacy",
       "Community Organizing"
     ]
-  }
+  },
+  "validationLabel": "ASWB Licensing Exam (LSW/LCSW)",
+  "validationType": "aswb"
 }

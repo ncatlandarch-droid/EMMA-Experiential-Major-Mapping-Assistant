@@ -76,5 +76,7 @@
       "Water Quality",
       "Air Monitoring"
     ]
-  }
+  },
+  "validationLabel": "REHS + CSP Certification",
+  "validationType": "rehs"
 }

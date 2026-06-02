@@ -84,5 +84,7 @@
       "TensorFlow/PyTorch"
     ],
     "outlook": "Artificial Intelligence professionals are in demand. NC A&T graduates bring unique perspectives and strong technical skills to this growing field."
-  }
+  },
+  "validationLabel": "Google TensorFlow + AWS ML Certification",
+  "validationType": "tf"
 }

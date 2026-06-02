@@ -83,5 +83,7 @@
       "MATLAB"
     ],
     "outlook": "Mechanical Engineering professionals are in demand. NC A&T graduates bring unique perspectives and strong technical skills to this growing field."
-  }
+  },
+  "validationLabel": "FE Exam (Mechanical) + PE Licensure",
+  "validationType": "fe"
 }

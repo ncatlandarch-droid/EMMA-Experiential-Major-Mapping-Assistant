@@ -77,5 +77,7 @@
       "Counseling Skills",
       "SPSS"
     ]
-  }
+  },
+  "validationLabel": "GRE Psychology + EPPP Pathway",
+  "validationType": "gre-psych"
 }

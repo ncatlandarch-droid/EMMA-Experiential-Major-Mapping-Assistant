@@ -78,5 +78,7 @@
       "Industrial Hygiene",
       "Safety Training"
     ]
-  }
+  },
+  "validationLabel": "CSP + CIH Certification",
+  "validationType": "csp"
 }

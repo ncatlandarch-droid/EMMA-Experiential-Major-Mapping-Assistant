@@ -24,5 +24,78 @@
       "description": "Career prep and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "post",
+      "name": "POST / BLET Certification",
+      "description": "Basic Law Enforcement Training — required for state/local law enforcement in North Carolina",
+      "sections": [
+        {
+          "id": "post-law",
+          "name": "Criminal & Constitutional Law",
+          "description": "Criminal statutes, search and seizure, Miranda rights, and use of force",
+          "requiredMilestoneIds": [
+            "y1-intro",
+            "y1-found1",
+            "y1-found2"
+          ],
+          "totalRequired": 3
+        },
+        {
+          "id": "post-patrol",
+          "name": "Patrol & Investigation",
+          "description": "Patrol procedures, crime scene processing, interviewing, and report writing",
+          "requiredMilestoneIds": [
+            "y1-gen",
+            "y2-inter1",
+            "y2-inter2"
+          ],
+          "totalRequired": 3
+        },
+        {
+          "id": "post-fitness",
+          "name": "Physical Fitness & Firearms",
+          "description": "Physical agility, defensive tactics, and firearms qualification",
+          "requiredMilestoneIds": [
+            "y2-app",
+            "y2-elec",
+            "y3-adv1"
+          ],
+          "totalRequired": 3
+        }
+      ]
+    },
+    {
+      "id": "fed",
+      "name": "Federal LE Readiness",
+      "description": "Preparation for FBI, DEA, ATF, Secret Service, and other federal agency assessment centers",
+      "sections": [
+        {
+          "id": "fed-1",
+          "name": "Written Exam & Background",
+          "description": "Cognitive aptitude, situational judgment, and comprehensive background investigation",
+          "requiredMilestoneIds": [
+            "y1-intro",
+            "y1-found1",
+            "y1-found2",
+            "y1-gen"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "fed-2",
+          "name": "Physical & Interview Assessment",
+          "description": "Physical fitness test, structured panel interview, and polygraph examination",
+          "requiredMilestoneIds": [
+            "y2-inter1",
+            "y2-inter2",
+            "y2-app",
+            "y2-elec"
+          ],
+          "totalRequired": 4
+        }
+      ]
+    }
   ]
 }

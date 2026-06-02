@@ -24,5 +24,62 @@
       "description": "Career prep and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "nclex",
+      "name": "NCLEX-RN Exam Readiness",
+      "description": "National Council Licensure Examination for Registered Nurses — required to practice as an RN in all 50 states",
+      "sections": [
+        {
+          "id": "nclex-safe",
+          "name": "Safe & Effective Care Environment",
+          "description": "Management of care, safety and infection control, and coordinated care",
+          "requiredMilestoneIds": [
+            "y1-nurs101",
+            "y1-biol221",
+            "y1-biol222",
+            "y1-psyc201"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "nclex-promo",
+          "name": "Health Promotion & Maintenance",
+          "description": "Growth and development, prevention, and early detection of disease",
+          "requiredMilestoneIds": [
+            "y2-nurs210",
+            "y2-nurs220",
+            "y2-nurs230",
+            "y2-nurs240"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "nclex-psych",
+          "name": "Psychosocial Integrity",
+          "description": "Coping, mental health concepts, and therapeutic communication",
+          "requiredMilestoneIds": [
+            "y3-nurs310",
+            "y3-nurs320",
+            "y3-nurs330",
+            "y3-nurs340"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "nclex-phys",
+          "name": "Physiological Integrity",
+          "description": "Basic care, pharmacology, risk reduction, and physiological adaptation",
+          "requiredMilestoneIds": [
+            "y4-nurs410",
+            "y4-nurs420",
+            "y4-nurs490",
+            "y4-nclex"
+          ],
+          "totalRequired": 4
+        }
+      ]
+    }
   ]
 }

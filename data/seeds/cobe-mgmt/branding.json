@@ -43,8 +43,8 @@
       "label": "Professional Identity"
     }
   },
-  "validationType": "placement",
-  "validationLabel": "Corporate Leadership Readiness",
+  "validationType": "pmp",
+  "validationLabel": "PMP + SHRM-CP Certification",
   "accreditationBody": "AACSB (Association to Advance Collegiate Schools of Business)",
   "licensureExam": null
 }

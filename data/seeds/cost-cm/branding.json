@@ -80,5 +80,7 @@
       "Safety Management",
       "Contract Administration"
     ]
-  }
+  },
+  "validationLabel": "AIC Constructor Exam + OSHA 30",
+  "validationType": "aic"
 }

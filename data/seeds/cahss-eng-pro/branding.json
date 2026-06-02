@@ -76,5 +76,7 @@
       "Grant Writing",
       "Corporate Communication"
     ]
-  }
+  },
+  "validationLabel": "GRE + Professional Writing Portfolio",
+  "validationType": "gre"
 }

@@ -24,5 +24,40 @@
       "description": "Career prep and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "fe",
+      "name": "FE Exam Readiness",
+      "description": "Fundamentals of Engineering — Other Disciplines track for engineering physics students",
+      "sections": [
+        {
+          "id": "fe-1",
+          "name": "Engineering Science Fundamentals",
+          "description": "Statics, dynamics, circuits, thermodynamics, and materials",
+          "requiredMilestoneIds": [
+            "y1-intro",
+            "y1-found1",
+            "y1-found2",
+            "y1-gen",
+            "y2-inter1"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "fe-2",
+          "name": "Applied Physics & Math",
+          "description": "Advanced calculus, differential equations, and computational methods",
+          "requiredMilestoneIds": [
+            "y3-adv1",
+            "y3-adv2",
+            "y3-research",
+            "y3-intern",
+            "y4-cap1"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

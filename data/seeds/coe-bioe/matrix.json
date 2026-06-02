@@ -24,5 +24,53 @@
       "description": "Career prep, portfolio development, and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "fe",
+      "name": "FE Exam Readiness",
+      "description": "Fundamentals of Engineering Exam — Other Disciplines track for biological/bioprocess engineering",
+      "sections": [
+        {
+          "id": "fe-math",
+          "name": "Mathematics & Statistics",
+          "description": "Calculus, differential equations, linear algebra, and probability",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01",
+            "y1-localglobal-01"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "fe-bio",
+          "name": "Biology & Chemistry Fundamentals",
+          "description": "Organic chemistry, biochemistry, microbiology, and cell biology",
+          "requiredMilestoneIds": [
+            "y2-communities-01",
+            "y2-localglobal-01",
+            "y2-identity-02",
+            "y3-identity-01",
+            "y3-purpose-01"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "fe-eng",
+          "name": "Engineering Fundamentals",
+          "description": "Thermodynamics, fluid mechanics, mass/energy balances, and process design",
+          "requiredMilestoneIds": [
+            "y3-localglobal-01",
+            "y4-purpose-01",
+            "y4-identity-01",
+            "y4-communities-01",
+            "y4-localglobal-01"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

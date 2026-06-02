@@ -24,5 +24,73 @@
       "description": "Career prep, portfolio development, and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "gre",
+      "name": "Graduate Readiness (GRE)",
+      "description": "GRE General Test — quantitative reasoning section critical for economics graduate program admission",
+      "sections": [
+        {
+          "id": "gre-quant",
+          "name": "Quantitative Reasoning",
+          "description": "Algebra, data analysis, arithmetic, and geometry for graduate school readiness",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01",
+            "y1-localglobal-01"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "gre-verbal",
+          "name": "Verbal Reasoning & Analytical Writing",
+          "description": "Reading comprehension, critical reasoning, and analytical writing",
+          "requiredMilestoneIds": [
+            "y2-identity-01",
+            "y2-purpose-01",
+            "y2-communities-01",
+            "y2-localglobal-01",
+            "y3-identity-01"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "name": "Statistical Software Certification",
+      "description": "Professional data analysis certifications used in economics research and industry",
+      "sections": [
+        {
+          "id": "stats-sas",
+          "name": "SAS / STATA Proficiency",
+          "description": "Econometric analysis, regression modeling, and statistical programming",
+          "requiredMilestoneIds": [
+            "y1-purpose-01",
+            "y1-identity-01",
+            "y1-identity-02",
+            "y1-communities-01",
+            "y1-localglobal-01"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "stats-r",
+          "name": "R / Python Data Analysis",
+          "description": "Data visualization, statistical computing, and reproducible research",
+          "requiredMilestoneIds": [
+            "y2-identity-01",
+            "y2-purpose-01",
+            "y2-communities-01",
+            "y2-localglobal-01",
+            "y3-identity-01"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

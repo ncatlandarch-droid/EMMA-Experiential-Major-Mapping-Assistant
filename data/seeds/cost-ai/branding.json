@@ -79,5 +79,7 @@
       "TensorFlow/PyTorch",
       "Computer Vision"
     ]
-  }
+  },
+  "validationLabel": "TensorFlow / AWS ML Certification",
+  "validationType": "tf"
 }

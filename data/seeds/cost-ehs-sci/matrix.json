@@ -24,5 +24,40 @@
       "description": "Career prep and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "rehs",
+      "name": "REHS Certification",
+      "description": "Registered Environmental Health Specialist — NEHA credential for environmental health professionals",
+      "sections": [
+        {
+          "id": "rehs-1",
+          "name": "Environmental Health Sciences",
+          "description": "Water quality, food safety, air quality, and vector control",
+          "requiredMilestoneIds": [
+            "y1-intro",
+            "y1-found1",
+            "y1-found2",
+            "y1-gen",
+            "y2-inter1"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "rehs-2",
+          "name": "Risk Assessment & Regulations",
+          "description": "Environmental risk assessment, EPA regulations, and public health law",
+          "requiredMilestoneIds": [
+            "y3-adv1",
+            "y3-adv2",
+            "y3-research",
+            "y3-intern",
+            "y4-cap1"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

@@ -24,5 +24,40 @@
       "description": "Career prep and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "apr",
+      "name": "APR Accreditation",
+      "description": "Accreditation in Public Relations — PRSA/UAB credential",
+      "sections": [
+        {
+          "id": "apr-1",
+          "name": "Research & Strategic Planning",
+          "description": "Communication research, campaign planning, and measurement",
+          "requiredMilestoneIds": [
+            "y1-intro",
+            "y1-found1",
+            "y1-found2",
+            "y1-gen",
+            "y2-inter1"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "apr-2",
+          "name": "Ethics & Crisis Communication",
+          "description": "Professional ethics, crisis management, and reputation management",
+          "requiredMilestoneIds": [
+            "y3-adv1",
+            "y3-adv2",
+            "y3-research",
+            "y3-intern",
+            "y4-cap1"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

@@ -80,5 +80,7 @@
       "Statistical Modeling",
       "Data Visualization"
     ]
-  }
+  },
+  "validationLabel": "Google Data Analytics + IBM Data Science",
+  "validationType": "google-da"
 }

@@ -81,5 +81,7 @@
       "Help Desk",
       "Scripting"
     ]
-  }
+  },
+  "validationLabel": "CompTIA Network+ / Security+ + AWS Cloud",
+  "validationType": "comptia-it"
 }

@@ -78,5 +78,7 @@
       "Event Planning",
       "Strategic Messaging"
     ]
-  }
+  },
+  "validationLabel": "APR Accreditation + ACEJMC",
+  "validationType": "apr"
 }

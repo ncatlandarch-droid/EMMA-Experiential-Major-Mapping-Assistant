@@ -79,5 +79,7 @@
       "Fitness Assessment",
       "Cardiac Rehab"
     ]
-  }
+  },
+  "validationLabel": "ACSM CPT + CSCS Certification",
+  "validationType": "acsm"
 }

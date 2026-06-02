@@ -24,5 +24,53 @@
       "description": "Career prep and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "gre-psych",
+      "name": "GRE Psychology Subject Test",
+      "description": "Graduate Record Exam — Psychology subject test for graduate program admission",
+      "sections": [
+        {
+          "id": "gre-bio",
+          "name": "Biological & Cognitive Bases",
+          "description": "Sensation, perception, neuroscience, learning, memory, and cognition",
+          "requiredMilestoneIds": [
+            "y1-psyc201",
+            "y1-psyc202",
+            "y1-biol101",
+            "y1-stat210",
+            "y2-psyc301"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "gre-soc",
+          "name": "Social & Clinical Psychology",
+          "description": "Social behavior, personality, abnormal psychology, and developmental psychology",
+          "requiredMilestoneIds": [
+            "y2-psyc310",
+            "y2-psyc320",
+            "y2-psyc330",
+            "y3-psyc340",
+            "y3-psyc350"
+          ],
+          "totalRequired": 5
+        },
+        {
+          "id": "gre-meth",
+          "name": "Research Methods & Statistics",
+          "description": "Experimental design, psychometrics, statistical analysis, and ethics",
+          "requiredMilestoneIds": [
+            "y3-psyc360",
+            "y3-psyc390",
+            "y4-psyc410",
+            "y4-capstone",
+            "y4-career"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }

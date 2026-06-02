@@ -79,5 +79,7 @@
       "Oscilloscopes",
       "Soldering"
     ]
-  }
+  },
+  "validationLabel": "CompTIA A+ + FCC License",
+  "validationType": "comptia"
 }

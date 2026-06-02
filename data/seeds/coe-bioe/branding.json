@@ -79,5 +79,7 @@
       "Biomaterials",
       "FDA Regulations"
     ]
-  }
+  },
+  "validationLabel": "FE Exam (Other Disciplines) + PE Licensure",
+  "validationType": "fe"
 }

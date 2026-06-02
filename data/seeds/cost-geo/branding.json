@@ -78,5 +78,7 @@
       "CAD",
       "Remote Sensing"
     ]
-  }
+  },
+  "validationLabel": "FS / PS Licensure + GISP Certification",
+  "validationType": "fs"
 }

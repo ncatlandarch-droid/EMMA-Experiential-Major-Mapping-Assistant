@@ -24,5 +24,58 @@
       "description": "Career prep and professional practice",
       "color": "#7C3AED"
     }
+  ],
+  "validationTracks": [
+    {
+      "id": "fs",
+      "name": "FS Exam (Fundamentals of Surveying)",
+      "description": "NCEES Fundamentals of Surveying exam — first step toward Professional Surveyor (PS) licensure",
+      "sections": [
+        {
+          "id": "fs-1",
+          "name": "Surveying & Measurement",
+          "description": "Geodesy, boundary law, measurement science, and coordinate systems",
+          "requiredMilestoneIds": [
+            "y1-intro",
+            "y1-found1",
+            "y1-found2",
+            "y1-gen"
+          ],
+          "totalRequired": 4
+        },
+        {
+          "id": "fs-2",
+          "name": "Mapping & Geospatial Technology",
+          "description": "GIS, remote sensing, photogrammetry, and cartography",
+          "requiredMilestoneIds": [
+            "y2-inter1",
+            "y2-inter2",
+            "y2-app",
+            "y2-elec"
+          ],
+          "totalRequired": 4
+        }
+      ]
+    },
+    {
+      "id": "gisp",
+      "name": "GISP Certification",
+      "description": "GIS Professional — GISCI credential for geospatial professionals",
+      "sections": [
+        {
+          "id": "gisp-1",
+          "name": "GIS Concepts & Applications",
+          "description": "Spatial analysis, geodatabase design, and GIS project management",
+          "requiredMilestoneIds": [
+            "y1-intro",
+            "y1-found1",
+            "y1-found2",
+            "y1-gen",
+            "y2-inter1"
+          ],
+          "totalRequired": 5
+        }
+      ]
+    }
   ]
 }
