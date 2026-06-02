@@ -1214,6 +1214,36 @@ const EMMA_REPORT = (() => {
   }
 
   const CAT_ICONS = {'course':'📘','field':'🌿','professional':'💼','community':'🤝','research':'🔬','certification':'🏆','award':'🏅','leadership':'👑'};
+
+  /* ══════════════════════════════════════════════════
+     COLLEGE ICON MAP
+     ══════════════════════════════════════════════════ */
+  const COLLEGE_ICON = {
+    'CAES': 'assets/images/college-icons/icon-agriculture-color.svg',
+    'CoBE': 'assets/images/college-icons/icon-business-color.svg',
+    'CoE':  'assets/images/college-icons/icon-engineering-color.svg',
+    'CHHS': 'assets/images/college-icons/icon-health-color.svg',
+    'CAHSS':'assets/images/college-icons/icon-arts-color.svg',
+    'CEd':  'assets/images/college-icons/icon-education-color.svg',
+    'CoST': 'assets/images/college-icons/icon-science-color.svg',
+    'JSNN': 'assets/images/college-icons/icon-nano-color.svg'
+  };
+
+  function getCollegeIcon(collegeName) {
+    for (const [abbr, path] of Object.entries(COLLEGE_ICON)) {
+      if (collegeName && collegeName.includes(abbr)) return path;
+    }
+    // Fallback by keyword
+    if (collegeName?.includes('Agric')) return COLLEGE_ICON['CAES'];
+    if (collegeName?.includes('Business')) return COLLEGE_ICON['CoBE'];
+    if (collegeName?.includes('Engineer')) return COLLEGE_ICON['CoE'];
+    if (collegeName?.includes('Health')) return COLLEGE_ICON['CHHS'];
+    if (collegeName?.includes('Arts') || collegeName?.includes('Humanities')) return COLLEGE_ICON['CAHSS'];
+    if (collegeName?.includes('Educ')) return COLLEGE_ICON['CEd'];
+    if (collegeName?.includes('Science') || collegeName?.includes('Tech')) return COLLEGE_ICON['CoST'];
+    return COLLEGE_ICON['CAES'];
+  }
+
   const PHASE_CLR = ['#2d5016','#003366','#b8651a','#7b2d8e'];
 
   /* ══════════════════════════════════════════════════
@@ -1261,7 +1291,7 @@ const EMMA_REPORT = (() => {
   }
 
   /* ══════════════════════════════════════════════════
-     GENERATE REPORT
+     GENERATE REPORT — NC A&T BRANDED MAGAZINE
      ══════════════════════════════════════════════════ */
 
   function generate() {
@@ -1269,7 +1299,7 @@ const EMMA_REPORT = (() => {
     const branding = EMMA_STATE.get('branding');
     const program  = EMMA_STATE.get('currentProgram');
     const checked  = EMMA_STATE.get('checkedMilestones') || {};
-    if (!timeline || !branding) { EMMA_MATRIX?.showToast('⚠️ Load a program first', 'error'); return; }
+    if (!timeline || !branding) { EMMA_MATRIX?.showToast('\u26a0\ufe0f Load a program first', 'error'); return; }
 
     const key  = matchKey(program);
     const prof = DB[key];
@@ -1279,11 +1309,14 @@ const EMMA_REPORT = (() => {
     const today   = new Date().toLocaleDateString('en-US', {year:'numeric',month:'long',day:'numeric'});
     const circum  = 2 * Math.PI * 42;
     const ringClr = overall >= 75 ? '#22c55e' : overall >= 50 ? '#FF9800' : '#003366';
+    const collegeName = branding.collegeName || 'NC A&T State University';
+    const collegeIconPath = getCollegeIcon(collegeName);
 
-    // Career cards (top 5-6)
+    // Career cards
     const careerHTML = prof.careers.map((c, i) =>
       `<div class="cr-card">
-        <div class="cr-rank">${c.icon}</div>
+        <div class="cr-rank-num">${i + 1}</div>
+        <div class="cr-icon">${c.icon}</div>
         <div class="cr-body">
           <div class="cr-title">${c.title}</div>
           <div class="cr-desc">${c.desc}</div>
@@ -1292,10 +1325,7 @@ const EMMA_REPORT = (() => {
       </div>`
     ).join('');
 
-    // What you can do bullets
     const doHTML = prof.whatYouCanDo.map(d => `<li>${d}</li>`).join('');
-
-    // Related majors
     const relHTML = prof.related.map(r =>
       `<div class="rel-card"><div class="rel-name">${r.name}</div><div class="rel-why">${r.why}</div></div>`
     ).join('');
@@ -1304,176 +1334,264 @@ const EMMA_REPORT = (() => {
     const phasesHTML = timeline.phases.map((phase, idx) => {
       const c = PHASE_CLR[idx % 4];
       const pp = EMMA_STATE.getPhaseProgress(phase.id);
+      const phaseIcon = ['\ud83c\udf31','\ud83d\udd25','\u26a1','\ud83d\ude80'][idx % 4];
       const msHTML = phase.milestones.map(m => {
-        const d = checked[m.id]; const ic = CAT_ICONS[m.category] || '📌';
-        return `<div class="ms ${d?'ms-d':''}"><span class="ms-c">${d?'✅':'⬜'}</span><span class="ms-i">${ic}</span><div class="ms-t"><span class="ms-l">${m.label}</span>${m.credits?`<span class="ms-cr">${m.credits} cr</span>`:''}</div></div>`;
+        const d = checked[m.id]; const ic = CAT_ICONS[m.category] || '\ud83d\udccc';
+        return `<div class="ms ${d?'ms-d':''}"><span class="ms-c">${d?'\u2705':'\u2b1c'}</span><span class="ms-i">${ic}</span><div class="ms-t"><span class="ms-l">${m.label}</span>${m.credits?`<span class="ms-cr">${m.credits} cr</span>`:''}</div></div>`;
       }).join('');
-      return `<div class="ph"><div class="ph-h" style="border-left:6px solid ${c};background:${c}08"><div class="ph-r"><h3 style="color:${c}">${phase.name}</h3><span class="ph-p" style="background:${c}">${pp.checked}/${pp.total} · ${pp.percent}%</span></div>${phase.description?`<p class="ph-d">${phase.description}</p>`:''}</div><div class="ms-g">${msHTML}</div></div>`;
+      return `<div class="ph"><div class="ph-h" style="border-left:6px solid ${c};background:${c}0C"><div class="ph-r"><h3 style="color:${c}">${phaseIcon} ${phase.name}</h3><span class="ph-p" style="background:${c}">${pp.checked}/${pp.total} \u00b7 ${pp.percent}%</span></div>${phase.description?`<p class="ph-d">${phase.description}</p>`:''}</div><div class="ms-g">${msHTML}</div></div>`;
     }).join('');
 
-    // Profession image gallery (for career paths page)
+    // Images
+    const heroImg = prof.hero;
     const galleryImgs = prof.images || [prof.hero];
-    const galleryHTML = galleryImgs.slice(0, 3).map(img =>
-      `<img src="${img}" class="gal-img" alt="Career" onerror="this.style.display='none'" />`
+    const pg2Gallery = galleryImgs.slice(0, 2).map(img =>
+      `<img src="${img}" class="ov-gallery-img" alt="Career" onerror="this.style.display='none'" />`
+    ).join('');
+    const pg3Gallery = galleryImgs.slice(0, 4).map(img =>
+      `<img src="${img}" class="gal-img" alt="Professionals in the field" onerror="this.style.display='none'" />`
     ).join('');
 
+    const pullQuote = `\u201cYour degree in ${prof.title} doesn\u2019t just open doors \u2014 it builds the doors that don\u2019t exist yet.\u201d`;
+
+    // ─── PAGE FOOTER TEMPLATE ───
+    const pgFoot = (left, right) => `<div class="pg-footer"><div><span class="stamp">NC A&T State University</span> \u00b7 ${left}</div><div>${right}</div></div>`;
+
     const html = `<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
-<title>${prof.title} — Experiential Journey Map | NC A&T</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<title>${prof.title} \u2014 Experiential Journey Map | NC A&T</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
 <style>
+/* ============================================
+   NC A&T BRAND STANDARDS
+   Aggie Blue #003366 · Aggie Gold #FDB827
+   Font: Montserrat (official university font)
+   ============================================ */
 *{margin:0;padding:0;box-sizing:border-box}
-:root{--b:#003366;--g:#FDB827;--t:#1a1a2e;--t2:#475569;--t3:#94a3b8;--bd:#e2e8f0;--bg:#f8fafc;--gr:#22c55e}
-body{font-family:'Inter',sans-serif;color:var(--t);background:#fff;line-height:1.6;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+:root{--ab:#003366;--abd:#002244;--ag:#FDB827;--agl:#FFF3D0;
+  --t1:#1a1a2e;--t2:#334155;--t3:#64748b;--t4:#94a3b8;
+  --bd:#e2e8f0;--bgL:#f8fafc;--bgW:#FFFBF0;--gr:#22c55e}
+body{font-family:'Montserrat',sans-serif;color:var(--t1);background:#fff;line-height:1.7;
+  -webkit-print-color-adjust:exact;print-color-adjust:exact}
 @page{size:letter;margin:0}
 .pg{page-break-after:always;min-height:100vh;position:relative;overflow:hidden}
 .pg:last-child{page-break-after:auto}
 
-/* ─── COVER ─── */
+/* PAGE FOOTER */
+.pg-footer{position:absolute;bottom:0;left:0;right:0;padding:0.55rem 3rem;
+  display:flex;justify-content:space-between;align-items:center;
+  font-size:0.5rem;color:var(--t4);font-weight:600;border-top:3px solid var(--ag);background:#fff}
+.pg-footer .stamp{font-weight:900;color:var(--ab);text-transform:uppercase;letter-spacing:0.15em}
+
+/* ═══ COVER ═══ */
 .cover{display:flex;flex-direction:column;justify-content:flex-end;min-height:100vh}
-.cover-bg{position:absolute;inset:0;object-fit:cover;width:100%;height:100%;filter:brightness(0.3) saturate(1.2)}
-.cover-ov{position:relative;z-index:2;padding:4rem 4rem 3.5rem;color:#fff}
-.cover-bar{width:5rem;height:5px;background:var(--g);margin-bottom:1.5rem;border-radius:3px}
-.cover-badge{font-size:0.6rem;font-weight:900;text-transform:uppercase;letter-spacing:0.35em;color:var(--g);margin-bottom:0.8rem}
-.cover h1{font-size:3.2rem;font-weight:900;letter-spacing:-0.04em;line-height:1.1;max-width:32rem}
-.cover .tag{font-size:1.05rem;font-weight:600;margin-top:0.6rem;opacity:0.85;max-width:30rem}
-.cover-gold{position:absolute;bottom:0;left:0;right:0;height:8px;background:var(--g);z-index:3}
-.cover-logo{position:absolute;top:2.5rem;right:3rem;z-index:3;text-align:right;color:rgba(255,255,255,0.9)}
-.cover-logo .uni{font-size:0.65rem;font-weight:900;text-transform:uppercase;letter-spacing:0.2em;color:var(--g)}
-.cover-logo .sub{font-size:0.5rem;font-weight:600;opacity:0.7;margin-top:0.1rem}
+.cover-bg{position:absolute;inset:0;object-fit:cover;width:100%;height:100%;filter:brightness(0.22) saturate(1.3)}
+.cover-grad{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,34,68,0.95) 0%,rgba(0,34,68,0.55) 40%,rgba(0,34,68,0.15) 70%,transparent 100%);z-index:1}
+.cover-ov{position:relative;z-index:2;padding:3.5rem 3.5rem 2.8rem;color:#fff}
+.cover-bar{width:5rem;height:6px;background:var(--ag);margin-bottom:1.5rem;border-radius:3px}
+.cover-badge{font-size:0.62rem;font-weight:800;text-transform:uppercase;letter-spacing:0.4em;color:var(--ag);margin-bottom:1rem}
+.cover h1{font-size:2.9rem;font-weight:900;letter-spacing:-0.03em;line-height:1.08;max-width:30rem}
+.cover .tag{font-size:1.05rem;font-weight:600;margin-top:0.7rem;opacity:0.92;max-width:30rem;line-height:1.5}
+.cover-gold-bar{position:absolute;bottom:0;left:0;right:0;height:10px;background:var(--ag);z-index:3}
+.cover-top{position:absolute;top:2rem;left:3rem;right:3rem;z-index:3;display:flex;justify-content:space-between;align-items:flex-start}
+.cover-logo-img{height:55px;width:auto;filter:brightness(10)}
+.cover-col-right{display:flex;align-items:center;gap:0.6rem;text-align:right;color:rgba(255,255,255,0.92)}
+.cover-col-icon{height:40px;width:40px}
+.cover-col-txt .cn{font-size:0.5rem;font-weight:800;text-transform:uppercase;letter-spacing:0.2em;color:var(--ag)}
+.cover-col-txt .cs{font-size:0.42rem;font-weight:600;opacity:0.7;margin-top:2px}
+.cover-bot{position:absolute;bottom:18px;right:3rem;z-index:3;font-size:0.5rem;font-weight:800;color:var(--ag);letter-spacing:0.15em;text-transform:uppercase}
 
-/* ─── PAGE 2: DATA & CHARTS ─── */
-.data-pg{padding:3rem 3.5rem}
-.sec-badge{font-size:0.5rem;font-weight:900;text-transform:uppercase;letter-spacing:0.3em;color:var(--g);background:var(--b);display:inline-block;padding:0.3rem 0.9rem;border-radius:4px;margin-bottom:0.6rem}
-.sec-h2{font-size:1.6rem;font-weight:900;color:var(--b);margin-bottom:0.15rem;letter-spacing:-0.03em}
-.sec-sub{font-size:0.78rem;color:var(--t2);font-weight:500;margin-bottom:1.5rem;max-width:34rem}
-.ov-row{display:flex;gap:2rem;align-items:flex-start;margin-bottom:1.5rem}
-.ov-img{width:280px;height:200px;border-radius:14px;object-fit:cover;flex-shrink:0;box-shadow:0 6px 30px rgba(0,0,0,0.12)}
-.ov-txt{flex:1}.ov-txt p{font-size:0.82rem;color:var(--t2);font-weight:500;line-height:1.75}
-.charts-row{display:flex;gap:1.25rem;margin-top:1.25rem}
-.chart-box{flex:1;background:var(--bg);border:1px solid var(--bd);border-radius:12px;padding:1rem 1.25rem}
-.chart-box .ch-title{font-size:0.55rem;font-weight:900;text-transform:uppercase;letter-spacing:0.2em;color:var(--t3);margin-bottom:0.5rem}
+/* ═══ PAGE 2: OVERVIEW + DATA ═══ */
+.data-pg{padding:2.6rem 3rem 3.5rem}
+.pg-hdr{display:flex;justify-content:space-between;align-items:center;margin-bottom:1.6rem;padding-bottom:0.8rem;border-bottom:3px solid var(--ab)}
+.pg-hdr-icon{height:36px;width:36px;opacity:0.6}
+.sec-badge{font-size:0.5rem;font-weight:900;text-transform:uppercase;letter-spacing:0.3em;color:#fff;background:var(--ab);display:inline-block;padding:0.3rem 0.9rem;border-radius:4px;margin-bottom:0.45rem}
+.sec-h2{font-size:1.45rem;font-weight:900;color:var(--ab);letter-spacing:-0.02em;line-height:1.25}
+.sec-sub{font-size:0.82rem;color:var(--t2);font-weight:500;margin-bottom:1.2rem;max-width:38rem;line-height:1.7}
+.ov-layout{display:flex;gap:1.4rem;margin-bottom:1.2rem}
+.ov-img-col{flex-shrink:0;width:230px;display:flex;flex-direction:column;gap:0.5rem}
+.ov-img{width:100%;height:165px;border-radius:12px;object-fit:cover;box-shadow:0 6px 24px rgba(0,0,0,0.12)}
+.ov-gallery-img{width:100%;height:100px;border-radius:10px;object-fit:cover;box-shadow:0 4px 16px rgba(0,0,0,0.1)}
+.ov-txt{flex:1}
+.ov-txt p{font-size:0.8rem;color:var(--t2);font-weight:500;line-height:1.8;margin-bottom:0.6rem}
+.pull-q{margin:0.6rem 0;padding:0.7rem 1.1rem;border-left:4px solid var(--ag);background:var(--bgW);border-radius:0 8px 8px 0;font-size:0.82rem;font-style:italic;font-weight:700;color:var(--ab);line-height:1.6}
+.charts-row{display:flex;gap:0.9rem;margin-top:1rem}
+.chart-box{flex:1;background:var(--bgL);border:1px solid var(--bd);border-radius:12px;padding:0.8rem 1rem}
+.chart-box .ch-title{font-size:0.5rem;font-weight:900;text-transform:uppercase;letter-spacing:0.2em;color:var(--t3);margin-bottom:0.35rem}
 .chart-svg{width:100%;height:auto}
-.chart-label{font-size:7px;fill:var(--t2);font-weight:700}
-.chart-val{font-size:8px;fill:var(--b);font-weight:900}
-.gauge-svg{width:90px;height:90px;display:block;margin:0 auto}
-.emp-stat{text-align:center;padding-top:0.5rem}
-.emp-num{font-size:1.8rem;font-weight:900;color:var(--b)}
-.emp-lbl{font-size:0.6rem;font-weight:700;color:var(--t3);text-transform:uppercase;letter-spacing:0.1em}
-.do-section{margin-top:1.5rem;padding:1.25rem;background:var(--bg);border-radius:12px;border:1px solid var(--bd)}
-.do-title{font-size:0.55rem;font-weight:900;text-transform:uppercase;letter-spacing:0.2em;color:var(--b);margin-bottom:0.6rem}
-.do-grid{display:grid;grid-template-columns:1fr 1fr;gap:0.25rem}
-.do-grid li{font-size:0.72rem;font-weight:600;color:var(--t2);list-style:none;padding:0.2rem 0;padding-left:1.2em;position:relative}
-.do-grid li::before{content:'→';position:absolute;left:0;color:var(--g);font-weight:900}
+.chart-label{font-size:8px;fill:var(--t2);font-weight:700}
+.chart-val{font-size:9px;fill:var(--ab);font-weight:900}
+.gauge-svg{width:85px;height:85px;display:block;margin:0 auto}
+.emp-stat{text-align:center;padding-top:0.25rem}
+.emp-num{font-size:1.5rem;font-weight:900;color:var(--ab)}
+.emp-lbl{font-size:0.5rem;font-weight:700;color:var(--t3);text-transform:uppercase;letter-spacing:0.1em}
+.do-section{margin-top:1rem;padding:0.9rem 1.1rem;background:var(--bgW);border-radius:12px;border:2px solid var(--ag)}
+.do-title{font-size:0.5rem;font-weight:900;text-transform:uppercase;letter-spacing:0.2em;color:var(--ab);margin-bottom:0.4rem}
+.do-grid{display:grid;grid-template-columns:1fr 1fr;gap:0.15rem}
+.do-grid li{font-size:0.7rem;font-weight:600;color:var(--t2);list-style:none;padding:0.15rem 0 0.15rem 1.3em;position:relative;line-height:1.5}
+.do-grid li::before{content:'\u2192';position:absolute;left:0;color:var(--ag);font-weight:900}
 
-/* ─── PAGE 3: CAREERS ─── */
-.careers-pg{padding:3rem 3.5rem}
-.cr-grid{display:grid;grid-template-columns:1fr 1fr;gap:0.8rem;margin-top:1rem}
-.cr-card{display:flex;gap:0.75rem;align-items:flex-start;padding:0.9rem;border:1px solid var(--bd);border-radius:10px;background:#fff}
-.cr-rank{font-size:1.5rem;flex-shrink:0;width:2.2rem;text-align:center}
-.cr-body{flex:1;min-width:0}
-.cr-title{font-size:0.8rem;font-weight:900;color:var(--b);margin-bottom:0.2rem}
-.cr-desc{font-size:0.68rem;color:var(--t2);font-weight:500;line-height:1.5}
-.cr-sal{font-size:0.65rem;font-weight:800;color:var(--gr);margin-top:0.3rem}
-.gal-row{display:flex;gap:0.75rem;margin-top:1.5rem}
-.gal-img{flex:1;height:140px;object-fit:cover;border-radius:10px;box-shadow:0 4px 20px rgba(0,0,0,0.1)}
+/* ═══ PAGE 3: CAREERS ═══ */
+.careers-pg{padding:2.6rem 3rem 3.5rem}
+.cr-grid{display:grid;grid-template-columns:1fr 1fr;gap:0.6rem;margin-top:0.7rem}
+.cr-card{display:flex;gap:0.5rem;align-items:flex-start;padding:0.7rem;border:1px solid var(--bd);border-radius:10px;background:#fff;position:relative;overflow:hidden}
+.cr-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--ag)}
+.cr-rank-num{position:absolute;top:0.35rem;right:0.45rem;font-size:0.45rem;font-weight:900;color:var(--t4);opacity:0.35}
+.cr-icon{font-size:1.3rem;flex-shrink:0;width:1.8rem;text-align:center;padding-top:0.05rem}
+.cr-body{flex:1;min-width:0;padding-left:0.1rem}
+.cr-title{font-size:0.78rem;font-weight:800;color:var(--ab);margin-bottom:0.1rem;line-height:1.3}
+.cr-desc{font-size:0.67rem;color:var(--t2);font-weight:500;line-height:1.5}
+.cr-sal{font-size:0.67rem;font-weight:800;color:var(--gr);margin-top:0.2rem}
+.stats-recap{display:flex;gap:0.8rem;margin-top:0.8rem;padding:0.7rem 1.2rem;background:var(--ab);border-radius:10px;color:#fff;align-items:center}
+.stats-recap .sr-item{flex:1;text-align:center}
+.stats-recap .sr-val{font-size:1rem;font-weight:900;color:var(--ag)}
+.stats-recap .sr-lbl{font-size:0.45rem;font-weight:700;text-transform:uppercase;letter-spacing:0.15em;opacity:0.8}
+.stats-recap .sr-div{width:1px;height:1.8rem;background:rgba(255,255,255,0.2)}
+.gal-row{display:flex;gap:0.5rem;margin-top:1rem}
+.gal-img{flex:1;height:120px;object-fit:cover;border-radius:10px;box-shadow:0 4px 16px rgba(0,0,0,0.1)}
 
-/* ─── PAGE 4: JOURNEY MAP ─── */
-.map-pg{padding:3rem 3.5rem}
-.map-prog{display:flex;align-items:center;gap:1.5rem;margin:1rem 0 1.5rem;padding:1rem 1.25rem;background:var(--bg);border-radius:12px;border:1px solid var(--bd)}
-.ring{width:4.5rem;height:4.5rem;position:relative;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+/* ═══ PAGE 4: JOURNEY MAP ═══ */
+.map-pg{padding:2.6rem 3rem 3.5rem}
+.map-prog{display:flex;align-items:center;gap:1.5rem;margin:0.8rem 0 1.2rem;padding:0.9rem 1.3rem;background:linear-gradient(135deg,var(--bgL) 0%,var(--bgW) 100%);border-radius:14px;border:2px solid var(--bd)}
+.ring{width:4.2rem;height:4.2rem;position:relative;display:flex;align-items:center;justify-content:center;flex-shrink:0}
 .ring svg{position:absolute;width:100%;height:100%;transform:rotate(-90deg)}
-.ring .pct{font-size:1.2rem;font-weight:900;color:var(--b)}
-.prog-t .prog-big{font-size:1rem;font-weight:900;color:var(--b)}
+.ring .pct{font-size:1.1rem;font-weight:900;color:var(--ab)}
+.prog-t .prog-big{font-size:0.95rem;font-weight:900;color:var(--ab)}
 .prog-t .prog-sm{font-size:0.65rem;color:var(--t2);font-weight:500}
-.ph{margin-bottom:0.75rem;page-break-inside:avoid}
-.ph-h{padding:0.5rem 0.8rem;border-radius:7px;margin-bottom:0.35rem}
+.ph{margin-bottom:0.55rem;page-break-inside:avoid}
+.ph-h{padding:0.45rem 0.8rem;border-radius:8px;margin-bottom:0.25rem}
 .ph-r{display:flex;justify-content:space-between;align-items:center}
-.ph-r h3{font-size:0.8rem;font-weight:900;text-transform:uppercase;letter-spacing:0.04em}
+.ph-r h3{font-size:0.78rem;font-weight:900;text-transform:uppercase;letter-spacing:0.04em}
 .ph-p{font-size:0.5rem;font-weight:800;color:#fff;padding:0.12rem 0.5rem;border-radius:20px}
-.ph-d{font-size:0.55rem;color:var(--t2);margin-top:0.15rem;font-weight:500}
-.ms-g{display:grid;grid-template-columns:1fr 1fr;gap:0.25rem}
-.ms{display:flex;align-items:center;gap:0.3rem;padding:0.3rem 0.4rem;border:1px solid var(--bd);border-radius:4px;font-size:0.6rem}
+.ph-d{font-size:0.55rem;color:var(--t2);margin-top:0.12rem;font-weight:500}
+.ms-g{display:grid;grid-template-columns:1fr 1fr;gap:0.18rem}
+.ms{display:flex;align-items:center;gap:0.25rem;padding:0.25rem 0.35rem;border:1px solid var(--bd);border-radius:5px;font-size:0.58rem}
 .ms-d{background:#f0fdf4;border-color:#bbf7d0}
-.ms-c{font-size:0.65rem;flex-shrink:0}.ms-i{font-size:0.6rem;flex-shrink:0}
+.ms-c{font-size:0.6rem;flex-shrink:0}.ms-i{font-size:0.55rem;flex-shrink:0}
 .ms-t{display:flex;flex-direction:column;min-width:0}
 .ms-l{font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.ms-cr{font-size:0.45rem;color:var(--t3);font-weight:600}
+.ms-cr{font-size:0.45rem;color:var(--t4);font-weight:600}
 
-/* ─── PAGE 5: RELATED + QR ─── */
-.rel-pg{padding:3rem 3.5rem}
-.rel-grid{display:grid;grid-template-columns:1fr 1fr;gap:0.6rem;margin-top:0.8rem}
-.rel-card{padding:0.8rem;border:2px solid var(--bd);border-radius:10px;transition:all 0.2s}
-.rel-name{font-size:0.85rem;font-weight:900;color:var(--b)}
-.rel-why{font-size:0.68rem;color:var(--t2);font-weight:500;margin-top:0.15rem}
-.qr-section{margin-top:2rem;padding:2rem;background:linear-gradient(135deg,var(--b) 0%,#1a4d80 100%);border-radius:16px;display:flex;align-items:center;gap:2rem;color:#fff}
-.qr-img{width:140px;height:140px;border-radius:10px;border:4px solid var(--g);flex-shrink:0}
-.qr-txt h3{font-size:1.25rem;font-weight:900;margin-bottom:0.3rem}
-.qr-txt p{font-size:0.8rem;font-weight:500;opacity:0.85;line-height:1.6}
-.qr-txt .qr-url{font-size:0.9rem;font-weight:900;color:var(--g);margin-top:0.5rem;letter-spacing:0.05em}
+/* ═══ PAGE 5: RELATED + QR ═══ */
+.rel-pg{padding:2.6rem 3rem 3.5rem}
+.rel-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0.5rem;margin-top:0.7rem}
+.rel-card{padding:0.7rem 0.8rem;border:2px solid var(--bd);border-radius:10px}
+.rel-name{font-size:0.82rem;font-weight:900;color:var(--ab);line-height:1.3}
+.rel-why{font-size:0.67rem;color:var(--t2);font-weight:500;margin-top:0.12rem;line-height:1.5}
+.qr-section{margin-top:1.2rem;padding:1.3rem 1.8rem;background:linear-gradient(135deg,var(--ab) 0%,var(--abd) 100%);border-radius:16px;display:flex;align-items:center;gap:1.4rem;color:#fff}
+.qr-img{width:120px;height:120px;border-radius:10px;border:4px solid var(--ag);flex-shrink:0}
+.qr-txt h3{font-size:1.15rem;font-weight:900;margin-bottom:0.25rem}
+.qr-txt p{font-size:0.78rem;font-weight:500;opacity:0.9;line-height:1.7}
+.qr-txt .qr-url{font-size:0.85rem;font-weight:900;color:var(--ag);margin-top:0.35rem;letter-spacing:0.05em}
+.close-brand{margin-top:1.2rem;display:flex;justify-content:space-between;align-items:center;padding:1rem 1.3rem;background:var(--bgL);border-radius:12px;border:2px solid var(--bd)}
+.cb-left{display:flex;align-items:center;gap:0.7rem}
+.cb-icon{height:32px;width:32px;opacity:0.7}
+.cb-aggie{font-size:1rem;font-weight:900;color:var(--ab)}
+.cb-sub{font-size:0.55rem;color:var(--t3);font-weight:600}
+.cb-right{text-align:right}
+.cb-emma{font-size:0.65rem;font-weight:800;color:var(--ab)}
+.cb-copy{font-size:0.45rem;color:var(--t4);font-weight:600}
 
-/* ─── FOOTER ─── */
-.rpt-ft{padding:1rem 3.5rem;border-top:5px solid var(--g);display:flex;justify-content:space-between;align-items:center;font-size:0.5rem;color:var(--t3);font-weight:600}
-.rpt-ft .stamp{font-weight:900;color:var(--b);text-transform:uppercase;letter-spacing:0.12em;font-size:0.6rem}
-
-/* ─── PRINT ─── */
+/* PRINT & TOOLBAR */
 @media print{.no-print{display:none!important}.ph{page-break-inside:avoid}}
-.pbar{position:fixed;bottom:0;left:0;right:0;background:var(--b);padding:0.6rem 3rem;display:flex;justify-content:center;gap:1rem;z-index:100;box-shadow:0 -4px 20px rgba(0,0,0,0.3)}
-.pbar button{padding:0.65rem 2rem;font-size:0.8rem;font-weight:800;border:none;border-radius:8px;cursor:pointer;font-family:'Inter',sans-serif;text-transform:uppercase;letter-spacing:0.1em}
-.btn-p{background:var(--g);color:var(--b)}.btn-c{background:rgba(255,255,255,0.15);color:#fff}
+.pbar{position:fixed;bottom:0;left:0;right:0;background:var(--ab);padding:0.6rem 3rem;display:flex;justify-content:center;gap:1rem;z-index:100;box-shadow:0 -4px 20px rgba(0,0,0,0.3)}
+.pbar button{padding:0.65rem 2rem;font-size:0.8rem;font-weight:800;border:none;border-radius:8px;cursor:pointer;font-family:'Montserrat',sans-serif;text-transform:uppercase;letter-spacing:0.1em}
+.btn-p{background:var(--ag);color:var(--ab)}.btn-c{background:rgba(255,255,255,0.15);color:#fff}
 </style></head><body>
 
 <div class="pbar no-print">
-  <button class="btn-p" onclick="window.print()">🖨️ Print / Save PDF</button>
-  <button class="btn-c" onclick="window.close()">✕ Close</button>
+  <button class="btn-p" onclick="window.print()">\ud83d\udda8\ufe0f Print / Save PDF</button>
+  <button class="btn-c" onclick="window.close()">\u2715 Close</button>
 </div>
 
 <!-- PAGE 1: COVER -->
 <div class="pg cover">
-  <img src="${prof.hero}" class="cover-bg" alt="${prof.title}"/>
-  <div class="cover-logo"><div class="uni">North Carolina A&T State University</div><div class="sub">College of Agriculture & Environmental Sciences</div></div>
+  <img src="${heroImg}" class="cover-bg" alt="${prof.title}"/>
+  <div class="cover-grad"></div>
+  <div class="cover-top">
+    <img src="assets/images/ncat-logo-white.png" class="cover-logo-img" alt="NC A&T" onerror="this.alt='NC A&T'"/>
+    <div class="cover-col-right">
+      <div class="cover-col-txt">
+        <div class="cn">${collegeName}</div>
+        <div class="cs">North Carolina A&T State University</div>
+      </div>
+      <img src="${collegeIconPath}" class="cover-col-icon" alt="" onerror="this.style.display='none'" style="filter:brightness(10)"/>
+    </div>
+  </div>
   <div class="cover-ov">
     <div class="cover-bar"></div>
-    <div class="cover-badge">Experiential Journey Map · EMMA Platform</div>
+    <div class="cover-badge">Experiential Journey Map \u00b7 EMMA Platform</div>
     <h1>${prof.title}</h1>
     <div class="tag">${prof.tagline}</div>
   </div>
-  <div class="cover-gold"></div>
+  <div class="cover-bot">Powered by EMMA</div>
+  <div class="cover-gold-bar"></div>
 </div>
 
-<!-- PAGE 2: DATA & CHARTS -->
+<!-- PAGE 2: OVERVIEW + DATA -->
 <div class="pg data-pg">
-  <div class="sec-badge">Career Overview</div>
-  <h2 class="sec-h2">${prof.title}</h2>
-  <p class="sec-sub">${prof.tagline}</p>
-  <div class="ov-row">
-    <img src="${prof.hero}" class="ov-img" alt="${prof.title}"/>
-    <div class="ov-txt"><p>${prof.overview}</p></div>
+  <div class="pg-hdr">
+    <div>
+      <div class="sec-badge">Career Overview</div>
+      <h2 class="sec-h2">${prof.title}</h2>
+    </div>
+    <img src="${collegeIconPath}" class="pg-hdr-icon" alt="" onerror="this.style.display='none'"/>
+  </div>
+  <div class="ov-layout">
+    <div class="ov-img-col">
+      <img src="${heroImg}" class="ov-img" alt="${prof.title}"/>
+      ${pg2Gallery}
+    </div>
+    <div class="ov-txt">
+      <p>${prof.overview}</p>
+      <div class="pull-q">${pullQuote}</div>
+    </div>
   </div>
   <div class="charts-row">
-    <div class="chart-box"><div class="ch-title">💰 Salary Comparison</div>${salaryBarChart(prof.blsSalary, prof.nationalMedian)}</div>
-    <div class="chart-box"><div class="ch-title">📈 Job Growth</div>${growthGauge(prof.blsGrowth)}</div>
-    <div class="chart-box"><div class="ch-title">🏢 Employment</div>${employmentStat(prof.blsEmployment)}</div>
+    <div class="chart-box"><div class="ch-title">\ud83d\udcb0 Salary Comparison</div>${salaryBarChart(prof.blsSalary, prof.nationalMedian)}</div>
+    <div class="chart-box"><div class="ch-title">\ud83d\udcc8 Job Growth (10yr)</div>${growthGauge(prof.blsGrowth)}</div>
+    <div class="chart-box"><div class="ch-title">\ud83c\udfe2 U.S. Employment</div>${employmentStat(prof.blsEmployment)}</div>
   </div>
   <div class="do-section">
-    <div class="do-title">🚀 What You Can Do With This Degree</div>
+    <div class="do-title">\ud83d\ude80 What You Can Do With This Degree</div>
     <ul class="do-grid">${doHTML}</ul>
   </div>
+  ${pgFoot(collegeName, 'EMMA \u00b7 ' + today)}
 </div>
 
-<!-- PAGE 3: TOP CAREERS -->
+<!-- PAGE 3: TOP CAREERS + IMAGES -->
 <div class="pg careers-pg">
-  <div class="sec-badge">What You Can Become</div>
-  <h2 class="sec-h2">Top Career Paths in ${prof.title}</h2>
-  <p class="sec-sub">Your degree opens doors to diverse, rewarding careers. Here are the top paths where NC A&T graduates are making an impact.</p>
+  <div class="pg-hdr">
+    <div>
+      <div class="sec-badge">What You Can Become</div>
+      <h2 class="sec-h2">Top Career Paths in ${prof.title}</h2>
+    </div>
+    <img src="${collegeIconPath}" class="pg-hdr-icon" alt="" onerror="this.style.display='none'"/>
+  </div>
+  <p class="sec-sub">Your degree opens doors to diverse, rewarding careers. Here are the top paths where NC A&T Aggies are making an impact.</p>
   <div class="cr-grid">${careerHTML}</div>
-  <div class="gal-row">${galleryHTML}</div>
+  <div class="stats-recap">
+    <div class="sr-item"><div class="sr-val">$${(prof.blsSalary/1000).toFixed(0)}K</div><div class="sr-lbl">Median Salary</div></div>
+    <div class="sr-div"></div>
+    <div class="sr-item"><div class="sr-val">${prof.blsGrowth}%</div><div class="sr-lbl">Job Growth</div></div>
+    <div class="sr-div"></div>
+    <div class="sr-item"><div class="sr-val">${prof.blsEmployment >= 1000 ? (prof.blsEmployment/1000).toFixed(0)+'K' : prof.blsEmployment}</div><div class="sr-lbl">U.S. Jobs</div></div>
+    <div class="sr-div"></div>
+    <div class="sr-item"><div class="sr-val">${prof.careers.length}</div><div class="sr-lbl">Career Paths</div></div>
+  </div>
+  <div class="gal-row">${pg3Gallery}</div>
+  ${pgFoot(prof.title, 'Bureau of Labor Statistics \u00b7 ' + today)}
 </div>
 
 <!-- PAGE 4: JOURNEY MAP -->
 <div class="pg map-pg">
-  <div class="sec-badge">Your Journey</div>
-  <h2 class="sec-h2">Experiential Journey Map</h2>
-  <p class="sec-sub">Track your progress across the four-phase experiential framework.</p>
+  <div class="pg-hdr">
+    <div>
+      <div class="sec-badge">Your Journey</div>
+      <h2 class="sec-h2">4-Year Experiential Journey Map</h2>
+    </div>
+    <img src="${collegeIconPath}" class="pg-hdr-icon" alt="" onerror="this.style.display='none'"/>
+  </div>
+  <p class="sec-sub">Track your progress across the four-phase experiential framework \u2014 from exploration to launch.</p>
   <div class="map-prog">
     <div class="ring">
       <svg viewBox="0 0 100 100">
@@ -1484,39 +1602,56 @@ body{font-family:'Inter',sans-serif;color:var(--t);background:#fff;line-height:1
     </div>
     <div class="prog-t">
       <div class="prog-big">${doneMs} of ${totalMs} Milestones Completed</div>
-      <div class="prog-sm">Generated ${today} · ${branding.programName || prof.title}</div>
+      <div class="prog-sm">Generated ${today} \u00b7 ${branding.programName || prof.title}</div>
     </div>
   </div>
   ${phasesHTML}
+  ${pgFoot(branding.programName || prof.title, 'Experiential Journey Map \u00b7 ' + today)}
 </div>
 
 <!-- PAGE 5: RELATED FIELDS + QR -->
 <div class="pg rel-pg">
-  <div class="sec-badge">Explore Related Fields</div>
-  <h2 class="sec-h2">Students Who Love ${prof.title} Also Explore</h2>
-  <p class="sec-sub">Your interests connect to many fields. Consider a minor or double major in a related area to strengthen your career portfolio.</p>
+  <div class="pg-hdr">
+    <div>
+      <div class="sec-badge">Explore Related Fields</div>
+      <h2 class="sec-h2">Students Who Love ${prof.title} Also Explore</h2>
+    </div>
+    <img src="${collegeIconPath}" class="pg-hdr-icon" alt="" onerror="this.style.display='none'"/>
+  </div>
+  <p class="sec-sub">Your interests connect to many fields. Consider a minor or double major to strengthen your career portfolio.</p>
   <div class="rel-grid">${relHTML}</div>
 
   <div class="qr-section">
     ${qrCodeImg('https://thinkemma.app')}
     <div class="qr-txt">
       <h3>Start Your Journey Today</h3>
-      <p>Scan the QR code to open EMMA — your Experiential Major Mapping Assistant. Track your milestones, explore career paths, and build your experiential portfolio.</p>
+      <p>Scan the QR code to open EMMA \u2014 your Experiential Major Mapping Assistant. Track your milestones, explore career paths, and build your experiential portfolio.</p>
       <div class="qr-url">thinkemma.app</div>
     </div>
   </div>
 
-  <div class="rpt-ft" style="margin-top:3rem">
-    <div><span class="stamp">Aggies Do! 💙💛</span> · Generated by EMMA — Experiential Major Mapping Assistant · ${today}</div>
-    <div>© ${new Date().getFullYear()} Think! Design and Planning, LLC · thinkemma.app</div>
+  <div class="close-brand">
+    <div class="cb-left">
+      <img src="${collegeIconPath}" class="cb-icon" alt="" onerror="this.style.display='none'"/>
+      <div>
+        <div class="cb-aggie">Aggies Do! \ud83d\udc99\ud83d\udc9b</div>
+        <div class="cb-sub">North Carolina Agricultural & Technical State University \u00b7 Greensboro, NC</div>
+      </div>
+    </div>
+    <div class="cb-right">
+      <div class="cb-emma">Generated by EMMA</div>
+      <div class="cb-copy">\u00a9 ${new Date().getFullYear()} Think! Design and Planning, LLC \u00b7 thinkemma.app</div>
+    </div>
   </div>
+
+  ${pgFoot('Aggies Do! \u00b7 ' + collegeName, '\u00a9 ' + new Date().getFullYear() + ' Think! Design & Planning, LLC')}
 </div>
 
 </body></html>`;
 
     const w = window.open('', '_blank');
     if (w) { w.document.write(html); w.document.close(); }
-    else { EMMA_MATRIX?.showToast('⚠️ Pop-up blocked — allow pop-ups', 'error'); }
+    else { EMMA_MATRIX?.showToast('\u26a0\ufe0f Pop-up blocked \u2014 allow pop-ups', 'error'); }
   }
 
   return { generate };
