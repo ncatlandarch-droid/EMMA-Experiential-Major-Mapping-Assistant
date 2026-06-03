@@ -1418,7 +1418,7 @@ body{font-family:'Montserrat',sans-serif;color:var(--t1);background:#fff;line-he
 .cover .tag{font-size:1.05rem;font-weight:600;margin-top:0.7rem;opacity:0.92;max-width:30rem;line-height:1.5}
 .cover-gold-bar{position:absolute;bottom:0;left:0;right:0;height:10px;background:var(--ag);z-index:3}
 .cover-top{position:absolute;top:2rem;left:3rem;right:3rem;z-index:3;display:flex;justify-content:space-between;align-items:flex-start}
-.cover-logo-img{height:55px;width:auto;filter:brightness(10)}
+.cover-logo-img{height:55px;width:auto}
 .cover-col-right{display:flex;align-items:center;gap:0.6rem;text-align:right;color:rgba(255,255,255,0.92)}
 .cover-col-icon{height:40px;width:40px}
 .cover-col-txt .cn{font-size:0.5rem;font-weight:800;text-transform:uppercase;letter-spacing:0.2em;color:var(--ag)}
@@ -1553,7 +1553,7 @@ body{font-family:'Montserrat',sans-serif;color:var(--t1);background:#fff;line-he
         <div class="cn">${collegeName}</div>
         <div class="cs">North Carolina A&T State University</div>
       </div>
-      <img src="${collegeIconAbs}" class="cover-col-icon" alt="" onerror="this.style.display='none'" style="filter:brightness(10)"/>
+      <img src="${collegeIconAbs}" class="cover-col-icon" alt="" onerror="this.style.display='none'"/>
     </div>
   </div>
   <div class="cover-ov">
