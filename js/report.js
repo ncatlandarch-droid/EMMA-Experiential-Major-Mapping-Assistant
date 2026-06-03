@@ -257,7 +257,12 @@ const EMMA_REPORT = (() => {
         { title: 'Internal Auditor', salary: '$65K – $110K', icon: '🛡️', desc: 'Evaluate internal controls, risk management, and operational efficiency.' },
         { title: 'Controller / CFO', salary: '$100K – $250K+', icon: '💼', desc: 'Oversee all financial operations, reporting, and strategy for an organization.' }
       ],
-      images: ['assets/images/professions/prof_economics.png'],
+      images: [
+        'assets/images/professions/prof_accounting.png',
+        'assets/images/professions/prof_accounting_2.png',
+        'assets/images/professions/prof_accounting_3.png',
+        'assets/images/professions/prof_accounting_4.png'
+      ],
       related: [
         { name: 'Finance', why: 'Complementary financial analysis and investment skills' },
         { name: 'Economics', why: 'Macroeconomic context for financial decision-making' },
@@ -278,7 +283,12 @@ const EMMA_REPORT = (() => {
         { title: 'Portfolio Manager', salary: '$90K – $200K+', icon: '📊', desc: 'Manage investment portfolios for institutional and private clients.' },
         { title: 'Risk Analyst', salary: '$70K – $120K', icon: '⚖️', desc: 'Identify and mitigate financial risks for banks and corporations.' }
       ],
-      images: ['assets/images/professions/prof_economics.png'],
+      images: [
+        'assets/images/professions/prof_finance.png',
+        'assets/images/professions/prof_finance_2.png',
+        'assets/images/professions/prof_finance_3.png',
+        'assets/images/professions/prof_finance_4.png'
+      ],
       related: [
         { name: 'Accounting', why: 'Financial statement analysis and audit foundations' },
         { name: 'Economics', why: 'Market theory and quantitative methods' },
@@ -299,7 +309,12 @@ const EMMA_REPORT = (() => {
         { title: 'Management Consultant', salary: '$75K – $160K', icon: '💼', desc: 'Advise firms on strategy, operations, and market positioning.' },
         { title: 'Market Research Analyst', salary: '$55K – $95K', icon: '🔍', desc: 'Study consumer behavior and competitive landscapes to guide business strategy.' }
       ],
-      images: ['assets/images/professions/prof_economics.png'],
+      images: [
+        'assets/images/professions/prof_economics.png',
+        'assets/images/professions/prof_economics_2.png',
+        'assets/images/professions/prof_economics_3.png',
+        'assets/images/professions/prof_economics_4.png'
+      ],
       related: [
         { name: 'Finance', why: 'Applied financial economics and modeling' },
         { name: 'Mathematics — Applied', why: 'Quantitative and statistical foundations' },
@@ -320,7 +335,12 @@ const EMMA_REPORT = (() => {
         { title: 'Project Manager', salary: '$70K – $130K', icon: '📋', desc: 'Plan, execute, and deliver projects on time and within budget.' },
         { title: 'Management Consultant', salary: '$75K – $160K', icon: '💡', desc: 'Advise organizations on strategy, structure, and performance improvement.' }
       ],
-      images: ['assets/images/professions/prof_economics.png'],
+      images: [
+        'assets/images/professions/prof_management.png',
+        'assets/images/professions/prof_management_2.png',
+        'assets/images/professions/prof_management_3.png',
+        'assets/images/professions/prof_management_4.png'
+      ],
       related: [
         { name: 'Marketing', why: 'Brand strategy and customer acquisition' },
         { name: 'Supply Chain Management', why: 'Operations and logistics integration' },
@@ -341,7 +361,12 @@ const EMMA_REPORT = (() => {
         { title: 'Cybersecurity Analyst', salary: '$75K – $130K', icon: '🔒', desc: 'Protect organizations from cyber threats and data breaches.' },
         { title: 'ERP Consultant', salary: '$80K – $150K', icon: '⚙️', desc: 'Implement and customize enterprise resource planning systems (SAP, Oracle).' }
       ],
-      images: ['assets/images/professions/prof_economics.png'],
+      images: [
+        'assets/images/professions/prof_info_tech.png',
+        'assets/images/professions/prof_info_tech_2.png',
+        'assets/images/professions/prof_info_tech_3.png',
+        'assets/images/professions/prof_info_tech_4.png'
+      ],
       related: [
         { name: 'Computer Science', why: 'Deeper programming and algorithm design' },
         { name: 'Information Technology', why: 'Infrastructure and network administration' },
@@ -362,7 +387,12 @@ const EMMA_REPORT = (() => {
         { title: 'Sales Director', salary: '$80K – $180K+', icon: '🤝', desc: 'Lead sales teams and revenue growth for organizations.' },
         { title: 'Advertising Creative Director', salary: '$75K – $140K', icon: '🎨', desc: 'Lead creative campaigns across TV, digital, print, and experiential channels.' }
       ],
-      images: ['assets/images/professions/prof_economics.png'],
+      images: [
+        'assets/images/professions/prof_marketing.png',
+        'assets/images/professions/prof_marketing_2.png',
+        'assets/images/professions/prof_marketing_3.png',
+        'assets/images/professions/prof_marketing_4.png'
+      ],
       related: [
         { name: 'Visual Arts — Graphic Design', why: 'Design skills for brand and campaign visuals' },
         { name: 'Journalism — PR', why: 'Public relations and media strategy' },
@@ -383,7 +413,12 @@ const EMMA_REPORT = (() => {
         { title: 'Operations Research Analyst', salary: '$75K – $130K', icon: '📈', desc: 'Use data and mathematical models to improve operational efficiency.' },
         { title: 'Global Trade Compliance Specialist', salary: '$65K – $110K', icon: '🌍', desc: 'Navigate international trade regulations, tariffs, and import/export compliance.' }
       ],
-      images: ['assets/images/professions/prof_economics.png'],
+      images: [
+        'assets/images/professions/prof_supply_chain.png',
+        'assets/images/professions/prof_supply_chain_2.png',
+        'assets/images/professions/prof_supply_chain_3.png',
+        'assets/images/professions/prof_supply_chain_4.png'
+      ],
       related: [
         { name: 'Industrial Engineering', why: 'Process optimization and operations research' },
         { name: 'Management', why: 'Operations leadership and strategy' },
@@ -406,7 +441,12 @@ const EMMA_REPORT = (() => {
         { title: 'Biomedical Engineer', salary: '$80K – $140K', icon: '🦾', desc: 'Develop medical devices, prosthetics, and healthcare technology.' },
         { title: 'AI / Machine Learning Engineer', salary: '$100K – $250K+', icon: '🤖', desc: 'Build intelligent systems that learn, reason, and automate complex tasks.' }
       ],
-      images: ['assets/images/professions/prof_applied_engineering.png'],
+      images: [
+        'assets/images/professions/prof_applied_eng.png',
+        'assets/images/professions/prof_applied_eng_2.png',
+        'assets/images/professions/prof_applied_eng_3.png',
+        'assets/images/professions/prof_applied_eng_4.png'
+      ],
       related: [
         { name: 'Computer Science', why: 'Software and algorithm design' },
         { name: 'Mathematics — Applied', why: 'Advanced calculus, linear algebra, and modeling' },
@@ -428,7 +468,12 @@ const EMMA_REPORT = (() => {
         { title: 'Full-Stack Developer', salary: '$80K – $160K', icon: '🔧', desc: 'Build complete web applications — frontend, backend, and database.' },
         { title: 'AI Research Scientist', salary: '$120K – $300K+', icon: '🧠', desc: 'Advance the frontier of artificial intelligence and machine learning.' }
       ],
-      images: ['assets/images/professions/prof_electronics.png'],
+      images: [
+        'assets/images/professions/prof_computer_science.png',
+        'assets/images/professions/prof_computer_science_2.png',
+        'assets/images/professions/prof_computer_science_3.png',
+        'assets/images/professions/prof_computer_science_4.png'
+      ],
       related: [
         { name: 'Computer Engineering', why: 'Hardware-software integration' },
         { name: 'Mathematics — Data Science', why: 'Statistical modeling and algorithms' },
@@ -449,7 +494,12 @@ const EMMA_REPORT = (() => {
         { title: 'Healthcare Systems Engineer', salary: '$75K – $130K', icon: '🏥', desc: 'Optimize hospital workflows, patient flow, and healthcare delivery systems.' },
         { title: 'Operations Research Analyst', salary: '$80K – $140K', icon: '🧮', desc: 'Use mathematical modeling to solve complex organizational problems.' }
       ],
-      images: ['assets/images/professions/prof_applied_engineering.png'],
+      images: [
+        'assets/images/professions/prof_applied_eng.png',
+        'assets/images/professions/prof_applied_eng_2.png',
+        'assets/images/professions/prof_applied_eng_3.png',
+        'assets/images/professions/prof_applied_eng_4.png'
+      ],
       related: [
         { name: 'Supply Chain Management', why: 'Logistics and operations management' },
         { name: 'Computer Science', why: 'Simulation and optimization algorithms' },
@@ -472,7 +522,12 @@ const EMMA_REPORT = (() => {
         { title: 'Nurse Educator', salary: '$75K – $110K', icon: '📚', desc: 'Teach the next generation of nurses in academic and clinical settings.' },
         { title: 'Nurse Anesthetist (CRNA)', salary: '$190K – $250K+', icon: '💉', desc: 'Administer anesthesia for surgical procedures. Among the highest-paid nursing roles.' }
       ],
-      images: ['assets/images/professions/prof_health_mgmt.png'],
+      images: [
+        'assets/images/professions/prof_nursing.png',
+        'assets/images/professions/prof_nursing_2.png',
+        'assets/images/professions/prof_nursing_3.png',
+        'assets/images/professions/prof_nursing_4.png'
+      ],
       related: [
         { name: 'Biology — Pre-Med', why: 'Shared science foundation for healthcare careers' },
         { name: 'Psychology', why: 'Patient mental health and behavioral health' },
@@ -493,7 +548,12 @@ const EMMA_REPORT = (() => {
         { title: 'Medical SLP', salary: '$70K – $110K', icon: '🏥', desc: 'Treat swallowing disorders and communication after stroke or brain injury.' },
         { title: 'School-Based SLP', salary: '$55K – $85K', icon: '🏫', desc: 'Provide speech therapy services in K-12 schools.' }
       ],
-      images: ['assets/images/professions/prof_health_mgmt.png'],
+      images: [
+        'assets/images/professions/prof_speech_path.png',
+        'assets/images/professions/prof_speech_path_2.png',
+        'assets/images/professions/prof_speech_path_3.png',
+        'assets/images/professions/prof_speech_path_4.png'
+      ],
       related: [
         { name: 'Psychology', why: 'Cognitive and developmental science' },
         { name: 'Nursing', why: 'Patient care and medical terminology' },
@@ -536,7 +596,12 @@ const EMMA_REPORT = (() => {
         { title: 'Sports Medicine Physician', salary: '$200K – $350K+', icon: '🩺', desc: 'Diagnose and treat sports injuries. Requires MD/DO.' },
         { title: 'Recreation & Sports Manager', salary: '$50K – $85K', icon: '🏟️', desc: 'Manage sports facilities, recreation programs, and athletic departments.' }
       ],
-      images: ['assets/images/professions/prof_health_mgmt.png'],
+      images: [
+        'assets/images/professions/prof_kinesiology.png',
+        'assets/images/professions/prof_kinesiology_2.png',
+        'assets/images/professions/prof_kinesiology_3.png',
+        'assets/images/professions/prof_kinesiology_4.png'
+      ],
       related: [
         { name: 'Biology — Pre-Med', why: 'Pre-medical foundation for PT and MD paths' },
         { name: 'Nursing', why: 'Patient care and clinical health' },
@@ -579,7 +644,12 @@ const EMMA_REPORT = (() => {
         { title: 'Research Psychologist', salary: '$60K – $100K', icon: '🔬', desc: 'Conduct experiments and studies to advance understanding of human behavior.' },
         { title: 'Licensed Counselor', salary: '$50K – $80K', icon: '💬', desc: 'Provide therapy for individuals, couples, and families. Requires master\'s.' }
       ],
-      images: ['assets/images/professions/prof_health_mgmt.png'],
+      images: [
+        'assets/images/professions/prof_psychology.png',
+        'assets/images/professions/prof_psychology_2.png',
+        'assets/images/professions/prof_psychology_3.png',
+        'assets/images/professions/prof_psychology_4.png'
+      ],
       related: [
         { name: 'Social Work', why: 'Community mental health and counseling' },
         { name: 'Criminal Justice', why: 'Forensic psychology and behavioral analysis' },
@@ -621,7 +691,12 @@ const EMMA_REPORT = (() => {
         { title: 'Hospital Social Worker', salary: '$50K – $75K', icon: '🏥', desc: 'Help patients and families navigate healthcare, insurance, and discharge planning.' },
         { title: 'Community Development Coordinator', salary: '$45K – $70K', icon: '🤝', desc: 'Build programs to address housing, employment, and community health needs.' }
       ],
-      images: ['assets/images/professions/prof_health_mgmt.png'],
+      images: [
+        'assets/images/professions/prof_social_work.png',
+        'assets/images/professions/prof_social_work_2.png',
+        'assets/images/professions/prof_social_work_3.png',
+        'assets/images/professions/prof_social_work_4.png'
+      ],
       related: [
         { name: 'Psychology', why: 'Clinical therapy and behavioral science' },
         { name: 'Sociology', why: 'Understanding social systems and inequality' },
@@ -644,7 +719,12 @@ const EMMA_REPORT = (() => {
         { title: 'Juvenile Justice Counselor', salary: '$40K – $60K', icon: '👦', desc: 'Counsel at-risk youth and manage juvenile diversion programs.' },
         { title: 'Cybersecurity / Digital Forensics', salary: '$65K – $120K', icon: '💻', desc: 'Investigate digital crimes, recover evidence, and protect cyber infrastructure.' }
       ],
-      images: ['assets/images/professions/prof_sociology.png'],
+      images: [
+        'assets/images/professions/prof_criminal_justice.png',
+        'assets/images/professions/prof_criminal_justice_2.png',
+        'assets/images/professions/prof_criminal_justice_3.png',
+        'assets/images/professions/prof_criminal_justice_4.png'
+      ],
       related: [
         { name: 'Sociology', why: 'Criminology and social deviance' },
         { name: 'Psychology', why: 'Criminal behavior and forensic psychology' },
@@ -687,7 +767,12 @@ const EMMA_REPORT = (() => {
         { title: 'Intelligence Analyst', salary: '$60K – $100K', icon: '🔍', desc: 'Analyze geopolitical and historical intelligence for government agencies.' },
         { title: 'Historic Preservation Specialist', salary: '$50K – $85K', icon: '🏰', desc: 'Protect and restore historic sites, buildings, and cultural landscapes.' }
       ],
-      images: ['assets/images/professions/prof_history.png'],
+      images: [
+        'assets/images/professions/prof_history.png',
+        'assets/images/professions/prof_history_2.png',
+        'assets/images/professions/prof_history_3.png',
+        'assets/images/professions/prof_history_4.png'
+      ],
       related: [
         { name: 'Political Science', why: 'Government and political history' },
         { name: 'English', why: 'Research writing and critical analysis' },
@@ -708,7 +793,12 @@ const EMMA_REPORT = (() => {
         { title: 'Diplomat / Foreign Service Officer', salary: '$60K – $120K', icon: '🌍', desc: 'Represent U.S. interests abroad at embassies and the State Department.' },
         { title: 'Lobbyist / Government Relations', salary: '$65K – $160K+', icon: '🤝', desc: 'Advocate for organizations\' interests before lawmakers and regulators.' }
       ],
-      images: ['assets/images/professions/prof_sociology.png'],
+      images: [
+        'assets/images/professions/prof_political_science.png',
+        'assets/images/professions/prof_political_science_2.png',
+        'assets/images/professions/prof_political_science_3.png',
+        'assets/images/professions/prof_political_science_4.png'
+      ],
       related: [
         { name: 'Criminal Justice', why: 'Law and justice system' },
         { name: 'History', why: 'Political and constitutional history' },
@@ -730,7 +820,12 @@ const EMMA_REPORT = (() => {
         { title: 'Investigative Reporter', salary: '$40K – $85K', icon: '🔍', desc: 'Uncover corruption, injustice, and wrongdoing through deep investigative work.' },
         { title: 'Multimedia Producer', salary: '$50K – $90K', icon: '🎥', desc: 'Create video, audio, and interactive content for digital platforms.' }
       ],
-      images: ['assets/images/professions/prof_communications.png'],
+      images: [
+        'assets/images/professions/prof_journalism.png',
+        'assets/images/professions/prof_journalism_2.png',
+        'assets/images/professions/prof_journalism_3.png',
+        'assets/images/professions/prof_journalism_4.png'
+      ],
       related: [
         { name: 'Communication Studies', why: 'Media theory and persuasion' },
         { name: 'English — Creative Writing', why: 'Storytelling and narrative craft' },
@@ -772,7 +867,12 @@ const EMMA_REPORT = (() => {
         { title: 'Motion Graphics Designer', salary: '$55K – $95K', icon: '🎬', desc: 'Create animated visual content for film, TV, and digital platforms.' },
         { title: 'Gallery Director / Curator', salary: '$45K – $85K', icon: '🏛️', desc: 'Manage art galleries and curate exhibitions for public engagement.' }
       ],
-      images: ['assets/images/professions/prof_comp_graphics.png'],
+      images: [
+        'assets/images/professions/prof_visual_arts.png',
+        'assets/images/professions/prof_visual_arts_2.png',
+        'assets/images/professions/prof_visual_arts_3.png',
+        'assets/images/professions/prof_visual_arts_4.png'
+      ],
       related: [
         { name: 'Computer Graphics Technology', why: '3D modeling and digital production' },
         { name: 'Marketing', why: 'Brand design and advertising' },
@@ -793,7 +893,12 @@ const EMMA_REPORT = (() => {
         { title: 'Audio Engineer', salary: '$45K – $90K', icon: '🎧', desc: 'Record, mix, and master audio for music, film, podcasts, and live events.' },
         { title: 'Music Therapist', salary: '$45K – $70K', icon: '💚', desc: 'Use music to treat physical, emotional, and cognitive conditions.' }
       ],
-      images: ['assets/images/professions/prof_communications.png'],
+      images: [
+        'assets/images/professions/prof_music.png',
+        'assets/images/professions/prof_music_2.png',
+        'assets/images/professions/prof_music_3.png',
+        'assets/images/professions/prof_music_4.png'
+      ],
       related: [
         { name: 'Theatre Arts', why: 'Performance and production arts' },
         { name: 'Communication Studies', why: 'Media and creative expression' },
@@ -814,7 +919,12 @@ const EMMA_REPORT = (() => {
         { title: 'Costume Designer', salary: '$40K – $80K', icon: '👗', desc: 'Design costumes that bring characters to life across media.' },
         { title: 'Stage Manager', salary: '$40K – $75K', icon: '📋', desc: 'Coordinate all elements of theatrical production — scheduling, cues, and logistics.' }
       ],
-      images: ['assets/images/professions/prof_communications.png'],
+      images: [
+        'assets/images/professions/prof_theatre.png',
+        'assets/images/professions/prof_theatre_2.png',
+        'assets/images/professions/prof_theatre_3.png',
+        'assets/images/professions/prof_theatre_4.png'
+      ],
       related: [
         { name: 'Music', why: 'Musical theatre and performance arts' },
         { name: 'English — Creative Writing', why: 'Playwriting and dramatic literature' },
@@ -836,7 +946,12 @@ const EMMA_REPORT = (() => {
         { title: 'Instructional Coach', salary: '$55K – $80K', icon: '🎯', desc: 'Mentor and support teachers in improving classroom instruction.' },
         { title: 'School Principal', salary: '$80K – $130K', icon: '🏫', desc: 'Lead school operations, culture, and academic achievement. Requires graduate degree.' }
       ],
-      images: ['assets/images/professions/prof_health_mgmt.png'],
+      images: [
+        'assets/images/professions/prof_education.png',
+        'assets/images/professions/prof_education_2.png',
+        'assets/images/professions/prof_education_3.png',
+        'assets/images/professions/prof_education_4.png'
+      ],
       related: [
         { name: 'Child Development & Family Studies', why: 'Early childhood development expertise' },
         { name: 'Psychology', why: 'Educational and child psychology' },
@@ -857,7 +972,12 @@ const EMMA_REPORT = (() => {
         { title: 'Family Engagement Coordinator', salary: '$40K – $65K', icon: '👪', desc: 'Build partnerships between families, schools, and community organizations.' },
         { title: 'Education Program Manager', salary: '$55K – $90K', icon: '📋', desc: 'Manage educational programs for nonprofits, government, and foundations.' }
       ],
-      images: ['assets/images/professions/prof_health_mgmt.png'],
+      images: [
+        'assets/images/professions/prof_education.png',
+        'assets/images/professions/prof_education_2.png',
+        'assets/images/professions/prof_education_3.png',
+        'assets/images/professions/prof_education_4.png'
+      ],
       related: [
         { name: 'Business Information Technology', why: 'EdTech and learning management systems' },
         { name: 'Communication Studies', why: 'Training and professional development' },
@@ -878,7 +998,12 @@ const EMMA_REPORT = (() => {
         { title: 'Plant Manager', salary: '$70K – $130K', icon: '🏗️', desc: 'Oversee entire manufacturing facility operations and workforce.' },
         { title: 'Technical Sales Engineer', salary: '$60K – $110K', icon: '🤝', desc: 'Sell complex engineering products and provide technical support to clients.' }
       ],
-      images: ['assets/images/professions/prof_applied_engineering.png'],
+      images: [
+        'assets/images/professions/prof_applied_eng.png',
+        'assets/images/professions/prof_applied_eng_2.png',
+        'assets/images/professions/prof_applied_eng_3.png',
+        'assets/images/professions/prof_applied_eng_4.png'
+      ],
       related: [
         { name: 'Industrial & Systems Engineering', why: 'Process optimization and quality' },
         { name: 'Construction Management', why: 'Project management in construction' },
@@ -921,7 +1046,12 @@ const EMMA_REPORT = (() => {
         { title: 'Environmental Biologist', salary: '$50K – $80K', icon: '🌿', desc: 'Study ecosystems and the impact of human activity on biodiversity.' },
         { title: 'Genetic Counselor', salary: '$70K – $100K', icon: '🧬', desc: 'Help patients understand genetic test results and inherited conditions.' }
       ],
-      images: ['assets/images/professions/prof_health_mgmt.png'],
+      images: [
+        'assets/images/professions/prof_biology.png',
+        'assets/images/professions/prof_biology_2.png',
+        'assets/images/professions/prof_biology_3.png',
+        'assets/images/professions/prof_biology_4.png'
+      ],
       related: [
         { name: 'Chemistry', why: 'Biochemistry and lab science' },
         { name: 'Animal Science', why: 'Comparative anatomy and physiology' },
@@ -942,7 +1072,12 @@ const EMMA_REPORT = (() => {
         { title: 'Safety Manager', salary: '$65K – $100K', icon: '🛡️', desc: 'Develop and enforce workplace safety programs on construction sites.' },
         { title: 'Real Estate Developer', salary: '$80K – $300K+', icon: '🏢', desc: 'Develop commercial and residential real estate projects.' }
       ],
-      images: ['assets/images/professions/prof_applied_engineering.png'],
+      images: [
+        'assets/images/professions/prof_construction_mgmt.png',
+        'assets/images/professions/prof_construction_mgmt_2.png',
+        'assets/images/professions/prof_construction_mgmt_3.png',
+        'assets/images/professions/prof_construction_mgmt_4.png'
+      ],
       related: [
         { name: 'Civil Engineering', why: 'Structural design and infrastructure' },
         { name: 'Landscape Architecture', why: 'Site development and outdoor construction' },
@@ -963,7 +1098,12 @@ const EMMA_REPORT = (() => {
         { title: 'Hazardous Waste Manager', salary: '$60K – $100K', icon: '☢️', desc: 'Manage storage, treatment, and disposal of hazardous materials.' },
         { title: 'Environmental Scientist', salary: '$55K – $90K', icon: '🌿', desc: 'Monitor air, water, and soil quality to protect public health.' }
       ],
-      images: ['assets/images/professions/prof_env_health.png'],
+      images: [
+        'assets/images/professions/prof_env_health.png',
+        'assets/images/professions/prof_env_health_2.png',
+        'assets/images/professions/prof_env_health_3.png',
+        'assets/images/professions/prof_env_health_4.png'
+      ],
       related: [
         { name: 'Environmental Studies', why: 'Environmental science and policy' },
         { name: 'Biology', why: 'Toxicology and environmental biology' },
@@ -984,7 +1124,12 @@ const EMMA_REPORT = (() => {
         { title: 'Drone / UAS Operator', salary: '$50K – $90K', icon: '🚁', desc: 'Operate drones for surveying, mapping, and inspection.' },
         { title: 'Cartographer', salary: '$50K – $80K', icon: '🌐', desc: 'Design and produce maps for government, military, and commercial use.' }
       ],
-      images: ['assets/images/professions/prof_environmental.png'],
+      images: [
+        'assets/images/professions/prof_geomatics.png',
+        'assets/images/professions/prof_geomatics_2.png',
+        'assets/images/professions/prof_geomatics_3.png',
+        'assets/images/professions/prof_geomatics_4.png'
+      ],
       related: [
         { name: 'Landscape Architecture', why: 'Site planning and GIS mapping' },
         { name: 'Environmental Studies', why: 'Environmental monitoring and analysis' },
@@ -1005,7 +1150,12 @@ const EMMA_REPORT = (() => {
         { title: 'Forensic Chemist', salary: '$55K – $85K', icon: '🔍', desc: 'Analyze physical evidence — drugs, DNA, toxicology — for criminal investigations.' },
         { title: 'Chemical Process Engineer', salary: '$70K – $120K', icon: '⚗️', desc: 'Optimize chemical manufacturing processes for efficiency and safety.' }
       ],
-      images: ['assets/images/professions/prof_health_mgmt.png'],
+      images: [
+        'assets/images/professions/prof_chemistry.png',
+        'assets/images/professions/prof_chemistry_2.png',
+        'assets/images/professions/prof_chemistry_3.png',
+        'assets/images/professions/prof_chemistry_4.png'
+      ],
       related: [
         { name: 'Biology', why: 'Biochemistry and life sciences' },
         { name: 'Chemical Engineering', why: 'Chemical process scale-up and manufacturing' },
@@ -1047,7 +1197,12 @@ const EMMA_REPORT = (() => {
         { title: 'Cybersecurity Specialist', salary: '$75K – $130K', icon: '🔒', desc: 'Protect systems and data from cyber threats and vulnerabilities.' },
         { title: 'IT Manager', salary: '$85K – $150K', icon: '💼', desc: 'Lead IT departments and technology strategy for organizations.' }
       ],
-      images: ['assets/images/professions/prof_electronics.png'],
+      images: [
+        'assets/images/professions/prof_info_tech.png',
+        'assets/images/professions/prof_info_tech_2.png',
+        'assets/images/professions/prof_info_tech_3.png',
+        'assets/images/professions/prof_info_tech_4.png'
+      ],
       related: [
         { name: 'Computer Science', why: 'Software development and algorithms' },
         { name: 'Business Information Technology', why: 'Business applications of IT' },
@@ -1090,7 +1245,12 @@ const EMMA_REPORT = (() => {
         { title: 'Operations Research Analyst', salary: '$75K – $130K', icon: '🧮', desc: 'Use advanced math to help organizations make better decisions.' },
         { title: 'Mathematics Professor', salary: '$60K – $120K', icon: '🎓', desc: 'Teach and conduct mathematical research at universities.' }
       ],
-      images: ['assets/images/professions/prof_electronics.png'],
+      images: [
+        'assets/images/professions/prof_mathematics.png',
+        'assets/images/professions/prof_mathematics_2.png',
+        'assets/images/professions/prof_mathematics_3.png',
+        'assets/images/professions/prof_mathematics_4.png'
+      ],
       related: [
         { name: 'Computer Science', why: 'Algorithms and computational thinking' },
         { name: 'Economics', why: 'Econometrics and quantitative analysis' },
@@ -1111,7 +1271,12 @@ const EMMA_REPORT = (() => {
         { title: 'Air Quality Scientist', salary: '$55K – $90K', icon: '🌬️', desc: 'Monitor and model air quality and pollution for public health agencies.' },
         { title: 'Emergency Management Specialist', salary: '$50K – $85K', icon: '🚨', desc: 'Plan disaster response and community preparedness for extreme weather.' }
       ],
-      images: ['assets/images/professions/prof_environmental.png'],
+      images: [
+        'assets/images/professions/prof_meteorology.png',
+        'assets/images/professions/prof_meteorology_2.png',
+        'assets/images/professions/prof_meteorology_3.png',
+        'assets/images/professions/prof_meteorology_4.png'
+      ],
       related: [
         { name: 'Environmental Studies', why: 'Climate science and environmental policy' },
         { name: 'Geomatics', why: 'Remote sensing and geospatial analysis' },
@@ -1132,7 +1297,12 @@ const EMMA_REPORT = (() => {
         { title: 'Optical Engineer', salary: '$80K – $130K', icon: '🔭', desc: 'Design optical systems — lasers, fiber optics, imaging, and photonics.' },
         { title: 'Aerospace Physicist', salary: '$90K – $150K', icon: '🚀', desc: 'Apply physics to spacecraft design, propulsion, and space exploration.' }
       ],
-      images: ['assets/images/professions/prof_electronics.png'],
+      images: [
+        'assets/images/professions/prof_physics.png',
+        'assets/images/professions/prof_physics_2.png',
+        'assets/images/professions/prof_physics_3.png',
+        'assets/images/professions/prof_physics_4.png'
+      ],
       related: [
         { name: 'Mathematics', why: 'Mathematical physics and advanced calculus' },
         { name: 'Electrical Engineering', why: 'Semiconductor physics and electronics' },
