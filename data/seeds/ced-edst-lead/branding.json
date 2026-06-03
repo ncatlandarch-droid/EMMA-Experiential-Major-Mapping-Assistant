@@ -79,5 +79,28 @@
     ]
   },
   "validationLabel": "Praxis School Leadership + Principal Licensure",
-  "validationType": "slla"
+  "validationType": "slla",
+  "professionalOrgs": [
+    {
+      "id": "nea-ed",
+      "name": "National Education Association (NEA)",
+      "description": "The largest professional employee organization in the U.S. — advocacy for educators and students",
+      "url": "https://www.nea.org",
+      "icon": "🎓"
+    },
+    {
+      "id": "ascd",
+      "name": "ASCD (Association for Supervision and Curriculum Development)",
+      "description": "Community of educators advancing best practices in teaching and learning",
+      "url": "https://www.ascd.org",
+      "icon": "📚"
+    },
+    {
+      "id": "nassp",
+      "name": "National Association of Secondary School Principals (NASSP)",
+      "description": "Advancing school leadership — professional learning, advocacy, and student programs",
+      "url": "https://www.nassp.org",
+      "icon": "🏫"
+    }
+  ]
 }

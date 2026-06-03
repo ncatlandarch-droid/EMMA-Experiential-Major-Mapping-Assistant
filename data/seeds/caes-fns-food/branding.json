@@ -9,16 +9,40 @@
   "tagline": "Science Behind the Food — From Farm to Fork",
   "programDescription": "The Food Science concentration applies chemistry, microbiology, and engineering to ensure food safety, quality, and innovation. Students work in state-of-the-art laboratories conducting research on food processing, preservation, and product development. The program prepares graduates for careers in the food industry, government regulatory agencies, and graduate research programs.",
   "brandingColors": {
-    "primaryHex": "#004684", "primaryRgb": "0, 70, 132",
-    "secondaryHex": "#fdb927", "secondaryRgb": "253, 185, 39",
-    "backgroundHex": "#F0F2F5", "surfaceHex": "#FFFFFF",
-    "textPrimaryHex": "#1A1A2E", "textSecondaryHex": "#555770"
+    "primaryHex": "#004684",
+    "primaryRgb": "0, 70, 132",
+    "secondaryHex": "#fdb927",
+    "secondaryRgb": "253, 185, 39",
+    "backgroundHex": "#F0F2F5",
+    "surfaceHex": "#FFFFFF",
+    "textPrimaryHex": "#1A1A2E",
+    "textSecondaryHex": "#555770"
   },
   "categoryColors": {
-    "Purpose": { "hex": "#2563EB", "rgb": "37, 99, 235", "emoji": "🔍", "label": "Purpose & Self-Discovery" },
-    "Communities": { "hex": "#059669", "rgb": "5, 150, 105", "emoji": "🤝", "label": "Communities & Service" },
-    "LocalGlobal": { "hex": "#D97706", "rgb": "217, 119, 6", "emoji": "🌍", "label": "Local & Global Engagement" },
-    "Identity": { "hex": "#7C3AED", "rgb": "124, 58, 237", "emoji": "💼", "label": "Professional Identity" }
+    "Purpose": {
+      "hex": "#2563EB",
+      "rgb": "37, 99, 235",
+      "emoji": "🔍",
+      "label": "Purpose & Self-Discovery"
+    },
+    "Communities": {
+      "hex": "#059669",
+      "rgb": "5, 150, 105",
+      "emoji": "🤝",
+      "label": "Communities & Service"
+    },
+    "LocalGlobal": {
+      "hex": "#D97706",
+      "rgb": "217, 119, 6",
+      "emoji": "🌍",
+      "label": "Local & Global Engagement"
+    },
+    "Identity": {
+      "hex": "#7C3AED",
+      "rgb": "124, 58, 237",
+      "emoji": "💼",
+      "label": "Professional Identity"
+    }
   },
   "validationType": "competency",
   "validationLabel": "IFT Certification Readiness + Food Safety Competency",
@@ -33,8 +57,13 @@
     "topSalary": "$135,000+",
     "totalJobs": "17,600",
     "topEmployers": [
-      "FDA", "USDA Food Safety & Inspection Service", "Nestlé", "PepsiCo",
-      "Tyson Foods", "General Mills", "McCormick & Company",
+      "FDA",
+      "USDA Food Safety & Inspection Service",
+      "Nestlé",
+      "PepsiCo",
+      "Tyson Foods",
+      "General Mills",
+      "McCormick & Company",
       "NC Department of Agriculture Food Labs"
     ],
     "certifications": [
@@ -44,14 +73,45 @@
       "SQF Practitioner"
     ],
     "relatedFields": [
-      "Food Engineering", "Food Safety", "Quality Assurance",
-      "Product Development", "Regulatory Science"
+      "Food Engineering",
+      "Food Safety",
+      "Quality Assurance",
+      "Product Development",
+      "Regulatory Science"
     ],
     "keySkills": [
-      "Food Chemistry", "Microbiology", "HACCP Implementation",
-      "Sensory Evaluation", "Product Development", "Food Processing",
-      "Quality Control", "Regulatory Compliance"
+      "Food Chemistry",
+      "Microbiology",
+      "HACCP Implementation",
+      "Sensory Evaluation",
+      "Product Development",
+      "Food Processing",
+      "Quality Control",
+      "Regulatory Compliance"
     ],
     "outlook": "Food scientists are essential to ensuring the safety and quality of the global food supply. The $1.8 trillion U.S. food industry consistently needs graduates who can innovate in processing, packaging, and food safety compliance."
-  }
+  },
+  "professionalOrgs": [
+    {
+      "id": "ift",
+      "name": "Institute of Food Technologists (IFT)",
+      "description": "Advancing food science and technology for the benefit of people and planet",
+      "url": "https://www.ift.org",
+      "icon": "🔬"
+    },
+    {
+      "id": "and",
+      "name": "Academy of Nutrition and Dietetics (AND)",
+      "description": "The world's largest organization of food and nutrition professionals",
+      "url": "https://www.eatright.org",
+      "icon": "🥗"
+    },
+    {
+      "id": "iafp",
+      "name": "International Association for Food Protection (IAFP)",
+      "description": "Advancing food safety worldwide through science",
+      "url": "https://www.foodprotection.org",
+      "icon": "🛡️"
+    }
+  ]
 }

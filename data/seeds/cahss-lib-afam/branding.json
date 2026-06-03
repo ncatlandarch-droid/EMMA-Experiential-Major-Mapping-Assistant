@@ -79,5 +79,28 @@
     ]
   },
   "validationLabel": "GRE + Research Portfolio",
-  "validationType": "gre"
+  "validationType": "gre",
+  "professionalOrgs": [
+    {
+      "id": "ncbs",
+      "name": "National Council for Black Studies (NCBS)",
+      "description": "Advancing the discipline of Africana/Black Studies through education and research",
+      "url": "https://www.ncbsonline.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "asalh",
+      "name": "Association for the Study of African American Life and History (ASALH)",
+      "description": "Founded by Carter G. Woodson — promoting the study of Black life, history, and culture",
+      "url": "https://asalh.org",
+      "icon": "📜"
+    },
+    {
+      "id": "aaas",
+      "name": "American Academy of Arts & Sciences",
+      "description": "Honoring excellence and advancing interdisciplinary research for the public good",
+      "url": "https://www.amacad.org",
+      "icon": "🏛️"
+    }
+  ]
 }

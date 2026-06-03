@@ -80,5 +80,28 @@
     ]
   },
   "validationLabel": "APR Accreditation + ACEJMC",
-  "validationType": "apr"
+  "validationType": "apr",
+  "professionalOrgs": [
+    {
+      "id": "prsa",
+      "name": "Public Relations Society of America (PRSA)",
+      "description": "Advancing the profession of public relations — APR certification, ethics, and community",
+      "url": "https://www.prsa.org",
+      "icon": "📣"
+    },
+    {
+      "id": "nabj",
+      "name": "National Association of Black Journalists (NABJ)",
+      "description": "Advocating for diversity in newsrooms and media — scholarships, mentorship, and community",
+      "url": "https://www.nabj.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "prssa",
+      "name": "Public Relations Student Society of America (PRSSA)",
+      "description": "Student organization fostering future PR professionals — leadership and networking",
+      "url": "https://prssa.prsa.org",
+      "icon": "📚"
+    }
+  ]
 }

@@ -78,5 +78,28 @@
     ]
   },
   "validationLabel": "Praxis Social Studies + GRE History",
-  "validationType": "praxis-ss"
+  "validationType": "praxis-ss",
+  "professionalOrgs": [
+    {
+      "id": "aha",
+      "name": "American Historical Association (AHA)",
+      "description": "The largest society of historians in the U.S. — research, teaching, and professional standards",
+      "url": "https://www.historians.org",
+      "icon": "📜"
+    },
+    {
+      "id": "asalh",
+      "name": "Association for the Study of African American Life and History (ASALH)",
+      "description": "Founded by Carter G. Woodson — promoting the study of Black life, history, and culture",
+      "url": "https://asalh.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "oah",
+      "name": "Organization of American Historians (OAH)",
+      "description": "Promoting excellence in scholarship, teaching, and public understanding of American history",
+      "url": "https://www.oah.org",
+      "icon": "🏛️"
+    }
+  ]
 }

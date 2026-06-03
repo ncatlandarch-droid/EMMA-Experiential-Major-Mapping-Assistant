@@ -79,5 +79,28 @@
     ]
   },
   "validationLabel": "GRE Literature + Writing Portfolio",
-  "validationType": "gre-lit"
+  "validationType": "gre-lit",
+  "professionalOrgs": [
+    {
+      "id": "awp",
+      "name": "Association of Writers & Writing Programs (AWP)",
+      "description": "Community for writers and creative writing programs — conferences, publications, career resources",
+      "url": "https://www.awpwriter.org",
+      "icon": "✍️"
+    },
+    {
+      "id": "ncte",
+      "name": "National Council of Teachers of English (NCTE)",
+      "description": "Advancing English language arts education through advocacy, research, and professional development",
+      "url": "https://ncte.org",
+      "icon": "📖"
+    },
+    {
+      "id": "pen",
+      "name": "PEN America",
+      "description": "Defending free expression and supporting writers worldwide",
+      "url": "https://pen.org",
+      "icon": "🖊️"
+    }
+  ]
 }

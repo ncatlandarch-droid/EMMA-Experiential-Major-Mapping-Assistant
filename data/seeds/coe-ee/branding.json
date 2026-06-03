@@ -84,5 +84,28 @@
     "outlook": "Electrical Engineering professionals are in demand. NC A&T graduates bring unique perspectives and strong technical skills to this growing field."
   },
   "validationLabel": "FE Exam (Electrical) + PE Licensure",
-  "validationType": "fe"
+  "validationType": "fe",
+  "professionalOrgs": [
+    {
+      "id": "ieee",
+      "name": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "description": "World's largest technical professional organization — advancing technology for humanity",
+      "url": "https://www.ieee.org",
+      "icon": "⚡"
+    },
+    {
+      "id": "nsbe",
+      "name": "National Society of Black Engineers (NSBE)",
+      "description": "Increasing the number of Black engineers — career fairs, scholarships, and leadership programs",
+      "url": "https://www.nsbe.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "eta",
+      "name": "Eta Kappa Nu (IEEE-HKN)",
+      "description": "Electrical and computer engineering honor society — recognizing academic excellence",
+      "url": "https://hkn.ieee.org",
+      "icon": "🏅"
+    }
+  ]
 }

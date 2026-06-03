@@ -19,10 +19,30 @@
     "textSecondaryHex": "#555770"
   },
   "categoryColors": {
-    "Purpose": { "hex": "#2563EB", "rgb": "37, 99, 235", "emoji": "🔍", "label": "Purpose & Self-Discovery" },
-    "Communities": { "hex": "#059669", "rgb": "5, 150, 105", "emoji": "🤝", "label": "Communities & Service" },
-    "LocalGlobal": { "hex": "#D97706", "rgb": "217, 119, 6", "emoji": "🌍", "label": "Local & Global Engagement" },
-    "Identity": { "hex": "#7C3AED", "rgb": "124, 58, 237", "emoji": "💼", "label": "Professional Identity" }
+    "Purpose": {
+      "hex": "#2563EB",
+      "rgb": "37, 99, 235",
+      "emoji": "🔍",
+      "label": "Purpose & Self-Discovery"
+    },
+    "Communities": {
+      "hex": "#059669",
+      "rgb": "5, 150, 105",
+      "emoji": "🤝",
+      "label": "Communities & Service"
+    },
+    "LocalGlobal": {
+      "hex": "#D97706",
+      "rgb": "217, 119, 6",
+      "emoji": "🌍",
+      "label": "Local & Global Engagement"
+    },
+    "Identity": {
+      "hex": "#7C3AED",
+      "rgb": "124, 58, 237",
+      "emoji": "💼",
+      "label": "Professional Identity"
+    }
   },
   "validationType": "competency",
   "validationLabel": "Agribusiness Management Competency",
@@ -37,8 +57,13 @@
     "topSalary": "$140,000+",
     "totalJobs": "291,800",
     "topEmployers": [
-      "Syngenta", "Bayer Crop Science", "Land O'Lakes", "Cargill",
-      "USDA Farm Service Agency", "NC Farm Bureau", "Cooperative Extension",
+      "Syngenta",
+      "Bayer Crop Science",
+      "Land O'Lakes",
+      "Cargill",
+      "USDA Farm Service Agency",
+      "NC Farm Bureau",
+      "Cooperative Extension",
       "John Deere Financial"
     ],
     "certifications": [
@@ -48,14 +73,45 @@
       "Supply Chain Management Professional (CSCP)"
     ],
     "relatedFields": [
-      "Agricultural Economics", "Food Supply Chain Management", "Commodity Trading",
-      "Rural Development", "Agricultural Finance"
+      "Agricultural Economics",
+      "Food Supply Chain Management",
+      "Commodity Trading",
+      "Rural Development",
+      "Agricultural Finance"
     ],
     "keySkills": [
-      "Farm Financial Management", "Commodity Marketing", "Agricultural Policy",
-      "Supply Chain Logistics", "Risk Management", "Data Analytics",
-      "Business Plan Development", "Agricultural Law"
+      "Farm Financial Management",
+      "Commodity Marketing",
+      "Agricultural Policy",
+      "Supply Chain Logistics",
+      "Risk Management",
+      "Data Analytics",
+      "Business Plan Development",
+      "Agricultural Law"
     ],
     "outlook": "Agribusiness professionals manage the $1.2 trillion U.S. food and agriculture sector. Demand is strong for managers who combine agricultural knowledge with business acumen, especially in precision agriculture and sustainable food systems."
-  }
+  },
+  "professionalOrgs": [
+    {
+      "id": "aaea",
+      "name": "Agricultural & Applied Economics Association (AAEA)",
+      "description": "Advancing agricultural and applied economics through research and policy analysis",
+      "url": "https://www.aaea.org",
+      "icon": "📊"
+    },
+    {
+      "id": "nama",
+      "name": "National Agri-Marketing Association (NAMA)",
+      "description": "Connecting agribusiness professionals in marketing, communications, and public relations",
+      "url": "https://nama.org",
+      "icon": "📈"
+    },
+    {
+      "id": "ffa",
+      "name": "National FFA Organization",
+      "description": "Developing agricultural leadership, personal growth, and career success for students",
+      "url": "https://www.ffa.org",
+      "icon": "🏅"
+    }
+  ]
 }

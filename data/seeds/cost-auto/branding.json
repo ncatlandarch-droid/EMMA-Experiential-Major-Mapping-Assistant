@@ -79,5 +79,28 @@
     ]
   },
   "validationLabel": "ASE Certification + SAE Standards",
-  "validationType": "ase"
+  "validationType": "ase",
+  "professionalOrgs": [
+    {
+      "id": "sae",
+      "name": "SAE International",
+      "description": "Advancing mobility engineering — automotive, aerospace, and commercial vehicle standards",
+      "url": "https://www.sae.org",
+      "icon": "🚗"
+    },
+    {
+      "id": "ase-cert",
+      "name": "National Institute for Automotive Service Excellence (ASE)",
+      "description": "Certifying automotive professionals — technicians, service advisors, collision repair",
+      "url": "https://www.ase.com",
+      "icon": "🔧"
+    },
+    {
+      "id": "nsbe",
+      "name": "National Society of Black Engineers (NSBE)",
+      "description": "Increasing the number of Black engineers — career fairs, scholarships, and leadership",
+      "url": "https://www.nsbe.org",
+      "icon": "✊🏿"
+    }
+  ]
 }

@@ -80,5 +80,28 @@
     ]
   },
   "validationLabel": "PMP + Lean Six Sigma",
-  "validationType": "pmp"
+  "validationType": "pmp",
+  "professionalOrgs": [
+    {
+      "id": "usasbe",
+      "name": "United States Association for Small Business & Entrepreneurship (USASBE)",
+      "description": "Advancing entrepreneurship education through research and practice",
+      "url": "https://www.usasbe.org",
+      "icon": "🚀"
+    },
+    {
+      "id": "sba",
+      "name": "Small Business Administration (SBA)",
+      "description": "Federal agency providing resources, training, and funding for entrepreneurs",
+      "url": "https://www.sba.gov",
+      "icon": "🏛️"
+    },
+    {
+      "id": "naacp-esd",
+      "name": "National Black Chamber of Commerce (NBCC)",
+      "description": "Advocating for Black-owned businesses — access to capital, contracts, and networking",
+      "url": "https://www.nationalbcc.org",
+      "icon": "✊🏿"
+    }
+  ]
 }

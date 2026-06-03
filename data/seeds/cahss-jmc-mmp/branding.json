@@ -79,5 +79,28 @@
     ]
   },
   "validationLabel": "ACEJMC Standards + Audio/Video Production",
-  "validationType": "acejmc"
+  "validationType": "acejmc",
+  "professionalOrgs": [
+    {
+      "id": "nabj",
+      "name": "National Association of Black Journalists (NABJ)",
+      "description": "Advocating for diversity in newsrooms and media — scholarships, mentorship, and community",
+      "url": "https://www.nabj.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "bea",
+      "name": "Broadcast Education Association (BEA)",
+      "description": "Advancing media education — production, research, and professional development",
+      "url": "https://www.beaweb.org",
+      "icon": "🎬"
+    },
+    {
+      "id": "nab",
+      "name": "National Association of Broadcasters (NAB)",
+      "description": "Advancing the interests of radio and TV broadcasters — technology, policy, and standards",
+      "url": "https://www.nab.org",
+      "icon": "📡"
+    }
+  ]
 }

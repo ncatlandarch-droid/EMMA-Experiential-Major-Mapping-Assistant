@@ -77,5 +77,28 @@
     ]
   },
   "validationLabel": "MCAT + GRE Physics",
-  "validationType": "mcat"
+  "validationType": "mcat",
+  "professionalOrgs": [
+    {
+      "id": "aps",
+      "name": "American Physical Society (APS)",
+      "description": "Advancing physics through research, education, and outreach",
+      "url": "https://www.aps.org",
+      "icon": "⚛️"
+    },
+    {
+      "id": "nsbp",
+      "name": "National Society of Black Physicists (NSBP)",
+      "description": "Promoting the professional well-being of Black physicists and physics students",
+      "url": "https://www.nsbp.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "bps",
+      "name": "Biophysical Society",
+      "description": "Advancing biophysics — molecular, cellular, and systems-level research",
+      "url": "https://www.biophysics.org",
+      "icon": "🧬"
+    }
+  ]
 }

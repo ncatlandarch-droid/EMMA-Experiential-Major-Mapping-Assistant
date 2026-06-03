@@ -86,5 +86,28 @@
     "outlook": "Artificial Intelligence professionals are in demand. NC A&T graduates bring unique perspectives and strong technical skills to this growing field."
   },
   "validationLabel": "Google TensorFlow + AWS ML Certification",
-  "validationType": "tf"
+  "validationType": "tf",
+  "professionalOrgs": [
+    {
+      "id": "aaai",
+      "name": "Association for the Advancement of Artificial Intelligence (AAAI)",
+      "description": "Advancing the scientific understanding and responsible use of AI",
+      "url": "https://www.aaai.org",
+      "icon": "🤖"
+    },
+    {
+      "id": "acm",
+      "name": "Association for Computing Machinery (ACM)",
+      "description": "World's largest computing society — research, education, and career resources",
+      "url": "https://www.acm.org",
+      "icon": "💻"
+    },
+    {
+      "id": "nsbe",
+      "name": "National Society of Black Engineers (NSBE)",
+      "description": "Increasing the number of Black engineers — career fairs, scholarships, and leadership programs",
+      "url": "https://www.nsbe.org",
+      "icon": "✊🏿"
+    }
+  ]
 }

@@ -79,5 +79,28 @@
     ]
   },
   "validationLabel": "MFA Audition + Portfolio Review",
-  "validationType": "audition"
+  "validationType": "audition",
+  "professionalOrgs": [
+    {
+      "id": "usitt",
+      "name": "United States Institute for Theatre Technology (USITT)",
+      "description": "Connecting performing arts design and technology professionals",
+      "url": "https://www.usitt.org",
+      "icon": "🎭"
+    },
+    {
+      "id": "sag-aftra",
+      "name": "SAG-AFTRA",
+      "description": "Union for actors, broadcasters, and performing artists — contracts, protections, and benefits",
+      "url": "https://www.sagaftra.org",
+      "icon": "🎬"
+    },
+    {
+      "id": "btaa",
+      "name": "Black Theatre Association (BTA)",
+      "description": "Promoting excellence in Black theatre — networking, education, and performance",
+      "url": "https://www.aate.com",
+      "icon": "✊🏿"
+    }
+  ]
 }

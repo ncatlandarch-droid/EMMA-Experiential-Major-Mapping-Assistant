@@ -80,5 +80,28 @@
     ]
   },
   "validationLabel": "Federal LE Assessment + POST Certification",
-  "validationType": "post"
+  "validationType": "post",
+  "professionalOrgs": [
+    {
+      "id": "acjs",
+      "name": "Academy of Criminal Justice Sciences (ACJS)",
+      "description": "Promoting criminal justice education, research, and policy analysis",
+      "url": "https://www.acjs.org",
+      "icon": "⚖️"
+    },
+    {
+      "id": "noble",
+      "name": "National Organization of Black Law Enforcement Executives (NOBLE)",
+      "description": "Ensuring equity in the administration of justice and public safety",
+      "url": "https://www.noblenational.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "asc",
+      "name": "American Society of Criminology (ASC)",
+      "description": "Advancing criminological scholarship — research, teaching, and practice",
+      "url": "https://asc41.org",
+      "icon": "🔍"
+    }
+  ]
 }

@@ -78,5 +78,28 @@
     ]
   },
   "validationLabel": "CFLE Certification + Family Life Educator",
-  "validationType": "cfle"
+  "validationType": "cfle",
+  "professionalOrgs": [
+    {
+      "id": "ncfr",
+      "name": "National Council on Family Relations (NCFR)",
+      "description": "Advancing family science through research, theory, and practice",
+      "url": "https://www.ncfr.org",
+      "icon": "👨‍👩‍👧"
+    },
+    {
+      "id": "nea-ed",
+      "name": "National Education Association (NEA)",
+      "description": "The largest professional employee organization in the U.S. — advocacy for educators and students",
+      "url": "https://www.nea.org",
+      "icon": "🎓"
+    },
+    {
+      "id": "naeyc",
+      "name": "National Association for the Education of Young Children (NAEYC)",
+      "description": "Promoting high-quality early learning — accreditation, resources, and advocacy",
+      "url": "https://www.naeyc.org",
+      "icon": "👶"
+    }
+  ]
 }

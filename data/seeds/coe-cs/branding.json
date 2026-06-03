@@ -84,5 +84,35 @@
     ]
   },
   "validationLabel": "AWS / Azure Cloud + CompTIA Security+",
-  "validationType": "cloud"
+  "validationType": "cloud",
+  "professionalOrgs": [
+    {
+      "id": "acm",
+      "name": "Association for Computing Machinery (ACM)",
+      "description": "World's largest computing society — research, education, and career resources",
+      "url": "https://www.acm.org",
+      "icon": "💻"
+    },
+    {
+      "id": "ieee-cs",
+      "name": "IEEE Computer Society",
+      "description": "Computing professionals' community — conferences, publications, and certifications",
+      "url": "https://www.computer.org",
+      "icon": "🖥️"
+    },
+    {
+      "id": "nsbe",
+      "name": "National Society of Black Engineers (NSBE)",
+      "description": "Increasing the number of Black engineers — career fairs, scholarships, and leadership programs",
+      "url": "https://www.nsbe.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "bdpa",
+      "name": "Black Data Processing Associates (BDPA)",
+      "description": "Advancing minorities in IT — training, scholarships, and career development",
+      "url": "https://www.bdpa.org",
+      "icon": "✊🏿"
+    }
+  ]
 }

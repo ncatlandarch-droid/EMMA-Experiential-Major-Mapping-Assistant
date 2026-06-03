@@ -79,5 +79,28 @@
     ]
   },
   "validationLabel": "LSAT Exam",
-  "validationType": "lsat"
+  "validationType": "lsat",
+  "professionalOrgs": [
+    {
+      "id": "nba",
+      "name": "National Bar Association (NBA)",
+      "description": "Largest national association of predominantly African American lawyers, judges, and legal professionals",
+      "url": "https://www.nationalbar.org",
+      "icon": "⚖️"
+    },
+    {
+      "id": "lsac",
+      "name": "Law School Admission Council (LSAC)",
+      "description": "Connecting people to legal education — LSAT, application resources, and diversity initiatives",
+      "url": "https://www.lsac.org",
+      "icon": "📋"
+    },
+    {
+      "id": "ncbs",
+      "name": "National Council for Black Studies (NCBS)",
+      "description": "Advancing the discipline of Africana/Black Studies through education and research",
+      "url": "https://www.ncbsonline.org",
+      "icon": "✊🏿"
+    }
+  ]
 }

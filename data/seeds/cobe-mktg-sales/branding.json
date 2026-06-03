@@ -81,5 +81,28 @@
     ]
   },
   "validationLabel": "CPSP + Salesforce Certification",
-  "validationType": "cpsp"
+  "validationType": "cpsp",
+  "professionalOrgs": [
+    {
+      "id": "ama-mktg",
+      "name": "American Marketing Association (AMA)",
+      "description": "Essential community for marketers — research, training, and professional certification",
+      "url": "https://www.ama.org",
+      "icon": "📢"
+    },
+    {
+      "id": "nsf",
+      "name": "National Sales Foundation (Pi Sigma Epsilon)",
+      "description": "National fraternity for sales, marketing, and management — professional development and networking",
+      "url": "https://www.pse.org",
+      "icon": "🤝"
+    },
+    {
+      "id": "aaf",
+      "name": "American Advertising Federation (AAF)",
+      "description": "Protecting and promoting advertising through advocacy, education, and ADDY Awards",
+      "url": "https://www.aaf.org",
+      "icon": "🎨"
+    }
+  ]
 }

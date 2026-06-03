@@ -80,5 +80,28 @@
     ]
   },
   "validationLabel": "ACHE Board Certification + CPHQ",
-  "validationType": "ache"
+  "validationType": "ache",
+  "professionalOrgs": [
+    {
+      "id": "ache",
+      "name": "American College of Healthcare Executives (ACHE)",
+      "description": "International professional society for healthcare leaders — FACHE certification",
+      "url": "https://www.ache.org",
+      "icon": "🏥"
+    },
+    {
+      "id": "nahse",
+      "name": "National Association of Health Services Executives (NAHSE)",
+      "description": "Promoting diversity and inclusion in healthcare leadership",
+      "url": "https://www.nahse.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "aupha",
+      "name": "Association of University Programs in Health Administration (AUPHA)",
+      "description": "Advancing health management education",
+      "url": "https://www.aupha.org",
+      "icon": "🎓"
+    }
+  ]
 }

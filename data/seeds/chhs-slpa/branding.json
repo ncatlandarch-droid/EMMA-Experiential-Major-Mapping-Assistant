@@ -80,5 +80,28 @@
     ]
   },
   "validationLabel": "Praxis SLP Exam + ASHA CCC",
-  "validationType": "praxis-slp"
+  "validationType": "praxis-slp",
+  "professionalOrgs": [
+    {
+      "id": "asha",
+      "name": "American Speech-Language-Hearing Association (ASHA)",
+      "description": "Professional association for audiologists and speech-language pathologists — certification (CCC), research",
+      "url": "https://www.asha.org",
+      "icon": "🗣️"
+    },
+    {
+      "id": "nbaslh",
+      "name": "National Black Association for Speech-Language and Hearing (NBASLH)",
+      "description": "Advancing communication sciences for the Black community — mentorship and scholarships",
+      "url": "https://www.nbaslh.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "nsslha",
+      "name": "National Student Speech Language Hearing Association (NSSLHA)",
+      "description": "Student organization for future SLPs and audiologists — leadership and professional growth",
+      "url": "https://www.nsslha.org",
+      "icon": "📚"
+    }
+  ]
 }

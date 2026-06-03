@@ -79,5 +79,28 @@
     ]
   },
   "validationLabel": "Adobe Certified Professional + UX Portfolio",
-  "validationType": "acp"
+  "validationType": "acp",
+  "professionalOrgs": [
+    {
+      "id": "aiga",
+      "name": "AIGA (American Institute of Graphic Arts)",
+      "description": "The professional association for design — events, competitions, and career resources",
+      "url": "https://www.aiga.org",
+      "icon": "🎨"
+    },
+    {
+      "id": "gdc",
+      "name": "Graphic Design USA (GDUSA)",
+      "description": "Celebrating graphic design excellence — American Design Awards and industry news",
+      "url": "https://gdusa.com",
+      "icon": "✏️"
+    },
+    {
+      "id": "caa",
+      "name": "College Art Association (CAA)",
+      "description": "Advancing art and design in higher education — conferences, publications, career services",
+      "url": "https://www.collegeart.org",
+      "icon": "🖼️"
+    }
+  ]
 }

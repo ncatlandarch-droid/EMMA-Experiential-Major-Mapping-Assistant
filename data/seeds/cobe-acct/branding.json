@@ -86,5 +86,28 @@
     "outlook": "Accounting professionals are in demand. NC A&T graduates bring unique perspectives and strong technical skills to this growing field."
   },
   "validationLabel": "CPA Exam + CMA Certification",
-  "validationType": "cpa"
+  "validationType": "cpa",
+  "professionalOrgs": [
+    {
+      "id": "aicpa",
+      "name": "American Institute of Certified Public Accountants (AICPA)",
+      "description": "The national professional organization for CPAs — ethics, standards, and certification",
+      "url": "https://www.aicpa.org",
+      "icon": "📋"
+    },
+    {
+      "id": "naba",
+      "name": "National Association of Black Accountants (NABA)",
+      "description": "Expanding opportunities for minorities in accounting, finance, and business",
+      "url": "https://www.nabainc.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "ima",
+      "name": "Institute of Management Accountants (IMA)",
+      "description": "Advancing management accounting and financial management worldwide",
+      "url": "https://www.imanet.org",
+      "icon": "💰"
+    }
+  ]
 }

@@ -79,5 +79,28 @@
     ]
   },
   "validationLabel": "APR Accreditation + Google Analytics",
-  "validationType": "apr"
+  "validationType": "apr",
+  "professionalOrgs": [
+    {
+      "id": "nca",
+      "name": "National Communication Association (NCA)",
+      "description": "Advancing communication scholarship, education, and practice",
+      "url": "https://www.natcom.org",
+      "icon": "📢"
+    },
+    {
+      "id": "prsa",
+      "name": "Public Relations Society of America (PRSA)",
+      "description": "Advancing the profession of public relations — ethics, certification, and community",
+      "url": "https://www.prsa.org",
+      "icon": "📰"
+    },
+    {
+      "id": "aejmc",
+      "name": "Association for Education in Journalism and Mass Communication (AEJMC)",
+      "description": "Promoting the highest standards in journalism and mass communication education",
+      "url": "https://www.aejmc.org",
+      "icon": "🎓"
+    }
+  ]
 }

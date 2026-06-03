@@ -83,5 +83,28 @@
     ]
   },
   "validationLabel": "FE Exam (Chemical) + PE Licensure",
-  "validationType": "fe"
+  "validationType": "fe",
+  "professionalOrgs": [
+    {
+      "id": "aiche",
+      "name": "American Institute of Chemical Engineers (AIChE)",
+      "description": "Advancing chemical engineering — bioprocessing, sustainability, and innovation",
+      "url": "https://www.aiche.org",
+      "icon": "🧪"
+    },
+    {
+      "id": "nsbe",
+      "name": "National Society of Black Engineers (NSBE)",
+      "description": "Increasing the number of Black engineers — career fairs, scholarships, and leadership programs",
+      "url": "https://www.nsbe.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "acs",
+      "name": "American Chemical Society (ACS)",
+      "description": "World's largest scientific society — advancing chemistry for life",
+      "url": "https://www.acs.org",
+      "icon": "⚗️"
+    }
+  ]
 }

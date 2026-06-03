@@ -19,10 +19,30 @@
     "textSecondaryHex": "#555770"
   },
   "categoryColors": {
-    "Purpose": { "hex": "#2563EB", "rgb": "37, 99, 235", "emoji": "🔍", "label": "Purpose & Self-Discovery" },
-    "Communities": { "hex": "#059669", "rgb": "5, 150, 105", "emoji": "🤝", "label": "Communities & Service" },
-    "LocalGlobal": { "hex": "#D97706", "rgb": "217, 119, 6", "emoji": "🌍", "label": "Local & Global Engagement" },
-    "Identity": { "hex": "#7C3AED", "rgb": "124, 58, 237", "emoji": "💼", "label": "Professional Identity" }
+    "Purpose": {
+      "hex": "#2563EB",
+      "rgb": "37, 99, 235",
+      "emoji": "🔍",
+      "label": "Purpose & Self-Discovery"
+    },
+    "Communities": {
+      "hex": "#059669",
+      "rgb": "5, 150, 105",
+      "emoji": "🤝",
+      "label": "Communities & Service"
+    },
+    "LocalGlobal": {
+      "hex": "#D97706",
+      "rgb": "217, 119, 6",
+      "emoji": "🌍",
+      "label": "Local & Global Engagement"
+    },
+    "Identity": {
+      "hex": "#7C3AED",
+      "rgb": "124, 58, 237",
+      "emoji": "💼",
+      "label": "Professional Identity"
+    }
   },
   "validationType": "competency",
   "validationLabel": "Pre-Veterinary Readiness + Industry Competency",
@@ -37,9 +57,14 @@
     "topSalary": "$120,000+",
     "totalJobs": "2,900",
     "topEmployers": [
-      "USDA Agricultural Research Service", "Zoetis", "Cargill Animal Nutrition",
-      "Elanco", "NC Cooperative Extension", "State Veterinary Diagnostic Labs",
-      "Smithfield Foods", "Tyson Foods"
+      "USDA Agricultural Research Service",
+      "Zoetis",
+      "Cargill Animal Nutrition",
+      "Elanco",
+      "NC Cooperative Extension",
+      "State Veterinary Diagnostic Labs",
+      "Smithfield Foods",
+      "Tyson Foods"
     ],
     "certifications": [
       "Pre-Veterinary Track (GRE/MCAT prep)",
@@ -48,14 +73,45 @@
       "IACUC Training (Research Compliance)"
     ],
     "relatedFields": [
-      "Veterinary Medicine", "Biomedical Research", "Animal Nutrition",
-      "Livestock Management", "Pharmaceutical Sciences"
+      "Veterinary Medicine",
+      "Biomedical Research",
+      "Animal Nutrition",
+      "Livestock Management",
+      "Pharmaceutical Sciences"
     ],
     "keySkills": [
-      "Animal Physiology", "Livestock Nutrition", "Reproductive Science",
-      "Laboratory Techniques", "Herd Management", "Genetics & Breeding",
-      "Research Methods", "Animal Welfare Assessment"
+      "Animal Physiology",
+      "Livestock Nutrition",
+      "Reproductive Science",
+      "Laboratory Techniques",
+      "Herd Management",
+      "Genetics & Breeding",
+      "Research Methods",
+      "Animal Welfare Assessment"
     ],
     "outlook": "Animal scientists are essential to advancing food security, veterinary medicine, and biomedical research. HBCU graduates bring critical diversity to agricultural sciences, where minority representation remains historically low."
-  }
+  },
+  "professionalOrgs": [
+    {
+      "id": "asas",
+      "name": "American Society of Animal Science (ASAS)",
+      "description": "Advancing animal science research, education, and industry application",
+      "url": "https://www.asas.org",
+      "icon": "🐄"
+    },
+    {
+      "id": "avma",
+      "name": "American Veterinary Medical Association (AVMA)",
+      "description": "Representing veterinarians — advocacy, accreditation, and public health",
+      "url": "https://www.avma.org",
+      "icon": "🩺"
+    },
+    {
+      "id": "psa",
+      "name": "Poultry Science Association (PSA)",
+      "description": "Advancing poultry science through research, teaching, and extension",
+      "url": "https://poultryscience.org",
+      "icon": "🐔"
+    }
+  ]
 }

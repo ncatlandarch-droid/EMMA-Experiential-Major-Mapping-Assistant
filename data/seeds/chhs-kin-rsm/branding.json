@@ -80,5 +80,28 @@
     ]
   },
   "validationLabel": "CPRP + CPO Certification",
-  "validationType": "cprp"
+  "validationType": "cprp",
+  "professionalOrgs": [
+    {
+      "id": "nrpa",
+      "name": "National Recreation and Park Association (NRPA)",
+      "description": "Building strong, resilient communities through parks, recreation, and conservation",
+      "url": "https://www.nrpa.org",
+      "icon": "🏞️"
+    },
+    {
+      "id": "nassm",
+      "name": "North American Society for Sport Management (NASSM)",
+      "description": "Promoting sport management research, education, and professional development",
+      "url": "https://www.nassm.org",
+      "icon": "🏟️"
+    },
+    {
+      "id": "acsm",
+      "name": "American College of Sports Medicine (ACSM)",
+      "description": "World's largest sports medicine and exercise science organization — certifications, research",
+      "url": "https://www.acsm.org",
+      "icon": "🏃"
+    }
+  ]
 }

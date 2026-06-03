@@ -82,5 +82,28 @@
     ]
   },
   "validationLabel": "FE Exam (Civil) + PE Civil Licensure",
-  "validationType": "fe"
+  "validationType": "fe",
+  "professionalOrgs": [
+    {
+      "id": "asce",
+      "name": "American Society of Civil Engineers (ASCE)",
+      "description": "Advancing civil engineering — infrastructure, sustainability, and professional practice",
+      "url": "https://www.asce.org",
+      "icon": "🌉"
+    },
+    {
+      "id": "nsbe",
+      "name": "National Society of Black Engineers (NSBE)",
+      "description": "Increasing the number of Black engineers — career fairs, scholarships, and leadership programs",
+      "url": "https://www.nsbe.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "chi-eps",
+      "name": "Chi Epsilon (Civil Engineering Honor Society)",
+      "description": "National civil engineering honor society recognizing academic achievement and character",
+      "url": "https://www.chi-epsilon.org",
+      "icon": "🏅"
+    }
+  ]
 }

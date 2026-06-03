@@ -78,5 +78,28 @@
     ]
   },
   "validationLabel": "MCAT + GRE Biology Subject Test",
-  "validationType": "mcat"
+  "validationType": "mcat",
+  "professionalOrgs": [
+    {
+      "id": "aibs",
+      "name": "American Institute of Biological Sciences (AIBS)",
+      "description": "Advancing biological research, education, and public policy",
+      "url": "https://www.aibs.org",
+      "icon": "🧬"
+    },
+    {
+      "id": "beta-beta-beta",
+      "name": "Beta Beta Beta (TriBeta) Biological Honor Society",
+      "description": "Recognizing academic achievement in biology and promoting scholarly activity",
+      "url": "https://www.tri-beta.org",
+      "icon": "🏅"
+    },
+    {
+      "id": "aaas-sci",
+      "name": "American Association for the Advancement of Science (AAAS)",
+      "description": "Advancing science, engineering, and innovation for the benefit of all people",
+      "url": "https://www.aaas.org",
+      "icon": "🔬"
+    }
+  ]
 }

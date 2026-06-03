@@ -81,5 +81,28 @@
     "outlook": "Economics professionals are in demand. NC A&T graduates bring unique perspectives and strong technical skills to this growing field."
   },
   "validationLabel": "GRE Quantitative + SAS/STATA Certification",
-  "validationType": "gre"
+  "validationType": "gre",
+  "professionalOrgs": [
+    {
+      "id": "aea",
+      "name": "American Economic Association (AEA)",
+      "description": "Encouraging economic research, publishing, and education",
+      "url": "https://www.aeaweb.org",
+      "icon": "📊"
+    },
+    {
+      "id": "nea",
+      "name": "National Economic Association (NEA)",
+      "description": "Promoting the professional lives of minorities in the economics profession",
+      "url": "https://www.neaecon.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "nabe",
+      "name": "National Association for Business Economics (NABE)",
+      "description": "Connecting business economists — forecasting, policy analysis, and applied economics",
+      "url": "https://nabe.com",
+      "icon": "📈"
+    }
+  ]
 }

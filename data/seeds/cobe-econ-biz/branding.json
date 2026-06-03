@@ -78,5 +78,28 @@
     ]
   },
   "validationLabel": "GRE Quantitative + Bloomberg Market Concepts",
-  "validationType": "gre"
+  "validationType": "gre",
+  "professionalOrgs": [
+    {
+      "id": "aea",
+      "name": "American Economic Association (AEA)",
+      "description": "Encouraging economic research, publishing, and education",
+      "url": "https://www.aeaweb.org",
+      "icon": "📊"
+    },
+    {
+      "id": "nabe",
+      "name": "National Association for Business Economics (NABE)",
+      "description": "Connecting business economists — forecasting, policy analysis, and applied economics",
+      "url": "https://nabe.com",
+      "icon": "📈"
+    },
+    {
+      "id": "nea",
+      "name": "National Economic Association (NEA)",
+      "description": "Promoting the professional lives of minorities in the economics profession",
+      "url": "https://www.neaecon.org",
+      "icon": "✊🏿"
+    }
+  ]
 }

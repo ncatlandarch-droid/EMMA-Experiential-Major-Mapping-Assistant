@@ -80,5 +80,28 @@
     ]
   },
   "validationLabel": "Google UX Certificate + Figma Proficiency",
-  "validationType": "google-ux"
+  "validationType": "google-ux",
+  "professionalOrgs": [
+    {
+      "id": "uxpa",
+      "name": "User Experience Professionals Association (UXPA)",
+      "description": "International community for UX professionals — conferences, publications, career resources",
+      "url": "https://uxpa.org",
+      "icon": "📱"
+    },
+    {
+      "id": "ixda",
+      "name": "Interaction Design Association (IxDA)",
+      "description": "Global community for interaction designers — conferences, local groups, awards",
+      "url": "https://ixda.org",
+      "icon": "🖱️"
+    },
+    {
+      "id": "aiga",
+      "name": "AIGA (American Institute of Graphic Arts)",
+      "description": "The professional association for design — events, competitions, and career resources",
+      "url": "https://www.aiga.org",
+      "icon": "🎨"
+    }
+  ]
 }

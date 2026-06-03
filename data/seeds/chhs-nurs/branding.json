@@ -81,5 +81,28 @@
     ]
   },
   "validationLabel": "NCLEX-RN Exam",
-  "validationType": "nclex"
+  "validationType": "nclex",
+  "professionalOrgs": [
+    {
+      "id": "ana",
+      "name": "American Nurses Association (ANA)",
+      "description": "Representing the nation's 4.2 million registered nurses — advocacy, standards, and innovation",
+      "url": "https://www.nursingworld.org",
+      "icon": "🩺"
+    },
+    {
+      "id": "nbna",
+      "name": "National Black Nurses Association (NBNA)",
+      "description": "Advancing Black nurses and improving health equity in communities of color",
+      "url": "https://www.nbna.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "nsna",
+      "name": "National Student Nurses Association (NSNA)",
+      "description": "The voice of nursing students — advocacy, career planning, and leadership",
+      "url": "https://www.nsna.org",
+      "icon": "📚"
+    }
+  ]
 }

@@ -79,5 +79,28 @@
     ]
   },
   "validationLabel": "GRE Mathematics Subject Test",
-  "validationType": "gre-math"
+  "validationType": "gre-math",
+  "professionalOrgs": [
+    {
+      "id": "ams",
+      "name": "American Mathematical Society (AMS)",
+      "description": "Advancing mathematical research and scholarship worldwide",
+      "url": "https://www.ams.org",
+      "icon": "∞"
+    },
+    {
+      "id": "maa",
+      "name": "Mathematical Association of America (MAA)",
+      "description": "Advancing the mathematical sciences through teaching, research, and competitions",
+      "url": "https://www.maa.org",
+      "icon": "➗"
+    },
+    {
+      "id": "nam",
+      "name": "National Association of Mathematicians (NAM)",
+      "description": "Promoting excellence in the mathematical sciences for underrepresented minorities",
+      "url": "https://www.nam-math.org",
+      "icon": "✊🏿"
+    }
+  ]
 }

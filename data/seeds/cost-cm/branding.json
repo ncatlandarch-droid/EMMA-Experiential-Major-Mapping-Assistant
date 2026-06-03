@@ -82,5 +82,28 @@
     ]
   },
   "validationLabel": "AIC Constructor Exam + OSHA 30",
-  "validationType": "aic"
+  "validationType": "aic",
+  "professionalOrgs": [
+    {
+      "id": "aic",
+      "name": "American Institute of Constructors (AIC)",
+      "description": "Professional association for individual constructors — AC and CPC certifications",
+      "url": "https://www.aic-build.org",
+      "icon": "🏗️"
+    },
+    {
+      "id": "agc",
+      "name": "Associated General Contractors of America (AGC)",
+      "description": "Leading association for the construction industry — advocacy, education, and safety",
+      "url": "https://www.agc.org",
+      "icon": "🔨"
+    },
+    {
+      "id": "cmaa",
+      "name": "Construction Management Association of America (CMAA)",
+      "description": "Advancing the CM profession — certification (CCM), education, and practice standards",
+      "url": "https://www.cmaanet.org",
+      "icon": "📋"
+    }
+  ]
 }

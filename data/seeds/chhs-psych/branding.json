@@ -79,5 +79,28 @@
     ]
   },
   "validationLabel": "GRE Psychology + EPPP Pathway",
-  "validationType": "gre-psych"
+  "validationType": "gre-psych",
+  "professionalOrgs": [
+    {
+      "id": "apa",
+      "name": "American Psychological Association (APA)",
+      "description": "Largest scientific and professional organization of psychologists — research, practice, standards",
+      "url": "https://www.apa.org",
+      "icon": "🧠"
+    },
+    {
+      "id": "abpsi",
+      "name": "Association of Black Psychologists (ABPsi)",
+      "description": "Advancing the creation, dissemination, and application of psychological knowledge for Black people",
+      "url": "https://abpsi.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "psi-chi",
+      "name": "Psi Chi (International Psychology Honor Society)",
+      "description": "Recognizing and promoting excellence in psychology scholarship",
+      "url": "https://www.psichi.org",
+      "icon": "🏅"
+    }
+  ]
 }

@@ -79,5 +79,28 @@
     ]
   },
   "validationLabel": "LSAT + GRE Political Science",
-  "validationType": "lsat"
+  "validationType": "lsat",
+  "professionalOrgs": [
+    {
+      "id": "apsa",
+      "name": "American Political Science Association (APSA)",
+      "description": "Advancing political science research, teaching, and engagement",
+      "url": "https://www.apsanet.org",
+      "icon": "🏛️"
+    },
+    {
+      "id": "ncobps",
+      "name": "National Conference of Black Political Scientists (NCOBPS)",
+      "description": "Advancing the study of politics and governance in the African American community",
+      "url": "https://www.ncobps.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "pi-sigma-alpha",
+      "name": "Pi Sigma Alpha (Political Science Honor Society)",
+      "description": "National political science honor society — recognizing academic achievement",
+      "url": "https://www.pisigmaalpha.org",
+      "icon": "🏅"
+    }
+  ]
 }

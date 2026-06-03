@@ -85,5 +85,28 @@
     "outlook": "Industrial Engineering professionals are in demand. NC A&T graduates bring unique perspectives and strong technical skills to this growing field."
   },
   "validationLabel": "FE Exam (Industrial) + Lean Six Sigma",
-  "validationType": "fe"
+  "validationType": "fe",
+  "professionalOrgs": [
+    {
+      "id": "iise",
+      "name": "Institute of Industrial and Systems Engineers (IISE)",
+      "description": "Leading professional society for industrial and systems engineers — Lean, Six Sigma, and operations",
+      "url": "https://www.iise.org",
+      "icon": "⚙️"
+    },
+    {
+      "id": "nsbe",
+      "name": "National Society of Black Engineers (NSBE)",
+      "description": "Increasing the number of Black engineers — career fairs, scholarships, and leadership programs",
+      "url": "https://www.nsbe.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "asq",
+      "name": "American Society for Quality (ASQ)",
+      "description": "Global community for quality professionals — certifications (CQE, CMQ/OE, Six Sigma)",
+      "url": "https://asq.org",
+      "icon": "✅"
+    }
+  ]
 }

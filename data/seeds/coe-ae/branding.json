@@ -82,5 +82,28 @@
     ]
   },
   "validationLabel": "FE Exam + PE Licensure",
-  "validationType": "fe"
+  "validationType": "fe",
+  "professionalOrgs": [
+    {
+      "id": "asce",
+      "name": "American Society of Civil Engineers (ASCE)",
+      "description": "Advancing civil engineering knowledge and practice for infrastructure and sustainability",
+      "url": "https://www.asce.org",
+      "icon": "🏗️"
+    },
+    {
+      "id": "nsbe",
+      "name": "National Society of Black Engineers (NSBE)",
+      "description": "Increasing the number of Black engineers — career fairs, scholarships, and leadership programs",
+      "url": "https://www.nsbe.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "ashrae",
+      "name": "American Society of Heating, Refrigerating, and Air-Conditioning Engineers (ASHRAE)",
+      "description": "Building performance standards, energy efficiency, and HVAC engineering",
+      "url": "https://www.ashrae.org",
+      "icon": "❄️"
+    }
+  ]
 }

@@ -79,5 +79,28 @@
     ]
   },
   "validationLabel": "ASWB Licensing Exam (LSW/LCSW)",
-  "validationType": "aswb"
+  "validationType": "aswb",
+  "professionalOrgs": [
+    {
+      "id": "nasw",
+      "name": "National Association of Social Workers (NASW)",
+      "description": "Largest membership organization of professional social workers — advocacy, ethics, licensing",
+      "url": "https://www.socialworkers.org",
+      "icon": "🤝"
+    },
+    {
+      "id": "nabsw",
+      "name": "National Association of Black Social Workers (NABSW)",
+      "description": "Addressing social issues impacting the Black community through advocacy and service",
+      "url": "https://www.nabsw.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "cswe",
+      "name": "Council on Social Work Education (CSWE)",
+      "description": "Accrediting body for social work education — standards, research, and advocacy",
+      "url": "https://www.cswe.org",
+      "icon": "🎓"
+    }
+  ]
 }

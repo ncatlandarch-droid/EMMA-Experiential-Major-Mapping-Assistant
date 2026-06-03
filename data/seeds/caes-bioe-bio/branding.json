@@ -9,16 +9,40 @@
   "tagline": "Engineer Life — From Biomolecules to Biofuels",
   "programDescription": "The Bioprocess concentration in Biological Engineering applies engineering principles to biological systems for applications in biopharmaceuticals, biofuels, food processing, and environmental remediation. Students design and optimize bioprocesses including fermentation, purification, and scale-up. The program is ABET-accredited, ensuring graduates meet rigorous engineering standards for professional practice.",
   "brandingColors": {
-    "primaryHex": "#004684", "primaryRgb": "0, 70, 132",
-    "secondaryHex": "#fdb927", "secondaryRgb": "253, 185, 39",
-    "backgroundHex": "#F0F2F5", "surfaceHex": "#FFFFFF",
-    "textPrimaryHex": "#1A1A2E", "textSecondaryHex": "#555770"
+    "primaryHex": "#004684",
+    "primaryRgb": "0, 70, 132",
+    "secondaryHex": "#fdb927",
+    "secondaryRgb": "253, 185, 39",
+    "backgroundHex": "#F0F2F5",
+    "surfaceHex": "#FFFFFF",
+    "textPrimaryHex": "#1A1A2E",
+    "textSecondaryHex": "#555770"
   },
   "categoryColors": {
-    "Purpose": { "hex": "#2563EB", "rgb": "37, 99, 235", "emoji": "🔍", "label": "Purpose & Self-Discovery" },
-    "Communities": { "hex": "#059669", "rgb": "5, 150, 105", "emoji": "🤝", "label": "Communities & Service" },
-    "LocalGlobal": { "hex": "#D97706", "rgb": "217, 119, 6", "emoji": "🌍", "label": "Local & Global Engagement" },
-    "Identity": { "hex": "#7C3AED", "rgb": "124, 58, 237", "emoji": "💼", "label": "Professional Identity" }
+    "Purpose": {
+      "hex": "#2563EB",
+      "rgb": "37, 99, 235",
+      "emoji": "🔍",
+      "label": "Purpose & Self-Discovery"
+    },
+    "Communities": {
+      "hex": "#059669",
+      "rgb": "5, 150, 105",
+      "emoji": "🤝",
+      "label": "Communities & Service"
+    },
+    "LocalGlobal": {
+      "hex": "#D97706",
+      "rgb": "217, 119, 6",
+      "emoji": "🌍",
+      "label": "Local & Global Engagement"
+    },
+    "Identity": {
+      "hex": "#7C3AED",
+      "rgb": "124, 58, 237",
+      "emoji": "💼",
+      "label": "Professional Identity"
+    }
   },
   "validationType": "licensure",
   "validationLabel": "ABET Accredited + FE Exam Readiness",
@@ -33,8 +57,14 @@
     "topSalary": "$160,000+",
     "totalJobs": "20,200",
     "topEmployers": [
-      "Genentech", "Amgen", "Merck", "BASF", "Novozymes",
-      "EPA", "Argonne National Laboratory", "Biogen"
+      "Genentech",
+      "Amgen",
+      "Merck",
+      "BASF",
+      "Novozymes",
+      "EPA",
+      "Argonne National Laboratory",
+      "Biogen"
     ],
     "certifications": [
       "Fundamentals of Engineering (FE) Exam",
@@ -43,14 +73,45 @@
       "Bioprocessing Certificate"
     ],
     "relatedFields": [
-      "Chemical Engineering", "Biochemistry", "Pharmaceutical Engineering",
-      "Biomedical Engineering", "Environmental Engineering"
+      "Chemical Engineering",
+      "Biochemistry",
+      "Pharmaceutical Engineering",
+      "Biomedical Engineering",
+      "Environmental Engineering"
     ],
     "keySkills": [
-      "Bioprocess Design", "Fermentation Technology", "Mass Transfer",
-      "Thermodynamics", "Process Control", "CAD/CAM",
-      "Lab-Scale to Pilot-Scale", "Quality by Design (QbD)"
+      "Bioprocess Design",
+      "Fermentation Technology",
+      "Mass Transfer",
+      "Thermodynamics",
+      "Process Control",
+      "CAD/CAM",
+      "Lab-Scale to Pilot-Scale",
+      "Quality by Design (QbD)"
     ],
     "outlook": "Bioprocess engineers are at the forefront of the bioeconomy, designing sustainable production systems for pharmaceuticals, biofuels, and biomaterials. The $400 billion global biotech market continues to drive demand for ABET-trained engineers."
-  }
+  },
+  "professionalOrgs": [
+    {
+      "id": "asabe",
+      "name": "American Society of Agricultural & Biological Engineers (ASABE)",
+      "description": "Engineering and technology for food, agriculture, and biological systems",
+      "url": "https://www.asabe.org",
+      "icon": "⚙️"
+    },
+    {
+      "id": "bmes",
+      "name": "Biomedical Engineering Society (BMES)",
+      "description": "Advancing biomedical engineering education, research, and professional development",
+      "url": "https://www.bmes.org",
+      "icon": "🦾"
+    },
+    {
+      "id": "aiche",
+      "name": "American Institute of Chemical Engineers (AIChE)",
+      "description": "Advancing chemical engineering — bioprocessing, sustainability, and innovation",
+      "url": "https://www.aiche.org",
+      "icon": "🧪"
+    }
+  ]
 }

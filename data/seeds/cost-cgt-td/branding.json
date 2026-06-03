@@ -80,5 +80,28 @@
     ]
   },
   "validationLabel": "Adobe Certified + Autodesk Certification",
-  "validationType": "autodesk"
+  "validationType": "autodesk",
+  "professionalOrgs": [
+    {
+      "id": "acm-sig",
+      "name": "ACM SIGGRAPH",
+      "description": "Special interest group on computer graphics and interactive techniques — conferences, publications",
+      "url": "https://www.siggraph.org",
+      "icon": "🎮"
+    },
+    {
+      "id": "aiga",
+      "name": "AIGA (American Institute of Graphic Arts)",
+      "description": "The professional association for design — events, competitions, and career resources",
+      "url": "https://www.aiga.org",
+      "icon": "🎨"
+    },
+    {
+      "id": "autodesk",
+      "name": "Autodesk Certified Professional Network",
+      "description": "Industry-recognized certifications in AutoCAD, Revit, 3ds Max, and Maya",
+      "url": "https://www.autodesk.com/certification",
+      "icon": "💻"
+    }
+  ]
 }

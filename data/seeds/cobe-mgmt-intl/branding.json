@@ -79,5 +79,28 @@
     ]
   },
   "validationLabel": "PMP + NASBITE CGBP",
-  "validationType": "cgbp"
+  "validationType": "cgbp",
+  "professionalOrgs": [
+    {
+      "id": "aib",
+      "name": "Academy of International Business (AIB)",
+      "description": "Leading association for scholars and specialists in international business",
+      "url": "https://www.aib.msu.edu",
+      "icon": "🌐"
+    },
+    {
+      "id": "pmi",
+      "name": "Project Management Institute (PMI)",
+      "description": "Global standard for project management — PMP certification, knowledge, and community",
+      "url": "https://www.pmi.org",
+      "icon": "📋"
+    },
+    {
+      "id": "shrm",
+      "name": "Society for Human Resource Management (SHRM)",
+      "description": "The world's largest HR professional society — certification, research, and advocacy",
+      "url": "https://www.shrm.org",
+      "icon": "👥"
+    }
+  ]
 }

@@ -79,5 +79,28 @@
     ]
   },
   "validationLabel": "MCAT + ACS Chemistry Exam",
-  "validationType": "mcat"
+  "validationType": "mcat",
+  "professionalOrgs": [
+    {
+      "id": "acs",
+      "name": "American Chemical Society (ACS)",
+      "description": "World's largest scientific society — advancing chemistry for life",
+      "url": "https://www.acs.org",
+      "icon": "⚗️"
+    },
+    {
+      "id": "asbmb",
+      "name": "American Society for Biochemistry and Molecular Biology (ASBMB)",
+      "description": "Advancing biochemistry and molecular biology through research and education",
+      "url": "https://www.asbmb.org",
+      "icon": "🧬"
+    },
+    {
+      "id": "nob-chem",
+      "name": "National Organization for the Professional Advancement of Black Chemists and Chemical Engineers (NOBCChE)",
+      "description": "Advancing Black professionals in chemistry and chemical engineering",
+      "url": "https://www.nobcche.org",
+      "icon": "✊🏿"
+    }
+  ]
 }

@@ -85,5 +85,28 @@
     "outlook": "Mechanical Engineering professionals are in demand. NC A&T graduates bring unique perspectives and strong technical skills to this growing field."
   },
   "validationLabel": "FE Exam (Mechanical) + PE Licensure",
-  "validationType": "fe"
+  "validationType": "fe",
+  "professionalOrgs": [
+    {
+      "id": "asme",
+      "name": "American Society of Mechanical Engineers (ASME)",
+      "description": "Advancing mechanical engineering — standards, conferences, and professional development",
+      "url": "https://www.asme.org",
+      "icon": "⚙️"
+    },
+    {
+      "id": "nsbe",
+      "name": "National Society of Black Engineers (NSBE)",
+      "description": "Increasing the number of Black engineers — career fairs, scholarships, and leadership programs",
+      "url": "https://www.nsbe.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "sae",
+      "name": "SAE International",
+      "description": "Advancing mobility engineering — automotive, aerospace, and commercial vehicle standards",
+      "url": "https://www.sae.org",
+      "icon": "🚗"
+    }
+  ]
 }

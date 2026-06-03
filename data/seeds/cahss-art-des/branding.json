@@ -79,5 +79,28 @@
     ]
   },
   "validationLabel": "Portfolio Review + Adobe Certified Professional",
-  "validationType": "acp"
+  "validationType": "acp",
+  "professionalOrgs": [
+    {
+      "id": "aiga",
+      "name": "AIGA (American Institute of Graphic Arts)",
+      "description": "The professional association for design — events, competitions, and career resources",
+      "url": "https://www.aiga.org",
+      "icon": "🎨"
+    },
+    {
+      "id": "caa",
+      "name": "College Art Association (CAA)",
+      "description": "Advancing art and design in higher education — conferences, publications, career services",
+      "url": "https://www.collegeart.org",
+      "icon": "🖼️"
+    },
+    {
+      "id": "nasad",
+      "name": "National Association of Schools of Art and Design (NASAD)",
+      "description": "Accrediting body for art and design programs — curriculum standards and assessment",
+      "url": "https://nasad.arts-accredit.org",
+      "icon": "🎓"
+    }
+  ]
 }

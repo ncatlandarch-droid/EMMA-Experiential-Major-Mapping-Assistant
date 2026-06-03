@@ -81,5 +81,28 @@
     ]
   },
   "validationLabel": "ACSM CPT + CSCS Certification",
-  "validationType": "acsm"
+  "validationType": "acsm",
+  "professionalOrgs": [
+    {
+      "id": "acsm",
+      "name": "American College of Sports Medicine (ACSM)",
+      "description": "World's largest sports medicine and exercise science organization — certifications, research",
+      "url": "https://www.acsm.org",
+      "icon": "🏃"
+    },
+    {
+      "id": "nsca",
+      "name": "National Strength and Conditioning Association (NSCA)",
+      "description": "Advancing strength and conditioning — CSCS and CPT certifications",
+      "url": "https://www.nsca.com",
+      "icon": "💪"
+    },
+    {
+      "id": "nata",
+      "name": "National Athletic Trainers Association (NATA)",
+      "description": "Professional membership for certified athletic trainers — advocacy, education, research",
+      "url": "https://www.nata.org",
+      "icon": "⚕️"
+    }
+  ]
 }

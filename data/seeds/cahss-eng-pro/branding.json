@@ -78,5 +78,28 @@
     ]
   },
   "validationLabel": "GRE + Professional Writing Portfolio",
-  "validationType": "gre"
+  "validationType": "gre",
+  "professionalOrgs": [
+    {
+      "id": "ncte",
+      "name": "National Council of Teachers of English (NCTE)",
+      "description": "Advancing English language arts education through advocacy, research, and professional development",
+      "url": "https://ncte.org",
+      "icon": "📖"
+    },
+    {
+      "id": "stc",
+      "name": "Society for Technical Communication (STC)",
+      "description": "Advancing technical communication — professional development and certification",
+      "url": "https://www.stc.org",
+      "icon": "📝"
+    },
+    {
+      "id": "mla",
+      "name": "Modern Language Association (MLA)",
+      "description": "Advancing the study and teaching of languages and literatures",
+      "url": "https://www.mla.org",
+      "icon": "📚"
+    }
+  ]
 }

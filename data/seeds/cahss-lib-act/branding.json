@@ -78,5 +78,28 @@
     ]
   },
   "validationLabel": "GRE + Community Organizing Proficiency",
-  "validationType": "gre"
+  "validationType": "gre",
+  "professionalOrgs": [
+    {
+      "id": "aaas",
+      "name": "American Academy of Arts & Sciences",
+      "description": "Honoring excellence and advancing interdisciplinary research for the public good",
+      "url": "https://www.amacad.org",
+      "icon": "🏛️"
+    },
+    {
+      "id": "aah",
+      "name": "Association for the Advancement of the Humanities (AAH)",
+      "description": "Supporting humanities scholarship, teaching, and public engagement",
+      "url": "https://www.neh.gov",
+      "icon": "📖"
+    },
+    {
+      "id": "ncbs",
+      "name": "National Council for Black Studies (NCBS)",
+      "description": "Advancing the discipline of Africana/Black Studies through education and research",
+      "url": "https://www.ncbsonline.org",
+      "icon": "✊🏿"
+    }
+  ]
 }

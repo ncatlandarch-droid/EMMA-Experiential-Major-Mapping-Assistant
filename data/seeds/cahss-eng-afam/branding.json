@@ -79,5 +79,28 @@
     ]
   },
   "validationLabel": "GRE Literature + Praxis English ELA",
-  "validationType": "praxis-ela"
+  "validationType": "praxis-ela",
+  "professionalOrgs": [
+    {
+      "id": "ncte",
+      "name": "National Council of Teachers of English (NCTE)",
+      "description": "Advancing English language arts education through advocacy, research, and professional development",
+      "url": "https://ncte.org",
+      "icon": "📖"
+    },
+    {
+      "id": "mla",
+      "name": "Modern Language Association (MLA)",
+      "description": "Advancing the study and teaching of languages and literatures",
+      "url": "https://www.mla.org",
+      "icon": "📚"
+    },
+    {
+      "id": "cla",
+      "name": "College Language Association (CLA)",
+      "description": "Promoting the study of language and literature among faculty at HBCUs and institutions serving minorities",
+      "url": "https://www.clascholars.org",
+      "icon": "✊🏿"
+    }
+  ]
 }

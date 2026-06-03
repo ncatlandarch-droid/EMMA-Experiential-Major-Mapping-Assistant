@@ -79,5 +79,28 @@
     ]
   },
   "validationLabel": "NWS Meteorologist Requirements + AMS Seal",
-  "validationType": "nws"
+  "validationType": "nws",
+  "professionalOrgs": [
+    {
+      "id": "ams-met",
+      "name": "American Meteorological Society (AMS)",
+      "description": "Advancing atmospheric, oceanic, and related sciences — the Certified Broadcast Meteorologist seal",
+      "url": "https://www.ametsoc.org",
+      "icon": "🌪️"
+    },
+    {
+      "id": "nwa",
+      "name": "National Weather Association (NWA)",
+      "description": "Supporting operational meteorologists — forecasting, research, and professional development",
+      "url": "https://www.nwas.org",
+      "icon": "⛈️"
+    },
+    {
+      "id": "agu",
+      "name": "American Geophysical Union (AGU)",
+      "description": "Advancing Earth and space science — the largest community of geoscientists",
+      "url": "https://www.agu.org",
+      "icon": "🌍"
+    }
+  ]
 }

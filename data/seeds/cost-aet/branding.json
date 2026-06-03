@@ -78,5 +78,28 @@
     ]
   },
   "validationLabel": "OSHA 30 + CMfgE Certification",
-  "validationType": "osha"
+  "validationType": "osha",
+  "professionalOrgs": [
+    {
+      "id": "sme",
+      "name": "Society of Manufacturing Engineers (SME)",
+      "description": "Advancing manufacturing knowledge, technology, and professional development",
+      "url": "https://www.sme.org",
+      "icon": "🏭"
+    },
+    {
+      "id": "asq",
+      "name": "American Society for Quality (ASQ)",
+      "description": "Global community for quality professionals — Six Sigma, CQE, and other certifications",
+      "url": "https://asq.org",
+      "icon": "✅"
+    },
+    {
+      "id": "nsbe",
+      "name": "National Society of Black Engineers (NSBE)",
+      "description": "Increasing the number of Black engineers — career fairs, scholarships, and leadership",
+      "url": "https://www.nsbe.org",
+      "icon": "✊🏿"
+    }
+  ]
 }

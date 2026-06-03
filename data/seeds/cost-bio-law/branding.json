@@ -78,5 +78,28 @@
     ]
   },
   "validationLabel": "LSAT + Science GRE",
-  "validationType": "lsat"
+  "validationType": "lsat",
+  "professionalOrgs": [
+    {
+      "id": "aibs",
+      "name": "American Institute of Biological Sciences (AIBS)",
+      "description": "Advancing biological research, education, and public policy",
+      "url": "https://www.aibs.org",
+      "icon": "🧬"
+    },
+    {
+      "id": "nba",
+      "name": "National Bar Association (NBA)",
+      "description": "Largest national association of predominantly African American lawyers and legal professionals",
+      "url": "https://www.nationalbar.org",
+      "icon": "⚖️"
+    },
+    {
+      "id": "lsac",
+      "name": "Law School Admission Council (LSAC)",
+      "description": "Connecting people to legal education — LSAT, application resources, and diversity initiatives",
+      "url": "https://www.lsac.org",
+      "icon": "📋"
+    }
+  ]
 }

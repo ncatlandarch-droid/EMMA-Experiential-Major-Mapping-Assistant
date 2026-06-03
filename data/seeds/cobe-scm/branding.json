@@ -84,5 +84,28 @@
     ]
   },
   "validationLabel": "CSCP + CLTD Certification (ASCM)",
-  "validationType": "cscp"
+  "validationType": "cscp",
+  "professionalOrgs": [
+    {
+      "id": "ascm",
+      "name": "Association for Supply Chain Management (ASCM)",
+      "description": "Global leader in supply chain education — APICS certifications (CSCP, CPIM, CLTD)",
+      "url": "https://www.ascm.org",
+      "icon": "🚛"
+    },
+    {
+      "id": "cscmp",
+      "name": "Council of Supply Chain Management Professionals (CSCMP)",
+      "description": "Professional association providing education, research, and networking for supply chain leaders",
+      "url": "https://cscmp.org",
+      "icon": "📦"
+    },
+    {
+      "id": "ism",
+      "name": "Institute for Supply Management (ISM)",
+      "description": "Supply management research, standards, and the CPSM certification",
+      "url": "https://www.ismworld.org",
+      "icon": "🤝"
+    }
+  ]
 }

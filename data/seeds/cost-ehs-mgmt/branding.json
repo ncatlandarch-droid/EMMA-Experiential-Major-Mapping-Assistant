@@ -80,5 +80,28 @@
     ]
   },
   "validationLabel": "CSP + CIH Certification",
-  "validationType": "csp"
+  "validationType": "csp",
+  "professionalOrgs": [
+    {
+      "id": "assp",
+      "name": "American Society of Safety Professionals (ASSP)",
+      "description": "Advancing occupational safety and health — CSP certification, education, advocacy",
+      "url": "https://www.assp.org",
+      "icon": "🦺"
+    },
+    {
+      "id": "neha",
+      "name": "National Environmental Health Association (NEHA)",
+      "description": "Advancing environmental health and protection — REHS certification and professional development",
+      "url": "https://www.neha.org",
+      "icon": "🌍"
+    },
+    {
+      "id": "aiha",
+      "name": "American Industrial Hygiene Association (AIHA)",
+      "description": "Protecting worker health through science — CIH certification and occupational exposure standards",
+      "url": "https://www.aiha.org",
+      "icon": "🔬"
+    }
+  ]
 }

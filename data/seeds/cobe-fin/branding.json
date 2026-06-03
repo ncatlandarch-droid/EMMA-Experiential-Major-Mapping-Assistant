@@ -85,5 +85,28 @@
     "outlook": "Financial Analysis professionals are in demand. NC A&T graduates bring unique perspectives and strong technical skills to this growing field."
   },
   "validationLabel": "CFA Exam + CFP Certification",
-  "validationType": "cfa"
+  "validationType": "cfa",
+  "professionalOrgs": [
+    {
+      "id": "cfa",
+      "name": "CFA Institute",
+      "description": "Global association of investment professionals — ethics, standards, and the CFA charter",
+      "url": "https://www.cfainstitute.org",
+      "icon": "📈"
+    },
+    {
+      "id": "fpa",
+      "name": "Financial Planning Association (FPA)",
+      "description": "Community for financial planners — education, practice management, and advocacy",
+      "url": "https://www.financialplanningassociation.org",
+      "icon": "💵"
+    },
+    {
+      "id": "naba",
+      "name": "National Association of Black Accountants (NABA)",
+      "description": "Expanding opportunities for minorities in accounting, finance, and business",
+      "url": "https://www.nabainc.org",
+      "icon": "✊🏿"
+    }
+  ]
 }

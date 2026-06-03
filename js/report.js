@@ -1254,14 +1254,14 @@ const EMMA_REPORT = (() => {
     const max = Math.max(profSalary, nationalMedian) * 1.2;
     const pw = (profSalary / max) * 100;
     const nw = (nationalMedian / max) * 100;
-    return `<svg viewBox="0 0 320 80" class="chart-svg">
-      <text x="0" y="16" class="chart-label">This Profession</text>
-      <rect x="105" y="4" width="${pw * 2}" height="18" rx="4" fill="#003366"/>
-      <text x="${108 + pw * 2}" y="17" class="chart-val">$${(profSalary/1000).toFixed(0)}K</text>
-      <text x="0" y="50" class="chart-label">National Median</text>
-      <rect x="105" y="38" width="${nw * 2}" height="18" rx="4" fill="#94a3b8"/>
-      <text x="${108 + nw * 2}" y="51" class="chart-val">$${(nationalMedian/1000).toFixed(0)}K</text>
-      <text x="0" y="73" class="chart-label" fill="#22c55e" font-weight="900">+${(((profSalary - nationalMedian)/nationalMedian)*100).toFixed(0)}% above median</text>
+    return `<svg viewBox="0 0 360 90" class="chart-svg">
+      <text x="0" y="18" font-size="12" fill="#334155" font-weight="700">This Profession</text>
+      <rect x="120" y="5" width="${pw * 2.1}" height="20" rx="5" fill="#003366"/>
+      <text x="${124 + pw * 2.1}" y="19" font-size="14" fill="#003366" font-weight="900">$${(profSalary/1000).toFixed(0)}K</text>
+      <text x="0" y="54" font-size="12" fill="#334155" font-weight="700">National Median</text>
+      <rect x="120" y="41" width="${nw * 2.1}" height="20" rx="5" fill="#94a3b8"/>
+      <text x="${124 + nw * 2.1}" y="55" font-size="14" fill="#003366" font-weight="900">$${(nationalMedian/1000).toFixed(0)}K</text>
+      <text x="0" y="82" font-size="13" fill="#22c55e" font-weight="900">+${(((profSalary - nationalMedian)/nationalMedian)*100).toFixed(0)}% above median</text>
     </svg>`;
   }
 
@@ -1273,8 +1273,8 @@ const EMMA_REPORT = (() => {
       <circle cx="50" cy="50" r="${r}" stroke="${clr}" stroke-width="8" fill="none"
         stroke-dasharray="${c}" stroke-dashoffset="${c * (1 - Math.min(pct,20)/20)}"
         stroke-linecap="round" transform="rotate(-90 50 50)"/>
-      <text x="50" y="45" text-anchor="middle" font-size="18" font-weight="900" fill="#1a1a2e">${pct}%</text>
-      <text x="50" y="60" text-anchor="middle" font-size="7" font-weight="700" fill="#94a3b8">10yr Growth</text>
+      <text x="50" y="46" text-anchor="middle" font-size="22" font-weight="900" fill="#1a1a2e">${pct}%</text>
+      <text x="50" y="62" text-anchor="middle" font-size="9" font-weight="700" fill="#94a3b8">10yr Growth</text>
     </svg>`;
   }
 
@@ -1312,22 +1312,44 @@ const EMMA_REPORT = (() => {
     const collegeName = branding.collegeName || 'NC A&T State University';
     const collegeIconPath = getCollegeIcon(collegeName);
 
-    // Career cards
-    const careerHTML = prof.careers.map((c, i) =>
-      `<div class="cr-card">
+    // Resolve absolute base URL so images work in the popup window
+    const loc = window.location;
+    const basePath = loc.pathname.substring(0, loc.pathname.lastIndexOf('/') + 1);
+    const baseUrl = loc.origin + basePath;
+    const abs = (rel) => rel.startsWith('http') ? rel : baseUrl + rel;
+
+    // Career cards with job search links
+    const careerHTML = prof.careers.map((c, i) => {
+      const jobQuery = encodeURIComponent(c.title);
+      const indeedUrl = `https://www.indeed.com/jobs?q=${jobQuery}`;
+      const linkedInUrl = `https://www.linkedin.com/jobs/search/?keywords=${jobQuery}`;
+      return `<div class="cr-card">
         <div class="cr-rank-num">${i + 1}</div>
         <div class="cr-icon">${c.icon}</div>
         <div class="cr-body">
           <div class="cr-title">${c.title}</div>
           <div class="cr-desc">${c.desc}</div>
           <div class="cr-sal">${c.salary}</div>
+          <div class="cr-jobs"><a href="${indeedUrl}" target="_blank" class="job-link">Indeed</a> <a href="${linkedInUrl}" target="_blank" class="job-link ln">LinkedIn</a></div>
         </div>
-      </div>`
-    ).join('');
+      </div>`;
+    }).join('');
 
     const doHTML = prof.whatYouCanDo.map(d => `<li>${d}</li>`).join('');
     const relHTML = prof.related.map(r =>
       `<div class="rel-card"><div class="rel-name">${r.name}</div><div class="rel-why">${r.why}</div></div>`
+    ).join('');
+
+    // Professional organizations from branding
+    const proOrgs = branding.professionalOrgs || [];
+    const orgsHTML = proOrgs.map(o =>
+      `<a href="${o.url}" target="_blank" class="org-card">
+        <div class="org-icon">${o.icon}</div>
+        <div class="org-body">
+          <div class="org-name">${o.name}</div>
+          <div class="org-desc">${o.description}</div>
+        </div>
+      </a>`
     ).join('');
 
     // Journey phases
@@ -1342,15 +1364,17 @@ const EMMA_REPORT = (() => {
       return `<div class="ph"><div class="ph-h" style="border-left:6px solid ${c};background:${c}0C"><div class="ph-r"><h3 style="color:${c}">${phaseIcon} ${phase.name}</h3><span class="ph-p" style="background:${c}">${pp.checked}/${pp.total} \u00b7 ${pp.percent}%</span></div>${phase.description?`<p class="ph-d">${phase.description}</p>`:''}</div><div class="ms-g">${msHTML}</div></div>`;
     }).join('');
 
-    // Images
-    const heroImg = prof.hero;
-    const galleryImgs = prof.images || [prof.hero];
+    // Images — use absolute URLs so they load in the popup
+    const heroImg = abs(prof.hero);
+    const galleryImgs = (prof.images || [prof.hero]).map(abs);
     const pg2Gallery = galleryImgs.slice(0, 2).map(img =>
       `<img src="${img}" class="ov-gallery-img" alt="Career" onerror="this.style.display='none'" />`
     ).join('');
     const pg3Gallery = galleryImgs.slice(0, 4).map(img =>
       `<img src="${img}" class="gal-img" alt="Professionals in the field" onerror="this.style.display='none'" />`
     ).join('');
+    const collegeIconAbs = abs(collegeIconPath);
+    const ncatLogoAbs = abs('assets/images/ncat-logo-white.png');
 
     const pullQuote = `\u201cYour degree in ${prof.title} doesn\u2019t just open doors \u2014 it builds the doors that don\u2019t exist yet.\u201d`;
 
@@ -1404,7 +1428,7 @@ body{font-family:'Montserrat',sans-serif;color:var(--t1);background:#fff;line-he
 .data-pg{padding:2.6rem 3rem 3.5rem}
 .pg-hdr{display:flex;justify-content:space-between;align-items:center;margin-bottom:1.6rem;padding-bottom:0.8rem;border-bottom:3px solid var(--ab)}
 .pg-hdr-icon{height:36px;width:36px;opacity:0.6}
-.sec-badge{font-size:0.5rem;font-weight:900;text-transform:uppercase;letter-spacing:0.3em;color:#fff;background:var(--ab);display:inline-block;padding:0.3rem 0.9rem;border-radius:4px;margin-bottom:0.45rem}
+.sec-badge{font-size:0.55rem;font-weight:900;text-transform:uppercase;letter-spacing:0.3em;color:#fff;background:var(--ab);display:inline-block;padding:0.3rem 0.9rem;border-radius:4px;margin-bottom:0.45rem}
 .sec-h2{font-size:1.45rem;font-weight:900;color:var(--ab);letter-spacing:-0.02em;line-height:1.25}
 .sec-sub{font-size:0.82rem;color:var(--t2);font-weight:500;margin-bottom:1.2rem;max-width:38rem;line-height:1.7}
 .ov-layout{display:flex;gap:1.4rem;margin-bottom:1.2rem}
@@ -1416,14 +1440,14 @@ body{font-family:'Montserrat',sans-serif;color:var(--t1);background:#fff;line-he
 .pull-q{margin:0.6rem 0;padding:0.7rem 1.1rem;border-left:4px solid var(--ag);background:var(--bgW);border-radius:0 8px 8px 0;font-size:0.82rem;font-style:italic;font-weight:700;color:var(--ab);line-height:1.6}
 .charts-row{display:flex;gap:0.9rem;margin-top:1rem}
 .chart-box{flex:1;background:var(--bgL);border:1px solid var(--bd);border-radius:12px;padding:0.8rem 1rem}
-.chart-box .ch-title{font-size:0.5rem;font-weight:900;text-transform:uppercase;letter-spacing:0.2em;color:var(--t3);margin-bottom:0.35rem}
+.chart-box .ch-title{font-size:0.6rem;font-weight:900;text-transform:uppercase;letter-spacing:0.2em;color:var(--t3);margin-bottom:0.35rem}
 .chart-svg{width:100%;height:auto}
-.chart-label{font-size:8px;fill:var(--t2);font-weight:700}
-.chart-val{font-size:9px;fill:var(--ab);font-weight:900}
-.gauge-svg{width:85px;height:85px;display:block;margin:0 auto}
+.chart-label{font-size:11px;fill:var(--t2);font-weight:700}
+.chart-val{font-size:13px;fill:var(--ab);font-weight:900}
+.gauge-svg{width:100px;height:100px;display:block;margin:0 auto}
 .emp-stat{text-align:center;padding-top:0.25rem}
-.emp-num{font-size:1.5rem;font-weight:900;color:var(--ab)}
-.emp-lbl{font-size:0.5rem;font-weight:700;color:var(--t3);text-transform:uppercase;letter-spacing:0.1em}
+.emp-num{font-size:1.8rem;font-weight:900;color:var(--ab)}
+.emp-lbl{font-size:0.6rem;font-weight:700;color:var(--t3);text-transform:uppercase;letter-spacing:0.1em}
 .do-section{margin-top:1rem;padding:0.9rem 1.1rem;background:var(--bgW);border-radius:12px;border:2px solid var(--ag)}
 .do-title{font-size:0.5rem;font-weight:900;text-transform:uppercase;letter-spacing:0.2em;color:var(--ab);margin-bottom:0.4rem}
 .do-grid{display:grid;grid-template-columns:1fr 1fr;gap:0.15rem}
@@ -1441,6 +1465,11 @@ body{font-family:'Montserrat',sans-serif;color:var(--t1);background:#fff;line-he
 .cr-title{font-size:0.78rem;font-weight:800;color:var(--ab);margin-bottom:0.1rem;line-height:1.3}
 .cr-desc{font-size:0.67rem;color:var(--t2);font-weight:500;line-height:1.5}
 .cr-sal{font-size:0.67rem;font-weight:800;color:var(--gr);margin-top:0.2rem}
+.cr-jobs{margin-top:0.2rem;display:flex;gap:0.3rem}
+.job-link{font-size:0.52rem;font-weight:800;text-transform:uppercase;letter-spacing:0.08em;padding:0.15rem 0.45rem;border-radius:4px;text-decoration:none;background:var(--ab);color:#fff;transition:opacity 0.2s}
+.job-link.ln{background:#0A66C2}
+.job-link:hover{opacity:0.8}
+@media print{.job-link{border:1px solid var(--ab);background:transparent!important;color:var(--ab)!important}.job-link.ln{border-color:#0A66C2;color:#0A66C2!important}}
 .stats-recap{display:flex;gap:0.8rem;margin-top:0.8rem;padding:0.7rem 1.2rem;background:var(--ab);border-radius:10px;color:#fff;align-items:center}
 .stats-recap .sr-item{flex:1;text-align:center}
 .stats-recap .sr-val{font-size:1rem;font-weight:900;color:var(--ag)}
@@ -1461,15 +1490,15 @@ body{font-family:'Montserrat',sans-serif;color:var(--t1);background:#fff;line-he
 .ph-h{padding:0.45rem 0.8rem;border-radius:8px;margin-bottom:0.25rem}
 .ph-r{display:flex;justify-content:space-between;align-items:center}
 .ph-r h3{font-size:0.78rem;font-weight:900;text-transform:uppercase;letter-spacing:0.04em}
-.ph-p{font-size:0.5rem;font-weight:800;color:#fff;padding:0.12rem 0.5rem;border-radius:20px}
-.ph-d{font-size:0.55rem;color:var(--t2);margin-top:0.12rem;font-weight:500}
+.ph-p{font-size:0.55rem;font-weight:800;color:#fff;padding:0.12rem 0.5rem;border-radius:20px}
+.ph-d{font-size:0.62rem;color:var(--t2);margin-top:0.12rem;font-weight:500}
 .ms-g{display:grid;grid-template-columns:1fr 1fr;gap:0.18rem}
-.ms{display:flex;align-items:center;gap:0.25rem;padding:0.25rem 0.35rem;border:1px solid var(--bd);border-radius:5px;font-size:0.58rem}
+.ms{display:flex;align-items:center;gap:0.25rem;padding:0.28rem 0.4rem;border:1px solid var(--bd);border-radius:5px;font-size:0.65rem}
 .ms-d{background:#f0fdf4;border-color:#bbf7d0}
-.ms-c{font-size:0.6rem;flex-shrink:0}.ms-i{font-size:0.55rem;flex-shrink:0}
+.ms-c{font-size:0.65rem;flex-shrink:0}.ms-i{font-size:0.6rem;flex-shrink:0}
 .ms-t{display:flex;flex-direction:column;min-width:0}
 .ms-l{font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.ms-cr{font-size:0.45rem;color:var(--t4);font-weight:600}
+.ms-cr{font-size:0.5rem;color:var(--t4);font-weight:600}
 
 /* ═══ PAGE 5: RELATED + QR ═══ */
 .rel-pg{padding:2.6rem 3rem 3.5rem}
@@ -1477,6 +1506,15 @@ body{font-family:'Montserrat',sans-serif;color:var(--t1);background:#fff;line-he
 .rel-card{padding:0.7rem 0.8rem;border:2px solid var(--bd);border-radius:10px}
 .rel-name{font-size:0.82rem;font-weight:900;color:var(--ab);line-height:1.3}
 .rel-why{font-size:0.67rem;color:var(--t2);font-weight:500;margin-top:0.12rem;line-height:1.5}
+.org-section{margin-top:0.9rem}
+.org-sec-title{font-size:0.55rem;font-weight:900;text-transform:uppercase;letter-spacing:0.25em;color:var(--ab);margin-bottom:0.4rem;padding-left:0.1rem}
+.org-grid{display:flex;flex-direction:column;gap:0.35rem}
+.org-card{display:flex;gap:0.5rem;align-items:flex-start;padding:0.55rem 0.7rem;border:2px solid var(--bd);border-radius:8px;text-decoration:none;color:inherit;transition:border-color 0.2s}
+.org-card:hover{border-color:var(--ag)}
+.org-icon{font-size:1.2rem;flex-shrink:0;width:1.5rem;text-align:center;padding-top:0.05rem}
+.org-body{flex:1;min-width:0}
+.org-name{font-size:0.72rem;font-weight:800;color:var(--ab);line-height:1.3}
+.org-desc{font-size:0.6rem;color:var(--t2);font-weight:500;line-height:1.5}
 .qr-section{margin-top:1.2rem;padding:1.3rem 1.8rem;background:linear-gradient(135deg,var(--ab) 0%,var(--abd) 100%);border-radius:16px;display:flex;align-items:center;gap:1.4rem;color:#fff}
 .qr-img{width:120px;height:120px;border-radius:10px;border:4px solid var(--ag);flex-shrink:0}
 .qr-txt h3{font-size:1.15rem;font-weight:900;margin-bottom:0.25rem}
@@ -1508,13 +1546,13 @@ body{font-family:'Montserrat',sans-serif;color:var(--t1);background:#fff;line-he
   <img src="${heroImg}" class="cover-bg" alt="${prof.title}"/>
   <div class="cover-grad"></div>
   <div class="cover-top">
-    <img src="assets/images/ncat-logo-white.png" class="cover-logo-img" alt="NC A&T" onerror="this.alt='NC A&T'"/>
+    <img src="${ncatLogoAbs}" class="cover-logo-img" alt="NC A&T" onerror="this.alt='NC A&T'"/>
     <div class="cover-col-right">
       <div class="cover-col-txt">
         <div class="cn">${collegeName}</div>
         <div class="cs">North Carolina A&T State University</div>
       </div>
-      <img src="${collegeIconPath}" class="cover-col-icon" alt="" onerror="this.style.display='none'" style="filter:brightness(10)"/>
+      <img src="${collegeIconAbs}" class="cover-col-icon" alt="" onerror="this.style.display='none'" style="filter:brightness(10)"/>
     </div>
   </div>
   <div class="cover-ov">
@@ -1534,7 +1572,7 @@ body{font-family:'Montserrat',sans-serif;color:var(--t1);background:#fff;line-he
       <div class="sec-badge">Career Overview</div>
       <h2 class="sec-h2">${prof.title}</h2>
     </div>
-    <img src="${collegeIconPath}" class="pg-hdr-icon" alt="" onerror="this.style.display='none'"/>
+    <img src="${collegeIconAbs}" class="pg-hdr-icon" alt="" onerror="this.style.display='none'"/>
   </div>
   <div class="ov-layout">
     <div class="ov-img-col">
@@ -1565,7 +1603,7 @@ body{font-family:'Montserrat',sans-serif;color:var(--t1);background:#fff;line-he
       <div class="sec-badge">What You Can Become</div>
       <h2 class="sec-h2">Top Career Paths in ${prof.title}</h2>
     </div>
-    <img src="${collegeIconPath}" class="pg-hdr-icon" alt="" onerror="this.style.display='none'"/>
+    <img src="${collegeIconAbs}" class="pg-hdr-icon" alt="" onerror="this.style.display='none'"/>
   </div>
   <p class="sec-sub">Your degree opens doors to diverse, rewarding careers. Here are the top paths where NC A&T Aggies are making an impact.</p>
   <div class="cr-grid">${careerHTML}</div>
@@ -1589,7 +1627,7 @@ body{font-family:'Montserrat',sans-serif;color:var(--t1);background:#fff;line-he
       <div class="sec-badge">Your Journey</div>
       <h2 class="sec-h2">4-Year Experiential Journey Map</h2>
     </div>
-    <img src="${collegeIconPath}" class="pg-hdr-icon" alt="" onerror="this.style.display='none'"/>
+    <img src="${collegeIconAbs}" class="pg-hdr-icon" alt="" onerror="this.style.display='none'"/>
   </div>
   <p class="sec-sub">Track your progress across the four-phase experiential framework \u2014 from exploration to launch.</p>
   <div class="map-prog">
@@ -1616,10 +1654,16 @@ body{font-family:'Montserrat',sans-serif;color:var(--t1);background:#fff;line-he
       <div class="sec-badge">Explore Related Fields</div>
       <h2 class="sec-h2">Students Who Love ${prof.title} Also Explore</h2>
     </div>
-    <img src="${collegeIconPath}" class="pg-hdr-icon" alt="" onerror="this.style.display='none'"/>
+    <img src="${collegeIconAbs}" class="pg-hdr-icon" alt="" onerror="this.style.display='none'"/>
   </div>
   <p class="sec-sub">Your interests connect to many fields. Consider a minor or double major to strengthen your career portfolio.</p>
   <div class="rel-grid">${relHTML}</div>
+
+  ${proOrgs.length > 0 ? `
+  <div class="org-section">
+    <div class="org-sec-title">🏢 Professional Organizations</div>
+    <div class="org-grid">${orgsHTML}</div>
+  </div>` : ''}
 
   <div class="qr-section">
     ${qrCodeImg('https://thinkemma.app')}
@@ -1632,7 +1676,7 @@ body{font-family:'Montserrat',sans-serif;color:var(--t1);background:#fff;line-he
 
   <div class="close-brand">
     <div class="cb-left">
-      <img src="${collegeIconPath}" class="cb-icon" alt="" onerror="this.style.display='none'"/>
+      <img src="${collegeIconAbs}" class="cb-icon" alt="" onerror="this.style.display='none'"/>
       <div>
         <div class="cb-aggie">Aggies Do! \ud83d\udc99\ud83d\udc9b</div>
         <div class="cb-sub">North Carolina Agricultural & Technical State University \u00b7 Greensboro, NC</div>

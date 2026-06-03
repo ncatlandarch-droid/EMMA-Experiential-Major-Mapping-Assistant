@@ -79,5 +79,28 @@
     ]
   },
   "validationLabel": "CPTC Technical Writing Certification",
-  "validationType": "cptc"
+  "validationType": "cptc",
+  "professionalOrgs": [
+    {
+      "id": "stc",
+      "name": "Society for Technical Communication (STC)",
+      "description": "Advancing technical communication — professional development and certification",
+      "url": "https://www.stc.org",
+      "icon": "📝"
+    },
+    {
+      "id": "ncte",
+      "name": "National Council of Teachers of English (NCTE)",
+      "description": "Advancing English language arts education through advocacy, research, and professional development",
+      "url": "https://ncte.org",
+      "icon": "📖"
+    },
+    {
+      "id": "attw",
+      "name": "Association of Teachers of Technical Writing (ATTW)",
+      "description": "Supporting teachers and scholars of technical and professional writing",
+      "url": "https://attw.org",
+      "icon": "🎓"
+    }
+  ]
 }

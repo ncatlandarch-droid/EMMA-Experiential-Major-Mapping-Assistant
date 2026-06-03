@@ -81,5 +81,28 @@
     ]
   },
   "validationLabel": "FE Exam (Other Disciplines) + PE Licensure",
-  "validationType": "fe"
+  "validationType": "fe",
+  "professionalOrgs": [
+    {
+      "id": "bmes",
+      "name": "Biomedical Engineering Society (BMES)",
+      "description": "Advancing biomedical engineering education, research, and professional development",
+      "url": "https://www.bmes.org",
+      "icon": "🦾"
+    },
+    {
+      "id": "nsbe",
+      "name": "National Society of Black Engineers (NSBE)",
+      "description": "Increasing the number of Black engineers — career fairs, scholarships, and leadership programs",
+      "url": "https://www.nsbe.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "aiche",
+      "name": "American Institute of Chemical Engineers (AIChE)",
+      "description": "Advancing chemical engineering — bioprocessing, sustainability, and innovation",
+      "url": "https://www.aiche.org",
+      "icon": "🧪"
+    }
+  ]
 }

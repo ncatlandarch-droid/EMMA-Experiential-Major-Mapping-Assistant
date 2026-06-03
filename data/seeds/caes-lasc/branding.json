@@ -19,10 +19,30 @@
     "textSecondaryHex": "#555770"
   },
   "categoryColors": {
-    "Purpose": { "hex": "#2563EB", "rgb": "37, 99, 235", "emoji": "🔍", "label": "Purpose & Self-Discovery" },
-    "Communities": { "hex": "#059669", "rgb": "5, 150, 105", "emoji": "🤝", "label": "Communities & Service" },
-    "LocalGlobal": { "hex": "#D97706", "rgb": "217, 119, 6", "emoji": "🌍", "label": "Local & Global Engagement" },
-    "Identity": { "hex": "#7C3AED", "rgb": "124, 58, 237", "emoji": "💼", "label": "Professional Identity" }
+    "Purpose": {
+      "hex": "#2563EB",
+      "rgb": "37, 99, 235",
+      "emoji": "🔍",
+      "label": "Purpose & Self-Discovery"
+    },
+    "Communities": {
+      "hex": "#059669",
+      "rgb": "5, 150, 105",
+      "emoji": "🤝",
+      "label": "Communities & Service"
+    },
+    "LocalGlobal": {
+      "hex": "#D97706",
+      "rgb": "217, 119, 6",
+      "emoji": "🌍",
+      "label": "Local & Global Engagement"
+    },
+    "Identity": {
+      "hex": "#7C3AED",
+      "rgb": "124, 58, 237",
+      "emoji": "💼",
+      "label": "Professional Identity"
+    }
   },
   "validationType": "competency",
   "validationLabel": "AALAS Certification Readiness + Research Compliance",
@@ -37,8 +57,13 @@
     "topSalary": "$85,000+",
     "totalJobs": "88,100",
     "topEmployers": [
-      "NIH/National Institutes of Health", "Pfizer", "Merck", "Charles River Laboratories",
-      "Jackson Laboratory", "University Research Centers", "CDC",
+      "NIH/National Institutes of Health",
+      "Pfizer",
+      "Merck",
+      "Charles River Laboratories",
+      "Jackson Laboratory",
+      "University Research Centers",
+      "CDC",
       "US Army Medical Research Institute"
     ],
     "certifications": [
@@ -48,14 +73,45 @@
       "IACUC Compliance Training"
     ],
     "relatedFields": [
-      "Biomedical Research", "Veterinary Technology", "Pharmaceutical Sciences",
-      "Toxicology", "Vivarium Management"
+      "Biomedical Research",
+      "Veterinary Technology",
+      "Pharmaceutical Sciences",
+      "Toxicology",
+      "Vivarium Management"
     ],
     "keySkills": [
-      "Animal Husbandry", "Aseptic Technique", "Regulatory Compliance",
-      "Facility Management", "Research Protocol Support", "Necropsy & Pathology",
-      "Colony Management", "IACUC Documentation"
+      "Animal Husbandry",
+      "Aseptic Technique",
+      "Regulatory Compliance",
+      "Facility Management",
+      "Research Protocol Support",
+      "Necropsy & Pathology",
+      "Colony Management",
+      "IACUC Documentation"
     ],
     "outlook": "Laboratory animal science professionals are critical to biomedical research progress. The field offers exceptional job security with near-100% placement rates for qualified graduates, particularly those from AALAS-accredited programs."
-  }
+  },
+  "professionalOrgs": [
+    {
+      "id": "asa",
+      "name": "American Society of Agronomy (ASA)",
+      "description": "Advancing agronomy, crop science, and soil science for sustainable agriculture",
+      "url": "https://www.agronomy.org",
+      "icon": "🌾"
+    },
+    {
+      "id": "ashs",
+      "name": "American Society for Horticultural Science (ASHS)",
+      "description": "Advancing all areas of horticultural science through research, education, and knowledge exchange",
+      "url": "https://ashs.org",
+      "icon": "🌱"
+    },
+    {
+      "id": "apa-plan",
+      "name": "American Planning Association (APA)",
+      "description": "Creating great communities through urban planning, design, and policy",
+      "url": "https://www.planning.org",
+      "icon": "🏙️"
+    }
+  ]
 }

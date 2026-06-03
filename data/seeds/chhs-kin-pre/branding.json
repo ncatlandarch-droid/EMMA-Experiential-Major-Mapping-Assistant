@@ -78,5 +78,28 @@
     ]
   },
   "validationLabel": "GRE + DPT Admission Readiness",
-  "validationType": "dpt"
+  "validationType": "dpt",
+  "professionalOrgs": [
+    {
+      "id": "acsm",
+      "name": "American College of Sports Medicine (ACSM)",
+      "description": "World's largest sports medicine and exercise science organization — certifications, research",
+      "url": "https://www.acsm.org",
+      "icon": "🏃"
+    },
+    {
+      "id": "apta",
+      "name": "American Physical Therapy Association (APTA)",
+      "description": "Professional organization for physical therapists and PTs in training",
+      "url": "https://www.apta.org",
+      "icon": "🦿"
+    },
+    {
+      "id": "nsca",
+      "name": "National Strength and Conditioning Association (NSCA)",
+      "description": "Advancing strength and conditioning — CSCS and CPT certifications",
+      "url": "https://www.nsca.com",
+      "icon": "💪"
+    }
+  ]
 }

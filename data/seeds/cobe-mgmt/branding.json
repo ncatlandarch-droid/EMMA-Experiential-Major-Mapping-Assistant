@@ -46,5 +46,28 @@
   "validationType": "pmp",
   "validationLabel": "PMP + SHRM-CP Certification",
   "accreditationBody": "AACSB (Association to Advance Collegiate Schools of Business)",
-  "licensureExam": null
+  "licensureExam": null,
+  "professionalOrgs": [
+    {
+      "id": "shrm",
+      "name": "Society for Human Resource Management (SHRM)",
+      "description": "The world's largest HR professional society — certification, research, and advocacy",
+      "url": "https://www.shrm.org",
+      "icon": "👥"
+    },
+    {
+      "id": "pmi",
+      "name": "Project Management Institute (PMI)",
+      "description": "Global standard for project management — PMP certification, knowledge, and community",
+      "url": "https://www.pmi.org",
+      "icon": "📋"
+    },
+    {
+      "id": "ama",
+      "name": "American Management Association (AMA)",
+      "description": "Management training, development, and leadership education",
+      "url": "https://www.amanet.org",
+      "icon": "💼"
+    }
+  ]
 }

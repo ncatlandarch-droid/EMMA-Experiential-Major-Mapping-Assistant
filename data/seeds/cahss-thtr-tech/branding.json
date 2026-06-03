@@ -79,5 +79,28 @@
     ]
   },
   "validationLabel": "USITT Portfolio + Technical Design",
-  "validationType": "usitt"
+  "validationType": "usitt",
+  "professionalOrgs": [
+    {
+      "id": "usitt",
+      "name": "United States Institute for Theatre Technology (USITT)",
+      "description": "Connecting performing arts design and technology professionals",
+      "url": "https://www.usitt.org",
+      "icon": "🎭"
+    },
+    {
+      "id": "iatse",
+      "name": "International Alliance of Theatrical Stage Employees (IATSE)",
+      "description": "Union representing technicians, artisans, and craftspeople in entertainment",
+      "url": "https://www.iatse.net",
+      "icon": "🔧"
+    },
+    {
+      "id": "setc",
+      "name": "Southeastern Theatre Conference (SETC)",
+      "description": "Connecting theatre professionals and students across the Southeast — auditions and workshops",
+      "url": "https://www.setc.org",
+      "icon": "🎪"
+    }
+  ]
 }

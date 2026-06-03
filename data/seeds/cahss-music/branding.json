@@ -79,5 +79,28 @@
     ]
   },
   "validationLabel": "Praxis Music + Performance Jury",
-  "validationType": "praxis-music"
+  "validationType": "praxis-music",
+  "professionalOrgs": [
+    {
+      "id": "nafme",
+      "name": "National Association for Music Education (NAfME)",
+      "description": "Advancing music education — advocacy, professional development, and student programs",
+      "url": "https://nafme.org",
+      "icon": "🎵"
+    },
+    {
+      "id": "cms",
+      "name": "College Music Society (CMS)",
+      "description": "Forum for music faculty — teaching, performance, composition, and music technology",
+      "url": "https://www.music.org",
+      "icon": "🎼"
+    },
+    {
+      "id": "nasm",
+      "name": "National Association of Schools of Music (NASM)",
+      "description": "Accrediting body for music programs — standards for degrees and curriculum",
+      "url": "https://nasm.arts-accredit.org",
+      "icon": "🎓"
+    }
+  ]
 }

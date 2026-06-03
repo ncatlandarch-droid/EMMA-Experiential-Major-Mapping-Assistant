@@ -80,5 +80,28 @@
     ]
   },
   "validationLabel": "FS / PS Licensure + GISP Certification",
-  "validationType": "fs"
+  "validationType": "fs",
+  "professionalOrgs": [
+    {
+      "id": "asprs",
+      "name": "American Society for Photogrammetry and Remote Sensing (ASPRS)",
+      "description": "Advancing geospatial science — LiDAR, photogrammetry, GIS, and remote sensing",
+      "url": "https://www.asprs.org",
+      "icon": "🛰️"
+    },
+    {
+      "id": "nsps",
+      "name": "National Society of Professional Surveyors (NSPS)",
+      "description": "Advancing the surveying and geospatial profession — licensing, standards, education",
+      "url": "https://www.nsps.us.com",
+      "icon": "📐"
+    },
+    {
+      "id": "urisa",
+      "name": "Urban and Regional Information Systems Association (URISA)",
+      "description": "Advancing the effective use of geospatial information technology in government",
+      "url": "https://www.urisa.org",
+      "icon": "🗺️"
+    }
+  ]
 }

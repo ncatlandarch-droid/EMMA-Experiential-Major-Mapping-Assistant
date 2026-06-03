@@ -78,5 +78,28 @@
     ]
   },
   "validationLabel": "LSAT + GRE Quantitative",
-  "validationType": "lsat"
+  "validationType": "lsat",
+  "professionalOrgs": [
+    {
+      "id": "aea",
+      "name": "American Economic Association (AEA)",
+      "description": "Encouraging economic research, publishing, and education",
+      "url": "https://www.aeaweb.org",
+      "icon": "📊"
+    },
+    {
+      "id": "alea",
+      "name": "American Law and Economics Association (ALEA)",
+      "description": "Advancing scholarly research at the intersection of law and economics",
+      "url": "https://www.amlecon.org",
+      "icon": "⚖️"
+    },
+    {
+      "id": "nba",
+      "name": "National Bar Association (NBA)",
+      "description": "Largest national association of predominantly African American lawyers, judges, and legal professionals",
+      "url": "https://www.nationalbar.org",
+      "icon": "🏛️"
+    }
+  ]
 }

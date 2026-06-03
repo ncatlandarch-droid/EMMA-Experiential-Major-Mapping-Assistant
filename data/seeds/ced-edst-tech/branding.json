@@ -79,5 +79,28 @@
     ]
   },
   "validationLabel": "ISTE Educator Standards + Google Certified Educator",
-  "validationType": "iste"
+  "validationType": "iste",
+  "professionalOrgs": [
+    {
+      "id": "iste",
+      "name": "International Society for Technology in Education (ISTE)",
+      "description": "Advancing the use of technology in education — standards, training, and innovation",
+      "url": "https://www.iste.org",
+      "icon": "💻"
+    },
+    {
+      "id": "nea-ed",
+      "name": "National Education Association (NEA)",
+      "description": "The largest professional employee organization in the U.S. — advocacy for educators and students",
+      "url": "https://www.nea.org",
+      "icon": "🎓"
+    },
+    {
+      "id": "aect",
+      "name": "Association for Educational Communications and Technology (AECT)",
+      "description": "Advancing knowledge and practice of educational technology and instructional design",
+      "url": "https://www.aect.org",
+      "icon": "🎮"
+    }
+  ]
 }

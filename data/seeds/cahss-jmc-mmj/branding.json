@@ -79,5 +79,28 @@
     ]
   },
   "validationLabel": "ACEJMC Standards + Adobe Video",
-  "validationType": "acejmc"
+  "validationType": "acejmc",
+  "professionalOrgs": [
+    {
+      "id": "spj",
+      "name": "Society of Professional Journalists (SPJ)",
+      "description": "Protecting and promoting a free press — ethics, advocacy, and professional resources",
+      "url": "https://www.spj.org",
+      "icon": "📰"
+    },
+    {
+      "id": "nabj",
+      "name": "National Association of Black Journalists (NABJ)",
+      "description": "Advocating for diversity in newsrooms and media — scholarships, mentorship, and community",
+      "url": "https://www.nabj.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "rtdna",
+      "name": "Radio Television Digital News Association (RTDNA)",
+      "description": "Advancing excellence in electronic journalism",
+      "url": "https://www.rtdna.org",
+      "icon": "📺"
+    }
+  ]
 }

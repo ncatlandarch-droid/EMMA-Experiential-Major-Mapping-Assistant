@@ -79,5 +79,28 @@
     ]
   },
   "validationLabel": "ACS Certified Degree + GRE Chemistry",
-  "validationType": "acs"
+  "validationType": "acs",
+  "professionalOrgs": [
+    {
+      "id": "acs",
+      "name": "American Chemical Society (ACS)",
+      "description": "World's largest scientific society — advancing chemistry for life. ACS certification for degrees.",
+      "url": "https://www.acs.org",
+      "icon": "⚗️"
+    },
+    {
+      "id": "nob-chem",
+      "name": "National Organization for the Professional Advancement of Black Chemists and Chemical Engineers (NOBCChE)",
+      "description": "Advancing Black professionals in chemistry and chemical engineering",
+      "url": "https://www.nobcche.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "aaas-sci",
+      "name": "American Association for the Advancement of Science (AAAS)",
+      "description": "Advancing science, engineering, and innovation for the benefit of all people",
+      "url": "https://www.aaas.org",
+      "icon": "🔬"
+    }
+  ]
 }

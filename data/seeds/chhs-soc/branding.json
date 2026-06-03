@@ -79,5 +79,28 @@
     ]
   },
   "validationLabel": "GRE + Research Methods Proficiency",
-  "validationType": "gre"
+  "validationType": "gre",
+  "professionalOrgs": [
+    {
+      "id": "asa-soc",
+      "name": "American Sociological Association (ASA)",
+      "description": "Advancing sociology as a scientific discipline and profession serving the public good",
+      "url": "https://www.asanet.org",
+      "icon": "🏛️"
+    },
+    {
+      "id": "abs",
+      "name": "Association of Black Sociologists (ABS)",
+      "description": "Promoting research, teaching, and community service among Black sociologists",
+      "url": "https://www.associationofblacksociologists.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "sssp",
+      "name": "Society for the Study of Social Problems (SSSP)",
+      "description": "Promoting research on significant social problems and social policy",
+      "url": "https://www.sssp1.org",
+      "icon": "🔍"
+    }
+  ]
 }

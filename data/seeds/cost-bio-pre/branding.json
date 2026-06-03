@@ -78,5 +78,28 @@
     ]
   },
   "validationLabel": "MCAT Exam",
-  "validationType": "mcat"
+  "validationType": "mcat",
+  "professionalOrgs": [
+    {
+      "id": "amsa",
+      "name": "American Medical Student Association (AMSA)",
+      "description": "Student-governed organization committed to health equity, advocacy, and medical education",
+      "url": "https://www.amsa.org",
+      "icon": "🩺"
+    },
+    {
+      "id": "snma",
+      "name": "Student National Medical Association (SNMA)",
+      "description": "Supporting underrepresented minority medical students — advocacy, mentorship, community",
+      "url": "https://snma.org",
+      "icon": "✊🏿"
+    },
+    {
+      "id": "aamc",
+      "name": "Association of American Medical Colleges (AAMC)",
+      "description": "Resources for pre-med students — MCAT, medical school applications, and career guidance",
+      "url": "https://www.aamc.org",
+      "icon": "🏥"
+    }
+  ]
 }

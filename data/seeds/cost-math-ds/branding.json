@@ -82,5 +82,28 @@
     ]
   },
   "validationLabel": "Google Data Analytics + IBM Data Science",
-  "validationType": "google-da"
+  "validationType": "google-da",
+  "professionalOrgs": [
+    {
+      "id": "asa-stat",
+      "name": "American Statistical Association (ASA)",
+      "description": "World's largest community of statisticians — education, research, and professional development",
+      "url": "https://www.amstat.org",
+      "icon": "📊"
+    },
+    {
+      "id": "siam",
+      "name": "Society for Industrial and Applied Mathematics (SIAM)",
+      "description": "Advancing applied mathematics and computational science",
+      "url": "https://www.siam.org",
+      "icon": "📐"
+    },
+    {
+      "id": "nam",
+      "name": "National Association of Mathematicians (NAM)",
+      "description": "Promoting excellence in the mathematical sciences for underrepresented minorities",
+      "url": "https://www.nam-math.org",
+      "icon": "✊🏿"
+    }
+  ]
 }

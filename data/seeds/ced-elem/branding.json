@@ -81,5 +81,28 @@
     ]
   },
   "validationLabel": "Praxis Elementary Education + edTPA",
-  "validationType": "praxis-elem"
+  "validationType": "praxis-elem",
+  "professionalOrgs": [
+    {
+      "id": "nea-ed",
+      "name": "National Education Association (NEA)",
+      "description": "The largest professional employee organization in the U.S. — advocacy for educators and students",
+      "url": "https://www.nea.org",
+      "icon": "🎓"
+    },
+    {
+      "id": "nctm",
+      "name": "National Council of Teachers of Mathematics (NCTM)",
+      "description": "Advocating for high-quality mathematics education for all students",
+      "url": "https://www.nctm.org",
+      "icon": "➗"
+    },
+    {
+      "id": "ncte",
+      "name": "National Council of Teachers of English (NCTE)",
+      "description": "Advancing English language arts education through advocacy and professional development",
+      "url": "https://ncte.org",
+      "icon": "📖"
+    }
+  ]
 }
