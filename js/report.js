@@ -391,7 +391,7 @@ const EMMA_REPORT = (() => {
     },
 
     'coe-eng': {
-      hero: 'assets/images/professions/prof_applied_engineering.png',
+      hero: 'assets/images/professions/prof_applied_eng.png',
       title: 'Engineering',
       tagline: 'Designing, Building & Innovating the Systems That Power Our World',
       overview: 'Engineers solve humanity\'s greatest challenges — designing bridges, developing software, creating biomedical devices, and building sustainable infrastructure. NC A&T\'s College of Engineering is the #1 producer of African American engineers in the nation, with ABET-accredited programs across nine disciplines.',
@@ -435,7 +435,7 @@ const EMMA_REPORT = (() => {
       whatYouCanDo: ['Build products at Google, Apple, or Meta','Launch a tech startup','Lead cybersecurity for federal agencies','Create the next breakthrough AI system','Architect cloud platforms serving billions','Develop video games and interactive media']
     },
     'ise': {
-      hero: 'assets/images/professions/prof_applied_engineering.png',
+      hero: 'assets/images/professions/prof_applied_eng.png',
       title: 'Industrial & Systems Engineering',
       tagline: 'Optimizing Complex Systems for Maximum Efficiency',
       overview: 'Industrial engineers make systems work better — optimizing manufacturing, healthcare delivery, supply chains, and business processes. ISE is the most versatile engineering discipline, blending technical skills with business and human factors.',
@@ -500,7 +500,7 @@ const EMMA_REPORT = (() => {
       whatYouCanDo: ['Help children find their voices','Rehabilitate stroke patients\' communication abilities','Fit and program hearing aids and cochlear implants','Work in hospitals, schools, or private practice','Specialize in accent modification or voice therapy','Research new treatments for communication disorders']
     },
     'comm': {
-      hero: 'assets/images/professions/prof_communications.png',
+      hero: 'assets/images/professions/prof_comm_studies.png',
       title: 'Communication Studies',
       tagline: 'Mastering the Art of Persuasion, Media & Human Connection',
       overview: 'Communication professionals shape how messages are crafted, delivered, and received — from corporate PR to political campaigns, social media strategy, and interpersonal dynamics. Strong communicators are essential in every industry.',
@@ -715,7 +715,7 @@ const EMMA_REPORT = (() => {
       whatYouCanDo: ['Practice law at a top firm','Run for elected office','Serve as a diplomat overseas','Manage national political campaigns','Shape legislation at the federal level','Analyze politics for major news networks']
     },
     'jmc': {
-      hero: 'assets/images/professions/prof_communications.png',
+      hero: 'assets/images/professions/prof_comm_studies.png',
       title: 'Journalism & Mass Communication',
       tagline: 'Telling Stories That Inform, Inspire & Ignite Change',
       overview: 'JMC professionals create the content that shapes public opinion — from investigative journalism and broadcast news to multimedia production and public relations. NC A&T\'s ACEJMC-accredited program trains you across multimedia, PR, and production.',
@@ -779,7 +779,7 @@ const EMMA_REPORT = (() => {
       whatYouCanDo: ['Design brand identities for global companies','Direct art and creative at an advertising agency','Create UI/UX for major tech products','Exhibit fine art in galleries worldwide','Design motion graphics for film and streaming','Curate exhibitions at major museums']
     },
     'music': {
-      hero: 'assets/images/professions/prof_communications.png',
+      hero: 'assets/images/professions/prof_comm_studies.png',
       title: 'Music',
       tagline: 'Performing, Producing & Shaping the Sound of Culture',
       overview: 'Music professionals perform, compose, teach, and produce the sounds that define culture. From concert halls to recording studios, music education to audio engineering, this field combines artistry with technical skill.',
@@ -800,7 +800,7 @@ const EMMA_REPORT = (() => {
       whatYouCanDo: ['Perform on international stages','Produce chart-topping records','Direct school and community music programs','Score films and video games','Engineer sound for live concerts and studios','Use music therapy to heal']
     },
     'thtr': {
-      hero: 'assets/images/professions/prof_communications.png',
+      hero: 'assets/images/professions/prof_comm_studies.png',
       title: 'Theatre Arts',
       tagline: 'Bringing Stories to Life on Stage & Screen',
       overview: 'Theatre arts professionals create live and recorded performance — acting, directing, designing sets and costumes, and managing productions. With concentrations in acting and technical theatre, this field bridges creativity and craftsmanship.',
@@ -864,7 +864,7 @@ const EMMA_REPORT = (() => {
       whatYouCanDo: ['Design online learning for major universities','Lead corporate training at Fortune 500 companies','Implement education technology across school districts','Build family engagement programs','Manage educational nonprofits','Create e-learning content for global audiences']
     },
     'aet': {
-      hero: 'assets/images/professions/prof_applied_engineering.png',
+      hero: 'assets/images/professions/prof_applied_eng.png',
       title: 'Applied Engineering Technology',
       tagline: 'Hands-On Engineering for the Real World',
       overview: 'Applied engineering technologists bridge the gap between engineering design and manufacturing production. This practical, hands-on program prepares you for immediate impact in manufacturing, quality assurance, and technical project management.',
@@ -885,7 +885,7 @@ const EMMA_REPORT = (() => {
       whatYouCanDo: ['Manage manufacturing operations at major companies','Design production processes for automotive and aerospace','Lead quality improvement programs','Oversee plant operations as a facility manager','Sell technical engineering solutions','Program CNC machines and robotics']
     },
     'auto': {
-      hero: 'assets/images/professions/prof_auto_engineering.png',
+      hero: 'assets/images/professions/prof_auto_eng.png',
       title: 'Automotive Engineering Technology',
       tagline: 'Engineering the Vehicles of Tomorrow',
       overview: 'Automotive engineering technologists design, test, and manufacture the vehicles of the future. From electric vehicles and autonomous driving to motorsports and fleet management, this field is at the forefront of transportation innovation.',
@@ -928,7 +928,7 @@ const EMMA_REPORT = (() => {
       whatYouCanDo: ['Become a physician and save lives','Discover new drugs and treatments as a researcher','Solve crimes using forensic biology','Counsel families on genetic health','Study ecosystems and protect biodiversity','Teach biology at universities']
     },
     'cm': {
-      hero: 'assets/images/professions/prof_applied_engineering.png',
+      hero: 'assets/images/professions/prof_applied_eng.png',
       title: 'Construction Management',
       tagline: 'Building the Infrastructure of Tomorrow',
       overview: 'Construction managers oversee building projects from concept to completion — managing budgets, schedules, safety, and quality. From skyscrapers to highway systems, construction managers build the physical world.',
@@ -1382,6 +1382,7 @@ const EMMA_REPORT = (() => {
     const pgFoot = (left, right) => `<div class="pg-footer"><div><span class="stamp">NC A&T State University</span> \u00b7 ${left}</div><div>${right}</div></div>`;
 
     const html = `<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<base href="${baseUrl}" />
 <title>${prof.title} \u2014 Experiential Journey Map | NC A&T</title>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
 <style>
@@ -1693,9 +1694,16 @@ body{font-family:'Montserrat',sans-serif;color:var(--t1);background:#fff;line-he
 
 </body></html>`;
 
+    // Open popup and write HTML. The <base href> tag in the HTML ensures
+    // all relative image/icon paths resolve against the EMMA site URL.
     const w = window.open('', '_blank');
-    if (w) { w.document.write(html); w.document.close(); }
-    else { EMMA_MATRIX?.showToast('\u26a0\ufe0f Pop-up blocked \u2014 allow pop-ups', 'error'); }
+    if (w) {
+      w.document.open();
+      w.document.write(html);
+      w.document.close();
+    } else {
+      EMMA_MATRIX?.showToast('\u26a0\ufe0f Pop-up blocked \u2014 allow pop-ups', 'error');
+    }
   }
 
   return { generate };
