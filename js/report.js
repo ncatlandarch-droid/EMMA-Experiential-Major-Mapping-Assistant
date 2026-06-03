@@ -23,6 +23,7 @@ const EMMA_REPORT = (() => {
       title: 'Landscape Architecture',
       tagline: 'Designing the Future of Our Built & Natural Environments',
       overview: 'Landscape architects design outdoor spaces that bring communities together — parks, campuses, urban plazas, greenways, and resilient infrastructure. As a licensed landscape architect, you\'ll shape environments that are beautiful, sustainable, and equitable. NC A&T\'s BSLA is the only LAAB-accredited landscape architecture program at an HBCU in the nation.',
+      ncatHistory: 'Founded in 2015, NC A&T\'s Landscape Architecture program is the only LAAB-accredited program at an HBCU in the nation. Born from the university\'s land-grant mission to serve communities, it prepares students to design equitable, sustainable environments. The program continues A&T\'s 130+ year legacy of empowering African Americans to shape the built world.',
       blsSalary: 73210,
       blsGrowth: 5,
       blsEmployment: 26200,
@@ -68,6 +69,7 @@ const EMMA_REPORT = (() => {
       title: 'Animal Science',
       tagline: 'Advancing Animal Health, Welfare & Agricultural Innovation',
       overview: 'Animal scientists improve animal health, welfare, and production systems. From veterinary research to livestock management and biotechnology, this field offers diverse paths into veterinary school, pharmaceutical research, agricultural extension, and food safety leadership.',
+      ncatHistory: 'NC A&T\'s Animal Science program traces its roots to the university\'s 1891 founding as a land-grant institution. The program has produced generations of veterinarians, animal nutritionists, and agricultural scientists. A&T\'s 600-acre University Farm provides hands-on learning that directly connects to the university\'s agricultural heritage.',
       blsSalary: 74100, blsGrowth: 6, blsEmployment: 30700, nationalMedian: 48060,
       careers: [
         { title: 'Veterinarian', salary: '$100K – $170K', icon: '🩺', desc: 'Diagnose and treat animal diseases. Requires DVM after bachelor\'s.' },
@@ -1439,6 +1441,10 @@ body{font-family:'Montserrat',sans-serif;color:var(--t1);background:#fff;line-he
 .ov-txt{flex:1}
 .ov-txt p{font-size:0.8rem;color:var(--t2);font-weight:500;line-height:1.8;margin-bottom:0.6rem}
 .pull-q{margin:0.6rem 0;padding:0.7rem 1.1rem;border-left:4px solid var(--ag);background:var(--bgW);border-radius:0 8px 8px 0;font-size:0.82rem;font-style:italic;font-weight:700;color:var(--ab);line-height:1.6}
+.ncat-hist{margin-top:0.7rem;padding:0.7rem 1rem;background:linear-gradient(135deg,#002244 0%,#003366 100%);border-radius:10px;color:#fff;position:relative;overflow:hidden}
+.ncat-hist::before{content:'';position:absolute;top:-20px;right:-20px;width:100px;height:100px;background:var(--ag);opacity:0.08;border-radius:50%}
+.ncat-hist-title{font-size:0.5rem;font-weight:900;text-transform:uppercase;letter-spacing:0.25em;color:var(--ag);margin-bottom:0.3rem}
+.ncat-hist p{font-size:0.7rem;font-weight:500;line-height:1.7;opacity:0.92}
 .charts-row{display:flex;gap:0.9rem;margin-top:1rem}
 .chart-box{flex:1;background:var(--bgL);border:1px solid var(--bd);border-radius:12px;padding:0.8rem 1rem}
 .chart-box .ch-title{font-size:0.6rem;font-weight:900;text-transform:uppercase;letter-spacing:0.2em;color:var(--t3);margin-bottom:0.35rem}
@@ -1583,6 +1589,10 @@ body{font-family:'Montserrat',sans-serif;color:var(--t1);background:#fff;line-he
     <div class="ov-txt">
       <p>${prof.overview}</p>
       <div class="pull-q">${pullQuote}</div>
+      ${prof.ncatHistory ? `<div class="ncat-hist">
+        <div class="ncat-hist-title">🏨 Aggie Legacy</div>
+        <p>${prof.ncatHistory}</p>
+      </div>` : ''}
     </div>
   </div>
   <div class="charts-row">
