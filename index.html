@@ -25,8 +25,9 @@
   <canvas id="confetti-canvas" style="position:fixed; top:0; left:0; width:100vw; height:100vh; pointer-events:none; z-index:9999;"></canvas>
   <div id="toast-container" class="toast-container"></div>
 
-  <!-- Pre-load Gemini API key for chat + TTS -->
-  <script>if(!localStorage.getItem('EMMA_GEMINI_KEY'))localStorage.setItem('EMMA_GEMINI_KEY','AIzaSyC2SYzTKuWqbXZ_YmZpn0yb6j6qvQyrnuc');</script>
+  <!-- Gemini API key is handled server-side via Netlify Functions (gemini-chat-proxy.mjs, gemini-tts-proxy.mjs).
+       For local development, set your key in Settings → API Key, which stores it in localStorage('EMMA_GEMINI_KEY').
+       NEVER hardcode API keys in client-side code. -->
 
 
   <div class="app-shell">

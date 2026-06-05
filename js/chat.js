@@ -6,7 +6,7 @@
 window.EMMA_CHAT = (() => {
   'use strict';
 
-  const GEMINI_MODEL = 'gemini-2.0-flash';
+  const GEMINI_MODEL = 'gemini-3.5-flash';
 
   /**
    * Build system context for Emma from currently loaded program data.

@@ -17,7 +17,7 @@ export default async (request) => {
   try {
     const body = await request.json();
     const { systemContext, userMessage } = body;
-    const model = body.model || 'gemini-2.0-flash';
+    const model = body.model || 'gemini-3.5-flash';
 
     if (!userMessage) {
       return new Response(JSON.stringify({ error: 'Missing "userMessage" field' }), {
