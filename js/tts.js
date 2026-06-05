@@ -14,45 +14,44 @@ const EMMA_TTS = (() => {
   let _engine = null;
 
   // Pre-recorded coaching keys (WAV files in assets/audio/coaching/)
-  // NOTE: Generic en-*.wav files removed — they were never generated.
-  // All pre-recorded audio lives in program-specific coaching folders.
-  const PRE_RECORDED = {
-    // Welcome variants (selected by progress %) — use coaching files
-    'welcome':               'assets/audio/coaching/caes-la/welcome-first.wav',
-    'welcome-first':         'assets/audio/coaching/caes-la/welcome-first.wav',
-    'welcome-returning-early': 'assets/audio/coaching/caes-la/welcome-returning-early.wav',
-    'welcome-returning-mid': 'assets/audio/coaching/caes-la/welcome-returning-mid.wav',
-    'welcome-returning-late': 'assets/audio/coaching/caes-la/welcome-returning-late.wav',
-    // Phase intros
-    'phase-explore':         'assets/audio/coaching/caes-la/phase-explore.wav',
-    'phase-engage':          'assets/audio/coaching/caes-la/phase-engage.wav',
-    'phase-develop':         'assets/audio/coaching/caes-la/phase-develop.wav',
-    'phase-launch':          'assets/audio/coaching/caes-la/phase-launch.wav',
-    // Category explanations
-    'category-purpose':      'assets/audio/coaching/caes-la/category-purpose.wav',
-    'category-communities':  'assets/audio/coaching/caes-la/category-communities.wav',
-    'category-localglobal':  'assets/audio/coaching/caes-la/category-localglobal.wav',
-    'category-identity':     'assets/audio/coaching/caes-la/category-identity.wav',
-    // Career & orgs
-    'career-outlook':        'assets/audio/coaching/caes-la/career-outlook.wav',
-    'org-asla':              'assets/audio/coaching/caes-la/org-asla.wav',
-    'org-blan':              'assets/audio/coaching/caes-la/org-blan.wav',
-    // SFRIC projects
-    'sfric-stormwater':      'assets/audio/coaching/caes-la/sfric-stormwater.wav',
-    'sfric-pollinator':      'assets/audio/coaching/caes-la/sfric-pollinator.wav',
-    'sfric-outdoor-classroom': 'assets/audio/coaching/caes-la/sfric-outdoor-classroom.wav',
-    'sfric-master-plan':     'assets/audio/coaching/caes-la/sfric-master-plan.wav',
-    // Progress milestones
-    'progress-25':           'assets/audio/coaching/caes-la/progress-25.wav',
-    'progress-50':           'assets/audio/coaching/caes-la/progress-50.wav',
-    'progress-75':           'assets/audio/coaching/caes-la/progress-75.wav',
-    'progress-100':          'assets/audio/coaching/caes-la/progress-100.wav',
-    // ASLA awards
-    'asla-awards-intro':     'assets/audio/coaching/caes-la/asla-awards-intro.wav',
-    // Celebrations
-    'celebration-milestone': 'assets/audio/coaching/caes-la/celebration-milestone.wav',
-    'celebration-competency': 'assets/audio/coaching/caes-la/celebration-competency.wav'
-  };
+  // NOTE: Paths are built dynamically based on the selected program slug.
+  // Only caes-la has pre-recorded audio right now; other programs fall back to live Gemini TTS.
+  let _currentProgramSlug = 'caes-la';
+
+  function buildPreRecordedMap(slug) {
+    const base = `assets/audio/coaching/${slug}`;
+    return {
+      'welcome':                 `${base}/welcome-first.wav`,
+      'welcome-first':           `${base}/welcome-first.wav`,
+      'welcome-returning-early': `${base}/welcome-returning-early.wav`,
+      'welcome-returning-mid':   `${base}/welcome-returning-mid.wav`,
+      'welcome-returning-late':  `${base}/welcome-returning-late.wav`,
+      'phase-explore':           `${base}/phase-explore.wav`,
+      'phase-engage':            `${base}/phase-engage.wav`,
+      'phase-develop':           `${base}/phase-develop.wav`,
+      'phase-launch':            `${base}/phase-launch.wav`,
+      'category-purpose':        `${base}/category-purpose.wav`,
+      'category-communities':    `${base}/category-communities.wav`,
+      'category-localglobal':    `${base}/category-localglobal.wav`,
+      'category-identity':       `${base}/category-identity.wav`,
+      'career-outlook':          `${base}/career-outlook.wav`,
+      'org-asla':                `${base}/org-asla.wav`,
+      'org-blan':                `${base}/org-blan.wav`,
+      'sfric-stormwater':        `${base}/sfric-stormwater.wav`,
+      'sfric-pollinator':        `${base}/sfric-pollinator.wav`,
+      'sfric-outdoor-classroom': `${base}/sfric-outdoor-classroom.wav`,
+      'sfric-master-plan':       `${base}/sfric-master-plan.wav`,
+      'progress-25':             `${base}/progress-25.wav`,
+      'progress-50':             `${base}/progress-50.wav`,
+      'progress-75':             `${base}/progress-75.wav`,
+      'progress-100':            `${base}/progress-100.wav`,
+      'asla-awards-intro':       `${base}/asla-awards-intro.wav`,
+      'celebration-milestone':   `${base}/celebration-milestone.wav`,
+      'celebration-competency':  `${base}/celebration-competency.wav`
+    };
+  }
+
+  let PRE_RECORDED = buildPreRecordedMap(_currentProgramSlug);
 
   // Pre-recorded per-milestone coaching (loaded from manifest)
   // Keys: 'welcome-first', 'progress-25', 'milestone-{id}', etc.
@@ -465,13 +464,20 @@ const EMMA_TTS = (() => {
   /**
    * Load pre-recorded coaching manifest for current program.
    * Registers files with the universal engine.
+   * Also updates the base PRE_RECORDED map to point to this program's audio folder.
    */
   async function loadCoachingManifest(programSlug) {
+    // Update the base pre-recorded audio paths for the new program
+    _currentProgramSlug = programSlug;
+    PRE_RECORDED = buildPreRecordedMap(programSlug);
+    if (_engine) _engine.registerPreRecorded(PRE_RECORDED);
+    console.log(`[EMMA TTS] Updated pre-recorded paths → ${programSlug}`);
+
     try {
       const manifestUrl = `assets/audio/coaching/${programSlug}/manifest.json`;
       const resp = await fetch(manifestUrl);
       if (!resp.ok) {
-        console.log(`[EMMA TTS] No coaching manifest for ${programSlug}`);
+        console.log(`[EMMA TTS] No coaching manifest for ${programSlug} — will use live TTS`);
         return;
       }
       const manifest = await resp.json();
@@ -479,7 +485,7 @@ const EMMA_TTS = (() => {
       manifest.forEach(entry => {
         map[entry.id] = entry.path;
       });
-      // Register with universal engine
+      // Register milestone-level coaching with universal engine
       if (_engine) _engine.registerPreRecorded(map);
       _coachingLoaded = true;
       console.log(`[EMMA TTS] Loaded ${manifest.length} pre-recorded coaching files for ${programSlug}`);
