@@ -1379,9 +1379,67 @@ const EMMA_REPORT = (() => {
   DB['phys-eng'] = DB['phys'];
   DB['phys-bio'] = DB['phys'];
 
+  // Explicit slug → DB key mapping (no more fragile substring matching)
+  const SLUG_TO_DB = {
+    // CAES
+    'caes-la': 'landscape', 'caes-ansc': 'animal', 'caes-lasc': 'animal',
+    'caes-bioe-bio': 'bioe', 'caes-bioe-nr': 'bioe',
+    'caes-fns-food': 'food', 'caes-fns-nutr': 'food',
+    'caes-fcs-fash': 'fashion', 'caes-fcs-cons': 'fashion',
+    'caes-cdfs-fam': 'child', 'caes-cdfs-bk': 'child',
+    'caes-aged-sec': 'aged', 'caes-aged-pro': 'aged',
+    'caes-agbm': 'agbm',
+    'caes-aes-envs': 'envs', 'caes-aes-slfs': 'envs',
+    // CoBE
+    'cobe-acct': 'acct', 'cobe-fin': 'fin',
+    'cobe-econ': 'econ', 'cobe-econ-biz': 'econ', 'cobe-econ-law': 'econ',
+    'cobe-mgmt': 'mgmt', 'cobe-mgmt-ent': 'mgmt', 'cobe-mgmt-intl': 'mgmt',
+    'cobe-bit': 'bit', 'cobe-mktg': 'mktg', 'cobe-mktg-sales': 'mktg', 'cobe-scm': 'scm',
+    // CoE
+    'coe-bioe': 'bioe', 'coe-che': 'coe-eng', 'coe-ae': 'coe-eng', 'coe-ce': 'coe-eng',
+    'coe-cs': 'cs', 'coe-cpe': 'cs', 'coe-ee': 'elec', 'coe-ise': 'ise',
+    'coe-me': 'coe-eng', 'coe-ai': 'cs',
+    // CHHS
+    'chhs-nurs': 'nurs', 'chhs-slpa': 'slpa', 'chhs-comm': 'comm',
+    'chhs-kin-ex': 'kin', 'chhs-kin-rsm': 'kin', 'chhs-kin-pre': 'kin',
+    'chhs-hsm': 'hsm', 'chhs-psych': 'psych', 'chhs-soc': 'soc', 'chhs-sw': 'sw',
+    // CAHSS
+    'cahss-cj': 'cj',
+    'cahss-eng-afam': 'eng', 'cahss-eng-cw': 'eng', 'cahss-eng-tw': 'eng', 'cahss-eng-pro': 'eng',
+    'cahss-hist': 'hist', 'cahss-poli': 'poli',
+    'cahss-jmc-mmj': 'jmc', 'cahss-jmc-mmp': 'jmc', 'cahss-jmc-pr': 'jmc',
+    'cahss-lib-afam': 'lib', 'cahss-lib-act': 'lib', 'cahss-lib-law': 'lib',
+    'cahss-art-des': 'art', 'cahss-art-gd': 'art',
+    'cahss-music': 'music', 'cahss-thtr-act': 'thtr', 'cahss-thtr-tech': 'thtr',
+    // CEd
+    'ced-elem': 'elem', 'ced-edst-tech': 'edst', 'ced-edst-lead': 'edst', 'ced-edst-fam': 'edst',
+    // CoST
+    'cost-aet': 'aet', 'cost-auto': 'auto',
+    'cost-bio': 'bio', 'cost-bio-pre': 'bio', 'cost-bio-law': 'bio',
+    'cost-cm': 'cm', 'cost-ehs-mgmt': 'ehs', 'cost-ehs-sci': 'ehs',
+    'cost-geo': 'geo', 'cost-chem': 'chem', 'cost-chem-bio': 'chem',
+    'cost-elec': 'elec', 'cost-it': 'it',
+    'cost-cgt-td': 'cgt', 'cost-cgt-ux': 'cgt',
+    'cost-math-app': 'math', 'cost-math-pure': 'math', 'cost-math-ds': 'math',
+    'cost-atms': 'atms', 'cost-phys': 'phys', 'cost-phys-eng': 'phys', 'cost-phys-bio': 'phys',
+    'cost-ai': 'cs'
+  };
+
   function matchKey(slug) {
     slug = (slug || '').toLowerCase();
+    // 1. Direct lookup (most reliable)
+    if (SLUG_TO_DB[slug]) return SLUG_TO_DB[slug];
+    // 2. Fallback: check if any DB key is a substring of the slug
     for (const k of Object.keys(DB)) { if (slug.includes(k)) return k; }
+    // 3. Use branding program name as last resort
+    const branding = typeof EMMA_STATE !== 'undefined' ? EMMA_STATE.get('branding') : null;
+    if (branding?.programName) {
+      const name = branding.programName.toLowerCase();
+      for (const k of Object.keys(DB)) {
+        if (name.includes(DB[k].title?.toLowerCase())) return k;
+      }
+    }
+    console.warn(`[EMMA Report] No DB match for slug "${slug}" — using branding fallback`);
     return 'landscape';
   }
 
