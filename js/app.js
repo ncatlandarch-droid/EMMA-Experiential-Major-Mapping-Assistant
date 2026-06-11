@@ -103,6 +103,7 @@ const EMMA_APP = (() => {
     document.getElementById('btn-export-audit')?.addEventListener('click', () => EMMA_EXPORT.exportPDF());
     document.getElementById('btn-export-word-form')?.addEventListener('click', () => EMMA_EXPORT.exportWordForm());
     document.getElementById('btn-export-word-form-header')?.addEventListener('click', () => EMMA_EXPORT.exportWordForm());
+    document.getElementById('btn-export-usso-map')?.addEventListener('click', () => EMMA_EXPORT.exportMajorMap());
 
     // ── Avatar Click: Speak / Stop (universal pattern) ──
     const avatar = document.getElementById('emma-avatar');
