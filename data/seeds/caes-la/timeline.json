@@ -42,7 +42,8 @@
               "area": "Research & Creativity",
               "text": "Investigate modern and historical examples of landscape architecture to understand its evolution and relevance in contemporary society."
             }
-          ]
+          ],
+          "type": "course"
         },
         {
           "id": "y1-ldar147",
@@ -80,7 +81,8 @@
               "area": "Research & Creativity",
               "text": "Respond to inspiration prompts through observational analysis and creative exploration of space and structure."
             }
-          ]
+          ],
+          "type": "course"
         },
         {
           "id": "y1-ldar170",
@@ -117,7 +119,8 @@
               "area": "Research & Creativity",
               "text": "Reference historical and contemporary drawing examples to improve graphic decision-making."
             }
-          ]
+          ],
+          "type": "course"
         },
         {
           "id": "y1-ldar104",
@@ -155,7 +158,8 @@
               "area": "Research & Creativity",
               "text": "Investigate historical designers and projects to understand foundational planning strategies and their application to contemporary design."
             }
-          ]
+          ],
+          "type": "course"
         },
         {
           "id": "y1-ldar148",
@@ -194,7 +198,8 @@
               "area": "Research & Creativity",
               "text": "Explore cultural, artistic, and natural precedents to inform site planning."
             }
-          ]
+          ],
+          "type": "course"
         },
         {
           "id": "y1-ldar171",
@@ -231,7 +236,8 @@
               "area": "Research & Creativity",
               "text": "Analyze professional portfolios and graphic techniques to inform personal style and layout decisions."
             }
-          ]
+          ],
+          "type": "course"
         },
         {
           "id": "y1-ldar149",
@@ -269,7 +275,305 @@
               "area": "Research & Creativity",
               "text": "Analyze case studies and product data to inform real-world construction logic and creative detailing."
             }
-          ]
+          ],
+          "type": "course"
+        },
+        {
+          "id": "y1-exp-purpose-1",
+          "label": "Complete a career interest or strengths assessment through Career Services",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Complete a career interest or strengths assessment through Career Services",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-purpose-2",
+          "label": "Attend 'What is Landscape Architecture?' departmental info session",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Attend 'What is Landscape Architecture?' departmental info session",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-purpose-3",
+          "label": "Meet with academic advisor to map 4-year goals",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Meet with academic advisor to map 4-year goals",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-purpose-4",
+          "label": "Attend guest lectures from practicing landscape architects",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Attend guest lectures from practicing landscape architects",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-purpose-5",
+          "label": "Explore different LA career paths (urban design, parks, ecological restoration)",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Explore different LA career paths (urban design, parks, ecological restoration)",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-purpose-6",
+          "label": "Begin a design reflection journal",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Begin a design reflection journal",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-purpose-7",
+          "label": "Reflect on personal values and career interests",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Reflect on personal values and career interests",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-purpose-8",
+          "label": "Set 1-2 short-term academic goals",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Set 1-2 short-term academic goals",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-communities-1",
+          "label": "Join the ASLA student chapter",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Join the ASLA student chapter",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-communities-2",
+          "label": "Attend NRED department welcome events and mixers",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Attend NRED department welcome events and mixers",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-communities-3",
+          "label": "Connect with an upperclassmen peer mentor in the LA program",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Connect with an upperclassmen peer mentor in the LA program",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-communities-4",
+          "label": "Join BLAN (Black Landscape Architecture Network)",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Join BLAN (Black Landscape Architecture Network)",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-communities-5",
+          "label": "Attend campus involvement fairs and explore interdisciplinary orgs",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Attend campus involvement fairs and explore interdisciplinary orgs",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-communities-6",
+          "label": "Participate in first-year learning community activities",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Participate in first-year learning community activities",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-communities-7",
+          "label": "Build relationships with faculty through office hours",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Build relationships with faculty through office hours",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-localglobal-1",
+          "label": "Attend CAES welcome-back and community engagement events",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Attend CAES welcome-back and community engagement events",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-localglobal-2",
+          "label": "Participate in campus landscape walking tours and site sketching",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Participate in campus landscape walking tours and site sketching",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-localglobal-3",
+          "label": "Volunteer at a local park cleanup or tree planting event",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Volunteer at a local park cleanup or tree planting event",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-localglobal-4",
+          "label": "Explore Greensboro's built environment through observation walks",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Explore Greensboro's built environment through observation walks",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-localglobal-5",
+          "label": "Attend a community planning meeting or public hearing",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Attend a community planning meeting or public hearing",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-identity-1",
+          "label": "Create or update your LinkedIn profile",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Create or update your LinkedIn profile",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-identity-2",
+          "label": "Attend Career Services resume workshop",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Attend Career Services resume workshop",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-identity-3",
+          "label": "Start a digital portfolio (website or folder)",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Start a digital portfolio (website or folder)",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-identity-4",
+          "label": "Attend the CAES Career Fair",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Attend the CAES Career Fair",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-identity-5",
+          "label": "Learn about LARE licensure pathway requirements",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Learn about LARE licensure pathway requirements",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-identity-6",
+          "label": "Complete a professional dress or business etiquette workshop",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Complete a professional dress or business etiquette workshop",
+          "skills": []
+        },
+        {
+          "id": "y1-exp-identity-7",
+          "label": "Participate in first-year professional development seminars",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Participate in first-year professional development seminars",
+          "skills": []
         }
       ]
     },
@@ -315,7 +619,8 @@
               "area": "Research & Creativity",
               "text": "Create site-specific plant palettes based on site analysis, precedent research, and seasonal performance."
             }
-          ]
+          ],
+          "type": "course"
         },
         {
           "id": "y2-ldar247",
@@ -356,7 +661,8 @@
               "area": "Research & Creativity",
               "text": "Examine relevant precedents, conduct user-centered site observations, and develop programming diagrams that prioritize human experience."
             }
-          ]
+          ],
+          "type": "course"
         },
         {
           "id": "y2-ldar244",
@@ -394,7 +700,8 @@
               "area": "Research & Creativity",
               "text": "Select plants based on bloom sequence, maintenance requirements, habitat value, and site compatibility."
             }
-          ]
+          ],
+          "type": "course"
         },
         {
           "id": "y2-ldar248",
@@ -434,7 +741,8 @@
               "area": "Research & Creativity",
               "text": "Investigate ecological precedents, best practices, and regional systems to inform context-specific design solutions."
             }
-          ]
+          ],
+          "type": "course"
         },
         {
           "id": "y2-ldar249",
@@ -472,7 +780,8 @@
               "area": "Research & Creativity",
               "text": "Analyze construction case studies and technical references to develop appropriate detailing strategies."
             }
-          ]
+          ],
+          "type": "course"
         },
         {
           "id": "y2-ldar255",
@@ -510,7 +819,305 @@
               "area": "Research & Creativity",
               "text": "Analyze case studies and scholarly texts to connect theoretical perspectives to real-world planning and design strategies."
             }
-          ]
+          ],
+          "type": "course"
+        },
+        {
+          "id": "y2-exp-purpose-1",
+          "label": "Declare focus area within LA (design, planning, ecology)",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Declare focus area within LA (design, planning, ecology)",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-purpose-2",
+          "label": "Refine career interests through studio coursework and critiques",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Refine career interests through studio coursework and critiques",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-purpose-3",
+          "label": "Conduct informational interviews with LA professionals",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Conduct informational interviews with LA professionals",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-purpose-4",
+          "label": "Set long-term career and academic goals",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Set long-term career and academic goals",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-purpose-5",
+          "label": "Attend industry guest lectures and webinars",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Attend industry guest lectures and webinars",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-purpose-6",
+          "label": "Explore minor or certificate options (GIS, sustainability, planning)",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Explore minor or certificate options (GIS, sustainability, planning)",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-purpose-7",
+          "label": "Identify preferred work environments (firm, agency, nonprofit)",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Identify preferred work environments (firm, agency, nonprofit)",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-purpose-8",
+          "label": "Revisit and update academic plan with advisor",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Revisit and update academic plan with advisor",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-communities-1",
+          "label": "Take a leadership role in ASLA student chapter",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Take a leadership role in ASLA student chapter",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-communities-2",
+          "label": "Volunteer through student organizations in the Greensboro community",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Volunteer through student organizations in the Greensboro community",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-communities-3",
+          "label": "Attend ASLA regional or state chapter events",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Attend ASLA regional or state chapter events",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-communities-4",
+          "label": "Mentor incoming freshmen in the LA program",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Mentor incoming freshmen in the LA program",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-communities-5",
+          "label": "Participate in interdisciplinary design charrettes",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Participate in interdisciplinary design charrettes",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-communities-6",
+          "label": "Attend CAES Speaker Series events",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Attend CAES Speaker Series events",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-communities-7",
+          "label": "Engage in case-based learning with peers",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Engage in case-based learning with peers",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-localglobal-1",
+          "label": "Explore study abroad opportunities (faculty-led or independent)",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Explore study abroad opportunities (faculty-led or independent)",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-localglobal-2",
+          "label": "Participate in community design service projects",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Participate in community design service projects",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-localglobal-3",
+          "label": "Attend civic engagement events related to urban development",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Attend civic engagement events related to urban development",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-localglobal-4",
+          "label": "Visit local landscape architecture firms or project sites",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Visit local landscape architecture firms or project sites",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-localglobal-5",
+          "label": "Participate in SFRIC community engagement activities",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Participate in SFRIC community engagement activities",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-identity-1",
+          "label": "Update portfolio with Year 1-2 studio work",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Update portfolio with Year 1-2 studio work",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-identity-2",
+          "label": "Attend mock interview workshops",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Attend mock interview workshops",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-identity-3",
+          "label": "Apply for summer internship opportunities",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Apply for summer internship opportunities",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-identity-4",
+          "label": "Attend professional conferences (ASLA, CELA)",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Attend professional conferences (ASLA, CELA)",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-identity-5",
+          "label": "Begin LARE exam preparation awareness",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Begin LARE exam preparation awareness",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-identity-6",
+          "label": "Participate in design competitions",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Participate in design competitions",
+          "skills": []
+        },
+        {
+          "id": "y2-exp-identity-7",
+          "label": "Attend career panels featuring LA alumni",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Attend career panels featuring LA alumni",
+          "skills": []
         }
       ]
     },
@@ -557,7 +1164,8 @@
               "area": "Research & Creativity",
               "text": "Investigate low-impact development strategies and natural systems to inform sustainable site design."
             }
-          ]
+          ],
+          "type": "course"
         },
         {
           "id": "y3-ldar347",
@@ -597,7 +1205,8 @@
               "area": "Research & Creativity",
               "text": "Investigate successful case studies of landform-based design and implement similar strategies in new contexts."
             }
-          ]
+          ],
+          "type": "course"
         },
         {
           "id": "y3-ldar349",
@@ -636,7 +1245,8 @@
               "area": "Research & Creativity",
               "text": "Use public data and satellite imagery to explore site constraints and design potential."
             }
-          ]
+          ],
+          "type": "course"
         },
         {
           "id": "y3-ldar348",
@@ -676,7 +1286,305 @@
               "area": "Research & Creativity",
               "text": "Incorporate field data, stakeholder interviews, and precedents into design logic and narrative."
             }
-          ]
+          ],
+          "type": "course"
+        },
+        {
+          "id": "y3-exp-purpose-1",
+          "label": "Clarify career focus area within landscape architecture",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Clarify career focus area within landscape architecture",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-purpose-2",
+          "label": "Reflect on internship experiences and lessons learned",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Reflect on internship experiences and lessons learned",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-purpose-3",
+          "label": "Evaluate career fit through real-world project work",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Evaluate career fit through real-world project work",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-purpose-4",
+          "label": "Set post-graduation goals (grad school, employment, licensure)",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Set post-graduation goals (grad school, employment, licensure)",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-purpose-5",
+          "label": "Engage in advanced design research",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Engage in advanced design research",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-purpose-6",
+          "label": "Refine personal design philosophy statement",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Refine personal design philosophy statement",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-purpose-7",
+          "label": "Participate in career coaching sessions",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Participate in career coaching sessions",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-purpose-8",
+          "label": "Explore graduate school options (MLA programs)",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Explore graduate school options (MLA programs)",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-communities-1",
+          "label": "Attend ASLA Annual Meeting or regional conference",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Attend ASLA Annual Meeting or regional conference",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-communities-2",
+          "label": "Build professional network through firm visits and alumni",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Build professional network through firm visits and alumni",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-communities-3",
+          "label": "Lead design charrettes or community workshops",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Lead design charrettes or community workshops",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-communities-4",
+          "label": "Serve as student ambassador for the LA program",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Serve as student ambassador for the LA program",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-communities-5",
+          "label": "Present work at department reviews or symposia",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Present work at department reviews or symposia",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-communities-6",
+          "label": "Collaborate on interdisciplinary research projects",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Collaborate on interdisciplinary research projects",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-communities-7",
+          "label": "Maintain professional organization memberships",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Maintain professional organization memberships",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-localglobal-1",
+          "label": "Complete study abroad or faculty-led travel studio",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "LocalGlobal",
+          "semester": "summer",
+          "type": "experiential",
+          "description": "Complete study abroad or faculty-led travel studio",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-localglobal-2",
+          "label": "Engage in community-based design/build projects",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Engage in community-based design/build projects",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-localglobal-3",
+          "label": "Participate in service-learning with community partners",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Participate in service-learning with community partners",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-localglobal-4",
+          "label": "Apply design skills to real community challenges",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Apply design skills to real community challenges",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-localglobal-5",
+          "label": "Attend conferences funded by department or university",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Attend conferences funded by department or university",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-identity-1",
+          "label": "Complete a professional internship",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "summer",
+          "type": "experiential",
+          "description": "Complete a professional internship",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-identity-2",
+          "label": "Prepare comprehensive design portfolio",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Prepare comprehensive design portfolio",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-identity-3",
+          "label": "Submit work to ASLA Student Awards competition",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Submit work to ASLA Student Awards competition",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-identity-4",
+          "label": "Network at professional events and career fairs",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Network at professional events and career fairs",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-identity-5",
+          "label": "Align skills with career interests through self-assessment",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Align skills with career interests through self-assessment",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-identity-6",
+          "label": "Research graduate school options if applicable",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Research graduate school options if applicable",
+          "skills": []
+        },
+        {
+          "id": "y3-exp-identity-7",
+          "label": "Refine personal mission statement",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Refine personal mission statement",
+          "skills": []
         }
       ]
     },
@@ -722,7 +1630,8 @@
               "area": "Research & Creativity",
               "text": "Investigate firms, internships, graduate programs, and emerging career paths within landscape architecture."
             }
-          ]
+          ],
+          "type": "course"
         },
         {
           "id": "y4-ldar400",
@@ -745,7 +1654,8 @@
             "Project delivery",
             "Mentored experience",
             "Industry networking"
-          ]
+          ],
+          "type": "course"
         },
         {
           "id": "y4-ldar440",
@@ -783,7 +1693,8 @@
               "area": "Research & Creativity",
               "text": "Conduct site analysis, user/stakeholder studies, and precedent reviews to support the proposed intervention."
             }
-          ]
+          ],
+          "type": "course"
         },
         {
           "id": "y4-ldar447",
@@ -823,7 +1734,8 @@
               "area": "Research & Creativity",
               "text": "Use interviews, community forums, mapping, and narrative design tools to translate shared values into space."
             }
-          ]
+          ],
+          "type": "course"
         },
         {
           "id": "y4-ldar455",
@@ -862,7 +1774,8 @@
               "area": "Research & Creativity",
               "text": "Investigate pressing global topics and propose creative, critical responses in the form of concept proposals, narratives, or design provocations."
             }
-          ]
+          ],
+          "type": "course"
         },
         {
           "id": "y4-ldar442",
@@ -901,7 +1814,8 @@
               "area": "Research & Career Preparedness",
               "text": "Investigate licensure requirements (including the LARE), state boards, and professional organizations (ASLA, CLARB) to develop a personal licensure pathway and career plan."
             }
-          ]
+          ],
+          "type": "course"
         },
         {
           "id": "y4-ldar448",
@@ -944,7 +1858,305 @@
               "area": "Research & Creativity",
               "text": "Integrate evidence-based research, stakeholder feedback, and creative vision to deliver a project of professional caliber."
             }
-          ]
+          ],
+          "type": "course"
+        },
+        {
+          "id": "y4-exp-purpose-1",
+          "label": "Finalize career goals and target employers/firms",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Finalize career goals and target employers/firms",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-purpose-2",
+          "label": "Complete capstone or senior thesis project",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Complete capstone or senior thesis project",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-purpose-3",
+          "label": "Align job search with personal values and design philosophy",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Align job search with personal values and design philosophy",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-purpose-4",
+          "label": "Reflect on 4-year academic and professional growth",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Reflect on 4-year academic and professional growth",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-purpose-5",
+          "label": "Clarify leadership and design philosophy",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Clarify leadership and design philosophy",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-purpose-6",
+          "label": "Prepare personal career narrative",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Prepare personal career narrative",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-purpose-7",
+          "label": "Evaluate strengths and growth areas",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Evaluate strengths and growth areas",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-purpose-8",
+          "label": "Identify long-term career trajectory",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Purpose",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Identify long-term career trajectory",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-communities-1",
+          "label": "Mentor junior students in the LA program",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Mentor junior students in the LA program",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-communities-2",
+          "label": "Present capstone at CAES research symposium",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Present capstone at CAES research symposium",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-communities-3",
+          "label": "Maintain professional network connections",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Maintain professional network connections",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-communities-4",
+          "label": "Participate in alumni transition activities",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Participate in alumni transition activities",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-communities-5",
+          "label": "Attend graduation and transition ceremonies",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Attend graduation and transition ceremonies",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-communities-6",
+          "label": "Give back to the LA program community",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Give back to the LA program community",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-communities-7",
+          "label": "Connect with ASLA emerging professionals group",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Communities",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Connect with ASLA emerging professionals group",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-localglobal-1",
+          "label": "Apply design skills to community impact projects",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Apply design skills to community impact projects",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-localglobal-2",
+          "label": "Explore national and international job opportunities",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Explore national and international job opportunities",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-localglobal-3",
+          "label": "Engage in pro-bono community design work",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "LocalGlobal",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Engage in pro-bono community design work",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-localglobal-4",
+          "label": "Present portfolio to external reviewers and professionals",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Present portfolio to external reviewers and professionals",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-localglobal-5",
+          "label": "Explore global landscape architecture practice",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "LocalGlobal",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Explore global landscape architecture practice",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-identity-1",
+          "label": "Finalize professional portfolio for job applications",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Finalize professional portfolio for job applications",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-identity-2",
+          "label": "Apply to positions at target firms and organizations",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Apply to positions at target firms and organizations",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-identity-3",
+          "label": "Create LARE exam preparation plan",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Create LARE exam preparation plan",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-identity-4",
+          "label": "Attend final career fair and networking events",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Attend final career fair and networking events",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-identity-5",
+          "label": "Practice professional interviews",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "fall",
+          "type": "experiential",
+          "description": "Practice professional interviews",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-identity-6",
+          "label": "Create 5-year professional development plan",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Create 5-year professional development plan",
+          "skills": []
+        },
+        {
+          "id": "y4-exp-identity-7",
+          "label": "Complete professional headshot and update LinkedIn",
+          "courseRef": "Experiential",
+          "credits": 0,
+          "category": "Identity",
+          "semester": "spring",
+          "type": "experiential",
+          "description": "Complete professional headshot and update LinkedIn",
+          "skills": []
         }
       ]
     }
