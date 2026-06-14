@@ -345,19 +345,20 @@ def generate_map(slug):
         ('Consulting', 'Environmental Planning'),
         ('Nonprofit', 'Public Sector'),
 
-        # Quick Facts — exact values from the Management template
-        ('62% ', f'{growth_rate.replace("(", "").replace(")", "").strip()} '),
-        ('of LA majors receive', f'projected growth for landscape architecture'),
-        ('53% ', f'{median_salary} '),
-        ('of LA majors secure a career position or graduate', f'median salary for landscape architects (BLS)'),
+        # Quick Facts — verified BLS May 2024 + program data
+        # Template has 6 stat boxes with percentages + descriptions
+        ('62% ', f'{median_salary} '),
+        ('of LA majors receive', f'median salary for landscape architects (BLS May 2024)'),
+        ('53% ', f'{growth_rate.split("(")[0].strip()} '),
+        ('of LA majors secure a career position or graduate', f'projected growth {growth_rate.split("(")[1].replace(")", "").strip() if "(" in growth_rate else ""} — ~1,700 openings/year (BLS)'),
         ('42%', f'{total_jobs}'),
-        ('of LA majors with a concentration in Business Administration complete leadership roles in student organizations', f'total landscape architecture jobs nationwide (BLS)'),
-        ('36%', f'95%'),
-        ('of LA majors with a concentration in Human Resources participate in externships with actual employers.', f'of BSLA graduates pass the LARE within 3 years of eligibility.'),
-        ('31%', f'4-yr'),
-        ('of LA majors with a concentration in International Landscape Architecture participate in study abroad experiences', f'LAAB-accredited professional degree with studio-intensive curriculum'),
-        ('30%', f'Only'),
-        ('of LA majors with a concentration in Human Resources have local HR mentors to guide their career trajectory.', f'HBCU in the nation offering LAAB-accredited Landscape Architecture'),
+        ('of LA majors with a concentration in Landscape Design complete leadership roles in student organizations', f'total landscape architecture jobs nationwide (BLS 2024)'),
+        ('36%', f'1976'),
+        ('of LA majors with a concentration in Human Resources participate in externships with actual employers.', f'— year NC A&T established its landscape architecture program'),
+        ('31%', f'Only'),
+        ('of LA majors with a concentration in International Landscape Architecture participate in study abroad experiences', f'HBCU in the nation offering a LAAB-accredited undergraduate BSLA degree'),
+        ('30%', f'24'),
+        ('of LA majors with a concentration in Human Resources have local HR mentors to guide their career trajectory.', f'LDAR studio and lecture courses across the 4-year curriculum'),
     ]
 
     # ── Step 2: Parse document XML and apply replacements ─────────────

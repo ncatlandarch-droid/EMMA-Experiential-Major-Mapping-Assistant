@@ -14,7 +14,7 @@
   "contactEmail": "wcharris@ncat.edu",
   "advisingContact": "W. Christopher Harrison",
   "advisingEmail": "wcharris@ncat.edu",
-  "programDescription": "The Bachelor of Science in Landscape Architecture at NC A&T is a rigorous, studio-intensive professional degree accredited by the Landscape Architectural Accreditation Board (LAAB). Across four years, students progress through a sequenced curriculum of 24 LDAR courses that build competencies in design fundamentals, ecological systems, site engineering, construction documentation, and collaborative professional practice. As the only LAAB-accredited program at a public HBCU, NC A&T uniquely positions graduates to bring underrepresented perspectives to environmental design, green infrastructure, and community-centered planning.",
+  "programDescription": "The Bachelor of Science in Landscape Architecture at NC A&T is a rigorous, studio-intensive professional degree accredited by the Landscape Architectural Accreditation Board (LAAB). Established in 1976, the program guides students through a sequenced curriculum of 24 LDAR courses that build competencies in design fundamentals, ecological systems, site engineering, construction documentation, and collaborative professional practice. As the only HBCU in the nation offering a LAAB-accredited undergraduate degree in landscape architecture, NC A&T uniquely positions graduates to bring underrepresented perspectives to environmental design, green infrastructure, and community-centered planning.",
   "tagline": "High-Tech, High-Touch Socio-Ecological Design",
   "brandingColors": {
     "primaryHex": "#004684",
@@ -63,11 +63,14 @@
   "careerOutlook": {
     "field": "Landscape Architecture",
     "blsCode": "17-1012",
-    "growthRate": "4% (2022-2032)",
-    "medianSalary": "$73,210",
-    "entryLevelSalary": "$46,000",
-    "topSalary": "$115,000+",
-    "totalJobs": "25,500",
+    "blsDataYear": "May 2024",
+    "growthRate": "3% (2024-2034)",
+    "growthDescription": "About as fast as average",
+    "medianSalary": "$79,660",
+    "entryLevelSalary": "$51,990",
+    "topSalary": "$132,250+",
+    "totalJobs": "21,800",
+    "projectedOpeningsPerYear": "~1,700",
     "topEmployers": [
       "AECOM", "SWA Group", "Sasaki", "HOK", "Design Workshop",
       "NRCS/USDA", "National Park Service", "State DOTs"
@@ -87,7 +90,7 @@
       "Construction Documents", "GIS/CAD", "Sustainable Design",
       "Community Engagement", "Stormwater Management"
     ],
-    "outlook": "Landscape architects are in demand for green infrastructure, climate adaptation, and sustainable development. HBCU graduates bring unique perspectives to environmental justice and community-centered design.",
+    "outlook": "Landscape architects are in demand for green infrastructure, climate adaptation, and sustainable development. BLS projects about 1,700 openings per year through 2034. HBCU graduates bring unique perspectives to environmental justice and community-centered design.",
     "jobTitles": [
       "Landscape Designer",
       "Site Planner",
@@ -208,10 +211,10 @@
       "icon": "🏛️"
     },
     {
-      "id": "blan",
-      "name": "Black Landscape Architecture Network (BLAN)",
-      "description": "Advancing Black professionals in landscape architecture — mentorship, community, and visibility",
-      "url": "https://www.blacklandarch.com",
+      "id": "blacklan",
+      "name": "Black Landscape Architects Network (BlackLAN)",
+      "description": "Advancing Black professionals in landscape architecture — mentorship, community, and visibility. Founded 2012 by Glenn LaRue Smith. 501(c)(3) nonprofit.",
+      "url": "https://blacklanetwork.org",
       "icon": "✊🏿"
     }
   ]

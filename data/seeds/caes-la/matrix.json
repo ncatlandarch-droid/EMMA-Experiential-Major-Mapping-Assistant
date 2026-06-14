@@ -273,8 +273,8 @@
         },
         {
           "id": "isla-internship",
-          "name": "Professional Internship (IDP)",
-          "description": "Complete the required professional internship (LDAR 400). Required for LARE exam eligibility and CLARB Intern Development Program documentation.",
+          "name": "Professional Internship",
+          "description": "Complete the required professional internship (LDAR 400). Required for licensure eligibility. Document experience hours through your CLARB Record for LARE exam qualification.",
           "requiredMilestoneIds": [
             "y4-ldar400"
           ],
