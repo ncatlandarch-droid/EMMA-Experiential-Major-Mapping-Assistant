@@ -335,6 +335,29 @@ def generate_map(slug):
 
         # Abbreviation (careful: only replace standalone MGMT)
         ('MGMT', 'LA'),
+
+        # Career subsection headers from Management template
+        ('Business & Operations', 'Design Practice'),
+        ('Business Administration', 'Landscape Design'),
+        ('Consulting and Leadership Development', 'Environmental Planning & Design'),
+        ('Entrepreneurship', 'Ecological Design'),
+        ('Nonprofit & Public Sector', 'Public Sector & Community Design'),
+        ('Consulting', 'Environmental Planning'),
+        ('Nonprofit', 'Public Sector'),
+
+        # Quick Facts — exact values from the Management template
+        ('62% ', f'{growth_rate.replace("(", "").replace(")", "").strip()} '),
+        ('of LA majors receive', f'projected growth for landscape architecture'),
+        ('53% ', f'{median_salary} '),
+        ('of LA majors secure a career position or graduate', f'median salary for landscape architects (BLS)'),
+        ('42%', f'{total_jobs}'),
+        ('of LA majors with a concentration in Business Administration complete leadership roles in student organizations', f'total landscape architecture jobs nationwide (BLS)'),
+        ('36%', f'95%'),
+        ('of LA majors with a concentration in Human Resources participate in externships with actual employers.', f'of BSLA graduates pass the LARE within 3 years of eligibility.'),
+        ('31%', f'4-yr'),
+        ('of LA majors with a concentration in International Landscape Architecture participate in study abroad experiences', f'LAAB-accredited professional degree with studio-intensive curriculum'),
+        ('30%', f'Only'),
+        ('of LA majors with a concentration in Human Resources have local HR mentors to guide their career trajectory.', f'HBCU in the nation offering LAAB-accredited Landscape Architecture'),
     ]
 
     # ── Step 2: Parse document XML and apply replacements ─────────────
@@ -364,51 +387,79 @@ def generate_map(slug):
     if career_boxes and job_titles:
         replace_bullet_list(career_boxes, 'GRADUATION', job_titles[:10])
 
-    # Phase E: Replace Quick Facts data
-    # Replace percentage/stat values in Quick Facts text boxes
-    quick_facts_replacements = [
-        # Growth rate — replace the Management-specific percentage
-        ('14%', growth_rate.split('(')[0].strip() if '(' in growth_rate else growth_rate),
-    ]
-    for old_val, new_val in quick_facts_replacements:
-        replace_all_occurrences(root, old_val, new_val)
-
-    # Replace median salary figure
-    replace_all_occurrences(root, '$65,000', median_salary)
+    # Phase E: Quick Facts — already handled via global_replacements above
 
     # Phase F: Replace student organizations
-    # Original Management orgs that appear in the template
-    mgmt_orgs = [
-        'SHRM',
-        'Society for Human Resource Management',
-        'NABP',
-        'National Association of Black Personnel',
-        'Phi Beta Lambda',
-        'Delta Sigma Pi',
+    # The org names in the template are split across <w:t> nodes
+    # so we replace by the individual words we found in the scan
+    org_text = '  |  '.join(org_names) if org_names else 'Contact your advisor for student organization opportunities.'
+    org_replacements = [
+        ('Exceptional', org_names[0] if len(org_names) > 0 else ''),
+        ('Minorities', ''),
+        ('in', ''),
+        ('Students', ''),
+        ('Alpha', org_names[1] if len(org_names) > 1 else ''),
+        ('Kappa', ''),
+        ('Psi', ''),
     ]
-    for i, orig_org in enumerate(mgmt_orgs):
-        if i < len(org_names):
-            replace_all_occurrences(root, orig_org, org_names[i % len(org_names)])
-        else:
-            replace_all_occurrences(root, orig_org, '')
+    # Instead of word-by-word, replace the full org band text
+    # Find the org text boxes and replace bullet content
+    org_boxes = find_textboxes_containing(root, 'JOIN')
+    if org_boxes:
+        for txbx in org_boxes:
+            paras = list(txbx.iter(f'{{{W}}}p'))
+            for p in paras:
+                p_text = get_paragraph_text(p)
+                # Replace the org listing paragraph (not the header)
+                if p_text and 'JOIN' not in p_text and 'STUDENT' not in p_text and len(p_text) > 5:
+                    replace_paragraph_full_text(p, org_text)
 
     # Phase G: Replace Page 2 checklist milestones
-    # The Management template has a checklist grid with categories as rows
-    # and years as columns. Replace milestone text for each cell.
+    # The checklist is a Word table on Page 2. Find it and replace cell contents.
+    # Table cells contain <w:tc> elements with <w:p> paragraphs inside.
+    TC = f'{{{W}}}tc'
+    TR = f'{{{W}}}tr'
+    TBL = f'{{{W}}}tbl'
+    
+    tables = list(root.iter(TBL))
     cat_keys = ['Purpose', 'Communities', 'LocalGlobal', 'Identity']
-
-    # We need to find the checklist text boxes by their category/year headers
-    # and replace the milestone bullet items. Since the exact original text
-    # varies, we use the experiential milestone data organized by (year, category).
-    for phase_idx in range(4):  # Years 1-4
-        for cat_key in cat_keys:
-            key = (phase_idx, cat_key)
-            items = exp_milestones.get(key, [])
-            if items:
-                # Create a semicolon-joined summary for each cell
-                cell_text = '; '.join(items[:4])
-                # The cell text will already be handled by the bullet replacement
-                # if we can identify the correct text boxes
+    
+    # The checklist table should be the one with "DISCOVER" or "EXPLORE" text
+    for tbl in tables:
+        tbl_text = ''
+        for t in tbl.iter(f'{{{W}}}t'):
+            if t.text:
+                tbl_text += t.text
+        
+        if 'DISCOVER' in tbl_text or 'EXPLORE' in tbl_text or 'FRESHMAN' in tbl_text:
+            rows = list(tbl.iter(TR))
+            # Row 0 is header (Year 1-4), rows 1-4 are categories
+            for cat_idx, cat_key in enumerate(cat_keys):
+                row_idx = cat_idx + 1  # skip header row
+                if row_idx >= len(rows):
+                    break
+                row = rows[row_idx]
+                cells = list(row.iter(TC))
+                # Cell 0 is category label, cells 1-4 are year columns
+                for year_idx in range(4):
+                    cell_idx = year_idx + 1  # skip category label cell
+                    if cell_idx >= len(cells):
+                        break
+                    cell = cells[cell_idx]
+                    key = (year_idx, cat_key)
+                    items = exp_milestones.get(key, [])
+                    
+                    # Get all paragraphs in this cell
+                    cell_paras = list(cell.iter(f'{{{W}}}p'))
+                    
+                    # Replace text in existing paragraphs
+                    for p_idx, p in enumerate(cell_paras):
+                        if p_idx < len(items):
+                            replace_paragraph_full_text(p, items[p_idx])
+                        else:
+                            # Clear excess paragraphs
+                            replace_paragraph_full_text(p, '')
+            break  # only process the first matching table
 
     # ── Step 3: Serialize and write output ────────────────────────────
     modified_xml = etree.tostring(root, xml_declaration=True,
