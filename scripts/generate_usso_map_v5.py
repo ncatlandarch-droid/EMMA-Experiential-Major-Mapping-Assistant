@@ -377,16 +377,113 @@ def generate_map(slug):
     what_is_header = f'WHAT IS {prog_short.upper()}?'
     replace_description_block(root, what_is_header, description)
 
-    # Phase C: Replace study topics bullet list
+    # Phase C: Replace study topics text box (18 paragraphs in template)
+    # Structure: Para 0=header, 1-5=study bullets, 6-7=unique prose,
+    #            8-10=practice bullets, 11=life skills header, 12-17=life skills
     study_boxes = find_textboxes_containing(root, 'TOPICS')
     if study_boxes and study_topics:
-        # Parse "Topic — Description" format: use full string as-is
-        replace_bullet_list(study_boxes, 'STUDY', study_topics[:8])
+        for txbx in study_boxes:
+            paras = list(txbx.iter(f'{{{W}}}p'))
+            # Para 0 = header (already replaced by global)
+            # Paras 1-5 = study topic bullets (replace with our study topics)
+            for i in range(1, min(6, len(paras))):
+                if i - 1 < len(study_topics):
+                    replace_paragraph_full_text(paras[i], study_topics[i - 1])
+            # Paras 6-7 = "What makes [program] unique..." prose
+            if len(paras) > 6:
+                replace_paragraph_full_text(paras[6],
+                    f'What makes landscape architecture unique is its focus on real-world application. You won\u2019t')
+            if len(paras) > 7:
+                replace_paragraph_full_text(paras[7],
+                    'just learn theories\u2014you\u2019ll practice them through:')
+            # Paras 8-10 = practice method bullets
+            practice_items = [
+                'Studio projects and design critiques',
+                'Internships and field experiences',
+                'Community engagement and service-learning projects'
+            ]
+            for i in range(8, min(11, len(paras))):
+                if i - 8 < len(practice_items):
+                    replace_paragraph_full_text(paras[i], practice_items[i - 8])
+            # Para 11 = "You'll also build important life skills" (keep as-is)
+            # Paras 12-17 = life skills bullets
+            life_skills = [
+                'Environmental stewardship',
+                'Critical thinking & problem solving',
+                'Visual communication',
+                'Technical proficiency (CAD, GIS, 3D)',
+                'Collaboration & teamwork',
+                'Professional ethics'
+            ]
+            for i in range(12, min(18, len(paras))):
+                if i - 12 < len(life_skills):
+                    replace_paragraph_full_text(paras[i], life_skills[i - 12])
 
-    # Phase D: Replace career directions / job titles
+    # Phase D: Replace career directions text box (27 paragraphs)
+    # Structure: header, intro prose, blank, then 4 subsections each with
+    #            header + 3-4 bullets + blank separator
     career_boxes = find_textboxes_containing(root, 'AFTER GRADUATION')
     if career_boxes and job_titles:
-        replace_bullet_list(career_boxes, 'GRADUATION', job_titles[:10])
+        for txbx in career_boxes:
+            paras = list(txbx.iter(f'{{{W}}}p'))
+            # Para 0 = section header (already replaced by global)
+            # Para 1 = intro prose
+            if len(paras) > 1:
+                replace_paragraph_full_text(paras[1],
+                    'One of the best things about a landscape architecture degree is flexibility\u2014it prepares you for '
+                    'careers in design firms, government agencies, nonprofits, and more. Instead of locking you into '
+                    'one path, it gives you skills you can apply across many fields.')
+            # Para 2 = blank spacer
+            # Subsection 1: Design Practice (paras 3-7)
+            if len(paras) > 3:
+                replace_paragraph_full_text(paras[3], '\U0001f3d7\ufe0f Design Practice')
+            career_sub1 = ['Landscape Designer', 'Site Planner', 'Urban Designer',
+                           'Designing parks, campuses, streetscapes, and public spaces']
+            for i in range(4, min(8, len(paras))):
+                if i - 4 < len(career_sub1):
+                    replace_paragraph_full_text(paras[i], career_sub1[i - 4])
+            # Subsection 2: Environmental Planning (paras 8-11)
+            if len(paras) > 8:
+                replace_paragraph_full_text(paras[8], '\U0001f33f Environmental Planning & Restoration')
+            career_sub2 = ['Green Infrastructure Specialist', 'Environmental Restoration Designer',
+                           'Stormwater Management Designer']
+            for i in range(9, min(12, len(paras))):
+                if i - 9 < len(career_sub2):
+                    replace_paragraph_full_text(paras[i], career_sub2[i - 9])
+            # Para 12 = blank spacer
+            if len(paras) > 12:
+                replace_paragraph_full_text(paras[12], '')
+            # Subsection 3: Public Sector (paras 13-17)
+            if len(paras) > 13:
+                replace_paragraph_full_text(paras[13], '\U0001f3db\ufe0f Government & Public Sector')
+            career_sub3 = ['Parks & Recreation Planner', 'Campus & Institutional Planner',
+                           'Working with NPS, NRCS/USDA, State DOTs, and municipal agencies',
+                           'Shaping policy on green infrastructure and public space']
+            for i in range(14, min(18, len(paras))):
+                if i - 14 < len(career_sub3):
+                    replace_paragraph_full_text(paras[i], career_sub3[i - 14])
+            # Para 18 = blank spacer
+            if len(paras) > 18:
+                replace_paragraph_full_text(paras[18], '')
+            # Subsection 4: Consulting & Private (paras 19-22)
+            if len(paras) > 19:
+                replace_paragraph_full_text(paras[19], '\U0001f4bc Consulting & Private Development')
+            career_sub4 = ['Project Manager', 'Land Development Consultant',
+                           'Working with firms like AECOM, SWA, Sasaki, HOK, Design Workshop']
+            for i in range(20, min(23, len(paras))):
+                if i - 20 < len(career_sub4):
+                    replace_paragraph_full_text(paras[i], career_sub4[i - 20])
+            # Para 23 = blank spacer
+            if len(paras) > 23:
+                replace_paragraph_full_text(paras[23], '')
+            # Subsection 5: Licensure (paras 24-26)
+            if len(paras) > 24:
+                replace_paragraph_full_text(paras[24], '\U0001f4dd Licensure & Advanced Practice')
+            career_sub5 = ['Pursue LARE licensure after 4 years of professional experience',
+                           'Advance to principal, partner, or department head roles']
+            for i in range(25, min(27, len(paras))):
+                if i - 25 < len(career_sub5):
+                    replace_paragraph_full_text(paras[i], career_sub5[i - 25])
 
     # Phase E: Quick Facts — already handled via global_replacements above
 
@@ -416,8 +513,10 @@ def generate_map(slug):
                     replace_paragraph_full_text(p, org_text)
 
     # Phase G: Replace Page 2 checklist milestones
-    # The checklist is a Word table on Page 2. Find it and replace cell contents.
-    # Table cells contain <w:tc> elements with <w:p> paragraphs inside.
+    # The checklist is a real Word table with 5 rows × 5 columns.
+    # Row 0 = year headers, Rows 1-4 = category rows
+    # Cell 0 = category label, Cells 1-4 = year milestone lists
+    # Each content cell has 10-11 paragraphs in the Management template.
     TC = f'{{{W}}}tc'
     TR = f'{{{W}}}tr'
     TBL = f'{{{W}}}tbl'
@@ -425,7 +524,6 @@ def generate_map(slug):
     tables = list(root.iter(TBL))
     cat_keys = ['Purpose', 'Communities', 'LocalGlobal', 'Identity']
     
-    # The checklist table should be the one with "DISCOVER" or "EXPLORE" text
     for tbl in tables:
         tbl_text = ''
         for t in tbl.iter(f'{{{W}}}t'):
@@ -433,34 +531,51 @@ def generate_map(slug):
                 tbl_text += t.text
         
         if 'DISCOVER' in tbl_text or 'EXPLORE' in tbl_text or 'FRESHMAN' in tbl_text:
-            rows = list(tbl.iter(TR))
-            # Row 0 is header (Year 1-4), rows 1-4 are categories
+            # Use findall for direct children only (not recursive iter)
+            rows = tbl.findall(f'{{{W}}}tr')
+            print(f'   📋 Checklist table: {len(rows)} rows')
+            
             for cat_idx, cat_key in enumerate(cat_keys):
                 row_idx = cat_idx + 1  # skip header row
                 if row_idx >= len(rows):
                     break
                 row = rows[row_idx]
-                cells = list(row.iter(TC))
-                # Cell 0 is category label, cells 1-4 are year columns
+                cells = row.findall(f'{{{W}}}tc')
+                
                 for year_idx in range(4):
-                    cell_idx = year_idx + 1  # skip category label cell
+                    cell_idx = year_idx + 1
                     if cell_idx >= len(cells):
                         break
                     cell = cells[cell_idx]
                     key = (year_idx, cat_key)
                     items = exp_milestones.get(key, [])
                     
-                    # Get all paragraphs in this cell
-                    cell_paras = list(cell.iter(f'{{{W}}}p'))
-                    
-                    # Replace text in existing paragraphs
-                    for p_idx, p in enumerate(cell_paras):
-                        if p_idx < len(items):
-                            replace_paragraph_full_text(p, items[p_idx])
+                    # Truncate milestone labels to ~50 chars to prevent overflow
+                    short_items = []
+                    for item in items:
+                        if len(item) > 55:
+                            # Truncate at last space before 55 chars
+                            cut = item[:55].rfind(' ')
+                            if cut > 20:
+                                short_items.append(item[:cut])
+                            else:
+                                short_items.append(item[:55])
                         else:
-                            # Clear excess paragraphs
+                            short_items.append(item)
+                    
+                    # Get paragraphs in this cell (direct children only)
+                    cell_paras = cell.findall(f'{{{W}}}p')
+                    
+                    # Replace text — don't exceed the template's paragraph count
+                    max_items = min(len(short_items), len(cell_paras))
+                    for p_idx, p in enumerate(cell_paras):
+                        if p_idx < max_items:
+                            replace_paragraph_full_text(p, short_items[p_idx])
+                        else:
                             replace_paragraph_full_text(p, '')
-            break  # only process the first matching table
+            
+            print(f'   ✅ Checklist milestones populated')
+            break
 
     # ── Step 3: Serialize and write output ────────────────────────────
     modified_xml = etree.tostring(root, xml_declaration=True,
